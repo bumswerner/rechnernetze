@@ -1,0 +1,83 @@
+Aus Wireshark
+
+22.268609	AsustekC_59:e5:e3	Broadcast	ARP	60	Who has 134.96.209.193? Tell 134.96.209.212
+--------------------------------->
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_59:e5:e3 (00:26:18:59:e5:e3), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: AsustekC_59:e5:e3 (00:26:18:59:e5:e3)
+    Sender IP address: 134.96.209.212
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 134.96.209.193
+
+Hier ist zu erkennen das der Host 134.96.29.212 einen ARP-Request mittels Broadcast an alle 
+im LAN - befindlichen Hosts schickt auf Layer 2. um die MAC - Adresse des Gateways zu erfahren.
+
+
+
+1	0.000000	AsustekC_74:4e:8f	Broadcast	ARP	42	Who has 134.96.209.212? Tell 134.96.209.213
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: AsustekC_74:4e:8f (00:26:18:74:4e:8f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+    Sender IP address: 134.96.209.213
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 134.96.209.212
+
+2	0.000104	AsustekC_59:e5:e3	AsustekC_74:4e:8f	ARP	60	134.96.209.212 is at 00:26:18:59:e5:e3
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_59:e5:e3 (00:26:18:59:e5:e3), Dst: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: AsustekC_59:e5:e3 (00:26:18:59:e5:e3)
+    Sender IP address: 134.96.209.212
+    Target MAC address: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+    Target IP address: 134.96.209.213
+    
+    
+
+3	4.979335	AsustekC_59:e5:e3	AsustekC_74:4e:8f	ARP	60	Who has 134.96.209.213? Tell 134.96.209.212
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AsustekC_59:e5:e3 (00:26:18:59:e5:e3), Dst: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: AsustekC_59:e5:e3 (00:26:18:59:e5:e3)
+    Sender IP address: 134.96.209.212
+    Target MAC address: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+    Target IP address: 134.96.209.213
+
+4	4.979370	AsustekC_74:4e:8f	AsustekC_59:e5:e3	ARP	42	134.96.209.213 is at 00:26:18:74:4e:8f
+
+Frame 4: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: AsustekC_74:4e:8f (00:26:18:74:4e:8f), Dst: AsustekC_59:e5:e3 (00:26:18:59:e5:e3)
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: AsustekC_74:4e:8f (00:26:18:74:4e:8f)
+    Sender IP address: 134.96.209.213
+    Target MAC address: AsustekC_59:e5:e3 (00:26:18:59:e5:e3)
+    Target IP address: 134.96.209.212

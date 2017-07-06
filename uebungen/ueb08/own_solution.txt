@@ -1,0 +1,72 @@
+  1. Aufgabe - ARP-snooping (nutzen sie Redhat/CentOS oder XUbuntu)
+    -----------------------------------------------------------------
+       - snoopen Sie eine erfolgreiche IP-Adressaufloesung; beschreiben Sie den Vorgang
+         anhand der Protokolle und den Veraenderungen im ARP-Cache.
+         Lösung:   
+        #################> Kommandofolge : 
+        - arp -a    --> suche (Ziel)host der noch nicht in der ARP-Tabelle vorhanden ist
+        - starte zuerst ein Network-Sniffing-Tool z.B. :
+          --> tcpdump -i eth0 -e -vv -S -A arp
+          --> wireshark - Capture-Filter : arp
+        - dann kontaktiere den entfernten Rechner z.B. :
+          --> alle : ping -c 10 Zielhost
+        - stoppe das Network-Sniffing
+        - arp -a    --> suche Zielhost in der ARP-Tabelle
+        Sender in unserem Fall host 134.96.209.213 sendet einen ARP-Request alle Hosts in seinem Subnet (LAN) (Broadcast)
+        Wer hat host 134.96.209.212 und wie lautet seine MAC-Adresse?
+        Sage es der 134.96.209.213.
+        Der host 134.96.209.212 bemerkt, das er gemeint ist und sendet einen ARP-Reply und teilt dem Sender des ARP-Request
+        somit seine MAC-Adresse mit.
+        
+        Der IP und MAC - Adresse werden in den ARP - Cache übernommen.
+         
+    
+       - snoopen Sie die NICHT erfolgreiche IP-Addressaufloesung zum 
+         Rechner stl-rn-test.htwsaar.de : 134.96.216.238 
+         
+          ###> Kommandofolge : - arp -a    --> suche stl-rn-test.htwsaar.de in der ARP-Tabelle
+                            - starte zuerst ein Network-Sniffing-Tool z.B. :
+                                  --> tcpdump -i eth0 -e -vv -S -A arp
+                                  --> wireshark - Capture-Filter : arp
+                            - dann kontaktiere den entfernten Rechner z.B. :
+                                  --> alle : ping -c 1 stl-rn-test.htwsaar.de
+                            - stoppe das Network-Sniffing
+                            - arp -a    --> suche stl-rn-test.htwsaar.de in der ARP-Tabelle
+         
+    
+      * Wieso wird eine IP-Adressaufloesung ueberhaupt angestossen?,
+       ###> IP-Adressermittlung von stl-rn-test.htwsaar.de  
+
+                            nslookup stl-rn-test
+                            Server:         134.96.216.249
+                            Address:        134.96.216.249#53
+
+                            Non-authoritative answer:
+                            Name:   stl-rn-test.htwsaar.de
+                            Address: 134.96.216.66
+        Mittels der Operation :
+        134.96.216.66 && 255.255.255.0 == 134.96.216.196  && 255.255.255.0
+        erkennt die Netzwerk-SW, dass der Rechner stl-rn-test.htwsaar.de im gleichen IP-Netzwerk und 
+        damit im gleichen LAN wie der Testrechner (stl-v-196) liegt.
+        
+        Deshalb wird die Ethernet-Adresse des Rechners stl-rn-test.htwsaar.de benoetigt, also arp gestartet.
+
+    
+      * Wie oft und in welchen Zeitabstaenden probiert die ARP-Software
+        ihre Aufgabe zu erfuellen ?
+                
+        ###> Es werden 3 arp-Requests verschickt, jeweils im Abstand von einer Sekunde.
+    
+      * Auf welche Fehler oder Zustaende fuehren Sie das erhaltene Versuchsergebnis
+        zurueck ?
+        
+        
+        ###> Moegliche Fehlerursachen :     - der Rechner ist aus
+                                            - es handelt sich um eine "Tote" IP-Adresse, d.h.
+                                              sie ist fuer einen Rechner vorgesehen, der noch nicht
+                                              am Netz ist.
+             weniger wahrscheinlich :       - die Ethernet-Karte bzw. die arp-SW des Rechners sendet
+                                              keine Antworten
+                                            - der Switch-Port, an dem der Rechner angeschlossen ist
+                                              ist gesperrt.
+    

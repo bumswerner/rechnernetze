@@ -12,3 +12,8 @@ Alle Befehle anzeigen  => netsh ?
 
 Zurücksetzen des TCP/IP-Stacks => netsh interface ip reset c\:restlog.txt
 Verfügbare Schnittstellen anzeigen => netsh interface show interface
+
+
+tcpdump -i eth0 -l -e -vv -S -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  | tee -a CentOS_traceroute_www-stl
+
+tcpdump -i eth0 -l -e -vv -S -A '( icmp or ( udp and dst www.uni-kaiserslautern.de) )' | tee -a CentOS_traceroute_uni-kaiserslautern
