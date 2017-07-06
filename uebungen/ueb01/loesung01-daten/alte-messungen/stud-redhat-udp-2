@@ -1,0 +1,11 @@
+#
+#
+#
+# stud-redhat-udp-2
+#
+#
+
+redhat -> netio -u stl-v-88.htwsaar.de | tee stud-redhat-udp-2
+#########------------------------------------------------------
+
+

@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# win10-stud-tcp
+#
+#
+
+Win10Tools -> netio -t stl-v-111.htwsaar.de | tee win10-stud-tcp
+#############---------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  60.14 MByte/s Tx,  69.53 MByte/s Rx.
+Packet size  2k bytes:  69.32 MByte/s Tx,  72.53 MByte/s Rx.
+Packet size  4k bytes:  98.03 MByte/s Tx,  78.55 MByte/s Rx.
+Packet size  8k bytes:  95.88 MByte/s Tx,  81.47 MByte/s Rx.
+Packet size 16k bytes:  106.83 MByte/s Tx,  81.02 MByte/s Rx.
+Packet size 32k bytes:  109.35 MByte/s Tx,  82.70 MByte/s Rx.
+Done.

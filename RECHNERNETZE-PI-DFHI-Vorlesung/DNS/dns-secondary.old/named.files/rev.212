@@ -1,0 +1,72 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+212.96.134.in-addr.arpa	IN SOA	ns.rz.uni-saarland.de. net.rz.uni-saarland.de. (
+				2004061702 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+$ORIGIN 212.96.134.in-addr.arpa.
+1			PTR	rtg212-0.htw-saarland.de.
+129			PTR	rtg212-128.htw-saarland.de.
+130			PTR	aaa-01.htw-saarland.de.
+131			PTR	a1-p02.htw-saarland.de.
+132			PTR	a1-p03.htw-saarland.de.
+133			PTR	vd-busch.htw-saarland.de.
+134			PTR	a1-p05.htw-saarland.de.
+135			PTR	a1-p06.htw-saarland.de.
+136			PTR	ps-a4-stud-sek.htw-saarland.de.
+137			PTR	ps-vd.htw-saarland.de.
+138			PTR	a1-s03.htw-saarland.de.
+139			PTR	a1-s04.htw-saarland.de.
+140			PTR	a1-s05.htw-saarland.de.
+141			PTR	a2-goe.htw-saarland.de.
+142			PTR	a2-hank.htw-saarland.de.
+143			PTR	a2-kuem.htw-saarland.de.
+144			PTR	a2-kuhn.htw-saarland.de.
+145			PTR	a2-lembert.htw-saarland.de.
+146			PTR	a3-frey.htw-saarland.de.
+147			PTR	a3-kuhn.htw-saarland.de.
+148			PTR	a3-naetzer.htw-saarland.de.
+149			PTR	a3-quack.htw-saarland.de.
+150			PTR	a3-thiel.htw-saarland.de.
+151			PTR	dr-scanner.htw-saarland.de.
+152			PTR	goe-db-03.htw-saarland.de.
+153			PTR	aaa-05.htw-saarland.de.
+154			PTR	zdve-sth1.htw-saarland.de.
+155			PTR	zdve-lauer.htw-saarland.de.
+156			PTR	zv-azubi.htw-saarland.de.
+157			PTR	zdve-ps-scf62275.htw-saarland.de.
+158			PTR	prf-boeffel.htw-saarland.de.
+159			PTR	prf-klein.htw-saarland.de.
+160			PTR	goe-drm-01.htw-saarland.de.
+161			PTR	prf-koch.htw-saarland.de.
+162			PTR	goe-zv-02.htw-saarland.de.
+163			PTR	goe-zv-03.htw-saarland.de.
+164			PTR	goe-zv-04.htw-saarland.de.
+165			PTR	zv-hell.htw-saarland.de.
+166			PTR	stei-01.htw-saarland.de.
+167			PTR	vd-reg.htw-saarland.de.
+168			PTR	zv-presse2.htw-saarland.de.
+169			PTR	druckerei.htw-saarland.de.
+170			PTR	druckerei-p-ricoh.htw-saarland.de.
+171			PTR	whw-pc-pl.htw-saarland.de.
+172			PTR	a1-p01.htw-saarland.de.
+173			PTR	whw-pc-ko.htw-saarland.de.
+174			PTR	whw-pc-be.htw-saarland.de.
+175			PTR	goe-hm-01.htw-saarland.de.
+176			PTR	vd-02.htw-saarland.de.
+177			PTR	jacob-3.htw-saarland.de.
+178			PTR	aaa-02.htw-saarland.de.
+179			PTR	aaa-03.htw-saarland.de.
+180			PTR	aaa-04.htw-saarland.de.
+181			PTR	aaa-whw.htw-saarland.de.
+182			PTR	zv.htw-saarland.de.
+183			PTR	vd-fro.htw-saarland.de.
+184			PTR	aaa-gast.htw-saarland.de.
+185			PTR	goe-zv-hk.htw-saarland.de.
+186			PTR	a4-altmeyer.htw-saarland.de.

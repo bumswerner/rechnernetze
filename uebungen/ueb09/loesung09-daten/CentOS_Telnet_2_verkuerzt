@@ -1,0 +1,25 @@
+#
+#
+#
+#
+#  CentOS_Telnet_2_verkuerzt
+#
+#
+#
+#
+
+
+13:58:22.698851 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------1 Sekunden
+13:58:23.701017 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------2 Sekunden
+13:58:25.705072 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------4 Sekunden
+13:58:29.709033 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------8 Sekunden
+13:58:37.725091 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------16 Sekunden
+13:58:53.757074 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+------32 Sekunden
+13:59:25.853099 stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], 
+

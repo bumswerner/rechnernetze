@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# stud-xubuntu-udp
+#
+#
+
+XUbuntu -> netio -u stl-v-134.htwsaar.de | tee stud-xubuntu-udp
+##########-----------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  99.41 MByte/s (0%) Tx,  43.38 MByte/s (84%) Rx.
+Packet size  2k bytes:  84.03 MByte/s (0%) Tx,  35.41 MByte/s (89%) Rx.
+Packet size  4k bytes:  103.30 MByte/s (0%) Tx,  72.47 MByte/s (85%) Rx.
+Packet size  8k bytes:  102.39 MByte/s (0%) Tx,  39.53 MByte/s (93%) Rx.
+Packet size 16k bytes:  101.12 MByte/s (0%) Tx,  258.41 KByte/s (99%) Rx.
+Packet size 32k bytes:  102.29 MByte/s (0%) Tx,  159.44 KByte/s (99%) Rx.
+Done.

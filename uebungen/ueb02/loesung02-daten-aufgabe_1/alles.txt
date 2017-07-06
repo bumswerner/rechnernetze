@@ -1,0 +1,123 @@
+
+Eduroam
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -t stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  3140.16 KByte/s Tx,  2291.71 KByte/s Rx.
+Packet size  2k bytes:  3024.54 KByte/s Tx,  3398.84 KByte/s Rx.
+Packet size  4k bytes:  2977.52 KByte/s Tx,  3282.25 KByte/s Rx.
+Packet size  8k bytes:  3318.92 KByte/s Tx,  3339.88 KByte/s Rx.
+Packet size 16k bytes:  3671.08 KByte/s Tx,  3085.62 KByte/s Rx.
+Packet size 32k bytes:  3039.69 KByte/s Tx,  3206.19 KByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  4102.00 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size  2k bytes:  4173.97 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size  4k bytes:  4291.05 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size  8k bytes:  2528.10 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size 16k bytes:  3498.10 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size 32k bytes:  2877.18 KByte/s (23%) Tx,  0 Byte/s (100%) Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>
+
+htwintern
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -t stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  3029.04 KByte/s Tx,  3459.51 KByte/s Rx.
+Packet size  2k bytes:  3452.09 KByte/s Tx,  3010.14 KByte/s Rx.
+Packet size  4k bytes:  3378.78 KByte/s Tx,  2107.70 KByte/s Rx.
+Packet size  8k bytes:  2534.67 KByte/s Tx,  3016.65 KByte/s Rx.
+Packet size 16k bytes:  3324.68 KByte/s Tx,  3134.06 KByte/s Rx.
+Packet size 32k bytes:  3105.47 KByte/s Tx,  3396.90 KByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  4228.50 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size  2k bytes:  3786.24 KByte/s (5%) Tx,  0 Byte/s (100%) Rx.
+Packet size  4k bytes:  3976.04 KByte/s (1%) Tx,  0 Byte/s (100%) Rx.
+Packet size  8k bytes:  2081.31 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size 16k bytes:  3197.92 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Packet size 32k bytes:  3304.41 KByte/s (0%) Tx,  0 Byte/s (100%) Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>
+
+
+C:\wpy-netio\netio132\bin>
+C:\wpy-netio\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060
+
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -t stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060
+
+
+
+
+
+LAN
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -t stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  90.61 MByte/s Tx,  102.15 MByte/s Rx.
+Packet size  2k bytes:  90.68 MByte/s Tx,  100.27 MByte/s Rx.
+Packet size  4k bytes:  88.42 MByte/s Tx,  102.78 MByte/s Rx.
+Packet size  8k bytes:  93.91 MByte/s Tx,  103.59 MByte/s Rx.
+Packet size 16k bytes:  85.98 MByte/s Tx,  91.15 MByte/s Rx.
+Packet size 32k bytes:  92.05 MByte/s Tx,  103.74 MByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  85.18 MByte/s (5%) Tx,  85.75 MByte/s (0%) Rx.
+Packet size  2k bytes:  97.11 MByte/s (0%) Tx,  63.65 MByte/s (83%) Rx.
+Packet size  4k bytes:  100.99 MByte/s (0%) Tx,  87.97 MByte/s (85%) Rx.
+Packet size  8k bytes:  85.58 MByte/s (0%) Tx,  66.81 MByte/s (90%) Rx.
+Packet size 16k bytes:  94.68 MByte/s (0%) Tx,  8853.35 KByte/s (98%) Rx.
+Packet size 32k bytes:  97.15 MByte/s (2%) Tx,  23.89 KByte/s (99%) Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>
+
+C:\wpy-netio\netio132\bin>

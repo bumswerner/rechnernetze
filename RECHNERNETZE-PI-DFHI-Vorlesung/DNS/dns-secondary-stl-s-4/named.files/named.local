@@ -1,0 +1,17 @@
+;
+;       Address to hostname mappings for net 127.
+;
+;
+;wpy $TTL eingetragen am 26.08.2008
+;
+
+$TTL 3h
+
+@       IN      SOA     ns1.htw-saarland.de. wpy.htw-saarland.de. (
+                                91092300    ; Serial
+                                864000  ; Refresh
+                                1800    ; Retry
+                                9999999 ; Expire
+                                86400 ) ; Minimum
+        IN      NS      ns1.htw-saarland.de.
+1       IN      PTR     localhost.htw-saarland.de.

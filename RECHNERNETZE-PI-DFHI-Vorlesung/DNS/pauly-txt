@@ -1,0 +1,72 @@
+#
+#
+#
+# host - nslookup - dig -- Experimente
+#
+#
+#
+#
+
+
+pauly@stl-c-master:/export/home_pm/pauly>host www.zeit.de
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+www.zeit.de has address 217.13.68.145
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+pauly@stl-c-master:/export/home_pm/pauly>nslookup www.zeit.de
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+Server:         134.96.216.214
+Address:        134.96.216.214#53
+
+Non-authoritative answer:
+Name:   www.zeit.de
+Address: 217.13.68.145
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+pauly@stl-c-master:/export/home_pm/pauly>dig www.zeit.de
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+; <<>> DiG 9.2.4 <<>> www.zeit.de
+;; global options:  printcmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1105
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 3, ADDITIONAL: 3
+
+;; QUESTION SECTION:
+;www.zeit.de.                   IN      A
+
+;; ANSWER SECTION:
+www.zeit.de.            1791    IN      A       217.13.68.145
+
+;; AUTHORITY SECTION:
+zeit.de.                79202   IN      NS      ns1.zeit.de.
+zeit.de.                79202   IN      NS      ns2.zeit.de.
+zeit.de.                79202   IN      NS      ns7.zeit.de.
+
+;; ADDITIONAL SECTION:
+ns1.zeit.de.            165603  IN      A       194.77.156.199
+ns2.zeit.de.            165602  IN      A       194.77.156.198
+ns7.zeit.de.            165602  IN      A       217.13.68.132
+
+;; Query time: 9 msec
+;; SERVER: 134.96.216.214#53(134.96.216.214)
+;; WHEN: Mon Jan 29 14:42:46 2007
+;; MSG SIZE  rcvd: 147
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+pauly@stl-c-master:/export/home_pm/pauly>
+

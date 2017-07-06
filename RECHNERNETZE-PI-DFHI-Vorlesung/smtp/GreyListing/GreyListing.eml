@@ -1,0 +1,901 @@
+X-Account-Key: account1
+X-UIDL: k#?"!Fk_!!>4W!!+/D"!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 10000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <michael.trittelvitz@htw-saarland.de>
+Received: from zdve-mailx.htw-saarland.de (mail.htw-saarland.de [134.96.208.108])
+	by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) with ESMTP id p0IF5xUQ028380
+	for <wolfgang.pauly@stl-s-mail.htw-saarland.de>; Tue, 18 Jan 2011 16:05:59 +0100 (CET)
+Received: from stl-s-mail.htw-saarland.de (stl-s-mail.htw-saarland.de [134.96.216.229])
+	by zdve-mailx.htw-saarland.de (8.13.8/8.13.8) with ESMTP id p0IF5ngr003163;
+	Tue, 18 Jan 2011 16:05:49 +0100 (CET)
+Received: from stlc24 (stl-r-8207-3.htw-saarland.de [134.96.216.243])
+	by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) with ESMTP id p0IF5noA028377;
+	Tue, 18 Jan 2011 16:05:49 +0100 (CET)
+Reply-To: <michael.trittelvitz@htw-saarland.de>
+From: "Michael Trittelvitz" <michael.trittelvitz@htw-saarland.de>
+To: "Wolfgang Pauly" <wolfgang.pauly@htw-saarland.de>
+Cc: <Margit.Meyer@htw-saarland.de>
+Subject: Maillaufzeit                                FW: VDI Installation HTW
+Date: Tue, 18 Jan 2011 16:05:51 +0100
+Organization: HTW des Saarlandes
+Message-ID: <001301cbb721$352e1f50$9f8a5df0$@htw-saarland.de>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0017_01CBB729.96FC2440"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Acu3IIPk+Y1mHQ0GRhuIiSeFK9ILNA==
+Content-Language: de
+X-Spam-Checker-Version: SpamAssassin 3.3.0 (2010-01-18) on zdve-mailx
+X-Spam-Level: 
+X-Spam-Status: No, score=0.1 required=6.0 tests=AWL,BAYES_00,
+	FSL_HELO_NON_FQDN_1,HELO_NO_DOMAIN,HTML_MESSAGE,SARE_GIF_ATTACH,
+	SHORT_HELO_AND_INLINE_IMAGE,T_DOS_OUTLOOK_TO_MX_IMAGE autolearn=no
+	version=3.3.0
+X-Virus-Scanned: clamav-milter 0.96.3 at zdve-mailx
+X-Virus-Status: Clean
+X-UIDL: k#?"!Fk_!!>4W!!+/D"!
+Status: U
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0017_01CBB729.96FC2440
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_0018_01CBB729.96FC2440"
+
+
+------=_NextPart_001_0018_01CBB729.96FC2440
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_0019_01CBB729.96FC2440"
+
+
+------=_NextPart_002_0019_01CBB729.96FC2440
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hallo Wolfgang, hallo Margit
+
+=20
+
+Betrifft Maillaufzeit:
+
+=20
+
+Gesendet am 20.12. um 15:40, Ankunft auf meinem PC war 16:50, der =
+=C3=9Cbelt=C3=A4ter war X-Greylist, wie man sehen kann. Ich sitze gerade =
+seit bald einer Stunde vor meinem PC, scharre mit den F=C3=BC=C3=9Fen =
+und warte auf eine wichtige Email wieder von Oracle. Kann man da bei der =
+Uni was unternehmen?
+
+=20
+
+Return-Path: <klaus.ruehl@oracle.com>
+
+Received: from zdve-mailx.htw-saarland.de (mail.htw-saarland.de =
+[134.96.208.108])
+
+                by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) with =
+ESMTP id oBKFoKgW010533
+
+                for <michael.trittelvitz@stl-s-mail.htw-saarland.de>; =
+Mon, 20 Dec 2010 16:50:20 +0100 (CET)
+
+Received: from iapetos.rz.uni-saarland.de (m-relay.rz.uni-saarland.de =
+[134.96.7.3])
+
+                by zdve-mailx.htw-saarland.de (8.13.8/8.13.8) with ESMTP =
+id oBKFo9GC009243
+
+                for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec =
+2010 16:50:09 +0100 (CET)
+
+Received: from rcsinet14.oracle.com (rcsinet14.oracle.com =
+[148.87.113.126])
+
+                by iapetos.rz.uni-saarland.de (8.14.1/8.14.0) with ESMTP =
+id oBKFo0LV011456
+
+                for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec =
+2010 16:50:04 +0100
+
+Received: from rcsinet10.oracle.com (rcsinet10.oracle.com =
+[148.87.113.121])
+
+                by rcsinet14.oracle.com =
+(Sentrion-MP-4.0.0/Sentrion-MP-4.0.0) with ESMTP id oBKEeuAK003678
+
+                (version=3DTLSv1/SSLv3 cipher=3DDHE-RSA-AES256-SHA =
+bits=3D256 verify=3DOK)
+
+                for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec =
+2010 14:40:57 GMT
+
+Received: from rcsinet13.oracle.com (rcsinet13.oracle.com =
+[148.87.113.125])
+
+                by rcsinet10.oracle.com (Switch-3.4.2/Switch-3.4.2) with =
+ESMTP id oBKEebhH008446
+
+                (version=3DTLSv1/SSLv3 cipher=3DDHE-RSA-AES256-SHA =
+bits=3D256 verify=3DOK)
+
+                for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec =
+2010 14:40:39 GMT
+
+Received: from acsmt353.oracle.com (acsmt353.oracle.com =
+[141.146.40.153])
+
+                by rcsinet13.oracle.com (Switch-3.4.2/Switch-3.4.1) with =
+ESMTP id oBKEeRfU021543
+
+                for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec =
+2010 14:40:35 GMT
+
+Received: from abhmt021.oracle.com by acsmt353.oracle.com
+
+                with ESMTP id 889838271292856002; Mon, 20 Dec 2010 =
+06:40:02 -0800
+
+Received: from [10.16.46.243] (/10.16.46.243)
+
+                by default (Oracle Beehive Gateway v4.0)
+
+                with ESMTP ; Mon, 20 Dec 2010 06:40:01 -0800
+
+Message-ID: <4D0F6AC0.9040803@oracle.com>
+
+Date: Mon, 20 Dec 2010 15:40:00 +0100
+
+From: Klaus Ruehl <klaus.ruehl@oracle.com>
+
+User-Agent: Thunderbird 2.0.0.23 (X11/20090926)
+
+MIME-Version: 1.0
+
+To: michael.trittelvitz@htw-saarland.de
+
+CC: Mathias Koehnke - Oracle <mathias.koehnke@oracle.com>
+
+Subject: VDI Installation HTW
+
+References: <00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de>
+
+In-Reply-To: <00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de>
+
+Content-Type: multipart/alternative;
+
+boundary=3D"------------040301060107040802030307"
+
+X-Greylist: Delayed for 01:09:03 by milter-greylist-3.0 =
+(iapetos.rz.uni-saarland.de [134.96.7.3]); Mon, 20 Dec 2010 16:50:04 =
++0100 (CET)
+
+X-AntiVirus: checked by AntiVir MailGate (version: 2.1.2-14; AVE: =
+7.9.4.128; VDF: 7.11.0.88; host: AntiVir4)
+
+X-Spam-Checker-Version: SpamAssassin 3.3.0 (2010-01-18) on zdve-mailx
+
+X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) on
+
+                janus.rz.uni-saarland.de
+
+X-Spam-Level:=20
+
+X-Spam-Level:=20
+
+X-Spam-Status: No, score=3D-4.2 required=3D6.0 =
+tests=3DBAYES_00,HTML_MESSAGE,
+
+                RCVD_IN_DNSWL_MED autolearn=3Dham version=3D3.3.0
+
+X-Spam-Status: No, score=3D-106.6 required=3D5.0 =
+tests=3DBAYES_00,HTML_MESSAGE,
+
+                RCVD_IN_DNSWL_MED,USER_IN_ALL_SPAM_TO autolearn=3Dham =
+version=3D3.2.5
+
+X-Virus-Scanned: clamav-milter 0.96.3 at zdve-mailx
+
+X-Virus-Status: Clean
+
+X-UIDL: 9=3DT!!89N"!)(G"!f#n!!
+
+X-AntiVirus: checked (incoming) by AntiVir MailGuard (Version: =
+10.0.1.38; AVE: 8.2.4.126; VDF: 7.11.0.88)
+
+=20
+
+Gru=C3=9F
+
+=20
+
+Michael
+
+=20
+
+=20
+
+From: Klaus Ruehl [mailto:klaus.ruehl@oracle.com]=20
+Sent: Monday, December 20, 2010 3:40 PM
+To: michael.trittelvitz@htw-saarland.de
+Cc: Mathias Koehnke - Oracle
+Subject: VDI Installation HTW
+
+=20
+
+Sehr geehrter Herr Trittelvitz,
+
+wie bereits telefonisch besprochen, m=C3=B6chte ich Sie bitten, den VDI =
+Service auf dem VDI Host zu restarten, auf dem auch die =
+Administrations-Tools benutzt werden (soweit ich verstanden habe, =
+w=C3=A4re das vdi1).
+
+Dazu als root (superuser) auf dem VDI Host per ssh einloggen, und dann =
+das folgende Kommando triggern:
+
+# cacaoadm  stop  --force
+
+Dies beendet den Common Agent Container und damit auch den VDI Service. =
+Zur Sicherheit kann der Status =C3=BCber das folgende Kommando =
+abgepr=C3=BCft werden:
+
+# cacaoadm status
+
+Dies sollte "default instance is not running" ausgeben.
+
+Es w=C3=A4re gut nun die cacao logs zu entfernen bzw. zu verschieben =
+(zumindest cacao.0 unter /var/cacao/instances/default/logs), z.B.=20
+# rm  /var/cacao/instances/default/logs/cacao.0
+
+Dadurch wird erzwungen, dass ein neues Log File angelegt wird, sobald =
+der Service wieder started.
+
+Anschliessend den Service wieder anstarten mittels:
+
+# cacaoadm start
+
+Bitte den Status nach dem Starten checken:
+
+# cacaoadm status
+
+Sollte nun eine Uptime ausgeben.
+
+Bitte jetzt eine Minute warten und mit den Admin Tools den Zustand des =
+Storages checken. Wird der Storage immer noch als unresponsive =
+gef=C3=BChrt? Bitte senden Sie mir dann das neue cacao.0 Logfile zu.=20
+
+Mit freundlichen Gruss
+Klaus Ruehl
+
+--=20
+
+ <http://www.oracle.com/>=20
+Klaus Ruehl | Technical Lead VDI
+Phone: +49 40 23646969 | Mobile: +49 1577 5376397
+Oracle Sun Ray/VDI=20
+
+ORACLE Deutschland B.V. & Co. KG | Nagelsweg 55 | 20097 Hamburg=20
+
+ORACLE Deutschland B.V. & Co. KG
+Hauptverwaltung: Riesstr. 25, D-80992 M=C3=BCnchen
+Registergericht: Amtsgericht M=C3=BCnchen, HRA 95603
+
+Komplement=C3=A4rin: ORACLE Deutschland Verwaltung B.V.
+Rijnzathe 6, 3454PV De Meern, Niederlande
+Handelsregister der Handelskammer Midden-Niederlande, Nr. 30143697
+Gesch=C3=A4ftsf=C3=BChrer: J=C3=BCrgen Kunz, Marcel van de Molen, =
+Alexander van der Ven=20
+
+
+ <http://www.oracle.com/commitment>=20
+
+Oracle is committed to developing practices and products that help =
+protect the environment=20
+
+=20
+
+
+------=_NextPart_002_0019_01CBB729.96FC2440
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 14 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.E-MailFormatvorlage18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body bgcolor=3Dwhite lang=3DDE =
+link=3Dblue vlink=3Dpurple><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Hallo Wolfgang, hallo Margit<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Betrifft Maillaufzeit:<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Gesendet am 20.12. um 15:40, Ankunft auf meinem PC war 16:50, der =
+=C3=9Cbelt=C3=A4ter war X-Greylist, wie man sehen kann. Ich sitze gerade =
+seit bald einer Stunde vor meinem PC, scharre mit den F=C3=BC=C3=9Fen =
+und warte auf eine wichtige Email wieder von Oracle. Kann man da bei der =
+Uni was unternehmen?<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Return-Path: &lt;klaus.ruehl@oracle.com&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received</span><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>: from zdve-mailx.htw-saarland.de (mail.htw-saarland.de =
+[134.96.208.108])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) =
+with ESMTP id oBKFoKgW010533<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for =
+&lt;michael.trittelvitz@stl-s-mail.htw-saarland.de&gt;; Mon, 20 Dec 2010 =
+16:50:20 +0100 (CET)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from iapetos.rz.uni-saarland.de (m-relay.rz.uni-saarland.de =
+[134.96.7.3])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by zdve-mailx.htw-saarland.de (8.13.8/8.13.8) with =
+ESMTP id oBKFo9GC009243<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for &lt;michael.trittelvitz@htw-saarland.de&gt;; Mon, =
+20 Dec 2010 16:50:09 +0100 (CET)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from rcsinet14.oracle.com (rcsinet14.oracle.com =
+[148.87.113.126])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by iapetos.rz.uni-saarland.de (8.14.1/8.14.0) with =
+ESMTP id oBKFo0LV011456<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for &lt;michael.trittelvitz@htw-saarland.de&gt;; Mon, =
+20 Dec 2010 16:50:04 +0100<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from rcsinet10.oracle.com (rcsinet10.oracle.com =
+[148.87.113.121])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by rcsinet14.oracle.com =
+(Sentrion-MP-4.0.0/Sentrion-MP-4.0.0) with ESMTP id =
+oBKEeuAK003678<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 (version=3DTLSv1/SSLv3 cipher=3DDHE-RSA-AES256-SHA =
+bits=3D256 verify=3DOK)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for &lt;michael.trittelvitz@htw-saarland.de&gt;; Mon, =
+20 Dec 2010 14:40:57 GMT<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from rcsinet13.oracle.com (rcsinet13.oracle.com =
+[148.87.113.125])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by rcsinet10.oracle.com (Switch-3.4.2/Switch-3.4.2) =
+with ESMTP id oBKEebhH008446<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 (version=3DTLSv1/SSLv3 cipher=3DDHE-RSA-AES256-SHA =
+bits=3D256 verify=3DOK)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for &lt;michael.trittelvitz@htw-saarland.de&gt;; Mon, =
+20 Dec 2010 14:40:39 GMT<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from acsmt353.oracle.com (acsmt353.oracle.com =
+[141.146.40.153])<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 by rcsinet13.oracle.com (Switch-3.4.2/Switch-3.4.1) =
+with ESMTP id oBKEeRfU021543<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 for &lt;michael.trittelvitz@htw-saarland.de&gt;; Mon, =
+20 Dec 2010 14:40:35 GMT<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from abhmt021.oracle.com by =
+acsmt353.oracle.com<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 with ESMTP id 889838271292856002; Mon, 20 Dec 2010 =
+06:40:02 -0800<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Received: from [10.16.46.243] (/10.16.46.243)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 </span><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>by default (Oracle Beehive Gateway v4.0)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 with ESMTP ; Mon, 20 Dec 2010 06:40:01 =
+-0800<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Message-ID: =
+&lt;4D0F6AC0.9040803@oracle.com&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Date: Mon, 20 Dec 2010 15:40:00 +0100<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>From: Klaus Ruehl =
+&lt;klaus.ruehl@oracle.com&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>User-Agent: Thunderbird 2.0.0.23 =
+(X11/20090926)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>MIME-Version: 1.0<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>To: michael.trittelvitz@htw-saarland.de<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>CC: Mathias Koehnke - Oracle =
+&lt;mathias.koehnke@oracle.com&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Subject: VDI Installation HTW<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>References: =
+&lt;00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de&gt;<o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>In-Reply-To: =
+&lt;00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de&gt;<o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Content-Type: multipart/alternative;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'> =
+boundary=3D&quot;------------040301060107040802030307&quot;<o:p></o:p></s=
+pan></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D;background:yellow;mso-highlight:yellow'>X-Greylist: Delayed for =
+01:09:03 by milter-greylist-3.0 (iapetos.rz.uni-saarland.de =
+[134.96.7.3]); Mon, 20 Dec 2010 16:50:04 +0100 (CET)</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-AntiVirus: checked by AntiVir MailGate (version: 2.1.2-14; AVE: =
+7.9.4.128; VDF: 7.11.0.88; host: AntiVir4)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Checker-Version: SpamAssassin 3.3.0 (2010-01-18) on =
+zdve-mailx<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) =
+on<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 janus.rz.uni-saarland.de<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Level: <o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Level: <o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Status: No, score=3D-4.2 required=3D6.0 =
+tests=3DBAYES_00,HTML_MESSAGE,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 RCVD_IN_DNSWL_MED autolearn=3Dham =
+version=3D3.3.0<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Spam-Status: No, score=3D-106.6 required=3D5.0 =
+tests=3DBAYES_00,HTML_MESSAGE,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 RCVD_IN_DNSWL_MED,USER_IN_ALL_SPAM_TO autolearn=3Dham =
+version=3D3.2.5<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Virus-Scanned: clamav-milter 0.96.3 at =
+zdve-mailx<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-Virus-Status: Clean<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-UIDL: 9=3DT!!89N&quot;!)(G&quot;!f#n!!<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>X-AntiVirus: checked (incoming) by AntiVir MailGuard (Version: =
+10.0.1.38; AVE: 8.2.4.126; VDF: 7.11.0.88)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Gru=C3=9F<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Michael<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:windowt=
+ext'>From:</span></b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:windowt=
+ext'> Klaus Ruehl [mailto:klaus.ruehl@oracle.com] <br><b>Sent:</b> =
+Monday, December 20, 2010 3:40 PM<br><b>To:</b> =
+michael.trittelvitz@htw-saarland.de<br><b>Cc:</b> Mathias Koehnke - =
+Oracle<br><b>Subject:</b> VDI Installation =
+HTW<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'>Sehr geehrter Herr =
+Trittelvitz,<br><br>wie bereits telefonisch besprochen, m=C3=B6chte ich =
+Sie bitten, den VDI Service auf dem VDI Host zu restarten, auf dem auch =
+die Administrations-Tools benutzt werden (soweit ich verstanden habe, =
+w=C3=A4re das vdi1).<br><br>Dazu als root (superuser) auf dem VDI Host =
+per ssh einloggen, und dann das folgende Kommando triggern:<br><br># =
+cacaoadm&nbsp; stop&nbsp; --force<br><br>Dies beendet den Common Agent =
+Container und damit auch den VDI Service. Zur Sicherheit kann der Status =
+=C3=BCber das folgende Kommando abgepr=C3=BCft werden:<br><br># cacaoadm =
+status<br><br>Dies sollte &quot;default instance is not running&quot; =
+ausgeben.<br><br>Es w=C3=A4re gut nun die cacao logs zu entfernen bzw. =
+zu verschieben (zumindest cacao.0 unter =
+/var/cacao/instances/default/logs), z.B. <br># rm&nbsp; =
+/var/cacao/instances/default/logs/cacao.0<br><br>Dadurch wird erzwungen, =
+dass ein neues Log File angelegt wird, sobald der Service wieder =
+started.<br><br>Anschliessend den Service wieder anstarten =
+mittels:<br><br># cacaoadm start<br><br>Bitte den Status nach dem =
+Starten checken:<br><br># cacaoadm status<br><br>Sollte nun eine Uptime =
+ausgeben.<br><br>Bitte jetzt eine Minute warten und mit den Admin Tools =
+den Zustand des Storages checken. Wird der Storage immer noch als =
+unresponsive gef=C3=BChrt? Bitte senden Sie mir dann das neue cacao.0 =
+Logfile zu. <br><br>Mit freundlichen Gruss<br>Klaus =
+Ruehl<o:p></o:p></p><div><p class=3DMsoNormal>-- <o:p></o:p></p><p><a =
+href=3D"http://www.oracle.com/" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D114 height=3D26 =
+id=3D"_x0000_i1025" src=3D"cid:part1.02030102.06000204@oracle.com" =
+name=3DOracle></span></a><br><span =
+style=3D'font-size:8.0pt;font-family:"Verdana","sans-serif";color:#666666=
+'>Klaus Ruehl | Technical Lead VDI<br>Phone: +49 40 23646969 | Mobile: =
++49 1577 5376397<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Verdana","sans-serif";color:red'>Or=
+acle </span><span =
+style=3D'font-size:8.0pt;font-family:"Verdana","sans-serif";color:#666666=
+'>Sun Ray/VDI </span><o:p></o:p></p><p><span =
+style=3D'font-size:8.0pt;font-family:"Verdana","sans-serif";color:#666666=
+'>ORACLE Deutschland B.V. &amp; Co. KG | Nagelsweg 55 | 20097 =
+Hamburg</span><span style=3D'font-size:8.0pt;color:#666666'> =
+</span><o:p></o:p></p><p><span =
+style=3D'font-size:8.0pt;font-family:"Verdana","sans-serif";color:#666666=
+'>ORACLE Deutschland B.V. &amp; Co. KG<br>Hauptverwaltung: Riesstr. 25, =
+D-80992 M=C3=BCnchen<br>Registergericht: Amtsgericht M=C3=BCnchen, HRA =
+95603<br><br>Komplement=C3=A4rin: ORACLE Deutschland Verwaltung =
+B.V.<br>Rijnzathe 6, 3454PV De Meern, Niederlande<br>Handelsregister der =
+Handelskammer Midden-Niederlande, Nr. =
+30143697<br>Gesch=C3=A4ftsf=C3=BChrer: J=C3=BCrgen Kunz, Marcel van de =
+Molen, Alexander van der Ven</span><span =
+style=3D'font-size:8.0pt;color:#666666'> </span><o:p></o:p></p><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D"100%" style=3D'width:100.0%'><tr><td width=3D44 valign=3Dtop =
+style=3D'width:33.0pt;padding:0cm 0cm 0cm 0cm'><p><a =
+href=3D"http://www.oracle.com/commitment" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D44 height=3D28 =
+id=3D"_x0000_i1026" src=3D"cid:part2.08010202.06020803@oracle.com" =
+name=3DCommitment></span></a><o:p></o:p></p></td><td width=3D"100%" =
+style=3D'width:100.0%;padding:0cm 0cm 0cm 0cm'><p><span =
+style=3D'font-size:6.0pt;font-family:"Verdana","sans-serif";color:#4B7D42=
+'>Oracle is committed to developing practices and products that help =
+protect the environment</span><span =
+style=3D'font-family:"Verdana","sans-serif";color:#4B7D42'> =
+</span><o:p></o:p></p></td></tr></table><p =
+style=3D'margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p></div></div></body></=
+html>
+------=_NextPart_002_0019_01CBB729.96FC2440--
+
+------=_NextPart_001_0018_01CBB729.96FC2440
+Content-Type: image/gif;
+	name="Oracle.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.02030102.06000204@oracle.com>
+
+R0lGODlhcgAaAMQAAP8QEP/w8P/Q0P/g4P8wMP9gYP8gIP+goP9QUP+QkP+wsP9wcP+AgP9AQP/A
+wP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAByABoAAAX/ICSOZGmeaKqubOu+cCzPdC0GCqPvvBKUDp5wp1gFdIPVIDfcOQa6A8yR
+aO4gweQoUHh4v2Bw4SdihM9egyBF8ALIpkEXDR44vA2XwkD/IgYGAAZbbX1nBGRmhl8AWiUJYicC
+AIsPDFh4LXOGjQ4NAAhrEIUPBQcOqKmoB5sEZV4JqqoHhQVxlGAOJQG4AAunsqg/dw95KwdfBgzB
+qKIEBMaQDwCiKpOwEIq6KANuJg14igZwEHPULMTGKbxetjF8D1ItxK7aKl8lCl8DAfALW1+2rUi3
+QtqgGN2mwYCXzYvAON624LoEQZ9DEfRcEFSBIE2DjyBDfnyIqRgMcA8a/z5AZQWXOxEdHxwUgfIg
+sX/zMqlAWclVCQFefLpAqdJBAFJn3owgtpJEQkslEWjUmYLnomokcDlS4s0eFzQNqvXDEyzmAwFP
+yaXYmGJBuxlzELWIacueiE0AFGyF4HbaNTquUEpFRxUFUC9YXQzARYAkEJSNipKQ9kDu0i9SKKNZ
+9iXswMIoYgI4oJYFskpgzkkmcdrviELqmPVt1HpRAaaLqCE1lBgjvEpqRtgl8Tevygd7TcCuiKvP
+m8OVEkAIYLYPThSsRIpEQJr1x94QBIT09FH6QJC6AiRAoB1kEb7tRb4MvyB+AwSlbejfz7+///8A
+BijggAQWaOCBCCao4A+CDDbo4IMQRijhhBQKGAIAOw==
+
+------=_NextPart_001_0018_01CBB729.96FC2440
+Content-Type: image/gif;
+	name="Commitment.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part2.08010202.06020803@oracle.com>
+
+R0lGODlhLAAcAMQAAP///0x9RHmec9Pf0aa+oleFULHGrmKNW+nv6I+uivT39N7n3W6VZ7zPuZu2
+lsjXxYSmfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAsABwAQAXhICCOZGmeaDoaReC+sKAMR7GopIA6boIvLgPAVSAgALxjSYdrOp/Q6NPg
+YqIEPkTBV2taTwgGbEw+PAZo3FfKbqMQQfeJ8DoY0Hg0wxhAKBgHCl5XLgMqDwFCAAIFPIYDgidr
+OUQGkSh0cQMJAQyXOXKhoqOkpaanI2aoIwMErq+uCY0BMlANKpxkYwQGBH82TpMicD0pAgQACToD
+AchqhAG3KQ4HIlQNnErG0IYqB9EAiEQvwEsozC43hy0CAeXMwsLDLS8MAvf497ruCZ+gOA0gfNt3
+AIK0J/JWKVzIsEQIADs=
+
+------=_NextPart_001_0018_01CBB729.96FC2440--
+
+------=_NextPart_000_0017_01CBB729.96FC2440
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+Received: from rcsinet13.oracle.com (rcsinet13.oracle.com [148.87.113.125])
+	by rcsinet10.oracle.com (Switch-3.4.2/Switch-3.4.2) with ESMTP id oBKEebhH008446
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec 2010 14:40:39 GMT
+Received: from rcsinet10.oracle.com (rcsinet10.oracle.com [148.87.113.121])
+	by rcsinet14.oracle.com (Sentrion-MP-4.0.0/Sentrion-MP-4.0.0) with ESMTP id oBKEeuAK003678
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec 2010 14:40:57 GMT
+Received: from acsmt353.oracle.com (acsmt353.oracle.com [141.146.40.153])
+	by rcsinet13.oracle.com (Switch-3.4.2/Switch-3.4.1) with ESMTP id oBKEeRfU021543
+	for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec 2010 14:40:35 GMT
+Received: from [10.16.46.243] (/10.16.46.243)
+	by default (Oracle Beehive Gateway v4.0)
+	with ESMTP ; Mon, 20 Dec 2010 06:40:01 -0800
+Received: from abhmt021.oracle.com by acsmt353.oracle.com
+	with ESMTP id 889838271292856002; Mon, 20 Dec 2010 06:40:02 -0800
+Received: from rcsinet14.oracle.com (rcsinet14.oracle.com [148.87.113.126])
+	by iapetos.rz.uni-saarland.de (8.14.1/8.14.0) with ESMTP id oBKFo0LV011456
+	for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec 2010 16:50:04 +0100
+Received: from zdve-mailx.htw-saarland.de (mail.htw-saarland.de [134.96.208.108])
+	by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) with ESMTP id oBKFoKgW010533
+	for <michael.trittelvitz@stl-s-mail.htw-saarland.de>; Mon, 20 Dec 2010 16:50:20 +0100 (CET)
+Received: from iapetos.rz.uni-saarland.de (m-relay.rz.uni-saarland.de [134.96.7.3])
+	by zdve-mailx.htw-saarland.de (8.13.8/8.13.8) with ESMTP id oBKFo9GC009243
+	for <michael.trittelvitz@htw-saarland.de>; Mon, 20 Dec 2010 16:50:09 +0100 (CET)
+Return-Path: <klaus.ruehl@oracle.com>
+From: "Klaus Ruehl" <klaus.ruehl@oracle.com>
+To: <michael.trittelvitz@htw-saarland.de>
+Cc: "Mathias Koehnke - Oracle" <mathias.koehnke@oracle.com>
+References: <00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de>
+In-Reply-To: <00a601cb9e23$ea7d3830$bf77a890$@htw-saarland.de>
+Subject: VDI Installation HTW
+Date: Mon, 20 Dec 2010 15:40:00 +0100
+Message-ID: <4D0F6AC0.9040803@oracle.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0014_01CBB729.96FC2440"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQFrCT6oM8aXEmNBsHPj9idOck2nOALD39Gb
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0014_01CBB729.96FC2440
+Content-Type: text/plain;
+	boundary="------------040301060107040802030307";
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrter Herr Trittelvitz,
+
+wie bereits telefonisch besprochen, m=C3=B6chte ich Sie bitten, den VDI =
+Service auf dem VDI Host zu restarten, auf dem auch die =
+Administrations-Tools benutzt werden (soweit ich verstanden habe, =
+w=C3=A4re das vdi1).
+
+Dazu als root (superuser) auf dem VDI Host per ssh einloggen, und dann =
+das folgende Kommando triggern:
+
+# cacaoadm  stop  --force
+
+Dies beendet den Common Agent Container und damit auch den VDI Service. =
+Zur Sicherheit kann der Status =C3=BCber das folgende Kommando =
+abgepr=C3=BCft werden:
+
+# cacaoadm status
+
+Dies sollte "default instance is not running" ausgeben.
+
+Es w=C3=A4re gut nun die cacao logs zu entfernen bzw. zu verschieben =
+(zumindest cacao.0 unter /var/cacao/instances/default/logs), z.B.=20
+# rm  /var/cacao/instances/default/logs/cacao.0
+
+Dadurch wird erzwungen, dass ein neues Log File angelegt wird, sobald =
+der Service wieder started.
+
+Anschliessend den Service wieder anstarten mittels:
+
+# cacaoadm start
+
+Bitte den Status nach dem Starten checken:
+
+# cacaoadm status
+
+Sollte nun eine Uptime ausgeben.
+
+Bitte jetzt eine Minute warten und mit den Admin Tools den Zustand des =
+Storages checken. Wird der Storage immer noch als unresponsive =
+gef=C3=BChrt? Bitte senden Sie mir dann das neue cacao.0 Logfile zu.=20
+
+Mit freundlichen Gruss
+Klaus Ruehl
+
+
+--=20
+
+
+ <http://www.oracle.com/>=20
+Klaus Ruehl | Technical Lead VDI
+Phone: +49 40 23646969 | Mobile: +49 1577 5376397
+Oracle Sun Ray/VDI=20
+
+ORACLE Deutschland B.V. & Co. KG | Nagelsweg 55 | 20097 Hamburg=20
+
+ORACLE Deutschland B.V. & Co. KG
+Hauptverwaltung: Riesstr. 25, D-80992 M=C3=BCnchen
+Registergericht: Amtsgericht M=C3=BCnchen, HRA 95603
+
+Komplement=C3=A4rin: ORACLE Deutschland Verwaltung B.V.
+Rijnzathe 6, 3454PV De Meern, Niederlande
+Handelsregister der Handelskammer Midden-Niederlande, Nr. 30143697
+Gesch=C3=A4ftsf=C3=BChrer: J=C3=BCrgen Kunz, Marcel van de Molen, =
+Alexander van der Ven=20
+
+
+ <http://www.oracle.com/commitment> =20
+
+Oracle is committed to developing practices and products that help =
+protect the environment=20
+
+
+
+
+
+
+------=_NextPart_000_0014_01CBB729.96FC2440
+Content-Type: image/gif;
+	name="Oracle.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.02030102.06000204@oracle.com>
+
+R0lGODlhcgAaAMQAAP8QEP/w8P/Q0P/g4P8wMP9gYP8gIP+goP9QUP+QkP+wsP9wcP+AgP9AQP/A
+wP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAByABoAAAX/ICSOZGmeaKqubOu+cCzPdC0GCqPvvBKUDp5wp1gFdIPVIDfcOQa6A8yR
+aO4gweQoUHh4v2Bw4SdihM9egyBF8ALIpkEXDR44vA2XwkD/IgYGAAZbbX1nBGRmhl8AWiUJYicC
+AIsPDFh4LXOGjQ4NAAhrEIUPBQcOqKmoB5sEZV4JqqoHhQVxlGAOJQG4AAunsqg/dw95KwdfBgzB
+qKIEBMaQDwCiKpOwEIq6KANuJg14igZwEHPULMTGKbxetjF8D1ItxK7aKl8lCl8DAfALW1+2rUi3
+QtqgGN2mwYCXzYvAON624LoEQZ9DEfRcEFSBIE2DjyBDfnyIqRgMcA8a/z5AZQWXOxEdHxwUgfIg
+sX/zMqlAWclVCQFefLpAqdJBAFJn3owgtpJEQkslEWjUmYLnomokcDlS4s0eFzQNqvXDEyzmAwFP
+yaXYmGJBuxlzELWIacueiE0AFGyF4HbaNTquUEpFRxUFUC9YXQzARYAkEJSNipKQ9kDu0i9SKKNZ
+9iXswMIoYgI4oJYFskpgzkkmcdrviELqmPVt1HpRAaaLqCE1lBgjvEpqRtgl8Tevygd7TcCuiKvP
+m8OVEkAIYLYPThSsRIpEQJr1x94QBIT09FH6QJC6AiRAoB1kEb7tRb4MvyB+AwSlbejfz7+///8A
+BijggAQWaOCBCCao4A+CDDbo4IMQRijhhBQKGAIAOw==
+
+------=_NextPart_000_0014_01CBB729.96FC2440
+Content-Type: image/gif;
+	name="Commitment.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part2.08010202.06020803@oracle.com>
+
+R0lGODlhLAAcAMQAAP///0x9RHmec9Pf0aa+oleFULHGrmKNW+nv6I+uivT39N7n3W6VZ7zPuZu2
+lsjXxYSmfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAsABwAQAXhICCOZGmeaDoaReC+sKAMR7GopIA6boIvLgPAVSAgALxjSYdrOp/Q6NPg
+YqIEPkTBV2taTwgGbEw+PAZo3FfKbqMQQfeJ8DoY0Hg0wxhAKBgHCl5XLgMqDwFCAAIFPIYDgidr
+OUQGkSh0cQMJAQyXOXKhoqOkpaanI2aoIwMErq+uCY0BMlANKpxkYwQGBH82TpMicD0pAgQACToD
+AchqhAG3KQ4HIlQNnErG0IYqB9EAiEQvwEsozC43hy0CAeXMwsLDLS8MAvf497ruCZ+gOA0gfNt3
+AIK0J/JWKVzIsEQIADs=
+
+------=_NextPart_000_0014_01CBB729.96FC2440--
+
+------=_NextPart_000_0017_01CBB729.96FC2440--
+
+
+

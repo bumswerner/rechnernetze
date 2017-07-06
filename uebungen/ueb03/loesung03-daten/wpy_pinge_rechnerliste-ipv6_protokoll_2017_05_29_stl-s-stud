@@ -1,0 +1,123 @@
+#
+#
+#
+#
+# wpy_pinge_rechnerliste-ipv6_protokoll_2017_05_29
+#
+#
+#
+
+
+vvvvvvvvvvvvv stl-v-192.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 stl-v-192.stl.htwsaar.de
+########------------------------------------------------------------
+PING stl-v-192.stl.htwsaar.de(stl-v-192.stl.htwsaar.de (2001:638:200:2:7374:76:aaaa:a03d)) 40 data bytes
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=1 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=2 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=3 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=4 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=5 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=6 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=7 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=8 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=9 Destination unreachable: Address unreachable
+From stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1) icmp_seq=10 Destination unreachable: Address unreachable
+
+--- stl-v-192.stl.htwsaar.de ping statistics ---
+10 packets transmitted, 0 received, +10 errors, 100% packet loss, time 9002ms
+
+
+
+vvvvvvvvvvvvv stl-s-stud.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 stl-s-stud.stl.htwsaar.de
+########------------------------------------------------------------
+PING stl-s-stud.stl.htwsaar.de(stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1)) 40 data bytes
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=1 ttl=64 time=0.055 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=2 ttl=64 time=0.063 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=3 ttl=64 time=0.073 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=4 ttl=64 time=0.105 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=5 ttl=64 time=0.072 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=6 ttl=64 time=0.077 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=7 ttl=64 time=0.056 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=8 ttl=64 time=0.062 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=9 ttl=64 time=0.107 ms
+48 bytes from stl-s-studwork.stl.htwsaar.de (2001:638:200:2:7374:73:7377:1): icmp_seq=10 ttl=64 time=0.063 ms
+
+--- stl-s-stud.stl.htwsaar.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9000ms
+rtt min/avg/max/mdev = 0.055/0.073/0.107/0.018 ms
+
+
+vvvvvvvvvvvvv www.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.htwsaar.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.uni-saarland.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.uni-saarland.de
+########------------------------------------------------------------
+PING www.uni-saarland.de(2001:638:200:8fff::8660:7b3 (2001:638:200:8fff::8660:7b3)) 40 data bytes
+
+--- www.uni-saarland.de ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 8999ms
+
+
+
+vvvvvvvvvvvvv www.uni-kaiserslautern.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.uni-kaiserslautern.de
+########------------------------------------------------------------
+PING www.uni-kaiserslautern.de(wta-web-v6.rhrk.uni-kl.de (2001:638:208:ef61:0:ff:fe00:2)) 40 data bytes
+
+--- www.uni-kaiserslautern.de ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9000ms
+
+
+
+vvvvvvvvvvvvv www.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.dfn.de
+########------------------------------------------------------------
+PING www.dfn.de(www.dfn.de (2001:638:d:c102::140)) 40 data bytes
+
+--- www.dfn.de ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9000ms
+
+
+
+vvvvvvvvvvvvv www.zeit.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.zeit.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv ws-ber1.win-ip.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 ws-ber1.win-ip.dfn.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.nasa.gov vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.nasa.gov
+########------------------------------------------------------------
+PING www.nasa.gov(https-2a02-3d0-623-a000--8008.fra.ipv6.llnw.net (2a02:3d0:623:a000::8008)) 40 data bytes
+
+--- www.nasa.gov ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 8999ms
+
+
+
+vvvvvvvvvvvvv www.nasa.com vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.nasa.com
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.washington.org vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.washington.org
+########------------------------------------------------------------
+PING www.washington.org(2400:cb00:2048:1::6819:b922 (2400:cb00:2048:1::6819:b922)) 40 data bytes
+
+--- www.washington.org ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 8999ms
+
+
+
+vvvvvvvvvvvvv www.sydney.com vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 www.sydney.com
+########------------------------------------------------------------

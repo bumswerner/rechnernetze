@@ -1,0 +1,13 @@
+#!/bin/ksh
+#
+#
+#
+# zeige_alle_dienst_di_inetd_startet
+#
+#
+#
+
+for I in `svcs | tr -s " " | cut -d" " -f3`
+  do
+     svcprop -p inetd_start/exec $I 2>/dev/null
+  done

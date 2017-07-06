@@ -1,0 +1,15 @@
+
+stl-c-26:pauly:/>traceroute www.zeit.de
+-----------------#########################
+traceroute to www.zeit.de (217.13.68.145), 30 hops max, 40 byte packets
+ 1  rtg216-0.htw-saarland.de (134.96.216.1)(N!)  4.080 ms * *
+
+
+stl-c-26:pauly:/>arp -a
+-----------------###########
+stl-s-nfs.htw-saarland.de (134.96.216.207) auf 00:E0:00:C5:5F:56 [ether] auf eth0
+stl-s-4.htw-saarland.de (134.96.216.214) auf 08:00:20:C4:92:2A [ether] auf eth0
+stl-s-nisp.htw-saarland.de (134.96.216.209) auf 00:E0:00:C5:5F:56 [ether] auf eth0
+rtg216-0.htw-saarland.de (134.96.216.1) auf 00:11:BC:4C:38:00 [ether] auf eth0
+
+stl-c-26:pauly:/>

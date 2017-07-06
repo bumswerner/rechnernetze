@@ -1,0 +1,11 @@
+if test $# -lt 2
+  then
+     echo " Gebe ART und HOST id mit ein !!!!"
+  else
+     ART=$1
+     HOST=$2
+     L_DISPLAY=`uname -n | cut -d"." -f1`
+
+     /usr/openwin/bin/xhost +stl-$ART-$HOST
+     rsh stl-$ART-$HOST /usr/openwin/bin/xterm -ls -fn LucidaSansTypewriter -title stl-$ART-$HOST -bg red1 -fg white  -display ${L_DISPLAY}:0.
+fi

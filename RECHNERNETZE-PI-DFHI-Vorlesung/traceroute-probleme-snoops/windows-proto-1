@@ -1,0 +1,24 @@
+
+Routenverfolgung zu www.zeit.de [217.13.68.145]  Åber maximal 30 Abschnitte:
+
+  1  3469 ms  3757 ms    <1 ms  rtg216-0.htw-saarland.de [134.96.216.1] 
+  2    <1 ms    <1 ms    <1 ms  134.96.217.98 
+  3    <1 ms    <1 ms    <1 ms  rz2htw.net.uni-saarland.de [134.96.2.41] 
+  4     1 ms     1 ms    <1 ms  xr-saa1-te1-3.x-win.dfn.de [188.1.234.37] 
+  5     5 ms     4 ms     4 ms  zr-fra1-ge0-2-0-1.x-win.dfn.de [188.1.146.13] 
+  6     5 ms     5 ms     5 ms  peergw-decix.fra.qsc.de [80.81.192.41] 
+  7     5 ms     5 ms     5 ms  core1.fra.qsc.de [213.148.139.245] 
+  8    13 ms    11 ms    11 ms  core4.fra.qsc.de [87.234.10.6] 
+  9    11 ms    11 ms    10 ms  core4.fra.qsc.de [87.234.11.209] 
+ 10    14 ms    14 ms    14 ms  gaertner.cgw.bswg.de.bcc-ip.net [212.68.66.242] 
+ 11    14 ms    14 ms    14 ms  www.zeit.de [217.13.68.145] 
+
+Ablaufverfolgung beendet.
+
+
+
+Schnittstelle: 134.96.216.127 --- 0x10003
+  Internetadresse       Physikal. Adresse     Typ
+  134.96.216.1          00-11-bc-4c-38-00     dynamisch 
+  134.96.216.208        00-0b-5d-ab-c3-20     dynamisch 
+  134.96.216.214        08-00-20-c4-92-2a     dynamisch 

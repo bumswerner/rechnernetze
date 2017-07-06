@@ -1,0 +1,264 @@
+Frame 1 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 14:04:39.329352000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 2 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 14:04:44.281832000
+    Time delta from previous packet: 4.952480000 seconds
+    Time relative to first packet: 4.952480000 seconds
+    Frame Number: 2
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 3 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 14:04:48.638277000
+    Time delta from previous packet: 4.356445000 seconds
+    Time relative to first packet: 9.308925000 seconds
+    Frame Number: 3
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 4 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 14:04:53.174818000
+    Time delta from previous packet: 4.536541000 seconds
+    Time relative to first packet: 13.845466000 seconds
+    Frame Number: 4
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 5 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 14:04:58.107123000
+    Time delta from previous packet: 4.932305000 seconds
+    Time relative to first packet: 18.777771000 seconds
+    Frame Number: 5
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1

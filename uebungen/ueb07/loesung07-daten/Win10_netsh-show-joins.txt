@@ -1,0 +1,70 @@
+#
+#
+#
+#  Win10_netsh-interface-ipv4-show-joins
+#
+#
+#
+
+
+C:\Users\pauly>netsh interface ipv4 show joins
+###############--------------------------------------------------
+
+Schnittstelle 3: Ethernet
+
+Bereich       Verweise  Letzte  Adresse
+----------  ----------  ----  ---------------------------------
+0                    0  Ja    224.0.0.1
+0                    1  Ja    224.0.0.251
+0                    1  Ja    224.0.0.252
+0                    5  Ja    239.255.255.250
+
+Schnittstelle 1: Loopback Pseudo-Interface 1
+
+Bereich       Verweise  Letzte  Adresse
+----------  ----------  ----  ---------------------------------
+0                    4  Ja    239.255.255.250
+
+
+C:\Users\pauly>ipconfig /all
+###############--------------------------------------------------
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : stl-v-win10
+   Primaeres DNS-Suffix  . . . . . . :
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : stl.htwsaar.de
+
+Ethernet-Adapter Ethernet:
+
+   Verbindungsspezifisches DNS-Suffix: htwsaar.de
+   Beschreibung. . . . . . . . . . . : Red Hat VirtIO Ethernet Adapter
+   Physische Adresse . . . . . . . . : 00-1A-4A-16-01-9F
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:638:200:2:7374:76:aaaa:a0b4(Bevorzugt)
+   Lease erhalten. . . . . . . . . . : Dienstag, 20. Dezember 2016 16:03:14
+   Lease laeuft ab . . . . . . . . . : Donnerstag, 22. Dezember 2016 07:22:27
+   Verbindungslokale IPv6-Adresse  . : fe80::809d:857a:c2e:7a3e%3(Bevorzugt)
+   IPv4-Adresse  . . . . . . . . . . : 134.96.216.88(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Dienstag, 20. Dezember 2016 16:03:13
+   Lease laeuft ab . . . . . . . . . : Donnerstag, 22. Dezember 2016 08:03:13
+   Standardgateway . . . . . . . . . : 2001:638:200:2::1
+                                       134.96.216.1
+   DHCP-Server . . . . . . . . . . . : 134.96.216.155
+   DHCPv6-IAID . . . . . . . . . . . : 50338378
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-1F-E3-C1-A3-00-1A-4A-16-01-9F
+   DNS-Server  . . . . . . . . . . . : 2001:638:200:2:7374:73:7762:3
+                                       134.96.216.249
+                                       134.96.216.253
+                                       134.96.216.214
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+   Suchliste fuer verbindungsspezifische DNS-Suffixe:
+                                       stl.htwsaar.de
+
+C:\Users\pauly>
+###############--------------------------------------------------

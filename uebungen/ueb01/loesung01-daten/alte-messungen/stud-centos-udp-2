@@ -1,0 +1,15 @@
+#
+#
+#
+# stud-centos-udp-2
+#
+#
+
+CentOS -> netio -u stl-v-117.htwsaar.de | tee stud-centos-udp-2
+#########------------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+

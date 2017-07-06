@@ -1,0 +1,55 @@
+#
+#
+#
+# stl-s-stud--Win10-VM
+#
+#
+#
+
+paulypi16@stl-s-stud :>  ./netio -t stl-v-111.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  103.76 MByte/s Tx,  60.40 MByte/s Rx.
+Packet size  2k bytes:  109.50 MByte/s Tx,  57.29 MByte/s Rx.
+Packet size  4k bytes:  106.38 MByte/s Tx,  93.04 MByte/s Rx.
+Packet size  8k bytes:  110.72 MByte/s Tx,  110.06 MByte/s Rx.
+Packet size 16k bytes:  110.44 MByte/s Tx,  111.84 MByte/s Rx.
+Packet size 32k bytes:  110.84 MByte/s Tx,  111.42 MByte/s Rx.
+Done.
+
+paulypi16@stl-s-stud :>  ./netio -u stl-v-111.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  59.93 MByte/s (27%) Tx,  47.45 MByte/s (0%) Rx.
+Packet size  2k bytes:  70.31 MByte/s (81%) Tx,  82.92 MByte/s (0%) Rx.
+Packet size  4k bytes:  49.59 MByte/s (92%) Tx,  91.75 MByte/s (28%) Rx.
+Packet size  8k bytes:  8145.33 KByte/s (98%) Tx,  80.53 MByte/s (0%) Rx.
+Packet size 16k bytes:  279.95 KByte/s (99%) Tx,  98.18 MByte/s (0%) Rx.
+Packet size 32k bytes:  5461 Byte/s (99%) Tx,  80.04 MByte/s (29%) Rx.
+Done.
+
+paulypi16@stl-s-stud :>  ./netio -u stl-v-111.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  65.60 MByte/s (22%) Tx,  42.63 MByte/s (0%) Rx.
+Packet size  2k bytes:  77.73 MByte/s (78%) Tx,  80.26 MByte/s (0%) Rx.
+Packet size  4k bytes:  46.07 MByte/s (93%) Tx,  97.35 MByte/s (16%) Rx.
+Packet size  8k bytes:  8352.00 KByte/s (98%) Tx,  80.43 MByte/s (1%) Rx.
+Packet size 16k bytes:  274.67 KByte/s (99%) Tx,  95.17 MByte/s (1%) Rx.
+Packet size 32k bytes:  0 Byte/s (100%) Tx,  51.91 MByte/s (58%) Rx.
+Done.
+
+paulypi16@stl-s-stud :> 
+######################-----------------------------------------------------------------

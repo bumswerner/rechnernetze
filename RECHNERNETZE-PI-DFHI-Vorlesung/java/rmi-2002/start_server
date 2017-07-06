@@ -1,0 +1,23 @@
+#!/bin/ksh
+#
+#  start_server
+#
+#
+#
+
+
+JRT="/usr/bin/java"
+SJRT_FLAGS=" -Djava.security.manager"
+POLICY_FLAG=" -Djava.security.policy=policy"
+
+echo "\n\n\n\t starten des Servers ...."
+${JRT} ${SJRT_FLAGS} ${POLICY_FLAG} WpyEchoServerImpl&
+
+echo "\n\n\t ==========================================="
+echo "\n\t der server laeuft  !!!"
+
+set `ps -ef | fgrep ${JRT} | grep -v fgrep | tr -s " "`
+
+echo "\n\t USER =  $1\n\t PID = $2\n\t SERVER = $8\n\n"
+
+sleep 4

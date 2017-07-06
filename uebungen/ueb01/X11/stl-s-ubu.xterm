@@ -1,0 +1,56 @@
+#!/bin/ksh
+#
+# stl-s-ubu.xterm
+#
+# oeffnet ein X-Terminal auf 
+#
+# Host : stl-s-ubu
+#
+# und zeigt es lokal an
+#
+#
+# Hilfe : xlsfonts
+#
+#
+
+
+ART=s
+NUMMER=ubu
+
+LC_ALL=de_DE.UTF-8
+export LC_ALL
+
+LANGUAGE=de_DE.UTF-8
+export LANGUAGE
+
+LANG=de_DE.UTF-8
+export LANG
+
+if [[ $( uname -r ) = "5.10" ]]    #Solaris 10
+  then
+     FONT="LucidaSansTypewriter"
+  else
+    if [[ $( uname -r ) = "5.11" ]]  #Solaris 11
+      then
+          FONT="lucidasanstypewriter-12"
+      else
+        if [[ $( uname -r | cut -d"-" -f1) = "3.13.0" ]]   #Xubuntu 14.04
+          then
+              FONT="-misc-fixed-medium-r-normal--20-140-100-100-c-100-iso8859-1"
+          else
+            if [[ $( uname -r | cut -d"-" -f1) = "3.10.0" ]]   #CentOS
+              then
+                  FONT="lucidasanstypewriter-12"
+            fi
+        fi
+    fi
+fi
+
+ssh -fX $(whoami)@stl-${ART}-${NUMMER}.htwsaar.de /usr/bin/xterm -ls \
+                   -title stl-${ART}-${NUMMER}.htwsaar.de \
+                   -fn ${FONT} -bg red1 -fg white \
+                   2>/dev/null
+
+echo -e " \n\n\tBitte kurz warten .... "
+echo -e " \twg. ssh Sicherheitsmechanismen ...."
+sleep 5

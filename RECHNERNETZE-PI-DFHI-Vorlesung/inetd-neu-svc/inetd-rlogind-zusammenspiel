@@ -1,0 +1,61 @@
+#
+#
+#
+#
+#
+# inetd-rlogind-zusammenspiel
+#
+#
+#
+#
+
+
+pauly@stl-c-30:/export/home_pm/pauly>svcs | fgrep rlogin
+                                     -------------#######--------------
+online         11:07:03 svc:/network/login:rlogin
+
+
+
+pauly@stl-c-30:/export/home_pm/pauly>svccfg -v -s login:rlogin
+                                     -------------------#######--------
+
+svc:/network/login:rlogin> listprop
+                   #######----------------------------------
+inetd                          framework
+inetd/name                     astring  login
+inetd/proto                    astring  tcp6
+general                        framework
+general/enabled                boolean  true
+inetd_start                    method
+inetd_start/exec               astring  /usr/sbin/in.rlogind <<<<-----------------
+inetd_start/group              astring  root
+inetd_start/limit_privileges   astring  :default
+inetd_start/privileges         astring  :default
+inetd_start/project            astring  :default
+inetd_start/resource_pool      astring  :default
+inetd_start/supp_groups        astring  :default
+inetd_start/timeout_seconds    count    0
+inetd_start/type               astring  method
+inetd_start/use_profile        boolean  false
+inetd_start/user               astring  root
+inetd_start/working_directory  astring  :default
+inetd_disable                  method
+inetd_disable/exec             astring  :kill
+inetd_disable/timeout_seconds  count    0
+inetd_disable/type             astring  method
+restarter                      framework        NONPERSISTENT
+restarter/auxiliary_state      astring  none
+restarter/next_state           astring  none
+restarter/state                astring  online
+restarter/state_timestamp      time     1151485623.986126000
+restarter/contract             count    98
+inetd_state                    framework        NONPERSISTENT
+inetd_state/cur_state          integer  1
+inetd_state/next_state         integer  13
+inetd_state/start_pids         integer  1172
+
+svc:/network/login:rlogin> exit
+                   #######----------------------------------
+
+
+pauly@stl-c-30:/export/home_pm/pauly>

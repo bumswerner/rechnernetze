@@ -1,0 +1,86 @@
+#
+#
+#
+#
+#  esmtp_anmeldung
+#
+#
+#
+
+
+stl-m-wpy:wpy:Internet/internet-vorlesung/smtp>
+
+
+telnet mail 25
+
+   Trying 134.96.208.108...
+   Connected to mail.htw-saarland.de.
+   Escape character is '^]'.
+   220 zdve-mailx.htw-saarland.de ESMTP Mail Server ready
+
+-->EHLO htw-saarland.de
+   250-zdve-mailx.htw-saarland.de Hello 
+       stl-m-wpy.htw-saarland.de [134.96.216.230], pleased to meet you
+   250-ENHANCEDSTATUSCODES
+   250-PIPELINING
+   250-EXPN
+   250-VERB
+   250-8BITMIME
+   250-SIZE
+   250-DSN
+   250-DELIVERBY
+   250 HELP
+
+
+-->HELP
+   214-2.0.0 This is sendmail version 8.12.10
+   214-2.0.0 Topics:
+   214-2.0.0       HELO    EHLO    MAIL    RCPT    DATA
+   214-2.0.0       RSET    NOOP    QUIT    HELP    VRFY
+   214-2.0.0       EXPN    VERB    ETRN    DSN     AUTH
+   214-2.0.0       STARTTLS
+   214-2.0.0 For more info use "HELP <topic>".
+   214-2.0.0 To report bugs in the implementation send email to
+   214-2.0.0       sendmail-bugs@sendmail.org.
+   214-2.0.0 For local information send email to Postmaster at your site.
+   214 2.0.0 End of HELP info
+
+
+-->HELP EXPN
+   214-2.0.0 EXPN <recipient>
+   214-2.0.0       Expand an address.  If the address indicates a mailing
+   214-2.0.0       list, return the contents of that list.
+   214 2.0.0 End of HELP info
+
+
+-->HELP PIPELINING
+   504 5.3.0 HELP topic "pipelining" unknown
+
+
+-->HELP DSN
+   214-2.0.0 MAIL FROM: <sender> [ RET={ FULL | HDRS} ] [ ENVID=<envid> ]
+   214-2.0.0 RCPT TO: <recipient> [ NOTIFY={NEVER,SUCCESS,FAILURE,DELAY} ]
+   214-2.0.0                    [ ORCPT=<recipient> ]
+   214-2.0.0       SMTP Delivery Status Notifications.
+   214-2.0.0 Descriptions:
+   214-2.0.0       RET     Return either the full message or only headers.
+   214-2.0.0       ENVID   Sender's "envelope identifier" for tracking.
+   214-2.0.0       NOTIFY  When to send a DSN. Multiple options are OK, comma-
+   214-2.0.0               delimited. NEVER must appear by itself.
+   214-2.0.0       ORCPT   Original recipient.
+   214 2.0.0 End of HELP info
+
+
+-->HELP SIZE
+   504 5.3.0 HELP topic "size" unknown
+
+
+-->HELP DELIVERBY
+   504 5.3.0 HELP topic "deliverby" unknown
+
+
+-->quit
+   221 2.0.0 zdve-mailx.htw-saarland.de closing connection
+   Connection to mail.htw-saarland.de closed by foreign host.
+   In /var/mail/wpy liegen Mails für Sie vor
+      

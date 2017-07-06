@@ -1,0 +1,27 @@
+#!/usr/bin/ksh
+#
+#
+#
+#   Xephyr-wpy
+#
+#
+#
+
+read REMOTE?"Verbindung zu welchem Rechner herstellen ?? : "
+
+__DISPLAY=0
+
+ls -ld /tmp/.X11-unix/X${__DISPLAY} /tmp/.X${__DISPLAY}-lock /tmp/.X11-pipe/X${__DISPLAY} /tmp/.X11-pipe/X${__DISPLAY}
+
+while [ -S /tmp/.X11-unix/X${__DISPLAY} ] || [ -f /tmp/.X${__DISPLAY}-lock ] || [[ -p /tmp/.X11-pipe/X${__DISPLAY} || -f /tmp/.X11-pipe/X${__DISPLAY} ]]
+        do
+                let __DISPLAY+=1
+        done
+
+echo "----> ${__DISPLAY} <---"
+
+echo "/usr/X11/bin/Xephyr :${__DISPLAY} -to 5 -ac -br -fullscreen -auth ${HOME}/.Xauthority -host-cursor -reset -once -query ${REMOTE}"
+
+/usr/X11/bin/Xephyr :${__DISPLAY} -to 5 -ac -br -fullscreen -auth ${HOME}/.Xauthority -host-cursor -reset -once -query ${REMOTE}
+echo "=========> $? <============="
+

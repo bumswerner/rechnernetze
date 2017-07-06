@@ -1,0 +1,498 @@
+######
+######
+snoop -v stl-s-stud  | /usr/xpg4/bin/grep -e "^RPC.*$"   -e "^NFS.*$"
+######
+######
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2193971904
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [0087]
+NFS:   0080000500000002000A0000000000021B75A3F0000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2193971904
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 1
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 101, User ID = 0, Group ID = 0
+NFS:    File size = 2048, Used = 2048
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 2
+NFS:    Last access time      = 02-Feb-01 10:28:23.510002000 GMT
+NFS:    Modification time     = 16-Nov-00 06:48:29.220001000 GMT
+NFS:    Attribute change time = 16-Nov-00 06:48:29.220001000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2210749120
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2210749120
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 3
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2227526336
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [0087]
+NFS:   0080000500000002000A0000000000021B75A3F0000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2227526336
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 5
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 101, User ID = 0, Group ID = 0
+NFS:    File size = 2048, Used = 2048
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 2
+NFS:    Last access time      = 02-Feb-01 10:28:23.510002000 GMT
+NFS:    Modification time     = 16-Nov-00 06:48:29.220001000 GMT
+NFS:    Attribute change time = 16-Nov-00 06:48:29.220001000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2244303552
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2244303552
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 7
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2261080768
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2261080768
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 9
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2277857984
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2277857984
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 11
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2294635200
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2294635200
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 13
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2311412416
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2311412416
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 15
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2328189632
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2328189632
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 17
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 148
+RPC:  Transaction id = 2344966848
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 72 bytes
+RPC:     Time = 02-Feb-01 14:05:13
+RPC:     Hostname = stl-c-03
+RPC:     Uid = 0, Gid = 1
+RPC:     Groups = 1 0 2 3 4 5 6 7 8 9 12 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = [DEB0]
+NFS:   0080000500000002000A0000000E4E8516B73E8C000A0000000000021B75A3F0
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 2344966848
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 19
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0755
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = r-x
+NFS:     Other's permissions = r-x
+NFS:    Link count = 72, User ID = 102, Group ID = 100
+NFS:    File size = 4608, Used = 5120
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 137438953477, File id = 937605
+NFS:    Last access time      = 02-Feb-01 10:37:31.810001000 GMT
+NFS:    Modification time     = 02-Feb-01 08:43:42.820006000 GMT
+NFS:    Attribute change time = 02-Feb-01 08:43:42.820006000 GMT
+NFS:  
+NFS:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 14

@@ -1,0 +1,4 @@
+HELO mail.htw-saarland.de
+MAIL From: Donald.Duck@entenhausen.de
+RCPT TO:  STL-E-MAIL
+DATA

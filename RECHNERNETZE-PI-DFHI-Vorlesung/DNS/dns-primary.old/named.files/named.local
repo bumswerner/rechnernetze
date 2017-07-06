@@ -1,0 +1,12 @@
+;
+;       Address to hostname mappings for net 127.
+;
+
+@       IN      SOA     ns.htw.uni-sb.de. fje.rz.uni-sb.de. (
+                                91092300    ; Serial
+                                864000  ; Refresh
+                                1800    ; Retry
+                                9999999 ; Expire
+                                86400 ) ; Minimum
+        IN      NS      ns.htw.uni-sb.de.
+1       IN      PTR     localhost.htw.uni-sb.de.

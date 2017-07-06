@@ -1,0 +1,4065 @@
+$ORIGIN .
+$TTL 43200	; 12 hours
+htw-saarland.de		IN SOA	ns.rz.uni-saarland.de. Margit\.Meyer.htw-saarland.de. (
+				2012012100 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				300        ; minimum (5 minutes)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+			NS	ws-ber1.win-ip.dfn.de.
+			A	134.96.208.112
+			MX	20 m-relay.htw-saarland.de.
+			MX	80 m-relay.rz.uni-saarland.de.
+			MX	80 m-relay2.rz.uni-saarland.de.
+			MX	90 m-relay3.rz.uni-saarland.de.
+			LOC	49 15 27.000 N 7 2 42.000 E 80.00m 2000m 2000m 10m
+$ORIGIN htw-saarland.de.
+2fb-server-bw		A	134.96.219.174
+			MX	100 zdve-mailx
+a1-p01			A	134.96.212.172
+			MX	100 zdve-mailx
+a1-p02			A	134.96.212.131
+			MX	100 zdve-mailx
+a1-p03			A	134.96.212.132
+			MX	100 zdve-mailx
+a1-p05			A	134.96.212.134
+			MX	100 zdve-mailx
+a1-s03			A	134.96.212.138
+			MX	100 zdve-mailx
+a1-s04			A	134.96.212.139
+			MX	100 zdve-mailx
+a1-s05			A	134.96.212.140
+			MX	100 zdve-mailx
+a2-balzer		A	134.96.212.189
+			MX	100 zdve-mailx
+a2-baumgaertner		A	134.96.212.234
+			MX	100 zdve-mailx
+a2-goe			A	134.96.212.141
+			MX	100 zdve-mailx
+a2-hank			A	134.96.212.142
+			MX	100 zdve-mailx
+a2-kuem			A	134.96.212.143
+			MX	100 zdve-mailx
+a2-kuhn			A	134.96.212.144
+			MX	100 zdve-mailx
+a2-lembert		A	134.96.212.145
+			MX	100 zdve-mailx
+a2-ljost		A	134.96.212.201
+			MX	100 zdve-mailx
+a2-pierron		A	134.96.212.194
+			MX	100 zdve-mailx
+a2-schaefer		A	134.96.212.187
+			MX	100 zdve-mailx
+a3-frey			A	134.96.212.146
+			MX	100 zdve-mailx
+a3-kuhn			A	134.96.212.147
+			MX	100 zdve-mailx
+a3-qu			A	134.96.212.150
+			MX	100 zdve-mailx
+a3-quack		A	134.96.212.149
+			MX	100 zdve-mailx
+a3-weiss		A	134.96.212.155
+			MX	100 zdve-mailx
+a4-altmeyer		A	134.96.212.186
+			MX	100 zdve-mailx
+a4-hell			A	134.96.212.193
+			MX	100 zdve-mailx
+a4-notebook		A	134.96.212.190
+			MX	100 zdve-mailx
+aaa-01			A	134.96.212.130
+			MX	100 zdve-mailx
+aaa-02			A	134.96.212.178
+			MX	100 zdve-mailx
+aaa-03			A	134.96.212.179
+			MX	100 zdve-mailx
+aaa-04			A	134.96.212.180
+			MX	100 zdve-mailx
+aaa-05			A	134.96.212.153
+			MX	100 zdve-mailx
+aaa-goe			A	134.96.212.196
+			MX	100 zdve-mailx
+aaa-whw			A	134.96.212.181
+			MX	100 zdve-mailx
+ab			CNAME	zdve-mailx
+abawi			A	134.96.219.214
+			MX	100 zdve-mailx
+abawi-im		A	134.96.219.215
+			MX	90 abawi-im
+$ORIGIN abawi-im.htw-saarland.de.
+autodiscover		CNAME	abawi-im.htw-saarland.de.
+$ORIGIN htw-saarland.de.
+abawi-nas		A	134.96.219.212
+			MX	100 zdve-mailx
+abawi-pc		A	134.96.219.216
+			MX	100 zdve-mailx
+abawi-pc1		A	134.96.219.207
+			MX	100 zdve-mailx
+abawi-pc2		A	134.96.219.208
+			MX	100 zdve-mailx
+abawi-pc3		A	134.96.219.209
+			MX	100 zdve-mailx
+abawi-pc4		A	134.96.219.210
+			MX	100 zdve-mailx
+abawi-pc5		A	134.96.219.211
+			MX	100 zdve-mailx
+abawi-printer1		A	134.96.219.205
+			MX	100 zdve-mailx
+abawi-printer2		A	134.96.219.206
+			MX	100 zdve-mailx
+abawi-router		A	134.96.219.213
+			MX	100 zdve-mailx
+abel			A	134.96.214.146
+			MX	100 zdve-mailx
+ad-test			A	134.96.208.44
+			MX	100 zdve-mailx
+ag-logistik		CNAME	wiwi-rom
+alumni			A	134.96.210.135
+			MX	100 zdve-mailx
+alumni-server		A	134.96.209.162
+			MX	100 zdve-mailx
+alumniadmin		CNAME	www-zv
+ams-mobi		A	134.96.214.111
+			MX	100 zdve-mailx
+architektur		CNAME	zdve-mailx
+artis			A	134.96.208.174
+			MX	100 zdve-mailx
+asta-001		A	134.96.209.204
+			MX	100 zdve-mailx
+asta-002		A	134.96.209.199
+			MX	100 zdve-mailx
+asta-003		A	134.96.209.205
+			MX	100 zdve-mailx
+asta-004		A	134.96.209.202
+			MX	100 zdve-mailx
+asta-005		A	134.96.209.203
+			MX	100 zdve-mailx
+asta-drucker		A	134.96.209.201
+asta-pc1		A	134.96.209.195
+			MX	100 zdve-mailx
+asta-pc3		A	134.96.209.200
+			MX	100 zdve-mailx
+asterisk		A	134.96.215.130
+			MX	100 zdve-mailx
+aub-bergrath		A	134.96.211.70
+			MX	100 zdve-mailx
+aub-bowoos3		A	134.96.211.78
+			MX	100 zdve-mailx
+aub-drucker1		A	134.96.211.93
+aub-dv-laptop		A	134.96.211.81
+			MX	100 zdve-mailx
+aub-eberding		A	134.96.211.89
+			MX	100 zdve-mailx
+aub-hartnack		A	134.96.211.88
+			MX	100 zdve-mailx
+aub-heckoetter		A	134.96.211.85
+			MX	100 zdve-mailx
+aub-hiwi-pohl		A	134.96.211.79
+			MX	100 zdve-mailx
+aub-imac-schmidtpeter	A	134.96.211.77
+			MX	100 zdve-mailx
+aub-koeehler		A	134.96.211.69
+			MX	100 zdve-mailx
+aub-konstlab		A	134.96.211.76
+			MX	100 zdve-mailx
+aub-lukas-imac		A	134.96.211.74
+			MX	100 zdve-mailx
+aub-lukas-macbook	A	134.96.211.71
+			MX	100 zdve-mailx
+aub-lukas-macbookpro	A	134.96.211.73
+			MX	100 zdve-mailx
+aub-mendgen		A	134.96.211.86
+			MX	100 zdve-mailx
+aub-mueller		A	134.96.211.72
+			MX	100 zdve-mailx
+aub-pantle		A	134.96.211.87
+			MX	100 zdve-mailx
+aub-pohl-oki		A	134.96.211.90
+			MX	100 zdve-mailx
+aub-pohl1		A	134.96.211.91
+			MX	100 zdve-mailx
+aub-pohl2		A	134.96.211.92
+			MX	100 zdve-mailx
+aub-pruefamt		A	134.96.211.67
+			MX	100 zdve-mailx
+aub-pruefungsamt	A	134.96.211.66
+			MX	100 zdve-mailx
+aub-sbach		A	134.96.211.75
+			MX	100 zdve-mailx
+aub-towae-nbhp		A	134.96.211.80
+			MX	100 zdve-mailx
+aub-towae-notebook	A	134.96.211.68
+			MX	100 zdve-mailx
+aurora			CNAME	kil-s-web
+auslegestelle-tmp	A	134.96.208.138
+			MX	100 zdve-mailx
+autofluid		A	134.96.215.2
+			MX	100 zdve-mailx
+autoren			A	134.96.209.107
+			MX	100 zdve-mailx
+aviation-business	CNAME	zdve-mailx
+azubi-a1		A	134.96.212.200
+			MX	100 zdve-mailx
+azubi-a3		A	134.96.212.214
+			MX	100 zdve-mailx
+backup			A	134.96.209.40
+			MX	100 zdve-mailx
+batman			A	134.96.216.48
+			MX	100 zdve-mailx
+bauingenieurwesen	CNAME	zdve-mailx
+bayes			A	134.96.214.185
+			MX	100 zdve-mailx
+bernd-hp		A	134.96.215.84
+			MX	100 zdve-mailx
+betriebswirtschaft	CNAME	zdve-mailx
+bewerber		A	134.96.210.134
+			MX	100 zdve-mailx
+bfw-ta01		A	134.96.210.3
+			MX	100 zdve-mailx
+bfw-ta02		A	134.96.210.4
+			MX	100 zdve-mailx
+bi			CNAME	zdve-mailx
+bi-abwasserlabor-1	A	134.96.211.134
+			MX	100 zdve-mailx
+bi-abwasserlabor-2	A	134.96.211.140
+			MX	100 zdve-mailx
+bi-aris			A	134.96.210.101
+			MX	100 zdve-mailx
+bi-autosoft		A	134.96.211.150
+			MX	100 zdve-mailx
+bi-backes		A	134.96.211.155
+			MX	100 zdve-mailx
+bi-bau			A	134.96.211.148
+			MX	100 zdve-mailx
+bi-baukom		A	134.96.208.109
+			MX	100 zdve-mailx
+bi-baukom-01		A	134.96.211.131
+			MX	100 zdve-mailx
+bi-baukom-02		A	134.96.211.133
+			MX	100 zdve-mailx
+bi-baukom-03		A	134.96.211.163
+			MX	100 zdve-mailx
+bi-baukom-04		A	134.96.211.160
+			MX	100 zdve-mailx
+bi-baukom-05		A	134.96.211.138
+			MX	100 zdve-mailx
+bi-baur			A	134.96.211.154
+			MX	100 zdve-mailx
+bi-boettcher		A	134.96.211.157
+			MX	100 zdve-mailx
+bi-cad12		A	134.96.211.162
+			MX	100 zdve-mailx
+bi-deutsch		A	134.96.211.144
+			MX	100 zdve-mailx
+bi-duesing		A	134.96.211.158
+			MX	100 zdve-mailx
+bi-fbv			A	134.96.211.146
+			MX	100 zdve-mailx
+bi-gsg			A	134.96.211.159
+			MX	100 zdve-mailx
+bi-mobil		A	134.96.211.156
+			MX	100 zdve-mailx
+bi-p-edi3par		A	134.96.210.120
+			MX	100 zdve-mailx
+bi-plt4000		A	134.96.211.135
+			MX	100 zdve-mailx
+bi-plt750c		A	134.96.211.143
+			MX	100 zdve-mailx
+bi-prt5550		A	134.96.211.136
+			MX	100 zdve-mailx
+bi-scan			A	134.96.210.119
+			MX	100 zdve-mailx
+bi-schmidt		A	134.96.211.149
+			MX	100 zdve-mailx
+bi-schneiderf		A	134.96.211.151
+			MX	100 zdve-mailx
+bi-schneiderj		A	134.96.211.152
+			MX	100 zdve-mailx
+bi-sek			A	134.96.211.161
+			MX	100 zdve-mailx
+bi-server		A	134.96.211.130
+			MX	100 zdve-mailx
+bi-upm			A	134.96.211.132
+			MX	100 zdve-mailx
+bi-vermess		A	134.96.211.141
+			MX	100 zdve-mailx
+bi-webel		A	134.96.211.153
+			MX	100 zdve-mailx
+bi-wullschlaeger	A	134.96.211.145
+			MX	100 zdve-mailx
+bibliothek		CNAME	www-zv
+biehler2		A	134.96.211.139
+			MX	100 zdve-mailx
+biomedizinische-technik	CNAME	zdve-mailx
+bioniklabor-01		A	134.96.215.92
+			MX	100 zdve-mailx
+bioniklabor-02		A	134.96.215.93
+			MX	100 zdve-mailx
+bioniklabor-03		A	134.96.215.94
+			MX	100 zdve-mailx
+biovt5014		A	134.96.215.81
+			MX	100 zdve-mailx
+bkurs			A	134.96.210.136
+			MX	100 zdve-mailx
+bmt			CNAME	zdve-mailx
+bmtbuero		A	134.96.214.19
+			MX	100 zdve-mailx
+bmtbuero2		A	134.96.214.59
+			MX	100 zdve-mailx
+bmtprint		A	134.96.214.20
+			MX	100 zdve-mailx
+bpm			A	134.96.208.117
+			MX	100 zdve-mailx
+buero9012		A	134.96.211.137
+			MX	100 zdve-mailx
+bus			A	134.96.215.99
+			MX	100 zdve-mailx
+busse			A	134.96.215.69
+			MX	100 zdve-mailx
+bussemobil		A	134.96.215.71
+			MX	100 zdve-mailx
+bw			CNAME	zdve-mailx
+bw-appel		A	134.96.219.175
+			MX	100 zdve-mailx
+bw-beinhauer		A	134.96.219.130
+			MX	100 zdve-mailx
+bw-beyersd		A	134.96.219.133
+			MX	100 zdve-mailx
+bw-bousonville		A	134.96.219.151
+			MX	100 zdve-mailx
+bw-brach		A	134.96.219.140
+			MX	100 zdve-mailx
+bw-buck			A	134.96.219.132
+			MX	100 zdve-mailx
+bw-conrad		A	134.96.219.185
+			MX	100 zdve-mailx
+bw-conradc		A	134.96.219.226
+			MX	100 zdve-mailx
+bw-dehmelt		A	134.96.219.138
+			MX	100 zdve-mailx
+bw-dekanat		A	134.96.219.189
+			MX	100 zdve-mailx
+bw-demmer		A	134.96.219.134
+			MX	100 zdve-mailx
+bw-firlus-nb		A	134.96.219.164
+			MX	100 zdve-mailx
+bw-goettling		A	134.96.219.227
+			MX	100 zdve-mailx
+bw-groehl		A	134.96.219.137
+			MX	100 zdve-mailx
+bw-haldy		A	134.96.219.231
+			MX	100 zdve-mailx
+bw-hauser		A	134.96.219.182
+			MX	100 zdve-mailx
+bw-hellenthal		A	134.96.219.239
+			MX	100 zdve-mailx
+bw-heuwinkel		A	134.96.219.165
+			MX	100 zdve-mailx
+bw-hl-5350dn		A	134.96.219.187
+			MX	100 zdve-mailx
+bw-hp4250		A	134.96.219.170
+			MX	100 zdve-mailx
+bw-hpoj-k8600		A	134.96.219.248
+			MX	100 zdve-mailx
+bw-htz01		A	134.96.219.232
+			MX	100 zdve-mailx
+bw-huetter		A	134.96.219.192
+			MX	100 zdve-mailx
+bw-huth			A	134.96.219.147
+			MX	100 zdve-mailx
+bw-jensen		A	134.96.219.155
+			MX	100 zdve-mailx
+bw-kellner		A	134.96.219.177
+			MX	100 zdve-mailx
+bw-kirsch		A	134.96.219.158
+			MX	100 zdve-mailx
+bw-kloninger		A	134.96.219.163
+			MX	100 zdve-mailx
+bw-koch			A	134.96.219.159
+			MX	100 zdve-mailx
+bw-koenig		A	134.96.219.143
+			MX	100 zdve-mailx
+bw-koenig-nb		A	134.96.219.224
+			MX	100 zdve-mailx
+bw-krivograd		A	134.96.219.253
+			MX	100 zdve-mailx
+bw-lexm-x464		A	134.96.219.247
+			MX	100 zdve-mailx
+bw-liebig		A	134.96.219.201
+			MX	100 zdve-mailx
+bw-lieblang		A	134.96.219.161
+			MX	100 zdve-mailx
+bw-linux		A	134.96.208.131
+			MX	100 zdve-mailx
+bw-mach			A	134.96.219.179
+			MX	100 zdve-mailx
+bw-malburg		A	134.96.218.72
+			MX	100 zdve-mailx
+bw-mallick		A	134.96.219.135
+			MX	100 zdve-mailx
+bw-martin		A	134.96.219.230
+			MX	100 zdve-mailx
+bw-mehlem		A	134.96.219.149
+			MX	100 zdve-mailx
+bw-melo			A	134.96.219.162
+			MX	100 zdve-mailx
+bw-melo-nb		A	134.96.219.157
+			MX	100 zdve-mailx
+bw-neumann		A	134.96.219.156
+			MX	100 zdve-mailx
+bw-ohligschlaeger	A	134.96.219.188
+			MX	100 zdve-mailx
+bw-philippi		A	134.96.219.145
+			MX	100 zdve-mailx
+bw-philippi-nb		A	134.96.219.180
+			MX	100 zdve-mailx
+bw-pilhofer		A	134.96.219.234
+			MX	100 zdve-mailx
+bw-pochmann		A	134.96.219.146
+			MX	100 zdve-mailx
+bw-projekt-07		A	134.96.219.221
+			MX	100 zdve-mailx
+bw-projekt-08		A	134.96.219.222
+			MX	100 zdve-mailx
+bw-projekt-09		A	134.96.219.225
+			MX	100 zdve-mailx
+bw-projekt-11		A	134.96.219.235
+			MX	100 zdve-mailx
+bw-projekt-12		A	134.96.219.242
+			MX	100 zdve-mailx
+bw-projekt-13		A	134.96.219.243
+			MX	100 zdve-mailx
+bw-projekt-14		A	134.96.219.244
+			MX	100 zdve-mailx
+bw-projekt-15		A	134.96.219.245
+			MX	100 zdve-mailx
+bw-projekt-16		A	134.96.219.246
+			MX	100 zdve-mailx
+bw-projekt-19		A	134.96.219.249
+			MX	100 zdve-mailx
+bw-projekt-20		A	134.96.219.250
+			MX	100 zdve-mailx
+bw-projekt-21		A	134.96.219.251
+			MX	100 zdve-mailx
+bw-projekt-23		A	134.96.219.252
+			MX	100 zdve-mailx
+bw-projekt-24		A	134.96.219.126
+			MX	100 zdve-mailx
+bw-projekt-25		A	134.96.219.125
+			MX	100 zdve-mailx
+bw-projekt-hp		A	134.96.219.223
+			MX	100 zdve-mailx
+bw-projekt01		A	134.96.219.190
+			MX	100 zdve-mailx
+bw-projekt02		A	134.96.219.191
+			MX	100 zdve-mailx
+bw-projekt04		A	134.96.219.200
+			MX	100 zdve-mailx
+bw-projekt05		A	134.96.219.219
+			MX	100 zdve-mailx
+bw-projekt06		A	134.96.219.220
+			MX	100 zdve-mailx
+bw-rockenbauch		A	134.96.219.136
+			MX	100 zdve-mailx
+bw-rutsch		A	134.96.218.116
+			MX	100 zdve-mailx
+bw-schmidt		A	134.96.219.150
+			MX	100 zdve-mailx
+bw-schmidto		A	134.96.219.181
+			MX	100 zdve-mailx
+bw-schmitt		A	134.96.219.141
+			MX	100 zdve-mailx
+bw-schorr		A	134.96.219.148
+			MX	100 zdve-mailx
+bw-schroeder		A	134.96.219.203
+			MX	100 zdve-mailx
+bw-schroepf		A	134.96.219.186
+			MX	100 zdve-mailx
+bw-schwarz		A	134.96.219.160
+			MX	100 zdve-mailx
+bw-selle		A	134.96.219.166
+			MX	100 zdve-mailx
+bw-skdruck01		A	134.96.219.184
+			MX	100 zdve-mailx
+bw-skdruck02		A	134.96.219.193
+			MX	100 zdve-mailx
+bw-test			A	134.96.219.171
+			MX	100 zdve-mailx
+bw-test1		A	134.96.219.172
+			MX	100 zdve-mailx
+bw-tinnefeld		A	134.96.219.131
+			MX	100 zdve-mailx
+bw-vogt			A	134.96.219.152
+			MX	100 zdve-mailx
+bw-vollmer		A	134.96.219.142
+			MX	100 zdve-mailx
+bw-weitz		A	134.96.219.167
+			MX	100 zdve-mailx
+bw-zell			A	134.96.219.153
+			MX	100 zdve-mailx
+c2i-server		A	134.96.208.123
+			MX	100 zdve-mailx
+cad			A	134.96.215.109
+			MX	100 zdve-mailx
+calles2			A	134.96.215.7
+			MX	100 zdve-mailx
+cantor			A	134.96.214.227
+			MX	100 zdve-mailx
+cauchy			A	134.96.214.142
+			MX	100 zdve-mailx
+chemie1			A	134.96.214.141
+			MX	100 zdve-mailx
+chemie2			A	134.96.214.163
+			MX	100 zdve-mailx
+cjd-alumni		A	134.96.209.3
+			MX	100 zdve-mailx
+ckmobil			A	134.96.215.102
+			MX	100 zdve-mailx
+clix			CNAME	zdve-mailx
+controller		A	134.96.212.213
+			MX	100 zdve-mailx
+dek-assist		A	134.96.214.44
+			MX	100 zdve-mailx
+descartes		A	134.96.214.175
+dfhi-1			A	134.96.209.242
+			MX	100 zdve-mailx
+dfhi-2			A	134.96.209.243
+			MX	100 zdve-mailx
+dfhi-3			A	134.96.209.244
+			MX	100 zdve-mailx
+dfhi-4			A	134.96.209.245
+			MX	100 zdve-mailx
+dfhi-web		A	134.96.210.138
+			MX	100 zdve-mailx
+didaktik		A	134.96.212.209
+			MX	100 zdve-mailx
+dongle-server		A	134.96.210.67
+			MX	100 zdve-mailx
+dr-farbe		A	134.96.212.137
+dr-scanner		A	134.96.212.151
+dru-stei		A	134.96.209.47
+			MX	100 zdve-mailx
+druck-plot		A	134.96.212.204
+drucker-7218		A	134.96.215.106
+			MX	100 zdve-mailx
+drucker-7220		A	134.96.215.108
+			MX	100 zdve-mailx
+drucker-mg		A	134.96.208.9
+			MX	100 zdve-mailx
+druckerei		A	134.96.212.169
+			MX	100 zdve-mailx
+druckerei-p-ricoh	A	134.96.212.170
+			MX	100 zdve-mailx
+druqui			A	134.96.209.45
+			MX	100 zdve-mailx
+dynaserv		A	134.96.208.164
+			MX	100 zdve-mailx
+e			CNAME	zdve-mailx
+e-ams195		A	134.96.211.195
+			MX	100 zdve-mailx
+e-ams196		A	134.96.211.196
+			MX	100 zdve-mailx
+e-ams197		A	134.96.211.197
+			MX	100 zdve-mailx
+e-ams198		A	134.96.211.198
+			MX	100 zdve-mailx
+e-ams199		A	134.96.211.199
+			MX	100 zdve-mailx
+e-ams200		A	134.96.211.200
+			MX	100 zdve-mailx
+e-ams201		A	134.96.211.201
+			MX	100 zdve-mailx
+e-ams202		A	134.96.211.202
+			MX	100 zdve-mailx
+e-ams203		A	134.96.211.203
+			MX	100 zdve-mailx
+e-ams204		A	134.96.211.204
+			MX	100 zdve-mailx
+e-ams205		A	134.96.211.205
+			MX	100 zdve-mailx
+e-ams206		A	134.96.211.206
+			MX	100 zdve-mailx
+e-ams207		A	134.96.211.207
+			MX	100 zdve-mailx
+e-ams208		A	134.96.211.208
+			MX	100 zdve-mailx
+e-ams209		A	134.96.211.209
+			MX	100 zdve-mailx
+e-ams210		A	134.96.211.210
+			MX	100 zdve-mailx
+e-ams211		A	134.96.211.211
+			MX	100 zdve-mailx
+e-ams212		A	134.96.211.212
+			MX	100 zdve-mailx
+e-ams213		A	134.96.211.213
+			MX	100 zdve-mailx
+e-ams214		A	134.96.211.214
+			MX	100 zdve-mailx
+e-ams215		A	134.96.211.215
+			MX	100 zdve-mailx
+e-ams216		A	134.96.211.216
+			MX	100 zdve-mailx
+e-ams217		A	134.96.211.217
+			MX	100 zdve-mailx
+e-ams218		A	134.96.211.218
+			MX	100 zdve-mailx
+e-ams219		A	134.96.211.219
+			MX	100 zdve-mailx
+e-ams220		A	134.96.211.220
+			MX	100 zdve-mailx
+e-ams221		A	134.96.211.221
+			MX	100 zdve-mailx
+e-ams222		A	134.96.211.222
+			MX	100 zdve-mailx
+e-ams223		A	134.96.211.223
+			MX	100 zdve-mailx
+e-ams224		A	134.96.211.224
+			MX	100 zdve-mailx
+e-ams225		A	134.96.211.225
+			MX	100 zdve-mailx
+e-ams226		A	134.96.211.226
+			MX	100 zdve-mailx
+e-ams227		A	134.96.211.227
+			MX	100 zdve-mailx
+e-ams228		A	134.96.211.228
+			MX	100 zdve-mailx
+e-ams229		A	134.96.211.229
+			MX	100 zdve-mailx
+e-ams230		A	134.96.211.230
+			MX	100 zdve-mailx
+e-ams231		A	134.96.211.231
+			MX	100 zdve-mailx
+e-ams234		A	134.96.211.234
+			MX	100 zdve-mailx
+e-ams241		A	134.96.211.241
+			MX	100 zdve-mailx
+e-ams242		A	134.96.211.242
+			MX	100 zdve-mailx
+e-ams247		A	134.96.211.247
+			MX	100 zdve-mailx
+e-ams33			A	134.96.211.233
+			MX	100 zdve-mailx
+e-amsgast		A	134.96.211.240
+			MX	100 zdve-mailx
+e-ant-01		A	134.96.214.39
+			MX	100 zdve-mailx
+e-ant-02		A	134.96.214.46
+			MX	100 zdve-mailx
+e-ant-03		A	134.96.214.67
+			MX	100 zdve-mailx
+e-ant-04		A	134.96.214.68
+			MX	100 zdve-mailx
+e-ant-05		A	134.96.214.69
+			MX	100 zdve-mailx
+e-ant-06		A	134.96.214.70
+			MX	100 zdve-mailx
+e-ant-07		A	134.96.214.71
+			MX	100 zdve-mailx
+e-ant-08		A	134.96.214.72
+			MX	100 zdve-mailx
+e-ant-09		A	134.96.214.73
+			MX	100 zdve-mailx
+e-ant-10		A	134.96.214.74
+			MX	100 zdve-mailx
+e-ant-11		A	134.96.214.75
+			MX	100 zdve-mailx
+e-ant-12		A	134.96.217.138
+			MX	100 zdve-mailx
+e-ant-13		A	134.96.217.149
+			MX	100 zdve-mailx
+e-ant-14		A	134.96.217.150
+			MX	100 zdve-mailx
+e-ant-15		A	134.96.217.154
+			MX	100 zdve-mailx
+e-ant-16		A	134.96.217.155
+			MX	100 zdve-mailx
+e-ant-17		A	134.96.217.156
+			MX	100 zdve-mailx
+e-ant-18		A	134.96.217.157
+			MX	100 zdve-mailx
+e-ant-19		A	134.96.214.25
+			MX	100 zdve-mailx
+e-ant-20		A	134.96.214.45
+			MX	100 zdve-mailx
+e-eev-01		A	134.96.214.5
+			MX	100 zdve-mailx
+e-eev-02		A	134.96.214.37
+			MX	100 zdve-mailx
+e-eev-05		A	134.96.214.4
+			MX	100 zdve-mailx
+e-eev-06		A	134.96.214.2
+			MX	100 zdve-mailx
+e-eev-07		A	134.96.214.3
+			MX	100 zdve-mailx
+e-eev-08		A	134.96.214.123
+			MX	100 zdve-mailx
+e-eev-09		A	134.96.214.124
+			MX	100 zdve-mailx
+e-eev-10		A	134.96.214.125
+			MX	100 zdve-mailx
+e-eev-11		A	134.96.217.143
+			MX	100 zdve-mailx
+e-eev-12		A	134.96.217.146
+			MX	100 zdve-mailx
+e-eev-13		A	134.96.217.147
+			MX	100 zdve-mailx
+e-eev-14		A	134.96.217.148
+			MX	100 zdve-mailx
+e-eev-15		A	134.96.217.139
+			MX	100 zdve-mailx
+e-eev-16		A	134.96.217.140
+			MX	100 zdve-mailx
+e-eev-17		A	134.96.214.21
+			MX	100 zdve-mailx
+e-eev-18		A	134.96.214.22
+			MX	100 zdve-mailx
+e-eev-19		A	134.96.214.23
+			MX	100 zdve-mailx
+e-eev-20		A	134.96.214.24
+			MX	100 zdve-mailx
+e-eev-21		A	134.96.214.42
+			MX	100 zdve-mailx
+e-eev-22		A	134.96.214.43
+			MX	100 zdve-mailx
+e-eev-23		A	134.96.214.105
+			MX	100 zdve-mailx
+e-eev-24		A	134.96.214.106
+			MX	100 zdve-mailx
+e-eev-25		A	134.96.214.113
+			MX	100 zdve-mailx
+e-eev-26		A	134.96.214.114
+			MX	100 zdve-mailx
+e-eev-27		A	134.96.214.115
+			MX	100 zdve-mailx
+e-eev-30		A	134.96.208.210
+			MX	100 zdve-mailx
+e-emv-1			A	134.96.214.8
+			MX	100 zdve-mailx
+e-emv-10		A	134.96.214.9
+			MX	100 zdve-mailx
+e-emv-2			A	134.96.214.10
+			MX	100 zdve-mailx
+e-emv-3			A	134.96.214.11
+			MX	100 zdve-mailx
+e-emv-4			A	134.96.214.12
+			MX	100 zdve-mailx
+e-emv-6			A	134.96.214.13
+			MX	100 zdve-mailx
+e-emv-7			A	134.96.214.14
+			MX	100 zdve-mailx
+e-emv-8			A	134.96.214.15
+			MX	100 zdve-mailx
+e-emv-9			A	134.96.214.16
+			MX	100 zdve-mailx
+e-gauss			A	134.96.214.107
+			MX	100 zdve-mailx
+e-gf-1200		A	134.96.214.27
+			MX	100 zdve-mailx
+e-gf-a			A	134.96.214.28
+			MX	100 zdve-mailx
+e-gf-b			A	134.96.214.29
+			MX	100 zdve-mailx
+e-gf-f			A	134.96.214.30
+			MX	100 zdve-mailx
+e-gf-g			A	134.96.214.31
+			MX	100 zdve-mailx
+e-gf-ha			A	134.96.214.32
+			MX	100 zdve-mailx
+e-gf-j			A	134.96.214.33
+			MX	100 zdve-mailx
+e-gf-mess		A	134.96.214.34
+			MX	100 zdve-mailx
+e-gf-re1		A	134.96.214.35
+			MX	100 zdve-mailx
+e-gf-re2		A	134.96.214.36
+			MX	100 zdve-mailx
+e-hf-a			A	134.96.214.120
+			MX	100 zdve-mailx
+e-hf-b			A	134.96.214.121
+			MX	100 zdve-mailx
+e-hf-bu1		A	134.96.214.117
+			MX	100 zdve-mailx
+e-hf-bu2		A	134.96.214.118
+			MX	100 zdve-mailx
+e-hf-bu3		A	134.96.214.119
+			MX	100 zdve-mailx
+e-hf-c			A	134.96.214.48
+			MX	100 zdve-mailx
+e-hf-d			A	134.96.214.122
+			MX	100 zdve-mailx
+e-hf-dc			A	134.96.214.53
+			MX	100 zdve-mailx
+e-hf-dual		A	134.96.214.49
+			MX	100 zdve-mailx
+e-hf-f			A	134.96.214.50
+			MX	100 zdve-mailx
+e-hf-hp			A	134.96.214.51
+			MX	100 zdve-mailx
+e-hf-j			A	134.96.217.132
+			MX	100 zdve-mailx
+e-hf-k			A	134.96.217.133
+			MX	100 zdve-mailx
+e-hf-l			A	134.96.217.134
+			MX	100 zdve-mailx
+e-hf-m			A	134.96.217.135
+			MX	100 zdve-mailx
+e-hf-p180		A	134.96.214.52
+			MX	100 zdve-mailx
+e-hv-01			A	134.96.214.54
+			MX	100 zdve-mailx
+e-hv-02			A	134.96.214.55
+			MX	100 zdve-mailx
+e-hv-03			A	134.96.214.56
+			MX	100 zdve-mailx
+e-hv-04			A	134.96.214.57
+			MX	100 zdve-mailx
+e-hv-05			A	134.96.214.58
+			MX	100 zdve-mailx
+e-hv-06			A	134.96.214.41
+			MX	100 zdve-mailx
+e-hv-07			A	134.96.214.40
+			MX	100 zdve-mailx
+e-kt-01			A	134.96.214.94
+			MX	100 zdve-mailx
+e-kt-02			A	134.96.214.95
+			MX	100 zdve-mailx
+e-kt-03			A	134.96.214.96
+			MX	100 zdve-mailx
+e-kt-04			A	134.96.214.97
+			MX	100 zdve-mailx
+e-kt-05			A	134.96.214.98
+			MX	100 zdve-mailx
+e-kt-06			A	134.96.214.116
+			MX	100 zdve-mailx
+e-kt-07			A	134.96.217.130
+			MX	100 zdve-mailx
+e-kt-08			A	134.96.217.152
+			MX	100 zdve-mailx
+e-kt-09			A	134.96.217.153
+			MX	100 zdve-mailx
+e-kt-10			A	134.96.217.141
+			MX	100 zdve-mailx
+e-kt-11			A	134.96.217.142
+			MX	100 zdve-mailx
+e-kt-12			A	134.96.214.17
+			MX	100 zdve-mailx
+e-kt-13			A	134.96.214.18
+			MX	100 zdve-mailx
+e-kt-fo-1		A	134.96.208.197
+			MX	100 zdve-mailx
+e-kt-fo-2		A	134.96.208.198
+			MX	100 zdve-mailx
+e-kt-fo-3		A	134.96.208.199
+			MX	100 zdve-mailx
+e-kt-fo-4		A	134.96.208.200
+			MX	100 zdve-mailx
+e-kt-fo-5		A	134.96.208.201
+			MX	100 zdve-mailx
+e-kt-fo-6		A	134.96.208.202
+			MX	100 zdve-mailx
+e-kt-fo-7		A	134.96.208.203
+			MX	100 zdve-mailx
+e-leibniz		A	134.96.217.131
+			MX	100 zdve-mailx
+e-lp-01			A	134.96.214.7
+			MX	100 zdve-mailx
+e-mila-0		A	134.96.214.76
+			MX	100 zdve-mailx
+e-mila-10		A	134.96.214.77
+			MX	100 zdve-mailx
+e-mila-11		A	134.96.214.6
+			MX	100 zdve-mailx
+e-mila-3		A	134.96.214.78
+			MX	100 zdve-mailx
+e-mila-9		A	134.96.214.79
+			MX	100 zdve-mailx
+e-mt-01			A	134.96.214.80
+			MX	100 zdve-mailx
+e-mt-02			A	134.96.214.81
+			MX	100 zdve-mailx
+e-mt-03			A	134.96.214.82
+			MX	100 zdve-mailx
+e-mt-04			A	134.96.214.83
+			MX	100 zdve-mailx
+e-mt-05			A	134.96.214.84
+			MX	100 zdve-mailx
+e-mt-06			A	134.96.214.85
+			MX	100 zdve-mailx
+e-mt-07			A	134.96.214.86
+			MX	100 zdve-mailx
+e-mt-08			A	134.96.214.87
+			MX	100 zdve-mailx
+e-mt-09			A	134.96.214.88
+			MX	100 zdve-mailx
+e-mt-10			A	134.96.214.89
+			MX	100 zdve-mailx
+e-mt-11			A	134.96.214.90
+			MX	100 zdve-mailx
+e-mt-12			A	134.96.214.91
+			MX	100 zdve-mailx
+e-mt-13			A	134.96.214.92
+			MX	100 zdve-mailx
+e-nt-01			A	134.96.214.93
+			MX	100 zdve-mailx
+e-nt-02			A	134.96.214.99
+			MX	100 zdve-mailx
+e-nt-03			A	134.96.214.100
+			MX	100 zdve-mailx
+e-nt-04			A	134.96.214.101
+			MX	100 zdve-mailx
+e-nt-05			A	134.96.214.102
+			MX	100 zdve-mailx
+e-nt-06			A	134.96.214.103
+			MX	100 zdve-mailx
+e-nt-07			A	134.96.214.104
+			MX	100 zdve-mailx
+e-plt-fp		A	134.96.210.35
+			MX	100 zdve-mailx
+e-plt-nas		A	134.96.210.36
+			MX	100 zdve-mailx
+e-plt-nb1		A	134.96.210.37
+			MX	100 zdve-mailx
+e-plt-nb2		A	134.96.210.38
+			MX	100 zdve-mailx
+e-plt-nb3		A	134.96.210.39
+			MX	100 zdve-mailx
+e-plt-pc1		A	134.96.210.41
+			MX	100 zdve-mailx
+e-plt-pc10		A	134.96.210.50
+			MX	100 zdve-mailx
+e-plt-pc11		A	134.96.210.51
+			MX	100 zdve-mailx
+e-plt-pc12		A	134.96.210.52
+			MX	100 zdve-mailx
+e-plt-pc13		A	134.96.210.53
+			MX	100 zdve-mailx
+e-plt-pc14		A	134.96.210.54
+			MX	100 zdve-mailx
+e-plt-pc15		A	134.96.210.55
+			MX	100 zdve-mailx
+e-plt-pc16		A	134.96.210.56
+			MX	100 zdve-mailx
+e-plt-pc17		A	134.96.210.57
+			MX	100 zdve-mailx
+e-plt-pc18		A	134.96.210.58
+			MX	100 zdve-mailx
+e-plt-pc19		A	134.96.210.59
+			MX	100 zdve-mailx
+e-plt-pc2		A	134.96.210.42
+			MX	100 zdve-mailx
+e-plt-pc20		A	134.96.210.60
+			MX	100 zdve-mailx
+e-plt-pc21		A	134.96.210.61
+			MX	100 zdve-mailx
+e-plt-pc3		A	134.96.210.43
+			MX	100 zdve-mailx
+e-plt-pc4		A	134.96.210.44
+			MX	100 zdve-mailx
+e-plt-pc5		A	134.96.210.45
+			MX	100 zdve-mailx
+e-plt-pc6		A	134.96.210.46
+			MX	100 zdve-mailx
+e-plt-pc7		A	134.96.210.47
+			MX	100 zdve-mailx
+e-plt-pc8		A	134.96.210.48
+			MX	100 zdve-mailx
+e-plt-pc9		A	134.96.210.49
+			MX	100 zdve-mailx
+e-plt-prt		A	134.96.210.62
+			MX	100 zdve-mailx
+e-plt-server		A	134.96.210.34
+			MX	100 zdve-mailx
+e-sekretariat		A	134.96.214.47
+			MX	100 zdve-mailx
+e-wern-1		A	134.96.214.60
+			MX	100 zdve-mailx
+e-wern-2		A	134.96.214.61
+			MX	100 zdve-mailx
+e-wern-3		A	134.96.214.62
+			MX	100 zdve-mailx
+e-wern-4		A	134.96.214.63
+			MX	100 zdve-mailx
+e-wern-5		A	134.96.214.64
+			MX	100 zdve-mailx
+e-wern-6		A	134.96.214.65
+			MX	100 zdve-mailx
+e-wern-7		A	134.96.214.66
+			MX	100 zdve-mailx
+e-wern-lin		A	134.96.214.26
+			MX	100 zdve-mailx
+ecc			CNAME	ecc-s1
+ecc-abb			A	134.96.213.61
+			MX	90 ecc-abb
+ecc-lap			A	134.96.213.70
+			MX	100 zdve-mailx
+ecc-nt1			A	134.96.213.62
+			MX	100 zdve-mailx
+ecc-nt2			A	134.96.213.64
+			MX	100 zdve-mailx
+ecc-nt3			A	134.96.213.71
+			MX	100 zdve-mailx
+ecc-s1			A	134.96.213.60
+			MX	100 zdve-mailx
+ecc-s2			A	134.96.213.65
+			MX	100 zdve-mailx
+ecc-srv			A	134.96.213.63
+			MX	90 ecc-srv
+ecc-tape		A	134.96.213.81
+			MX	100 zdve-mailx
+ecc-w1			A	134.96.213.2
+			MX	100 zdve-mailx
+ecc-w10			A	134.96.213.11
+			MX	100 zdve-mailx
+ecc-w11			A	134.96.213.12
+			MX	100 zdve-mailx
+ecc-w12			A	134.96.213.13
+			MX	100 zdve-mailx
+ecc-w13			A	134.96.213.14
+			MX	100 zdve-mailx
+ecc-w14			A	134.96.213.15
+			MX	100 zdve-mailx
+ecc-w15			A	134.96.213.16
+			MX	100 zdve-mailx
+ecc-w16			A	134.96.213.17
+			MX	100 zdve-mailx
+ecc-w17			A	134.96.213.18
+			MX	100 zdve-mailx
+ecc-w18			A	134.96.213.19
+			MX	100 zdve-mailx
+ecc-w19			A	134.96.213.20
+			MX	100 zdve-mailx
+ecc-w2			A	134.96.213.3
+			MX	100 zdve-mailx
+ecc-w20			A	134.96.213.21
+			MX	100 zdve-mailx
+ecc-w21			A	134.96.213.22
+			MX	100 zdve-mailx
+ecc-w22			A	134.96.213.23
+			MX	100 zdve-mailx
+ecc-w23			A	134.96.213.24
+			MX	100 zdve-mailx
+ecc-w24			A	134.96.213.25
+			MX	100 zdve-mailx
+ecc-w25			A	134.96.213.26
+			MX	100 zdve-mailx
+ecc-w26			A	134.96.213.27
+			MX	100 zdve-mailx
+ecc-w27			A	134.96.213.28
+			MX	100 zdve-mailx
+ecc-w28			A	134.96.213.29
+			MX	100 zdve-mailx
+ecc-w29			A	134.96.213.30
+			MX	100 zdve-mailx
+ecc-w3			A	134.96.213.4
+			MX	100 zdve-mailx
+ecc-w30			A	134.96.213.31
+			MX	100 zdve-mailx
+ecc-w31			A	134.96.213.32
+			MX	100 zdve-mailx
+ecc-w32			A	134.96.213.33
+			MX	100 zdve-mailx
+ecc-w33			A	134.96.213.34
+			MX	100 zdve-mailx
+ecc-w34			A	134.96.213.35
+			MX	100 zdve-mailx
+ecc-w35			A	134.96.213.36
+			MX	100 zdve-mailx
+ecc-w36			A	134.96.213.37
+			MX	100 zdve-mailx
+ecc-w37			A	134.96.213.38
+			MX	100 zdve-mailx
+ecc-w38			A	134.96.213.39
+			MX	100 zdve-mailx
+ecc-w39			A	134.96.213.40
+			MX	100 zdve-mailx
+ecc-w4			A	134.96.213.5
+			MX	100 zdve-mailx
+ecc-w40			A	134.96.213.41
+			MX	100 zdve-mailx
+ecc-w41			A	134.96.213.42
+			MX	100 zdve-mailx
+ecc-w42			A	134.96.213.43
+			MX	100 zdve-mailx
+ecc-w43			A	134.96.213.44
+			MX	100 zdve-mailx
+ecc-w44			A	134.96.213.45
+			MX	100 zdve-mailx
+ecc-w45			A	134.96.213.46
+			MX	100 zdve-mailx
+ecc-w46			A	134.96.213.47
+			MX	100 zdve-mailx
+ecc-w47			A	134.96.213.48
+			MX	100 zdve-mailx
+ecc-w48			A	134.96.213.49
+			MX	100 zdve-mailx
+ecc-w49			A	134.96.213.54
+			MX	100 zdve-mailx
+ecc-w5			A	134.96.213.6
+			MX	100 zdve-mailx
+ecc-w50			A	134.96.213.56
+			MX	100 zdve-mailx
+ecc-w51			A	134.96.213.57
+			MX	100 zdve-mailx
+ecc-w52			A	134.96.213.58
+			MX	100 zdve-mailx
+ecc-w53			A	134.96.213.59
+			MX	100 zdve-mailx
+ecc-w54			A	134.96.213.66
+			MX	100 zdve-mailx
+ecc-w55			A	134.96.213.67
+			MX	100 zdve-mailx
+ecc-w56			A	134.96.213.68
+			MX	100 zdve-mailx
+ecc-w57			A	134.96.213.69
+			MX	100 zdve-mailx
+ecc-w58			A	134.96.213.72
+			MX	100 zdve-mailx
+ecc-w59			A	134.96.213.73
+			MX	100 zdve-mailx
+ecc-w6			A	134.96.213.7
+			MX	100 zdve-mailx
+ecc-w60			A	134.96.213.74
+			MX	100 zdve-mailx
+ecc-w7			A	134.96.213.8
+			MX	100 zdve-mailx
+ecc-w8			A	134.96.213.9
+			MX	100 zdve-mailx
+ecc-w9			A	134.96.213.10
+			MX	100 zdve-mailx
+eccdja0			A	134.96.213.53
+eccdja3			A	134.96.213.52
+			MX	100 zdve-mailx
+ecclja3			A	134.96.213.51
+			MX	100 zdve-mailx
+ecclja4			A	134.96.213.50
+			MX	100 zdve-mailx
+ecclja42		A	134.96.213.55
+ecclja43		A	134.96.213.80
+			MX	100 zdve-mailx
+eev-30			A	134.96.217.136
+			MX	100 zdve-mailx
+eig-barney		A	134.96.213.198
+			MX	100 zdve-mailx
+eig-bender		A	134.96.213.197
+			MX	100 zdve-mailx
+eig-flexo		A	134.96.213.196
+			MX	100 zdve-mailx
+eig-fw1			A	134.96.213.194
+			MX	100 zdve-mailx
+eig-fw2			A	134.96.213.195
+			MX	100 zdve-mailx
+eig-krusty		A	134.96.213.200
+			MX	100 zdve-mailx
+eig-milhouse		A	134.96.213.201
+			MX	100 zdve-mailx
+eig-montgomery		A	134.96.213.199
+			MX	100 zdve-mailx
+elab-info		A	134.96.208.104
+			MX	100 zdve-mailx
+elab-student		A	134.96.217.151
+			MX	100 zdve-mailx
+elektrotechnik		CNAME	zdve-mailx
+emf-saar		A	134.96.208.111
+			MX	100 zdve-mailx
+emf-server-2008-1	A	134.96.208.124
+			MX	100 zdve-mailx
+emf-server-2008-2	A	134.96.208.125
+			MX	100 zdve-mailx
+emf-server-2008-virt	A	134.96.208.126
+			MX	100 zdve-mailx
+emrolab			CNAME	kil-s-web
+emrolab-02		A	134.96.216.3
+			MX	100 zdve-mailx
+emrolab-v1		A	134.96.216.6
+			MX	100 zdve-mailx
+enalgae			A	134.96.210.142
+			MX	100 zdve-mailx
+energiemanagement	CNAME	zdve-mailx
+energietechnik		A	134.96.215.67
+			MX	100 zdve-mailx
+energietechnik-ii	A	134.96.215.117
+			MX	100 zdve-mailx
+euklid			A	134.96.214.162
+			MX	100 zdve-mailx
+euler			A	134.96.214.149
+			MX	100 zdve-mailx
+evaweb			A	134.96.210.132
+			MX	100 zdve-mailx
+extranet		CNAME	auslegestelle-tmp
+ezg-pc1			A	134.96.208.162
+			MX	100 zdve-mailx
+fbv			A	134.96.215.53
+			MX	100 zdve-mailx
+fbv-gis			A	134.96.214.135
+			MX	100 zdve-mailx
+fermat			A	134.96.214.225
+			MX	100 zdve-mailx
+fgkab-1			A	134.96.213.222
+			MX	100 zdve-mailx
+fgkab-2			A	134.96.213.223
+			MX	100 zdve-mailx
+fgkab-3			A	134.96.213.224
+			MX	100 zdve-mailx
+fgkab-4			A	134.96.213.225
+			MX	100 zdve-mailx
+fgvt-fw1		A	134.96.213.202
+			MX	90 fgvt-fw1
+fgvt-o-01		A	134.96.213.214
+			MX	100 zdve-mailx
+fgvt-o-02		A	134.96.213.215
+			MX	100 zdve-mailx
+fibonacci		A	134.96.214.150
+			MX	100 zdve-mailx
+fitt-01			A	134.96.217.66
+			MX	100 zdve-mailx
+fitt-02			A	134.96.217.67
+			MX	100 zdve-mailx
+fitt-03			A	134.96.217.68
+			MX	100 zdve-mailx
+fitt-04			A	134.96.217.69
+			MX	100 zdve-mailx
+fitt-05			A	134.96.217.70
+			MX	100 zdve-mailx
+fitt-06			A	134.96.217.71
+			MX	100 zdve-mailx
+fitt-07			A	134.96.217.72
+			MX	100 zdve-mailx
+fitt-08			A	134.96.217.73
+			MX	100 zdve-mailx
+fitt-09			A	134.96.217.74
+			MX	100 zdve-mailx
+fitt-10			A	134.96.217.75
+			MX	100 zdve-mailx
+flash			A	134.96.216.46
+			MX	100 zdve-mailx
+flieger			A	134.96.213.203
+			MX	100 zdve-mailx
+foko-2			A	134.96.209.2
+			MX	100 zdve-mailx
+fourier			A	134.96.214.151
+			MX	100 zdve-mailx
+fr-lap			A	134.96.215.62
+			MX	100 zdve-mailx
+fricke-andreas		A	134.96.215.8
+			MX	100 zdve-mailx
+fs-bi-e-m		A	134.96.209.194
+			MX	100 zdve-mailx
+fsgis-1			A	134.96.209.198
+			MX	100 zdve-mailx
+gaia			CNAME	wiwi-rom
+galois			A	134.96.214.229
+			MX	100 zdve-mailx
+gartentherapie		CNAME	zdve-mailx
+gauss			A	134.96.214.224
+			MX	100 zdve-mailx
+gb			A	134.96.215.96
+			MX	100 zdve-mailx
+gessatj			A	134.96.214.192
+			MX	100 zdve-mailx
+gesundheit-pflege	CNAME	zdve-mailx
+gesundheitsmanagement	CNAME	zdve-mailx
+gis-5310		A	134.96.214.235
+			MX	100 zdve-mailx
+gis-sek-notebook	A	134.96.214.137
+			MX	100 zdve-mailx
+goe-db-03		A	134.96.212.152
+			MX	100 zdve-mailx
+goe-drm-01		A	134.96.212.160
+			MX	100 zdve-mailx
+goe-fk-01		A	134.96.209.5
+			MX	100 zdve-mailx
+goe-fo-01		A	134.96.214.218
+			MX	100 zdve-mailx
+goe-gis-01		A	134.96.214.134
+			MX	100 zdve-mailx
+goe-gis-06		A	134.96.214.139
+			MX	100 zdve-mailx
+goe-gis-13		A	134.96.214.143
+			MX	100 zdve-mailx
+goe-gis-14		A	134.96.214.144
+			MX	100 zdve-mailx
+goe-gis-15		A	134.96.214.145
+			MX	100 zdve-mailx
+goe-gis-30		A	134.96.214.159
+			MX	100 zdve-mailx
+goe-hm-01		A	134.96.212.175
+			MX	100 zdve-mailx
+goe-m-02		A	134.96.215.18
+			MX	100 zdve-mailx
+goe-m-04		A	134.96.215.20
+			MX	100 zdve-mailx
+goe-m-05		A	134.96.215.21
+			MX	100 zdve-mailx
+goe-m-06		A	134.96.215.22
+			MX	100 zdve-mailx
+goe-m-07		A	134.96.215.23
+			MX	100 zdve-mailx
+goe-m-08		A	134.96.215.24
+			MX	100 zdve-mailx
+goe-m-09		A	134.96.215.25
+			MX	100 zdve-mailx
+goe-m-10		A	134.96.215.26
+			MX	100 zdve-mailx
+goe-m-11		A	134.96.215.27
+			MX	100 zdve-mailx
+goe-m-12		A	134.96.215.28
+			MX	100 zdve-mailx
+goe-m-13		A	134.96.215.29
+			MX	100 zdve-mailx
+goe-m-15		A	134.96.215.31
+			MX	100 zdve-mailx
+goe-m-16		A	134.96.215.32
+			MX	100 zdve-mailx
+goe-m-17		A	134.96.215.33
+			MX	100 zdve-mailx
+goe-m-18		A	134.96.215.34
+			MX	100 zdve-mailx
+goe-m-19		A	134.96.215.35
+			MX	100 zdve-mailx
+goe-m-20		A	134.96.215.36
+			MX	100 zdve-mailx
+goe-m-21		A	134.96.215.37
+			MX	100 zdve-mailx
+goe-m-22		A	134.96.215.38
+			MX	100 zdve-mailx
+goe-m-23		A	134.96.215.75
+			MX	100 zdve-mailx
+goe-m-24		A	134.96.215.83
+			MX	100 zdve-mailx
+goe-m-25		A	134.96.215.90
+			MX	100 zdve-mailx
+goe-m-26		A	134.96.215.61
+			MX	100 zdve-mailx
+goe-m-ca		A	134.96.215.76
+			MX	100 zdve-mailx
+goe-prakt-01		A	134.96.212.226
+			MX	100 zdve-mailx
+goe-r-01		A	134.96.209.12
+			MX	100 zdve-mailx
+goe-r-02		A	134.96.209.13
+			MX	100 zdve-mailx
+goe-r-04		A	134.96.209.15
+			MX	100 zdve-mailx
+goe-r-05		A	134.96.209.16
+			MX	100 zdve-mailx
+goe-r-06		A	134.96.209.17
+			MX	100 zdve-mailx
+goe-s			A	134.96.209.43
+			MX	100 zdve-mailx
+goe-zdve-kolbusch	A	134.96.209.145
+			MX	100 zdve-mailx
+goe-zv-02		A	134.96.212.162
+			MX	100 zdve-mailx
+goe-zv-03		A	134.96.212.163
+			MX	100 zdve-mailx
+goe-zv-04		A	134.96.212.164
+			MX	100 zdve-mailx
+goe-zv-hk		A	134.96.212.185
+			MX	100 zdve-mailx
+goe052-3200-1		A	134.96.208.4
+goe08a2-3c33-1		A	134.96.208.3
+gup			CNAME	zdve-mailx
+hardware		A	134.96.214.209
+			MX	100 zdve-mailx
+hf-computer		A	134.96.213.205
+			MX	100 zdve-mailx
+highvolt01		A	134.96.208.194
+			MX	100 zdve-mailx
+highvolt02		A	134.96.208.195
+			MX	100 zdve-mailx
+highvolt03		A	134.96.208.196
+			MX	100 zdve-mailx
+highvolt04		A	134.96.208.205
+			MX	100 zdve-mailx
+highvolt05		A	134.96.208.206
+			MX	100 zdve-mailx
+highvolt06		A	134.96.208.207
+			MX	100 zdve-mailx
+highvolt07		A	134.96.208.208
+			MX	100 zdve-mailx
+hilbert			A	134.96.214.183
+			MX	100 zdve-mailx
+hiwi-jaeger		A	134.96.212.222
+			MX	100 zdve-mailx
+hiz-bignet		A	134.96.209.141
+HIZ-DR-KYOCERA		A	134.96.209.139
+HIZ-DR-Raum-8128	A	134.96.209.132
+HIZ-DR-RAUM-8204	A	134.96.209.156
+HIZ-DX-Client		A	134.96.209.144
+			MX	100 zdve-mailx
+hiz-just		A	134.96.209.151
+			MX	100 zdve-mailx
+hiz-phoner		A	134.96.209.153
+			MX	100 zdve-mailx
+HIZ-Praktikant		A	134.96.209.148
+			MX	100 zdve-mailx
+hk-vista32		A	134.96.208.171
+			MX	100 zdve-mailx
+hk-vista64		A	134.96.208.172
+			MX	100 zdve-mailx
+hochschulsport		CNAME	zdve-mailx
+hp-msauer		A	134.96.212.224
+			MX	100 zdve-mailx
+hpdet			A	134.96.209.38
+			MX	100 zdve-mailx
+htw-dc1			A	134.96.208.36
+			MX	100 zdve-mailx
+htw-dc2			A	134.96.208.35
+			MX	100 zdve-mailx
+htw-dc3			A	134.96.208.45
+			MX	100 zdve-mailx
+htw-personalrat		A	134.96.208.166
+			MX	100 zdve-mailx
+htw-portal		CNAME	portal
+htwbiovt5mob		A	134.96.215.89
+			MX	100 zdve-mailx
+htwbiovt8		A	134.96.215.116
+			MX	100 zdve-mailx
+htwbiovt9		A	134.96.215.13
+			MX	100 zdve-mailx
+htwfp02			A	134.96.214.112
+			MX	100 zdve-mailx
+htz-hsm			A	134.96.212.220
+			MX	100 zdve-mailx
+htz-pforte		A	134.96.212.221
+			MX	100 zdve-mailx
+hwl-01			A	134.96.213.130
+			MX	100 zdve-mailx
+hwl-02			A	134.96.213.131
+			MX	100 zdve-mailx
+hwl-03			A	134.96.213.132
+			MX	100 zdve-mailx
+hwl-04			A	134.96.213.133
+			MX	100 zdve-mailx
+hwl-05			A	134.96.213.134
+			MX	100 zdve-mailx
+hwl-06			A	134.96.213.135
+			MX	100 zdve-mailx
+hwl-07			A	134.96.213.136
+			MX	100 zdve-mailx
+hwl-08			A	134.96.213.137
+			MX	100 zdve-mailx
+hwl-09			A	134.96.213.138
+			MX	100 zdve-mailx
+hwl-10			A	134.96.213.139
+			MX	100 zdve-mailx
+hwl-11			A	134.96.213.140
+			MX	100 zdve-mailx
+hwl-12			A	134.96.213.141
+			MX	100 zdve-mailx
+hwl-13			A	134.96.213.142
+			MX	100 zdve-mailx
+hwl-14			A	134.96.213.143
+			MX	100 zdve-mailx
+hwl-15			A	134.96.213.144
+			MX	100 zdve-mailx
+hwl-16			A	134.96.213.145
+			MX	100 zdve-mailx
+hwl-17			A	134.96.213.146
+			MX	100 zdve-mailx
+hwl-18			A	134.96.213.147
+			MX	100 zdve-mailx
+hwl-19			A	134.96.213.148
+			MX	100 zdve-mailx
+hwl-20			A	134.96.213.149
+			MX	100 zdve-mailx
+hwl-21			A	134.96.213.150
+			MX	100 zdve-mailx
+hwl-22			A	134.96.213.151
+			MX	100 zdve-mailx
+hwl-23			A	134.96.213.152
+			MX	100 zdve-mailx
+hwl-24			A	134.96.213.153
+			MX	100 zdve-mailx
+hwl-25			A	134.96.213.154
+			MX	100 zdve-mailx
+hwl-26			A	134.96.213.155
+			MX	100 zdve-mailx
+hwl-27			A	134.96.213.156
+			MX	100 zdve-mailx
+hwl-28			A	134.96.213.157
+			MX	100 zdve-mailx
+hwl-29			A	134.96.213.158
+			MX	100 zdve-mailx
+hwl-30			A	134.96.213.159
+			MX	100 zdve-mailx
+hwl-31			A	134.96.213.160
+			MX	100 zdve-mailx
+hwl-32			A	134.96.213.161
+			MX	100 zdve-mailx
+hwl-33			A	134.96.213.162
+			MX	100 zdve-mailx
+hwl-34			A	134.96.213.163
+			MX	100 zdve-mailx
+hwl-35			A	134.96.213.164
+			MX	100 zdve-mailx
+hwl-36			A	134.96.213.165
+			MX	100 zdve-mailx
+hwl-37			A	134.96.213.166
+			MX	100 zdve-mailx
+hwl-38			A	134.96.213.167
+			MX	100 zdve-mailx
+hwl-39			A	134.96.213.168
+			MX	100 zdve-mailx
+hwl-40			A	134.96.213.169
+			MX	100 zdve-mailx
+hwl-41			A	134.96.213.170
+			MX	100 zdve-mailx
+hwl-42			A	134.96.213.171
+			MX	100 zdve-mailx
+hwl-demo		A	134.96.213.185
+			MX	100 zdve-mailx
+hwl-drucker		A	134.96.213.184
+			MX	100 zdve-mailx
+hwl-laser		A	134.96.213.189
+			MX	100 zdve-mailx
+hwl-lizenz		A	134.96.214.221
+			MX	100 zdve-mailx
+hwl-nw			A	134.96.213.190
+			MX	100 zdve-mailx
+hwl-oszi		A	134.96.213.187
+			MX	100 zdve-mailx
+hwl-pc-01		A	134.96.214.196
+			MX	100 zdve-mailx
+hwl-pc-02		A	134.96.214.197
+			MX	100 zdve-mailx
+hwl-pc-03		A	134.96.214.198
+			MX	100 zdve-mailx
+hwl-pc-04		A	134.96.214.200
+			MX	100 zdve-mailx
+hwl-pc-05		A	134.96.214.201
+			MX	100 zdve-mailx
+hwl-printer		A	134.96.213.188
+			MX	100 zdve-mailx
+hwl-time		A	134.96.213.186
+			MX	100 zdve-mailx
+hwl-win			A	134.96.213.183
+			MX	100 zdve-mailx
+ibo-butterbach		A	134.96.215.118
+			MX	100 zdve-mailx
+icard			A	134.96.212.225
+			MX	100 zdve-mailx
+icms			A	134.96.209.46
+			MX	100 zdve-mailx
+imap			CNAME	itz-mail
+inf			CNAME	zdve-mailx
+informatik		CNAME	zdve-mailx
+inpeo-14		A	134.96.215.120
+			MX	100 zdve-mailx
+inpeo-15		A	134.96.215.123
+			MX	100 zdve-mailx
+inpeo-bionik-cadfem	A	134.96.215.70
+			MX	100 zdve-mailx
+inpeo-laserdrucker	A	134.96.215.73
+			MX	100 zdve-mailx
+inpeo-mitarbeiter-1	A	134.96.215.58
+			MX	100 zdve-mailx
+inpeo-mitarbeiter-2	A	134.96.215.59
+			MX	100 zdve-mailx
+inpeo-pfeifer		A	134.96.215.95
+			MX	100 zdve-mailx
+inpeo-station		A	134.96.215.97
+			MX	100 zdve-mailx
+inpeo03			A	134.96.215.65
+			MX	100 zdve-mailx
+intranet		A	134.96.208.136
+			MX	100 zdve-mailx
+ipp-5			A	134.96.215.114
+			MX	100 zdve-mailx
+ipp-desktop-04		A	134.96.215.15
+			MX	100 zdve-mailx
+iscom			CNAME	wiwi-rom
+isfates			A	134.96.216.216
+			MX	30 m-relay.rz.uni-saarland.de.
+			MX	50 m-relay2.rz.uni-saarland.de.
+			MX	70 m-relay3.rz.uni-saarland.de.
+isfates-dfhi		A	134.96.216.213
+			MX	100 zdve-mailx
+isl-c-01		A	134.96.216.81
+			MX	100 zdve-mailx
+isl-c-02		A	134.96.216.82
+			MX	100 zdve-mailx
+isl-c-03		A	134.96.216.83
+			MX	100 zdve-mailx
+isl-c-04		A	134.96.216.84
+			MX	100 zdve-mailx
+isl-c-05		A	134.96.216.85
+			MX	100 zdve-mailx
+isl-c-06		A	134.96.216.86
+			MX	100 zdve-mailx
+isl-c-07		A	134.96.216.87
+			MX	100 zdve-mailx
+isl-c-08		A	134.96.216.88
+			MX	100 zdve-mailx
+isl-c-09		A	134.96.216.89
+			MX	100 zdve-mailx
+isl-c-10		A	134.96.216.90
+			MX	100 zdve-mailx
+isl-l-01		A	134.96.216.93
+			MX	100 zdve-mailx
+isl-l-02		A	134.96.216.94
+			MX	100 zdve-mailx
+isl-l-03		A	134.96.216.95
+			MX	100 zdve-mailx
+isl-l-04		A	134.96.216.96
+			MX	100 zdve-mailx
+isl-l-05		A	134.96.216.97
+			MX	100 zdve-mailx
+isl-s-01		A	134.96.216.91
+			MX	100 zdve-mailx
+isl-s-02		A	134.96.216.92
+			MX	100 zdve-mailx
+isl-s-03		A	134.96.216.80
+			MX	100 zdve-mailx
+isl-s-04		A	134.96.216.79
+			MX	100 zdve-mailx
+it-team			A	134.96.219.173
+			MX	100 zdve-mailx
+itz-2008r2		A	134.96.209.154
+			MX	100 zdve-mailx
+itz-archiv		A	134.96.209.155
+			MX	100 zdve-mailx
+itz-bignet		A	134.96.209.142
+			MX	100 zdve-mailx
+itz-dx			A	134.96.208.40
+			MX	100 zdve-mailx
+itz-edimax		A	134.96.209.135
+			MX	100 zdve-mailx
+itz-huebner		A	134.96.209.140
+			MX	100 zdve-mailx
+itz-imap		CNAME	www-proxy
+itz-kvm-switch1		A	134.96.209.133
+itz-kvm-switch2		A	134.96.209.134
+			MX	100 zdve-mailx
+itz-label		A	134.96.209.149
+			MX	90 itz-label
+itz-laudwein		A	134.96.209.157
+			MX	100 zdve-mailx
+itz-lizenz		A	134.96.208.43
+			MX	100 zdve-mailx
+itz-lizenzserver	A	134.96.208.37
+			MX	100 zdve-mailx
+itz-mail		A	134.96.210.141
+			MX	90 itz-mail
+itz-mail-test		A	134.96.210.139
+			MX	90 itz-mail-test
+itz-projekt		A	134.96.208.42
+			MX	100 zdve-mailx
+itz-td			A	134.96.209.136
+			MX	100 zdve-mailx
+itz-thin		A	134.96.209.147
+			MX	100 zdve-mailx
+itz-usb			A	134.96.208.41
+			MX	100 zdve-mailx
+itz-wsus		A	134.96.208.38
+			MX	100 zdve-mailx
+jacob-3			A	134.96.212.177
+			MX	100 zdve-mailx
+jh-lbf			A	134.96.215.82
+			MX	100 zdve-mailx
+jobboerse		CNAME	stud-i-verwaltung
+khaarazmi		A	134.96.214.160
+			MX	100 zdve-mailx
+ki-server		A	134.96.208.107
+			MX	100 zdve-mailx
+kil-gw-office		A	134.96.216.2
+			MX	100 zdve-mailx
+kil-lms			A	134.96.216.65
+			MX	100 zdve-mailx
+kil-m-01		A	134.96.216.11
+			MX	100 zdve-mailx
+kil-m-02		A	134.96.216.12
+			MX	100 zdve-mailx
+kil-m-03		A	134.96.216.13
+			MX	100 zdve-mailx
+kil-m-04		A	134.96.216.14
+			MX	100 zdve-mailx
+kil-m-05		A	134.96.216.15
+			MX	100 zdve-mailx
+kil-m-06		A	134.96.216.16
+			MX	100 zdve-mailx
+kil-m-07		A	134.96.216.17
+			MX	100 zdve-mailx
+kil-m-08		A	134.96.216.18
+			MX	100 zdve-mailx
+kil-m-09		A	134.96.216.19
+			MX	100 zdve-mailx
+kil-m-10		A	134.96.216.20
+			MX	100 zdve-mailx
+kil-m-11		A	134.96.216.21
+			MX	100 zdve-mailx
+kil-m-12		A	134.96.216.22
+			MX	100 zdve-mailx
+kil-m-13		A	134.96.216.23
+			MX	100 zdve-mailx
+kil-m-14		A	134.96.216.24
+			MX	100 zdve-mailx
+kil-m-15		A	134.96.216.25
+			MX	100 zdve-mailx
+kil-m-16		A	134.96.216.26
+			MX	100 zdve-mailx
+kil-m-17		A	134.96.216.27
+			MX	100 zdve-mailx
+kil-m-18		A	134.96.216.28
+			MX	100 zdve-mailx
+kil-m-19		A	134.96.216.29
+			MX	100 zdve-mailx
+kil-m-20		A	134.96.216.30
+			MX	100 zdve-mailx
+kil-m-21		A	134.96.216.31
+			MX	100 zdve-mailx
+kil-m-22		A	134.96.216.32
+			MX	100 zdve-mailx
+kil-m-23		A	134.96.216.33
+			MX	100 zdve-mailx
+kil-m-24		A	134.96.216.34
+			MX	100 zdve-mailx
+kil-m-25		A	134.96.216.35
+			MX	100 zdve-mailx
+kil-m-26		A	134.96.216.36
+			MX	100 zdve-mailx
+kil-m-27		A	134.96.216.37
+			MX	100 zdve-mailx
+kil-m-28		A	134.96.216.38
+			MX	100 zdve-mailx
+kil-m-29		A	134.96.216.39
+			MX	100 zdve-mailx
+kil-m-30		A	134.96.216.40
+			MX	100 zdve-mailx
+kil-m-31		A	134.96.216.41
+			MX	100 zdve-mailx
+kil-m-32		A	134.96.216.42
+			MX	100 zdve-mailx
+kil-m-33		A	134.96.216.43
+			MX	100 zdve-mailx
+kil-m-34		A	134.96.216.44
+			MX	100 zdve-mailx
+kil-m-35		A	134.96.216.45
+			MX	100 zdve-mailx
+kil-m-master		A	134.96.216.10
+			MX	100 zdve-mailx
+kil-m-referenz		A	134.96.216.9
+			MX	100 zdve-mailx
+kil-marion		A	134.96.216.53
+			MX	100 zdve-mailx
+kil-msa-01		A	134.96.216.51
+			MX	100 zdve-mailx
+kil-msa-02		A	134.96.216.52
+			MX	100 zdve-mailx
+kil-pm			A	134.96.216.57
+			MX	100 zdve-mailx
+kil-prn-lj9k		A	134.96.216.58
+			MX	100 zdve-mailx
+kil-prn-term		A	134.96.216.7
+			MX	100 zdve-mailx
+kil-s-01		A	134.96.216.54
+			MX	100 zdve-mailx
+kil-s-02		A	134.96.216.60
+			MX	100 zdve-mailx
+kil-s-lizenz		A	134.96.216.55
+			MX	100 zdve-mailx
+kil-s-web		A	134.96.216.61
+			MX	100 zdve-mailx
+kim-01			A	134.96.215.39
+			MX	100 zdve-mailx
+kmux			A	134.96.215.165
+			MX	100 zdve-mailx
+krippenpaedagogik	CNAME	zdve-mailx
+ksk-8-01		A	134.96.214.252
+			MX	100 zdve-mailx
+ksk-8-02		A	134.96.214.253
+			MX	100 zdve-mailx
+ksk-8-03		A	134.96.214.254
+			MX	100 zdve-mailx
+kt-labor		A	134.96.214.131
+			MX	100 zdve-mailx
+kunz-drucker		A	134.96.214.38
+			MX	100 zdve-mailx
+kunz-fue-01		A	134.96.213.217
+			MX	100 zdve-mailx
+kunz-fue-02		A	134.96.213.218
+			MX	100 zdve-mailx
+kunz-fue-03		A	134.96.213.219
+			MX	100 zdve-mailx
+kunz-fue-04		A	134.96.213.220
+			MX	100 zdve-mailx
+kunz-fue-05		A	134.96.213.221
+			MX	100 zdve-mailx
+kunz-fue-server		A	134.96.213.216
+			MX	100 zdve-mailx
+labor-9207-c4-ag	A	134.96.215.78
+			MX	100 zdve-mailx
+labor-bio-vt1		A	134.96.215.79
+			MX	100 zdve-mailx
+labor-bio-vt2		A	134.96.215.57
+			MX	100 zdve-mailx
+labor-bio-vt3		A	134.96.215.87
+			MX	100 zdve-mailx
+labor-bio-vt4		A	134.96.215.17
+			MX	100 zdve-mailx
+labor-ipp		A	134.96.215.100
+			MX	100 zdve-mailx
+labor-r1		A	134.96.214.188
+			MX	100 zdve-mailx
+labor-student1		A	134.96.214.189
+			MX	100 zdve-mailx
+labor-student2		A	134.96.214.190
+			MX	100 zdve-mailx
+labor-student3		A	134.96.214.191
+			MX	100 zdve-mailx
+labormanagement		CNAME	zdve-mailx
+laborrechner		A	134.96.215.72
+			MX	100 zdve-mailx
+lap-2-calles		A	134.96.215.91
+			MX	100 zdve-mailx
+laplace			A	134.96.214.228
+			MX	100 zdve-mailx
+laptop-jh		A	134.96.215.113
+			MX	100 zdve-mailx
+laptop-weber		A	134.96.215.86
+			MX	100 zdve-mailx
+lbf-02			A	134.96.215.107
+			MX	100 zdve-mailx
+leibniz			A	134.96.214.223
+			MX	100 zdve-mailx
+lellig			A	134.96.214.158
+			MX	100 zdve-mailx
+lfzt-mobil1		A	134.96.215.77
+			MX	100 zdve-mailx
+liserv			A	134.96.208.121
+			MX	100 zdve-mailx
+litest			A	134.96.212.233
+			MX	100 zdve-mailx
+localhost		A	127.0.0.1
+logistik		CNAME	zdve-mailx
+loopback		CNAME	localhost
+m-brunner-01		A	134.96.215.40
+			MX	100 zdve-mailx
+m-deg-01		A	134.96.215.41
+			MX	100 zdve-mailx
+m-dweber-01		A	134.96.215.42
+			MX	100 zdve-mailx
+m-fbv			A	134.96.215.43
+			MX	100 zdve-mailx
+m-fbv-01		A	134.96.215.44
+			MX	100 zdve-mailx
+m-griebsch		A	134.96.215.98
+			MX	100 zdve-mailx
+m-hjw			A	134.96.215.101
+			MX	100 zdve-mailx
+m-lap-cal		A	134.96.215.45
+			MX	100 zdve-mailx
+m-lap-hjw		A	134.96.215.46
+			MX	100 zdve-mailx
+m-lap-jae		A	134.96.215.47
+			MX	100 zdve-mailx
+m-lor			A	134.96.215.48
+			MX	100 zdve-mailx
+m-mes-01		A	134.96.215.49
+			MX	100 zdve-mailx
+m-mes-02		A	134.96.215.50
+			MX	100 zdve-mailx
+m-reim			A	134.96.215.52
+			MX	100 zdve-mailx
+m-relay			A	134.96.7.3
+m-volk			A	134.96.215.55
+			MX	100 zdve-mailx
+m-volk1			A	134.96.215.4
+			MX	100 zdve-mailx
+magritte		A	134.96.216.98
+			MX	100 zdve-mailx
+mail			A	134.96.208.108
+			MX	10 mail
+malermeister		A	134.96.215.60
+marko-desktop		A	134.96.213.208
+			MX	100 zdve-mailx
+marko-fpga		A	134.96.213.210
+			MX	100 zdve-mailx
+marko-notebook		A	134.96.213.209
+			MX	100 zdve-mailx
+marko-spw		A	134.96.213.211
+			MX	100 zdve-mailx
+markov			A	134.96.208.99
+			MX	100 zdve-mailx
+markov2			CNAME	mathcoach
+maschinenbau-prozesstechnik CNAME zdve-mailx
+maschinenbau-techniker	CNAME	zdve-mailx
+mathcoach		A	134.96.208.113
+			MX	100 zdve-mailx
+matthias-mobil		A	134.96.213.204
+			MX	100 zdve-mailx
+mb-rechner		A	134.96.215.5
+			MX	100 zdve-mailx
+mbook-jh		A	134.96.215.122
+			MX	100 zdve-mailx
+md-xp			A	134.96.209.158
+			MX	100 zdve-mailx
+mechatronik-sensortechnik CNAME	zdve-mailx
+mediendidaktik		CNAME	zdve-mailx
+mf700			A	134.96.212.216
+			MX	100 zdve-mailx
+mint			CNAME	zdve-mailx
+mmoeller		A	134.96.217.137
+			MX	100 zdve-mailx
+moduldb			CNAME	www-crypto
+mp			CNAME	zdve-mailx
+mrl-p-fi		A	134.96.215.74
+			MX	100 zdve-mailx
+msick-pc01		A	134.96.215.54
+			MX	100 zdve-mailx
+mst			CNAME	zdve-mailx
+mst-9102-student-01	A	134.96.214.177
+			MX	100 zdve-mailx
+mst-9102-student-02	A	134.96.214.178
+			MX	100 zdve-mailx
+mst-9102-student-03	A	134.96.214.179
+			MX	100 zdve-mailx
+mst-9102-student-04	A	134.96.214.180
+			MX	100 zdve-mailx
+mst-9102-student-05	A	134.96.214.181
+			MX	100 zdve-mailx
+mt-14			A	134.96.214.108
+			MX	100 zdve-mailx
+mt-15			A	134.96.214.109
+			MX	100 zdve-mailx
+mt-16			A	134.96.214.110
+			MX	100 zdve-mailx
+myra			A	134.96.215.12
+			MX	100 zdve-mailx
+myrpc009934uni		A	134.96.210.187
+			MX	100 zdve-mailx
+nagios-management	A	134.96.208.2
+			MX	100 zdve-mailx
+net			NS	ns.rz.uni-saarland.de.
+			NS	ns0.rz.uni-saarland.de.
+net-mgt-v240		A	134.96.208.7
+net-mgt-v440		A	134.96.208.8
+net-mgt-x4150-web	A	134.96.208.10
+			MX	100 zdve-mailx
+nettool			A	134.96.208.6
+neubert-enrico		A	134.96.215.14
+			MX	100 zdve-mailx
+newton			A	134.96.208.119
+			MX	100 zdve-mailx
+niemann			A	134.96.212.210
+			MX	100 zdve-mailx
+note-balz		A	134.96.212.228
+			MX	100 zdve-mailx
+notebook1-sprlab	A	134.96.209.106
+			MX	100 zdve-mailx
+notebook2-sprlab	A	134.96.209.105
+			MX	100 zdve-mailx
+ns			A	134.96.208.98
+			MX	100 zdve-mailx
+ns1			A	134.96.216.214
+ns2			A	134.96.216.214
+ntams37			A	134.96.211.194
+			MX	100 zdve-mailx
+oki-c8600		A	134.96.215.166
+			MX	100 zdve-mailx
+oml-ml			A	134.96.214.194
+			MX	100 zdve-mailx
+pascal			A	134.96.214.176
+pc-albert		A	134.96.212.206
+			MX	100 zdve-mailx
+pc-hoffm		A	134.96.212.184
+			MX	100 zdve-mailx
+pc-la			A	134.96.212.212
+			MX	100 zdve-mailx
+pc-messtechnik		A	134.96.217.145
+			MX	100 zdve-mailx
+pc-mhh-aa		A	134.96.212.217
+			MX	100 zdve-mailx
+pc-otmar-klein		A	134.96.217.144
+			MX	100 zdve-mailx
+pc-praktikant		A	134.96.212.188
+			MX	100 zdve-mailx
+pc-reck			A	134.96.212.229
+			MX	100 zdve-mailx
+pc-schommer		A	134.96.212.148
+			MX	100 zdve-mailx
+pc-stud			A	134.96.215.80
+			MX	100 zdve-mailx
+pc-till			A	134.96.212.202
+			MX	100 zdve-mailx
+pc-waller		A	134.96.215.126
+			MX	100 zdve-mailx
+peano			A	134.96.214.184
+			MX	100 zdve-mailx
+pflege			CNAME	zdve-mailx
+physik-000		A	134.96.214.132
+physik-003		A	134.96.214.155
+			MX	100 zdve-mailx
+physik-004		A	134.96.214.156
+			MX	100 zdve-mailx
+physik-005		A	134.96.214.157
+			MX	100 zdve-mailx
+physik-006		A	134.96.214.182
+			MX	100 zdve-mailx
+physik-rt		A	134.96.214.202
+			MX	100 zdve-mailx
+physik-ub		A	134.96.214.199
+			MX	100 zdve-mailx
+physik01		A	134.96.214.153
+			MX	100 zdve-mailx
+physik02		A	134.96.214.154
+			MX	100 zdve-mailx
+physik03		A	134.96.214.138
+			MX	100 zdve-mailx
+pinghe			A	134.96.215.51
+			MX	100 zdve-mailx
+plt-server		A	134.96.210.40
+			MX	100 zdve-mailx
+pop			CNAME	itz-mail
+portal			A	134.96.208.66
+			MX	100 zdve-mailx
+portal-ts1		A	134.96.208.46
+			MX	100 zdve-mailx
+postalia		A	134.96.208.140
+praxis-ro		A	134.96.212.211
+			MX	100 zdve-mailx
+praxisref		A	134.96.212.198
+			MX	100 zdve-mailx
+prf-boeffel		A	134.96.212.158
+			MX	100 zdve-mailx
+prf-fritz		A	134.96.212.203
+			MX	100 zdve-mailx
+prf-klein		A	134.96.212.159
+			MX	100 zdve-mailx
+prf-koch		A	134.96.212.161
+			MX	100 zdve-mailx
+prf-ps			A	134.96.209.44
+printer01		A	134.96.213.207
+			MX	100 zdve-mailx
+prn-jd			A	134.96.212.235
+prn-rr			A	134.96.212.236
+			MX	100 zdve-mailx
+profservice		A	134.96.210.140
+			MX	100 zdve-mailx
+ps-a4-stud-sek		A	134.96.212.136
+ps-rek			A	134.96.209.36
+			MX	100 zdve-mailx
+ps-vd			A	134.96.209.34
+ps2105			A	134.96.209.39
+			MX	100 zdve-mailx
+puhl			A	134.96.215.68
+			MX	100 zdve-mailx
+qu			A	134.96.208.209
+			MX	100 zdve-mailx
+r-note			A	134.96.209.19
+			MX	100 zdve-mailx
+r-pc			A	134.96.209.20
+			MX	100 zdve-mailx
+r-schweickard		A	134.96.209.22
+			MX	100 zdve-mailx
+resman			A	134.96.218.71
+			MX	100 zdve-mailx
+reuter-hack-nb		A	134.96.215.11
+			MX	100 zdve-mailx
+ricomet01		A	134.96.213.212
+			MX	100 zdve-mailx
+rkre			A	134.96.214.126
+			MX	100 zdve-mailx
+rkre2			A	134.96.214.219
+			MX	100 zdve-mailx
+rtg-zv-s3		A	134.96.209.33
+rtg208-0		A	134.96.208.1
+rtg208-128		A	134.96.208.129
+rtg208-160		A	134.96.208.161
+rtg208-192		A	134.96.208.193
+rtg208-32		A	134.96.208.33
+rtg208-64		A	134.96.208.65
+rtg208-96		A	134.96.208.97
+rtg209-0		A	134.96.209.1
+rtg209-128		A	134.96.209.129
+rtg209-160		A	134.96.209.161
+rtg209-192		A	134.96.209.193
+rtg209-224		A	134.96.209.225
+rtg209-240		A	134.96.209.241
+rtg209-64		A	134.96.209.65
+rtg209-96		A	134.96.209.97
+rtg210-0		A	134.96.210.1
+rtg210-128		A	134.96.210.129
+rtg210-192		A	134.96.210.193
+rtg210-32		A	134.96.210.33
+rtg210-64		A	134.96.210.65
+rtg211-0		A	134.96.211.1
+rtg211-128		A	134.96.211.129
+rtg211-192		A	134.96.211.193
+rtg211-64		A	134.96.211.65
+rtg212-0		A	134.96.212.1
+rtg212-128		A	134.96.212.129
+rtg213-0		A	134.96.213.1
+rtg213-128		A	134.96.213.129
+rtg213-192		A	134.96.213.193
+rtg214-0		A	134.96.214.1
+rtg214-128		A	134.96.214.129
+rtg215-0		A	134.96.215.1
+rtg215-128		A	134.96.215.129
+rtg215-160		A	134.96.215.161
+rtg215-192		A	134.96.215.193
+rtg216-0		A	134.96.216.1
+rtg217-0		A	134.96.217.1
+rtg217-128		A	134.96.217.129
+rtg217-192		A	134.96.217.193
+rtg217-64		A	134.96.217.65
+rtg217-96		A	134.96.217.97
+rtg218-0		A	134.96.218.1
+rtg219-0		A	134.96.219.1
+rtg219-128		A	134.96.219.129
+saprouter		A	134.96.210.131
+			MX	100 zdve-mailx
+sas			CNAME	zdve-mailx
+scanner			A	134.96.212.215
+			MX	100 zdve-mailx
+schaper			A	134.96.215.121
+			MX	100 zdve-mailx
+schule-fuer-architektur-saar CNAME zdve-mailx
+schwingfestigkeit	A	134.96.215.16
+			MX	100 zdve-mailx
+sek-fbe			A	134.96.208.204
+			MX	100 zdve-mailx
+sekretariat-i-mst	A	134.96.214.195
+			MX	100 zdve-mailx
+server-cim-labor	A	134.96.215.112
+			MX	100 zdve-mailx
+servicecentermanagement	CNAME	zdve-mailx
+sew-mobil		A	134.96.215.85
+			MX	100 zdve-mailx
+sft-000			A	134.96.208.34
+			MX	100 zdve-mailx
+sft-003			A	134.96.214.147
+			MX	100 zdve-mailx
+sft-004			A	134.96.214.148
+			MX	100 zdve-mailx
+sft-005			A	134.96.214.133
+			MX	100 zdve-mailx
+sft-006			A	134.96.214.231
+			MX	100 zdve-mailx
+sft-007			A	134.96.214.232
+			MX	100 zdve-mailx
+sft-008			A	134.96.214.233
+			MX	100 zdve-mailx
+sft-009			A	134.96.214.234
+			MX	100 zdve-mailx
+sft-010			A	134.96.214.237
+			MX	100 zdve-mailx
+sft-011			A	134.96.214.238
+			MX	100 zdve-mailx
+sft-012			A	134.96.214.239
+			MX	100 zdve-mailx
+sft-013			A	134.96.214.240
+			MX	100 zdve-mailx
+sft-014			A	134.96.214.241
+			MX	100 zdve-mailx
+sft-015			A	134.96.214.242
+			MX	100 zdve-mailx
+sft-016			A	134.96.214.243
+			MX	100 zdve-mailx
+sft-017			A	134.96.214.244
+			MX	100 zdve-mailx
+sft-018			A	134.96.214.245
+			MX	100 zdve-mailx
+sft-020			A	134.96.214.170
+			MX	100 zdve-mailx
+sft-021			A	134.96.214.171
+			MX	100 zdve-mailx
+sft-022			A	134.96.214.172
+			MX	100 zdve-mailx
+sft-023			A	134.96.214.173
+			MX	100 zdve-mailx
+sft-024			A	134.96.214.174
+			MX	100 zdve-mailx
+sft-9104-3		A	134.96.214.140
+			MX	100 zdve-mailx
+sft-oml-a01		A	134.96.214.210
+			MX	100 zdve-mailx
+sft-oml-a02		A	134.96.214.211
+			MX	100 zdve-mailx
+sft-oml-a03		A	134.96.214.236
+			MX	100 zdve-mailx
+sft-oml-a04		A	134.96.214.164
+			MX	100 zdve-mailx
+sft-oml-a05		A	134.96.214.165
+			MX	100 zdve-mailx
+sft-oml-a06		A	134.96.214.166
+			MX	100 zdve-mailx
+sft-oml-a07		A	134.96.214.167
+			MX	100 zdve-mailx
+sft-oml-a08		A	134.96.214.168
+			MX	100 zdve-mailx
+sft-oml-a09		A	134.96.214.169
+			MX	100 zdve-mailx
+sicherheitsmanagement	CNAME	zdve-mailx
+sl-autorenplatz		A	134.96.218.70
+			MX	100 zdve-mailx
+sl-lehrer		A	134.96.218.67
+			MX	100 zdve-mailx
+sl-student01		A	134.96.218.33
+			MX	100 zdve-mailx
+sl-student02		A	134.96.218.34
+			MX	100 zdve-mailx
+sl-student03		A	134.96.218.35
+			MX	100 zdve-mailx
+sl-student04		A	134.96.218.36
+			MX	100 zdve-mailx
+sl-student05		A	134.96.218.37
+			MX	100 zdve-mailx
+sl-student06		A	134.96.218.38
+			MX	100 zdve-mailx
+sl-student07		A	134.96.218.39
+			MX	100 zdve-mailx
+sl-student08		A	134.96.218.40
+			MX	100 zdve-mailx
+sl-student09		A	134.96.218.41
+			MX	100 zdve-mailx
+sl-student10		A	134.96.218.42
+			MX	100 zdve-mailx
+sl-student11		A	134.96.218.43
+			MX	100 zdve-mailx
+sl-student12		A	134.96.218.44
+			MX	100 zdve-mailx
+sl-student13		A	134.96.218.45
+			MX	100 zdve-mailx
+sl-student14		A	134.96.218.46
+			MX	100 zdve-mailx
+sl-student15		A	134.96.218.47
+			MX	100 zdve-mailx
+sl-student16		A	134.96.218.48
+			MX	100 zdve-mailx
+sl-student17		A	134.96.218.49
+			MX	100 zdve-mailx
+sl-student18		A	134.96.218.50
+			MX	100 zdve-mailx
+sl-student19		A	134.96.218.51
+			MX	100 zdve-mailx
+sl-student20		A	134.96.218.52
+			MX	100 zdve-mailx
+sl-student21		A	134.96.218.53
+			MX	100 zdve-mailx
+sl-student22		A	134.96.218.54
+			MX	100 zdve-mailx
+sl-student23		A	134.96.218.55
+			MX	100 zdve-mailx
+sl-student24		A	134.96.218.56
+			MX	100 zdve-mailx
+sl-student25		A	134.96.218.57
+			MX	100 zdve-mailx
+sl-student26		A	134.96.218.58
+			MX	100 zdve-mailx
+sl-student27		A	134.96.218.59
+			MX	100 zdve-mailx
+sl-student28		A	134.96.218.60
+			MX	100 zdve-mailx
+sl-student29		A	134.96.218.61
+			MX	100 zdve-mailx
+sl-student30		A	134.96.218.62
+			MX	100 zdve-mailx
+sl-student31		A	134.96.218.63
+			MX	100 zdve-mailx
+sl-student32		A	134.96.218.64
+			MX	100 zdve-mailx
+sl-student33		A	134.96.218.65
+			MX	100 zdve-mailx
+sl-student34		A	134.96.218.66
+			MX	100 zdve-mailx
+sl1-lehrer		A	134.96.218.2
+			MX	100 zdve-mailx
+sl1-stud01		A	134.96.218.3
+			MX	100 zdve-mailx
+sl1-stud02		A	134.96.218.4
+			MX	100 zdve-mailx
+sl1-stud03		A	134.96.218.5
+			MX	100 zdve-mailx
+sl1-stud04		A	134.96.218.6
+			MX	100 zdve-mailx
+sl1-stud05		A	134.96.218.7
+			MX	100 zdve-mailx
+sl1-stud06		A	134.96.218.8
+			MX	100 zdve-mailx
+sl1-stud07		A	134.96.218.9
+			MX	100 zdve-mailx
+sl1-stud08		A	134.96.218.10
+			MX	100 zdve-mailx
+sl1-stud09		A	134.96.218.11
+			MX	100 zdve-mailx
+sl1-stud10		A	134.96.218.12
+			MX	100 zdve-mailx
+sl1-stud11		A	134.96.218.13
+			MX	100 zdve-mailx
+sl1-stud12		A	134.96.218.14
+			MX	100 zdve-mailx
+sl1-stud13		A	134.96.218.15
+			MX	100 zdve-mailx
+sl1-stud14		A	134.96.218.16
+			MX	100 zdve-mailx
+sl1-stud15		A	134.96.218.17
+			MX	100 zdve-mailx
+sl1-stud16		A	134.96.218.18
+			MX	100 zdve-mailx
+sl1-stud17		A	134.96.218.19
+			MX	100 zdve-mailx
+sl1-stud18		A	134.96.218.20
+			MX	100 zdve-mailx
+sl1-stud19		A	134.96.218.21
+			MX	100 zdve-mailx
+sl1-stud20		A	134.96.218.22
+			MX	100 zdve-mailx
+sl1-stud21		A	134.96.218.23
+			MX	100 zdve-mailx
+sl1-stud22		A	134.96.218.24
+			MX	100 zdve-mailx
+sl1-stud23		A	134.96.218.25
+			MX	100 zdve-mailx
+sl1-stud24		A	134.96.218.26
+			MX	100 zdve-mailx
+sl1-stud25		A	134.96.218.27
+			MX	100 zdve-mailx
+sl1-stud26		A	134.96.218.28
+			MX	100 zdve-mailx
+sl1-stud27		A	134.96.218.29
+			MX	100 zdve-mailx
+sl1-stud28		A	134.96.218.30
+			MX	100 zdve-mailx
+sl1-stud29		A	134.96.218.31
+			MX	100 zdve-mailx
+sl1-stud30		A	134.96.218.32
+			MX	100 zdve-mailx
+sl3-lehrer		A	134.96.218.73
+			MX	100 zdve-mailx
+sl3-stud01		A	134.96.218.74
+			MX	100 zdve-mailx
+sl3-stud02		A	134.96.218.75
+			MX	100 zdve-mailx
+sl3-stud03		A	134.96.218.76
+			MX	100 zdve-mailx
+sl3-stud04		A	134.96.218.77
+			MX	100 zdve-mailx
+sl3-stud05		A	134.96.218.78
+			MX	100 zdve-mailx
+sl3-stud06		A	134.96.218.79
+			MX	100 zdve-mailx
+sl3-stud07		A	134.96.218.80
+			MX	100 zdve-mailx
+sl3-stud08		A	134.96.218.81
+			MX	100 zdve-mailx
+sl3-stud09		A	134.96.218.82
+			MX	100 zdve-mailx
+sl3-stud10		A	134.96.218.83
+			MX	100 zdve-mailx
+sl3-stud11		A	134.96.218.117
+			MX	100 zdve-mailx
+sl3-stud12		A	134.96.218.118
+			MX	100 zdve-mailx
+sl3-stud13		A	134.96.218.119
+			MX	100 zdve-mailx
+sl3-stud14		A	134.96.218.120
+			MX	100 zdve-mailx
+sl3-stud15		A	134.96.218.121
+			MX	100 zdve-mailx
+sl3-stud16		A	134.96.218.122
+			MX	100 zdve-mailx
+sl3-stud17		A	134.96.218.123
+			MX	100 zdve-mailx
+sl3-stud18		A	134.96.218.124
+			MX	100 zdve-mailx
+sl3-stud19		A	134.96.218.125
+			MX	100 zdve-mailx
+sl3-stud20		A	134.96.218.126
+			MX	100 zdve-mailx
+sl3-stud21		A	134.96.218.68
+			MX	100 zdve-mailx
+sl3-stud22		A	134.96.218.69
+			MX	100 zdve-mailx
+sl4-lehrer		A	134.96.218.85
+			MX	100 zdve-mailx
+sl4-server		A	134.96.218.84
+			MX	100 zdve-mailx
+sl4-stud01		A	134.96.218.86
+			MX	100 zdve-mailx
+sl4-stud02		A	134.96.218.87
+			MX	100 zdve-mailx
+sl4-stud03		A	134.96.218.88
+			MX	100 zdve-mailx
+sl4-stud04		A	134.96.218.89
+			MX	100 zdve-mailx
+sl4-stud05		A	134.96.218.90
+			MX	100 zdve-mailx
+sl4-stud06		A	134.96.218.91
+			MX	100 zdve-mailx
+sl4-stud07		A	134.96.218.92
+			MX	100 zdve-mailx
+sl4-stud08		A	134.96.218.93
+			MX	100 zdve-mailx
+sl4-stud09		A	134.96.218.94
+			MX	100 zdve-mailx
+sl4-stud10		A	134.96.218.95
+			MX	100 zdve-mailx
+sl4-stud11		A	134.96.218.96
+			MX	100 zdve-mailx
+sl4-stud12		A	134.96.218.97
+			MX	100 zdve-mailx
+sl4-stud13		A	134.96.218.98
+			MX	100 zdve-mailx
+sl4-stud14		A	134.96.218.99
+			MX	100 zdve-mailx
+sl4-stud15		A	134.96.218.100
+			MX	100 zdve-mailx
+sl4-stud16		A	134.96.218.101
+			MX	100 zdve-mailx
+sl4-stud17		A	134.96.218.102
+			MX	100 zdve-mailx
+sl4-stud18		A	134.96.218.103
+			MX	100 zdve-mailx
+sl4-stud19		A	134.96.218.104
+			MX	100 zdve-mailx
+sl4-stud20		A	134.96.218.105
+			MX	100 zdve-mailx
+sl4-stud21		A	134.96.218.106
+			MX	100 zdve-mailx
+sl4-stud22		A	134.96.218.107
+			MX	100 zdve-mailx
+sl4-stud23		A	134.96.218.108
+			MX	100 zdve-mailx
+sl4-stud24		A	134.96.218.109
+			MX	100 zdve-mailx
+sl4-stud25		A	134.96.218.110
+			MX	100 zdve-mailx
+sl4-stud26		A	134.96.218.111
+			MX	100 zdve-mailx
+sl4-stud27		A	134.96.218.112
+			MX	100 zdve-mailx
+sl4-stud28		A	134.96.218.113
+			MX	100 zdve-mailx
+sl4-stud29		A	134.96.218.114
+			MX	100 zdve-mailx
+sl4-stud30		A	134.96.218.115
+			MX	100 zdve-mailx
+smartpc			A	134.96.215.64
+			MX	100 zdve-mailx
+smi			A	134.96.214.186
+			MX	100 zdve-mailx
+smtp			CNAME	itz-mail
+soc-cm01		A	134.96.211.24
+			MX	100 zdve-mailx
+soc-cm02		A	134.96.211.25
+			MX	100 zdve-mailx
+soc-cm03		A	134.96.211.26
+			MX	100 zdve-mailx
+soc-cm04		A	134.96.211.27
+			MX	100 zdve-mailx
+soc-cm05		A	134.96.211.28
+			MX	100 zdve-mailx
+soc-cm06		A	134.96.211.29
+			MX	100 zdve-mailx
+soc-ft01		A	134.96.211.14
+			MX	100 zdve-mailx
+sowi-fs			A	134.96.210.253
+			MX	100 zdve-mailx
+sozialpaedagogik	CNAME	zdve-mailx
+sp			CNAME	zdve-mailx
+sp-foerster		A	134.96.210.238
+			MX	100 zdve-mailx
+sp-foerster-drucker	A	134.96.210.239
+			MX	100 zdve-mailx
+spi-1			A	134.96.214.212
+			MX	100 zdve-mailx
+spi-2			A	134.96.214.213
+			MX	100 zdve-mailx
+spi-3			A	134.96.214.214
+			MX	100 zdve-mailx
+spi-4			A	134.96.214.215
+			MX	100 zdve-mailx
+spi-5			A	134.96.214.216
+			MX	100 zdve-mailx
+spi-6			A	134.96.214.217
+			MX	100 zdve-mailx
+spiderman		A	134.96.216.49
+			MX	100 zdve-mailx
+spiller			A	134.96.212.230
+			MX	100 zdve-mailx
+sprlab-7205-01		A	134.96.209.116
+			MX	100 zdve-mailx
+sprlab-7205-nb		A	134.96.209.103
+			MX	100 zdve-mailx
+sprlab-7205-s1		A	134.96.209.115
+			MX	100 zdve-mailx
+sprlab-8220-01		A	134.96.209.98
+			MX	100 zdve-mailx
+sprlab-8220-02		A	134.96.209.99
+			MX	100 zdve-mailx
+sprlab-8220-03		A	134.96.209.100
+			MX	100 zdve-mailx
+sprlab-8220-dr		A	134.96.209.109
+			MX	100 zdve-mailx
+sprlab-8224-01		A	134.96.209.101
+			MX	100 zdve-mailx
+sprlab-8225-03		A	134.96.209.104
+			MX	100 zdve-mailx
+sprlab-8225-dr		A	134.96.209.108
+sprlab-8225-s1		A	134.96.209.110
+			MX	100 zdve-mailx
+sprlab-8225-s2		A	134.96.209.111
+			MX	100 zdve-mailx
+sprlab-8225-s3		A	134.96.209.112
+			MX	100 zdve-mailx
+sprlab-8225-s4		A	134.96.209.113
+			MX	100 zdve-mailx
+sprlab-8225-s5		A	134.96.209.114
+			MX	100 zdve-mailx
+sprlab-8225-ta		A	134.96.209.102
+			MX	100 zdve-mailx
+sql-zv-temp		A	134.96.209.37
+			MX	100 zdve-mailx
+stdasta			CNAME	www-zv
+stdsek			CNAME	www-zv
+stdservice		A	134.96.210.133
+			MX	100 zdve-mailx
+stei-01			A	134.96.212.166
+			MX	100 zdve-mailx
+stei-02			A	134.96.212.135
+			MX	100 zdve-mailx
+stipendien		CNAME	zdve-mailx
+stl-apache		CNAME	stl-s-www
+stl-b-02		A	134.96.216.62
+			MX	100 zdve-mailx
+stl-b-03		A	134.96.216.63
+			MX	100 zdve-mailx
+stl-b-04		A	134.96.216.64
+			MX	100 zdve-mailx
+stl-cert		CNAME	stl-s-mail
+stl-deimos		A	134.96.216.247
+			MX	100 zdve-mailx
+stl-gdesk		CNAME	stl-s-vesys
+stl-gis-wpy		A	134.96.214.136
+			MX	100 zdve-mailx
+stl-global		CNAME	stl-s-vesys
+stl-iapetos		A	134.96.216.162
+			MX	100 zdve-mailx
+stl-janus		A	134.96.216.157
+			MX	100 zdve-mailx
+stl-k-noteerl		A	134.96.216.5
+			MX	100 zdve-mailx
+stl-l-01		A	134.96.216.181
+			MX	100 zdve-mailx
+stl-l-02		A	134.96.216.182
+			MX	100 zdve-mailx
+stl-l-03		A	134.96.216.183
+			MX	100 zdve-mailx
+stl-l-04		A	134.96.216.184
+			MX	100 zdve-mailx
+stl-l-05		A	134.96.216.185
+			MX	100 zdve-mailx
+stl-l-06		A	134.96.216.186
+			MX	100 zdve-mailx
+stl-l-07		A	134.96.216.187
+			MX	100 zdve-mailx
+stl-l-08		A	134.96.216.188
+			MX	100 zdve-mailx
+stl-l-09		A	134.96.216.189
+			MX	100 zdve-mailx
+stl-l-10		A	134.96.216.190
+			MX	100 zdve-mailx
+stl-l-11		A	134.96.216.191
+			MX	100 zdve-mailx
+stl-l-12		A	134.96.216.192
+			MX	100 zdve-mailx
+stl-l-13		A	134.96.216.193
+			MX	100 zdve-mailx
+stl-l-14		A	134.96.216.194
+			MX	100 zdve-mailx
+stl-l-15		A	134.96.216.195
+			MX	100 zdve-mailx
+stl-l-16		A	134.96.216.196
+			MX	100 zdve-mailx
+stl-l-17		A	134.96.216.197
+			MX	100 zdve-mailx
+stl-l-18		A	134.96.216.198
+			MX	100 zdve-mailx
+stl-l-8203		A	134.96.216.220
+			MX	100 zdve-mailx
+stl-l-api		A	134.96.216.219
+			MX	100 zdve-mailx
+stl-l-gue		A	134.96.216.232
+			MX	100 zdve-mailx
+stl-l-gue2		A	134.96.216.168
+			MX	100 zdve-mailx
+stl-l-lehser		A	134.96.216.238
+			MX	100 zdve-mailx
+stl-l-stl		A	134.96.216.202
+			MX	100 zdve-mailx
+stl-l-w7		A	134.96.216.165
+			MX	100 zdve-mailx
+stl-l-wpy		A	134.96.216.230
+			MX	100 zdve-mailx
+stl-lehser2		A	134.96.216.236
+			MX	100 zdve-mailx
+stl-mail		CNAME	stl-s-mail
+stl-p-api		A	134.96.216.218
+			MX	100 zdve-mailx
+stl-p-gue		A	134.96.216.251
+			MX	100 zdve-mailx
+stl-p-lehser		A	134.96.216.237
+			MX	100 zdve-mailx
+stl-p-mt		A	134.96.216.243
+			MX	100 zdve-mailx
+stl-p-olb		A	134.96.216.242
+			MX	100 zdve-mailx
+stl-p-pio		A	134.96.216.241
+			MX	100 zdve-mailx
+stl-pandora		A	134.96.216.159
+			MX	100 zdve-mailx
+stl-phobos		A	134.96.216.248
+			MX	100 zdve-mailx
+stl-pop			CNAME	stl-s-mail
+stl-pro-wpy		A	134.96.208.165
+			MX	100 zdve-mailx
+stl-projekt		A	134.96.208.170
+			MX	100 zdve-mailx
+stl-r-8209-1n		A	134.96.216.244
+			MX	100 zdve-mailx
+stl-r-8209-2n		A	134.96.216.245
+			MX	100 zdve-mailx
+stl-r-8209-3n		A	134.96.216.246
+			MX	100 zdve-mailx
+stl-s-4			A	134.96.216.214
+			MX	100 zdve-mailx
+stl-s-ad		A	134.96.216.233
+			MX	90 stl-s-ad
+stl-s-antivir		A	134.96.216.206
+			MX	100 zdve-mailx
+stl-s-bup		A	134.96.216.205
+			MX	100 zdve-mailx
+stl-s-dbs		A	134.96.216.215
+			MX	100 zdve-mailx
+stl-s-doku		A	134.96.216.201
+			MX	100 zdve-mailx
+stl-s-esi		A	134.96.216.240
+			MX	100 zdve-mailx
+stl-s-i2		A	134.96.216.203
+			MX	100 zdve-mailx
+stl-s-ias		A	134.96.216.225
+			MX	100 zdve-mailx
+stl-s-mail		A	134.96.216.229
+			MX	90 stl-s-mail
+stl-s-nfs		A	134.96.216.207
+			MX	100 zdve-mailx
+stl-s-nisp		A	134.96.216.209
+			MX	100 zdve-mailx
+stl-s-plone		A	134.96.216.234
+			MX	100 zdve-mailx
+stl-s-proj		A	134.96.216.222
+			MX	100 zdve-mailx
+stl-s-proj1		A	134.96.216.231
+			MX	100 zdve-mailx
+stl-s-proto		A	134.96.216.59
+			MX	100 zdve-mailx
+stl-s-pscf		A	134.96.216.217
+			MX	100 zdve-mailx
+stl-s-ray		A	134.96.216.66
+			MX	100 zdve-mailx
+stl-s-samba		A	134.96.216.208
+			MX	100 zdve-mailx
+stl-s-sie		A	134.96.216.210
+			MX	100 zdve-mailx
+stl-s-ssgd		A	134.96.216.200
+			MX	100 zdve-mailx
+stl-s-stud		CNAME	stl-s-studwork
+stl-s-studwork		A	134.96.216.212
+			MX	100 zdve-mailx
+stl-s-sun		A	134.96.216.204
+			MX	100 zdve-mailx
+stl-s-t0		A	134.96.216.4
+			MX	100 zdve-mailx
+stl-s-t1		A	134.96.216.8
+			MX	100 zdve-mailx
+stl-s-ubu		A	134.96.216.254
+			MX	100 zdve-mailx
+stl-s-vesys		A	134.96.216.56
+			MX	100 zdve-mailx
+stl-s-vzd		A	134.96.216.224
+			MX	100 zdve-mailx
+stl-s-web		A	134.96.216.235
+			MX	100 zdve-mailx
+stl-s-webse		A	134.96.216.50
+			MX	100 zdve-mailx
+stl-s-www		A	134.96.216.211
+			MX	100 zdve-mailx
+stl-tomcat		CNAME	stl-s-www
+stl-v-100		A	134.96.216.100
+			MX	100 zdve-mailx
+stl-v-101		A	134.96.216.101
+			MX	100 zdve-mailx
+stl-v-102		A	134.96.216.102
+			MX	100 zdve-mailx
+stl-v-103		A	134.96.216.103
+			MX	100 zdve-mailx
+stl-v-104		A	134.96.216.104
+			MX	100 zdve-mailx
+stl-v-105		A	134.96.216.105
+			MX	100 zdve-mailx
+stl-v-106		A	134.96.216.106
+			MX	100 zdve-mailx
+stl-v-107		A	134.96.216.107
+			MX	100 zdve-mailx
+stl-v-108		A	134.96.216.108
+			MX	100 zdve-mailx
+stl-v-109		A	134.96.216.109
+			MX	100 zdve-mailx
+stl-v-110		A	134.96.216.110
+			MX	100 zdve-mailx
+stl-v-111		A	134.96.216.111
+			MX	100 zdve-mailx
+stl-v-112		A	134.96.216.112
+			MX	100 zdve-mailx
+stl-v-113		A	134.96.216.113
+			MX	100 zdve-mailx
+stl-v-114		A	134.96.216.114
+			MX	100 zdve-mailx
+stl-v-115		A	134.96.216.115
+			MX	100 zdve-mailx
+stl-v-116		A	134.96.216.116
+			MX	100 zdve-mailx
+stl-v-117		A	134.96.216.117
+			MX	100 zdve-mailx
+stl-v-118		A	134.96.216.118
+			MX	100 zdve-mailx
+stl-v-119		A	134.96.216.119
+			MX	100 zdve-mailx
+stl-v-120		A	134.96.216.120
+			MX	100 zdve-mailx
+stl-v-121		A	134.96.216.121
+			MX	100 zdve-mailx
+stl-v-122		A	134.96.216.122
+			MX	100 zdve-mailx
+stl-v-123		A	134.96.216.123
+			MX	100 zdve-mailx
+stl-v-124		A	134.96.216.124
+			MX	100 zdve-mailx
+stl-v-125		A	134.96.216.125
+			MX	100 zdve-mailx
+stl-v-126		A	134.96.216.126
+			MX	100 zdve-mailx
+stl-v-127		A	134.96.216.127
+			MX	100 zdve-mailx
+stl-v-128		A	134.96.216.128
+			MX	100 zdve-mailx
+stl-v-129		A	134.96.216.129
+			MX	100 zdve-mailx
+stl-v-130		A	134.96.216.130
+			MX	100 zdve-mailx
+stl-v-131		A	134.96.216.131
+			MX	100 zdve-mailx
+stl-v-132		A	134.96.216.132
+			MX	100 zdve-mailx
+stl-v-133		A	134.96.216.133
+			MX	100 zdve-mailx
+stl-v-134		A	134.96.216.134
+			MX	100 zdve-mailx
+stl-v-135		A	134.96.216.135
+			MX	100 zdve-mailx
+stl-v-136		A	134.96.216.136
+			MX	100 zdve-mailx
+stl-v-137		A	134.96.216.137
+			MX	100 zdve-mailx
+stl-v-138		A	134.96.216.138
+			MX	100 zdve-mailx
+stl-v-139		A	134.96.216.139
+			MX	100 zdve-mailx
+stl-v-140		A	134.96.216.140
+			MX	100 zdve-mailx
+stl-v-141		A	134.96.216.141
+			MX	100 zdve-mailx
+stl-v-142		A	134.96.216.142
+			MX	100 zdve-mailx
+stl-v-143		A	134.96.216.143
+			MX	100 zdve-mailx
+stl-v-144		A	134.96.216.144
+			MX	100 zdve-mailx
+stl-v-145		A	134.96.216.145
+			MX	100 zdve-mailx
+stl-v-146		A	134.96.216.146
+			MX	100 zdve-mailx
+stl-v-147		A	134.96.216.147
+			MX	100 zdve-mailx
+stl-v-148		A	134.96.216.148
+			MX	100 zdve-mailx
+stl-v-149		A	134.96.216.149
+			MX	100 zdve-mailx
+stl-v-150		A	134.96.216.150
+			MX	100 zdve-mailx
+stl-v-151		A	134.96.216.151
+			MX	100 zdve-mailx
+stl-v-152		A	134.96.216.152
+			MX	100 zdve-mailx
+stl-v-153		A	134.96.216.153
+			MX	100 zdve-mailx
+stl-v-154		A	134.96.216.154
+			MX	100 zdve-mailx
+stl-v-155		A	134.96.216.155
+			MX	100 zdve-mailx
+stl-v-156		A	134.96.216.156
+			MX	100 zdve-mailx
+stl-v-170		A	134.96.216.170
+			MX	100 zdve-mailx
+stl-v-171		A	134.96.216.171
+			MX	100 zdve-mailx
+stl-v-172		A	134.96.216.172
+			MX	100 zdve-mailx
+stl-v-173		A	134.96.216.173
+			MX	100 zdve-mailx
+stl-v-174		A	134.96.216.174
+			MX	100 zdve-mailx
+stl-v-175		A	134.96.216.175
+			MX	100 zdve-mailx
+stl-v-176		A	134.96.216.176
+			MX	100 zdve-mailx
+stl-v-177		A	134.96.216.177
+			MX	100 zdve-mailx
+stl-v-178		A	134.96.216.178
+			MX	100 zdve-mailx
+stl-v-179		A	134.96.216.179
+			MX	100 zdve-mailx
+stl-v-68		A	134.96.216.68
+			MX	100 zdve-mailx
+stl-v-69		A	134.96.216.69
+			MX	100 zdve-mailx
+stl-v-70		A	134.96.216.70
+			MX	100 zdve-mailx
+stl-v-71		A	134.96.216.71
+			MX	100 zdve-mailx
+stl-v-72		A	134.96.216.72
+			MX	100 zdve-mailx
+stl-v-73		A	134.96.216.73
+			MX	100 zdve-mailx
+stl-v-74		A	134.96.216.74
+			MX	100 zdve-mailx
+stl-v-75		A	134.96.216.75
+			MX	100 zdve-mailx
+stl-v-76		A	134.96.216.76
+			MX	100 zdve-mailx
+stl-v-77		A	134.96.216.77
+			MX	100 zdve-mailx
+stl-v-78		A	134.96.216.78
+			MX	100 zdve-mailx
+stl-v-99		A	134.96.216.99
+			MX	100 zdve-mailx
+stl-v-pauly		A	134.96.216.160
+			MX	100 zdve-mailx
+stl-v-pick		A	134.96.216.158
+			MX	100 zdve-mailx
+stl-vsol-100		CNAME	stl-v-100
+stl-vsol-101		CNAME	stl-v-101
+stl-vsol-102		CNAME	stl-v-102
+stl-vsol-103		CNAME	stl-v-103
+stl-vsol-104		CNAME	stl-v-104
+stl-vsol-105		CNAME	stl-v-105
+stl-vsol-106		CNAME	stl-v-106
+stl-vsol-107		CNAME	stl-v-107
+stl-vsol-108		CNAME	stl-v-108
+stl-vsol-109		CNAME	stl-v-109
+stl-vsol-110		CNAME	stl-v-110
+stl-vsol-111		CNAME	stl-v-111
+stl-vsol-112		CNAME	stl-v-112
+stl-vsol-113		CNAME	stl-v-113
+stl-vsol-114		CNAME	stl-v-114
+stl-vsol-115		CNAME	stl-v-115
+stl-vsol-116		CNAME	stl-v-116
+stl-vsol-117		CNAME	stl-v-117
+stl-vsol-118		CNAME	stl-v-118
+stl-vsol-119		CNAME	stl-v-119
+stl-vsol-120		CNAME	stl-v-120
+stl-vsol-121		CNAME	stl-v-121
+stl-vsol-122		CNAME	stl-v-122
+stl-vsol-123		CNAME	stl-v-123
+stl-vsol-124		CNAME	stl-v-124
+stl-vsol-125		CNAME	stl-v-125
+stl-vsol-126		CNAME	stl-v-126
+stl-vsol-127		CNAME	stl-v-127
+stl-vsol-128		CNAME	stl-v-128
+stl-vsol-129		CNAME	stl-v-129
+stl-vsol-130		CNAME	stl-v-130
+stl-vsol-131		CNAME	stl-v-131
+stl-vsol-132		CNAME	stl-v-132
+stl-vsol-133		CNAME	stl-v-133
+stl-vsol-134		CNAME	stl-v-134
+stl-vsol-135		CNAME	stl-v-135
+stl-vsol-136		CNAME	stl-v-136
+stl-vsol-137		CNAME	stl-v-137
+stl-vsol-138		CNAME	stl-v-138
+stl-vsol-139		CNAME	stl-v-139
+stl-vsol-140		CNAME	stl-v-140
+stl-vsol-141		CNAME	stl-v-141
+stl-vsol-142		CNAME	stl-v-142
+stl-vsol-143		CNAME	stl-v-143
+stl-vsol-144		CNAME	stl-v-144
+stl-vsol-145		CNAME	stl-v-145
+stl-vsol-146		CNAME	stl-v-146
+stl-vsol-147		CNAME	stl-v-147
+stl-vsol-148		CNAME	stl-v-148
+stl-vsol-149		CNAME	stl-v-149
+stl-vsol-150		CNAME	stl-v-150
+stl-vsol-151		CNAME	stl-v-151
+stl-vsol-152		CNAME	stl-v-152
+stl-vsol-153		CNAME	stl-v-153
+stl-vsol-154		CNAME	stl-v-154
+stl-vsol-155		CNAME	stl-v-155
+stl-vsol-156		CNAME	stl-v-156
+stl-vsol-170		CNAME	stl-v-170
+stl-vsol-171		CNAME	stl-v-171
+stl-vsol-172		CNAME	stl-v-172
+stl-vsol-173		CNAME	stl-v-173
+stl-vsol-174		CNAME	stl-v-174
+stl-vsol-175		CNAME	stl-v-175
+stl-vsol-176		CNAME	stl-v-176
+stl-vsol-177		CNAME	stl-v-177
+stl-vsol-178		CNAME	stl-v-178
+stl-vsol-179		CNAME	stl-v-179
+stl-vsol-68		CNAME	stl-v-68
+stl-vsol-69		CNAME	stl-v-69
+stl-vsol-70		CNAME	stl-v-70
+stl-vsol-71		CNAME	stl-v-71
+stl-vsol-72		CNAME	stl-v-72
+stl-vsol-73		CNAME	stl-v-73
+stl-vsol-74		CNAME	stl-v-74
+stl-vsol-75		CNAME	stl-v-75
+stl-vsol-76		CNAME	stl-v-76
+stl-vsol-77		CNAME	stl-v-77
+stl-vsol-78		CNAME	stl-v-78
+stl-vsol-99		CNAME	stl-v-99
+stl-vsuse-100		CNAME	stl-v-100
+stl-vsuse-101		CNAME	stl-v-101
+stl-vsuse-102		CNAME	stl-v-102
+stl-vsuse-103		CNAME	stl-v-103
+stl-vsuse-104		CNAME	stl-v-104
+stl-vsuse-105		CNAME	stl-v-105
+stl-vsuse-106		CNAME	stl-v-106
+stl-vsuse-107		CNAME	stl-v-107
+stl-vsuse-108		CNAME	stl-v-108
+stl-vsuse-109		CNAME	stl-v-109
+stl-vsuse-110		CNAME	stl-v-110
+stl-vsuse-111		CNAME	stl-v-111
+stl-vsuse-112		CNAME	stl-v-112
+stl-vsuse-113		CNAME	stl-v-113
+stl-vsuse-114		CNAME	stl-v-114
+stl-vsuse-115		CNAME	stl-v-115
+stl-vsuse-116		CNAME	stl-v-116
+stl-vsuse-117		CNAME	stl-v-117
+stl-vsuse-118		CNAME	stl-v-118
+stl-vsuse-119		CNAME	stl-v-119
+stl-vsuse-120		CNAME	stl-v-120
+stl-vsuse-121		CNAME	stl-v-121
+stl-vsuse-122		CNAME	stl-v-122
+stl-vsuse-123		CNAME	stl-v-123
+stl-vsuse-124		CNAME	stl-v-124
+stl-vsuse-125		CNAME	stl-v-125
+stl-vsuse-126		CNAME	stl-v-126
+stl-vsuse-127		CNAME	stl-v-127
+stl-vsuse-128		CNAME	stl-v-128
+stl-vsuse-129		CNAME	stl-v-129
+stl-vsuse-130		CNAME	stl-v-130
+stl-vsuse-131		CNAME	stl-v-131
+stl-vsuse-132		CNAME	stl-v-132
+stl-vsuse-133		CNAME	stl-v-133
+stl-vsuse-134		CNAME	stl-v-134
+stl-vsuse-135		CNAME	stl-v-135
+stl-vsuse-136		CNAME	stl-v-136
+stl-vsuse-137		CNAME	stl-v-137
+stl-vsuse-138		CNAME	stl-v-138
+stl-vsuse-139		CNAME	stl-v-139
+stl-vsuse-140		CNAME	stl-v-140
+stl-vsuse-141		CNAME	stl-v-141
+stl-vsuse-142		CNAME	stl-v-142
+stl-vsuse-143		CNAME	stl-v-143
+stl-vsuse-144		CNAME	stl-v-144
+stl-vsuse-145		CNAME	stl-v-145
+stl-vsuse-146		CNAME	stl-v-146
+stl-vsuse-147		CNAME	stl-v-147
+stl-vsuse-148		CNAME	stl-v-148
+stl-vsuse-149		CNAME	stl-v-149
+stl-vsuse-150		CNAME	stl-v-150
+stl-vsuse-151		CNAME	stl-v-151
+stl-vsuse-152		CNAME	stl-v-152
+stl-vsuse-153		CNAME	stl-v-153
+stl-vsuse-154		CNAME	stl-v-154
+stl-vsuse-155		CNAME	stl-v-155
+stl-vsuse-156		CNAME	stl-v-156
+stl-vsuse-170		CNAME	stl-v-170
+stl-vsuse-171		CNAME	stl-v-171
+stl-vsuse-172		CNAME	stl-v-172
+stl-vsuse-173		CNAME	stl-v-173
+stl-vsuse-174		CNAME	stl-v-174
+stl-vsuse-175		CNAME	stl-v-175
+stl-vsuse-176		CNAME	stl-v-176
+stl-vsuse-177		CNAME	stl-v-177
+stl-vsuse-178		CNAME	stl-v-178
+stl-vsuse-179		CNAME	stl-v-179
+stl-vsuse-68		CNAME	stl-v-68
+stl-vsuse-69		CNAME	stl-v-69
+stl-vsuse-70		CNAME	stl-v-70
+stl-vsuse-71		CNAME	stl-v-71
+stl-vsuse-72		CNAME	stl-v-72
+stl-vsuse-73		CNAME	stl-v-73
+stl-vsuse-74		CNAME	stl-v-74
+stl-vsuse-75		CNAME	stl-v-75
+stl-vsuse-76		CNAME	stl-v-76
+stl-vsuse-77		CNAME	stl-v-77
+stl-vsuse-78		CNAME	stl-v-78
+stl-vsuse-99		CNAME	stl-v-99
+stl-vubun-100		CNAME	stl-v-100
+stl-vubun-101		CNAME	stl-v-101
+stl-vubun-102		CNAME	stl-v-102
+stl-vubun-103		CNAME	stl-v-103
+stl-vubun-104		CNAME	stl-v-104
+stl-vubun-105		CNAME	stl-v-105
+stl-vubun-106		CNAME	stl-v-106
+stl-vubun-107		CNAME	stl-v-107
+stl-vubun-108		CNAME	stl-v-108
+stl-vubun-109		CNAME	stl-v-109
+stl-vubun-110		CNAME	stl-v-110
+stl-vubun-111		CNAME	stl-v-111
+stl-vubun-112		CNAME	stl-v-112
+stl-vubun-113		CNAME	stl-v-113
+stl-vubun-114		CNAME	stl-v-114
+stl-vubun-115		CNAME	stl-v-115
+stl-vubun-116		CNAME	stl-v-116
+stl-vubun-117		CNAME	stl-v-117
+stl-vubun-118		CNAME	stl-v-118
+stl-vubun-119		CNAME	stl-v-119
+stl-vubun-120		CNAME	stl-v-120
+stl-vubun-121		CNAME	stl-v-121
+stl-vubun-122		CNAME	stl-v-122
+stl-vubun-123		CNAME	stl-v-123
+stl-vubun-124		CNAME	stl-v-124
+stl-vubun-125		CNAME	stl-v-125
+stl-vubun-126		CNAME	stl-v-126
+stl-vubun-127		CNAME	stl-v-127
+stl-vubun-128		CNAME	stl-v-128
+stl-vubun-129		CNAME	stl-v-129
+stl-vubun-130		CNAME	stl-v-130
+stl-vubun-131		CNAME	stl-v-131
+stl-vubun-132		CNAME	stl-v-132
+stl-vubun-133		CNAME	stl-v-133
+stl-vubun-134		CNAME	stl-v-134
+stl-vubun-135		CNAME	stl-v-135
+stl-vubun-136		CNAME	stl-v-136
+stl-vubun-137		CNAME	stl-v-137
+stl-vubun-138		CNAME	stl-v-138
+stl-vubun-139		CNAME	stl-v-139
+stl-vubun-140		CNAME	stl-v-140
+stl-vubun-141		CNAME	stl-v-141
+stl-vubun-142		CNAME	stl-v-142
+stl-vubun-143		CNAME	stl-v-143
+stl-vubun-144		CNAME	stl-v-144
+stl-vubun-145		CNAME	stl-v-145
+stl-vubun-146		CNAME	stl-v-146
+stl-vubun-147		CNAME	stl-v-147
+stl-vubun-148		CNAME	stl-v-148
+stl-vubun-149		CNAME	stl-v-149
+stl-vubun-150		CNAME	stl-v-150
+stl-vubun-151		CNAME	stl-v-151
+stl-vubun-152		CNAME	stl-v-152
+stl-vubun-153		CNAME	stl-v-153
+stl-vubun-154		CNAME	stl-v-154
+stl-vubun-155		CNAME	stl-v-155
+stl-vubun-156		CNAME	stl-v-156
+stl-vubun-170		CNAME	stl-v-170
+stl-vubun-171		CNAME	stl-v-171
+stl-vubun-172		CNAME	stl-v-172
+stl-vubun-173		CNAME	stl-v-173
+stl-vubun-174		CNAME	stl-v-174
+stl-vubun-175		CNAME	stl-v-175
+stl-vubun-176		CNAME	stl-v-176
+stl-vubun-177		CNAME	stl-v-177
+stl-vubun-178		CNAME	stl-v-178
+stl-vubun-179		CNAME	stl-v-179
+stl-vubun-68		CNAME	stl-v-68
+stl-vubun-69		CNAME	stl-v-69
+stl-vubun-70		CNAME	stl-v-70
+stl-vubun-71		CNAME	stl-v-71
+stl-vubun-72		CNAME	stl-v-72
+stl-vubun-73		CNAME	stl-v-73
+stl-vubun-74		CNAME	stl-v-74
+stl-vubun-75		CNAME	stl-v-75
+stl-vubun-76		CNAME	stl-v-76
+stl-vubun-77		CNAME	stl-v-77
+stl-vubun-78		CNAME	stl-v-78
+stl-vubun-99		CNAME	stl-v-99
+stl-vwin-100		CNAME	stl-v-100
+stl-vwin-101		CNAME	stl-v-101
+stl-vwin-102		CNAME	stl-v-102
+stl-vwin-103		CNAME	stl-v-103
+stl-vwin-104		CNAME	stl-v-104
+stl-vwin-105		CNAME	stl-v-105
+stl-vwin-106		CNAME	stl-v-106
+stl-vwin-107		CNAME	stl-v-107
+stl-vwin-108		CNAME	stl-v-108
+stl-vwin-109		CNAME	stl-v-109
+stl-vwin-110		CNAME	stl-v-110
+stl-vwin-111		CNAME	stl-v-111
+stl-vwin-112		CNAME	stl-v-112
+stl-vwin-113		CNAME	stl-v-113
+stl-vwin-114		CNAME	stl-v-114
+stl-vwin-115		CNAME	stl-v-115
+stl-vwin-116		CNAME	stl-v-116
+stl-vwin-117		CNAME	stl-v-117
+stl-vwin-118		CNAME	stl-v-118
+stl-vwin-119		CNAME	stl-v-119
+stl-vwin-120		CNAME	stl-v-120
+stl-vwin-121		CNAME	stl-v-121
+stl-vwin-122		CNAME	stl-v-122
+stl-vwin-123		CNAME	stl-v-123
+stl-vwin-124		CNAME	stl-v-124
+stl-vwin-125		CNAME	stl-v-125
+stl-vwin-126		CNAME	stl-v-126
+stl-vwin-127		CNAME	stl-v-127
+stl-vwin-128		CNAME	stl-v-128
+stl-vwin-129		CNAME	stl-v-129
+stl-vwin-130		CNAME	stl-v-130
+stl-vwin-131		CNAME	stl-v-131
+stl-vwin-132		CNAME	stl-v-132
+stl-vwin-133		CNAME	stl-v-133
+stl-vwin-134		CNAME	stl-v-134
+stl-vwin-135		CNAME	stl-v-135
+stl-vwin-136		CNAME	stl-v-136
+stl-vwin-137		CNAME	stl-v-137
+stl-vwin-138		CNAME	stl-v-138
+stl-vwin-139		CNAME	stl-v-139
+stl-vwin-140		CNAME	stl-v-140
+stl-vwin-141		CNAME	stl-v-141
+stl-vwin-142		CNAME	stl-v-142
+stl-vwin-143		CNAME	stl-v-143
+stl-vwin-144		CNAME	stl-v-144
+stl-vwin-145		CNAME	stl-v-145
+stl-vwin-146		CNAME	stl-v-146
+stl-vwin-147		CNAME	stl-v-147
+stl-vwin-148		CNAME	stl-v-148
+stl-vwin-149		CNAME	stl-v-149
+stl-vwin-150		CNAME	stl-v-150
+stl-vwin-151		CNAME	stl-v-151
+stl-vwin-152		CNAME	stl-v-152
+stl-vwin-153		CNAME	stl-v-153
+stl-vwin-154		CNAME	stl-v-154
+stl-vwin-155		CNAME	stl-v-155
+stl-vwin-156		CNAME	stl-v-156
+stl-vwin-170		CNAME	stl-v-170
+stl-vwin-171		CNAME	stl-v-171
+stl-vwin-172		CNAME	stl-v-172
+stl-vwin-173		CNAME	stl-v-173
+stl-vwin-174		CNAME	stl-v-174
+stl-vwin-175		CNAME	stl-v-175
+stl-vwin-176		CNAME	stl-v-176
+stl-vwin-177		CNAME	stl-v-177
+stl-vwin-178		CNAME	stl-v-178
+stl-vwin-179		CNAME	stl-v-179
+stl-vwin-68		CNAME	stl-v-68
+stl-vwin-69		CNAME	stl-v-69
+stl-vwin-70		CNAME	stl-v-70
+stl-vwin-71		CNAME	stl-v-71
+stl-vwin-72		CNAME	stl-v-72
+stl-vwin-73		CNAME	stl-v-73
+stl-vwin-74		CNAME	stl-v-74
+stl-vwin-75		CNAME	stl-v-75
+stl-vwin-76		CNAME	stl-v-76
+stl-vwin-77		CNAME	stl-v-77
+stl-vwin-78		CNAME	stl-v-78
+stl-vwin-99		CNAME	stl-v-99
+stl-webmail		CNAME	stl-s-mail
+stl-www			CNAME	stl-s-www
+stud			CNAME	user-gis
+stud-e			A	134.96.208.110
+			MX	90 stud-e
+stud-gis		A	134.96.208.118
+			MX	100 zdve-mailx
+$ORIGIN stud-gis.htw-saarland.de.
+*			A	134.96.208.118
+$ORIGIN htw-saarland.de.
+stud-i			A	134.96.216.180
+			MX	100 zdve-mailx
+$ORIGIN stud-i.htw-saarland.de.
+*			A	134.96.216.180
+$ORIGIN htw-saarland.de.
+stud-i-pr1		A	134.96.216.166
+			MX	100 zdve-mailx
+stud-i-pr2		A	134.96.216.167
+			MX	100 zdve-mailx
+stud-i-verwaltung	A	134.96.216.161
+			MX	100 zdve-mailx
+stud-ma			CNAME	stud-gis
+stud-sp			CNAME	stud-i
+stud-wi			CNAME	stud-i
+student-i		A	134.96.215.63
+			MX	100 zdve-mailx
+superform-mobil		A	134.96.215.110
+			MX	100 zdve-mailx
+superman		A	134.96.216.47
+			MX	100 zdve-mailx
+svala			A	134.96.215.9
+			MX	100 zdve-mailx
+swl-ap01		A	134.96.217.41
+swl-ap02		A	134.96.217.42
+swl-dr01		A	134.96.217.46
+swl-dr02		A	134.96.217.47
+swl-freddy1		A	134.96.217.50
+			MX	100 zdve-mailx
+swl-freddy2		A	134.96.217.51
+			MX	100 zdve-mailx
+swl-freddy3		A	134.96.217.53
+			MX	100 zdve-mailx
+swl-freddy4		A	134.96.217.54
+			MX	100 zdve-mailx
+swl-nas01		A	134.96.217.49
+			MX	100 zdve-mailx
+swl-nb01		A	134.96.217.31
+			MX	100 zdve-mailx
+swl-nb02		A	134.96.217.32
+			MX	100 zdve-mailx
+swl-nb03		A	134.96.217.33
+			MX	100 zdve-mailx
+swl-nyala1		A	134.96.217.59
+			MX	100 zdve-mailx
+swl-nyala2		A	134.96.217.60
+			MX	100 zdve-mailx
+swl-ocelot1		A	134.96.217.57
+			MX	100 zdve-mailx
+swl-ocelot2		A	134.96.217.58
+			MX	100 zdve-mailx
+swl-pc01		A	134.96.217.6
+			MX	100 zdve-mailx
+swl-pc02		A	134.96.217.7
+			MX	100 zdve-mailx
+swl-pc03		A	134.96.217.8
+			MX	100 zdve-mailx
+swl-pc04		A	134.96.217.9
+			MX	100 zdve-mailx
+swl-pc05		A	134.96.217.10
+			MX	100 zdve-mailx
+swl-pc06		A	134.96.217.11
+			MX	100 zdve-mailx
+swl-pc07		A	134.96.217.12
+			MX	100 zdve-mailx
+swl-pc08		A	134.96.217.13
+			MX	100 zdve-mailx
+swl-pc09		A	134.96.217.14
+			MX	100 zdve-mailx
+swl-pc10		A	134.96.217.15
+			MX	100 zdve-mailx
+swl-pc11		A	134.96.217.16
+			MX	100 zdve-mailx
+swl-pc12		A	134.96.217.17
+			MX	100 zdve-mailx
+swl-pc19		A	134.96.217.19
+			MX	100 zdve-mailx
+swl-pc27		A	134.96.217.20
+			MX	100 zdve-mailx
+swl-pc28		A	134.96.217.21
+			MX	100 zdve-mailx
+swl-pc29		A	134.96.217.22
+			MX	100 zdve-mailx
+swl-pc30		A	134.96.217.23
+			MX	100 zdve-mailx
+swl-pocket		A	134.96.217.34
+			MX	100 zdve-mailx
+swl-srv01		A	134.96.217.2
+			MX	100 zdve-mailx
+swl-srv02		A	134.96.217.3
+			MX	100 zdve-mailx
+swl-srv03		A	134.96.217.5
+			MX	100 zdve-mailx
+swl-susan1		A	134.96.217.52
+			MX	100 zdve-mailx
+swl-susan2		A	134.96.217.55
+			MX	100 zdve-mailx
+swl-susan3		A	134.96.217.56
+			MX	100 zdve-mailx
+swl-w-pc01		A	134.96.217.24
+			MX	100 zdve-mailx
+swl-w-pc02		A	134.96.217.25
+			MX	100 zdve-mailx
+swl-w-pc03		A	134.96.217.26
+			MX	100 zdve-mailx
+swl-w-pc04		A	134.96.217.27
+			MX	100 zdve-mailx
+swl-w-pc05		A	134.96.217.28
+			MX	100 zdve-mailx
+swl-w-pc06		A	134.96.217.29
+			MX	100 zdve-mailx
+swl-w-pc07		A	134.96.217.35
+			MX	100 zdve-mailx
+swl-w-pc08		A	134.96.217.36
+			MX	100 zdve-mailx
+swl-w-pc09		A	134.96.217.37
+			MX	100 zdve-mailx
+swl-w-pc10		A	134.96.217.38
+			MX	100 zdve-mailx
+swl-w-pc11		A	134.96.217.39
+			MX	100 zdve-mailx
+swl-w-pc12		A	134.96.217.40
+			MX	100 zdve-mailx
+swl-w-pc19		A	134.96.217.43
+			MX	100 zdve-mailx
+swl-w-pc28		A	134.96.217.44
+			MX	100 zdve-mailx
+swl-w-pc29		A	134.96.217.45
+			MX	100 zdve-mailx
+swlab2000-dc01		A	134.96.217.18
+			MX	100 zdve-mailx
+swlabnt			A	134.96.208.114
+			MX	100 zdve-mailx
+test-portal		A	134.96.208.70
+			MX	100 zdve-mailx
+th-winter-think		A	134.96.214.193
+			MX	100 zdve-mailx
+thales			A	134.96.214.161
+			MX	100 zdve-mailx
+tkdell			A	134.96.214.130
+			MX	100 zdve-mailx
+tkip-asa		A	134.96.208.12
+tm4002wlmi		A	134.96.213.206
+			MX	100 zdve-mailx
+trans-01		A	134.96.215.19
+			MX	100 zdve-mailx
+trans-02		A	134.96.215.30
+			MX	100 zdve-mailx
+trans-03		A	134.96.215.56
+			MX	100 zdve-mailx
+turing			A	134.96.214.152
+			MX	100 zdve-mailx
+tv01			A	134.96.208.81
+			MX	100 zdve-mailx
+tv02			A	134.96.208.82
+			MX	100 zdve-mailx
+tv03			A	134.96.208.83
+			MX	100 zdve-mailx
+tv04			A	134.96.208.84
+			MX	100 zdve-mailx
+tv05			A	134.96.208.85
+			MX	100 zdve-mailx
+tv06			A	134.96.208.86
+			MX	100 zdve-mailx
+tv07			A	134.96.208.87
+			MX	100 zdve-mailx
+tv08			A	134.96.208.88
+			MX	100 zdve-mailx
+tv09			A	134.96.208.89
+			MX	100 zdve-mailx
+tv10			A	134.96.208.90
+			MX	100 zdve-mailx
+tzsb-firewall		A	134.96.210.6
+tzsb-mit3		A	134.96.210.5
+			MX	100 zdve-mailx
+tzsb-mit4		A	134.96.210.13
+			MX	100 zdve-mailx
+tzsb-notebook		A	134.96.210.7
+			MX	100 zdve-mailx
+tzsb-stud1		A	134.96.210.14
+			MX	100 zdve-mailx
+uhlig			A	134.96.214.187
+			MX	100 zdve-mailx
+us			A	134.96.217.158
+			MX	100 zdve-mailx
+user-gis		A	134.96.208.106
+			MX	100 zdve-mailx
+vd-02			A	134.96.212.176
+			MX	100 zdve-mailx
+vd-busch		A	134.96.212.133
+			MX	100 zdve-mailx
+vd-fro			A	134.96.212.183
+			MX	100 zdve-mailx
+vd-hh			A	134.96.212.199
+			MX	100 zdve-mailx
+vd-hud			A	134.96.209.21
+			MX	100 zdve-mailx
+vd-reg			A	134.96.212.167
+			MX	100 zdve-mailx
+vde			CNAME	stud-e
+vde-hg-01		A	134.96.209.196
+			MX	100 zdve-mailx
+vde-hg-02		A	134.96.209.197
+			MX	100 zdve-mailx
+vertriebsmanagement	CNAME	zdve-mailx
+vkm			A	134.96.215.88
+			MX	100 zdve-mailx
+vkm-car01		A	134.96.215.6
+			MX	100 zdve-mailx
+vkm-car02		A	134.96.215.10
+			MX	100 zdve-mailx
+vkm-labor01		A	134.96.215.124
+			MX	100 zdve-mailx
+vkm-m2			A	134.96.215.66
+			MX	100 zdve-mailx
+vkm-mobil01		A	134.96.215.103
+			MX	100 zdve-mailx
+vkm-mobil02		A	134.96.215.104
+			MX	100 zdve-mailx
+vkm-mobil03		A	134.96.215.105
+			MX	100 zdve-mailx
+vkm-mobil04		A	134.96.215.115
+			MX	100 zdve-mailx
+vkm-mobil05		A	134.96.215.119
+			MX	100 zdve-mailx
+vkm-mobil06		A	134.96.215.125
+			MX	100 zdve-mailx
+vkm-sicherung		A	134.96.215.111
+			MX	100 zdve-mailx
+vks-1			A	134.96.208.167
+			MX	100 zdve-mailx
+vks-2			A	134.96.208.168
+			MX	100 zdve-mailx
+vks-3			A	134.96.208.169
+			MX	100 zdve-mailx
+vmware-ab		A	134.96.208.130
+			MX	100 zdve-mailx
+vpnclient-10		A	134.96.212.10
+			MX	100 zdve-mailx
+vpnclient-100		A	134.96.212.100
+			MX	100 zdve-mailx
+vpnclient-101		A	134.96.212.101
+			MX	100 zdve-mailx
+vpnclient-102		A	134.96.212.102
+			MX	100 zdve-mailx
+vpnclient-103		A	134.96.212.103
+			MX	100 zdve-mailx
+vpnclient-104		A	134.96.212.104
+			MX	100 zdve-mailx
+vpnclient-105		A	134.96.212.105
+			MX	100 zdve-mailx
+vpnclient-106		A	134.96.212.106
+			MX	100 zdve-mailx
+vpnclient-107		A	134.96.212.107
+			MX	100 zdve-mailx
+vpnclient-108		A	134.96.212.108
+			MX	100 zdve-mailx
+vpnclient-109		A	134.96.212.109
+			MX	100 zdve-mailx
+vpnclient-11		A	134.96.212.11
+			MX	100 zdve-mailx
+vpnclient-110		A	134.96.212.110
+			MX	100 zdve-mailx
+vpnclient-111		A	134.96.212.111
+			MX	100 zdve-mailx
+vpnclient-112		A	134.96.212.112
+			MX	100 zdve-mailx
+vpnclient-113		A	134.96.212.113
+			MX	100 zdve-mailx
+vpnclient-114		A	134.96.212.114
+			MX	100 zdve-mailx
+vpnclient-115		A	134.96.212.115
+			MX	100 zdve-mailx
+vpnclient-116		A	134.96.212.116
+			MX	100 zdve-mailx
+vpnclient-117		A	134.96.212.117
+			MX	100 zdve-mailx
+vpnclient-118		A	134.96.212.118
+			MX	100 zdve-mailx
+vpnclient-119		A	134.96.212.119
+			MX	100 zdve-mailx
+vpnclient-12		A	134.96.212.12
+			MX	100 zdve-mailx
+vpnclient-120		A	134.96.212.120
+			MX	100 zdve-mailx
+vpnclient-121		A	134.96.212.121
+			MX	100 zdve-mailx
+vpnclient-122		A	134.96.212.122
+			MX	100 zdve-mailx
+vpnclient-123		A	134.96.212.123
+			MX	100 zdve-mailx
+vpnclient-124		A	134.96.212.124
+			MX	100 zdve-mailx
+vpnclient-125		A	134.96.212.125
+			MX	100 zdve-mailx
+vpnclient-126		A	134.96.212.126
+			MX	100 zdve-mailx
+vpnclient-13		A	134.96.212.13
+			MX	100 zdve-mailx
+vpnclient-14		A	134.96.212.14
+			MX	100 zdve-mailx
+vpnclient-15		A	134.96.212.15
+			MX	100 zdve-mailx
+vpnclient-16		A	134.96.212.16
+			MX	100 zdve-mailx
+vpnclient-17		A	134.96.212.17
+			MX	100 zdve-mailx
+vpnclient-18		A	134.96.212.18
+			MX	100 zdve-mailx
+vpnclient-19		A	134.96.212.19
+			MX	100 zdve-mailx
+vpnclient-195		A	134.96.215.195
+			MX	100 zdve-mailx
+vpnclient-196		A	134.96.215.196
+			MX	100 zdve-mailx
+vpnclient-197		A	134.96.215.197
+			MX	100 zdve-mailx
+vpnclient-198		A	134.96.215.198
+			MX	100 zdve-mailx
+vpnclient-199		A	134.96.215.199
+			MX	100 zdve-mailx
+vpnclient-20		A	134.96.212.20
+			MX	100 zdve-mailx
+vpnclient-200		A	134.96.215.200
+			MX	100 zdve-mailx
+vpnclient-201		A	134.96.215.201
+			MX	100 zdve-mailx
+vpnclient-202		A	134.96.215.202
+			MX	100 zdve-mailx
+vpnclient-203		A	134.96.215.203
+			MX	100 zdve-mailx
+vpnclient-204		A	134.96.215.204
+			MX	100 zdve-mailx
+vpnclient-205		A	134.96.215.205
+			MX	100 zdve-mailx
+vpnclient-206		A	134.96.215.206
+			MX	100 zdve-mailx
+vpnclient-207		A	134.96.215.207
+			MX	100 zdve-mailx
+vpnclient-208		A	134.96.215.208
+			MX	100 zdve-mailx
+vpnclient-209		A	134.96.215.209
+			MX	100 zdve-mailx
+vpnclient-21		A	134.96.212.21
+			MX	100 zdve-mailx
+vpnclient-210		A	134.96.215.210
+			MX	100 zdve-mailx
+vpnclient-211		A	134.96.215.211
+			MX	100 zdve-mailx
+vpnclient-212		A	134.96.215.212
+			MX	100 zdve-mailx
+vpnclient-213		A	134.96.215.213
+			MX	100 zdve-mailx
+vpnclient-214		A	134.96.215.214
+			MX	100 zdve-mailx
+vpnclient-215		A	134.96.215.215
+			MX	100 zdve-mailx
+vpnclient-216		A	134.96.215.216
+			MX	100 zdve-mailx
+vpnclient-217		A	134.96.215.217
+			MX	100 zdve-mailx
+vpnclient-218		A	134.96.215.218
+			MX	100 zdve-mailx
+vpnclient-219		A	134.96.215.219
+			MX	100 zdve-mailx
+vpnclient-22		A	134.96.212.22
+			MX	100 zdve-mailx
+vpnclient-220		A	134.96.215.220
+			MX	100 zdve-mailx
+vpnclient-221		A	134.96.215.221
+			MX	100 zdve-mailx
+vpnclient-222		A	134.96.215.222
+			MX	100 zdve-mailx
+vpnclient-223		A	134.96.215.223
+			MX	100 zdve-mailx
+vpnclient-224		A	134.96.215.224
+			MX	100 zdve-mailx
+vpnclient-225		A	134.96.215.225
+			MX	100 zdve-mailx
+vpnclient-226		A	134.96.215.226
+			MX	100 zdve-mailx
+vpnclient-227		A	134.96.215.227
+			MX	100 zdve-mailx
+vpnclient-228		A	134.96.215.228
+			MX	100 zdve-mailx
+vpnclient-229		A	134.96.215.229
+			MX	100 zdve-mailx
+vpnclient-23		A	134.96.212.23
+			MX	100 zdve-mailx
+vpnclient-230		A	134.96.215.230
+			MX	100 zdve-mailx
+vpnclient-231		A	134.96.215.231
+			MX	100 zdve-mailx
+vpnclient-232		A	134.96.215.232
+			MX	100 zdve-mailx
+vpnclient-233		A	134.96.215.233
+			MX	100 zdve-mailx
+vpnclient-234		A	134.96.215.234
+			MX	100 zdve-mailx
+vpnclient-235		A	134.96.215.235
+			MX	100 zdve-mailx
+vpnclient-236		A	134.96.215.236
+			MX	100 zdve-mailx
+vpnclient-237		A	134.96.215.237
+			MX	100 zdve-mailx
+vpnclient-238		A	134.96.215.238
+			MX	100 zdve-mailx
+vpnclient-239		A	134.96.215.239
+			MX	100 zdve-mailx
+vpnclient-24		A	134.96.212.24
+			MX	100 zdve-mailx
+vpnclient-240		A	134.96.215.240
+			MX	100 zdve-mailx
+vpnclient-241		A	134.96.215.241
+			MX	100 zdve-mailx
+vpnclient-242		A	134.96.215.242
+			MX	100 zdve-mailx
+vpnclient-243		A	134.96.215.243
+			MX	100 zdve-mailx
+vpnclient-244		A	134.96.215.244
+			MX	100 zdve-mailx
+vpnclient-245		A	134.96.215.245
+			MX	100 zdve-mailx
+vpnclient-246		A	134.96.215.246
+			MX	100 zdve-mailx
+vpnclient-247		A	134.96.215.247
+			MX	100 zdve-mailx
+vpnclient-248		A	134.96.215.248
+			MX	100 zdve-mailx
+vpnclient-249		A	134.96.215.249
+			MX	100 zdve-mailx
+vpnclient-25		A	134.96.212.25
+			MX	100 zdve-mailx
+vpnclient-250		A	134.96.215.250
+			MX	100 zdve-mailx
+vpnclient-251		A	134.96.215.251
+			MX	100 zdve-mailx
+vpnclient-252		A	134.96.215.252
+			MX	100 zdve-mailx
+vpnclient-253		A	134.96.215.253
+			MX	100 zdve-mailx
+vpnclient-254		A	134.96.215.254
+			MX	100 zdve-mailx
+vpnclient-26		A	134.96.212.26
+			MX	100 zdve-mailx
+vpnclient-27		A	134.96.212.27
+			MX	100 zdve-mailx
+vpnclient-28		A	134.96.212.28
+			MX	100 zdve-mailx
+vpnclient-29		A	134.96.212.29
+			MX	100 zdve-mailx
+vpnclient-3		A	134.96.212.3
+			MX	100 zdve-mailx
+vpnclient-30		A	134.96.212.30
+			MX	100 zdve-mailx
+vpnclient-31		A	134.96.212.31
+			MX	100 zdve-mailx
+vpnclient-32		A	134.96.212.32
+			MX	100 zdve-mailx
+vpnclient-33		A	134.96.212.33
+			MX	100 zdve-mailx
+vpnclient-34		A	134.96.212.34
+			MX	100 zdve-mailx
+vpnclient-35		A	134.96.212.35
+			MX	100 zdve-mailx
+vpnclient-36		A	134.96.212.36
+			MX	100 zdve-mailx
+vpnclient-37		A	134.96.212.37
+			MX	100 zdve-mailx
+vpnclient-38		A	134.96.212.38
+			MX	100 zdve-mailx
+vpnclient-39		A	134.96.212.39
+			MX	100 zdve-mailx
+vpnclient-4		A	134.96.212.4
+			MX	100 zdve-mailx
+vpnclient-40		A	134.96.212.40
+			MX	100 zdve-mailx
+vpnclient-41		A	134.96.212.41
+			MX	100 zdve-mailx
+vpnclient-42		A	134.96.212.42
+			MX	100 zdve-mailx
+vpnclient-43		A	134.96.212.43
+			MX	100 zdve-mailx
+vpnclient-44		A	134.96.212.44
+			MX	100 zdve-mailx
+vpnclient-45		A	134.96.212.45
+			MX	100 zdve-mailx
+vpnclient-46		A	134.96.212.46
+			MX	100 zdve-mailx
+vpnclient-47		A	134.96.212.47
+			MX	100 zdve-mailx
+vpnclient-48		A	134.96.212.48
+			MX	100 zdve-mailx
+vpnclient-49		A	134.96.212.49
+			MX	100 zdve-mailx
+vpnclient-5		A	134.96.212.5
+			MX	100 zdve-mailx
+vpnclient-50		A	134.96.212.50
+			MX	100 zdve-mailx
+vpnclient-51		A	134.96.212.51
+			MX	100 zdve-mailx
+vpnclient-52		A	134.96.212.52
+			MX	100 zdve-mailx
+vpnclient-53		A	134.96.212.53
+			MX	100 zdve-mailx
+vpnclient-54		A	134.96.212.54
+			MX	100 zdve-mailx
+vpnclient-55		A	134.96.212.55
+			MX	100 zdve-mailx
+vpnclient-56		A	134.96.212.56
+			MX	100 zdve-mailx
+vpnclient-57		A	134.96.212.57
+			MX	100 zdve-mailx
+vpnclient-58		A	134.96.212.58
+			MX	100 zdve-mailx
+vpnclient-59		A	134.96.212.59
+			MX	100 zdve-mailx
+vpnclient-6		A	134.96.212.6
+			MX	100 zdve-mailx
+vpnclient-60		A	134.96.212.60
+			MX	100 zdve-mailx
+vpnclient-61		A	134.96.212.61
+			MX	100 zdve-mailx
+vpnclient-62		A	134.96.212.62
+			MX	100 zdve-mailx
+vpnclient-63		A	134.96.212.63
+			MX	100 zdve-mailx
+vpnclient-64		A	134.96.212.64
+			MX	100 zdve-mailx
+vpnclient-65		A	134.96.212.65
+			MX	100 zdve-mailx
+vpnclient-66		A	134.96.212.66
+			MX	100 zdve-mailx
+vpnclient-67		A	134.96.212.67
+			MX	100 zdve-mailx
+vpnclient-68		A	134.96.212.68
+			MX	100 zdve-mailx
+vpnclient-69		A	134.96.212.69
+			MX	100 zdve-mailx
+vpnclient-7		A	134.96.212.7
+			MX	100 zdve-mailx
+vpnclient-70		A	134.96.212.70
+			MX	100 zdve-mailx
+vpnclient-71		A	134.96.212.71
+			MX	100 zdve-mailx
+vpnclient-72		A	134.96.212.72
+			MX	100 zdve-mailx
+vpnclient-73		A	134.96.212.73
+			MX	100 zdve-mailx
+vpnclient-74		A	134.96.212.74
+			MX	100 zdve-mailx
+vpnclient-75		A	134.96.212.75
+			MX	100 zdve-mailx
+vpnclient-76		A	134.96.212.76
+			MX	100 zdve-mailx
+vpnclient-77		A	134.96.212.77
+			MX	100 zdve-mailx
+vpnclient-78		A	134.96.212.78
+			MX	100 zdve-mailx
+vpnclient-79		A	134.96.212.79
+			MX	100 zdve-mailx
+vpnclient-8		A	134.96.212.8
+			MX	100 zdve-mailx
+vpnclient-80		A	134.96.212.80
+			MX	100 zdve-mailx
+vpnclient-81		A	134.96.212.81
+			MX	100 zdve-mailx
+vpnclient-82		A	134.96.212.82
+			MX	100 zdve-mailx
+vpnclient-83		A	134.96.212.83
+			MX	100 zdve-mailx
+vpnclient-84		A	134.96.212.84
+			MX	100 zdve-mailx
+vpnclient-85		A	134.96.212.85
+			MX	100 zdve-mailx
+vpnclient-86		A	134.96.212.86
+			MX	100 zdve-mailx
+vpnclient-87		A	134.96.212.87
+			MX	100 zdve-mailx
+vpnclient-88		A	134.96.212.88
+			MX	100 zdve-mailx
+vpnclient-89		A	134.96.212.89
+			MX	100 zdve-mailx
+vpnclient-9		A	134.96.212.9
+			MX	100 zdve-mailx
+vpnclient-90		A	134.96.212.90
+			MX	100 zdve-mailx
+vpnclient-91		A	134.96.212.91
+			MX	100 zdve-mailx
+vpnclient-92		A	134.96.212.92
+			MX	100 zdve-mailx
+vpnclient-93		A	134.96.212.93
+			MX	100 zdve-mailx
+vpnclient-94		A	134.96.212.94
+			MX	100 zdve-mailx
+vpnclient-95		A	134.96.212.95
+			MX	100 zdve-mailx
+vpnclient-96		A	134.96.212.96
+			MX	100 zdve-mailx
+vpnclient-97		A	134.96.212.97
+			MX	100 zdve-mailx
+vpnclient-98		A	134.96.212.98
+			MX	100 zdve-mailx
+vpnclient-99		A	134.96.212.99
+			MX	100 zdve-mailx
+vpnserver		A	134.96.212.2
+			MX	100 zdve-mailx
+vpnserver2		A	134.96.215.194
+			MX	100 zdve-mailx
+web-server-bw		A	134.96.208.105
+			MX	100 zdve-mailx
+werkstatt		A	134.96.212.208
+			MX	100 zdve-mailx
+wetter			A	134.96.210.8
+			MX	100 zdve-mailx
+wf-1			A	134.96.211.3
+			MX	100 zdve-mailx
+wf-2			A	134.96.211.4
+			MX	100 zdve-mailx
+wf-3			A	134.96.211.5
+			MX	100 zdve-mailx
+wf-4			A	134.96.211.6
+			MX	100 zdve-mailx
+wf-5			A	134.96.211.7
+			MX	100 zdve-mailx
+wf-fw			A	134.96.211.2
+			MX	100 zdve-mailx
+whw-pc-be		A	134.96.212.174
+			MX	100 zdve-mailx
+whw-pc-ko		A	134.96.212.173
+			MX	100 zdve-mailx
+whw-pc-pl		A	134.96.212.171
+			MX	100 zdve-mailx
+whw-schwarz		A	134.96.212.227
+			MX	100 zdve-mailx
+whw-wi-ab02		A	134.96.215.163
+			MX	100 zdve-mailx
+whw-wi-al1		A	134.96.210.188
+			MX	100 zdve-mailx
+whw-wi-ve		A	134.96.215.164
+			MX	100 zdve-mailx
+wi			CNAME	zdve-mailx
+wi-arendes		A	134.96.219.196
+			MX	100 zdve-mailx
+wi-friedrich		A	134.96.219.168
+			MX	100 zdve-mailx
+wi-georg		A	134.96.219.144
+			MX	100 zdve-mailx
+wi-junker		A	134.96.219.202
+			MX	100 zdve-mailx
+wi-kneip		A	134.96.219.204
+			MX	100 zdve-mailx
+wi-kraemer		A	134.96.219.228
+			MX	100 zdve-mailx
+wi-leprich		A	134.96.219.178
+			MX	100 zdve-mailx
+wi-projekt02		A	134.96.219.236
+			MX	100 zdve-mailx
+wi-projekt03		A	134.96.219.237
+			MX	100 zdve-mailx
+wi-pulham		A	134.96.219.199
+			MX	100 zdve-mailx
+wi-reichart		A	134.96.219.176
+			MX	100 zdve-mailx
+wi-scherer		A	134.96.219.194
+			MX	100 zdve-mailx
+wi-schottek-nb		A	134.96.219.139
+			MX	100 zdve-mailx
+wi-toschmidt		A	134.96.219.197
+			MX	100 zdve-mailx
+wi-venitz		A	134.96.219.195
+			MX	100 zdve-mailx
+wi-weisgerber		A	134.96.219.229
+			MX	100 zdve-mailx
+wirtschaftsingenieurwesen CNAME	zdve-mailx
+wiwi-densing		A	134.96.219.217
+			MX	100 zdve-mailx
+wiwi-dsb-hg		A	134.96.219.238
+			MX	100 zdve-mailx
+wiwi-dsb-ng		A	134.96.219.241
+			MX	100 zdve-mailx
+wiwi-ganther		A	134.96.219.154
+			MX	100 zdve-mailx
+wiwi-hl2700cn		A	134.96.219.198
+			MX	100 zdve-mailx
+wiwi-hp4600		A	134.96.219.169
+			MX	100 zdve-mailx
+wiwi-iscom-hiwi		A	134.96.219.183
+			MX	100 zdve-mailx
+wiwi-koerner		A	134.96.219.218
+			MX	100 zdve-mailx
+wiwi-mail		A	134.96.219.233
+			MX	90 wiwi-mail
+wiwi-persinf		A	134.96.208.103
+			MX	100 zdve-mailx
+wiwi-rom		A	134.96.210.130
+			MX	100 zdve-mailx
+wiwi-sek		A	134.96.219.254
+			MX	100 zdve-mailx
+wiwif-server		A	134.96.219.2
+			MX	100 zdve-mailx
+wiwif-sicherung		A	134.96.219.240
+			MX	100 zdve-mailx
+wlan-ap-ha1		A	134.96.217.194
+			MX	100 zdve-mailx
+wlan-ap-ha2		A	134.96.217.195
+			MX	100 zdve-mailx
+wohnen			CNAME	zdve-mailx
+ww-esx			A	134.96.208.173
+			MX	100 zdve-mailx
+ww-oslo			A	134.96.208.132
+			MX	100 zdve-mailx
+www			CNAME	www-portal
+www-ab			A	134.96.208.134
+			MX	100 zdve-mailx
+www-bw			CNAME	web-server-bw
+www-crypto		A	134.96.208.102
+			MX	100 zdve-mailx
+www-learn		CNAME	wiwi-persinf
+www-portal		A	134.96.208.112
+			MX	100 zdve-mailx
+www-proxy		A	134.96.208.100
+			A	134.96.208.120
+			MX	100 zdve-mailx
+www-proxy-neu		CNAME	www-proxy
+www-stl			CNAME	stl-s-www
+www-zv			A	134.96.208.122
+			MX	100 zdve-mailx
+www-zv-t1		A	134.96.212.254
+			MX	100 zdve-mailx
+www-zv-test		A	134.96.208.163
+			MX	100 zdve-mailx
+www1			CNAME	stl-s-www
+$TTL 600	; 10 minutes
+wwwtest			CNAME	weboth-4.rz.uni-saarland.de.
+$TTL 43200	; 12 hours
+zb-bft-01		A	134.96.209.69
+			MX	100 zdve-mailx
+zb-bft-02		A	134.96.209.68
+			MX	100 zdve-mailx
+zb-goe-e1		A	134.96.209.230
+			MX	100 zdve-mailx
+zb-goe-e2		A	134.96.209.231
+			MX	100 zdve-mailx
+zb-goe-e3		A	134.96.209.228
+			MX	100 zdve-mailx
+zb-goe-e6		A	134.96.209.233
+			MX	100 zdve-mailx
+zb-ju-01		A	134.96.209.75
+			MX	100 zdve-mailx
+zb-lesesaalrpf-01	A	134.96.209.229
+			MX	100 zdve-mailx
+zb-lesesaalrpf-02	A	134.96.209.232
+			MX	100 zdve-mailx
+zb-lesesaalrpf-03	A	134.96.209.236
+			MX	100 zdve-mailx
+zb-lesesaalrpf-04	A	134.96.209.237
+			MX	100 zdve-mailx
+zb-lesesaalrpf-05	A	134.96.209.238
+			MX	100 zdve-mailx
+zb-mi-01		A	134.96.209.76
+			MX	100 zdve-mailx
+zb-mi-02		A	134.96.209.66
+			MX	100 zdve-mailx
+zb-ps-3101		A	134.96.209.77
+zb-rb-01		A	134.96.209.74
+			MX	100 zdve-mailx
+zb-rh-01		A	134.96.209.70
+			MX	100 zdve-mailx
+zb-rh-02		A	134.96.209.71
+			MX	100 zdve-mailx
+zb-rh-03		A	134.96.209.67
+			MX	100 zdve-mailx
+zb-roe-02		A	134.96.209.80
+			MX	100 zdve-mailx
+zb-rpf-01		A	134.96.209.78
+			MX	100 zdve-mailx
+zb-rpf-03		A	134.96.209.81
+			MX	100 zdve-mailx
+zb-sb-01		A	134.96.209.73
+			MX	100 zdve-mailx
+zb-schwingboth-02	A	134.96.209.79
+			MX	100 zdve-mailx
+zb-sn-01		A	134.96.209.72
+			MX	100 zdve-mailx
+zb-whw-e1		A	134.96.209.234
+			MX	100 zdve-mailx
+zb-whw-e2		A	134.96.209.235
+			MX	100 zdve-mailx
+zb-whw-e3		A	134.96.209.226
+			MX	100 zdve-mailx
+zb-whw-e4		A	134.96.209.227
+			MX	100 zdve-mailx
+zdve-backup		A	134.96.208.68
+			MX	100 zdve-mailx
+zdve-bauer		A	134.96.209.143
+			MX	100 zdve-mailx
+zdve-exchange		A	134.96.208.135
+			MX	90 zdve-exchange
+zdve-extranet		A	134.96.208.133
+			MX	100 zdve-mailx
+zdve-folz		A	134.96.209.131
+			MX	100 zdve-mailx
+zdve-kolbusch		A	134.96.209.137
+			MX	100 zdve-mailx
+zdve-mailx		A	134.96.208.108
+			MX	100 zdve-mailx
+zdve-md			A	134.96.209.146
+			MX	100 zdve-mailx
+zdve-mg-2		A	134.96.208.5
+			MX	100 zdve-mailx
+zdve-mpi		A	134.96.209.150
+			MX	100 zdve-mailx
+zdve-multi		A	134.96.208.116
+			MX	100 zdve-mailx
+zdve-myr-1		A	134.96.209.130
+			MX	100 zdve-mailx
+zdve-myr-2		A	134.96.209.138
+			MX	100 zdve-mailx
+zdve-p-lq2180		A	134.96.210.105
+			MX	100 zdve-mailx
+zdve-p-slp200		A	134.96.209.152
+zdve-p-t610		A	134.96.210.103
+			MX	100 zdve-mailx
+zdve-p-w812		A	134.96.210.104
+			MX	100 zdve-mailx
+zdve-prototyp		A	134.96.210.68
+			MX	100 zdve-mailx
+zdve-ps-scf62275	A	134.96.212.157
+zdve-sth1		A	134.96.212.154
+			MX	100 zdve-mailx
+zdve-usv		A	134.96.208.101
+zdve2000s1		A	134.96.210.66
+			MX	100 zdve-mailx
+zdve2003s1		A	134.96.210.69
+			MX	100 zdve-mailx
+zentrale		A	134.96.212.197
+			MX	100 zdve-mailx
+zil			A	134.96.215.3
+			MX	100 zdve-mailx
+zip-lpa-03		A	134.96.213.253
+			MX	100 zdve-mailx
+zip-lpa-04		A	134.96.213.254
+			MX	100 zdve-mailx
+zv			A	134.96.212.182
+			MX	100 zdve-mailx
+zv-asa			A	134.96.208.11
+zv-azubi		A	134.96.212.156
+			MX	100 zdve-mailx
+zv-azubi1		A	134.96.212.195
+			MX	100 zdve-mailx
+zv-elektro		A	134.96.212.205
+			MX	100 zdve-mailx
+zv-hell			A	134.96.212.165
+			MX	100 zdve-mailx
+zv-his-test		A	134.96.212.192
+			MX	100 zdve-mailx
+zv-it-hiwi		A	134.96.212.218
+			MX	100 zdve-mailx
+zv-it-v-sql-test	A	134.96.212.219
+			MX	100 zdve-mailx
+zv-presse2		A	134.96.212.168
+			MX	100 zdve-mailx
+zv-presse3		A	134.96.212.191
+			MX	100 zdve-mailx
+zv-ps-label		A	134.96.209.35
+			MX	100 zdve-mailx
+zv-rektor		A	134.96.209.23
+			MX	100 zdve-mailx
+zv-sql1			A	134.96.209.48
+			MX	100 zdve-mailx
+zv-test			A	134.96.212.223
+			MX	100 zdve-mailx
+zv-test-w2k		A	134.96.212.231
+			MX	100 zdve-mailx
+zv-test-wxp		A	134.96.212.232
+			MX	100 zdve-mailx
+zv-test2		A	134.96.212.207
+			MX	100 zdve-mailx
+zv-ts			A	134.96.209.50
+			MX	100 zdve-mailx
+zv-ts-a1		A	134.96.209.49
+			MX	100 zdve-mailx
+zvs			A	134.96.209.42
+			MX	100 zdve-mailx
+zvts			A	134.96.209.41
+			MX	100 zdve-mailx

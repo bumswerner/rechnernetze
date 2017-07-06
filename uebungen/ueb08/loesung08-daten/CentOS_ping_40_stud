@@ -1,0 +1,41 @@
+#
+#
+#
+# CentOS_ping_40_stud
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1a : starte tcpdump um icmp-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S -A 'icmp and ( dst stl-s-stud.htwsaar.de or src stl-s-stud.htwsaar.de )' |\
+                               tee -a CentOS_ping_40_stud
+            ###################--------------------------------------------------------------------------------------------------------
+            
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+10:01:58.382561 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 82: (tos 0x0, ttl 64, id 41814, offset 0, flags [DF], proto ICMP (1), length 68)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 19076, seq 1, length 48
+E..D.V@.@....`...`.....)J.....tW............................ !"#$%&'
+10:01:58.382802 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 82: (tos 0x0, ttl 255, id 40848, offset 0, flags [DF], proto ICMP (1), length 68)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 19076, seq 1, length 48
+E..D..@......`...`.....)J.....tW............................ !"#$%&'
+
+
+
+
+Schritt 1b : fuehre das entsprechende ping auf CentOS in anderem Fenster aus
+
+            pauly@stl-centos> ping -c 1 -s 40 stl-s-stud.htwsaar.de
+            #################--------------------------------------
+            PING stl-s-studwork.htw-saarland.de (134.96.216.212) 40(68) bytes of data.
+            48 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=1 ttl=255 time=0.312 ms
+            
+            --- stl-s-studwork.htw-saarland.de ping statistics ---
+            1 packets transmitted, 1 received, 0% packet loss, time 0ms
+            rtt min/avg/max/mdev = 0.312/0.312/0.312/0.000 ms
+

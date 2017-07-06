@@ -1,0 +1,142 @@
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 02. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb02/loesung02.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb02/loesung02-daten-aufgabe-1
+                 ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb02/loesung02-daten-aufgabe-2
+    
+    Abgabe: Zur Vorlesung in der KW 22 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+
+    ########################################################################################
+    ###### Fuer die nachfolgenden Versuche benoetigen Sie einen Laptop/PC und einen   ######
+    ###### Internetanschluss zuhause.                                                 ######
+    ######                                                                            ######
+    ###### Falls Sie keinen Laptop besitzen oder Sie Ihren Laptop in den verschiedenen #####
+    ###### LANs/WLANs nicht zum Laufen bringen, nutzen Sie die Beispielmesswerte, die ######
+    ###### Sie im Uebungsordner im Directory loesung02-daten-aufgabe_1 finden.        ######
+    ######                                                                            ######
+    ###### Falls Sie zuhause keinen Internetanschluss haben, nutzen Sie die Beispiel- ######
+    ###### messwerte, die Sie im Uebungsordner im Directory loesung02-daten-aufgabe_2 ######
+    ###### finden.                                                                    ######
+    ########################################################################################
+
+
+    1. Aufgabe - Netzwerkdurchsatz des HTW-LAN/WLAN  --> stl-s-stud.htwsaar.de
+    -----------------------------------------------------------------------------------
+      - Fuehren Sie folgende Experimente durch und interpretieren Sie die 
+        Ergebnisse:
+                --- die Experimente sollen unter Ihrem LapTop/PC-Betriebssystem
+                    durchgefuehrt werden
+                --- es soll sowohl tcp als auch udp  verwendet werden
+
+                    Client-Seite               Server-Seite
+                < > Test Laptop (BS)       --> stl-s-stud.htwsaar.de
+
+                <a> via STL-LAN - im Raum 8207 Seitenleiste
+                <b> via HTW-WLAN - htwintern
+                <c> via HTW-WLAN - eduroam
+
+      - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+
+                             | Clientname   | Servername |           Tx        |           Rx        |
+                             |              |            | MByte/s    | MBit/s | MByte/s    | MBit/s |
+          --------------------------------------------------------------------------------------------
+          a             tcp  | Laptop       | stl-s-stud |    90      |  720   |  100       |  800   |
+          LAN           ------------------------------------------------------------------------------
+          STL           udp  | Laptop       | stl-s-stud |    93      |  745   |   55       |  445   |
+          --------------------------------------------------------------------------------------------
+          b             tcp  | Laptop       | stl-s-stud |  connect(): error code 10060              |
+          WLAN          ------------------------------------------------------------------------------
+          htwintern     udp  | Laptop       | stl-s-stud |  connect(): error code 10060              |
+          --------------------------------------------------------------------------------------------
+          b             tcp  | Laptop       | stl-s-stud |     3,15   |   25,2 |    3,1     |   24,7 |
+          WLAN        ------------------------------------------------------------------------------
+          eduroam       udp  | Laptop       | stl-s-stud |     3,55   |   28,4 |    0       |    0   |
+          --------------------------------------------------------------------------------------------
+
+      - Einige Experimente funktioniert nicht! Welche und koennen Sie erklaeren warum ?
+        ####> der Zugriff ueber das HTW-WLAN-htwintern funktioniert nicht, offensichtlich verhindert 
+              eine Firewall den Zugriff auf den stl-s-stud.
+
+      - Wie unterscheiden sich die TCP-UDP-Durchsaetze - allgemein ?
+         ###> beim STL-LAN ist UDP beim Senden leicht schneller als TCP, 
+              beim Empfangen ist UDP nur halb so schnell wie TCP.
+         ###> beim HTW-WLAN-eduroam ist UDP beim Senden leicht schneller als TCP, 
+              es werden keine UPD-Pakete Empfangen.
+
+      - Wie unterscheiden sich die LAN/WLAN-Durchsaetze - allgemein ?
+        ###> der STL-LAN-Durchsatz ist bei TCP um den Faktor 30 schneller als der WLAN-HTW-eduroam Durchsatz
+             das gilt fuer das Senden als auch fuer das Empfangen. 
+        ###> der STL-LAN-Durchsatz ist bei UDP um den Faktor 31 schneller als der WLAN-HTW-eduroam Durchsatz
+             aber im HTW-WLAN-eduroam koennen keine UDP-Pakete Empfangen werden.
+
+
+
+    2. Aufgabe - Netzwerkdurchsatz des HOME-LAN/WLAN  --> stl-s-stud.htwsaar.de
+    --------------------------------------------------------------------------------------
+      - Fuehren Sie folgende Experimente durch und interpretieren Sie die 
+        Ergebnisse:
+                --- die Experimente sollen unter Ihrem LapTop/PC-Betriebssystem
+                    durchgefuehrt werden
+                --- es soll sowohl tcp als auch udp  verwendet werden
+
+                    Client-Seite               Server-Seite
+                < > Test Laptop/PC (BS)    --> stl-s-stud.htwsaar.de
+
+                <a> via HOME-LAN  
+                <b> via HOME-WLAN 
+
+      - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+                           | Clientname   | Servername |         Tx        |         Rx        |
+                           |              |            | MByte/s  | MBit/s | MByte/s  | MBit/s |
+        ----------------------------------------------------------------------------------------
+        a             tcp  | Laptop/PC    | stl-s-stud |  0,065   |  0,52  |  0,251   |  2,012 |
+        HOME-LAN  ------------------------------------------------------------------------------
+                      udp  | Laptop/PC    | stl-s-stud | nur 1 KBytes Pakete kommen durch dann |
+                           |              |            | Abbruch mit  send(): error code 10054 |
+                          Datenrate fuer 1KByte-Pakete |  0,007   |  0,06  |  0,339   |  2,71  |
+        -----------------------------------------------------------------------------------------
+        b             tcp  | Laptop/PC    | stl-s-stud |  0,06    |  0,48  |  0,251   |  2,012 |
+        HOME-WLAN ------------------------------------------------------------------------------
+                      udp  | Laptop/PC    | stl-s-stud | nur 1 KBytes Pakete kommen durch dann |
+                           |              |            | Abbruch mit  send(): error code 10054 |
+                          Datenrate fuer 1KByte-Pakete |  0,007   |  0,06  |  0,339   |  2,71  |
+        ----------------------------------------------------------------------------------------
+
+
+      - Wie unterscheiden sich die TCP-UDP-Durchsaetze ?
+        ####> die Senderate TCP ( == UP-Stream ) liegt bei etwa 60 KByte/sek == 0,065 MByte;
+              die Empfangsrate TCP ( == DOWN-Stream ) bei etwa 250 KByte/sek == 0,251 MByte,
+              das spiegelt die DSL-UP-/DOWN-Stream-Unsymmetrie wieder.*)
+
+        ####> die UDP-Sende- und Empfangsraten sind fuer 1kByte-Pakete mit den TCP-Raten vergleichbar;
+              allerdings bricht beim Empfangen von 2 KByte-Paketen die Kommunikation ab.
+        
+      - Wie wirken sich die verschiedenen Zugriffsarten LAN/WLAN auf den Durchsatz aus ? Erklaerungen ?
+        ####> die lokale Netzwerk-Technologie ( LAN, WLAN ) hat auf die Uebertragungsgeschwindigkeit
+              nicht den entscheidenden Einfluss sondern die Art des Internet-Anschlusses .
+
+
+      *) DSL-UP-/Download-Geschwindigkeiten der deutschen Telekom ( theoretische Werte)
+         
+         Name      - Download (max.) - Upload (max.)
+
+         DSL 1000  - 1024 kbit/s     - 128 kbit/s
+         DSL 2000  - 2048 kbit/s     - 192 kbit/s
+         DSL 6000  - 6016 kbit/s     - 384 kbit/s
+         DSL 16000 - 16000 kbit/s    - 2400 kbit/s
+         DSL 50000 - 50000 kbit/s    - 10000 kbit/s
+    DSL 100000 - 100000 kbit/s - 40000 kbit/s
+

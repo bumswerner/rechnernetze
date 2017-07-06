@@ -1,0 +1,6 @@
+    No. Time        Source                   Destination            Protocol Info
+      1 0.000000    rtg216-0.htw-saarland.de IGRP-ROUTERS.MCAST.NET EIGRP    Hello
+      2 4.952480    rtg216-0.htw-saarland.de IGRP-ROUTERS.MCAST.NET EIGRP    Hello
+      3 9.308925    rtg216-0.htw-saarland.de IGRP-ROUTERS.MCAST.NET EIGRP    Hello
+      4 13.845466   rtg216-0.htw-saarland.de IGRP-ROUTERS.MCAST.NET EIGRP    Hello
+      5 18.777771   rtg216-0.htw-saarland.de IGRP-ROUTERS.MCAST.NET EIGRP    Hello

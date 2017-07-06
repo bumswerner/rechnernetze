@@ -1,0 +1,30 @@
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Server - Internet-Adresse       ---> stl-c-01/134.96.158.101
+	- die lokale Server - TCP - Portnummer       ---> 4711
+	- die lokale Server - Empfangs-Puffer-Größe  ---> 25194
+	- die lokale Server - Sende-Puffer-Größe     ---> 16384
+	- die entfernte Client - Internet-Adresse    ---> stl-m-wpy/134.96.158.230
+	- die entfernte Client - TCP - Portnummer    ---> 32875
+
+
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Server - Internet-Adresse       ---> stl-c-01/134.96.158.101
+	- die lokale Server - TCP - Portnummer       ---> 4711
+	- die lokale Server - Empfangs-Puffer-Größe  ---> 25194
+	- die lokale Server - Sende-Puffer-Größe     ---> 16384
+	- die entfernte Client - Internet-Adresse    ---> stl-m-wpy/134.96.158.230
+	- die entfernte Client - TCP - Portnummer    ---> 32876
+
+
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Server - Internet-Adresse       ---> stl-c-01/134.96.158.101
+	- die lokale Server - TCP - Portnummer       ---> 4711
+	- die lokale Server - Empfangs-Puffer-Größe  ---> 25194
+	- die lokale Server - Sende-Puffer-Größe     ---> 16384
+	- die entfernte Client - Internet-Adresse    ---> stl-m-wpy/134.96.158.230
+	- die entfernte Client - TCP - Portnummer    ---> 32879
+
+

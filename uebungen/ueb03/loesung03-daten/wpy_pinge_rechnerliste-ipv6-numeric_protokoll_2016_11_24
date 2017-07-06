@@ -1,0 +1,156 @@
+#
+#
+#
+# wpy_pinge_rechnerliste-ipv6-numeric
+#
+#
+#
+
+vvvvvvvvvvvvv stl-v-231.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n stl-v-231.stl.htwsaar.de
+########------------------------------------------------------------
+PING stl-v-231.stl.htwsaar.de(2001:638:200:2:7374:76:aaaa:a07f) 40 data bytes
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=1 ttl=64 time=0.548 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=2 ttl=64 time=0.450 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=3 ttl=64 time=0.457 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=4 ttl=64 time=0.393 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=5 ttl=64 time=0.526 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=6 ttl=64 time=0.524 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=7 ttl=64 time=0.509 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=8 ttl=64 time=0.577 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=9 ttl=64 time=0.449 ms
+48 bytes from 2001:638:200:2:7374:76:aaaa:a07f: icmp_seq=10 ttl=64 time=0.384 ms
+
+--- stl-v-231.stl.htwsaar.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9001ms
+rtt min/avg/max/mdev = 0.384/0.481/0.577/0.066 ms
+
+
+vvvvvvvvvvvvv stl-s-studwork.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n stl-s-studwork.stl.htwsaar.de
+########------------------------------------------------------------
+PING stl-s-studwork.stl.htwsaar.de(2001:638:200:2:7374:73:7377:1) 40 data bytes
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=1 ttl=64 time=0.247 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=2 ttl=64 time=0.296 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=3 ttl=64 time=0.344 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=4 ttl=64 time=0.387 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=5 ttl=64 time=0.295 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=6 ttl=64 time=0.266 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=7 ttl=64 time=0.380 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=8 ttl=64 time=0.387 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=9 ttl=64 time=0.394 ms
+48 bytes from 2001:638:200:2:7374:73:7377:1: icmp_seq=10 ttl=64 time=0.348 ms
+
+--- stl-s-studwork.stl.htwsaar.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9000ms
+rtt min/avg/max/mdev = 0.247/0.334/0.394/0.054 ms
+
+
+vvvvvvvvvvvvv www.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.htwsaar.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.uni-saarland.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.uni-saarland.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.uni-kaiserslautern.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.uni-kaiserslautern.de
+########------------------------------------------------------------
+PING www.uni-kaiserslautern.de(2001:638:208:ef61:0:ff:fe00:2) 40 data bytes
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=1 ttl=58 time=1.80 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=2 ttl=58 time=1.93 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=3 ttl=58 time=1.99 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=4 ttl=58 time=1.91 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=5 ttl=58 time=2.12 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=6 ttl=58 time=2.61 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=7 ttl=58 time=2.05 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=8 ttl=58 time=1.89 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=9 ttl=58 time=2.05 ms
+48 bytes from 2001:638:208:ef61:0:ff:fe00:2: icmp_seq=10 ttl=58 time=1.98 ms
+
+--- www.uni-kaiserslautern.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 1.807/2.037/2.612/0.216 ms
+
+
+vvvvvvvvvvvvv www.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.dfn.de
+########------------------------------------------------------------
+PING www.dfn.de(2001:638:d:c102::140) 40 data bytes
+48 bytes from 2001:638:d:c102::140: icmp_seq=1 ttl=58 time=17.8 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=2 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=3 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=4 ttl=58 time=17.8 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=5 ttl=58 time=17.8 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=6 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=7 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=8 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=9 ttl=58 time=17.9 ms
+48 bytes from 2001:638:d:c102::140: icmp_seq=10 ttl=58 time=17.9 ms
+
+--- www.dfn.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 17.866/17.928/17.977/0.038 ms
+
+
+vvvvvvvvvvvvv www.zeit.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.zeit.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv ws-ber1.win-ip.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n ws-ber1.win-ip.dfn.de
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.nasa.gov vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.nasa.gov
+########------------------------------------------------------------
+PING www.nasa.gov(2a02:3d0:623:a000::8008) 40 data bytes
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=1 ttl=58 time=9.65 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=2 ttl=58 time=9.71 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=3 ttl=58 time=9.81 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=4 ttl=58 time=9.68 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=5 ttl=58 time=9.62 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=6 ttl=58 time=9.73 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=7 ttl=58 time=9.75 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=8 ttl=58 time=9.65 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=9 ttl=58 time=9.87 ms
+48 bytes from 2a02:3d0:623:a000::8008: icmp_seq=10 ttl=58 time=9.61 ms
+
+--- www.nasa.gov ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 9.613/9.711/9.877/0.080 ms
+
+
+vvvvvvvvvvvvv www.nasa.com vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.nasa.com
+########------------------------------------------------------------
+
+
+vvvvvvvvvvvvv www.washington.org vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.washington.org
+########------------------------------------------------------------
+PING www.washington.org(2400:cb00:2048:1::6819:3f65) 40 data bytes
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=1 ttl=59 time=9.48 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=2 ttl=59 time=9.52 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=3 ttl=59 time=9.54 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=4 ttl=59 time=9.61 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=5 ttl=59 time=9.57 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=6 ttl=59 time=9.58 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=7 ttl=59 time=9.55 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=8 ttl=59 time=9.56 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=9 ttl=59 time=9.49 ms
+48 bytes from 2400:cb00:2048:1::6819:3f65: icmp_seq=10 ttl=59 time=9.57 ms
+
+--- www.washington.org ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 9.484/9.551/9.615/0.084 ms
+
+
+vvvvvvvvvvvvv www.sydney.com vvvvvvvvvvvvvvvvv
+pauly:> ping6 -c 10 -s 40 -n www.sydney.com
+########------------------------------------------------------------

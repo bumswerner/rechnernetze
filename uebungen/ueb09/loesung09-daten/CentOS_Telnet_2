@@ -1,0 +1,54 @@
+#
+#
+#
+#
+#  CentOS_Telnet_2
+#
+#
+#
+#
+
+
+pauly@CentOS :> tcpdump -l -i eth0 -e -vv -S -A ip ' host stl-projekt.htwsaar.de and tcp port 23 ' | tee CentOS_Telnet_2
+###############---------------------------------------------------------------------------------------------------------
+
+
+
+
+13:58:22.698851 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41093, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0xf7fa), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39001165 ecr 0,nop,wscale 7], length 0
+E..<..@.@..D.`.v.`................r............
+.S.M........
+13:58:23.701017 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41094, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0xf40f), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39002168 ecr 0,nop,wscale 7], length 0
+E..<..@.@..C.`.v.`................r............
+.S 8........
+13:58:25.705072 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41095, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0xec3b), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39004172 ecr 0,nop,wscale 7], length 0
+E..<..@.@..B.`.v.`................r............
+.S(.........
+13:58:29.709033 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41096, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0xdc97), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39008176 ecr 0,nop,wscale 7], length 0
+E..<..@.@..A.`.v.`................r............
+.S7.........
+13:58:37.725091 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41097, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0xbd47), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39016192 ecr 0,nop,wscale 7], length 0
+E..<..@.@..@.`.v.`................r............
+.SW.........
+13:58:53.757074 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41098, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0x7ea7), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39032224 ecr 0,nop,wscale 7], length 0
+E..<..@.@..?.`.v.`................r............
+.S..........
+13:59:25.853099 00:1a:4a:f3:72:54 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41099, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.42512 > stl-projekt.htw-saarland.de.telnet: Flags [S], cksum 0xb610 (incorrect -> 0x0147), seq 2793585864, win 29200, options [mss 1460,sackOK,TS val 39064320 ecr 0,nop,wscale 7], length 0
+E..<..@.@..>.`.v.`................r............
+.T..........
+
+
+pauly@Centos:> telnet stl-projekt.htwsaar.de
+###############---------------------------------
+Trying 134.96.208.170...
+telnet: connect to address 134.96.208.170: Connection timed out
+
+pauly@Centos:> 
+###############---------------------------------

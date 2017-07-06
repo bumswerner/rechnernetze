@@ -1,0 +1,24 @@
+#!/usr/bin/ksh
+#
+#
+#
+#   Xnest-wpy
+#
+#   ACHTUNG : evtl. muss als root : chmod 4755 /usr/openwin/bin/Xnest
+#             ausgeführt werden.
+#
+
+read REMOTE?"Verbindung zu welchem Rechner herstellen ?? : "
+
+
+__DISPLAY=0
+
+while [ -S /tmp/.X11-unix/X${__DISPLAY} ] || [ -f /tmp/.X${__DISPLAY}-lock ] || [[ -p /tmp/.X11-pipe/X${__DISPLAY} || -f /tmp/.X11-pipe/X${__DISPLAY} ]]
+        do
+                let __DISPLAY+=1
+        done
+
+echo "----> ${__DISPLAY} <---"
+
+/usr/openwin/bin/Xnest -pn  -geometry 1024x768 -name $REMOTE  -query $REMOTE :${__DISPLAY}
+

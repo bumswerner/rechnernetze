@@ -1,0 +1,233 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 01. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb01/loesung01.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb01/loesung01-daten
+
+
+    1. Aufgabe - Theoretisch moegliche Uebertragungsraten - brutto
+    --------------------------------------------------------------
+        - Fuellen Sie folgende Tabelle mit den brutto Datenuebertragungsraten aus :
+
+          Technologie        | Uebertragungsrate | MBit/s | MByte/s | 600 MByte in ?? Minuten
+          ---------------------------------------------------------------------------------
+          DSL                |      1  MBit/s    |      1 |    0,125 | 80
+                             |      2  MBit/s    |      2 |    0,250 | 40
+                             |      3  MBit/s    |      3 |    0.375 | 26,7
+          ---------------------------------------------------------------------------------
+          WLAN               |     11  MBit/s    |     11 |    1,375 |  7,27  (437    Sek)
+                             |     51  MBit/s    |     51 |    6,385 |  1,57  ( 94    Sek)
+          ---------------------------------------------------------------------------------
+          Ethernet           |     10  MBit/s    |     10 |    1,250 |  8,0   (480    Sek)
+                             |    100  MBit/s    |    100 |   12,500 |  0,8   ( 48    Sek)
+                             |      1  GBit/s    |   1000 |  125,000 |  0.08  (  4,8  Sek)
+                             |     10  GBit/s    |  10000 | 1250,000 |  0,008 (  0,48 Sek)
+          ---------------------------------------------------------------------------------
+
+       - die von Ihnen ausgerechneten Bruttowerte sind sehr theoretischer Natur, da zum Ueber-
+         tragen der Daten Steuerinformationen der Uebertraggungsprotokolle mit uebertragen
+         werden, ausserdem evtl. das Netz und/oder die kommunizierenden Rechner/Programme stark
+         belastet sind. Natuerlich spielt auch das Uebertragungsmedium und dessen Nutzungsart
+         - gemeinsam mit anderen oder alleiniger Nutzer - eine grosse Rolle.
+       - Ziel der nun folgenden Experimente == Datendurchsatzmessungen ist es, Ihnen ein
+         Gefuehl fuer die moeglichen Datendurchsaetze in einem lokalen Netz bzw. im Internet
+         zu geben.
+
+    
+    Durchfuehrungs-Tipps zu den Aufgaben 2 und 3 
+    --------------------------------------------
+    Um Programme auf dem Server stl-s-stud.htwsaar.de starten zu koennen, muessen Sie sich auf 
+    ihm anmelden, dazu nutzen Sie unter den Linux-VMs die ssh; geben Sie einfach das Kommando 
+           "ssh stl-s-stud.htwsaar.de"     (naehere Informationen : man ssh )
+    in einem Shellfenster ein.
+
+    Unter den Linux-VMs koennen Sie auch die Skripte "stl-s-stud.*" nutzen, die Sie im Uebungs-
+    ordner ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb01/X11 finden.
+
+    Unter den Win10.VMs finden Sie im "Desktop-Verknuepfungs-Ordner" die "SSH Anwendung"
+    KiTTYPortable.exe
+
+    Alle oben beschriebenen Wege oeffnen eine Shell auf dem Server stl-s-stud.htwsaar.de, dort 
+    koennen Sie dann beliebige Kommandos ausfuehren.
+
+
+
+    2. Aufgabe - Netzwerkdurchsatz in STL-Netz (== STL-IP-NW == STL-LAN)
+    --------------------------------------------------------------------
+        - Im Uebungsordner ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb01/netio132/wpy-bin finden
+          Sie die netio-Programme fuer die zu benutzenden Betriebssysteme; darueberhinaus im
+          ../bin - Directory netio für weitere Betriebssysteme und in .. die Quellen dazu.
+        - Unter den Win10-VMs finden Sie unter c:\NetIO132\bin das netio-Kommando unter dem Namen
+          win32-i386.exe.
+        - Gibt man nur den Kommandonamen in eine Shell ein, so wird eine Minibedienungsanleitung
+          ausgegeben; lesen Sie diese sorgfaeltig durch!
+          Haben Sie Verstaendnisprobleme, fragen Sie bei Ihren Dozenten nach.
+        - Ausserdem finden Sie in diesem Uebungsordner ein Zip-Archiv mit ausführbaren Programmen
+          fuer weitere Tests auf Ihrem Laptop/PC zuhause.
+
+        - Fuehren Sie folgende Experimente durch und interpretieren Sie die Ergebnisse:
+
+                --- die Experimente sollen je einmal mit tcp und udp durchgefuehrt werden.
+
+                        Client-Seite                       Server-Seite
+                    <a> Test Linux-VM                 --> stl-s-stud.htwsaar.de
+                        Test Win10-VM                 --> stl-s-stud.htwsaar.de
+                        Test Win10-Laptop             --> stl-s-stud.htwsaar.de *)
+                    <b> Test stl-s-stud.htwsaar.de    --> Linux-VM      
+                        Test stl-s-stud.htwsaar.de    --> Win10-VM    
+                        Test stl-s-stud.htwsaar.de    --> Win10-Laptop *)    
+                    <c> Test Linux-VM                 --> Win10-VM
+                        Test Win10-VM                 --> Linux-VM
+
+        
+        TIPPs: 
+              - *) diese Beispieldaten finden Sie im Uebungsordner unter Loesung01-laptop-daten
+              - den Hostnamen der VMs  finden Sie mit dem Kommando: "nslookup IP-Adresse" heraus;
+                die Hostnamen haben die Form : stl-v-xxx.htwsaar.de
+              - die IP-Adresse der VM ermittlen Sie unter Linux mit ip a oder ifconfig -a; 
+                unter MS Windows mittels ipconfig /all
+
+        - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+                  | Client   --> Server         | Proto |   Tx                |           Rx        |
+                  |                             |       | MByte/s    | MBit/s | MByte/s    | MBit/s |
+         --------------------------------------------------------------------------------------------
+          <a1>    |                             |  tcp  |  108       |  864   |  108       |  864   |
+          CentOS  | stl-v-xxx --> stl-s-stud    |-----------------------------------------------------
+          VM      | (CentOS)      (CentOS)      |  udp  |  56 Verl.  |  448   |  60 Verl.  |  480   |
+          --------------------------------------------------------------------------------------------
+          <a2>    |                             |  tcp  |  92        |  736   |  106       |  848   |
+          Win10   | stl-v-xxx --> stl-s-stud    |-----------------------------------------------------
+          VM      | (Win10)       (CentOS)      |  udp  |  77 Verl.  |  616   |  28 Verl.  |  224   |
+          --------------------------------------------------------------------------------------------
+          <a3>    |                             |  tcp  |  88        |  704   |  99        |  792   |
+          Win10   | stl-v-xxx --> stl-s-stud    |-----------------------------------------------------
+          Laptop  | (Win10)       (CentOS)      |  udp  |  93        |  744   |  52 Verl.  |  416   |
+          --------------------------------------------------------------------------------------------
+          --------------------------------------------------------------------------------------------
+          <b1>    |                             |  tcp  |  110       |  880   |  111       |  888   |
+          CentOS  | stl-s-stud --> stl-v-xxx    |-----------------------------------------------------
+          VM      | (CentOS)       (CentOS)     |  udp  |  connect(): No route to host              |
+          --------------------------------------------------------------------------------------------
+          <b2>    |                             |  tcp  |  108       |  864   |  92        |  736   |
+          Win10   | stl-s-stud --> stl-v-xxx    |-----------------------------------------------------
+          VM      | (CentOS)       (Win10)      |  udp  |  31 Verl.  |  248   |  80 Verl.  |  640   |
+          --------------------------------------------------------------------------------------------
+          <b3>    |                             |  tcp  |  98        |  784   |  84        |  672   |
+          Win10   | stl-s-stud --> stl-v-xxx    |-----------------------------------------------------
+          Laptop  | (CentOS)       (Win10)      |  udp  |  54 Verl.  |  432   |  89 Verl.  |  712   |
+          --------------------------------------------------------------------------------------------
+          --------------------------------------------------------------------------------------------
+          <c1>    |                             |  tcp  |  167       | 1336   | 213        | 1704   |
+          CentOS  | stl-v-xxx  --> stl-v-xxx    |-----------------------------------------------------
+          VM      | (CentOS)       (Win10)      |  udp  |  31 Verl.  |  248   | 89 Verl.   |  712   |
+          --------------------------------------------------------------------------------------------
+          <c2>    |                             |  tcp  |  216       | 1728   | 170        | 1360   |
+          Win10   | stl-v-xxx  --> stl-v-xxx    |-----------------------------------------------------
+          VM      | (Win10)        (CentOS)     |  udp  | connect(): error code 10060               |
+          --------------------------------------------------------------------------------------------
+  
+
+        - Wie unterscheiden sich die TCP-UDP-Durchsaetze ?
+          ####> Antwort :
+              Falls eine UDP-Kommunikation stattfinden kann s.o., ist sie wegen den auftretenden
+              Verlustraten langsamer als die TCP-Kommunikation.
+
+        - Wie wirken sich die verschiedenen Betriebssysteme auf den Durchsatz aus ?
+          ####> Antwort :
+              Die CentOS-VM scheint etwas schneller mit stl-s-stud zu kommunizieren als die Win10_VM;
+              Sie ist ebenfalls schneller als der Win10-Laptop. DIe Win10-VM ist etwas schneller als
+              der Win10-Laptop.
+
+        - Welche Besonderheiten fallen Ihnen sonst noch auf ? -- Erklaerungen ???
+          ####> Antwort :
+              Die CentOS-VM nimmt keine UDP-Kommunikation an.
+              
+              Die Kommunikation zwischen CentOS-VM und Win10-VM ist "schneller" als die konfigurierte
+              1GBit/s-Netzwerkkarte erlaubt; das koennte daran liegen, dass es sich um VMs
+              handelt, die auf Virtualisierungs-Hosts laufen, die mit zwei 10GBit/s-Netzwerkkarten
+              an einem 10GBit-Switch angeschlossen sind oder, dass die VM-Kommunikation inerhalb
+              der Virtualisierungs-Hosts simuliert wird, d.h. im Speicher ablaeft ( Sichwort virtuelle
+              Maschine mit virtueller Netzwerkkarte !!).
+
+
+
+          Zur Interpretation der Daten ist es wichtig zu wissen, dass der Server stl-s-stud.htwsaar.de 
+          eine CentOS-VM auf einem Cent-OS-Host ist, der mit zwei 1GBit/s-Netzwerkkarten an einem
+          1GBit-Switch angeschlossen ist.
+          Die virtuellen Clients verfuegen laut Konfiguration ueber eine 1GBit-Netzwerkkarte,
+          laufen auf einem Virtualisierungs-Host, der mit zwei 10GBit/s-Netzwerkkarten an einem
+          10GBit-Switch angeschlossen ist.
+
+
+
+
+    3. Aufgabe - Netzwerkdurchsatz des rechnerinternen Netzwerkes
+    -------------------------------------------------------------
+        - Fuehren Sie folgende Experimente durch und interpretieren Sie die Ergebnisse:
+
+                --- die Experimente sollen nur mit tcp durchgefuehrt werden.
+
+                        Client-Seite                 Server-Seite
+                    <a> Test Linux-VM           --> localhost
+                        Test Linux-VM           --> DNS-Name der VM (stl-v-xxx.htwsaar.de)
+                        Test Linux-VM           --> IP der VM (134.96.216.xxx)
+                    <b> Test Win10-VM            --> localhost
+                        Test Win10-VM            --> DNS-Name der VM (stl-v-xxx.htwsaar.de)    
+                        Test Win10-VM            --> IP der VM (134.96.216.xxx)
+                    <c> Test eigener LapTop/PC   --> localhost
+                        Test eigener LapTop/PC   --> eigener LapTop-Name
+                        Test eigener LapTop/PC   --> IP von eigenem LapTop
+                    oder 
+                    <c> Test Win10-Laptop        --> localhost        *)
+                        Test Win10-Laptop        --> Laptop-DNS-Name  *)
+                        Test Win10-Laptop        --> IP vom Laptop    *)
+
+        - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+                  | Client   --> Server       | Proto |   Tx                |           Rx        |
+                  |                           |       | MByte/s    | MBit/s | MByte/s    | MBit/s |
+          ----------------------------------------------------------------------------------------
+          <a>     |               localhost   |       |  1600      |        |  1600      |        |
+          CentOS  | stl-v-xxx --> stl-v-xxx   |  tcp  |  1600      | 12800  |  1600      | 12800  |
+                  |               eigene IP   |       |  1600      |        |  1600      |        |
+          ----------------------------------------------------------------------------------------
+          <b>     |               localhost   |       |   175      |  1400  |   175      |  1400  |
+          Win10   | stl-v-xxx --> stl-v-xxx   |  tcp  |   191      |  1528  |   181      |  1448  |
+                  |               eigene IP   |       |   188      |  1504  |   197      |  1576  |
+          ----------------------------------------------------------------------------------------
+          <c>     |               localhost   |       |   638      |  5104  |   640      |  5120  |
+          Win10   | Laptop    --> Name        |  tcp  |   579      |  4632  |   590      |  4720  |
+                  |               eigene IP   |       |   580      |  4640  |   569      |  4552  |
+          ----------------------------------------------------------------------------------------
+
+        
+        TIPPs: 
+              - *) diese Beispieldaten finden Sie im Uebungsordner unter Loesung01-laptop-daten
+              - Achten Sie auf die Dimension der Tx- und Rx-Werte
+
+        - Wie unterscheiden sich die TCP-Durchsaetze des STL-Netzwerkes zu dem loopback-Netzwerk ?
+        ####> Antwort :
+              bei der CentOS-VM ist interne Kommunikation 10-16-fach schneller wie die externe
+              bei der Win10-VM  ist interne Kommunikation  2- 3-fach schneller wie die externe
+              bei der Win10-Laptop ist interne Kommunikation  2- 4-fach schneller wie die externe
+
+        - Wie wirken sich die verschiedenen Betriebssysteme auf den Durchsatz aus ?
+        ####> Antwort :
+              die CentOS-VM ist fast 10 mal so schnell wie Win10-VM
+              die CentOS-VM ist 2-3 mal so schnell wie der Win10-Laptop
+              der Win10-Laptop ist 2-3 mal so schnell wie die Win10-VM
+
+        - Wie wirken sich die verschiedenen Ansprecharten auf den Durchsatz aus ?
+        ####> Antwort :
+              nicht wesentlich --> eigentlich, im Rahmen der Messunsicherheiten, gar nicht
+              --> die IP-SW erkennt, dass es sich um eine host-interne Kommunikation handelt und
+                  benutzt deshalb das loopback-Netzwerk ( == localhost )
+
+

@@ -1,0 +1,4614 @@
+Frame 1 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:26:48.868062000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe88d
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x941b (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634300, Ack: 0, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634300
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0x5f98 (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 32774896, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+Frame 2 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:26:48.868395000
+    Time delta from previous packet: 0.000333000 seconds
+    Time relative to first packet: 0.000333000 seconds
+    Frame Number: 2
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe2be
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dea (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392393709, Ack: 2831634301, Len: 0
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392393709
+    Acknowledgement number: 2831634301
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x0b98 (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780149, tsecr 32774896
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        SACK permitted
+
+Frame 3 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:48.868551000
+    Time delta from previous packet: 0.000156000 seconds
+    Time relative to first packet: 0.000489000 seconds
+    Frame Number: 3
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe88e
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9426 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392393710, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Acknowledgement number: 3392393710
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x4c64 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32774896, tsecr 34780149
+
+Frame 4 (72 on wire, 72 captured)
+    Arrival Time: May  3, 2004 10:26:48.885209000
+    Time delta from previous packet: 0.016658000 seconds
+    Time relative to first packet: 0.017147000 seconds
+    Frame Number: 4
+    Packet Length: 72 bytes
+    Capture Length: 72 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0xe2bf
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9def (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392393710, Ack: 2831634301, Len: 6
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392393710
+    Next sequence number: 3392393716
+    Acknowledgement number: 2831634301
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xdcea (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780151, tsecr 32774896
+File Transfer Protocol (FTP)
+    Response code: 220
+
+Frame 5 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:48.885335000
+    Time delta from previous packet: 0.000126000 seconds
+    Time relative to first packet: 0.017273000 seconds
+    Frame Number: 5
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe88f
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9425 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392393716, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Acknowledgement number: 3392393716
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x4c5a (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32774898, tsecr 34780151
+
+Frame 6 (590 on wire, 590 captured)
+    Arrival Time: May  3, 2004 10:26:48.885736000
+    Time delta from previous packet: 0.000401000 seconds
+    Time relative to first packet: 0.017674000 seconds
+    Frame Number: 6
+    Packet Length: 590 bytes
+    Capture Length: 590 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 576
+    Identification: 0xe2c0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9be8 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392393716, Ack: 2831634301, Len: 524
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392393716
+    Next sequence number: 3392394240
+    Acknowledgement number: 2831634301
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xb1bf (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780151, tsecr 32774898
+File Transfer Protocol (FTP)
+    Response code: 220
+    220-\r\n
+    220-              __      __   __________   __      __\r\n
+    220-             |  |    |  | |          | |  |    |  |\r\n
+    220-             |  |    |  | |__________| |  |    |  |\r\n
+    220-             |  | __ |  |      __      |  |    |  |\r\n
+    220-             |  ||  ||  |     |  |     |  | __ |  |\r\n
+    220-             |  ||__||  |     |  |     |  ||  ||  |\r\n
+    220-             |  |    |  |     |  |     |  ||  ||  |\r\n
+    220-             |  |    |  |     |  |     |  ||  ||  |\r\n
+    220-             |__|    |__|     |__|     |__||__||__|\r\n
+
+Frame 7 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:48.885943000
+    Time delta from previous packet: 0.000207000 seconds
+    Time relative to first packet: 0.017881000 seconds
+    Frame Number: 7
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe890
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9424 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392394240, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Acknowledgement number: 3392394240
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33042
+    Checksum: 0x4b54 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32774898, tsecr 34780151
+
+Frame 8 (368 on wire, 368 captured)
+    Arrival Time: May  3, 2004 10:26:48.886247000
+    Time delta from previous packet: 0.000304000 seconds
+    Time relative to first packet: 0.018185000 seconds
+    Frame Number: 8
+    Packet Length: 368 bytes
+    Capture Length: 368 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 354
+    Identification: 0xe2c1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9cc5 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394240, Ack: 2831634301, Len: 302
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394240
+    Next sequence number: 3392394542
+    Acknowledgement number: 2831634301
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9a48 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780151, tsecr 32774898
+File Transfer Protocol (FTP)
+    Response code: 220
+    220-             Hochschule fuer Technik und Wirtschaft\r\n
+    220-                        des Saarlandes\r\n
+    220-\r\n
+    220-\r\n
+    220-                        Fachbereich GIS\r\n
+    220-\r\n
+    220-              Grundlagen Informatik Sensortechnik\r\n
+    220-\r\n
+    220-\r\n
+    220-                      Systemtechnik-Labor\r\n
+    220-\r\n
+    220-\r\n
+    220-\r\n
+
+Frame 9 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:48.930185000
+    Time delta from previous packet: 0.043938000 seconds
+    Time relative to first packet: 0.062123000 seconds
+    Frame Number: 9
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe891
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9423 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392394542, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Acknowledgement number: 3392394542
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x4ab8 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32774903, tsecr 34780151
+
+Frame 10 (114 on wire, 114 captured)
+    Arrival Time: May  3, 2004 10:26:48.930406000
+    Time delta from previous packet: 0.000221000 seconds
+    Time relative to first packet: 0.062344000 seconds
+    Frame Number: 10
+    Packet Length: 114 bytes
+    Capture Length: 114 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0xe2c2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dc2 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394542, Ack: 2831634301, Len: 48
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394542
+    Next sequence number: 3392394590
+    Acknowledgement number: 2831634301
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x6863 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780155, tsecr 32774903
+File Transfer Protocol (FTP)
+    Response code: 220
+    Response arg: stl-c-03.htw-saarland.de FTP server ready.
+
+Frame 11 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:48.980269000
+    Time delta from previous packet: 0.049863000 seconds
+    Time relative to first packet: 0.112207000 seconds
+    Frame Number: 11
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe892
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9422 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392394590, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Acknowledgement number: 3392394590
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x4a7f (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32774908, tsecr 34780155
+
+Frame 12 (76 on wire, 76 captured)
+    Arrival Time: May  3, 2004 10:26:50.751504000
+    Time delta from previous packet: 1.771235000 seconds
+    Time relative to first packet: 1.883442000 seconds
+    Frame Number: 12
+    Packet Length: 76 bytes
+    Capture Length: 76 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 62
+    Identification: 0xe893
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9417 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634301, Ack: 3392394590, Len: 10
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634301
+    Next sequence number: 2831634311
+    Acknowledgement number: 3392394590
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x111c (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775085, tsecr 34780155
+File Transfer Protocol (FTP)
+    Request command: USER
+    Request arg: wpy
+
+Frame 13 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:50.751708000
+    Time delta from previous packet: 0.000204000 seconds
+    Time relative to first packet: 1.883646000 seconds
+    Frame Number: 13
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2c3
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9df1 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394590, Ack: 2831634311, Len: 0
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394590
+    Acknowledgement number: 2831634311
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x4771 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780337, tsecr 32775085
+
+Frame 14 (98 on wire, 98 captured)
+    Arrival Time: May  3, 2004 10:26:50.755760000
+    Time delta from previous packet: 0.004052000 seconds
+    Time relative to first packet: 1.887698000 seconds
+    Frame Number: 14
+    Packet Length: 98 bytes
+    Capture Length: 98 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0xe2c4
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dd0 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394590, Ack: 2831634311, Len: 32
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394590
+    Next sequence number: 3392394622
+    Acknowledgement number: 2831634311
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x8d40 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780338, tsecr 32775085
+File Transfer Protocol (FTP)
+    Response code: 331
+    Response arg: Password required for wpy.
+
+Frame 15 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:50.800221000
+    Time delta from previous packet: 0.044461000 seconds
+    Time relative to first packet: 1.932159000 seconds
+    Frame Number: 15
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe894
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9420 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634311, Ack: 3392394622, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634311
+    Acknowledgement number: 3392394622
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x48e8 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775090, tsecr 34780338
+
+Frame 16 (82 on wire, 82 captured)
+    Arrival Time: May  3, 2004 10:26:56.800726000
+    Time delta from previous packet: 6.000505000 seconds
+    Time relative to first packet: 7.932664000 seconds
+    Frame Number: 16
+    Packet Length: 82 bytes
+    Capture Length: 82 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0xe895
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x940f (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634311, Ack: 3392394622, Len: 16
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634311
+    Next sequence number: 2831634327
+    Acknowledgement number: 3392394622
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x2c08 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775690, tsecr 34780338
+File Transfer Protocol (FTP)
+    Request command: PASS
+    Request arg: EinPasswort
+
+Frame 17 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:56.800937000
+    Time delta from previous packet: 0.000211000 seconds
+    Time relative to first packet: 7.932875000 seconds
+    Frame Number: 17
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2c5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9def (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394622, Ack: 2831634327, Len: 0
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394622
+    Acknowledgement number: 2831634327
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent:EinPasswort
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x4287 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780942, tsecr 32775690
+
+Frame 18 (91 on wire, 91 captured)
+    Arrival Time: May  3, 2004 10:26:57.366733000
+    Time delta from previous packet: 0.565796000 seconds
+    Time relative to first packet: 8.498671000 seconds
+    Frame Number: 18
+    Packet Length: 91 bytes
+    Capture Length: 91 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 77
+    Identification: 0xe2c6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dd5 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394622, Ack: 2831634327, Len: 25
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394622
+    Next sequence number: 3392394647
+    Acknowledgement number: 2831634327
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x972e (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780999, tsecr 32775690
+File Transfer Protocol (FTP)
+    Response code: 230
+    Response arg: User wpy logged in.
+
+Frame 19 (72 on wire, 72 captured)
+    Arrival Time: May  3, 2004 10:26:57.367172000
+    Time delta from previous packet: 0.000439000 seconds
+    Time relative to first packet: 8.499110000 seconds
+    Frame Number: 19
+    Packet Length: 72 bytes
+    Capture Length: 72 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0xe896
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9418 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634327, Ack: 3392394647, Len: 6
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634327
+    Next sequence number: 2831634333
+    Acknowledgement number: 3392394647
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x8fd4 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775746, tsecr 34780999
+File Transfer Protocol (FTP)
+    Request command: SYST
+
+Frame 20 (100 on wire, 100 captured)
+    Arrival Time: May  3, 2004 10:26:57.367559000
+    Time delta from previous packet: 0.000387000 seconds
+    Time relative to first packet: 8.499497000 seconds
+    Frame Number: 20
+    Packet Length: 100 bytes
+    Capture Length: 100 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 86
+    Identification: 0xe2c7
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dcb (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394647, Ack: 2831634333, Len: 34
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394647
+    Next sequence number: 3392394681
+    Acknowledgement number: 2831634333
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x71e8 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780999, tsecr 32775746
+File Transfer Protocol (FTP)
+    Response code: 215
+    Response arg: UNIX Type: L8 Version: SUNOS
+
+Frame 21 (74 on wire, 74 captured)
+    Arrival Time: May  3, 2004 10:26:57.367964000
+    Time delta from previous packet: 0.000405000 seconds
+    Time relative to first packet: 8.499902000 seconds
+    Frame Number: 21
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0xe897
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9415 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634333, Ack: 3392394681, Len: 8
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634333
+    Next sequence number: 2831634341
+    Acknowledgement number: 3392394681
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x7170 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775746, tsecr 34780999
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+Frame 22 (86 on wire, 86 captured)
+    Arrival Time: May  3, 2004 10:26:57.368305000
+    Time delta from previous packet: 0.000341000 seconds
+    Time relative to first packet: 8.500243000 seconds
+    Frame Number: 22
+    Packet Length: 86 bytes
+    Capture Length: 86 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 72
+    Identification: 0xe2c8
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dd8 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394681, Ack: 2831634341, Len: 20
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394681
+    Next sequence number: 3392394701
+    Acknowledgement number: 2831634341
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xaecd (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34780999, tsecr 32775746
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+Frame 23 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:26:57.410200000
+    Time delta from previous packet: 0.041895000 seconds
+    Time relative to first packet: 8.542138000 seconds
+    Frame Number: 23
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe898
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x941c (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634341, Ack: 3392394701, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634341
+    Acknowledgement number: 3392394701
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x4351 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32775751, tsecr 34780999
+
+Frame 24 (95 on wire, 95 captured)
+    Arrival Time: May  3, 2004 10:27:02.621668000
+    Time delta from previous packet: 5.211468000 seconds
+    Time relative to first packet: 13.753606000 seconds
+    Frame Number: 24
+    Packet Length: 95 bytes
+    Capture Length: 95 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 81
+    Identification: 0xe899
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93fe (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634341, Ack: 3392394701, Len: 29
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634341
+    Next sequence number: 2831634370
+    Acknowledgement number: 3392394701
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x4e5b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776272, tsecr 34780999
+File Transfer Protocol (FTP)
+    Request command: PORT
+    Request arg: 134,96,216,230,130,202
+
+Frame 25 (96 on wire, 96 captured)
+    Arrival Time: May  3, 2004 10:27:02.622140000
+    Time delta from previous packet: 0.000472000 seconds
+    Time relative to first packet: 13.754078000 seconds
+    Frame Number: 25
+    Packet Length: 96 bytes
+    Capture Length: 96 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 82
+    Identification: 0xe2c9
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dcd (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394701, Ack: 2831634370, Len: 30
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394701
+    Next sequence number: 3392394731
+    Acknowledgement number: 2831634370
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x8073 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781524, tsecr 32776272
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: PORT command successful.
+
+Frame 26 (74 on wire, 74 captured)
+    Arrival Time: May  3, 2004 10:27:02.622518000
+    Time delta from previous packet: 0.000378000 seconds
+    Time relative to first packet: 13.754456000 seconds
+    Frame Number: 26
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0xe89a
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9412 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634370, Ack: 3392394731, Len: 8
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634370
+    Next sequence number: 2831634378
+    Acknowledgement number: 3392394731
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x6d06 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776272, tsecr 34781524
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: A
+
+Frame 27 (86 on wire, 86 captured)
+    Arrival Time: May  3, 2004 10:27:02.622864000
+    Time delta from previous packet: 0.000346000 seconds
+    Time relative to first packet: 13.754802000 seconds
+    Frame Number: 27
+    Packet Length: 86 bytes
+    Capture Length: 86 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 72
+    Identification: 0xe2ca
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dd6 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394731, Ack: 2831634378, Len: 20
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394731
+    Next sequence number: 3392394751
+    Acknowledgement number: 2831634378
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xb25b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781524, tsecr 32776272
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to A.
+
+Frame 28 (72 on wire, 72 captured)
+    Arrival Time: May  3, 2004 10:27:02.623174000
+    Time delta from previous packet: 0.000310000 seconds
+    Time relative to first packet: 13.755112000 seconds
+    Frame Number: 28
+    Packet Length: 72 bytes
+    Capture Length: 72 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0xe89b
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9413 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634378, Ack: 3392394751, Len: 6
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634378
+    Next sequence number: 2831634384
+    Acknowledgement number: 3392394751
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x922e (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776272, tsecr 34781524
+File Transfer Protocol (FTP)
+    Request command: LIST
+
+Frame 29 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:27:02.637652000
+    Time delta from previous packet: 0.014478000 seconds
+    Time relative to first packet: 13.769590000 seconds
+    Frame Number: 29
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe2cb
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x99dd (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396143944, Ack: 0, Len: 0
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396143944
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0xe3a1 (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 34781526, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+Frame 30 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:27:02.637840000
+    Time delta from previous packet: 0.000188000 seconds
+    Time relative to first packet: 13.769778000 seconds
+    Frame Number: 30
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe89c
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x940c (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33482 (33482), Dst Port: ftp-data (20), Seq: 2835167233, Ack: 3396143945, Len: 0
+    Source port: 33482 (33482)
+    Destination port: ftp-data (20)
+    Sequence number: 2835167233
+    Acknowledgement number: 3396143945
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xde86 (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776273, tsecr 34781526
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        SACK permitted
+
+Frame 31 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:02.638058000
+    Time delta from previous packet: 0.000218000 seconds
+    Time relative to first packet: 13.769996000 seconds
+    Frame Number: 31
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2cc
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x99e8 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396143945, Ack: 2835167234, Len: 0
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396143945
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x1f53 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781526, tsecr 32776273
+
+Frame 32 (119 on wire, 119 captured)
+    Arrival Time: May  3, 2004 10:27:02.668751000
+    Time delta from previous packet: 0.030693000 seconds
+    Time relative to first packet: 13.800689000 seconds
+    Frame Number: 32
+    Packet Length: 119 bytes
+    Capture Length: 119 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 105
+    Identification: 0xe2cd
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9db2 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394751, Ack: 2831634384, Len: 53
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394751
+    Next sequence number: 3392394804
+    Acknowledgement number: 2831634384
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9377 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781529, tsecr 32776272
+File Transfer Protocol (FTP)
+    Response code: 150
+    Response arg: Opening ASCII mode data connection for /bin/ls.
+
+Frame 33 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:02.710177000
+    Time delta from previous packet: 0.041426000 seconds
+    Time relative to first packet: 13.842115000 seconds
+    Frame Number: 33
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe89d
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9417 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634384, Ack: 3392394804, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634384
+    Acknowledgement number: 3392394804
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x3e9b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776281, tsecr 34781529
+
+Frame 34 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.428477000
+    Time delta from previous packet: 1.718300000 seconds
+    Time relative to first packet: 15.560415000 seconds
+    Frame Number: 34
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2ce
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x943e (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396143945, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396143945
+    Next sequence number: 3396145393
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xcf07 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776273
+FTP Data
+    FTP Data: Gesamt 3242\r\ndrwxr-xr-x   5 wpy      stl          512 M\344r  6  2003 ...\r\n-rw-r--r--   1 wpy      stl         9426 Okt 18  1994 .4Dwmrc\r\n-rw-r--r--   1 wpy      stl         2015 Dez  1 12:52 .acrorc\r\n-rw-r--r--   1 wpy  
+
+Frame 35 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.428592000
+    Time delta from previous packet: 0.000115000 seconds
+    Time relative to first packet: 15.560530000 seconds
+    Frame Number: 35
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2cf
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x943d (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396145393, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396145393
+    Next sequence number: 3396146841
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x0a3f (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776273
+FTP Data
+    FTP Data:  512 Nov 29  2001 .designer\r\n-rw-r--r--   1 wpy      stl          641 Nov 29  2001 .designerrc\r\n-rw-r--r--   1 wpy      stl          968 Nov 29  2001 .designerrctb\r\n-rw-r--r--   1 wpy      stl         1116 Mai  5  2003 .des
+
+Frame 36 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.428713000
+    Time delta from previous packet: 0.000121000 seconds
+    Time relative to first packet: 15.560651000 seconds
+    Frame Number: 36
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x943c (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396146841, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396146841
+    Next sequence number: 3396148289
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xe597 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776273
+FTP Data
+    FTP Data: 99 .fullcircle\r\ndrwxr-xr-x   3 wpy      stl          512 Aug 27  2002 .gnome\r\n-rw-r--r--   1 wpy      stl          192 Nov 29  1995 .gopherrc\r\n-rw-r--r--   1 wpy      stl          104 Nov 29  1995 .gopherrc~\r\n-rw-r--r--  
+
+Frame 37 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:04.428929000
+    Time delta from previous packet: 0.000216000 seconds
+    Time relative to first packet: 15.560867000 seconds
+    Frame Number: 37
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe89e
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9416 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33482 (33482), Dst Port: ftp-data (20), Seq: 2835167234, Ack: 3396145393, Len: 0
+    Source port: 33482 (33482)
+    Destination port: ftp-data (20)
+    Sequence number: 2835167234
+    Acknowledgement number: 3396145393
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32580
+    Checksum: 0x1b19 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776452, tsecr 34781705
+
+Frame 38 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:04.428943000
+    Time delta from previous packet: 0.000014000 seconds
+    Time relative to first packet: 15.560881000 seconds
+    Frame Number: 38
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe89f
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9415 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33482 (33482), Dst Port: ftp-data (20), Seq: 2835167234, Ack: 3396146841, Len: 0
+    Source port: 33482 (33482)
+    Destination port: ftp-data (20)
+    Sequence number: 2835167234
+    Acknowledgement number: 3396146841
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 31856
+    Checksum: 0x1845 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776452, tsecr 34781705
+
+Frame 39 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.429514000
+    Time delta from previous packet: 0.000571000 seconds
+    Time relative to first packet: 15.561452000 seconds
+    Frame Number: 39
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x943b (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396148289, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396148289
+    Next sequence number: 3396149737
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x6246 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776452
+FTP Data
+    FTP Data:           4 M\344r  2  1999 .login-size.sql\r\n-rw-r--r--   1 wpy      stl           41 Jul 30  1997 .lyx_lastfiles\r\n-rwx------   1 wpy      stl           71 M\344r 22  2000 .mail\r\n-rw-r--r--   1 wpy      stl         6488 Okt
+
+Frame 40 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.429635000
+    Time delta from previous packet: 0.000121000 seconds
+    Time relative to first packet: 15.561573000 seconds
+    Frame Number: 40
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x943a (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396149737, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396149737
+    Next sequence number: 3396151185
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x37db (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776452
+FTP Data
+    FTP Data: --r--   1 wpy      stl         2229 Jul 30  2003 .neditdb\r\ndrwx------   7 wpy      stl         1024 Jun  3  2003 .netscape\r\n-rw-r--r--   1 wpy      stl        11546 Feb  6  1996 .netscape-bookmarks.html.R\r\ndrwxr-xr-x   3 wp
+
+Frame 41 (1018 on wire, 1018 captured)
+    Arrival Time: May  3, 2004 10:27:04.429715000
+    Time delta from previous packet: 0.000080000 seconds
+    Time relative to first packet: 15.561653000 seconds
+    Frame Number: 41
+    Packet Length: 1018 bytes
+    Capture Length: 1018 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1004
+    Identification: 0xe2d3
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9629 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396151185, Ack: 2835167234, Len: 952
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396151185
+    Next sequence number: 3396152137
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x1669 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781705, tsecr 32776452
+FTP Data
+    FTP Data:      1278 Sep 24  2003 .procmailrc-so-gings-super\r\n-rwxr--r--   1 wpy      stl         5383 Jan 13 14:16 .profile\r\n-rwxr-xr-x   1 wpy      stl          884 Jan  9  1995 .profile.alt\r\n-rwxr-xr-x   1 wpy      stl          331
+
+Frame 42 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:04.431276000
+    Time delta from previous packet: 0.001561000 seconds
+    Time relative to first packet: 15.563214000 seconds
+    Frame Number: 42
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8a0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9414 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33482 (33482), Dst Port: ftp-data (20), Seq: 2835167234, Ack: 3396149737, Len: 0
+    Source port: 33482 (33482)
+    Destination port: ftp-data (20)
+    Sequence number: 2835167234
+    Acknowledgement number: 3396149737
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 31856
+    Checksum: 0x0cf4 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776453, tsecr 34781705
+
+Frame 43 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.452721000
+    Time delta from previous packet: 0.021445000 seconds
+    Time relative to first packet: 15.584659000 seconds
+    Frame Number: 43
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d4
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9438 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396152137, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396152137
+    Next sequence number: 3396153585
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xc2b5 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781707, tsecr 32776453
+FTP Data
+    FTP Data:   486 Jan 19  2001 .Sgiresources\r\n-rw-------   1 wpy      stl        29500 Mai  3 10:26 .sh_history\r\n-rw-r--r--   1 wpy      stl          575 Sep 23  1994 .show_pro\r\n-rw-r--r--   1 wpy      stl          484 M\344r 18  2003 
+
+Frame 44 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.452829000
+    Time delta from previous packet: 0.000108000 seconds
+    Time relative to first packet: 15.584767000 seconds
+    Frame Number: 44
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9437 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396153585, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396153585
+    Next sequence number: 3396155033
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9893 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781707, tsecr 32776453
+FTP Data
+    FTP Data: .user60.rdb\r\n-rw-r--r--   1 wpy      stl        21770 Dez 10  1997 .UserPrefs.sniff\r\n-rw-------   1 wpy      stl          765 Jan  7 09:04 .viminfo\r\n-rw-r--r--   1 wpy      stl           33 Jan  4  1999 .w98\r\ndrwxr-xr-x  
+
+Frame 45 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.452955000
+    Time delta from previous packet: 0.000126000 seconds
+    Time relative to first packet: 15.584893000 seconds
+    Frame Number: 45
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9436 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396155033, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396155033
+    Next sequence number: 3396156481
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x2044 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781707, tsecr 32776453
+FTP Data
+    FTP Data: kt 30  1998 .xlecture.config\r\n-rw-------   1 wpy      stl            0 Jun 12  2003 .xsession-errors\r\n-r--------   1 wpy      stl           44 Apr 26  1995 .xsun.stl-2-11:0\r\n-r--------   1 wpy      stl           44 Aug 28  
+
+Frame 46 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.453074000
+    Time delta from previous packet: 0.000119000 seconds
+    Time relative to first packet: 15.585012000 seconds
+    Frame Number: 46
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d7
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9435 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396156481, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396156481
+    Next sequence number: 3396157929
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xcce5 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781707, tsecr 32776453
+FTP Data
+    FTP Data: 13:45 CIP-2003-04\r\n-rwx------   1 root     other        291 Aug 26  2002 CLIENT_Nacharbeiten\r\ndrwxr-xr-x   2 wpy      stl          512 Sep 18  1998 client_server\r\n-rw-r--r--   1 wpy      stl          802 Apr  8  2003 compon
+
+Frame 47 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:04.457590000
+    Time delta from previous packet: 0.004516000 seconds
+    Time relative to first packet: 15.589528000 seconds
+    Frame Number: 47
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8a1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9413 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33482 (33482), Dst Port: ftp-data (20), Seq: 2835167234, Ack: 3396153585, Len: 0
+    Source port: 33482 (33482)
+    Destination port: ftp-data (20)
+    Sequence number: 2835167234
+    Acknowledgement number: 3396153585
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32580
+    Checksum: 0xfb15 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776455, tsecr 34781705
+
+Frame 48 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:04.458171000
+    Time delta from previous packet: 0.000581000 seconds
+    Time relative to first packet: 15.590109000 seconds
+    Frame Number: 48
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2d8
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9434 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33482 (33482), Seq: 3396157929, Ack: 2835167234, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33482 (33482)
+    Sequence number: 3396157929
+    Next sequence number: 3396159377
+    Acknowledgement number: 2835167234
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xa1e3 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781708, tsecr 32776455
+FTP Data
+    FTP Data:   2 wpy      stl          512 Apr 17  2001 JAVA-Buch\r\ndrwxr-xr-x   9 wpy      stl          512 M\344r  5 08:33 java-web-services\r\ndrwxr-xr-x   7 wpy      stl          512 Okt 15  2001 jbproject\r\ndrwxr-xr-x   3 wpy      stl 
+
+Frame 49 (74 on wire, 74 captured)
+    Arrival Time: May  3, 2004 10:27:04.491725000
+    Time delta from previous packet: 0.033554000 seconds
+    Time relative to first packet: 15.623663000 seconds
+    Frame Number: 49
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0xe8a5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9407 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634384, Ack: 3392394828, Len: 8
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634384
+    Next sequence number: 2831634392
+    Acknowledgement number: 3392394828
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x6b19 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776459, tsecr 34781711
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+Frame 50 (86 on wire, 86 captured)
+    Arrival Time: May  3, 2004 10:27:04.492095000
+    Time delta from previous packet: 0.000370000 seconds
+    Time relative to first packet: 15.624033000 seconds
+    Frame Number: 50
+    Packet Length: 86 bytes
+    Capture Length: 86 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 72
+    Identification: 0xe2df
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dc1 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394828, Ack: 2831634392, Len: 20
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394828
+    Next sequence number: 3392394848
+    Acknowledgement number: 2831634392
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xa876 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34781711, tsecr 32776459
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+Frame 51 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:04.540221000
+    Time delta from previous packet: 0.048126000 seconds
+    Time relative to first packet: 15.672159000 seconds
+    Frame Number: 51
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8a6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x940e (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634392, Ack: 3392394848, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634392
+    Acknowledgement number: 3392394848
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x3cfa (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32776464, tsecr 34781711
+
+Frame 52 (74 on wire, 74 captured)
+    Arrival Time: May  3, 2004 10:27:19.073795000
+    Time delta from previous packet: 14.533574000 seconds
+    Time relative to first packet: 30.205733000 seconds
+    Frame Number: 52
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0xe8a7
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9405 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634392, Ack: 3392394848, Len: 8
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634392
+    Next sequence number: 2831634400
+    Acknowledgement number: 3392394848
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x654b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32777917, tsecr 34781711
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+Frame 53 (86 on wire, 86 captured)
+    Arrival Time: May  3, 2004 10:27:19.074213000
+    Time delta from previous packet: 0.000418000 seconds
+    Time relative to first packet: 30.206151000 seconds
+    Frame Number: 53
+    Packet Length: 86 bytes
+    Capture Length: 86 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 72
+    Identification: 0xe2e0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dc0 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394848, Ack: 2831634400, Len: 20
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394848
+    Next sequence number: 3392394868
+    Acknowledgement number: 2831634400
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9cf5 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34783170, tsecr 32777917
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+Frame 54 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:19.120207000
+    Time delta from previous packet: 0.045994000 seconds
+    Time relative to first packet: 30.252145000 seconds
+    Frame Number: 54
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8a8
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x940c (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634400, Ack: 3392394868, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634400
+    Acknowledgement number: 3392394868
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x3179 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32777922, tsecr 34783170
+
+Frame 55 (95 on wire, 95 captured)
+    Arrival Time: May  3, 2004 10:27:28.332663000
+    Time delta from previous packet: 9.212456000 seconds
+    Time relative to first packet: 39.464601000 seconds
+    Frame Number: 55
+    Packet Length: 95 bytes
+    Capture Length: 95 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 81
+    Identification: 0xe8a9
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93ee (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634400, Ack: 3392394868, Len: 29
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634400
+    Next sequence number: 2831634429
+    Acknowledgement number: 3392394868
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0x39f3 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778843, tsecr 34783170
+File Transfer Protocol (FTP)
+    Request command: PORT
+    Request arg: 134,96,216,230,130,203
+
+Frame 56 (96 on wire, 96 captured)
+    Arrival Time: May  3, 2004 10:27:28.333218000
+    Time delta from previous packet: 0.000555000 seconds
+    Time relative to first packet: 39.465156000 seconds
+    Frame Number: 56
+    Packet Length: 96 bytes
+    Capture Length: 96 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 82
+    Identification: 0xe2e1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9db5 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394868, Ack: 2831634429, Len: 30
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394868
+    Next sequence number: 3392394898
+    Acknowledgement number: 2831634429
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x6b7a (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784096, tsecr 32778843
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: PORT command successful.
+
+Frame 57 (81 on wire, 81 captured)
+    Arrival Time: May  3, 2004 10:27:28.333567000
+    Time delta from previous packet: 0.000349000 seconds
+    Time relative to first packet: 39.465505000 seconds
+    Frame Number: 57
+    Packet Length: 81 bytes
+    Capture Length: 81 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 67
+    Identification: 0xe8aa
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93fb (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634429, Ack: 3392394898, Len: 15
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634429
+    Next sequence number: 2831634444
+    Acknowledgement number: 3392394898
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32891
+    Checksum: 0xdd85 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778843, tsecr 34784096
+File Transfer Protocol (FTP)
+    Request command: RETR
+    Request arg: wpy-spam
+
+Frame 58 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:27:28.366483000
+    Time delta from previous packet: 0.032916000 seconds
+    Time relative to first packet: 39.498421000 seconds
+    Frame Number: 58
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe2e2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x99c6 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402479809, Ack: 0, Len: 0
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402479809
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0x2bba (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 34784099, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+Frame 59 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 10:27:28.366668000
+    Time delta from previous packet: 0.000185000 seconds
+    Time relative to first packet: 39.498606000 seconds
+    Frame Number: 59
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xe8ab
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93fd (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482494, Ack: 3402479810, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482494
+    Acknowledgement number: 3402479810
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xbf34 (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778846, tsecr 34784099
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        SACK permitted
+
+Frame 60 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.366875000
+    Time delta from previous packet: 0.000207000 seconds
+    Time relative to first packet: 39.498813000 seconds
+    Frame Number: 60
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2e3
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x99d1 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402479810, Ack: 2841482495, Len: 0
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402479810
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x0001 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784099, tsecr 32778846
+
+Frame 61 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.383232000
+    Time delta from previous packet: 0.016357000 seconds
+    Time relative to first packet: 39.515170000 seconds
+    Frame Number: 61
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2e4
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dd0 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394898, Ack: 2831634444, Len: 0
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394898
+    Acknowledgement number: 2831634444
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x2856 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784101, tsecr 32778843
+
+Frame 62 (135 on wire, 135 captured)
+    Arrival Time: May  3, 2004 10:27:28.388402000
+    Time delta from previous packet: 0.005170000 seconds
+    Time relative to first packet: 39.520340000 seconds
+    Frame Number: 62
+    Packet Length: 135 bytes
+    Capture Length: 135 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 121
+    Identification: 0xe2e5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9d8a (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394898, Ack: 2831634444, Len: 69
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394898
+    Next sequence number: 3392394967
+    Acknowledgement number: 2831634444
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x7ca1 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784101, tsecr 32778843
+File Transfer Protocol (FTP)
+    Response code: 150
+    Response arg: Opening BINARY mode data connection for wpy-spam (11069 bytes).
+
+Frame 63 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.423225000
+    Time delta from previous packet: 0.034823000 seconds
+    Time relative to first packet: 39.555163000 seconds
+    Frame Number: 63
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2e6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9426 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402479810, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402479810
+    Next sequence number: 3402481258
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x7161 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784104, tsecr 32778846
+FTP Data
+    FTP Data: From Wolfgang.Pauly@htw-saarland.de  Wed Sep 24 15:07:22 2003\nReceived: from localhost [127.0.0.1] by stl-s-ad.htw-saarland.de\n\twith SpamAssassin (2.60 1.212-2003-09-23-exp);\n\tWed, 24 Sep 2003 15:07:25 +0200\nFrom: Wolfgang 
+
+Frame 64 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.423347000
+    Time delta from previous packet: 0.000122000 seconds
+    Time relative to first packet: 39.555285000 seconds
+    Frame Number: 64
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2e7
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9425 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402481258, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402481258
+    Next sequence number: 3402482706
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x099e (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784104, tsecr 32778846
+FTP Data
+    FTP Data: is is the GTUBE, the Generic Test for Unsolicited Bulk Email\n  If your spam filter supports it, the GTUBE provides a test by which you\n  can verify that the filter is installed correctly and is detecting\n  incoming spam. You c
+
+Frame 65 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.423467000
+    Time delta from previous packet: 0.000120000 seconds
+    Time relative to first packet: 39.555405000 seconds
+    Frame Number: 65
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2e8
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9424 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402482706, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402482706
+    Next sequence number: 3402484154
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xdeeb (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784104, tsecr 32778846
+FTP Data
+    FTP Data: ceived: from htw-saarland.de (stl-m-wpy.htw-saarland.de [134.96.216.230])\n\tby zdve-mailx.htw-saarland.de (8.12.9/8.12.9) with ESMTP id h8OD6inK024206\n\tfor <Wolfgang.Pauly@htw-saarland.de>; Wed, 24 Sep 2003 15:06:45 +0200 (MES
+
+Frame 66 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.423605000
+    Time delta from previous packet: 0.000138000 seconds
+    Time relative to first packet: 39.555543000 seconds
+    Frame Number: 66
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8ac
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9408 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402481258, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402481258
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32580
+    Checksum: 0xfd21 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778852, tsecr 34784104
+
+Frame 67 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.424184000
+    Time delta from previous packet: 0.000579000 seconds
+    Time relative to first packet: 39.556122000 seconds
+    Frame Number: 67
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2e9
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9423 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402484154, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402484154
+    Next sequence number: 3402485602
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x1054 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778852
+FTP Data
+    FTP Data: te spaces and line breaks):\n\nXJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X\n\nYou should send this test mail from an account outside of your network.\n\n-- \nDipl.-Ing. Wolfgang Pauly       Hochschule f. 
+
+Frame 68 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.424300000
+    Time delta from previous packet: 0.000116000 seconds
+    Time relative to first packet: 39.556238000 seconds
+    Frame Number: 68
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2ea
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9422 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402485602, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402485602
+    Next sequence number: 3402487050
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xe01f (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778852
+FTP Data
+    FTP Data: TB0dJUy9TVEwxJzAlBgNVBAMUHldv\nbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTEtMCsGCSqGSIb3DQEJARYeV29sZmdhbmcu\nUGF1bHlAaHR3LXNhYXJsYW5kLmRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKPUT5\nSN1dzi3cKscJtBmM4IiYUsqxvcqnIDZrzII1ioP+2NYY4cCU7E
+
+Frame 69 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.424370000
+    Time delta from previous packet: 0.000070000 seconds
+    Time relative to first packet: 39.556308000 seconds
+    Frame Number: 69
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8ad
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9407 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402482706, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402482706
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32580
+    Checksum: 0xf779 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778852, tsecr 34784104
+
+Frame 70 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.424598000
+    Time delta from previous packet: 0.000228000 seconds
+    Time relative to first packet: 39.556536000 seconds
+    Frame Number: 70
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8ae
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9406 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402485602, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402485602
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32580
+    Checksum: 0xec29 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778852, tsecr 34784104
+
+Frame 71 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.424947000
+    Time delta from previous packet: 0.000349000 seconds
+    Time relative to first packet: 39.556885000 seconds
+    Frame Number: 71
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2eb
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9421 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402487050, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402487050
+    Next sequence number: 3402488498
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xbdcf (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778852
+FTP Data
+    FTP Data: wCQYDVQQGEwJERTERMA8GA1UECBMIU2FhcmxhbmQx\nFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RM\nMScwJQYDVQQDFB5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUxLTArBgkqhkiG9w0B\nCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybG
+
+Frame 72 (1514 on wire, 1514 captured)
+    Arrival Time: May  3, 2004 10:27:28.425064000
+    Time delta from previous packet: 0.000117000 seconds
+    Time relative to first packet: 39.557002000 seconds
+    Frame Number: 72
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xe2ec
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9420 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402488498, Ack: 2841482495, Len: 1448
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402488498
+    Next sequence number: 3402489946
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xa5e3 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778852
+FTP Data
+    FTP Data: qhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5k\nZTAeFw0wMzA1MTIxMzAzMjdaFw0xMzA1MDkxMzAzMjdaMIGdMQswCQYDVQQGEwJERTERMA8G\nA1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAw\nDgYDVQQLEwdHSVMvU1RMMRUwEw
+
+Frame 73 (999 on wire, 999 captured)
+    Arrival Time: May  3, 2004 10:27:28.425146000
+    Time delta from previous packet: 0.000082000 seconds
+    Time relative to first packet: 39.557084000 seconds
+    Frame Number: 73
+    Packet Length: 999 bytes
+    Capture Length: 999 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 985
+    Identification: 0xe2ed
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9622 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402489946, Ack: 2841482495, Len: 933
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402489946
+    Next sequence number: 3402490879
+    Acknowledgement number: 2841482495
+    Header length: 32 bytes
+    Flags: 0x0019 (FIN, PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0x4962 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778852
+FTP Data
+    FTP Data: KBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEVMBMGA1UEAxMMRU1haWxVc2Vy\nIENBMS0wKwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUCAQEw\nCQYFKw4DAhoFAKCCAWowGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUx\nDxcNMDMwOTI0MT
+
+Frame 74 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.426075000
+    Time delta from previous packet: 0.000929000 seconds
+    Time relative to first packet: 39.558013000 seconds
+    Frame Number: 74
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8af
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9405 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402489946, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402489946
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 31856
+    Checksum: 0xde04 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778852, tsecr 34784105
+
+Frame 75 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.426089000
+    Time delta from previous packet: 0.000014000 seconds
+    Time relative to first packet: 39.558027000 seconds
+    Frame Number: 75
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9404 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402490880, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402490880
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 31389
+    Checksum: 0xdc31 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778852, tsecr 34784105
+
+Frame 76 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.430240000
+    Time delta from previous packet: 0.004151000 seconds
+    Time relative to first packet: 39.562178000 seconds
+    Frame Number: 76
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9403 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634444, Ack: 3392394967, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634444
+    Acknowledgement number: 3392394967
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32856
+    Checksum: 0x29c7 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778853, tsecr 34784101
+
+Frame 77 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.432130000
+    Time delta from previous packet: 0.001890000 seconds
+    Time relative to first packet: 39.564068000 seconds
+    Frame Number: 77
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9402 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33483 (33483), Dst Port: ftp-data (20), Seq: 2841482495, Ack: 3402490880, Len: 0
+    Source port: 33483 (33483)
+    Destination port: ftp-data (20)
+    Sequence number: 2841482495
+    Acknowledgement number: 3402490880
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0xd4b4 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778853, tsecr 34784105
+
+Frame 78 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.432301000
+    Time delta from previous packet: 0.000171000 seconds
+    Time relative to first packet: 39.564239000 seconds
+    Frame Number: 78
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2ee
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x99c6 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp-data (20), Dst Port: 33483 (33483), Seq: 3402490880, Ack: 2841482496, Len: 0
+    Source port: ftp-data (20)
+    Destination port: 33483 (33483)
+    Sequence number: 3402490880
+    Acknowledgement number: 2841482496
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xd4b4 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778853
+
+Frame 79 (90 on wire, 90 captured)
+    Arrival Time: May  3, 2004 10:27:28.432503000
+    Time delta from previous packet: 0.000202000 seconds
+    Time relative to first packet: 39.564441000 seconds
+    Frame Number: 79
+    Packet Length: 90 bytes
+    Capture Length: 90 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 76
+    Identification: 0xe2ef
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dad (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394967, Ack: 2831634444, Len: 24
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394967
+    Next sequence number: 3392394991
+    Acknowledgement number: 2831634444
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x58ed (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784105, tsecr 32778853
+File Transfer Protocol (FTP)
+    Response code: 226
+    Response arg: Transfer complete.
+
+Frame 80 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:28.480245000
+    Time delta from previous packet: 0.047742000 seconds
+    Time relative to first packet: 39.612183000 seconds
+    Frame Number: 80
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b3
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x9401 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634444, Ack: 3392394991, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634444
+    Acknowledgement number: 3392394991
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32856
+    Checksum: 0x29a6 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32778858, tsecr 34784105
+
+Frame 81 (72 on wire, 72 captured)
+    Arrival Time: May  3, 2004 10:27:33.088530000
+    Time delta from previous packet: 4.608285000 seconds
+    Time relative to first packet: 44.220468000 seconds
+    Frame Number: 81
+    Packet Length: 72 bytes
+    Capture Length: 72 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0xe8b4
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93fa (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634444, Ack: 3392394991, Len: 6
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634444
+    Next sequence number: 2831634450
+    Acknowledgement number: 3392394991
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32856
+    Checksum: 0x8018 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32779318, tsecr 34784105
+File Transfer Protocol (FTP)
+    Request command: QUIT
+
+Frame 82 (116 on wire, 116 captured)
+    Arrival Time: May  3, 2004 10:27:33.088961000
+    Time delta from previous packet: 0.000431000 seconds
+    Time relative to first packet: 44.220899000 seconds
+    Frame Number: 82
+    Packet Length: 116 bytes
+    Capture Length: 116 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 102
+    Identification: 0xe2f0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9d92 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392394991, Ack: 2831634450, Len: 50
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392394991
+    Next sequence number: 3392395041
+    Acknowledgement number: 2831634450
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x3a37 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784571, tsecr 32779318
+File Transfer Protocol (FTP)
+    Response code: 221
+    Response arg: have transferred 11069 bytes in 1 files.
+
+Frame 83 (218 on wire, 218 captured)
+    Arrival Time: May  3, 2004 10:27:33.092575000
+    Time delta from previous packet: 0.003614000 seconds
+    Time relative to first packet: 44.224513000 seconds
+    Frame Number: 83
+    Packet Length: 218 bytes
+    Capture Length: 218 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 204
+    Identification: 0xe2f1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9d2b (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392395041, Ack: 2831634450, Len: 152
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392395041
+    Next sequence number: 3392395193
+    Acknowledgement number: 2831634450
+    Header length: 32 bytes
+    Flags: 0x0019 (FIN, PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0x728d (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784571, tsecr 32779318
+File Transfer Protocol (FTP)
+    Response code: 221
+    Response arg: traffic for this session was 31417 bytes in 2 transfers.
+    221-Thank you for using the FTP service on stl-c-03.htw-saarland.de.\r\n
+    221 Goodbye.\r\n
+
+Frame 84 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:33.092777000
+    Time delta from previous packet: 0.000202000 seconds
+    Time relative to first packet: 44.224715000 seconds
+    Frame Number: 84
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93ff (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634450, Ack: 3392395194, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634450
+    Acknowledgement number: 3392395194
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32780
+    Checksum: 0x2582 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32779319, tsecr 34784571
+
+Frame 85 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:33.093261000
+    Time delta from previous packet: 0.000484000 seconds
+    Time relative to first packet: 44.225199000 seconds
+    Frame Number: 85
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe8b6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x93fe (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33481 (33481), Dst Port: ftp (21), Seq: 2831634450, Ack: 3392395194, Len: 0
+    Source port: 33481 (33481)
+    Destination port: ftp (21)
+    Sequence number: 2831634450
+    Acknowledgement number: 3392395194
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 32780
+    Checksum: 0x2581 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 32779319, tsecr 34784571
+
+Frame 86 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 10:27:33.093487000
+    Time delta from previous packet: 0.000226000 seconds
+    Time relative to first packet: 44.225425000 seconds
+    Frame Number: 86
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xe2f2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0x9dc2 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: ftp (21), Dst Port: 33481 (33481), Seq: 3392395194, Ack: 2831634451, Len: 0
+    Source port: ftp (21)
+    Destination port: 33481 (33481)
+    Sequence number: 3392395194
+    Acknowledgement number: 2831634451
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x2374 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 34784572, tsecr 32779319

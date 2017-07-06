@@ -1,0 +1,56 @@
+#
+#
+#
+# win10-localhost++
+#
+#
+#
+
+
+
+Z:win10 > netio-win -t localhost
+#########-------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  62.31 MByte/s Tx,  63.14 MByte/s Rx.
+Packet size  2k bytes:  86.55 MByte/s Tx,  84.27 MByte/s Rx.
+Packet size  4k bytes:  134.22 MByte/s Tx,  138.76 MByte/s Rx.
+Packet size  8k bytes:  234.46 MByte/s Tx,  232.22 MByte/s Rx.
+Packet size 16k bytes:  217.24 MByte/s Tx,  219.60 MByte/s Rx.
+Packet size 32k bytes:  286.51 MByte/s Tx,  276.08 MByte/s Rx.
+Done.
+
+
+Z:win10 > netio-win -t stl-v-111.htwsaar.de
+#########-------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  59.30 MByte/s Tx,  46.82 MByte/s Rx.
+Packet size  2k bytes:  84.87 MByte/s Tx,  80.31 MByte/s Rx.
+Packet size  4k bytes:  133.51 MByte/s Tx,  131.42 MByte/s Rx.
+Packet size  8k bytes:  227.20 MByte/s Tx,  196.56 MByte/s Rx.
+Packet size 16k bytes:  217.69 MByte/s Tx,  225.44 MByte/s Rx.
+Packet size 32k bytes:  271.64 MByte/s Tx,  275.38 MByte/s Rx.
+Done.
+
+
+Z:win10 > netio-win -t 134.96.216.111
+#########-------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  63.72 MByte/s Tx,  59.31 MByte/s Rx.
+Packet size  2k bytes:  85.17 MByte/s Tx,  81.26 MByte/s Rx.
+Packet size  4k bytes:  137.72 MByte/s Tx,  136.57 MByte/s Rx.
+Packet size  8k bytes:  224.44 MByte/s Tx,  229.69 MByte/s Rx.
+Packet size 16k bytes:  215.26 MByte/s Tx,  222.75 MByte/s Rx.
+Packet size 32k bytes:  262.70 MByte/s Tx,  269.26 MByte/s Rx.
+Done.

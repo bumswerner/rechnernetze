@@ -1,0 +1,100 @@
+netstat -rn > win_10
+===========================================================================
+Schnittstellenliste
+  3...00 1a 4a 16 00 6e ......Red Hat VirtIO Ethernet Adapter
+  1...........................Software Loopback Interface 1
+  2...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+  6...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+
+IPv4-Routentabelle
+===========================================================================
+Aktive Routen:
+     Netzwerkziel    Netzwerkmaske          Gateway    Schnittstelle Metrik
+          0.0.0.0          0.0.0.0     134.96.216.1   134.96.216.133      5
+        127.0.0.0        255.0.0.0   Auf Verbindung         127.0.0.1    306
+        127.0.0.1  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  127.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+     134.96.216.0    255.255.255.0   Auf Verbindung    134.96.216.133    261
+   134.96.216.133  255.255.255.255   Auf Verbindung    134.96.216.133    261
+   134.96.216.255  255.255.255.255   Auf Verbindung    134.96.216.133    261
+        224.0.0.0        240.0.0.0   Auf Verbindung         127.0.0.1    306
+        224.0.0.0        240.0.0.0   Auf Verbindung    134.96.216.133    261
+  255.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  255.255.255.255  255.255.255.255   Auf Verbindung    134.96.216.133    261
+===========================================================================
+St�ndige Routen:
+  Keine
+
+IPv6-Routentabelle
+===========================================================================
+Aktive Routen:
+ If Metrik Netzwerkziel             Gateway
+  3    261 ::/0                     2001:638:200:2::1
+  1    306 ::1/128                  Auf Verbindung
+  3    261 2001:638:200:2:7374:76:aaaa:a065/128
+                                    Auf Verbindung
+  3    261 fe80::/64                Auf Verbindung
+  3    261 fe80::e486:f9cd:3eae:bcda/128
+                                    Auf Verbindung
+  1    306 ff00::/8                 Auf Verbindung
+  3    261 ff00::/8                 Auf Verbindung
+===========================================================================
+St�ndige Routen:
+ If Metrik Netzwerkziel             Gateway
+  0 4294967295 ::/0                     2001:638:200:2::1
+===========================================================================
+netstat -r >> win_10
+===========================================================================
+Schnittstellenliste
+  3...00 1a 4a 16 00 6e ......Red Hat VirtIO Ethernet Adapter
+  1...........................Software Loopback Interface 1
+  2...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+  6...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+
+IPv4-Routentabelle
+===========================================================================
+Aktive Routen:
+     Netzwerkziel    Netzwerkmaske          Gateway    Schnittstelle Metrik
+          0.0.0.0          0.0.0.0     134.96.216.1   134.96.216.133      5
+        127.0.0.0        255.0.0.0   Auf Verbindung         127.0.0.1    306
+        127.0.0.1  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  127.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+     134.96.216.0    255.255.255.0   Auf Verbindung    134.96.216.133    261
+   134.96.216.133  255.255.255.255   Auf Verbindung    134.96.216.133    261
+   134.96.216.255  255.255.255.255   Auf Verbindung    134.96.216.133    261
+        224.0.0.0        240.0.0.0   Auf Verbindung         127.0.0.1    306
+        224.0.0.0        240.0.0.0   Auf Verbindung    134.96.216.133    261
+  255.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  255.255.255.255  255.255.255.255   Auf Verbindung    134.96.216.133    261
+===========================================================================
+St�ndige Routen:
+  Keine
+
+IPv6-Routentabelle
+===========================================================================
+Aktive Routen:
+ If Metrik Netzwerkziel             Gateway
+  3    261 ::/0                     2001:638:200:2::1
+  1    306 ::1/128                  Auf Verbindung
+  3    261 2001:638:200:2:7374:76:aaaa:a065/128
+                                    Auf Verbindung
+  3    261 fe80::/64                Auf Verbindung
+  3    261 fe80::e486:f9cd:3eae:bcda/128
+                                    Auf Verbindung
+  1    306 ff00::/8                 Auf Verbindung
+  3    261 ff00::/8                 Auf Verbindung
+===========================================================================
+St�ndige Routen:
+ If Metrik Netzwerkziel             Gateway
+  0 4294967295 ::/0                     2001:638:200:2::1
+===========================================================================
+===========================================================================
+Schnittstellenliste
+  3...00 1a 4a 16 00 6e ......Red Hat VirtIO Ethernet Adapter
+  1...........................Software Loopback Interface 1
+  2...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+  6...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+

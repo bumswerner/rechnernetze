@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<html>
+  <head>
+    <title>----> Spam - von - Doland Duck       <----</title>
+  </head>
+
+  <body>
+   <font face=3D"Courier New, Courier">
+   <kbd>
+   <pre>
+    
+    -------------------------------------------------------------------
+                                 
+                                  ANREDE
+                \|/
+                 X                 zahle mir 2000 Euro,
+                /|\                
+             °   *   °
+             I  ***  I             in kleinen Muenzen
+             *********         
+                 *              
+           °    ***    °           sonst brennt dein Mail-Tool ab !!!!
+           I   *****   I
+           *************     
+                 * 
+                ***         
+       °       *****       ° 
+       I    ***********    I 
+       *********************
+                 *          
+                 *         
+                 *        
+                 *
+                 *
+    
+    ------------------------------------------(;-)) Wolfgang Pauly HTW)
+   </pre>
+   </kbd>
+   </font>
+  </body>
+</html>
+

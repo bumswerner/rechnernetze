@@ -1,0 +1,189 @@
+ETHER:  ----- Ether Header -----                solC-winC-telnet  1
+ETHER:  
+ETHER:  Packet 1 arrived at 8:24:35.99500
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = 0:30:5:aa:f8:cb, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 7528
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 5f9f
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 134.96.216.126, stl-c-26.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 62634
+TCP:  Destination port = 23 (TELNET)
+TCP:  Sequence number = 587231859
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 49640
+TCP:  Checksum = 0x653d
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - No operation
+TCP:    - Window scale = 0
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - SACK permitted option
+TCP:  
+TELNET:  ----- TELNET:   -----
+TELNET:  
+TELNET:  ""
+TELNET:  
+
+
+ETHER:  ----- Ether Header -----                solC-winC-telnet  2
+ETHER:  
+ETHER:  Packet 2 arrived at 8:24:35.99547
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:30:5:aa:f8:cb, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 47993
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = c18d
+IP:   Source address = 134.96.216.126, stl-c-26.htw-saarland.de
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 23
+TCP:  Destination port = 62634 
+TCP:  Sequence number = 1333694311
+TCP:  Acknowledgement number = 587231860
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x12
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0x482f
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - No operation
+TCP:    - Window scale = 0
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - SACK permitted option
+TCP:  
+TELNET:  ----- TELNET:   -----
+TELNET:  
+TELNET:  ""
+TELNET:  
+
+
+ETHER:  ----- Ether Header -----                solC-winC-telnet  3
+ETHER:  
+ETHER:  Packet 3 arrived at 8:24:35.99550
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 0:30:5:aa:f8:cb, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 7529
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 5faa
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 134.96.216.126, stl-c-26.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 62634
+TCP:  Destination port = 23 (TELNET)
+TCP:  Sequence number = 587231860
+TCP:  Acknowledgement number = 1333694312
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 49640
+TCP:  Checksum = 0xc711
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+TELNET:  ----- TELNET:   -----
+TELNET:  
+TELNET:  ""
+TELNET:  
+
+......

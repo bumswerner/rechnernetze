@@ -1,0 +1,29 @@
+.frei {
+	color: green;
+}
+
+pre.result {
+	border: 0.15em outset #f7f7f7;
+	background-color: #f7f7f7;
+	padding: 1em;
+}
+
+img.lupe {
+	margin-right: 0.5em;
+}
+
+div.warning {
+	padding: 0.5em;
+	border: 0.15em outset red;
+	background-color: red;
+	color: white;
+}
+
+p.warning {
+	margin: 0;
+	margin-top: 1em;
+}
+
+a.verweis {
+	white-space: nowrap;
+}

@@ -1,0 +1,10 @@
+________________________________
+  1   0.00000 stl-c-master.htw-saarland.de -> stl-p-wpy.htw-saarland.de ETHER Type=0800 (IP), size = 106 bytes
+  1   0.00000 stl-c-master.htw-saarland.de -> stl-p-wpy.htw-saarland.de IP  D=134.96.216.231 S=134.96.216.99 LEN=92, ID=5220, TOS=0x0, TTL=64
+  1   0.00000 stl-c-master.htw-saarland.de -> stl-p-wpy.htw-saarland.de TCP D=32841 S=32901 Push Ack=754893450 Seq=576209029 Len=52 Win=49640
+  1   0.00000 stl-c-master.htw-saarland.de -> stl-p-wpy.htw-saarland.de RPC C XID=1105405936 PROG=536871030 (?) VERS=1 PROC=1
+________________________________
+  2   0.00046 stl-p-wpy.htw-saarland.de -> stl-c-master.htw-saarland.de ETHER Type=0800 (IP), size = 190 bytes
+  2   0.00046 stl-p-wpy.htw-saarland.de -> stl-c-master.htw-saarland.de IP  D=134.96.216.99 S=134.96.216.231 LEN=176, ID=41934, TOS=0x0, TTL=64
+  2   0.00046 stl-p-wpy.htw-saarland.de -> stl-c-master.htw-saarland.de TCP D=32901 S=32841 Push Ack=576209081 Seq=754893450 Len=136 Win=49640
+  2   0.00046 stl-p-wpy.htw-saarland.de -> stl-c-master.htw-saarland.de RPC R (#1) XID=1105405936 Success

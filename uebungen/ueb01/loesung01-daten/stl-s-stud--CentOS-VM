@@ -1,0 +1,46 @@
+#
+#
+#
+# stl-s-stud--CentOS-VM
+#
+#
+#
+
+
+paulypi16@stl-s-stud :>  ./netio -t stl-v-149.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): Connection refused
+
+paulypi16@stl-s-stud :>  ./netio -t stl-v-149.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  109.58 MByte/s Tx,  110.41 MByte/s Rx.
+Packet size  2k bytes:  110.02 MByte/s Tx,  109.92 MByte/s Rx.
+Packet size  4k bytes:  110.85 MByte/s Tx,  110.84 MByte/s Rx.
+Packet size  8k bytes:  110.89 MByte/s Tx,  111.18 MByte/s Rx.
+Packet size 16k bytes:  109.47 MByte/s Tx,  111.27 MByte/s Rx.
+Packet size 32k bytes:  110.13 MByte/s Tx,  111.18 MByte/s Rx.
+Done.
+
+paulypi16@stl-s-stud :>  ./netio -u stl-v-149.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): No route to host
+
+paulypi16@stl-s-stud :>  ./netio -u stl-v-149.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): No route to host
+
+

@@ -1,0 +1,772 @@
+Frame 1 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:49.968891000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15
+
+Frame 2 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 13:58:51.053596000
+    Time delta from previous packet: 1.084705000 seconds
+    Time relative to first packet: 1.084705000 seconds
+    Frame Number: 2
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 3 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:51.974360000
+    Time delta from previous packet: 0.920764000 seconds
+    Time relative to first packet: 2.005469000 seconds
+    Frame Number: 3
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15
+
+Frame 4 (342 on wire, 342 captured)
+    Arrival Time: Apr  8, 2004 13:58:52.644157000
+    Time delta from previous packet: 0.669797000 seconds
+    Time relative to first packet: 2.675266000 seconds
+    Frame Number: 4
+    Packet Length: 342 bytes
+    Capture Length: 342 bytes
+Ethernet II
+    Destination: ff:ff:ff:ff:ff:ff (ff:ff:ff:ff:ff:ff)
+    Source: 00:02:b3:8e:5b:a9 (Intel_8e:5b:a9)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-romoe.htw-saarland.de (134.96.216.222), Dst Addr: 255.255.255.255 (255.255.255.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 328
+    Identification: 0x01f5
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (0x11)
+    Header checksum: 0xd871 (correct)
+    Source: stl-m-romoe.htw-saarland.de (134.96.216.222)
+    Destination: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: 68 (68), Dst Port: 67 (67)
+    Source port: 68 (68)
+    Destination port: 67 (67)
+    Length: 308
+    Checksum: 0x733b (correct)
+Bootstrap Protocol
+    Message type: Boot Request (1)
+    Hardware type: Ethernet
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x4c2c0817
+    Seconds elapsed: 0
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: stl-m-romoe.htw-saarland.de (134.96.216.222)
+    Your (client) IP address: 0.0.0.0 (0.0.0.0)
+    Next server IP address: 0.0.0.0 (0.0.0.0)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client hardware address: 00:02:b3:8e:5b:a9
+    Server host name not given
+    Boot file name not given
+    Magic cookie: (OK)
+    Option 53: DHCP Message Type = DHCP Inform
+    Option 61: Client identifier
+        Hardware type: Ethernet
+        Client hardware address: 00:02:b3:8e:5b:a9
+    Option 12: Host Name = "STL-M-ROMOE"
+    Option 60: Vendor class identifier = "MSFT 5.0"
+    Option 55: Parameter Request List
+        1 = Subnet Mask
+        15 = Domain Name
+        3 = Router
+        6 = Domain Name Server
+        44 = NetBIOS over TCP/IP Name Server
+        46 = NetBIOS over TCP/IP Node Type
+        47 = NetBIOS over TCP/IP Scope
+        31 = Perform Router Discover
+        33 = Static Route
+        Unknown Option Code: 249
+        43 = Vendor-Specific Information
+        Unknown Option Code: 252
+        12 = Host Name
+    End Option
+    Padding
+
+Frame 5 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:53.991699000
+    Time delta from previous packet: 1.347542000 seconds
+    Time relative to first packet: 4.022808000 seconds
+    Frame Number: 5
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15
+
+Frame 6 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:55.974605000
+    Time delta from previous packet: 1.982906000 seconds
+    Time relative to first packet: 6.005714000 seconds
+    Frame Number: 6
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15
+
+Frame 7 (74 on wire, 74 captured)
+    Arrival Time: Apr  8, 2004 13:58:55.978033000
+    Time delta from previous packet: 0.003428000 seconds
+    Time relative to first packet: 6.009142000 seconds
+    Frame Number: 7
+    Packet Length: 74 bytes
+    Capture Length: 74 bytes
+Ethernet II
+    Destination: 01:00:5e:00:00:0a (01:00:5e:00:00:0a)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: rtg216-0.htw-saarland.de (134.96.216.1), Dst Addr: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x0000
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+    Protocol: EIGRP (0x58)
+    Header checksum: 0x793e (correct)
+    Source: rtg216-0.htw-saarland.de (134.96.216.1)
+    Destination: IGRP-ROUTERS.MCAST.NET (224.0.0.10)
+Cisco EIGRP
+    Version    = 2
+    Opcode = 5 (Hello)
+    Checksum   = 0xee6c
+    Flags      = 0x00000000
+    Sequence   = 0
+    Acknowledge  = 0
+    Autonomous System  : 100
+    EIGRP Parameters
+        Type = 0x0001 (EIGRP Parameters)
+        Size = 12 bytes
+        K1 = 1
+        K2 = 0
+        K3 = 1
+        K4 = 0
+        K5 = 0
+        Reserved
+        Hold Time = 15
+    Software Version: IOS=12.1, EIGRP=1.1
+        Type = 0x0004 (Software Version)
+        Size = 8 bytes
+         IOS  release version = 12.1
+        EIGRP release version = 1.1
+
+Frame 8 (342 on wire, 342 captured)
+    Arrival Time: Apr  8, 2004 13:58:56.647517000
+    Time delta from previous packet: 0.669484000 seconds
+    Time relative to first packet: 6.678626000 seconds
+    Frame Number: 8
+    Packet Length: 342 bytes
+    Capture Length: 342 bytes
+Ethernet II
+    Destination: ff:ff:ff:ff:ff:ff (ff:ff:ff:ff:ff:ff)
+    Source: 00:02:b3:8e:5b:a9 (Intel_8e:5b:a9)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-romoe.htw-saarland.de (134.96.216.222), Dst Addr: 255.255.255.255 (255.255.255.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 328
+    Identification: 0x0209
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (0x11)
+    Header checksum: 0xd85d (correct)
+    Source: stl-m-romoe.htw-saarland.de (134.96.216.222)
+    Destination: 255.255.255.255 (255.255.255.255)
+User Datagram Protocol, Src Port: 68 (68), Dst Port: 67 (67)
+    Source port: 68 (68)
+    Destination port: 67 (67)
+    Length: 308
+    Checksum: 0x6f3b (correct)
+Bootstrap Protocol
+    Message type: Boot Request (1)
+    Hardware type: Ethernet
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0x4c2c0817
+    Seconds elapsed: 1024
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: stl-m-romoe.htw-saarland.de (134.96.216.222)
+    Your (client) IP address: 0.0.0.0 (0.0.0.0)
+    Next server IP address: 0.0.0.0 (0.0.0.0)
+    Relay agent IP address: 0.0.0.0 (0.0.0.0)
+    Client hardware address: 00:02:b3:8e:5b:a9
+    Server host name not given
+    Boot file name not given
+    Magic cookie: (OK)
+    Option 53: DHCP Message Type = DHCP Inform
+    Option 61: Client identifier
+        Hardware type: Ethernet
+        Client hardware address: 00:02:b3:8e:5b:a9
+    Option 12: Host Name = "STL-M-ROMOE"
+    Option 60: Vendor class identifier = "MSFT 5.0"
+    Option 55: Parameter Request List
+        1 = Subnet Mask
+        15 = Domain Name
+        3 = Router
+        6 = Domain Name Server
+        44 = NetBIOS over TCP/IP Name Server
+        46 = NetBIOS over TCP/IP Node Type
+        47 = NetBIOS over TCP/IP Scope
+        31 = Perform Router Discover
+        33 = Static Route
+        Unknown Option Code: 249
+        43 = Vendor-Specific Information
+        Unknown Option Code: 252
+        12 = Host Name
+    End Option
+    Padding
+
+Frame 9 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:57.970651000
+    Time delta from previous packet: 1.323134000 seconds
+    Time relative to first packet: 8.001760000 seconds
+    Frame Number: 9
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15
+
+Frame 10 (304 on wire, 304 captured)
+    Arrival Time: Apr  8, 2004 13:58:59.362638000
+    Time delta from previous packet: 1.391987000 seconds
+    Time relative to first packet: 9.393747000 seconds
+    Frame Number: 10
+    Packet Length: 304 bytes
+    Capture Length: 304 bytes
+Ethernet II
+    Destination: ff:ff:ff:ff:ff:ff (ff:ff:ff:ff:ff:ff)
+    Source: 00:d0:b7:a0:63:5b (INTEL_a0:63:5b)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-32.htw-saarland.de (134.96.216.132), Dst Addr: 134.96.216.255 (134.96.216.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 290
+    Identification: 0xe749
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (0x11)
+    Header checksum: 0x943c (correct)
+    Source: stl-c-32.htw-saarland.de (134.96.216.132)
+    Destination: 134.96.216.255 (134.96.216.255)
+User Datagram Protocol, Src Port: 138 (138), Dst Port: 138 (138)
+    Source port: 138 (138)
+    Destination port: 138 (138)
+    Length: 270
+    Checksum: 0x851b (correct)
+NetBIOS Datagram Service
+    Message Type: Direct_group datagram (17)
+    More fragments follow: No
+    This is first fragment: Yes
+    Node Type: NBDD (3)
+    Datagram ID: 0x80a3
+    Source IP: stl-c-32.htw-saarland.de (134.96.216.132)
+    Source Port: 138
+    Datagram length: 248 bytes
+    Packet offset: 0 bytes
+    Source name: STL-C-32       <00> (Workstation/Redirector)
+    Destination name: STL.EDU.       <1c> (Domain Controllers)
+SMB (Server Message Block Protocol)
+    SMB Header
+        Server Component: SMB
+        SMB Command: Transaction (0x25)
+        Error Class: Success (0x00)
+        Reserved: 00
+        Error Code: No Error
+        Flags: 0x00
+            0... .... = Request/Response: Message is a request to the server
+            .0.. .... = Notify: Notify client only on open
+            ..0. .... = Oplocks: OpLock not requested/granted
+            ...0 .... = Canonicalized Pathnames: Pathnames are not canonicalized
+            .... 0... = Case Sensitivity: Path names are case sensitive
+            .... ..0. = Receive Buffer Posted: Receive buffer has not been posted
+            .... ...0 = Lock and Read: Lock&Read, Write&Unlock are not supported
+        Flags2: 0x0000
+            0... .... .... .... = Unicode Strings: Strings are ASCII
+            .0.. .... .... .... = Error Code Type: Error codes are DOS error codes
+            ..0. .... .... .... = Execute-only Reads: Don't permit reads if execute-only
+            ...0 .... .... .... = Dfs: Don't resolve pathnames with Dfs
+            .... 0... .... .... = Extended Security Negotiation: Extended security negotiation is not supported
+            .... .... .0.. .... = Long Names Used: Path names in request are not long file names
+            .... .... .... .0.. = Security Signatures: Security signatures are not supported
+            .... .... .... ..0. = Extended Attributes: Extended attributes are not supported
+            .... .... .... ...0 = Long Names Allowed: Long file names are not allowed in the response
+        Reserved: 000000000000000000000000
+        Tree ID: 0
+        Process ID: 0
+        User ID: 0
+        Multiplex ID: 0
+    Transaction Request (0x25)
+        Word Count (WCT): 17
+        Total Parameter Count: 0
+        Total Data Count: 88
+        Max Parameter Count: 0
+        Max Data Count: 0
+        Max Setup Count: 0
+        Reserved: 00
+        Flags: 0x0000
+            .... .... .... ..0. = One Way Transaction: Two way transaction
+            .... .... .... ...0 = Disconnect TID: Do NOT disconnect TID
+        Timeout: 1 second
+        Reserved: 0000
+        Parameter Count: 0
+        Parameter Offset: 0
+        Data Count: 88
+        Data Offset: 92
+        Setup Count: 3
+        Reserved: 00
+        Byte Count (BCC): 111
+        Transaction Name: \MAILSLOT\NET\NETLOGON
+SMB MailSlot Protocol
+    Opcode: Write Mail Slot (1)
+    Priority: 1
+    Class: Unreliable & Broadcast (2)
+    Size: 111
+    Mailslot Name: \MAILSLOT\NET\NETLOGON
+Microsoft Windows Logon Protocol
+    Command: SAM LOGON request from client (0x12)
+    Request Count: 0
+    Unicode Computer Name: STL-C-32
+    User Name: 
+    Mailslot Name: \MAILSLOT\NET\GETDC281
+    Account control  = 0x0000
+        .... .... .... .... .... .0.. .... .... = Autolock: User account NOT auto-locked
+        .... .... .... .... .... ..0. .... .... = Expire: User password will expire
+        .... .... .... .... .... ...0 .... .... = Server Trust: NOT a Server Trust user account
+        .... .... .... .... .... .... 0... .... = Workstation Trust: NOT a Workstation Trust user account
+        .... .... .... .... .... .... .0.. .... = Interdomain Trust: NOT a Inter-domain Trust user account
+        .... .... .... .... .... .... ..0. .... = MNS User: NOT a MNS Logon user account
+        .... .... .... .... .... .... ...0 .... = Normal User: NOT a normal user account
+        .... .... .... .... .... .... .... 0... = Temp Duplicate User: NOT a temp duplicate user account
+        .... .... .... .... .... .... .... .0.. = Password: Password required
+        .... .... .... .... .... .... .... ..0. = Homedir: Homedir required
+        .... .... .... .... .... .... .... ...0 = Enabled: User account disabled
+    Domain SID Size: 24
+    NT Domain SID: S-1-5-21-3546795241-811404677-3136189547
+        Revision: 1
+        Num Auth: 4
+        Authority: 5
+        Sub-authorities: 21-3546795241-811404677-3136189547
+    NT Version: 11
+    LMNT Token: 0xffff (Windows NT Networking)
+    LM20 Token: 0xffff (LanMan 2.0 or higher)
+
+Frame 11 (304 on wire, 304 captured)
+    Arrival Time: Apr  8, 2004 13:58:59.553197000
+    Time delta from previous packet: 0.190559000 seconds
+    Time relative to first packet: 9.584306000 seconds
+    Frame Number: 11
+    Packet Length: 304 bytes
+    Capture Length: 304 bytes
+Ethernet II
+    Destination: ff:ff:ff:ff:ff:ff (ff:ff:ff:ff:ff:ff)
+    Source: 00:d0:b7:a0:63:5b (INTEL_a0:63:5b)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-32.htw-saarland.de (134.96.216.132), Dst Addr: 134.96.216.255 (134.96.216.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 290
+    Identification: 0xe76a
+    Flags: 0x00
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (0x11)
+    Header checksum: 0x941b (correct)
+    Source: stl-c-32.htw-saarland.de (134.96.216.132)
+    Destination: 134.96.216.255 (134.96.216.255)
+User Datagram Protocol, Src Port: 138 (138), Dst Port: 138 (138)
+    Source port: 138 (138)
+    Destination port: 138 (138)
+    Length: 270
+    Checksum: 0x850c (correct)
+NetBIOS Datagram Service
+    Message Type: Direct_group datagram (17)
+    More fragments follow: No
+    This is first fragment: Yes
+    Node Type: NBDD (3)
+    Datagram ID: 0x80a5
+    Source IP: stl-c-32.htw-saarland.de (134.96.216.132)
+    Source Port: 138
+    Datagram length: 248 bytes
+    Packet offset: 0 bytes
+    Source name: STL-C-32       <00> (Workstation/Redirector)
+    Destination name: STL.EDU.       <1c> (Domain Controllers)
+SMB (Server Message Block Protocol)
+    SMB Header
+        Server Component: SMB
+        SMB Command: Transaction (0x25)
+        Error Class: Success (0x00)
+        Reserved: 00
+        Error Code: No Error
+        Flags: 0x00
+            0... .... = Request/Response: Message is a request to the server
+            .0.. .... = Notify: Notify client only on open
+            ..0. .... = Oplocks: OpLock not requested/granted
+            ...0 .... = Canonicalized Pathnames: Pathnames are not canonicalized
+            .... 0... = Case Sensitivity: Path names are case sensitive
+            .... ..0. = Receive Buffer Posted: Receive buffer has not been posted
+            .... ...0 = Lock and Read: Lock&Read, Write&Unlock are not supported
+        Flags2: 0x0000
+            0... .... .... .... = Unicode Strings: Strings are ASCII
+            .0.. .... .... .... = Error Code Type: Error codes are DOS error codes
+            ..0. .... .... .... = Execute-only Reads: Don't permit reads if execute-only
+            ...0 .... .... .... = Dfs: Don't resolve pathnames with Dfs
+            .... 0... .... .... = Extended Security Negotiation: Extended security negotiation is not supported
+            .... .... .0.. .... = Long Names Used: Path names in request are not long file names
+            .... .... .... .0.. = Security Signatures: Security signatures are not supported
+            .... .... .... ..0. = Extended Attributes: Extended attributes are not supported
+            .... .... .... ...0 = Long Names Allowed: Long file names are not allowed in the response
+        Reserved: 000000000000000000000000
+        Tree ID: 0
+        Process ID: 0
+        User ID: 0
+        Multiplex ID: 0
+    Transaction Request (0x25)
+        Word Count (WCT): 17
+        Total Parameter Count: 0
+        Total Data Count: 88
+        Max Parameter Count: 0
+        Max Data Count: 0
+        Max Setup Count: 0
+        Reserved: 00
+        Flags: 0x0000
+            .... .... .... ..0. = One Way Transaction: Two way transaction
+            .... .... .... ...0 = Disconnect TID: Do NOT disconnect TID
+        Timeout: 1 second
+        Reserved: 0000
+        Parameter Count: 0
+        Parameter Offset: 0
+        Data Count: 88
+        Data Offset: 92
+        Setup Count: 3
+        Reserved: 00
+        Byte Count (BCC): 111
+        Transaction Name: \MAILSLOT\NET\NETLOGON
+SMB MailSlot Protocol
+    Opcode: Write Mail Slot (1)
+    Priority: 1
+    Class: Unreliable & Broadcast (2)
+    Size: 111
+    Mailslot Name: \MAILSLOT\NET\NETLOGON
+Microsoft Windows Logon Protocol
+    Command: SAM LOGON request from client (0x12)
+    Request Count: 0
+    Unicode Computer Name: STL-C-32
+    User Name: 
+    Mailslot Name: \MAILSLOT\NET\GETDC888
+    Account control  = 0x0000
+        .... .... .... .... .... .0.. .... .... = Autolock: User account NOT auto-locked
+        .... .... .... .... .... ..0. .... .... = Expire: User password will expire
+        .... .... .... .... .... ...0 .... .... = Server Trust: NOT a Server Trust user account
+        .... .... .... .... .... .... 0... .... = Workstation Trust: NOT a Workstation Trust user account
+        .... .... .... .... .... .... .0.. .... = Interdomain Trust: NOT a Inter-domain Trust user account
+        .... .... .... .... .... .... ..0. .... = MNS User: NOT a MNS Logon user account
+        .... .... .... .... .... .... ...0 .... = Normal User: NOT a normal user account
+        .... .... .... .... .... .... .... 0... = Temp Duplicate User: NOT a temp duplicate user account
+        .... .... .... .... .... .... .... .0.. = Password: Password required
+        .... .... .... .... .... .... .... ..0. = Homedir: Homedir required
+        .... .... .... .... .... .... .... ...0 = Enabled: User account disabled
+    Domain SID Size: 24
+    NT Domain SID: S-1-5-21-3546795241-811404677-3136189547
+        Revision: 1
+        Num Auth: 4
+        Authority: 5
+        Sub-authorities: 21-3546795241-811404677-3136189547
+    NT Version: 11
+    LMNT Token: 0xffff (Windows NT Networking)
+    LM20 Token: 0xffff (LanMan 2.0 or higher)
+
+Frame 12 (102 on wire, 102 captured)
+    Arrival Time: Apr  8, 2004 13:58:59.819859000
+    Time delta from previous packet: 0.266662000 seconds
+    Time relative to first packet: 9.850968000 seconds
+    Frame Number: 12
+    Packet Length: 102 bytes
+    Capture Length: 102 bytes
+Ethernet II
+    Destination: ff:ff:ff:ff:ff:ff (ff:ff:ff:ff:ff:ff)
+    Source: 00:90:27:9f:f3:77 (Intel_9f:f3:77)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-12.htw-saarland.de (134.96.216.112), Dst Addr: 134.96.216.255 (134.96.216.255)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 88
+    Identification: 0x4858
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (0x11)
+    Header checksum: 0x730c (correct)
+    Source: stl-c-12.htw-saarland.de (134.96.216.112)
+    Destination: 134.96.216.255 (134.96.216.255)
+User Datagram Protocol, Src Port: whod (513), Dst Port: whod (513)
+    Source port: whod (513)
+    Destination port: whod (513)
+    Length: 68
+    Checksum: 0x8733 (correct)
+Who
+    Version: 1
+    Type: 1
+    Send Time: Apr  8, 2004 13:58:59.000000000
+    Receive Time: Jan  1, 1970 01:00:00.000000000
+    Hostname: stl-c-12
+    Load Average Over Past  5 Minutes: 0
+    Load Average Over Past 10 Minutes: 0
+    Load Average Over Past 15 Minutes: 0.01
+    Boot Time: Mar 22, 2004 07:03:17.000000000
+
+Frame 13 (52 on wire, 52 captured)
+    Arrival Time: Apr  8, 2004 13:58:59.969770000
+    Time delta from previous packet: 0.149911000 seconds
+    Time relative to first packet: 10.000879000 seconds
+    Frame Number: 13
+    Packet Length: 52 bytes
+    Capture Length: 52 bytes
+IEEE 802.3 Ethernet 
+    Destination: 01:80:c2:00:00:00 (01:80:c2:00:00:00)
+    Source: 00:50:99:88:c3:38 (3COM_88:c3:38)
+    Length: 38
+Logical-Link Control
+    DSAP: Spanning Tree BPDU (0x42)
+    IG Bit: Individual
+    SSAP: Spanning Tree BPDU (0x42)
+    CR Bit: Command
+    Control field: U, func = UI (0x03)
+        000. 00.. = Unnumbered Information
+        .... ..11 = Unnumbered frame
+Spanning Tree Protocol
+    Protocol Identifier: Spanning Tree Protocol (0x0000)
+    Protocol Version Identifier: 0
+    BPDU Type: Configuration (0x00)
+    BPDU flags: 0x00
+        0... .... = Topology Change Acknowledgment: No
+        .... ...0 = Topology Change: No
+    Root Identifier: 32768 / 00:02:7e:02:14:b3
+    Root Path Cost: 20
+    Bridge Identifier: 32768 / 00:50:99:88:c3:38
+    Port identifier: 0x8056
+    Message Age: 6
+    Max Age: 20
+    Hello Time: 2
+    Forward Delay: 15

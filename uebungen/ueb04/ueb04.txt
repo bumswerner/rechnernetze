@@ -1,0 +1,74 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    04. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 23 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb04/ueb04.txt
+
+    
+
+1. Aufgabe - Netzwerkschnittstellen eines Rechners
+--------------------------------------------------
+    - mit welchen Linux- bzw Windowskommandos kann man sich die 
+      Netzwerkschnittstellenkonfiguration eines Rechners anschauen ??
+      (lesen Sie die Manualpages unter Redhat/CentOS/XUbuntu/Win10 !!!)
+
+    - Fuehren Sie das entsprechende Kommando unter den Betriebssystemen  
+      Redhat/CentOs/Win10 auf einer virtuellen Maschine
+      im STL aus und speichern Sie die Ausgaben in einer Textdatei ab.
+
+    - Fuehren Sie das entsprechende Kommando auch auf einer Arbeitsstation in Ihrem 
+      HOME-Netzwerk fuer folgende Situationen aus:
+                <> an ihrem HOME-LAN u./o. WLAN
+      speichern Sie auch diese Ausgaben in einer Textdatei ab.
+
+    - Beispiel-Daten fuer die unter aufgefuehrten Netze finden Sie im Uebungs-Directory
+      im Ordner : HTW-WLAN-Daten
+
+                <> an dem oeffentlichen LAN der HTW (Gelbe Dosen)    
+                <> an dem oeffentlichen WLAN der HTW  (Eduroam)      
+                <> an dem oeffentlichen WLAN htwintern               
+                <> an dem oeffentlichen WLAN hiz-saarland            
+                <> an dem oeffentlichen WLAN hiz-saarland + HTWDS-VPN
+                <> an dem oeffentlichen WLAN hiz-saarland + STL-VPN  
+                <> an ihrem HOME-LAN u./o. WLAN + STL-VPN
+
+
+
+2. Aufgabe - Merkmale der IP-Netzwerke an der HTW
+-------------------------------------------------
+    - Erzeugen Sie eine Tabelle fuer die in Aufgabe 1 untersuchten Netzwerke.
+      Pro Netzwerk eine Tabellenzeile, wobei in jeder Zeile folgende Spalten
+      auszufuellen sind :
+                  <> Name des Netzwerkes + Betriebssystem
+                  <> Netzwerk-IP-Adresse
+                  <> Netzwerkmaske
+                  <> Default-Router-Adresse
+                  <> Broadcast-Adresse 
+                  <> Host-Adressbereich
+                  <> Maximale Anzahl der Hostadressen
+      benutzen Sie dazu ihre vorher gespeicherten Kommandoausgaben.
+
+    TIPP: der Default-Router besitzt an der HTW immer die erste moegliche Host-Nummer
+
+    Was faellt Ihnen in der Tabelle auf?, 
+        fassen Sie die Ergebnisse Ihrer Experimente zusammen.
+
+    Welche sonstigen Besonderheiten/Unterschiede fallen Ihnen beim Vergleich der
+        Kommandoausgaben in Bezug 
+                                 - auf das laufende Betriebssystem
+                                 - auf die ausgegebenen Informationen
+       auf ??

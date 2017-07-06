@@ -1,0 +1,1357 @@
+Frame 1 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 11:36:55.665053000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0x9721
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed82 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856683, Ack: 0, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856683
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0xc32a (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 33195595, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+Frame 2 (78 on wire, 78 captured)
+    Arrival Time: May  3, 2004 11:36:55.665524000
+    Time delta from previous packet: 0.000471000 seconds
+    Time relative to first packet: 0.000471000 seconds
+    Frame Number: 2
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0x5edb
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26c9 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416054, Ack: 3865856684, Len: 0
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416054
+    Acknowledgement number: 3865856684
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0x71ce (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184777, tsecr 33195595
+        NOP
+        Window scale: 0 bytes
+        NOP
+        NOP
+        SACK permitted
+        Maximum segment size: 1460 bytes
+
+Frame 3 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.665671000
+    Time delta from previous packet: 0.000147000 seconds
+    Time relative to first packet: 0.000618000 seconds
+    Frame Number: 3
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x9722
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed8d (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856684, Ack: 3520416055, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856684
+    Acknowledgement number: 3520416055
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x90a9 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195595, tsecr 2184777
+
+Frame 4 (62 on wire, 62 captured)
+    Arrival Time: May  3, 2004 11:36:55.673801000
+    Time delta from previous packet: 0.008130000 seconds
+    Time relative to first packet: 0.008748000 seconds
+    Frame Number: 4
+    Packet Length: 62 bytes
+    Capture Length: 62 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 48
+    Identification: 0x5edc
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26d8 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 36817 (36817), Dst Port: 113 (113), Seq: 297000730, Ack: 0, Len: 0
+    Source port: 36817 (36817)
+    Destination port: 113 (113)
+    Sequence number: 297000730
+    Header length: 28 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 24820
+    Checksum: 0xeb06 (correct)
+    Options: (8 bytes)
+        NOP
+        NOP
+        SACK permitted
+        Maximum segment size: 1460 bytes
+
+Frame 5 (54 on wire, 54 captured)
+    Arrival Time: May  3, 2004 11:36:55.674010000
+    Time delta from previous packet: 0.000209000 seconds
+    Time relative to first packet: 0.008957000 seconds
+    Frame Number: 5
+    Packet Length: 54 bytes
+    Capture Length: 54 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 40
+    Identification: 0x9723
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed98 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 113 (113), Dst Port: 36817 (36817), Seq: 0, Ack: 297000731, Len: 0
+    Source port: 113 (113)
+    Destination port: 36817 (36817)
+    Sequence number: 0
+    Acknowledgement number: 297000731
+    Header length: 20 bytes
+    Flags: 0x0014 (RST, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .1.. = Reset: Set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 0
+    Checksum: 0x78ab (correct)
+
+Frame 6 (122 on wire, 122 captured)
+    Arrival Time: May  3, 2004 11:36:55.679685000
+    Time delta from previous packet: 0.005675000 seconds
+    Time relative to first packet: 0.014632000 seconds
+    Frame Number: 6
+    Packet Length: 122 bytes
+    Capture Length: 122 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 108
+    Identification: 0x5edd
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x269b (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416055, Ack: 3865856684, Len: 56
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416055
+    Next sequence number: 3520416111
+    Acknowledgement number: 3865856684
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xbd6b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184778, tsecr 33195595
+Simple Mail Transfer Protocol
+    Response: 220
+    Parameter: zdve-mailx.htw-saarland.de ESMTP Mail Server ready
+
+Frame 7 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.679799000
+    Time delta from previous packet: 0.000114000 seconds
+    Time relative to first packet: 0.014746000 seconds
+    Frame Number: 7
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x9724
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed8b (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856684, Ack: 3520416111, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856684
+    Acknowledgement number: 3520416111
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x906f (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195596, tsecr 2184778
+
+Frame 8 (98 on wire, 98 captured)
+    Arrival Time: May  3, 2004 11:36:55.680707000
+    Time delta from previous packet: 0.000908000 seconds
+    Time relative to first packet: 0.015654000 seconds
+    Frame Number: 8
+    Packet Length: 98 bytes
+    Capture Length: 98 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x9725
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed6a (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856684, Ack: 3520416111, Len: 32
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856684
+    Next sequence number: 3865856716
+    Acknowledgement number: 3520416111
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xc344 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195597, tsecr 2184778
+Simple Mail Transfer Protocol
+    Command: EHLO
+    Parameter: stl-m-wpy.htw-saarland.de
+
+Frame 9 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.681027000
+    Time delta from previous packet: 0.000320000 seconds
+    Time relative to first packet: 0.015974000 seconds
+    Frame Number: 9
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x5ede
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26d2 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416111, Ack: 3865856716, Len: 0
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416111
+    Acknowledgement number: 3865856716
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xb23d (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184779, tsecr 33195597
+
+Frame 10 (287 on wire, 287 captured)
+    Arrival Time: May  3, 2004 11:36:55.681582000
+    Time delta from previous packet: 0.000555000 seconds
+    Time relative to first packet: 0.016529000 seconds
+    Frame Number: 10
+    Packet Length: 287 bytes
+    Capture Length: 287 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 273
+    Identification: 0x5edf
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x25f4 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416111, Ack: 3865856716, Len: 221
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416111
+    Next sequence number: 3520416332
+    Acknowledgement number: 3865856716
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xd2d9 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184779, tsecr 33195597
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: zdve-mailx.htw-saarland.de Hello stl-m-wpy.htw-saarland.de [134.96.216.230], pleased to meet you
+    Response: 250
+    Parameter: ENHANCEDSTATUSCODES
+    Response: 250
+    Parameter: PIPELINING
+    Response: 250
+    Parameter: EXPN
+    Response: 250
+    Parameter: VERB
+    Response: 250
+    Parameter: 8BITMIME
+    Response: 250
+    Parameter: SIZE
+    Response: 250
+    Parameter: DSN
+    Response: 250
+    Parameter: DELIVERBY
+    Response: 250
+    Parameter: HELP
+
+Frame 11 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.681776000
+    Time delta from previous packet: 0.000194000 seconds
+    Time relative to first packet: 0.016723000 seconds
+    Frame Number: 11
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x9726
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed89 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856716, Ack: 3520416332, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856716
+    Acknowledgement number: 3520416332
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33193
+    Checksum: 0x8fdf (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195597, tsecr 2184779
+
+Frame 12 (118 on wire, 118 captured)
+    Arrival Time: May  3, 2004 11:36:55.682024000
+    Time delta from previous packet: 0.000248000 seconds
+    Time relative to first packet: 0.016971000 seconds
+    Frame Number: 12
+    Packet Length: 118 bytes
+    Capture Length: 118 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 104
+    Identification: 0x9727
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed54 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856716, Ack: 3520416332, Len: 52
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856716
+    Next sequence number: 3865856768
+    Acknowledgement number: 3520416332
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33193
+    Checksum: 0x90af (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195597, tsecr 2184779
+Simple Mail Transfer Protocol
+    Command: MAIL
+    Parameter: From:<wpy@stl-m-wpy.htw-saarland.de> SIZE=676
+
+Frame 13 (122 on wire, 122 captured)
+    Arrival Time: May  3, 2004 11:36:55.691909000
+    Time delta from previous packet: 0.009885000 seconds
+    Time relative to first packet: 0.026856000 seconds
+    Frame Number: 13
+    Packet Length: 122 bytes
+    Capture Length: 122 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 108
+    Identification: 0x5ee0
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x2698 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416332, Ack: 3865856768, Len: 56
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416332
+    Next sequence number: 3520416388
+    Acknowledgement number: 3865856768
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0x7aaf (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184780, tsecr 33195597
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.1.0 <wpy@stl-m-wpy.htw-saarland.de>... Sender ok
+
+Frame 14 (103 on wire, 103 captured)
+    Arrival Time: May  3, 2004 11:36:55.692191000
+    Time delta from previous packet: 0.000282000 seconds
+    Time relative to first packet: 0.027138000 seconds
+    Frame Number: 14
+    Packet Length: 103 bytes
+    Capture Length: 103 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 89
+    Identification: 0x9728
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed62 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856768, Ack: 3520416388, Len: 37
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856768
+    Next sequence number: 3865856805
+    Acknowledgement number: 3520416388
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33193
+    Checksum: 0xfb57 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195598, tsecr 2184780
+Simple Mail Transfer Protocol
+    Command: RCPT
+    Parameter: To:<wpy@htw-saarland.de>
+
+Frame 15 (165 on wire, 165 captured)
+    Arrival Time: May  3, 2004 11:36:55.696294000
+    Time delta from previous packet: 0.004103000 seconds
+    Time relative to first packet: 0.031241000 seconds
+    Frame Number: 15
+    Packet Length: 165 bytes
+    Capture Length: 165 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 151
+    Identification: 0x5ee1
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x266c (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416388, Ack: 3865856805, Len: 99
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416388
+    Next sequence number: 3520416487
+    Acknowledgement number: 3865856805
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0x3750 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184780, tsecr 33195598
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.1.5 <wpy@htw-saarland.de>... Recipient ok
+
+Frame 16 (727 on wire, 727 captured)
+    Arrival Time: May  3, 2004 11:36:55.697503000
+    Time delta from previous packet: 0.001209000 seconds
+    Time relative to first packet: 0.032450000 seconds
+    Frame Number: 16
+    Packet Length: 727 bytes
+    Capture Length: 727 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 713
+    Identification: 0x9729
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xeaf1 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865856805, Ack: 3520416487, Len: 661
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865856805
+    Next sequence number: 3865857466
+    Acknowledgement number: 3520416487
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33144
+    Checksum: 0x6e59 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195598, tsecr 2184780
+Simple Mail Transfer Protocol
+    Message: Received: from stl-m-wpy.htw-saarland.de (localhost [127.0.0.1])\r\n
+    Message: \tby stl-m-wpy.htw-saarland.de (8.12.9+Sun/8.12.9) with ESMTP id i439atXV002217\r\n
+    Message: \tfor <wpy@htw-saarland.de>; Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: Received: (from wpy@localhost)\r\n
+    Message: \tby stl-m-wpy.htw-saarland.de (8.12.9+Sun/8.12.9/Submit) id i439atL9002216\r\n
+    Message: \tfor wpy@htw-saarland.de; Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: Date: Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: From: "W.Pauly" <wpy@stl-m-wpy.htw-saarland.de>\r\n
+    Message: Message-Id: <200405030936.i439atL9002216@stl-m-wpy.htw-saarland.de>\r\n
+    Message: Subject: Das ist ein TEST !!!!\r\n
+    Message: Content-Type: text\r\n
+    Message: \r\n
+    Message: so und das ist der Mail-Inhalt : NIX und wieder NIX !!\r\n
+    Message: \r\n
+
+Frame 17 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.791022000
+    Time delta from previous packet: 0.093519000 seconds
+    Time relative to first packet: 0.125969000 seconds
+    Frame Number: 17
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x5ee2
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26ce (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416487, Ack: 3865857466, Len: 0
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416487
+    Acknowledgement number: 3865857466
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xadcb (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184790, tsecr 33195598
+
+Frame 18 (69 on wire, 69 captured)
+    Arrival Time: May  3, 2004 11:36:55.791155000
+    Time delta from previous packet: 0.000133000 seconds
+    Time relative to first packet: 0.126102000 seconds
+    Frame Number: 18
+    Packet Length: 69 bytes
+    Capture Length: 69 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 55
+    Identification: 0x972a
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed82 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865857466, Ack: 3520416487, Len: 3
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865857466
+    Next sequence number: 3865857469
+    Acknowledgement number: 3520416487
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33144
+    Checksum: 0x5459 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195608, tsecr 2184790
+Simple Mail Transfer Protocol
+    Message: .\r\n
+
+Frame 19 (122 on wire, 122 captured)
+    Arrival Time: May  3, 2004 11:36:55.857458000
+    Time delta from previous packet: 0.066303000 seconds
+    Time relative to first packet: 0.192405000 seconds
+    Frame Number: 19
+    Packet Length: 122 bytes
+    Capture Length: 122 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 108
+    Identification: 0x5ee3
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x2695 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416487, Ack: 3865857469, Len: 56
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416487
+    Next sequence number: 3520416543
+    Acknowledgement number: 3865857469
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xfa5f (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184796, tsecr 33195608
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.0.0 i439ZHgh025993 Message accepted for delivery
+
+Frame 20 (72 on wire, 72 captured)
+    Arrival Time: May  3, 2004 11:36:55.859599000
+    Time delta from previous packet: 0.002141000 seconds
+    Time relative to first packet: 0.194546000 seconds
+    Frame Number: 20
+    Packet Length: 72 bytes
+    Capture Length: 72 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x972b
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed7e (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865857469, Ack: 3520416543, Len: 6
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865857469
+    Next sequence number: 3865857475
+    Acknowledgement number: 3520416543
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33144
+    Checksum: 0xe468 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195614, tsecr 2184796
+Simple Mail Transfer Protocol
+    Command: QUIT
+
+Frame 21 (123 on wire, 123 captured)
+    Arrival Time: May  3, 2004 11:36:55.860110000
+    Time delta from previous packet: 0.000511000 seconds
+    Time relative to first packet: 0.195057000 seconds
+    Frame Number: 21
+    Packet Length: 123 bytes
+    Capture Length: 123 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 109
+    Identification: 0x5ee4
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x2693 (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416543, Ack: 3865857475, Len: 57
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416543
+    Next sequence number: 3520416600
+    Acknowledgement number: 3865857475
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0x4b5d (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184796, tsecr 33195614
+Simple Mail Transfer Protocol
+    Response: 221
+    Parameter: 2.0.0 zdve-mailx.htw-saarland.de closing connection
+
+Frame 22 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.860318000
+    Time delta from previous packet: 0.000208000 seconds
+    Time relative to first packet: 0.195265000 seconds
+    Frame Number: 22
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x5ee5
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26cb (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416600, Ack: 3865857475, Len: 0
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416600
+    Acknowledgement number: 3865857475
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 24616
+    Checksum: 0xad3a (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184796, tsecr 33195614
+
+Frame 23 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.860549000
+    Time delta from previous packet: 0.000231000 seconds
+    Time relative to first packet: 0.195496000 seconds
+    Frame Number: 23
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x972c
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed83 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865857475, Ack: 3520416601, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865857475
+    Acknowledgement number: 3520416601
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33144
+    Checksum: 0x8be9 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195615, tsecr 2184796
+
+Frame 24 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.860563000
+    Time delta from previous packet: 0.000014000 seconds
+    Time relative to first packet: 0.195510000 seconds
+    Frame Number: 24
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x972d
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xed82 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Transmission Control Protocol, Src Port: 33528 (33528), Dst Port: smtp (25), Seq: 3865857475, Ack: 3520416601, Len: 0
+    Source port: 33528 (33528)
+    Destination port: smtp (25)
+    Sequence number: 3865857475
+    Acknowledgement number: 3520416601
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33144
+    Checksum: 0x8be8 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 33195615, tsecr 2184796
+
+Frame 25 (66 on wire, 66 captured)
+    Arrival Time: May  3, 2004 11:36:55.860901000
+    Time delta from previous packet: 0.000338000 seconds
+    Time relative to first packet: 0.195848000 seconds
+    Frame Number: 25
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-mailx.htw-saarland.de (134.96.208.108), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x5ee6
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (0x06)
+    Header checksum: 0x26ca (correct)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: smtp (25), Dst Port: 33528 (33528), Seq: 3520416601, Ack: 3865857476, Len: 0
+    Source port: smtp (25)
+    Destination port: 33528 (33528)
+    Sequence number: 3520416601
+    Acknowledgement number: 3865857476
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 24616
+    Checksum: 0xad37 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 2184797, tsecr 33195615

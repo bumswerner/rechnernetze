@@ -1,0 +1,1 @@
+/usr/xpg4/bin/grep -e "Destination" -e "Source" -e "HTTP" http-abfrage | grep -v "ETHER"

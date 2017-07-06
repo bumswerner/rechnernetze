@@ -1,0 +1,83 @@
+Frame 1 (78 on wire, 78 captured)
+Ethernet II
+Internet Protocol, 
+         Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230),
+         Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol,
+         Src Port: 33467 (33467),
+         Dst Port: sink (9),
+         Seq: 2890914898,
+         Ack: 0,
+         Len: 0
+
+Frame 2 (78 on wire, 78 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-c-03.htw-saarland.de (134.96.216.103),
+         Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol,
+         Src Port: sink (9),
+         Dst Port: 33467 (33467),
+         Seq: 3964432682,
+         Ack: 2890914899,
+         Len: 0
+
+Frame 3 (66 on wire, 66 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230),
+         Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol,
+         Src Port: 33467 (33467),
+         Dst Port: sink (9),
+         Seq: 2890914899,
+         Ack: 3964432683,
+         Len: 0
+
+Frame 4 (66 on wire, 66 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230),
+         Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol,
+         Src Port: 33467 (33467),
+         Dst Port: sink (9),
+         Seq: 2890914899,
+         Ack: 3964432683,
+         Len: 0
+
+Frame 5 (66 on wire, 66 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-c-03.htw-saarland.de (134.96.216.103),
+         Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol,
+         Src Port: sink (9),
+         Dst Port: 33467 (33467),
+         Seq: 3964432683,
+         Ack: 2890914900,
+         Len: 0
+
+Frame 6 (66 on wire, 66 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-c-03.htw-saarland.de (134.96.216.103),
+         Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol,
+         Src Port: sink (9),
+         Dst Port: 33467 (33467),
+         Seq: 3964432683,
+         Ack: 2890914900,
+         Len: 0
+
+Frame 7 (66 on wire, 66 captured)
+Ethernet II
+Internet Protocol,
+         Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230),
+         Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol,
+         Src Port: 33467 (33467),
+         Dst Port: sink (9),
+         Seq: 2890914900,
+         Ack: 3964432684,
+         Len: 0

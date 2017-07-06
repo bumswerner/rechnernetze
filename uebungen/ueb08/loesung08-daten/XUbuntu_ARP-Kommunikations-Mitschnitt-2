@@ -1,0 +1,69 @@
+#
+#
+#
+# XUbuntu_ARP-Kommunikations-Mitschnitt-2
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1 : Pruefen ob Ziel-Host : stl-rn-test.htwsaar.de in ARP-Cache
+
+            pauly@XUbuntu-15:~$ arp -a | fgrep stl-rn
+            ###################-------------------------------------
+
+            KEINE Ausgabe --> also OK !
+
+
+
+
+
+Schritt 2a : starte tcpdump um arp-Kommunikation mitzuschneiden in einem Shell-Fenster
+
+            pauly@XUbuntu-15:~$ tcpdump -i eth0 -e -vv -A arp
+            ###################-------------------------------------
+            ......
+            14:12:59.796739 00:1a:4a:f3:72:44 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-122.stl.htwsaar.de, length 28
+            ......
+            14:13:00.796354 00:1a:4a:f3:72:44 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-122.stl.htwsaar.de, length 28
+            ......
+            14:13:01.796349 00:1a:4a:f3:72:44 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-122.stl.htwsaar.de, length 28
+            ......
+                
+            37 packets captured
+            37 packets received by filter
+            0 packets dropped by kernel
+
+            
+
+
+
+Schritt 2b : starte ping zu stl-rn-test.htwsaar.de um ARP-Kommunikation anzustossen
+
+
+            pauly@XUbuntu-15:~$ ping -c 1 stl-rn-test.htwsaar.de
+            ###################-------------------------------------
+            PING stl-rn-test.htwsaar.de (134.96.216.66) 56(84) bytes of data.
+            From stl-v-122.stl.htwsaar.de (134.96.216.122) icmp_seq=1 Destination Host Unreachable
+
+            --- stl-rn-test.htwsaar.de ping statistics ---
+            1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+
+
+Schritt 3 : Ueberpruefung die ARP-Tabelle auf eine Eintrag zu stl-rn-test.htwsaar.de
+
+
+            pauly@XUbuntu-15:~$ arp -a | fgrep stl-rn
+            ###################-------------------------------------
+            stl-rn-test.stl.htwsaar.de (134.96.216.66) auf <unvollständig> auf eth0
+

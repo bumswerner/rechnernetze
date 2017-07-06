@@ -1,0 +1,24 @@
+No.  Time        Source          Destination     Protocol Info
+ 1   0.000000    134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+
+ 2   3.374681    134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+
+ 3   10.134735   134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+ ...
+
+ 8   23.645173   134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+
+ 9   50.655009   134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+ ...
+
+12   104.665250  134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0
+ ...
+
+15   164.675666  134.96.216.235  134.96.216.124  
+                 TCP      41591 > telnet [SYN] Seq=0 Ack=0 Win=49640 Len=0 MSS=1460 WS=0

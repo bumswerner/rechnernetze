@@ -1,0 +1,31 @@
+#
+#
+#
+#
+#  CentOS_RST-Segment
+#
+#
+#
+#
+
+
+pauly@CentOS :> tcpdump -i eth0 -l -e -vv -S -A 'tcp and host stl-v-191.htwsaar.de and port 55555' \
+                      | tee -a CentOS_RST-Segment
+###############---------------------------------------------------------------------------------------------------------
+13:37:18.680935 00:1a:4a:f3:72:3d (oui Unknown) > 00:1a:4a:f3:72:43 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 41866, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-147.stl.htwsaar.de.36707 > stl-v-191.stl.htwsaar.de.55555: Flags [S], cksum 0xbe42 (incorrect -> 0xb2dc), seq 2663570949, win 29200, options [mss 1460,sackOK,TS val 37780879 ecr 0,nop,wscale 7], length 0
+E..<..@.@...`...`...c............r..B.........
+.@}.........
+13:37:18.681390 00:1a:4a:f3:72:43 (oui Unknown) > 00:1a:4a:f3:72:3d (oui Unknown), ethertype IPv4 (0x0800), length 60: (tos 0x10, ttl 64, id 63169, offset 0, flags [DF], proto TCP (6), length 40)
+    stl-v-191.stl.htwsaar.de.55555 > stl-v-147.stl.htwsaar.de.36707: Flags [R.], cksum 0x0c8c (correct), seq 0, ack 2663570950, win 0, length 0
+E..(..@.@....`...`.....c........P.............
+
+
+Parallel dazu :
+######################
+pauly@CentOS :> telnet stl-v-191.htwsaar.de 55555
+###############--------------------------------------------------------------------------
+Trying 134.96.216.191...
+telnet: connect to address 134.96.216.191: Connection refused
+pauly@CentOS ::>
+###############--------------------------------------------------------------------------

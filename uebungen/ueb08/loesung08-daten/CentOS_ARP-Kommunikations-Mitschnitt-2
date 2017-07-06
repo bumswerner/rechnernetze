@@ -1,0 +1,63 @@
+#
+#
+#
+# CentOS_ARP-Kommunikations-Mitschnitt-2
+#   
+#
+#
+
+
+Schritt 1 : Pruefen ob Ziel-Host : stl-rn-test.htwsaar.de in ARP-Cache
+
+            pauly@stl-centos:> arp -a | fgrep stl-rn
+            ###################-------------------------------------
+
+            KEINE Ausgabe --> also OK !
+
+
+Schritt 2a : starte tcpdump um arp-Kommunikation mitzuschneiden in einem Shell-Fenster
+
+            pauly@stl-centos:> tcpdump -i eth0 -e -vv -A arp
+            ###################-------------------------------------
+
+            tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+            ......
+            14:39:39.392196 00:1a:4a:f3:72:54 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-143.stl.htwsaar.de, length 28
+            ..........J.rT.`.........`.B
+            ......
+            14:39:40.392810 00:1a:4a:f3:72:54 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-143.stl.htwsaar.de, length 28
+            ..........J.rT.`.........`.B
+            ......
+            14:39:41.394813 00:1a:4a:f3:72:54 (oui Unknown) > Broadcast, 
+            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+            Request who-has stl-rn-test.stl.htwsaar.de tell stl-v-143.stl.htwsaar.de, length 28
+            ..........J.rT.`.........`.B
+            ......
+            26 packets captured
+            26 packets received by filter
+            0 packets dropped by kernel
+
+
+
+Schritt 2b : starte ping zu stl-rn-test.htwsaar.de um ARP-Kommunikation anzustossen
+
+            pauly@stl-centos:> ping -c 1 stl-rn-test.htwsaar.de
+            ###################-------------------------------------
+            PING stl-rn-test.htwsaar.de (134.96.216.66) 56(84) bytes of data.
+            From stl-v-143.stl.htwsaar.de (134.96.216.143) icmp_seq=1 Destination Host Unreachable
+            
+            --- stl-rn-test.htwsaar.de ping statistics ---
+            1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+
+
+Schritt 3 : Ueberpruefung die ARP-Tabelle auf eine Eintrag zu stl-rn-test.htwsaar.de
+
+            pauly@stl-centos:> arp -a | fgrep stl-rn
+            ###################-------------------------------------
+            stl-rn-test.stl.htwsaar.de (134.96.216.66) auf <unvollständig> auf eth0
+

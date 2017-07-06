@@ -1,0 +1,11 @@
+function findField(feld, form) {
+	if (document.forms && document.forms.length > form) with(document.forms[form]) {
+		if (elements.length > feld) {
+			if (elements[feld].value == "" && typeof elements[feld].type != "undefined" && elements[feld].type.toLowerCase()!="hidden") {
+				elements[feld].focus();
+			} else {
+				findField(feld + 1, form);
+			}
+		} else findField(0, form + 1);
+	}
+}

@@ -1,0 +1,104 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    08. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 27 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb08/ueb08.txt
+
+    
+    In dieser Uebung sollen Sie mit Hilfe des Programmes --> wireshark <-- und
+    mit Hilfe des UNIX/LINUX-Kommandos --> tcpdump <-- den Netzwerkverkehr einer VM
+    unter Redhat/CentOS oder XUbuntu belauschen/sniffen/snoopen. 
+
+    Im Gegensatz zu wireshark, das eine komfortable GUI - Benutzerschnittstelle besitzt, ist 
+    tcpdump ein auf allen Unix/Linux-Systemen verfuegbares komplexes Netzwerk-Analyseprogramm 
+    mit CLI-Schnittstelle und damit universeller einsetzbar. 
+
+    Deshalb lesen Sie die Manualpage von tcpdump und nutzen Sie die wireshark/tcpdump-Spickzettel
+    unter ~pauly/RECHNERNETZE-PI-DFHI-Vorlesung/Netz-Spickzettel
+
+    Lesen ausserdem den Wikipedia-Artikel zu tcpdump  und besuchen Sie die offizielle tcpdump-Website 
+              : http://www.tcpdump.org
+
+    Durch die verschiedenen Fragestellungen werden Sie ein Gefuehl fuer die Handhabung 
+    der Programme, deren Einsatzmoeglichkeiten zum Erkennen von Netzwerkproblemen kennenlernen
+    und Ihr Wissen ueber die in der Vorlesung besprochenen Protokolle vertiefen.
+    
+    
+    
+    Anmerkung : wenn im Folgenden von --> snooping oder snoopen <-- gesprochen wird, 
+                so ist die Benutzung der Programme --> wireshark und tcpdump <-- gemeint.
+                                                                 ^^^ 
+    
+    !!!!!  WICHTIG ---> geben Sie bei allen Aufgaben die von Ihnen genutzte tcpdump-Kommandozeile und 
+                        den von Ihnen genutzten Capture-Filter fuer wireshark an. 
+
+    
+    1. Aufgabe - ARP-snooping (nutzen sie Redhat/CentOS oder XUbuntu)
+    -----------------------------------------------------------------
+       - snoopen Sie eine erfolgreiche IP-Adressaufloesung; beschreiben Sie den Vorgang
+         anhand der Protokolle und den Veraenderungen im ARP-Cache.
+    
+       - snoopen Sie die NICHT erfolgreiche IP-Addressaufloesung zum 
+         Rechner stl-rn-test.htwsaar.de : 134.96.216.238 
+    
+              * Wieso wird eine IP-Adressaufloesung ueberhaupt angestossen?,
+    
+              * Wie oft und in welchen Zeitabstaenden probiert die ARP-Software
+                ihre Aufgabe zu erfuellen ?
+    
+              * Auf welche Fehler oder Zustaende fuehren Sie das erhaltene Versuchsergebnis
+                zurueck ?
+    
+    
+
+
+    2. Aufgabe - ICMP-snooping 
+    -----------------------------------------------------
+       - snoopen Sie ein erfolgreiches --> ping hostname <--- Kommando
+    
+              * Wie oft sendet ping standardmaessig ein ICMP-Echo-Request und 
+                in welchen Zeitabstaenden ? ( unter Redhat/CentOS, XUbuntu, Win10 )
+    
+    
+       - snoopen Sie folgende ping-Kommandos so, dass sie die Roundtrip-Zeiten (RTT) des 
+         ping-Kommandos mit den Zeitabstaenden der gesendeten und empfangenen 
+         ICMP-Nachrichten, die Sie via tcpdump/wireshark erhalten haben, vergleichen koennen.
+                 --> ping -c 10 -s 40 stl-s-stud.htwsaar.de
+                 --> ping -c 10 -s 40 www.zeit.de
+    
+       - verfahren Sie ebenso mit folgenden ping-Kommandos
+                 --> ping -c 10 -s 40000 stl-s-stud.htwsaar.de
+                 --> ping -c 10 -s 40000 www.zeit.de
+    
+    
+         Erklaeren Sie die verschiedenen Laufzeiten fuer die ICMP-Nachrichten. 
+         Denken Sie an die Anzahl und Groesse der IP-Pakete etc.
+    
+    
+    
+    
+    3. Aufgabe - Traceroute-snooping 
+    -----------------------------------------------------
+       - snoopen Sie das --> traceroute www-stl.htwsaar.de <--- Kommando
+         Denken Sie daran, dass Traceroute mit den Protokollen UDP und ICMP arbeitet.
+         Erlaeutern Sie anhand der Protokolle die Funktionsweise des 
+         traceroute-Programmes. 
+    
+       - verfahren Sie ebenso mit --> traceroute www.uni-kaiserslautern.de <--
+    
+              * Worin unterscheiden sich die beiden Protokolle und koennen 
+                Sie das erklaeren ? 
+    

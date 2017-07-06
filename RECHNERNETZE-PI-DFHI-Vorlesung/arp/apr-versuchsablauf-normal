@@ -1,0 +1,25 @@
+#
+#
+#
+#  apr-versuchsablauf-normal
+#  (Solaris)
+#
+#
+
+
+1. Starte unter root :
+                snoop -v arp
+
+
+2. fuehre folgendes unter irgend einem Benutzer aus
+
+    a) arp -a --> suche Rechner der noch nicht in der ARP-Tabelle enthalten ist
+
+    b) telnet RECHNER discard
+
+    c) STRG + AltGr + ]  --> es erscheint der Telnet-Prompt
+
+    d) quit  --> beendet die Telnet-Sitzung
+
+
+3.) siehe Snoop-Ausgabe an :

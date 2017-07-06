@@ -1,0 +1,4124 @@
+$ORIGIN .
+$TTL 43200	; 12 hours
+htw-saarland.de		IN SOA	ns.rz.uni-saarland.de. Margit\.Meyer.htw-saarland.de. (
+				2014011800 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				300        ; minimum (5 minutes)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+			NS	ws-ber1.win-ip.dfn.de.
+			A	134.96.208.112
+			MX	20 m-relay.htw-saarland.de.
+			MX	80 m-relay.rz.uni-saarland.de.
+			MX	80 m-relay2.rz.uni-saarland.de.
+			MX	90 m-relay3.rz.uni-saarland.de.
+			LOC	49 15 27.000 N 7 2 42.000 E 80.00m 2000m 2000m 10m
+$ORIGIN htw-saarland.de.
+ab			CNAME	itz-mail
+ab-edinger		A	134.96.219.108
+			MX	100 itz-mail
+ab-fourman		A	134.96.219.106
+			MX	100 itz-mail
+ab-huebner		A	134.96.219.116
+			MX	100 itz-mail
+ab-klein		A	134.96.219.183
+			MX	100 itz-mail
+ab-korne		A	134.96.219.118
+			MX	100 itz-mail
+ab-kurz			A	134.96.219.107
+			MX	100 itz-mail
+abawi			A	134.96.219.214
+			MX	100 itz-mail
+abawi-im		A	134.96.219.215
+			MX	90 abawi-im
+$ORIGIN abawi-im.htw-saarland.de.
+autodiscover		CNAME	abawi-im.htw-saarland.de.
+$ORIGIN htw-saarland.de.
+abawi-nas		A	134.96.219.212
+			MX	100 itz-mail
+abawi-pc		A	134.96.219.216
+			MX	100 itz-mail
+abawi-pc1		A	134.96.219.207
+			MX	100 itz-mail
+abawi-pc2		A	134.96.219.208
+			MX	100 itz-mail
+abawi-pc3		A	134.96.219.209
+			MX	100 itz-mail
+abawi-pc4		A	134.96.219.210
+			MX	100 itz-mail
+abawi-pc5		A	134.96.219.211
+			MX	100 itz-mail
+abawi-printer1		A	134.96.219.205
+			MX	100 itz-mail
+abawi-printer2		A	134.96.219.206
+			MX	100 itz-mail
+abawi-router		A	134.96.219.213
+			MX	100 itz-mail
+abel			A	134.96.214.146
+			MX	100 itz-mail
+ad-test			A	134.96.208.44
+			MX	100 itz-mail
+ag-logistik		CNAME	wiwi-rom
+alumni			A	134.96.210.135
+			MX	100 itz-mail
+alumni-server		A	134.96.209.162
+			MX	100 itz-mail
+alumniadmin		CNAME	www-zv
+ams-mobi		A	134.96.214.111
+			MX	100 itz-mail
+amwork			A	134.96.214.203
+			MX	100 itz-mail
+apt-lokal-03		A	134.96.215.159
+			MX	100 itz-mail
+apt-lokal-05		A	134.96.215.160
+			MX	100 itz-mail
+apt-lokal-06		A	134.96.215.161
+			MX	100 itz-mail
+apt-mobil-08		A	134.96.215.156
+			MX	100 itz-mail
+apt-mobil-09		A	134.96.215.157
+			MX	100 itz-mail
+apt-mobil-10		A	134.96.215.158
+			MX	100 itz-mail
+architektur		CNAME	itz-mail
+artis			A	134.96.208.174
+			MX	100 itz-mail
+asta-001		A	134.96.209.204
+			MX	100 itz-mail
+asta-002		A	134.96.209.199
+			MX	100 itz-mail
+asta-003		A	134.96.209.205
+			MX	100 itz-mail
+asta-004		A	134.96.209.202
+			MX	100 itz-mail
+asta-005		A	134.96.209.203
+			MX	100 itz-mail
+asta-dr-001		A	134.96.209.201
+asta-dr-002		A	134.96.209.207
+asta-pc1		A	134.96.209.195
+			MX	100 itz-mail
+asta-pc3		A	134.96.209.200
+			MX	100 itz-mail
+asta-srv		A	134.96.209.208
+			MX	100 itz-mail
+astamitglieder		A	134.96.209.206
+			MX	100 itz-mail
+asterisk		A	134.96.215.130
+			MX	100 itz-mail
+aub-baustoffe-engel	A	134.96.211.173
+			MX	100 itz-mail
+aub-baustoffe-hp8600	A	134.96.211.172
+			MX	100 itz-mail
+aub-baustoffe-pruefen	A	134.96.211.171
+			MX	100 itz-mail
+aub-bergrath		A	134.96.211.70
+			MX	100 itz-mail
+aub-bi-wasserlabor3	A	134.96.211.168
+			MX	100 itz-mail
+aub-bi-wasserlabor4	A	134.96.211.169
+			MX	100 itz-mail
+aub-bowoos3		A	134.96.211.78
+			MX	100 itz-mail
+aub-ds1512		A	134.96.211.94
+			MX	100 itz-mail
+aub-dv-laptop		A	134.96.211.81
+			MX	100 itz-mail
+aub-eberding		A	134.96.211.89
+			MX	100 itz-mail
+aub-hartnack		A	134.96.211.88
+			MX	100 itz-mail
+aub-heckoetter		A	134.96.211.85
+			MX	100 itz-mail
+aub-hiwi-pohl		A	134.96.211.79
+			MX	100 itz-mail
+aub-imac-schmidtpeter	A	134.96.211.77
+			MX	100 itz-mail
+aub-koeehler		A	134.96.211.69
+			MX	100 itz-mail
+aub-konstlab		A	134.96.211.76
+			MX	100 itz-mail
+aub-kuntz		A	134.96.211.166
+			MX	100 itz-mail
+aub-lukas-imac		A	134.96.211.74
+			MX	100 itz-mail
+aub-lukas-macbook	A	134.96.211.71
+			MX	100 itz-mail
+aub-lukas-macbookpro	A	134.96.211.73
+			MX	100 itz-mail
+aub-mendgen		A	134.96.211.86
+			MX	100 itz-mail
+aub-mueller		A	134.96.211.72
+			MX	100 itz-mail
+aub-pantle		A	134.96.211.87
+			MX	100 itz-mail
+aub-pohl-oki		A	134.96.211.90
+			MX	100 itz-mail
+aub-pohl2		A	134.96.211.92
+			MX	100 itz-mail
+aub-pruefamt		A	134.96.211.67
+			MX	100 itz-mail
+aub-pruefungsamt	A	134.96.211.66
+			MX	100 itz-mail
+aub-sbach		A	134.96.211.75
+			MX	100 itz-mail
+aub-towae-nbhp		A	134.96.211.80
+			MX	100 itz-mail
+aub-towae-notebook	A	134.96.211.68
+			MX	100 itz-mail
+aurora			CNAME	kil-s-web
+auslegestelle-tmp	A	134.96.208.138
+			MX	100 itz-mail
+autofluid		A	134.96.215.2
+			MX	100 itz-mail
+autoren			A	134.96.209.107
+			MX	100 itz-mail
+aviation-business	CNAME	itz-mail
+b2e3			A	134.96.211.93
+backup			A	134.96.209.40
+			MX	100 itz-mail
+batman			A	134.96.216.48
+			MX	100 itz-mail
+bauingenieurwesen	CNAME	itz-mail
+bayes			A	134.96.214.185
+			MX	100 itz-mail
+bernarding		A	134.96.208.232
+			MX	100 itz-mail
+bernd-hp		A	134.96.215.84
+			MX	100 itz-mail
+betriebswirtschaft	CNAME	itz-mail
+bewerber		A	134.96.210.134
+			MX	100 itz-mail
+bfw-ta01		A	134.96.210.3
+			MX	100 itz-mail
+bfw-ta02		A	134.96.210.4
+			MX	100 itz-mail
+bi			CNAME	itz-mail
+bi-abwasserlabor-1	A	134.96.211.134
+			MX	100 itz-mail
+bi-abwasserlabor-2	A	134.96.211.140
+			MX	100 itz-mail
+bi-aris			A	134.96.210.101
+			MX	100 itz-mail
+bi-autosoft		A	134.96.211.150
+			MX	100 itz-mail
+bi-backes		A	134.96.211.155
+			MX	100 itz-mail
+bi-bau			A	134.96.211.148
+			MX	100 itz-mail
+bi-baukom		A	134.96.208.109
+			MX	100 itz-mail
+bi-baukom-01		A	134.96.211.131
+			MX	100 itz-mail
+bi-baukom-02		A	134.96.211.133
+			MX	100 itz-mail
+bi-baukom-03		A	134.96.211.163
+			MX	100 itz-mail
+bi-baukom-04		A	134.96.211.160
+			MX	100 itz-mail
+bi-baukom-05		A	134.96.211.138
+			MX	100 itz-mail
+bi-baur			A	134.96.211.154
+			MX	100 itz-mail
+bi-boettcher		A	134.96.211.157
+			MX	100 itz-mail
+bi-cad12		A	134.96.211.162
+			MX	100 itz-mail
+bi-deutsch		A	134.96.211.144
+			MX	100 itz-mail
+bi-duesing		A	134.96.211.158
+			MX	100 itz-mail
+bi-fbv			A	134.96.211.146
+			MX	100 itz-mail
+bi-gsg			A	134.96.211.159
+			MX	100 itz-mail
+bi-mobil		A	134.96.211.156
+			MX	100 itz-mail
+bi-p-edi3par		A	134.96.210.120
+			MX	100 itz-mail
+bi-plt4000		A	134.96.211.135
+			MX	100 itz-mail
+bi-plt750c		A	134.96.211.143
+bi-prt5550		A	134.96.211.136
+			MX	100 itz-mail
+bi-scan			A	134.96.210.119
+			MX	100 itz-mail
+bi-schmidt		A	134.96.211.149
+			MX	100 itz-mail
+bi-schneiderf		A	134.96.211.151
+			MX	100 itz-mail
+bi-schneiderj		A	134.96.211.152
+			MX	100 itz-mail
+bi-sek			A	134.96.211.161
+			MX	100 itz-mail
+bi-server		A	134.96.211.130
+			MX	100 itz-mail
+bi-upm			A	134.96.211.132
+			MX	100 itz-mail
+bi-vermess		A	134.96.211.141
+			MX	100 itz-mail
+bi-webel		A	134.96.211.153
+			MX	100 itz-mail
+bi-wullschlaeger	A	134.96.211.145
+			MX	100 itz-mail
+bibliothek		CNAME	www-zv
+biehler2		A	134.96.211.139
+			MX	100 itz-mail
+biomedizinische-technik	CNAME	itz-mail
+bioniklabor-01		A	134.96.215.92
+			MX	100 itz-mail
+bioniklabor-02		A	134.96.215.93
+			MX	100 itz-mail
+bioniklabor-03		A	134.96.215.94
+			MX	100 itz-mail
+biovt5014		A	134.96.215.81
+			MX	100 itz-mail
+bkurs			A	134.96.210.136
+			MX	100 itz-mail
+bmt			CNAME	itz-mail
+bmtbuero		A	134.96.214.19
+			MX	100 itz-mail
+bmtbuero2		A	134.96.214.59
+			MX	100 itz-mail
+bmtprint		A	134.96.214.20
+			MX	100 itz-mail
+bowooss			A	134.96.211.91
+			MX	100 itz-mail
+bpm			A	134.96.208.117
+			MX	100 itz-mail
+buero9012		A	134.96.211.137
+			MX	100 itz-mail
+bus			A	134.96.215.99
+			MX	100 itz-mail
+busse			A	134.96.215.69
+			MX	100 itz-mail
+bussemobil		A	134.96.215.71
+			MX	100 itz-mail
+bw			CNAME	itz-mail
+bw-appel		A	134.96.219.175
+			MX	100 itz-mail
+bw-beinhauer		A	134.96.219.130
+			MX	100 itz-mail
+bw-beyersd		A	134.96.219.133
+			MX	100 itz-mail
+bw-bousonville		A	134.96.219.151
+			MX	100 itz-mail
+bw-buck			A	134.96.219.132
+			MX	100 itz-mail
+bw-conrad		A	134.96.219.185
+			MX	100 itz-mail
+bw-conradc		A	134.96.219.226
+			MX	100 itz-mail
+bw-defren		A	134.96.219.50
+			MX	100 itz-mail
+bw-dehmelt		A	134.96.219.138
+			MX	100 itz-mail
+bw-dekanat		A	134.96.219.189
+			MX	100 itz-mail
+bw-demmer		A	134.96.219.134
+			MX	100 itz-mail
+bw-firlus-nb		A	134.96.219.164
+			MX	100 itz-mail
+bw-garnjost		A	134.96.219.119
+			MX	100 itz-mail
+bw-groehl		A	134.96.219.137
+			MX	100 itz-mail
+bw-haelsig		A	134.96.219.117
+			MX	100 itz-mail
+bw-haldy		A	134.96.219.231
+			MX	100 itz-mail
+bw-hauser		A	134.96.219.182
+			MX	100 itz-mail
+bw-hellenthal		A	134.96.219.239
+			MX	100 itz-mail
+bw-heuwinkel		A	134.96.219.165
+			MX	100 itz-mail
+bw-hl-5350dn		A	134.96.219.187
+			MX	100 itz-mail
+bw-hp4250		A	134.96.219.170
+			MX	100 itz-mail
+bw-htz01		A	134.96.219.232
+			MX	100 itz-mail
+bw-huetter		A	134.96.219.192
+			MX	100 itz-mail
+bw-huth			A	134.96.219.147
+			MX	100 itz-mail
+bw-jensen		A	134.96.219.155
+			MX	100 itz-mail
+bw-kellner		A	134.96.219.177
+			MX	100 itz-mail
+bw-klingelhoefe		A	134.96.219.51
+			MX	100 itz-mail
+bw-kloninger		A	134.96.219.163
+			MX	100 itz-mail
+bw-koch			A	134.96.219.159
+			MX	100 itz-mail
+bw-koenig		A	134.96.219.143
+			MX	100 itz-mail
+bw-koenig-nb		A	134.96.219.224
+			MX	100 itz-mail
+bw-krivograd		A	134.96.219.253
+			MX	100 itz-mail
+bw-langenbahn		A	134.96.219.113
+			MX	100 itz-mail
+bw-lenjoint		A	134.96.219.149
+			MX	100 itz-mail
+bw-lexm-x464		A	134.96.219.247
+bw-liebig		A	134.96.219.201
+			MX	100 itz-mail
+bw-lieblang		A	134.96.219.161
+			MX	100 itz-mail
+bw-linux		A	134.96.208.131
+			MX	100 itz-mail
+bw-mach			A	134.96.219.179
+			MX	100 itz-mail
+bw-malburg		A	134.96.218.72
+			MX	100 itz-mail
+bw-mallick		A	134.96.219.135
+			MX	100 itz-mail
+bw-martin		A	134.96.219.230
+			MX	100 itz-mail
+bw-melo-nb		A	134.96.219.157
+			MX	100 itz-mail
+bw-muenzel		A	134.96.219.140
+			MX	100 itz-mail
+bw-naumann		A	134.96.219.55
+			MX	100 itz-mail
+bw-neumann		A	134.96.219.156
+			MX	100 itz-mail
+bw-ohligschlaeger	A	134.96.219.188
+			MX	100 itz-mail
+bw-philippi		A	134.96.219.145
+			MX	100 itz-mail
+bw-philippi-nb		A	134.96.219.180
+			MX	100 itz-mail
+bw-pilhofer		A	134.96.219.234
+			MX	100 itz-mail
+bw-pochmann		A	134.96.219.146
+			MX	100 itz-mail
+bw-projekt-07		A	134.96.219.221
+			MX	100 itz-mail
+bw-projekt-08		A	134.96.219.222
+			MX	100 itz-mail
+bw-projekt-09		A	134.96.219.225
+			MX	100 itz-mail
+bw-projekt-11		A	134.96.219.235
+			MX	100 itz-mail
+bw-projekt-12		A	134.96.219.242
+			MX	100 itz-mail
+bw-projekt-13		A	134.96.219.243
+			MX	100 itz-mail
+bw-projekt-14		A	134.96.219.244
+			MX	100 itz-mail
+bw-projekt-15		A	134.96.219.245
+			MX	100 itz-mail
+bw-projekt-16		A	134.96.219.246
+			MX	100 itz-mail
+bw-projekt-19		A	134.96.219.249
+			MX	100 itz-mail
+bw-projekt-20		A	134.96.219.250
+			MX	100 itz-mail
+bw-projekt-21		A	134.96.219.251
+			MX	100 itz-mail
+bw-projekt-23		A	134.96.219.252
+			MX	100 itz-mail
+bw-projekt-24		A	134.96.219.126
+			MX	100 itz-mail
+bw-projekt-25		A	134.96.219.125
+			MX	100 itz-mail
+bw-projekt-27		A	134.96.219.162
+			MX	100 itz-mail
+bw-projekt-28		A	134.96.219.124
+			MX	100 itz-mail
+bw-projekt-29		A	134.96.219.123
+			MX	100 itz-mail
+bw-projekt-30		A	134.96.219.122
+			MX	100 itz-mail
+bw-projekt-hp		A	134.96.219.223
+			MX	100 itz-mail
+bw-projekt02		A	134.96.219.191
+			MX	100 itz-mail
+bw-projekt03		A	134.96.219.190
+			MX	100 itz-mail
+bw-projekt04		A	134.96.219.200
+			MX	100 itz-mail
+bw-projekt05		A	134.96.219.219
+			MX	100 itz-mail
+bw-projekt06		A	134.96.219.220
+			MX	100 itz-mail
+bw-rockenbauch		A	134.96.219.136
+			MX	100 itz-mail
+bw-rutsch		A	134.96.218.116
+			MX	100 itz-mail
+bw-schmidt		A	134.96.219.150
+			MX	100 itz-mail
+bw-schmidto		A	134.96.219.181
+			MX	100 itz-mail
+bw-schmitt		A	134.96.219.141
+			MX	100 itz-mail
+bw-schorr		A	134.96.219.148
+			MX	100 itz-mail
+bw-schroeder		A	134.96.219.203
+			MX	100 itz-mail
+bw-schroepf		A	134.96.219.186
+			MX	100 itz-mail
+bw-schwarz		A	134.96.219.160
+			MX	100 itz-mail
+bw-selle		A	134.96.219.166
+			MX	100 itz-mail
+bw-serve		A	134.96.219.114
+			MX	100 itz-mail
+bw-skdruck01		A	134.96.219.184
+			MX	100 itz-mail
+bw-skdruck02		A	134.96.219.193
+			MX	100 itz-mail
+bw-steinhaus		A	134.96.219.112
+			MX	100 itz-mail
+bw-test			A	134.96.219.171
+			MX	100 itz-mail
+bw-test1		A	134.96.219.172
+			MX	100 itz-mail
+bw-tinnefeld		A	134.96.219.131
+			MX	100 itz-mail
+bw-vogt			A	134.96.219.152
+			MX	100 itz-mail
+bw-vollmer		A	134.96.219.142
+			MX	100 itz-mail
+bw-weitz		A	134.96.219.167
+			MX	100 itz-mail
+bw-zell			A	134.96.219.153
+			MX	100 itz-mail
+bw-zielinski		A	134.96.219.57
+			MX	100 itz-mail
+c2i-server		A	134.96.208.123
+			MX	100 itz-mail
+cad			A	134.96.215.109
+			MX	100 itz-mail
+calles2			A	134.96.215.7
+			MX	100 itz-mail
+cantor			A	134.96.214.227
+			MX	100 itz-mail
+cauchy			A	134.96.214.142
+			MX	100 itz-mail
+chemie1			A	134.96.214.141
+			MX	100 itz-mail
+chemie2			A	134.96.214.163
+			MX	100 itz-mail
+cim01			A	134.96.215.140
+			MX	100 itz-mail
+cim02			A	134.96.215.141
+			MX	100 itz-mail
+cim03			A	134.96.215.142
+			MX	100 itz-mail
+cim04			A	134.96.215.143
+			MX	100 itz-mail
+cim05			A	134.96.215.144
+			MX	100 itz-mail
+cim06			A	134.96.215.145
+			MX	100 itz-mail
+cim07			A	134.96.215.146
+			MX	100 itz-mail
+cim08			A	134.96.215.147
+			MX	100 itz-mail
+cim09			A	134.96.215.148
+			MX	100 itz-mail
+cim10			A	134.96.215.149
+			MX	100 itz-mail
+cjd-alumni		A	134.96.209.3
+			MX	100 itz-mail
+ckmobil			A	134.96.215.102
+			MX	100 itz-mail
+clix			CNAME	itz-mail
+corona-strauss		A	134.96.208.229
+			MX	100 itz-mail
+dek-assist		A	134.96.214.44
+			MX	100 itz-mail
+descartes		A	134.96.214.175
+dfhi-1			A	134.96.209.242
+			MX	100 itz-mail
+dfhi-2			A	134.96.209.243
+			MX	100 itz-mail
+dfhi-3			A	134.96.209.244
+			MX	100 itz-mail
+dfhi-4			A	134.96.209.245
+			MX	100 itz-mail
+dfhi-vz			CNAME	wiwi-rom
+dfhi-web		A	134.96.210.138
+			MX	100 itz-mail
+dhcp211-100		A	134.96.211.100
+			MX	100 itz-mail
+dhcp211-101		A	134.96.211.101
+			MX	100 itz-mail
+dhcp211-102		A	134.96.211.102
+			MX	100 itz-mail
+dhcp211-103		A	134.96.211.103
+			MX	100 itz-mail
+dhcp211-104		A	134.96.211.104
+			MX	100 itz-mail
+dhcp211-105		A	134.96.211.105
+			MX	100 itz-mail
+dhcp211-106		A	134.96.211.106
+			MX	100 itz-mail
+dhcp211-107		A	134.96.211.107
+			MX	100 itz-mail
+dhcp211-108		A	134.96.211.108
+			MX	100 itz-mail
+dhcp211-109		A	134.96.211.109
+			MX	100 itz-mail
+dhcp211-110		A	134.96.211.110
+			MX	100 itz-mail
+dhcp211-111		A	134.96.211.111
+			MX	100 itz-mail
+dhcp211-112		A	134.96.211.112
+			MX	100 itz-mail
+dhcp211-113		A	134.96.211.113
+			MX	100 itz-mail
+dhcp211-114		A	134.96.211.114
+			MX	100 itz-mail
+dhcp211-115		A	134.96.211.115
+			MX	100 itz-mail
+dhcp211-116		A	134.96.211.116
+			MX	100 itz-mail
+dhcp211-117		A	134.96.211.117
+			MX	100 itz-mail
+dhcp211-118		A	134.96.211.118
+			MX	100 itz-mail
+dhcp211-119		A	134.96.211.119
+			MX	100 itz-mail
+dhcp211-120		A	134.96.211.120
+			MX	100 itz-mail
+dhcp211-121		A	134.96.211.121
+			MX	100 itz-mail
+dhcp211-122		A	134.96.211.122
+			MX	100 itz-mail
+dhcp211-123		A	134.96.211.123
+			MX	100 itz-mail
+dhcp211-124		A	134.96.211.124
+			MX	100 itz-mail
+dhcp211-125		A	134.96.211.125
+			MX	100 itz-mail
+dhcp211-126		A	134.96.211.126
+			MX	100 itz-mail
+dhcp211-82		A	134.96.211.82
+			MX	100 itz-mail
+dhcp211-83		A	134.96.211.83
+			MX	100 itz-mail
+dhcp211-84		A	134.96.211.84
+			MX	100 itz-mail
+dhcp211-95		A	134.96.211.95
+			MX	100 itz-mail
+dhcp211-96		A	134.96.211.96
+			MX	100 itz-mail
+dhcp211-97		A	134.96.211.97
+			MX	100 itz-mail
+dhcp211-98		A	134.96.211.98
+			MX	100 itz-mail
+dhcp211-99		A	134.96.211.99
+			MX	100 itz-mail
+dongle-server		A	134.96.210.67
+			MX	100 itz-mail
+dru-stei		A	134.96.209.47
+			MX	100 itz-mail
+drucker-7218		A	134.96.215.106
+			MX	100 itz-mail
+drucker-7220		A	134.96.215.108
+			MX	100 itz-mail
+drucker-mg		A	134.96.208.9
+			MX	100 itz-mail
+druqui			A	134.96.209.45
+			MX	100 itz-mail
+dynaserv		A	134.96.208.164
+			MX	100 itz-mail
+e			CNAME	itz-mail
+e-ams195		A	134.96.211.195
+			MX	100 itz-mail
+e-ams196		A	134.96.211.196
+			MX	100 itz-mail
+e-ams197		A	134.96.211.197
+			MX	100 itz-mail
+e-ams198		A	134.96.211.198
+			MX	100 itz-mail
+e-ams199		A	134.96.211.199
+			MX	100 itz-mail
+e-ams200		A	134.96.211.200
+			MX	100 itz-mail
+e-ams201		A	134.96.211.201
+			MX	100 itz-mail
+e-ams202		A	134.96.211.202
+			MX	100 itz-mail
+e-ams203		A	134.96.211.203
+			MX	100 itz-mail
+e-ams204		A	134.96.211.204
+			MX	100 itz-mail
+e-ams205		A	134.96.211.205
+			MX	100 itz-mail
+e-ams206		A	134.96.211.206
+			MX	100 itz-mail
+e-ams207		A	134.96.211.207
+			MX	100 itz-mail
+e-ams208		A	134.96.211.208
+			MX	100 itz-mail
+e-ams209		A	134.96.211.209
+			MX	100 itz-mail
+e-ams210		A	134.96.211.210
+			MX	100 itz-mail
+e-ams211		A	134.96.211.211
+			MX	100 itz-mail
+e-ams212		A	134.96.211.212
+			MX	100 itz-mail
+e-ams213		A	134.96.211.213
+			MX	100 itz-mail
+e-ams214		A	134.96.211.214
+			MX	100 itz-mail
+e-ams215		A	134.96.211.215
+			MX	100 itz-mail
+e-ams216		A	134.96.211.216
+			MX	100 itz-mail
+e-ams217		A	134.96.211.217
+			MX	100 itz-mail
+e-ams218		A	134.96.211.218
+			MX	100 itz-mail
+e-ams219		A	134.96.211.219
+			MX	100 itz-mail
+e-ams220		A	134.96.211.220
+			MX	100 itz-mail
+e-ams221		A	134.96.211.221
+			MX	100 itz-mail
+e-ams222		A	134.96.211.222
+			MX	100 itz-mail
+e-ams223		A	134.96.211.223
+			MX	100 itz-mail
+e-ams224		A	134.96.211.224
+			MX	100 itz-mail
+e-ams225		A	134.96.211.225
+			MX	100 itz-mail
+e-ams226		A	134.96.211.226
+			MX	100 itz-mail
+e-ams227		A	134.96.211.227
+			MX	100 itz-mail
+e-ams228		A	134.96.211.228
+			MX	100 itz-mail
+e-ams229		A	134.96.211.229
+			MX	100 itz-mail
+e-ams230		A	134.96.211.230
+			MX	100 itz-mail
+e-ams231		A	134.96.211.231
+			MX	100 itz-mail
+e-ams234		A	134.96.211.234
+			MX	100 itz-mail
+e-ams241		A	134.96.211.241
+			MX	100 itz-mail
+e-ams242		A	134.96.211.242
+			MX	100 itz-mail
+e-ams247		A	134.96.211.247
+			MX	100 itz-mail
+e-ams33			A	134.96.211.233
+			MX	100 itz-mail
+e-amsgast		A	134.96.211.240
+			MX	100 itz-mail
+e-ant-01		A	134.96.214.39
+			MX	100 itz-mail
+e-ant-02		A	134.96.214.46
+			MX	100 itz-mail
+e-ant-03		A	134.96.214.67
+			MX	100 itz-mail
+e-ant-04		A	134.96.214.68
+			MX	100 itz-mail
+e-ant-05		A	134.96.214.69
+			MX	100 itz-mail
+e-ant-06		A	134.96.214.70
+			MX	100 itz-mail
+e-ant-07		A	134.96.214.71
+			MX	100 itz-mail
+e-ant-08		A	134.96.214.72
+			MX	100 itz-mail
+e-ant-09		A	134.96.214.73
+			MX	100 itz-mail
+e-ant-10		A	134.96.214.74
+			MX	100 itz-mail
+e-ant-11		A	134.96.214.75
+			MX	100 itz-mail
+e-ant-12		A	134.96.217.138
+			MX	100 itz-mail
+e-ant-13		A	134.96.217.149
+			MX	100 itz-mail
+e-ant-14		A	134.96.217.150
+			MX	100 itz-mail
+e-ant-15		A	134.96.217.154
+			MX	100 itz-mail
+e-ant-16		A	134.96.217.155
+			MX	100 itz-mail
+e-ant-17		A	134.96.217.156
+			MX	100 itz-mail
+e-ant-18		A	134.96.217.157
+			MX	100 itz-mail
+e-ant-19		A	134.96.214.25
+			MX	100 itz-mail
+e-ant-20		A	134.96.214.45
+			MX	100 itz-mail
+e-eev-01		A	134.96.214.5
+			MX	100 itz-mail
+e-eev-02		A	134.96.214.37
+			MX	100 itz-mail
+e-eev-05		A	134.96.214.4
+			MX	100 itz-mail
+e-eev-06		A	134.96.214.2
+			MX	100 itz-mail
+e-eev-07		A	134.96.214.3
+			MX	100 itz-mail
+e-eev-08		A	134.96.214.123
+			MX	100 itz-mail
+e-eev-09		A	134.96.214.124
+			MX	100 itz-mail
+e-eev-10		A	134.96.214.125
+			MX	100 itz-mail
+e-eev-11		A	134.96.217.143
+			MX	100 itz-mail
+e-eev-12		A	134.96.217.146
+			MX	100 itz-mail
+e-eev-13		A	134.96.217.147
+			MX	100 itz-mail
+e-eev-14		A	134.96.217.148
+			MX	100 itz-mail
+e-eev-15		A	134.96.217.139
+			MX	100 itz-mail
+e-eev-16		A	134.96.217.140
+			MX	100 itz-mail
+e-eev-17		A	134.96.214.21
+			MX	100 itz-mail
+e-eev-18		A	134.96.214.22
+			MX	100 itz-mail
+e-eev-19		A	134.96.214.23
+			MX	100 itz-mail
+e-eev-20		A	134.96.214.24
+			MX	100 itz-mail
+e-eev-21		A	134.96.214.42
+			MX	100 itz-mail
+e-eev-22		A	134.96.214.43
+			MX	100 itz-mail
+e-eev-23		A	134.96.214.105
+			MX	100 itz-mail
+e-eev-24		A	134.96.214.106
+			MX	100 itz-mail
+e-eev-25		A	134.96.214.113
+			MX	100 itz-mail
+e-eev-26		A	134.96.214.114
+			MX	100 itz-mail
+e-eev-27		A	134.96.214.115
+			MX	100 itz-mail
+e-eev-30		A	134.96.208.210
+			MX	100 itz-mail
+e-emv-1			A	134.96.214.8
+			MX	100 itz-mail
+e-emv-10		A	134.96.214.9
+			MX	100 itz-mail
+e-emv-2			A	134.96.214.10
+			MX	100 itz-mail
+e-emv-3			A	134.96.214.11
+			MX	100 itz-mail
+e-emv-4			A	134.96.214.12
+			MX	100 itz-mail
+e-emv-6			A	134.96.214.13
+			MX	100 itz-mail
+e-emv-7			A	134.96.214.14
+			MX	100 itz-mail
+e-emv-8			A	134.96.214.15
+			MX	100 itz-mail
+e-emv-9			A	134.96.214.16
+			MX	100 itz-mail
+e-gauss			A	134.96.214.107
+			MX	100 itz-mail
+e-gf-1200		A	134.96.214.27
+			MX	100 itz-mail
+e-gf-a			A	134.96.214.28
+			MX	100 itz-mail
+e-gf-b			A	134.96.214.29
+			MX	100 itz-mail
+e-gf-f			A	134.96.214.30
+			MX	100 itz-mail
+e-gf-g			A	134.96.214.31
+			MX	100 itz-mail
+e-gf-ha			A	134.96.214.32
+			MX	100 itz-mail
+e-gf-j			A	134.96.214.33
+			MX	100 itz-mail
+e-gf-mess		A	134.96.214.34
+			MX	100 itz-mail
+e-gf-re1		A	134.96.214.35
+			MX	100 itz-mail
+e-gf-re2		A	134.96.214.36
+			MX	100 itz-mail
+e-hf-a			A	134.96.214.120
+			MX	100 itz-mail
+e-hf-b			A	134.96.214.121
+			MX	100 itz-mail
+e-hf-bu1		A	134.96.214.117
+			MX	100 itz-mail
+e-hf-bu2		A	134.96.214.118
+			MX	100 itz-mail
+e-hf-bu3		A	134.96.214.119
+			MX	100 itz-mail
+e-hf-c			A	134.96.214.48
+			MX	100 itz-mail
+e-hf-d			A	134.96.214.122
+			MX	100 itz-mail
+e-hf-dc			A	134.96.214.53
+			MX	100 itz-mail
+e-hf-dual		A	134.96.214.49
+			MX	100 itz-mail
+e-hf-f			A	134.96.214.50
+			MX	100 itz-mail
+e-hf-hp			A	134.96.214.51
+			MX	100 itz-mail
+e-hf-j			A	134.96.217.132
+			MX	100 itz-mail
+e-hf-k			A	134.96.217.133
+			MX	100 itz-mail
+e-hf-l			A	134.96.217.134
+			MX	100 itz-mail
+e-hf-m			A	134.96.217.135
+			MX	100 itz-mail
+e-hf-p180		A	134.96.214.52
+			MX	100 itz-mail
+e-hv-01			A	134.96.214.54
+			MX	100 itz-mail
+e-hv-02			A	134.96.214.55
+			MX	100 itz-mail
+e-hv-03			A	134.96.214.56
+			MX	100 itz-mail
+e-hv-04			A	134.96.214.57
+			MX	100 itz-mail
+e-hv-05			A	134.96.214.58
+			MX	100 itz-mail
+e-hv-06			A	134.96.214.41
+			MX	100 itz-mail
+e-hv-07			A	134.96.214.40
+			MX	100 itz-mail
+e-kt-01			A	134.96.214.94
+			MX	100 itz-mail
+e-kt-02			A	134.96.214.95
+			MX	100 itz-mail
+e-kt-03			A	134.96.214.96
+			MX	100 itz-mail
+e-kt-04			A	134.96.214.97
+			MX	100 itz-mail
+e-kt-05			A	134.96.214.98
+			MX	100 itz-mail
+e-kt-06			A	134.96.214.116
+			MX	100 itz-mail
+e-kt-07			A	134.96.217.130
+			MX	100 itz-mail
+e-kt-08			A	134.96.217.152
+			MX	100 itz-mail
+e-kt-09			A	134.96.217.153
+			MX	100 itz-mail
+e-kt-10			A	134.96.217.141
+			MX	100 itz-mail
+e-kt-11			A	134.96.217.142
+			MX	100 itz-mail
+e-kt-12			A	134.96.214.17
+			MX	100 itz-mail
+e-kt-13			A	134.96.214.18
+			MX	100 itz-mail
+e-kt-fo-1		A	134.96.208.197
+			MX	100 itz-mail
+e-kt-fo-2		A	134.96.208.198
+			MX	100 itz-mail
+e-kt-fo-3		A	134.96.208.199
+			MX	100 itz-mail
+e-kt-fo-4		A	134.96.208.200
+			MX	100 itz-mail
+e-kt-fo-5		A	134.96.208.201
+			MX	100 itz-mail
+e-kt-fo-6		A	134.96.208.202
+			MX	100 itz-mail
+e-kt-fo-7		A	134.96.208.203
+			MX	100 itz-mail
+e-leibniz		A	134.96.217.131
+			MX	100 itz-mail
+e-lp-01			A	134.96.214.7
+			MX	100 itz-mail
+e-mila-0		A	134.96.214.76
+			MX	100 itz-mail
+e-mila-10		A	134.96.214.77
+			MX	100 itz-mail
+e-mila-11		A	134.96.214.6
+			MX	100 itz-mail
+e-mila-3		A	134.96.214.78
+			MX	100 itz-mail
+e-mila-9		A	134.96.214.79
+			MX	100 itz-mail
+e-mt-01			A	134.96.214.80
+			MX	100 itz-mail
+e-mt-02			A	134.96.214.81
+			MX	100 itz-mail
+e-mt-03			A	134.96.214.82
+			MX	100 itz-mail
+e-mt-04			A	134.96.214.83
+			MX	100 itz-mail
+e-mt-05			A	134.96.214.84
+			MX	100 itz-mail
+e-mt-06			A	134.96.214.85
+			MX	100 itz-mail
+e-mt-07			A	134.96.214.86
+			MX	100 itz-mail
+e-mt-08			A	134.96.214.87
+			MX	100 itz-mail
+e-mt-09			A	134.96.214.88
+			MX	100 itz-mail
+e-mt-10			A	134.96.214.89
+			MX	100 itz-mail
+e-mt-11			A	134.96.214.90
+			MX	100 itz-mail
+e-mt-12			A	134.96.214.91
+			MX	100 itz-mail
+e-mt-13			A	134.96.214.92
+			MX	100 itz-mail
+e-nt-01			A	134.96.214.93
+			MX	100 itz-mail
+e-nt-02			A	134.96.214.99
+			MX	100 itz-mail
+e-nt-03			A	134.96.214.100
+			MX	100 itz-mail
+e-nt-04			A	134.96.214.101
+			MX	100 itz-mail
+e-nt-05			A	134.96.214.102
+			MX	100 itz-mail
+e-nt-06			A	134.96.214.103
+			MX	100 itz-mail
+e-nt-07			A	134.96.214.104
+			MX	100 itz-mail
+e-plt-fp		A	134.96.210.35
+			MX	100 itz-mail
+e-plt-nas		A	134.96.210.36
+			MX	100 itz-mail
+e-plt-nb1		A	134.96.210.37
+			MX	100 itz-mail
+e-plt-nb2		A	134.96.210.38
+			MX	100 itz-mail
+e-plt-nb3		A	134.96.210.39
+			MX	100 itz-mail
+e-plt-pc1		A	134.96.210.41
+			MX	100 itz-mail
+e-plt-pc10		A	134.96.210.50
+			MX	100 itz-mail
+e-plt-pc11		A	134.96.210.51
+			MX	100 itz-mail
+e-plt-pc12		A	134.96.210.52
+			MX	100 itz-mail
+e-plt-pc13		A	134.96.210.53
+			MX	100 itz-mail
+e-plt-pc14		A	134.96.210.54
+			MX	100 itz-mail
+e-plt-pc15		A	134.96.210.55
+			MX	100 itz-mail
+e-plt-pc16		A	134.96.210.56
+			MX	100 itz-mail
+e-plt-pc17		A	134.96.210.57
+			MX	100 itz-mail
+e-plt-pc18		A	134.96.210.58
+			MX	100 itz-mail
+e-plt-pc19		A	134.96.210.59
+			MX	100 itz-mail
+e-plt-pc2		A	134.96.210.42
+			MX	100 itz-mail
+e-plt-pc20		A	134.96.210.60
+			MX	100 itz-mail
+e-plt-pc21		A	134.96.210.61
+			MX	100 itz-mail
+e-plt-pc3		A	134.96.210.43
+			MX	100 itz-mail
+e-plt-pc4		A	134.96.210.44
+			MX	100 itz-mail
+e-plt-pc5		A	134.96.210.45
+			MX	100 itz-mail
+e-plt-pc6		A	134.96.210.46
+			MX	100 itz-mail
+e-plt-pc7		A	134.96.210.47
+			MX	100 itz-mail
+e-plt-pc8		A	134.96.210.48
+			MX	100 itz-mail
+e-plt-pc9		A	134.96.210.49
+			MX	100 itz-mail
+e-plt-prt		A	134.96.210.62
+			MX	100 itz-mail
+e-plt-server		A	134.96.210.34
+			MX	100 itz-mail
+e-sekretariat		A	134.96.214.47
+			MX	100 itz-mail
+e-tk-1			A	134.96.208.225
+			MX	100 itz-mail
+e-tk-10			A	134.96.208.238
+			MX	100 itz-mail
+e-tk-11			A	134.96.208.239
+			MX	100 itz-mail
+e-tk-12			A	134.96.208.240
+			MX	100 itz-mail
+e-tk-2			A	134.96.208.226
+			MX	100 itz-mail
+e-tk-3			A	134.96.208.227
+			MX	100 itz-mail
+e-tk-4			A	134.96.208.228
+			MX	100 itz-mail
+e-tk-5			A	134.96.208.233
+			MX	100 itz-mail
+e-tk-6			A	134.96.208.234
+			MX	100 itz-mail
+e-tk-7			A	134.96.208.235
+			MX	100 itz-mail
+e-tk-8			A	134.96.208.236
+			MX	100 itz-mail
+e-tk-9			A	134.96.208.237
+			MX	100 itz-mail
+e-wern-1		A	134.96.214.60
+			MX	100 itz-mail
+e-wern-2		A	134.96.214.61
+			MX	100 itz-mail
+e-wern-3		A	134.96.214.62
+			MX	100 itz-mail
+e-wern-4		A	134.96.214.63
+			MX	100 itz-mail
+e-wern-5		A	134.96.214.64
+			MX	100 itz-mail
+e-wern-6		A	134.96.214.65
+			MX	100 itz-mail
+e-wern-7		A	134.96.214.66
+			MX	100 itz-mail
+e-wern-lin		A	134.96.214.26
+			MX	100 itz-mail
+ecc			CNAME	ecc-srv2
+ecc-abb			A	134.96.213.82
+			MX	100 itz-mail
+ecc-lap			A	134.96.213.83
+			MX	100 itz-mail
+ecc-nt1			A	134.96.213.84
+			MX	100 itz-mail
+ecc-nt2			A	134.96.213.85
+			MX	100 itz-mail
+ecc-nt3			A	134.96.213.86
+			MX	100 itz-mail
+ecc-s1			A	134.96.213.2
+			MX	100 itz-mail
+ecc-s2			A	134.96.213.3
+			MX	100 itz-mail
+ecc-srv			A	134.96.213.4
+			MX	90 ecc-srv
+ecc-srv2		A	134.96.213.5
+			MX	100 itz-mail
+ecc-w1			A	134.96.213.11
+			MX	100 itz-mail
+ecc-w10			A	134.96.213.20
+			MX	100 itz-mail
+ecc-w11			A	134.96.213.21
+			MX	100 itz-mail
+ecc-w12			A	134.96.213.22
+			MX	100 itz-mail
+ecc-w13			A	134.96.213.23
+			MX	100 itz-mail
+ecc-w14			A	134.96.213.24
+			MX	100 itz-mail
+ecc-w15			A	134.96.213.25
+			MX	100 itz-mail
+ecc-w16			A	134.96.213.26
+			MX	100 itz-mail
+ecc-w17			A	134.96.213.27
+			MX	100 itz-mail
+ecc-w18			A	134.96.213.28
+			MX	100 itz-mail
+ecc-w19			A	134.96.213.29
+			MX	100 itz-mail
+ecc-w2			A	134.96.213.12
+			MX	100 itz-mail
+ecc-w20			A	134.96.213.30
+			MX	100 itz-mail
+ecc-w21			A	134.96.213.31
+			MX	100 itz-mail
+ecc-w22			A	134.96.213.32
+			MX	100 itz-mail
+ecc-w23			A	134.96.213.33
+			MX	100 itz-mail
+ecc-w24			A	134.96.213.34
+			MX	100 itz-mail
+ecc-w25			A	134.96.213.35
+			MX	100 itz-mail
+ecc-w26			A	134.96.213.36
+			MX	100 itz-mail
+ecc-w27			A	134.96.213.37
+			MX	100 itz-mail
+ecc-w28			A	134.96.213.38
+			MX	100 itz-mail
+ecc-w29			A	134.96.213.39
+			MX	100 itz-mail
+ecc-w3			A	134.96.213.13
+			MX	100 itz-mail
+ecc-w30			A	134.96.213.40
+			MX	100 itz-mail
+ecc-w31			A	134.96.213.41
+			MX	100 itz-mail
+ecc-w32			A	134.96.213.42
+			MX	100 itz-mail
+ecc-w33			A	134.96.213.43
+			MX	100 itz-mail
+ecc-w34			A	134.96.213.44
+			MX	100 itz-mail
+ecc-w35			A	134.96.213.45
+			MX	100 itz-mail
+ecc-w36			A	134.96.213.46
+			MX	100 itz-mail
+ecc-w37			A	134.96.213.47
+			MX	100 itz-mail
+ecc-w38			A	134.96.213.48
+			MX	100 itz-mail
+ecc-w39			A	134.96.213.49
+			MX	100 itz-mail
+ecc-w4			A	134.96.213.14
+			MX	100 itz-mail
+ecc-w40			A	134.96.213.50
+			MX	100 itz-mail
+ecc-w41			A	134.96.213.51
+			MX	100 itz-mail
+ecc-w42			A	134.96.213.52
+			MX	100 itz-mail
+ecc-w43			A	134.96.213.53
+			MX	100 itz-mail
+ecc-w44			A	134.96.213.54
+			MX	100 itz-mail
+ecc-w45			A	134.96.213.55
+			MX	100 itz-mail
+ecc-w46			A	134.96.213.56
+			MX	100 itz-mail
+ecc-w47			A	134.96.213.57
+			MX	100 itz-mail
+ecc-w48			A	134.96.213.58
+			MX	100 itz-mail
+ecc-w49			A	134.96.213.59
+			MX	100 itz-mail
+ecc-w5			A	134.96.213.15
+			MX	100 itz-mail
+ecc-w50			A	134.96.213.60
+			MX	100 itz-mail
+ecc-w51			A	134.96.213.61
+			MX	100 itz-mail
+ecc-w52			A	134.96.213.62
+			MX	100 itz-mail
+ecc-w53			A	134.96.213.63
+			MX	100 itz-mail
+ecc-w54			A	134.96.213.64
+			MX	100 itz-mail
+ecc-w55			A	134.96.213.65
+			MX	100 itz-mail
+ecc-w56			A	134.96.213.66
+			MX	100 itz-mail
+ecc-w57			A	134.96.213.67
+			MX	100 itz-mail
+ecc-w58			A	134.96.213.68
+			MX	100 itz-mail
+ecc-w59			A	134.96.213.69
+			MX	100 itz-mail
+ecc-w6			A	134.96.213.16
+			MX	100 itz-mail
+ecc-w60			A	134.96.213.70
+			MX	100 itz-mail
+ecc-w61			A	134.96.213.71
+			MX	100 itz-mail
+ecc-w62			A	134.96.213.72
+			MX	100 itz-mail
+ecc-w63			A	134.96.213.73
+			MX	100 itz-mail
+ecc-w64			A	134.96.213.74
+			MX	100 itz-mail
+ecc-w65			A	134.96.213.75
+			MX	100 itz-mail
+ecc-w66			A	134.96.213.76
+			MX	100 itz-mail
+ecc-w67			A	134.96.213.77
+			MX	100 itz-mail
+ecc-w68			A	134.96.213.78
+			MX	100 itz-mail
+ecc-w69			A	134.96.213.79
+			MX	100 itz-mail
+ecc-w7			A	134.96.213.17
+			MX	100 itz-mail
+ecc-w70			A	134.96.213.80
+			MX	100 itz-mail
+ecc-w71			A	134.96.213.81
+			MX	100 itz-mail
+ecc-w8			A	134.96.213.18
+			MX	100 itz-mail
+ecc-w9			A	134.96.213.19
+			MX	100 itz-mail
+eccdja0			A	134.96.213.95
+			MX	100 itz-mail
+eccdja3			A	134.96.213.94
+			MX	100 itz-mail
+ecclja3			A	134.96.213.93
+			MX	100 itz-mail
+ecclja4			A	134.96.213.90
+			MX	100 itz-mail
+ecclja42		A	134.96.213.91
+			MX	100 itz-mail
+ecclja43		A	134.96.213.92
+			MX	100 itz-mail
+eev-30			A	134.96.217.136
+			MX	100 itz-mail
+eev40			A	134.96.208.213
+			MX	100 itz-mail
+eev41			A	134.96.208.214
+			MX	100 itz-mail
+eev42			A	134.96.208.215
+			MX	100 itz-mail
+eev43			A	134.96.208.216
+			MX	100 itz-mail
+eev44			A	134.96.208.217
+			MX	100 itz-mail
+eev45			A	134.96.208.218
+			MX	100 itz-mail
+eev46			A	134.96.208.219
+			MX	100 itz-mail
+eev47			A	134.96.208.220
+			MX	100 itz-mail
+eev48			A	134.96.208.221
+			MX	100 itz-mail
+eev49			A	134.96.208.222
+			MX	100 itz-mail
+eev50			A	134.96.208.223
+			MX	100 itz-mail
+eig-barney		A	134.96.213.198
+			MX	100 itz-mail
+eig-bender		A	134.96.213.197
+			MX	100 itz-mail
+eig-flexo		A	134.96.213.196
+			MX	100 itz-mail
+eig-fw1			A	134.96.213.194
+			MX	100 itz-mail
+eig-fw2			A	134.96.213.195
+			MX	100 itz-mail
+eig-krusty		A	134.96.213.200
+			MX	100 itz-mail
+eig-milhouse		A	134.96.213.201
+			MX	100 itz-mail
+eig-montgomery		A	134.96.213.199
+			MX	100 itz-mail
+elab-info		A	134.96.208.104
+			MX	100 itz-mail
+elab-student		A	134.96.217.151
+			MX	100 itz-mail
+elearning		A	134.96.210.148
+			MX	100 itz-mail
+elektrotechnik		CNAME	itz-mail
+emf-saar		A	134.96.208.111
+			MX	100 itz-mail
+emf-server-2008-1	A	134.96.208.124
+			MX	100 itz-mail
+emf-server-2008-2	A	134.96.208.125
+			MX	100 itz-mail
+emf-server-2008-virt	A	134.96.208.126
+			MX	100 itz-mail
+emrolab			CNAME	kil-s-web
+emrolab-v1		A	134.96.216.6
+			MX	100 itz-mail
+enalgae			A	134.96.210.142
+			MX	100 itz-mail
+enalgae-nas		A	134.96.215.139
+			MX	100 itz-mail
+energiemanagement	CNAME	itz-mail
+energietechnik		A	134.96.215.67
+			MX	100 itz-mail
+energietechnik-ii	A	134.96.215.117
+			MX	100 itz-mail
+erl-monitor		A	134.96.216.5
+			MX	100 itz-mail
+erl-qnap-0		A	134.96.216.3
+			MX	100 itz-mail
+erl-qnap-1		A	134.96.216.4
+			MX	100 itz-mail
+euklid			A	134.96.214.162
+			MX	100 itz-mail
+euler			A	134.96.214.149
+			MX	100 itz-mail
+evaweb			A	134.96.210.132
+			MX	100 itz-mail
+extranet		CNAME	auslegestelle-tmp
+ezg-pc1			A	134.96.208.162
+			MX	100 itz-mail
+fbv			A	134.96.215.53
+			MX	100 itz-mail
+fbv-gis			A	134.96.214.135
+			MX	100 itz-mail
+fermat			A	134.96.214.225
+			MX	100 itz-mail
+fgkab-1			A	134.96.213.222
+			MX	100 itz-mail
+fgkab-2			A	134.96.213.223
+			MX	100 itz-mail
+fgkab-3			A	134.96.213.224
+			MX	100 itz-mail
+fgkab-4			A	134.96.213.225
+			MX	100 itz-mail
+fgvt-fw1		A	134.96.213.202
+			MX	90 fgvt-fw1
+fgvt-o-01		A	134.96.213.214
+			MX	100 itz-mail
+fgvt-o-02		A	134.96.213.215
+			MX	100 itz-mail
+fibonacci		A	134.96.214.150
+			MX	100 itz-mail
+fitt-001		A	134.96.211.21
+			MX	100 itz-mail
+fitt-002		A	134.96.211.22
+			MX	100 itz-mail
+fitt-003		A	134.96.211.23
+			MX	100 itz-mail
+fitt-004		A	134.96.211.24
+			MX	100 itz-mail
+fitt-005		A	134.96.211.25
+			MX	100 itz-mail
+fitt-006		A	134.96.211.26
+			MX	100 itz-mail
+fitt-007		A	134.96.211.27
+			MX	100 itz-mail
+fitt-01			A	134.96.217.66
+			MX	100 itz-mail
+fitt-02			A	134.96.217.67
+			MX	100 itz-mail
+fitt-03			A	134.96.217.68
+			MX	100 itz-mail
+fitt-04			A	134.96.217.69
+			MX	100 itz-mail
+fitt-05			A	134.96.217.70
+			MX	100 itz-mail
+fitt-06			A	134.96.217.71
+			MX	100 itz-mail
+fitt-07			A	134.96.217.72
+			MX	100 itz-mail
+fitt-08			A	134.96.217.73
+			MX	100 itz-mail
+fitt-09			A	134.96.217.74
+			MX	100 itz-mail
+fitt-10			A	134.96.217.75
+			MX	100 itz-mail
+fitt-dr-003		A	134.96.211.42
+fitt-fs			A	134.96.211.11
+			MX	100 itz-mail
+fitt-ts			A	134.96.211.10
+			MX	100 itz-mail
+flash			A	134.96.216.46
+			MX	100 itz-mail
+flieger			A	134.96.213.203
+			MX	100 itz-mail
+fluid-srv		A	134.96.214.248
+			MX	100 itz-mail
+foko-2			A	134.96.209.2
+			MX	100 itz-mail
+fourier			A	134.96.214.151
+			MX	100 itz-mail
+fr-lap			A	134.96.215.62
+			MX	100 itz-mail
+fricke-andreas		A	134.96.215.8
+			MX	100 itz-mail
+fs-bi-e-m		A	134.96.209.194
+			MX	100 itz-mail
+fsgis-1			A	134.96.209.198
+			MX	100 itz-mail
+gaia			CNAME	wiwi-rom
+galois			A	134.96.214.229
+			MX	100 itz-mail
+gartentherapie		CNAME	itz-mail
+gast-student		A	134.96.214.207
+			MX	100 itz-mail
+gauss			A	134.96.214.224
+			MX	100 itz-mail
+gb			A	134.96.215.96
+			MX	100 itz-mail
+gessatj			A	134.96.214.192
+			MX	100 itz-mail
+gesundheit-pflege	CNAME	itz-mail
+gesundheitsmanagement	CNAME	itz-mail
+gis-5310		A	134.96.214.235
+			MX	100 itz-mail
+gis-sek-notebook	A	134.96.214.137
+			MX	100 itz-mail
+goe-fk-01		A	134.96.209.5
+			MX	100 itz-mail
+goe-fo-01		A	134.96.214.218
+			MX	100 itz-mail
+goe-gis-01		A	134.96.214.134
+			MX	100 itz-mail
+goe-gis-06		A	134.96.214.139
+			MX	100 itz-mail
+goe-gis-13		A	134.96.214.143
+			MX	100 itz-mail
+goe-gis-14		A	134.96.214.144
+			MX	100 itz-mail
+goe-gis-15		A	134.96.214.145
+			MX	100 itz-mail
+goe-gis-30		A	134.96.214.159
+			MX	100 itz-mail
+goe-m-02		A	134.96.215.18
+			MX	100 itz-mail
+goe-m-04		A	134.96.215.20
+			MX	100 itz-mail
+goe-m-05		A	134.96.215.21
+			MX	100 itz-mail
+goe-m-06		A	134.96.215.22
+			MX	100 itz-mail
+goe-m-07		A	134.96.215.23
+			MX	100 itz-mail
+goe-m-08		A	134.96.215.24
+			MX	100 itz-mail
+goe-m-09		A	134.96.215.25
+			MX	100 itz-mail
+goe-m-10		A	134.96.215.26
+			MX	100 itz-mail
+goe-m-11		A	134.96.215.27
+			MX	100 itz-mail
+goe-m-12		A	134.96.215.28
+			MX	100 itz-mail
+goe-m-13		A	134.96.215.29
+			MX	100 itz-mail
+goe-m-15		A	134.96.215.31
+			MX	100 itz-mail
+goe-m-16		A	134.96.215.32
+			MX	100 itz-mail
+goe-m-17		A	134.96.215.33
+			MX	100 itz-mail
+goe-m-18		A	134.96.215.34
+			MX	100 itz-mail
+goe-m-19		A	134.96.215.35
+			MX	100 itz-mail
+goe-m-20		A	134.96.215.36
+			MX	100 itz-mail
+goe-m-21		A	134.96.215.37
+			MX	100 itz-mail
+goe-m-22		A	134.96.215.38
+			MX	100 itz-mail
+goe-m-23		A	134.96.215.75
+			MX	100 itz-mail
+goe-m-24		A	134.96.215.83
+			MX	100 itz-mail
+goe-m-25		A	134.96.215.90
+			MX	100 itz-mail
+goe-m-26		A	134.96.215.61
+			MX	100 itz-mail
+goe-m-ca		A	134.96.215.76
+			MX	100 itz-mail
+goe-r-01		A	134.96.209.12
+			MX	100 itz-mail
+goe-r-02		A	134.96.209.13
+			MX	100 itz-mail
+goe-r-04		A	134.96.209.15
+			MX	100 itz-mail
+goe-r-05		A	134.96.209.16
+			MX	100 itz-mail
+goe-r-06		A	134.96.209.17
+			MX	100 itz-mail
+goe-s			A	134.96.209.43
+			MX	100 itz-mail
+goe052-3200-1		A	134.96.208.4
+goe08a2-3c33-1		A	134.96.208.3
+groh-mobil		A	134.96.215.150
+			MX	100 itz-mail
+gup			CNAME	itz-mail
+hardware		A	134.96.214.209
+			MX	100 itz-mail
+hf-computer		A	134.96.213.205
+			MX	100 itz-mail
+highvolt01		A	134.96.208.194
+			MX	100 itz-mail
+highvolt02		A	134.96.208.195
+			MX	100 itz-mail
+highvolt03		A	134.96.208.196
+			MX	100 itz-mail
+highvolt04		A	134.96.208.205
+			MX	100 itz-mail
+highvolt05		A	134.96.208.206
+			MX	100 itz-mail
+highvolt06		A	134.96.208.207
+			MX	100 itz-mail
+highvolt07		A	134.96.208.208
+			MX	100 itz-mail
+hilbert			A	134.96.214.183
+			MX	100 itz-mail
+hiz-bignet		A	134.96.209.141
+HIZ-dr-epson		A	134.96.209.148
+			MX	100 itz-mail
+HIZ-DR-Raum-8128	A	134.96.209.132
+HIZ-DR-RAUM-8204	A	134.96.209.156
+HIZ-DX-Client		A	134.96.209.144
+			MX	100 itz-mail
+hiz-just		A	134.96.209.151
+			MX	100 itz-mail
+hiz-karl		A	134.96.209.142
+			MX	100 itz-mail
+hiz-kolbusch		A	134.96.209.139
+			MX	100 itz-mail
+hiz-phoner		A	134.96.209.153
+			MX	100 itz-mail
+hiz-pool		CNAME	auslegestelle-tmp
+hiz-spies		A	134.96.209.145
+			MX	100 itz-mail
+hiz-update		A	134.96.208.108
+			MX	100 itz-mail
+hiz-web			A	134.96.210.144
+			MX	100 itz-mail
+hk-vista32		A	134.96.208.171
+			MX	100 itz-mail
+hk-vista64		A	134.96.208.172
+			MX	100 itz-mail
+hochschulsport		CNAME	itz-mail
+hp-cm2320		A	134.96.211.164
+			MX	100 itz-mail
+hpdet			A	134.96.209.38
+			MX	100 itz-mail
+htw-dc1			A	134.96.208.36
+			MX	100 itz-mail
+htw-dc2			A	134.96.208.35
+			MX	100 itz-mail
+htw-dc3			A	134.96.208.45
+			MX	100 itz-mail
+htw-personalrat		A	134.96.208.166
+			MX	100 itz-mail
+htw-portal		CNAME	portal
+htw-wind-00		A	134.96.208.211
+			MX	100 itz-mail
+htw-wind-01		A	134.96.215.135
+			MX	100 itz-mail
+htw-wind-02		A	134.96.215.136
+			MX	100 itz-mail
+htw-wind-03		A	134.96.215.137
+			MX	100 itz-mail
+htw-wind-04		A	134.96.215.138
+			MX	100 itz-mail
+htw-zimbra		A	134.96.210.149
+			MX	90 htw-zimbra
+htwbiovt3		A	134.96.215.131
+			MX	100 itz-mail
+htwbiovt5mob		A	134.96.215.89
+			MX	100 itz-mail
+htwbiovt8		A	134.96.215.116
+			MX	100 itz-mail
+htwbiovt9		A	134.96.215.13
+			MX	100 itz-mail
+htwfp02			A	134.96.214.112
+			MX	100 itz-mail
+hwl-01			A	134.96.213.130
+			MX	100 itz-mail
+hwl-02			A	134.96.213.131
+			MX	100 itz-mail
+hwl-03			A	134.96.213.132
+			MX	100 itz-mail
+hwl-04			A	134.96.213.133
+			MX	100 itz-mail
+hwl-05			A	134.96.213.134
+			MX	100 itz-mail
+hwl-06			A	134.96.213.135
+			MX	100 itz-mail
+hwl-07			A	134.96.213.136
+			MX	100 itz-mail
+hwl-08			A	134.96.213.137
+			MX	100 itz-mail
+hwl-09			A	134.96.213.138
+			MX	100 itz-mail
+hwl-10			A	134.96.213.139
+			MX	100 itz-mail
+hwl-11			A	134.96.213.140
+			MX	100 itz-mail
+hwl-12			A	134.96.213.141
+			MX	100 itz-mail
+hwl-13			A	134.96.213.142
+			MX	100 itz-mail
+hwl-14			A	134.96.213.143
+			MX	100 itz-mail
+hwl-15			A	134.96.213.144
+			MX	100 itz-mail
+hwl-16			A	134.96.213.145
+			MX	100 itz-mail
+hwl-17			A	134.96.213.146
+			MX	100 itz-mail
+hwl-18			A	134.96.213.147
+			MX	100 itz-mail
+hwl-19			A	134.96.213.148
+			MX	100 itz-mail
+hwl-20			A	134.96.213.149
+			MX	100 itz-mail
+hwl-21			A	134.96.213.150
+			MX	100 itz-mail
+hwl-22			A	134.96.213.151
+			MX	100 itz-mail
+hwl-23			A	134.96.213.152
+			MX	100 itz-mail
+hwl-24			A	134.96.213.153
+			MX	100 itz-mail
+hwl-25			A	134.96.213.154
+			MX	100 itz-mail
+hwl-26			A	134.96.213.155
+			MX	100 itz-mail
+hwl-27			A	134.96.213.156
+			MX	100 itz-mail
+hwl-28			A	134.96.213.157
+			MX	100 itz-mail
+hwl-29			A	134.96.213.158
+			MX	100 itz-mail
+hwl-30			A	134.96.213.159
+			MX	100 itz-mail
+hwl-31			A	134.96.213.160
+			MX	100 itz-mail
+hwl-32			A	134.96.213.161
+			MX	100 itz-mail
+hwl-33			A	134.96.213.162
+			MX	100 itz-mail
+hwl-34			A	134.96.213.163
+			MX	100 itz-mail
+hwl-35			A	134.96.213.164
+			MX	100 itz-mail
+hwl-36			A	134.96.213.165
+			MX	100 itz-mail
+hwl-37			A	134.96.213.166
+			MX	100 itz-mail
+hwl-38			A	134.96.213.167
+			MX	100 itz-mail
+hwl-39			A	134.96.213.168
+			MX	100 itz-mail
+hwl-40			A	134.96.213.169
+			MX	100 itz-mail
+hwl-41			A	134.96.213.170
+			MX	100 itz-mail
+hwl-42			A	134.96.213.171
+			MX	100 itz-mail
+hwl-demo		A	134.96.213.185
+			MX	100 itz-mail
+hwl-drucker		A	134.96.213.184
+hwl-laser		A	134.96.213.189
+			MX	100 itz-mail
+hwl-lizenz		A	134.96.214.221
+			MX	100 itz-mail
+hwl-nw			A	134.96.213.190
+			MX	100 itz-mail
+hwl-oszi		A	134.96.213.187
+			MX	100 itz-mail
+hwl-pc-01		A	134.96.214.196
+			MX	100 itz-mail
+hwl-pc-02		A	134.96.214.197
+			MX	100 itz-mail
+hwl-pc-03		A	134.96.214.198
+			MX	100 itz-mail
+hwl-pc-04		A	134.96.214.200
+			MX	100 itz-mail
+hwl-pc-05		A	134.96.214.201
+			MX	100 itz-mail
+hwl-printer		A	134.96.213.188
+			MX	100 itz-mail
+hwl-time		A	134.96.213.186
+			MX	100 itz-mail
+hwl-win			A	134.96.213.183
+			MX	100 itz-mail
+ibo-butterbach		A	134.96.215.118
+			MX	100 itz-mail
+ibo-sharepoint		A	134.96.210.143
+			MX	100 itz-mail
+icms			A	134.96.209.46
+			MX	100 itz-mail
+idun			A	134.96.208.141
+			MX	100 itz-mail
+imap			CNAME	itz-mail
+inf			CNAME	itz-mail
+informatik		CNAME	itz-mail
+inpeo-14		A	134.96.215.120
+			MX	100 itz-mail
+inpeo-15		A	134.96.215.123
+			MX	100 itz-mail
+inpeo-bionik-cadfem	A	134.96.215.70
+			MX	100 itz-mail
+inpeo-laserdrucker	A	134.96.215.73
+			MX	100 itz-mail
+inpeo-mitarbeiter-1	A	134.96.215.58
+			MX	100 itz-mail
+inpeo-mitarbeiter-2	A	134.96.215.59
+			MX	100 itz-mail
+inpeo-pfeifer		A	134.96.215.95
+			MX	100 itz-mail
+inpeo-station		A	134.96.215.97
+			MX	100 itz-mail
+inpeo03			A	134.96.215.65
+			MX	100 itz-mail
+intranet		A	134.96.208.136
+			MX	100 itz-mail
+ipp-5			A	134.96.215.114
+			MX	100 itz-mail
+ipp-desktop-04		A	134.96.215.15
+			MX	100 itz-mail
+ipp-desktop-cas		A	134.96.215.151
+			MX	100 itz-mail
+iscom			CNAME	wiwi-rom
+isfates			A	134.96.216.216
+			MX	30 m-relay.rz.uni-saarland.de.
+			MX	50 m-relay2.rz.uni-saarland.de.
+			MX	70 m-relay3.rz.uni-saarland.de.
+isfates-dfhi		A	134.96.216.213
+			MX	100 itz-mail
+isl-c-01		A	134.96.216.81
+			MX	100 itz-mail
+isl-c-02		A	134.96.216.82
+			MX	100 itz-mail
+isl-c-03		A	134.96.216.83
+			MX	100 itz-mail
+isl-c-04		A	134.96.216.84
+			MX	100 itz-mail
+isl-c-05		A	134.96.216.85
+			MX	100 itz-mail
+isl-c-06		A	134.96.216.86
+			MX	100 itz-mail
+isl-c-07		A	134.96.216.87
+			MX	100 itz-mail
+isl-c-08		A	134.96.216.88
+			MX	100 itz-mail
+isl-c-09		A	134.96.216.89
+			MX	100 itz-mail
+isl-c-10		A	134.96.216.90
+			MX	100 itz-mail
+isl-l-01		A	134.96.216.93
+			MX	100 itz-mail
+isl-l-02		A	134.96.216.94
+			MX	100 itz-mail
+isl-l-03		A	134.96.216.95
+			MX	100 itz-mail
+isl-l-04		A	134.96.216.96
+			MX	100 itz-mail
+isl-l-05		A	134.96.216.97
+			MX	100 itz-mail
+isl-s-01		A	134.96.216.91
+			MX	100 itz-mail
+isl-s-02		A	134.96.216.92
+			MX	100 itz-mail
+isl-s-03		A	134.96.216.80
+			MX	100 itz-mail
+isl-s-04		A	134.96.216.79
+			MX	100 itz-mail
+it-team			A	134.96.219.173
+			MX	100 itz-mail
+itz-2008r2		A	134.96.209.154
+			MX	100 itz-mail
+itz-archiv		A	134.96.209.155
+			MX	100 itz-mail
+itz-dx			A	134.96.208.40
+			MX	100 itz-mail
+itz-edimax		A	134.96.209.135
+			MX	100 itz-mail
+itz-huebner		A	134.96.209.140
+			MX	100 itz-mail
+itz-kvm-switch1		A	134.96.209.133
+itz-kvm-switch2		A	134.96.209.134
+itz-label		A	134.96.209.149
+			MX	90 itz-label
+itz-laudwein		A	134.96.209.157
+			MX	100 itz-mail
+itz-lizenz		A	134.96.208.43
+			MX	100 itz-mail
+itz-lizenzserver	A	134.96.208.37
+			MX	100 itz-mail
+itz-mail		A	134.96.210.141
+			MX	100 itz-mail
+itz-mail-test		A	134.96.210.139
+			MX	90 itz-mail-test
+itz-projekt		A	134.96.208.42
+			MX	100 itz-mail
+itz-td			A	134.96.209.136
+			MX	100 itz-mail
+itz-thin		A	134.96.209.147
+			MX	100 itz-mail
+itz-usb			A	134.96.208.41
+			MX	100 itz-mail
+itz-wsus		A	134.96.208.38
+			MX	100 itz-mail
+jh-lbf			A	134.96.215.82
+			MX	100 itz-mail
+jobboerse		CNAME	stud-i-verwaltung
+kfzpetry		A	134.96.215.162
+			MX	100 itz-mail
+khaarazmi		A	134.96.214.160
+			MX	100 itz-mail
+ki-server		A	134.96.208.107
+			MX	100 itz-mail
+kil-gw-office		A	134.96.216.2
+			MX	100 itz-mail
+kil-lms			A	134.96.216.65
+			MX	100 itz-mail
+kil-m-01		A	134.96.216.11
+			MX	100 itz-mail
+kil-m-02		A	134.96.216.12
+			MX	100 itz-mail
+kil-m-03		A	134.96.216.13
+			MX	100 itz-mail
+kil-m-04		A	134.96.216.14
+			MX	100 itz-mail
+kil-m-05		A	134.96.216.15
+			MX	100 itz-mail
+kil-m-06		A	134.96.216.16
+			MX	100 itz-mail
+kil-m-07		A	134.96.216.17
+			MX	100 itz-mail
+kil-m-08		A	134.96.216.18
+			MX	100 itz-mail
+kil-m-09		A	134.96.216.19
+			MX	100 itz-mail
+kil-m-10		A	134.96.216.20
+			MX	100 itz-mail
+kil-m-11		A	134.96.216.21
+			MX	100 itz-mail
+kil-m-12		A	134.96.216.22
+			MX	100 itz-mail
+kil-m-13		A	134.96.216.23
+			MX	100 itz-mail
+kil-m-14		A	134.96.216.24
+			MX	100 itz-mail
+kil-m-15		A	134.96.216.25
+			MX	100 itz-mail
+kil-m-16		A	134.96.216.26
+			MX	100 itz-mail
+kil-m-17		A	134.96.216.27
+			MX	100 itz-mail
+kil-m-18		A	134.96.216.28
+			MX	100 itz-mail
+kil-m-19		A	134.96.216.29
+			MX	100 itz-mail
+kil-m-20		A	134.96.216.30
+			MX	100 itz-mail
+kil-m-21		A	134.96.216.31
+			MX	100 itz-mail
+kil-m-22		A	134.96.216.32
+			MX	100 itz-mail
+kil-m-23		A	134.96.216.33
+			MX	100 itz-mail
+kil-m-24		A	134.96.216.34
+			MX	100 itz-mail
+kil-m-25		A	134.96.216.35
+			MX	100 itz-mail
+kil-m-26		A	134.96.216.36
+			MX	100 itz-mail
+kil-m-27		A	134.96.216.37
+			MX	100 itz-mail
+kil-m-28		A	134.96.216.38
+			MX	100 itz-mail
+kil-m-29		A	134.96.216.39
+			MX	100 itz-mail
+kil-m-30		A	134.96.216.40
+			MX	100 itz-mail
+kil-m-31		A	134.96.216.41
+			MX	100 itz-mail
+kil-m-32		A	134.96.216.42
+			MX	100 itz-mail
+kil-m-33		A	134.96.216.43
+			MX	100 itz-mail
+kil-m-34		A	134.96.216.44
+			MX	100 itz-mail
+kil-m-35		A	134.96.216.45
+			MX	100 itz-mail
+kil-m-master		A	134.96.216.10
+			MX	100 itz-mail
+kil-m-referenz		A	134.96.216.9
+			MX	100 itz-mail
+kil-marion		A	134.96.216.53
+			MX	100 itz-mail
+kil-msa-01		A	134.96.216.51
+			MX	100 itz-mail
+kil-msa-02		A	134.96.216.52
+			MX	100 itz-mail
+kil-pm			A	134.96.216.57
+			MX	100 itz-mail
+kil-prn-term		A	134.96.216.7
+			MX	100 itz-mail
+kil-s-01		A	134.96.216.54
+			MX	100 itz-mail
+kil-s-02		A	134.96.216.60
+			MX	100 itz-mail
+kil-s-03		A	134.96.216.59
+			MX	100 itz-mail
+kil-s-cal		A	134.96.216.62
+			MX	100 itz-mail
+kil-s-lizenz		A	134.96.216.55
+			MX	100 itz-mail
+kil-s-web		A	134.96.216.61
+			MX	100 itz-mail
+kim-01			A	134.96.215.39
+			MX	100 itz-mail
+kim-pc-fest		A	134.96.215.163
+			MX	100 itz-mail
+knowhow			CNAME	itz-mail
+komm-srv-1		CNAME	fitt-fs
+krippenpaedagogik	CNAME	itz-mail
+ksk-8-01		A	134.96.214.252
+			MX	100 itz-mail
+ksk-8-02		A	134.96.214.253
+			MX	100 itz-mail
+ksk-8-03		A	134.96.214.254
+			MX	100 itz-mail
+kt-labor		A	134.96.214.131
+			MX	100 itz-mail
+kunz-drucker		A	134.96.214.38
+			MX	100 itz-mail
+kunz-fue-01		A	134.96.213.217
+			MX	100 itz-mail
+kunz-fue-02		A	134.96.213.218
+			MX	100 itz-mail
+kunz-fue-03		A	134.96.213.219
+			MX	100 itz-mail
+kunz-fue-04		A	134.96.213.220
+			MX	100 itz-mail
+kunz-fue-05		A	134.96.213.221
+			MX	100 itz-mail
+kunz-fue-server		A	134.96.213.216
+			MX	100 itz-mail
+labkom-cisco		A	134.96.208.231
+			MX	100 itz-mail
+labor-9207-c4-ag	A	134.96.215.78
+			MX	100 itz-mail
+labor-bio-vt1		A	134.96.215.79
+			MX	100 itz-mail
+labor-bio-vt2		A	134.96.215.57
+			MX	100 itz-mail
+labor-bio-vt3		A	134.96.215.87
+			MX	100 itz-mail
+labor-bio-vt4		A	134.96.215.17
+			MX	100 itz-mail
+labor-ipp		A	134.96.215.100
+			MX	100 itz-mail
+labor-r1		A	134.96.214.188
+			MX	100 itz-mail
+labor-student1		A	134.96.214.189
+			MX	100 itz-mail
+labor-student2		A	134.96.214.190
+			MX	100 itz-mail
+labor-student3		A	134.96.214.191
+			MX	100 itz-mail
+labormanagement		CNAME	itz-mail
+laborrechner		A	134.96.215.72
+			MX	100 itz-mail
+lap-2-calles		A	134.96.215.91
+			MX	100 itz-mail
+laplace			A	134.96.214.228
+			MX	100 itz-mail
+lappi			A	134.96.208.212
+			MX	100 itz-mail
+laptop-jh		A	134.96.215.113
+			MX	100 itz-mail
+laptop-weber		A	134.96.215.86
+			MX	100 itz-mail
+lbf-02			A	134.96.215.107
+			MX	100 itz-mail
+lbf-asbai		A	134.96.215.133
+			MX	100 itz-mail
+leibniz			A	134.96.214.223
+			MX	100 itz-mail
+lellig			A	134.96.214.158
+			MX	100 itz-mail
+lfzt-mobil1		A	134.96.215.77
+			MX	100 itz-mail
+liserv			A	134.96.208.121
+			MX	100 itz-mail
+localhost		A	127.0.0.1
+logistik		CNAME	itz-mail
+loopback		CNAME	localhost
+m-brunner-01		A	134.96.215.40
+			MX	100 itz-mail
+m-deg-01		A	134.96.215.41
+			MX	100 itz-mail
+m-dweber-01		A	134.96.215.42
+			MX	100 itz-mail
+m-fbv			A	134.96.215.43
+			MX	100 itz-mail
+m-fbv-01		A	134.96.215.44
+			MX	100 itz-mail
+m-griebsch		A	134.96.215.98
+			MX	100 itz-mail
+m-hjw			A	134.96.215.101
+			MX	100 itz-mail
+m-lap-cal		A	134.96.215.45
+			MX	100 itz-mail
+m-lap-hjw		A	134.96.215.46
+			MX	100 itz-mail
+m-lap-jae		A	134.96.215.47
+			MX	100 itz-mail
+m-lor			A	134.96.215.48
+			MX	100 itz-mail
+m-mes-01		A	134.96.215.49
+			MX	100 itz-mail
+m-mes-02		A	134.96.215.50
+			MX	100 itz-mail
+m-reim			A	134.96.215.52
+			MX	100 itz-mail
+m-relay			A	134.96.7.3
+m-volk			A	134.96.215.55
+			MX	100 itz-mail
+m-volk1			A	134.96.215.4
+			MX	100 itz-mail
+magritte		A	134.96.216.98
+			MX	100 itz-mail
+mail			A	134.96.208.108
+malermeister		A	134.96.215.60
+marko-desktop		A	134.96.213.208
+			MX	100 itz-mail
+marko-fpga		A	134.96.213.210
+			MX	100 itz-mail
+marko-notebook		A	134.96.213.209
+			MX	100 itz-mail
+marko-spw		A	134.96.213.211
+			MX	100 itz-mail
+markov			A	134.96.208.99
+			MX	100 itz-mail
+markov2			CNAME	mathcoach
+maschinenbau-prozesstechnik CNAME itz-mail
+maschinenbau-techniker	CNAME	itz-mail
+mathcoach		A	134.96.208.113
+			MX	100 itz-mail
+matthias-mobil		A	134.96.213.204
+			MX	100 itz-mail
+mb-rechner		A	134.96.215.5
+			MX	100 itz-mail
+mbook-jh		A	134.96.215.122
+			MX	100 itz-mail
+md-xp			A	134.96.209.158
+			MX	100 itz-mail
+mechatronik-sensortechnik CNAME	itz-mail
+mediendidaktik		CNAME	itz-mail
+messtechnik-htz		A	134.96.215.134
+			MX	100 itz-mail
+messtechnik001		A	134.96.215.132
+			MX	100 itz-mail
+messuser-pc		A	134.96.214.249
+			MX	100 itz-mail
+mint			CNAME	itz-mail
+mmoeller		A	134.96.217.137
+			MX	100 itz-mail
+moduldb			CNAME	www-crypto
+mp			CNAME	itz-mail
+mrl-p-fi		A	134.96.215.74
+			MX	100 itz-mail
+msick-pc01		A	134.96.215.54
+			MX	100 itz-mail
+mst			CNAME	itz-mail
+mst-9102-student-01	A	134.96.214.177
+			MX	100 itz-mail
+mst-9102-student-02	A	134.96.214.178
+			MX	100 itz-mail
+mst-9102-student-03	A	134.96.214.179
+			MX	100 itz-mail
+mst-9102-student-04	A	134.96.214.180
+			MX	100 itz-mail
+mst-9102-student-05	A	134.96.214.181
+			MX	100 itz-mail
+mt-14			A	134.96.214.108
+			MX	100 itz-mail
+mt-15			A	134.96.214.109
+			MX	100 itz-mail
+mt-16			A	134.96.214.110
+			MX	100 itz-mail
+myra			A	134.96.215.12
+			MX	100 itz-mail
+myrpc009934uni		A	134.96.210.187
+			MX	100 itz-mail
+myrpc011700uni		A	134.96.215.165
+			MX	100 itz-mail
+nagios-management	A	134.96.208.2
+			MX	100 itz-mail
+nantes			A	134.96.215.155
+			MX	100 itz-mail
+net			NS	ns.rz.uni-saarland.de.
+			NS	ns0.rz.uni-saarland.de.
+net-mgt-v240		A	134.96.208.7
+net-mgt-v440		A	134.96.208.8
+net-mgt-x4150-web	A	134.96.208.10
+			MX	100 itz-mail
+nettool			A	134.96.208.6
+neubert-enrico		A	134.96.215.14
+			MX	100 itz-mail
+newton			A	134.96.208.119
+			MX	100 itz-mail
+notebook1-sprlab	A	134.96.209.106
+			MX	100 itz-mail
+notebook2-sprlab	A	134.96.209.105
+			MX	100 itz-mail
+ns			A	134.96.208.98
+			MX	100 itz-mail
+ns1			A	134.96.216.214
+ns2			A	134.96.216.214
+ntams37			A	134.96.211.194
+			MX	100 itz-mail
+ntp			CNAME	itz-mail
+oki-c330dn-bt		A	134.96.214.246
+			MX	100 itz-mail
+oml-ml			A	134.96.214.194
+			MX	100 itz-mail
+pascal			A	134.96.214.176
+pb-creative		CNAME	itz-mail
+$ORIGIN pb-creative.htw-saarland.de.
+www			CNAME	itz-mail.htw-saarland.de.
+$ORIGIN htw-saarland.de.
+pc-lorscheid		A	134.96.215.152
+			MX	100 itz-mail
+pc-messtechnik		A	134.96.217.145
+			MX	100 itz-mail
+pc-otmar-klein		A	134.96.217.144
+			MX	100 itz-mail
+pc-praxisreferentin	A	134.96.211.142
+			MX	100 itz-mail
+pc-stud			A	134.96.215.80
+			MX	100 itz-mail
+pc-waller		A	134.96.215.126
+			MX	100 itz-mail
+peano			A	134.96.214.184
+			MX	100 itz-mail
+pflege			CNAME	itz-mail
+physik-000		A	134.96.214.132
+physik-003		A	134.96.214.155
+			MX	100 itz-mail
+physik-004		A	134.96.214.156
+			MX	100 itz-mail
+physik-005		A	134.96.214.157
+			MX	100 itz-mail
+physik-006		A	134.96.214.182
+			MX	100 itz-mail
+physik-fw		A	134.96.214.247
+			MX	100 itz-mail
+physik-rt		A	134.96.214.202
+			MX	100 itz-mail
+physik-ub		A	134.96.214.199
+			MX	100 itz-mail
+physik01		A	134.96.214.153
+			MX	100 itz-mail
+physik02		A	134.96.214.154
+			MX	100 itz-mail
+physik03		A	134.96.214.138
+			MX	100 itz-mail
+picas-touch		A	134.96.211.165
+			MX	100 itz-mail
+pinghe			A	134.96.215.51
+			MX	100 itz-mail
+pixma-mx870-thw		A	134.96.214.206
+			MX	100 itz-mail
+plt-server		A	134.96.210.40
+			MX	100 itz-mail
+pop			CNAME	itz-mail
+portal			A	134.96.208.66
+			MX	100 itz-mail
+portal-ts1		A	134.96.208.46
+			MX	100 itz-mail
+postalia		A	134.96.208.140
+praktikum-pc-adsorption	A	134.96.215.153
+			MX	100 itz-mail
+praktikum-pc-rektifikation A	134.96.215.154
+			MX	100 itz-mail
+$TTL 3600	; 1 hour
+pressestelle		CNAME	webhtw.rz.uni-saarland.de.
+$TTL 43200	; 12 hours
+prf-ps			A	134.96.209.44
+printer-6313		A	134.96.211.167
+			MX	100 itz-mail
+printer01		A	134.96.213.207
+			MX	100 itz-mail
+printserver-mst		A	134.96.214.230
+			MX	100 itz-mail
+profservice		A	134.96.210.140
+			MX	100 itz-mail
+ps-rek			A	134.96.209.36
+			MX	100 itz-mail
+ps-vd			A	134.96.209.34
+ps2105			A	134.96.209.39
+puhl			A	134.96.215.68
+			MX	100 itz-mail
+pulmos			A	134.96.215.164
+			MX	100 itz-mail
+qbing-brother		A	134.96.219.248
+qserver			A	134.96.210.146
+			MX	100 itz-mail
+qu			A	134.96.208.209
+			MX	100 itz-mail
+r-note			A	134.96.209.19
+			MX	100 itz-mail
+r-pc			A	134.96.209.20
+			MX	100 itz-mail
+r-schweickard		A	134.96.209.22
+			MX	100 itz-mail
+resman			A	134.96.218.71
+			MX	100 itz-mail
+reuter-hack-nb		A	134.96.215.11
+			MX	100 itz-mail
+ricomet01		A	134.96.213.212
+			MX	100 itz-mail
+rkre			A	134.96.214.126
+			MX	100 itz-mail
+rkre2			A	134.96.214.219
+			MX	100 itz-mail
+rtg-zv-s3		A	134.96.209.33
+rtg208-0		A	134.96.208.1
+rtg208-128		A	134.96.208.129
+rtg208-160		A	134.96.208.161
+rtg208-192		A	134.96.208.193
+rtg208-32		A	134.96.208.33
+rtg208-64		A	134.96.208.65
+rtg208-96		A	134.96.208.97
+rtg209-0		A	134.96.209.1
+rtg209-128		A	134.96.209.129
+rtg209-160		A	134.96.209.161
+rtg209-192		A	134.96.209.193
+rtg209-224		A	134.96.209.225
+rtg209-240		A	134.96.209.241
+rtg209-64		A	134.96.209.65
+rtg209-96		A	134.96.209.97
+rtg210-0		A	134.96.210.1
+rtg210-128		A	134.96.210.129
+rtg210-192		A	134.96.210.193
+rtg210-32		A	134.96.210.33
+rtg210-64		A	134.96.210.65
+rtg211-0		A	134.96.211.1
+rtg211-128		A	134.96.211.129
+rtg211-192		A	134.96.211.193
+rtg212-0		A	134.96.212.1
+rtg213-0		A	134.96.213.1
+rtg213-128		A	134.96.213.129
+rtg213-192		A	134.96.213.193
+rtg214-0		A	134.96.214.1
+rtg214-128		A	134.96.214.129
+rtg215-0		A	134.96.215.1
+rtg215-128		A	134.96.215.129
+rtg216-0		A	134.96.216.1
+rtg217-0		A	134.96.217.1
+rtg217-128		A	134.96.217.129
+rtg217-192		A	134.96.217.193
+rtg217-64		A	134.96.217.65
+rtg217-96		A	134.96.217.97
+rtg218-0		A	134.96.218.1
+rtg219-0		A	134.96.219.1
+saprouter		A	134.96.210.131
+			MX	100 itz-mail
+sas			CNAME	itz-mail
+scanner-2403		A	134.96.211.170
+schaper			A	134.96.215.121
+			MX	100 itz-mail
+schule-fuer-architektur-saar CNAME itz-mail
+schwingfestigkeit	A	134.96.215.16
+			MX	100 itz-mail
+sek-fbe			A	134.96.208.204
+			MX	100 itz-mail
+sekretariat-i-mst	A	134.96.214.195
+			MX	100 itz-mail
+server-cim-labor	A	134.96.215.112
+			MX	100 itz-mail
+servicecentermanagement	CNAME	itz-mail
+sew-mobil		A	134.96.215.85
+			MX	100 itz-mail
+sft-000			A	134.96.208.34
+			MX	100 itz-mail
+sft-003			A	134.96.214.147
+			MX	100 itz-mail
+sft-004			A	134.96.214.148
+			MX	100 itz-mail
+sft-005			A	134.96.214.133
+			MX	100 itz-mail
+sft-006			A	134.96.214.231
+			MX	100 itz-mail
+sft-007			A	134.96.214.232
+			MX	100 itz-mail
+sft-008			A	134.96.214.233
+			MX	100 itz-mail
+sft-009			A	134.96.214.234
+			MX	100 itz-mail
+sft-010			A	134.96.214.237
+			MX	100 itz-mail
+sft-011			A	134.96.214.238
+			MX	100 itz-mail
+sft-012			A	134.96.214.239
+			MX	100 itz-mail
+sft-013			A	134.96.214.240
+			MX	100 itz-mail
+sft-014			A	134.96.214.241
+			MX	100 itz-mail
+sft-015			A	134.96.214.242
+			MX	100 itz-mail
+sft-016			A	134.96.214.243
+			MX	100 itz-mail
+sft-017			A	134.96.214.244
+			MX	100 itz-mail
+sft-018			A	134.96.214.245
+			MX	100 itz-mail
+sft-020			A	134.96.214.170
+			MX	100 itz-mail
+sft-021			A	134.96.214.171
+			MX	100 itz-mail
+sft-022			A	134.96.214.172
+			MX	100 itz-mail
+sft-023			A	134.96.214.173
+			MX	100 itz-mail
+sft-024			A	134.96.214.174
+			MX	100 itz-mail
+sft-9104-3		A	134.96.214.140
+			MX	100 itz-mail
+sft-oml-a01		A	134.96.214.210
+			MX	100 itz-mail
+sft-oml-a02		A	134.96.214.211
+			MX	100 itz-mail
+sft-oml-a03		A	134.96.214.236
+			MX	100 itz-mail
+sft-oml-a04		A	134.96.214.164
+			MX	100 itz-mail
+sft-oml-a05		A	134.96.214.165
+			MX	100 itz-mail
+sft-oml-a06		A	134.96.214.166
+			MX	100 itz-mail
+sft-oml-a07		A	134.96.214.167
+			MX	100 itz-mail
+sft-oml-a08		A	134.96.214.168
+			MX	100 itz-mail
+sft-oml-a09		A	134.96.214.169
+			MX	100 itz-mail
+sicherheitsmanagement	CNAME	itz-mail
+skrause			A	134.96.208.224
+			MX	100 itz-mail
+sl-autorenplatz		A	134.96.218.70
+			MX	100 itz-mail
+sl-lehrer		A	134.96.218.67
+			MX	100 itz-mail
+sl-student01		A	134.96.218.33
+			MX	100 itz-mail
+sl-student02		A	134.96.218.34
+			MX	100 itz-mail
+sl-student03		A	134.96.218.35
+			MX	100 itz-mail
+sl-student04		A	134.96.218.36
+			MX	100 itz-mail
+sl-student05		A	134.96.218.37
+			MX	100 itz-mail
+sl-student06		A	134.96.218.38
+			MX	100 itz-mail
+sl-student07		A	134.96.218.39
+			MX	100 itz-mail
+sl-student08		A	134.96.218.40
+			MX	100 itz-mail
+sl-student09		A	134.96.218.41
+			MX	100 itz-mail
+sl-student10		A	134.96.218.42
+			MX	100 itz-mail
+sl-student11		A	134.96.218.43
+			MX	100 itz-mail
+sl-student12		A	134.96.218.44
+			MX	100 itz-mail
+sl-student13		A	134.96.218.45
+			MX	100 itz-mail
+sl-student14		A	134.96.218.46
+			MX	100 itz-mail
+sl-student15		A	134.96.218.47
+			MX	100 itz-mail
+sl-student16		A	134.96.218.48
+			MX	100 itz-mail
+sl-student17		A	134.96.218.49
+			MX	100 itz-mail
+sl-student18		A	134.96.218.50
+			MX	100 itz-mail
+sl-student19		A	134.96.218.51
+			MX	100 itz-mail
+sl-student20		A	134.96.218.52
+			MX	100 itz-mail
+sl-student21		A	134.96.218.53
+			MX	100 itz-mail
+sl-student22		A	134.96.218.54
+			MX	100 itz-mail
+sl-student23		A	134.96.218.55
+			MX	100 itz-mail
+sl-student24		A	134.96.218.56
+			MX	100 itz-mail
+sl-student25		A	134.96.218.57
+			MX	100 itz-mail
+sl-student26		A	134.96.218.58
+			MX	100 itz-mail
+sl-student27		A	134.96.218.59
+			MX	100 itz-mail
+sl-student28		A	134.96.218.60
+			MX	100 itz-mail
+sl-student29		A	134.96.218.61
+			MX	100 itz-mail
+sl-student30		A	134.96.218.62
+			MX	100 itz-mail
+sl-student31		A	134.96.218.63
+			MX	100 itz-mail
+sl-student32		A	134.96.218.64
+			MX	100 itz-mail
+sl-student33		A	134.96.218.65
+			MX	100 itz-mail
+sl-student34		A	134.96.218.66
+			MX	100 itz-mail
+sl1-lehrer		A	134.96.218.2
+			MX	100 itz-mail
+sl1-stud01		A	134.96.218.3
+			MX	100 itz-mail
+sl1-stud02		A	134.96.218.4
+			MX	100 itz-mail
+sl1-stud03		A	134.96.218.5
+			MX	100 itz-mail
+sl1-stud04		A	134.96.218.6
+			MX	100 itz-mail
+sl1-stud05		A	134.96.218.7
+			MX	100 itz-mail
+sl1-stud06		A	134.96.218.8
+			MX	100 itz-mail
+sl1-stud07		A	134.96.218.9
+			MX	100 itz-mail
+sl1-stud08		A	134.96.218.10
+			MX	100 itz-mail
+sl1-stud09		A	134.96.218.11
+			MX	100 itz-mail
+sl1-stud10		A	134.96.218.12
+			MX	100 itz-mail
+sl1-stud11		A	134.96.218.13
+			MX	100 itz-mail
+sl1-stud12		A	134.96.218.14
+			MX	100 itz-mail
+sl1-stud13		A	134.96.218.15
+			MX	100 itz-mail
+sl1-stud14		A	134.96.218.16
+			MX	100 itz-mail
+sl1-stud15		A	134.96.218.17
+			MX	100 itz-mail
+sl1-stud16		A	134.96.218.18
+			MX	100 itz-mail
+sl1-stud17		A	134.96.218.19
+			MX	100 itz-mail
+sl1-stud18		A	134.96.218.20
+			MX	100 itz-mail
+sl1-stud19		A	134.96.218.21
+			MX	100 itz-mail
+sl1-stud20		A	134.96.218.22
+			MX	100 itz-mail
+sl1-stud21		A	134.96.218.23
+			MX	100 itz-mail
+sl1-stud22		A	134.96.218.24
+			MX	100 itz-mail
+sl1-stud23		A	134.96.218.25
+			MX	100 itz-mail
+sl1-stud24		A	134.96.218.26
+			MX	100 itz-mail
+sl1-stud25		A	134.96.218.27
+			MX	100 itz-mail
+sl1-stud26		A	134.96.218.28
+			MX	100 itz-mail
+sl1-stud27		A	134.96.218.29
+			MX	100 itz-mail
+sl1-stud28		A	134.96.218.30
+			MX	100 itz-mail
+sl1-stud29		A	134.96.218.31
+			MX	100 itz-mail
+sl1-stud30		A	134.96.218.32
+			MX	100 itz-mail
+sl3-lehrer		A	134.96.218.73
+			MX	100 itz-mail
+sl3-stud01		A	134.96.218.74
+			MX	100 itz-mail
+sl3-stud02		A	134.96.218.75
+			MX	100 itz-mail
+sl3-stud03		A	134.96.218.76
+			MX	100 itz-mail
+sl3-stud04		A	134.96.218.77
+			MX	100 itz-mail
+sl3-stud05		A	134.96.218.78
+			MX	100 itz-mail
+sl3-stud06		A	134.96.218.79
+			MX	100 itz-mail
+sl3-stud07		A	134.96.218.80
+			MX	100 itz-mail
+sl3-stud08		A	134.96.218.81
+			MX	100 itz-mail
+sl3-stud09		A	134.96.218.82
+			MX	100 itz-mail
+sl3-stud10		A	134.96.218.83
+			MX	100 itz-mail
+sl3-stud11		A	134.96.218.117
+			MX	100 itz-mail
+sl3-stud12		A	134.96.218.118
+			MX	100 itz-mail
+sl3-stud13		A	134.96.218.119
+			MX	100 itz-mail
+sl3-stud14		A	134.96.218.120
+			MX	100 itz-mail
+sl3-stud15		A	134.96.218.121
+			MX	100 itz-mail
+sl3-stud16		A	134.96.218.122
+			MX	100 itz-mail
+sl3-stud17		A	134.96.218.123
+			MX	100 itz-mail
+sl3-stud18		A	134.96.218.124
+			MX	100 itz-mail
+sl3-stud19		A	134.96.218.125
+			MX	100 itz-mail
+sl3-stud20		A	134.96.218.126
+			MX	100 itz-mail
+sl3-stud21		A	134.96.218.68
+			MX	100 itz-mail
+sl3-stud22		A	134.96.218.69
+			MX	100 itz-mail
+sl4-lehrer		A	134.96.218.85
+			MX	100 itz-mail
+sl4-server		A	134.96.218.84
+			MX	100 itz-mail
+sl4-stud01		A	134.96.218.86
+			MX	100 itz-mail
+sl4-stud02		A	134.96.218.87
+			MX	100 itz-mail
+sl4-stud03		A	134.96.218.88
+			MX	100 itz-mail
+sl4-stud04		A	134.96.218.89
+			MX	100 itz-mail
+sl4-stud05		A	134.96.218.90
+			MX	100 itz-mail
+sl4-stud06		A	134.96.218.91
+			MX	100 itz-mail
+sl4-stud07		A	134.96.218.92
+			MX	100 itz-mail
+sl4-stud08		A	134.96.218.93
+			MX	100 itz-mail
+sl4-stud09		A	134.96.218.94
+			MX	100 itz-mail
+sl4-stud10		A	134.96.218.95
+			MX	100 itz-mail
+sl4-stud11		A	134.96.218.96
+			MX	100 itz-mail
+sl4-stud12		A	134.96.218.97
+			MX	100 itz-mail
+sl4-stud13		A	134.96.218.98
+			MX	100 itz-mail
+sl4-stud14		A	134.96.218.99
+			MX	100 itz-mail
+sl4-stud15		A	134.96.218.100
+			MX	100 itz-mail
+sl4-stud16		A	134.96.218.101
+			MX	100 itz-mail
+sl4-stud17		A	134.96.218.102
+			MX	100 itz-mail
+sl4-stud18		A	134.96.218.103
+			MX	100 itz-mail
+sl4-stud19		A	134.96.218.104
+			MX	100 itz-mail
+sl4-stud20		A	134.96.218.105
+			MX	100 itz-mail
+sl4-stud21		A	134.96.218.106
+			MX	100 itz-mail
+sl4-stud22		A	134.96.218.107
+			MX	100 itz-mail
+sl4-stud23		A	134.96.218.108
+			MX	100 itz-mail
+sl4-stud24		A	134.96.218.109
+			MX	100 itz-mail
+sl4-stud25		A	134.96.218.110
+			MX	100 itz-mail
+sl4-stud26		A	134.96.218.111
+			MX	100 itz-mail
+sl4-stud27		A	134.96.218.112
+			MX	100 itz-mail
+sl4-stud28		A	134.96.218.113
+			MX	100 itz-mail
+sl4-stud29		A	134.96.218.114
+			MX	100 itz-mail
+sl4-stud30		A	134.96.218.115
+			MX	100 itz-mail
+smartpc			A	134.96.215.64
+			MX	100 itz-mail
+smi			A	134.96.214.186
+			MX	100 itz-mail
+smtp			CNAME	itz-mail
+smtpauth		A	134.96.210.147
+			MX	100 itz-mail
+sn-1105366		A	134.96.214.226
+			MX	100 itz-mail
+sowi-fs			A	134.96.210.253
+			MX	100 itz-mail
+sozialpaedagogik	CNAME	itz-mail
+sp			CNAME	itz-mail
+sp-foerster		A	134.96.210.238
+			MX	100 itz-mail
+sp-foerster-drucker	A	134.96.210.239
+			MX	100 itz-mail
+spi-1			A	134.96.214.212
+			MX	100 itz-mail
+spi-2			A	134.96.214.213
+			MX	100 itz-mail
+spi-3			A	134.96.214.214
+			MX	100 itz-mail
+spi-4			A	134.96.214.215
+			MX	100 itz-mail
+spi-5			A	134.96.214.216
+			MX	100 itz-mail
+spi-6			A	134.96.214.217
+			MX	100 itz-mail
+spiderman		A	134.96.216.49
+			MX	100 itz-mail
+sprlab-7205-01		A	134.96.209.116
+			MX	100 itz-mail
+sprlab-7205-nb		A	134.96.209.103
+			MX	100 itz-mail
+sprlab-7205-s1		A	134.96.209.115
+			MX	100 itz-mail
+sprlab-8220-01		A	134.96.209.98
+			MX	100 itz-mail
+sprlab-8220-02		A	134.96.209.99
+			MX	100 itz-mail
+sprlab-8220-03		A	134.96.209.100
+			MX	100 itz-mail
+sprlab-8220-dr		A	134.96.209.109
+			MX	100 itz-mail
+sprlab-8224-01		A	134.96.209.101
+			MX	100 itz-mail
+sprlab-8225-03		A	134.96.209.104
+			MX	100 itz-mail
+sprlab-8225-dr		A	134.96.209.108
+sprlab-8225-s1		A	134.96.209.110
+			MX	100 itz-mail
+sprlab-8225-s2		A	134.96.209.111
+			MX	100 itz-mail
+sprlab-8225-s3		A	134.96.209.112
+			MX	100 itz-mail
+sprlab-8225-s4		A	134.96.209.113
+			MX	100 itz-mail
+sprlab-8225-s5		A	134.96.209.114
+			MX	100 itz-mail
+sprlab-8225-ta		A	134.96.209.102
+			MX	100 itz-mail
+sql-zv-temp		A	134.96.209.37
+			MX	100 itz-mail
+srt			CNAME	srg.uni-saarland.de.
+stdasta			CNAME	www-zv
+stdsek			CNAME	www-zv
+stdservice		A	134.96.210.133
+			MX	100 itz-mail
+stipendien		CNAME	itz-mail
+stl-b-03		A	134.96.216.63
+			MX	100 itz-mail
+stl-b-04		A	134.96.216.64
+			MX	100 itz-mail
+stl-cert		CNAME	stl-s-mail
+stl-cloud		CNAME	stl-s-ubu
+stl-deimos		A	134.96.216.247
+			MX	100 itz-mail
+stl-gdesk		CNAME	stl-s-vesys
+stl-gis-wpy		A	134.96.214.136
+			MX	100 itz-mail
+stl-global		CNAME	stl-s-vesys
+stl-iapetos		A	134.96.216.162
+			MX	100 itz-mail
+stl-janus		A	134.96.216.157
+			MX	100 itz-mail
+stl-l-01		A	134.96.216.181
+			MX	100 itz-mail
+stl-l-02		A	134.96.216.182
+			MX	100 itz-mail
+stl-l-03		A	134.96.216.183
+			MX	100 itz-mail
+stl-l-04		A	134.96.216.184
+			MX	100 itz-mail
+stl-l-05		A	134.96.216.185
+			MX	100 itz-mail
+stl-l-06		A	134.96.216.186
+			MX	100 itz-mail
+stl-l-07		A	134.96.216.187
+			MX	100 itz-mail
+stl-l-08		A	134.96.216.188
+			MX	100 itz-mail
+stl-l-09		A	134.96.216.189
+			MX	100 itz-mail
+stl-l-10		A	134.96.216.190
+			MX	100 itz-mail
+stl-l-189		CNAME	stl-l-09
+stl-l-190		CNAME	stl-l-10
+stl-l-8203		A	134.96.216.220
+			MX	100 itz-mail
+stl-l-api		A	134.96.216.219
+			MX	100 itz-mail
+stl-l-gue		A	134.96.216.232
+			MX	100 itz-mail
+stl-l-gue2		A	134.96.216.168
+			MX	100 itz-mail
+stl-l-lehser		A	134.96.216.238
+			MX	100 itz-mail
+stl-l-w7		A	134.96.216.165
+			MX	100 itz-mail
+stl-l-wpy		A	134.96.216.230
+			MX	100 itz-mail
+stl-lehser2		A	134.96.216.236
+			MX	100 itz-mail
+stl-lr-olbt		CNAME	stl-s-olbt
+stl-mail		CNAME	stl-s-mail
+stl-nas			CNAME	stl-s-nas
+stl-nas-c0		A	134.96.216.163
+			MX	100 itz-mail
+stl-nas-c1		A	134.96.216.164
+			MX	100 itz-mail
+stl-nfs			CNAME	stl-s-nfs-neu
+stl-p-api		A	134.96.216.218
+			MX	100 itz-mail
+stl-p-dh		A	134.96.216.203
+			MX	100 itz-mail
+stl-p-gue		A	134.96.216.251
+			MX	100 itz-mail
+stl-p-lehser		A	134.96.216.237
+			MX	100 itz-mail
+stl-p-mt		A	134.96.216.243
+			MX	100 itz-mail
+stl-p-olb		A	134.96.216.242
+			MX	100 itz-mail
+stl-p-pio		A	134.96.216.241
+			MX	100 itz-mail
+stl-pandora		A	134.96.216.159
+			MX	100 itz-mail
+stl-phobos		A	134.96.216.248
+			MX	100 itz-mail
+stl-pop			CNAME	stl-s-mail
+stl-pro-wpy		A	134.96.208.165
+			MX	100 itz-mail
+stl-projekt		A	134.96.208.170
+			MX	100 itz-mail
+stl-r-8209-1n		A	134.96.216.244
+			MX	100 itz-mail
+stl-r-8209-3n		A	134.96.216.246
+			MX	100 itz-mail
+stl-rn-test		A	134.96.216.66
+			MX	100 itz-mail
+stl-s-4			A	134.96.216.214
+			MX	100 itz-mail
+stl-s-ad		A	134.96.216.233
+			MX	90 stl-s-ad
+stl-s-ads		A	134.96.216.211
+			MX	100 itz-mail
+stl-s-antivir		A	134.96.216.206
+			MX	100 itz-mail
+stl-s-bup		A	134.96.216.205
+			MX	100 itz-mail
+stl-s-cups		A	134.96.216.228
+			MX	100 itz-mail
+stl-s-dbs		A	134.96.216.215
+			MX	100 itz-mail
+stl-s-doku		A	134.96.216.201
+			MX	100 itz-mail
+stl-s-ias		A	134.96.216.225
+			MX	100 itz-mail
+stl-s-mail		A	134.96.216.229
+			MX	90 stl-s-mail
+stl-s-monitor		A	134.96.216.245
+			MX	100 itz-mail
+stl-s-nas		A	134.96.216.240
+			MX	100 itz-mail
+stl-s-nfs		A	134.96.216.207
+			MX	100 itz-mail
+stl-s-nfs-neu		A	134.96.216.250
+			MX	100 itz-mail
+stl-s-nisp		A	134.96.216.209
+			MX	100 itz-mail
+stl-s-olbs		A	134.96.216.202
+			MX	100 itz-mail
+stl-s-olbt		A	134.96.216.199
+			MX	100 itz-mail
+stl-s-proj		A	134.96.216.222
+			MX	100 itz-mail
+stl-s-proj1		A	134.96.216.231
+			MX	100 itz-mail
+stl-s-proj2		A	134.96.216.234
+			MX	100 itz-mail
+stl-s-proj3		CNAME	stl-s-samba
+stl-s-pscf		A	134.96.216.217
+			MX	100 itz-mail
+stl-s-samba		A	134.96.216.208
+			MX	100 itz-mail
+stl-s-sie		A	134.96.216.210
+			MX	100 itz-mail
+stl-s-ssgd		A	134.96.216.200
+			MX	100 itz-mail
+stl-s-stud		CNAME	stl-s-studwork
+stl-s-studwork		A	134.96.216.212
+			MX	100 itz-mail
+stl-s-svc		A	134.96.216.204
+			MX	100 itz-mail
+stl-s-t1		A	134.96.216.8
+			MX	100 itz-mail
+stl-s-ubu		A	134.96.216.254
+			MX	100 itz-mail
+stl-s-vesys		A	134.96.216.56
+			MX	100 itz-mail
+stl-s-vzd		A	134.96.216.224
+			MX	100 itz-mail
+stl-s-web		A	134.96.216.235
+			MX	100 itz-mail
+stl-s-webse		A	134.96.216.50
+			MX	100 itz-mail
+stl-s-www		CNAME	stl-s-olbs
+stl-v-100		A	134.96.216.100
+			MX	100 itz-mail
+stl-v-101		A	134.96.216.101
+			MX	100 itz-mail
+stl-v-102		A	134.96.216.102
+			MX	100 itz-mail
+stl-v-103		A	134.96.216.103
+			MX	100 itz-mail
+stl-v-104		A	134.96.216.104
+			MX	100 itz-mail
+stl-v-105		A	134.96.216.105
+			MX	100 itz-mail
+stl-v-106		A	134.96.216.106
+			MX	100 itz-mail
+stl-v-107		A	134.96.216.107
+			MX	100 itz-mail
+stl-v-108		A	134.96.216.108
+			MX	100 itz-mail
+stl-v-109		A	134.96.216.109
+			MX	100 itz-mail
+stl-v-110		A	134.96.216.110
+			MX	100 itz-mail
+stl-v-111		A	134.96.216.111
+			MX	100 itz-mail
+stl-v-112		A	134.96.216.112
+			MX	100 itz-mail
+stl-v-113		A	134.96.216.113
+			MX	100 itz-mail
+stl-v-114		A	134.96.216.114
+			MX	100 itz-mail
+stl-v-115		A	134.96.216.115
+			MX	100 itz-mail
+stl-v-116		A	134.96.216.116
+			MX	100 itz-mail
+stl-v-117		A	134.96.216.117
+			MX	100 itz-mail
+stl-v-118		A	134.96.216.118
+			MX	100 itz-mail
+stl-v-119		A	134.96.216.119
+			MX	100 itz-mail
+stl-v-120		A	134.96.216.120
+			MX	100 itz-mail
+stl-v-121		A	134.96.216.121
+			MX	100 itz-mail
+stl-v-122		A	134.96.216.122
+			MX	100 itz-mail
+stl-v-123		A	134.96.216.123
+			MX	100 itz-mail
+stl-v-124		A	134.96.216.124
+			MX	100 itz-mail
+stl-v-125		A	134.96.216.125
+			MX	100 itz-mail
+stl-v-126		A	134.96.216.126
+			MX	100 itz-mail
+stl-v-127		A	134.96.216.127
+			MX	100 itz-mail
+stl-v-128		A	134.96.216.128
+			MX	100 itz-mail
+stl-v-129		A	134.96.216.129
+			MX	100 itz-mail
+stl-v-130		A	134.96.216.130
+			MX	100 itz-mail
+stl-v-131		A	134.96.216.131
+			MX	100 itz-mail
+stl-v-132		A	134.96.216.132
+			MX	100 itz-mail
+stl-v-133		A	134.96.216.133
+			MX	100 itz-mail
+stl-v-134		A	134.96.216.134
+			MX	100 itz-mail
+stl-v-135		A	134.96.216.135
+			MX	100 itz-mail
+stl-v-136		A	134.96.216.136
+			MX	100 itz-mail
+stl-v-137		A	134.96.216.137
+			MX	100 itz-mail
+stl-v-138		A	134.96.216.138
+			MX	100 itz-mail
+stl-v-139		A	134.96.216.139
+			MX	100 itz-mail
+stl-v-140		A	134.96.216.140
+			MX	100 itz-mail
+stl-v-141		A	134.96.216.141
+			MX	100 itz-mail
+stl-v-142		A	134.96.216.142
+			MX	100 itz-mail
+stl-v-143		A	134.96.216.143
+			MX	100 itz-mail
+stl-v-144		A	134.96.216.144
+			MX	100 itz-mail
+stl-v-145		A	134.96.216.145
+			MX	100 itz-mail
+stl-v-146		A	134.96.216.146
+			MX	100 itz-mail
+stl-v-147		A	134.96.216.147
+			MX	100 itz-mail
+stl-v-148		A	134.96.216.148
+			MX	100 itz-mail
+stl-v-149		A	134.96.216.149
+			MX	100 itz-mail
+stl-v-150		A	134.96.216.150
+			MX	100 itz-mail
+stl-v-151		A	134.96.216.151
+			MX	100 itz-mail
+stl-v-152		A	134.96.216.152
+			MX	100 itz-mail
+stl-v-153		A	134.96.216.153
+			MX	100 itz-mail
+stl-v-154		A	134.96.216.154
+			MX	100 itz-mail
+stl-v-155		A	134.96.216.155
+			MX	100 itz-mail
+stl-v-156		A	134.96.216.156
+			MX	100 itz-mail
+stl-v-170		A	134.96.216.170
+			MX	100 itz-mail
+stl-v-171		A	134.96.216.171
+			MX	100 itz-mail
+stl-v-172		A	134.96.216.172
+			MX	100 itz-mail
+stl-v-173		A	134.96.216.173
+			MX	100 itz-mail
+stl-v-174		A	134.96.216.174
+			MX	100 itz-mail
+stl-v-175		A	134.96.216.175
+			MX	100 itz-mail
+stl-v-176		A	134.96.216.176
+			MX	100 itz-mail
+stl-v-177		A	134.96.216.177
+			MX	100 itz-mail
+stl-v-178		A	134.96.216.178
+			MX	100 itz-mail
+stl-v-179		A	134.96.216.179
+			MX	100 itz-mail
+stl-v-191		A	134.96.216.191
+			MX	100 itz-mail
+stl-v-192		A	134.96.216.192
+			MX	100 itz-mail
+stl-v-193		A	134.96.216.193
+			MX	100 itz-mail
+stl-v-194		A	134.96.216.194
+			MX	100 itz-mail
+stl-v-195		A	134.96.216.195
+			MX	100 itz-mail
+stl-v-196		A	134.96.216.196
+			MX	100 itz-mail
+stl-v-197		A	134.96.216.197
+			MX	100 itz-mail
+stl-v-198		A	134.96.216.198
+			MX	100 itz-mail
+stl-v-68		A	134.96.216.68
+			MX	100 itz-mail
+stl-v-69		A	134.96.216.69
+			MX	100 itz-mail
+stl-v-70		A	134.96.216.70
+			MX	100 itz-mail
+stl-v-71		A	134.96.216.71
+			MX	100 itz-mail
+stl-v-72		A	134.96.216.72
+			MX	100 itz-mail
+stl-v-73		A	134.96.216.73
+			MX	100 itz-mail
+stl-v-74		A	134.96.216.74
+			MX	100 itz-mail
+stl-v-75		A	134.96.216.75
+			MX	100 itz-mail
+stl-v-76		A	134.96.216.76
+			MX	100 itz-mail
+stl-v-77		A	134.96.216.77
+			MX	100 itz-mail
+stl-v-78		A	134.96.216.78
+			MX	100 itz-mail
+stl-v-99		A	134.96.216.99
+			MX	100 itz-mail
+stl-v-pauly		A	134.96.216.160
+			MX	100 itz-mail
+stl-v-pick		A	134.96.216.158
+			MX	100 itz-mail
+stl-vsol-100		CNAME	stl-v-100
+stl-vsol-101		CNAME	stl-v-101
+stl-vsol-102		CNAME	stl-v-102
+stl-vsol-103		CNAME	stl-v-103
+stl-vsol-104		CNAME	stl-v-104
+stl-vsol-105		CNAME	stl-v-105
+stl-vsol-106		CNAME	stl-v-106
+stl-vsol-107		CNAME	stl-v-107
+stl-vsol-108		CNAME	stl-v-108
+stl-vsol-109		CNAME	stl-v-109
+stl-vsol-110		CNAME	stl-v-110
+stl-vsol-111		CNAME	stl-v-111
+stl-vsol-112		CNAME	stl-v-112
+stl-vsol-113		CNAME	stl-v-113
+stl-vsol-114		CNAME	stl-v-114
+stl-vsol-115		CNAME	stl-v-115
+stl-vsol-116		CNAME	stl-v-116
+stl-vsol-117		CNAME	stl-v-117
+stl-vsol-118		CNAME	stl-v-118
+stl-vsol-119		CNAME	stl-v-119
+stl-vsol-120		CNAME	stl-v-120
+stl-vsol-121		CNAME	stl-v-121
+stl-vsol-122		CNAME	stl-v-122
+stl-vsol-123		CNAME	stl-v-123
+stl-vsol-124		CNAME	stl-v-124
+stl-vsol-125		CNAME	stl-v-125
+stl-vsol-126		CNAME	stl-v-126
+stl-vsol-127		CNAME	stl-v-127
+stl-vsol-128		CNAME	stl-v-128
+stl-vsol-129		CNAME	stl-v-129
+stl-vsol-130		CNAME	stl-v-130
+stl-vsol-131		CNAME	stl-v-131
+stl-vsol-132		CNAME	stl-v-132
+stl-vsol-133		CNAME	stl-v-133
+stl-vsol-134		CNAME	stl-v-134
+stl-vsol-135		CNAME	stl-v-135
+stl-vsol-136		CNAME	stl-v-136
+stl-vsol-137		CNAME	stl-v-137
+stl-vsol-138		CNAME	stl-v-138
+stl-vsol-139		CNAME	stl-v-139
+stl-vsol-140		CNAME	stl-v-140
+stl-vsol-141		CNAME	stl-v-141
+stl-vsol-142		CNAME	stl-v-142
+stl-vsol-143		CNAME	stl-v-143
+stl-vsol-144		CNAME	stl-v-144
+stl-vsol-145		CNAME	stl-v-145
+stl-vsol-146		CNAME	stl-v-146
+stl-vsol-147		CNAME	stl-v-147
+stl-vsol-148		CNAME	stl-v-148
+stl-vsol-149		CNAME	stl-v-149
+stl-vsol-150		CNAME	stl-v-150
+stl-vsol-151		CNAME	stl-v-151
+stl-vsol-152		CNAME	stl-v-152
+stl-vsol-153		CNAME	stl-v-153
+stl-vsol-154		CNAME	stl-v-154
+stl-vsol-155		CNAME	stl-v-155
+stl-vsol-156		CNAME	stl-v-156
+stl-vsol-170		CNAME	stl-v-170
+stl-vsol-171		CNAME	stl-v-171
+stl-vsol-172		CNAME	stl-v-172
+stl-vsol-173		CNAME	stl-v-173
+stl-vsol-174		CNAME	stl-v-174
+stl-vsol-175		CNAME	stl-v-175
+stl-vsol-176		CNAME	stl-v-176
+stl-vsol-177		CNAME	stl-v-177
+stl-vsol-178		CNAME	stl-v-178
+stl-vsol-179		CNAME	stl-v-179
+stl-vsol-191		CNAME	stl-v-191
+stl-vsol-192		CNAME	stl-v-192
+stl-vsol-193		CNAME	stl-v-193
+stl-vsol-194		CNAME	stl-v-194
+stl-vsol-195		CNAME	stl-v-195
+stl-vsol-196		CNAME	stl-v-196
+stl-vsol-197		CNAME	stl-v-197
+stl-vsol-198		CNAME	stl-v-198
+stl-vsol-68		CNAME	stl-v-68
+stl-vsol-69		CNAME	stl-v-69
+stl-vsol-70		CNAME	stl-v-70
+stl-vsol-71		CNAME	stl-v-71
+stl-vsol-72		CNAME	stl-v-72
+stl-vsol-73		CNAME	stl-v-73
+stl-vsol-74		CNAME	stl-v-74
+stl-vsol-75		CNAME	stl-v-75
+stl-vsol-76		CNAME	stl-v-76
+stl-vsol-77		CNAME	stl-v-77
+stl-vsol-78		CNAME	stl-v-78
+stl-vsol-99		CNAME	stl-v-99
+stl-vsuse-100		CNAME	stl-v-100
+stl-vsuse-101		CNAME	stl-v-101
+stl-vsuse-102		CNAME	stl-v-102
+stl-vsuse-103		CNAME	stl-v-103
+stl-vsuse-104		CNAME	stl-v-104
+stl-vsuse-105		CNAME	stl-v-105
+stl-vsuse-106		CNAME	stl-v-106
+stl-vsuse-107		CNAME	stl-v-107
+stl-vsuse-108		CNAME	stl-v-108
+stl-vsuse-109		CNAME	stl-v-109
+stl-vsuse-110		CNAME	stl-v-110
+stl-vsuse-111		CNAME	stl-v-111
+stl-vsuse-112		CNAME	stl-v-112
+stl-vsuse-113		CNAME	stl-v-113
+stl-vsuse-114		CNAME	stl-v-114
+stl-vsuse-115		CNAME	stl-v-115
+stl-vsuse-116		CNAME	stl-v-116
+stl-vsuse-117		CNAME	stl-v-117
+stl-vsuse-118		CNAME	stl-v-118
+stl-vsuse-119		CNAME	stl-v-119
+stl-vsuse-120		CNAME	stl-v-120
+stl-vsuse-121		CNAME	stl-v-121
+stl-vsuse-122		CNAME	stl-v-122
+stl-vsuse-123		CNAME	stl-v-123
+stl-vsuse-124		CNAME	stl-v-124
+stl-vsuse-125		CNAME	stl-v-125
+stl-vsuse-126		CNAME	stl-v-126
+stl-vsuse-127		CNAME	stl-v-127
+stl-vsuse-128		CNAME	stl-v-128
+stl-vsuse-129		CNAME	stl-v-129
+stl-vsuse-130		CNAME	stl-v-130
+stl-vsuse-131		CNAME	stl-v-131
+stl-vsuse-132		CNAME	stl-v-132
+stl-vsuse-133		CNAME	stl-v-133
+stl-vsuse-134		CNAME	stl-v-134
+stl-vsuse-135		CNAME	stl-v-135
+stl-vsuse-136		CNAME	stl-v-136
+stl-vsuse-137		CNAME	stl-v-137
+stl-vsuse-138		CNAME	stl-v-138
+stl-vsuse-139		CNAME	stl-v-139
+stl-vsuse-140		CNAME	stl-v-140
+stl-vsuse-141		CNAME	stl-v-141
+stl-vsuse-142		CNAME	stl-v-142
+stl-vsuse-143		CNAME	stl-v-143
+stl-vsuse-144		CNAME	stl-v-144
+stl-vsuse-145		CNAME	stl-v-145
+stl-vsuse-146		CNAME	stl-v-146
+stl-vsuse-147		CNAME	stl-v-147
+stl-vsuse-148		CNAME	stl-v-148
+stl-vsuse-149		CNAME	stl-v-149
+stl-vsuse-150		CNAME	stl-v-150
+stl-vsuse-151		CNAME	stl-v-151
+stl-vsuse-152		CNAME	stl-v-152
+stl-vsuse-153		CNAME	stl-v-153
+stl-vsuse-154		CNAME	stl-v-154
+stl-vsuse-155		CNAME	stl-v-155
+stl-vsuse-156		CNAME	stl-v-156
+stl-vsuse-170		CNAME	stl-v-170
+stl-vsuse-171		CNAME	stl-v-171
+stl-vsuse-172		CNAME	stl-v-172
+stl-vsuse-173		CNAME	stl-v-173
+stl-vsuse-174		CNAME	stl-v-174
+stl-vsuse-175		CNAME	stl-v-175
+stl-vsuse-176		CNAME	stl-v-176
+stl-vsuse-177		CNAME	stl-v-177
+stl-vsuse-178		CNAME	stl-v-178
+stl-vsuse-179		CNAME	stl-v-179
+stl-vsuse-68		CNAME	stl-v-68
+stl-vsuse-69		CNAME	stl-v-69
+stl-vsuse-70		CNAME	stl-v-70
+stl-vsuse-71		CNAME	stl-v-71
+stl-vsuse-72		CNAME	stl-v-72
+stl-vsuse-73		CNAME	stl-v-73
+stl-vsuse-74		CNAME	stl-v-74
+stl-vsuse-75		CNAME	stl-v-75
+stl-vsuse-76		CNAME	stl-v-76
+stl-vsuse-77		CNAME	stl-v-77
+stl-vsuse-78		CNAME	stl-v-78
+stl-vsuse-99		CNAME	stl-v-99
+stl-vubun-100		CNAME	stl-v-100
+stl-vubun-101		CNAME	stl-v-101
+stl-vubun-102		CNAME	stl-v-102
+stl-vubun-103		CNAME	stl-v-103
+stl-vubun-104		CNAME	stl-v-104
+stl-vubun-105		CNAME	stl-v-105
+stl-vubun-106		CNAME	stl-v-106
+stl-vubun-107		CNAME	stl-v-107
+stl-vubun-108		CNAME	stl-v-108
+stl-vubun-109		CNAME	stl-v-109
+stl-vubun-110		CNAME	stl-v-110
+stl-vubun-111		CNAME	stl-v-111
+stl-vubun-112		CNAME	stl-v-112
+stl-vubun-113		CNAME	stl-v-113
+stl-vubun-114		CNAME	stl-v-114
+stl-vubun-115		CNAME	stl-v-115
+stl-vubun-116		CNAME	stl-v-116
+stl-vubun-117		CNAME	stl-v-117
+stl-vubun-118		CNAME	stl-v-118
+stl-vubun-119		CNAME	stl-v-119
+stl-vubun-120		CNAME	stl-v-120
+stl-vubun-121		CNAME	stl-v-121
+stl-vubun-122		CNAME	stl-v-122
+stl-vubun-123		CNAME	stl-v-123
+stl-vubun-124		CNAME	stl-v-124
+stl-vubun-125		CNAME	stl-v-125
+stl-vubun-126		CNAME	stl-v-126
+stl-vubun-127		CNAME	stl-v-127
+stl-vubun-128		CNAME	stl-v-128
+stl-vubun-129		CNAME	stl-v-129
+stl-vubun-130		CNAME	stl-v-130
+stl-vubun-131		CNAME	stl-v-131
+stl-vubun-132		CNAME	stl-v-132
+stl-vubun-133		CNAME	stl-v-133
+stl-vubun-134		CNAME	stl-v-134
+stl-vubun-135		CNAME	stl-v-135
+stl-vubun-136		CNAME	stl-v-136
+stl-vubun-137		CNAME	stl-v-137
+stl-vubun-138		CNAME	stl-v-138
+stl-vubun-139		CNAME	stl-v-139
+stl-vubun-140		CNAME	stl-v-140
+stl-vubun-141		CNAME	stl-v-141
+stl-vubun-142		CNAME	stl-v-142
+stl-vubun-143		CNAME	stl-v-143
+stl-vubun-144		CNAME	stl-v-144
+stl-vubun-145		CNAME	stl-v-145
+stl-vubun-146		CNAME	stl-v-146
+stl-vubun-147		CNAME	stl-v-147
+stl-vubun-148		CNAME	stl-v-148
+stl-vubun-149		CNAME	stl-v-149
+stl-vubun-150		CNAME	stl-v-150
+stl-vubun-151		CNAME	stl-v-151
+stl-vubun-152		CNAME	stl-v-152
+stl-vubun-153		CNAME	stl-v-153
+stl-vubun-154		CNAME	stl-v-154
+stl-vubun-155		CNAME	stl-v-155
+stl-vubun-156		CNAME	stl-v-156
+stl-vubun-170		CNAME	stl-v-170
+stl-vubun-171		CNAME	stl-v-171
+stl-vubun-172		CNAME	stl-v-172
+stl-vubun-173		CNAME	stl-v-173
+stl-vubun-174		CNAME	stl-v-174
+stl-vubun-175		CNAME	stl-v-175
+stl-vubun-176		CNAME	stl-v-176
+stl-vubun-177		CNAME	stl-v-177
+stl-vubun-178		CNAME	stl-v-178
+stl-vubun-179		CNAME	stl-v-179
+stl-vubun-191		CNAME	stl-v-191
+stl-vubun-192		CNAME	stl-v-192
+stl-vubun-193		CNAME	stl-v-193
+stl-vubun-194		CNAME	stl-v-194
+stl-vubun-195		CNAME	stl-v-195
+stl-vubun-196		CNAME	stl-v-196
+stl-vubun-197		CNAME	stl-v-197
+stl-vubun-198		CNAME	stl-v-198
+stl-vubun-68		CNAME	stl-v-68
+stl-vubun-69		CNAME	stl-v-69
+stl-vubun-70		CNAME	stl-v-70
+stl-vubun-71		CNAME	stl-v-71
+stl-vubun-72		CNAME	stl-v-72
+stl-vubun-73		CNAME	stl-v-73
+stl-vubun-74		CNAME	stl-v-74
+stl-vubun-75		CNAME	stl-v-75
+stl-vubun-76		CNAME	stl-v-76
+stl-vubun-77		CNAME	stl-v-77
+stl-vubun-78		CNAME	stl-v-78
+stl-vubun-99		CNAME	stl-v-99
+stl-vwin-100		CNAME	stl-v-100
+stl-vwin-101		CNAME	stl-v-101
+stl-vwin-102		CNAME	stl-v-102
+stl-vwin-103		CNAME	stl-v-103
+stl-vwin-104		CNAME	stl-v-104
+stl-vwin-105		CNAME	stl-v-105
+stl-vwin-106		CNAME	stl-v-106
+stl-vwin-107		CNAME	stl-v-107
+stl-vwin-108		CNAME	stl-v-108
+stl-vwin-109		CNAME	stl-v-109
+stl-vwin-110		CNAME	stl-v-110
+stl-vwin-111		CNAME	stl-v-111
+stl-vwin-112		CNAME	stl-v-112
+stl-vwin-113		CNAME	stl-v-113
+stl-vwin-114		CNAME	stl-v-114
+stl-vwin-115		CNAME	stl-v-115
+stl-vwin-116		CNAME	stl-v-116
+stl-vwin-117		CNAME	stl-v-117
+stl-vwin-118		CNAME	stl-v-118
+stl-vwin-119		CNAME	stl-v-119
+stl-vwin-120		CNAME	stl-v-120
+stl-vwin-121		CNAME	stl-v-121
+stl-vwin-122		CNAME	stl-v-122
+stl-vwin-123		CNAME	stl-v-123
+stl-vwin-124		CNAME	stl-v-124
+stl-vwin-125		CNAME	stl-v-125
+stl-vwin-126		CNAME	stl-v-126
+stl-vwin-127		CNAME	stl-v-127
+stl-vwin-128		CNAME	stl-v-128
+stl-vwin-129		CNAME	stl-v-129
+stl-vwin-130		CNAME	stl-v-130
+stl-vwin-131		CNAME	stl-v-131
+stl-vwin-132		CNAME	stl-v-132
+stl-vwin-133		CNAME	stl-v-133
+stl-vwin-134		CNAME	stl-v-134
+stl-vwin-135		CNAME	stl-v-135
+stl-vwin-136		CNAME	stl-v-136
+stl-vwin-137		CNAME	stl-v-137
+stl-vwin-138		CNAME	stl-v-138
+stl-vwin-139		CNAME	stl-v-139
+stl-vwin-140		CNAME	stl-v-140
+stl-vwin-141		CNAME	stl-v-141
+stl-vwin-142		CNAME	stl-v-142
+stl-vwin-143		CNAME	stl-v-143
+stl-vwin-144		CNAME	stl-v-144
+stl-vwin-145		CNAME	stl-v-145
+stl-vwin-146		CNAME	stl-v-146
+stl-vwin-147		CNAME	stl-v-147
+stl-vwin-148		CNAME	stl-v-148
+stl-vwin-149		CNAME	stl-v-149
+stl-vwin-150		CNAME	stl-v-150
+stl-vwin-151		CNAME	stl-v-151
+stl-vwin-152		CNAME	stl-v-152
+stl-vwin-153		CNAME	stl-v-153
+stl-vwin-154		CNAME	stl-v-154
+stl-vwin-155		CNAME	stl-v-155
+stl-vwin-156		CNAME	stl-v-156
+stl-vwin-170		CNAME	stl-v-170
+stl-vwin-171		CNAME	stl-v-171
+stl-vwin-172		CNAME	stl-v-172
+stl-vwin-173		CNAME	stl-v-173
+stl-vwin-174		CNAME	stl-v-174
+stl-vwin-175		CNAME	stl-v-175
+stl-vwin-176		CNAME	stl-v-176
+stl-vwin-177		CNAME	stl-v-177
+stl-vwin-178		CNAME	stl-v-178
+stl-vwin-179		CNAME	stl-v-179
+stl-vwin-191		CNAME	stl-v-191
+stl-vwin-192		CNAME	stl-v-192
+stl-vwin-193		CNAME	stl-v-193
+stl-vwin-194		CNAME	stl-v-194
+stl-vwin-195		CNAME	stl-v-195
+stl-vwin-196		CNAME	stl-v-196
+stl-vwin-197		CNAME	stl-v-197
+stl-vwin-198		CNAME	stl-v-198
+stl-vwin-68		CNAME	stl-v-68
+stl-vwin-69		CNAME	stl-v-69
+stl-vwin-70		CNAME	stl-v-70
+stl-vwin-71		CNAME	stl-v-71
+stl-vwin-72		CNAME	stl-v-72
+stl-vwin-73		CNAME	stl-v-73
+stl-vwin-74		CNAME	stl-v-74
+stl-vwin-75		CNAME	stl-v-75
+stl-vwin-76		CNAME	stl-v-76
+stl-vwin-77		CNAME	stl-v-77
+stl-vwin-78		CNAME	stl-v-78
+stl-vwin-99		CNAME	stl-v-99
+stl-webmail		CNAME	stl-s-mail
+stl-www			CNAME	stl-s-doku
+strau			A	134.96.214.220
+			MX	100 itz-mail
+strauss-daniel		A	134.96.208.230
+			MX	100 itz-mail
+stud			CNAME	user-gis
+stud-bi			CNAME	stud-i
+stud-e			CNAME	stud-i
+stud-gis		A	134.96.208.118
+			MX	100 itz-mail
+$ORIGIN stud-gis.htw-saarland.de.
+*			A	134.96.208.118
+$ORIGIN htw-saarland.de.
+stud-i			A	134.96.216.180
+			MX	100 itz-mail
+$ORIGIN stud-i.htw-saarland.de.
+*			A	134.96.216.180
+$ORIGIN htw-saarland.de.
+stud-i-pr1		A	134.96.216.166
+			MX	100 itz-mail
+stud-i-pr2		A	134.96.216.167
+			MX	100 itz-mail
+stud-i-verwaltung	A	134.96.216.161
+			MX	100 itz-mail
+stud-ma			CNAME	stud-gis
+stud-sp			CNAME	stud-i
+stud-wi			CNAME	stud-i
+student-i		A	134.96.215.63
+			MX	100 itz-mail
+superform-mobil		A	134.96.215.110
+			MX	100 itz-mail
+superman		A	134.96.216.47
+			MX	100 itz-mail
+svala			A	134.96.215.9
+			MX	100 itz-mail
+swl-ap01		A	134.96.217.41
+swl-ap02		A	134.96.217.42
+swl-dr01		A	134.96.217.46
+swl-dr02		A	134.96.217.47
+swl-nb01		A	134.96.217.31
+			MX	100 itz-mail
+swl-nb02		A	134.96.217.32
+			MX	100 itz-mail
+swl-nb03		A	134.96.217.33
+			MX	100 itz-mail
+swl-nyala1		A	134.96.217.59
+			MX	100 itz-mail
+swl-nyala2		A	134.96.217.60
+			MX	100 itz-mail
+swl-ocelot1		A	134.96.217.57
+			MX	100 itz-mail
+swl-ocelot2		A	134.96.217.58
+			MX	100 itz-mail
+swl-pc01		A	134.96.217.6
+			MX	100 itz-mail
+swl-pc02		A	134.96.217.7
+			MX	100 itz-mail
+swl-pc03		A	134.96.217.8
+			MX	100 itz-mail
+swl-pc04		A	134.96.217.9
+			MX	100 itz-mail
+swl-pc05		A	134.96.217.10
+			MX	100 itz-mail
+swl-pc06		A	134.96.217.11
+			MX	100 itz-mail
+swl-pc07		A	134.96.217.12
+			MX	100 itz-mail
+swl-pc08		A	134.96.217.13
+			MX	100 itz-mail
+swl-pc09		A	134.96.217.14
+			MX	100 itz-mail
+swl-pc10		A	134.96.217.15
+			MX	100 itz-mail
+swl-pc11		A	134.96.217.16
+			MX	100 itz-mail
+swl-pc12		A	134.96.217.17
+			MX	100 itz-mail
+swl-pc19		A	134.96.217.19
+			MX	100 itz-mail
+swl-pc27		A	134.96.217.20
+			MX	100 itz-mail
+swl-pc28		A	134.96.217.21
+			MX	100 itz-mail
+swl-pc29		A	134.96.217.22
+			MX	100 itz-mail
+swl-pc30		A	134.96.217.23
+			MX	100 itz-mail
+swl-pocket		A	134.96.217.34
+			MX	100 itz-mail
+swl-srv01		A	134.96.217.2
+			MX	100 itz-mail
+swl-srv02		A	134.96.217.3
+			MX	100 itz-mail
+swl-srv03		A	134.96.217.5
+			MX	100 itz-mail
+swl-stat01		A	134.96.217.48
+			MX	100 itz-mail
+swl-stat02		A	134.96.217.49
+			MX	100 itz-mail
+swl-stat03		A	134.96.217.50
+			MX	100 itz-mail
+swl-stat04		A	134.96.217.51
+			MX	100 itz-mail
+swl-stat05		A	134.96.217.53
+			MX	100 itz-mail
+swl-stat06		A	134.96.217.54
+			MX	100 itz-mail
+swl-susan1		A	134.96.217.52
+			MX	100 itz-mail
+swl-susan2		A	134.96.217.55
+			MX	100 itz-mail
+swl-susan3		A	134.96.217.56
+			MX	100 itz-mail
+swl-w-pc01		A	134.96.217.24
+			MX	100 itz-mail
+swl-w-pc02		A	134.96.217.25
+			MX	100 itz-mail
+swl-w-pc03		A	134.96.217.26
+			MX	100 itz-mail
+swl-w-pc04		A	134.96.217.27
+			MX	100 itz-mail
+swl-w-pc05		A	134.96.217.28
+			MX	100 itz-mail
+swl-w-pc06		A	134.96.217.29
+			MX	100 itz-mail
+swl-w-pc07		A	134.96.217.35
+			MX	100 itz-mail
+swl-w-pc08		A	134.96.217.36
+			MX	100 itz-mail
+swl-w-pc09		A	134.96.217.37
+			MX	100 itz-mail
+swl-w-pc10		A	134.96.217.38
+			MX	100 itz-mail
+swl-w-pc11		A	134.96.217.39
+			MX	100 itz-mail
+swl-w-pc12		A	134.96.217.40
+			MX	100 itz-mail
+swl-w-pc19		A	134.96.217.43
+			MX	100 itz-mail
+swl-w-pc28		A	134.96.217.44
+			MX	100 itz-mail
+swl-w-pc29		A	134.96.217.45
+			MX	100 itz-mail
+swlab2000-dc01		A	134.96.217.18
+			MX	100 itz-mail
+swlabnt			A	134.96.208.114
+			MX	100 itz-mail
+test-portal		A	134.96.208.70
+			MX	100 itz-mail
+th-winter-think		A	134.96.214.193
+			MX	100 itz-mail
+thales			A	134.96.214.161
+			MX	100 itz-mail
+thinkpad-gs		A	134.96.214.222
+			MX	100 itz-mail
+thinkpad-speicher	A	134.96.214.208
+			MX	100 itz-mail
+thinkpad-thw		A	134.96.214.205
+			MX	100 itz-mail
+tk2013			A	134.96.216.252
+			MX	100 itz-mail
+tkdell			A	134.96.214.130
+			MX	100 itz-mail
+tkip-asa		A	134.96.208.12
+tm4002wlmi		A	134.96.213.206
+			MX	100 itz-mail
+trans-01		A	134.96.215.19
+			MX	100 itz-mail
+trans-02		A	134.96.215.30
+			MX	100 itz-mail
+trans-03		A	134.96.215.56
+			MX	100 itz-mail
+turing			A	134.96.214.152
+			MX	100 itz-mail
+tv01			A	134.96.208.81
+			MX	100 itz-mail
+tv02			A	134.96.208.82
+			MX	100 itz-mail
+tv03			A	134.96.208.83
+			MX	100 itz-mail
+tv04			A	134.96.208.84
+			MX	100 itz-mail
+tv05			A	134.96.208.85
+			MX	100 itz-mail
+tv06			A	134.96.208.86
+			MX	100 itz-mail
+tv07			A	134.96.208.87
+			MX	100 itz-mail
+tv08			A	134.96.208.88
+			MX	100 itz-mail
+tv09			A	134.96.208.89
+			MX	100 itz-mail
+tv10			A	134.96.208.90
+			MX	100 itz-mail
+tyr			A	134.96.210.145
+			MX	100 itz-mail
+tzsb-firewall		A	134.96.210.6
+tzsb-mit3		A	134.96.210.5
+			MX	100 itz-mail
+tzsb-mit4		A	134.96.210.13
+			MX	100 itz-mail
+tzsb-notebook		A	134.96.210.7
+			MX	100 itz-mail
+tzsb-stud1		A	134.96.210.14
+			MX	100 itz-mail
+uhlig			A	134.96.214.187
+			MX	100 itz-mail
+us			A	134.96.217.158
+			MX	100 itz-mail
+user-gis		A	134.96.208.106
+			MX	100 itz-mail
+vd-hud			A	134.96.209.21
+			MX	100 itz-mail
+vde-hg-01		A	134.96.209.196
+			MX	100 itz-mail
+vde-hg-02		A	134.96.209.197
+			MX	100 itz-mail
+vertriebsmanagement	CNAME	itz-mail
+vkm			A	134.96.215.88
+			MX	100 itz-mail
+vkm-car01		A	134.96.215.6
+			MX	100 itz-mail
+vkm-car02		A	134.96.215.10
+			MX	100 itz-mail
+vkm-labor01		A	134.96.215.124
+			MX	100 itz-mail
+vkm-m2			A	134.96.215.66
+			MX	100 itz-mail
+vkm-mobil01		A	134.96.215.103
+			MX	100 itz-mail
+vkm-mobil02		A	134.96.215.104
+			MX	100 itz-mail
+vkm-mobil03		A	134.96.215.105
+			MX	100 itz-mail
+vkm-mobil04		A	134.96.215.115
+			MX	100 itz-mail
+vkm-mobil05		A	134.96.215.119
+			MX	100 itz-mail
+vkm-mobil06		A	134.96.215.125
+			MX	100 itz-mail
+vkm-sicherung		A	134.96.215.111
+			MX	100 itz-mail
+vks-1			A	134.96.208.167
+			MX	100 itz-mail
+vks-2			A	134.96.208.168
+			MX	100 itz-mail
+vks-3			A	134.96.208.169
+			MX	100 itz-mail
+vlan-htw-sas		A	134.96.211.65
+vmware-ab		A	134.96.208.130
+			MX	100 itz-mail
+vpnclient-10		A	134.96.212.10
+			MX	100 itz-mail
+vpnclient-100		A	134.96.212.100
+			MX	100 itz-mail
+vpnclient-101		A	134.96.212.101
+			MX	100 itz-mail
+vpnclient-102		A	134.96.212.102
+			MX	100 itz-mail
+vpnclient-103		A	134.96.212.103
+			MX	100 itz-mail
+vpnclient-104		A	134.96.212.104
+			MX	100 itz-mail
+vpnclient-105		A	134.96.212.105
+			MX	100 itz-mail
+vpnclient-106		A	134.96.212.106
+			MX	100 itz-mail
+vpnclient-107		A	134.96.212.107
+			MX	100 itz-mail
+vpnclient-108		A	134.96.212.108
+			MX	100 itz-mail
+vpnclient-109		A	134.96.212.109
+			MX	100 itz-mail
+vpnclient-11		A	134.96.212.11
+			MX	100 itz-mail
+vpnclient-110		A	134.96.212.110
+			MX	100 itz-mail
+vpnclient-111		A	134.96.212.111
+			MX	100 itz-mail
+vpnclient-112		A	134.96.212.112
+			MX	100 itz-mail
+vpnclient-113		A	134.96.212.113
+			MX	100 itz-mail
+vpnclient-114		A	134.96.212.114
+			MX	100 itz-mail
+vpnclient-115		A	134.96.212.115
+			MX	100 itz-mail
+vpnclient-116		A	134.96.212.116
+			MX	100 itz-mail
+vpnclient-117		A	134.96.212.117
+			MX	100 itz-mail
+vpnclient-118		A	134.96.212.118
+			MX	100 itz-mail
+vpnclient-119		A	134.96.212.119
+			MX	100 itz-mail
+vpnclient-12		A	134.96.212.12
+			MX	100 itz-mail
+vpnclient-120		A	134.96.212.120
+			MX	100 itz-mail
+vpnclient-121		A	134.96.212.121
+			MX	100 itz-mail
+vpnclient-122		A	134.96.212.122
+			MX	100 itz-mail
+vpnclient-123		A	134.96.212.123
+			MX	100 itz-mail
+vpnclient-124		A	134.96.212.124
+			MX	100 itz-mail
+vpnclient-125		A	134.96.212.125
+			MX	100 itz-mail
+vpnclient-126		A	134.96.212.126
+			MX	100 itz-mail
+vpnclient-13		A	134.96.212.13
+			MX	100 itz-mail
+vpnclient-14		A	134.96.212.14
+			MX	100 itz-mail
+vpnclient-15		A	134.96.212.15
+			MX	100 itz-mail
+vpnclient-16		A	134.96.212.16
+			MX	100 itz-mail
+vpnclient-17		A	134.96.212.17
+			MX	100 itz-mail
+vpnclient-18		A	134.96.212.18
+			MX	100 itz-mail
+vpnclient-19		A	134.96.212.19
+			MX	100 itz-mail
+vpnclient-20		A	134.96.212.20
+			MX	100 itz-mail
+vpnclient-21		A	134.96.212.21
+			MX	100 itz-mail
+vpnclient-22		A	134.96.212.22
+			MX	100 itz-mail
+vpnclient-23		A	134.96.212.23
+			MX	100 itz-mail
+vpnclient-24		A	134.96.212.24
+			MX	100 itz-mail
+vpnclient-25		A	134.96.212.25
+			MX	100 itz-mail
+vpnclient-26		A	134.96.212.26
+			MX	100 itz-mail
+vpnclient-27		A	134.96.212.27
+			MX	100 itz-mail
+vpnclient-28		A	134.96.212.28
+			MX	100 itz-mail
+vpnclient-29		A	134.96.212.29
+			MX	100 itz-mail
+vpnclient-3		A	134.96.212.3
+			MX	100 itz-mail
+vpnclient-30		A	134.96.212.30
+			MX	100 itz-mail
+vpnclient-31		A	134.96.212.31
+			MX	100 itz-mail
+vpnclient-32		A	134.96.212.32
+			MX	100 itz-mail
+vpnclient-33		A	134.96.212.33
+			MX	100 itz-mail
+vpnclient-34		A	134.96.212.34
+			MX	100 itz-mail
+vpnclient-35		A	134.96.212.35
+			MX	100 itz-mail
+vpnclient-36		A	134.96.212.36
+			MX	100 itz-mail
+vpnclient-37		A	134.96.212.37
+			MX	100 itz-mail
+vpnclient-38		A	134.96.212.38
+			MX	100 itz-mail
+vpnclient-39		A	134.96.212.39
+			MX	100 itz-mail
+vpnclient-4		A	134.96.212.4
+			MX	100 itz-mail
+vpnclient-40		A	134.96.212.40
+			MX	100 itz-mail
+vpnclient-41		A	134.96.212.41
+			MX	100 itz-mail
+vpnclient-42		A	134.96.212.42
+			MX	100 itz-mail
+vpnclient-43		A	134.96.212.43
+			MX	100 itz-mail
+vpnclient-44		A	134.96.212.44
+			MX	100 itz-mail
+vpnclient-45		A	134.96.212.45
+			MX	100 itz-mail
+vpnclient-46		A	134.96.212.46
+			MX	100 itz-mail
+vpnclient-47		A	134.96.212.47
+			MX	100 itz-mail
+vpnclient-48		A	134.96.212.48
+			MX	100 itz-mail
+vpnclient-49		A	134.96.212.49
+			MX	100 itz-mail
+vpnclient-5		A	134.96.212.5
+			MX	100 itz-mail
+vpnclient-50		A	134.96.212.50
+			MX	100 itz-mail
+vpnclient-51		A	134.96.212.51
+			MX	100 itz-mail
+vpnclient-52		A	134.96.212.52
+			MX	100 itz-mail
+vpnclient-53		A	134.96.212.53
+			MX	100 itz-mail
+vpnclient-54		A	134.96.212.54
+			MX	100 itz-mail
+vpnclient-55		A	134.96.212.55
+			MX	100 itz-mail
+vpnclient-56		A	134.96.212.56
+			MX	100 itz-mail
+vpnclient-57		A	134.96.212.57
+			MX	100 itz-mail
+vpnclient-58		A	134.96.212.58
+			MX	100 itz-mail
+vpnclient-59		A	134.96.212.59
+			MX	100 itz-mail
+vpnclient-6		A	134.96.212.6
+			MX	100 itz-mail
+vpnclient-60		A	134.96.212.60
+			MX	100 itz-mail
+vpnclient-61		A	134.96.212.61
+			MX	100 itz-mail
+vpnclient-62		A	134.96.212.62
+			MX	100 itz-mail
+vpnclient-63		A	134.96.212.63
+			MX	100 itz-mail
+vpnclient-64		A	134.96.212.64
+			MX	100 itz-mail
+vpnclient-65		A	134.96.212.65
+			MX	100 itz-mail
+vpnclient-66		A	134.96.212.66
+			MX	100 itz-mail
+vpnclient-67		A	134.96.212.67
+			MX	100 itz-mail
+vpnclient-68		A	134.96.212.68
+			MX	100 itz-mail
+vpnclient-69		A	134.96.212.69
+			MX	100 itz-mail
+vpnclient-7		A	134.96.212.7
+			MX	100 itz-mail
+vpnclient-70		A	134.96.212.70
+			MX	100 itz-mail
+vpnclient-71		A	134.96.212.71
+			MX	100 itz-mail
+vpnclient-72		A	134.96.212.72
+			MX	100 itz-mail
+vpnclient-73		A	134.96.212.73
+			MX	100 itz-mail
+vpnclient-74		A	134.96.212.74
+			MX	100 itz-mail
+vpnclient-75		A	134.96.212.75
+			MX	100 itz-mail
+vpnclient-76		A	134.96.212.76
+			MX	100 itz-mail
+vpnclient-77		A	134.96.212.77
+			MX	100 itz-mail
+vpnclient-78		A	134.96.212.78
+			MX	100 itz-mail
+vpnclient-79		A	134.96.212.79
+			MX	100 itz-mail
+vpnclient-8		A	134.96.212.8
+			MX	100 itz-mail
+vpnclient-80		A	134.96.212.80
+			MX	100 itz-mail
+vpnclient-81		A	134.96.212.81
+			MX	100 itz-mail
+vpnclient-82		A	134.96.212.82
+			MX	100 itz-mail
+vpnclient-83		A	134.96.212.83
+			MX	100 itz-mail
+vpnclient-84		A	134.96.212.84
+			MX	100 itz-mail
+vpnclient-85		A	134.96.212.85
+			MX	100 itz-mail
+vpnclient-86		A	134.96.212.86
+			MX	100 itz-mail
+vpnclient-87		A	134.96.212.87
+			MX	100 itz-mail
+vpnclient-88		A	134.96.212.88
+			MX	100 itz-mail
+vpnclient-89		A	134.96.212.89
+			MX	100 itz-mail
+vpnclient-9		A	134.96.212.9
+			MX	100 itz-mail
+vpnclient-90		A	134.96.212.90
+			MX	100 itz-mail
+vpnclient-91		A	134.96.212.91
+			MX	100 itz-mail
+vpnclient-92		A	134.96.212.92
+			MX	100 itz-mail
+vpnclient-93		A	134.96.212.93
+			MX	100 itz-mail
+vpnclient-94		A	134.96.212.94
+			MX	100 itz-mail
+vpnclient-95		A	134.96.212.95
+			MX	100 itz-mail
+vpnclient-96		A	134.96.212.96
+			MX	100 itz-mail
+vpnclient-97		A	134.96.212.97
+			MX	100 itz-mail
+vpnclient-98		A	134.96.212.98
+			MX	100 itz-mail
+vpnclient-99		A	134.96.212.99
+			MX	100 itz-mail
+vpnserver		A	134.96.212.2
+			MX	100 itz-mail
+web-server-bw		A	134.96.208.105
+			MX	100 itz-mail
+webmail			CNAME	itz-mail
+wetter			A	134.96.210.8
+			MX	100 itz-mail
+whw-wi-al1		A	134.96.210.188
+			MX	100 itz-mail
+wi			CNAME	itz-mail
+wi-arendes		A	134.96.219.196
+			MX	100 itz-mail
+wi-flatau		A	134.96.219.56
+			MX	100 itz-mail
+wi-friedrich		A	134.96.219.168
+			MX	100 itz-mail
+wi-georg		A	134.96.219.144
+			MX	100 itz-mail
+wi-heimes		A	134.96.219.53
+			MX	100 itz-mail
+wi-junker		A	134.96.219.202
+			MX	100 itz-mail
+wi-kirsch		A	134.96.219.158
+			MX	100 itz-mail
+wi-kneip		A	134.96.219.204
+			MX	100 itz-mail
+wi-kraemer		A	134.96.219.228
+			MX	100 itz-mail
+wi-leiser		A	134.96.219.115
+			MX	100 itz-mail
+wi-leprich		A	134.96.219.178
+			MX	100 itz-mail
+wi-projekt02		A	134.96.219.236
+			MX	100 itz-mail
+wi-projekt03		A	134.96.219.237
+			MX	100 itz-mail
+wi-pulham		A	134.96.219.199
+			MX	100 itz-mail
+wi-reichart		A	134.96.219.176
+			MX	100 itz-mail
+wi-sbii			A	134.96.219.52
+			MX	100 itz-mail
+wi-scherer		A	134.96.219.194
+			MX	100 itz-mail
+wi-schottek-nb		A	134.96.219.139
+			MX	100 itz-mail
+wi-toschmidt		A	134.96.219.197
+			MX	100 itz-mail
+wi-venitz		A	134.96.219.195
+			MX	100 itz-mail
+wi-weisgerber		A	134.96.219.229
+			MX	100 itz-mail
+wirtschaftsingenieurwesen CNAME	itz-mail
+wiwi-baeumchen		A	134.96.219.121
+			MX	100 itz-mail
+wiwi-baeumchen-nb	A	134.96.219.120
+			MX	100 itz-mail
+wiwi-densing		A	134.96.219.217
+			MX	100 itz-mail
+wiwi-dsb-hg		A	134.96.219.238
+			MX	100 itz-mail
+wiwi-dsb-ng		A	134.96.219.241
+			MX	100 itz-mail
+wiwi-film		A	134.96.219.109
+			MX	100 itz-mail
+wiwi-ganther		A	134.96.219.154
+			MX	100 itz-mail
+wiwi-goettling		A	134.96.219.227
+			MX	100 itz-mail
+wiwi-hl2700cn		A	134.96.219.198
+			MX	100 itz-mail
+wiwi-hl7050		A	134.96.219.127
+			MX	100 itz-mail
+wiwi-hp4250n		A	134.96.219.110
+			MX	100 itz-mail
+wiwi-hp4600		A	134.96.219.169
+wiwi-koerner		A	134.96.219.218
+			MX	100 itz-mail
+wiwi-linux		A	134.96.208.139
+			MX	100 itz-mail
+wiwi-mail		A	134.96.219.233
+			MX	90 wiwi-mail
+wiwi-rom		A	134.96.210.130
+			MX	100 itz-mail
+wiwi-s-backup		A	134.96.219.111
+			MX	100 itz-mail
+wiwi-s-dev		A	134.96.208.71
+			MX	100 itz-mail
+wiwi-sek		A	134.96.219.254
+			MX	100 itz-mail
+wiwi-studweb		A	134.96.208.103
+			MX	100 itz-mail
+$ORIGIN wiwi-studweb.htw-saarland.de.
+www			CNAME	wiwi-studweb.htw-saarland.de.
+$ORIGIN htw-saarland.de.
+wiwi-technik		A	134.96.219.174
+			MX	100 itz-mail
+wiwif-server		A	134.96.219.2
+			MX	100 itz-mail
+wiwif-sicherung		A	134.96.219.240
+			MX	100 itz-mail
+wlan-ap-ha1		A	134.96.217.194
+			MX	100 itz-mail
+wlan-ap-ha2		A	134.96.217.195
+			MX	100 itz-mail
+wohnen			CNAME	itz-mail
+ww-esx			A	134.96.208.173
+			MX	100 itz-mail
+ww-oslo			A	134.96.208.132
+			MX	100 itz-mail
+www			CNAME	www-portal
+www-ab			A	134.96.208.134
+			MX	100 itz-mail
+www-bw			CNAME	web-server-bw
+www-crypto		A	134.96.208.102
+			MX	100 itz-mail
+www-learn		CNAME	wiwi-studweb
+$TTL 3600	; 1 hour
+www-portal		A	134.96.208.112
+			MX	100 itz-mail
+$TTL 43200	; 12 hours
+www-proxy		A	134.96.208.100
+			A	134.96.208.120
+			MX	100 itz-mail
+www-proxy-neu		CNAME	www-proxy
+www-stl			CNAME	stl-s-olbs
+www-stl-alt		CNAME	stl-s-doku
+www-tmp			A	134.96.210.150
+			MX	100 itz-mail
+www-zv			A	134.96.208.122
+			MX	100 itz-mail
+www-zv-test		A	134.96.208.163
+			MX	100 itz-mail
+www1			CNAME	stl-s-doku
+$TTL 600	; 10 minutes
+wwwtest			CNAME	weboth-4.rz.uni-saarland.de.
+$TTL 43200	; 12 hours
+xrf			A	134.96.214.204
+			MX	100 itz-mail
+zb-bft-01		A	134.96.209.69
+			MX	100 itz-mail
+zb-bft-02		A	134.96.209.68
+			MX	100 itz-mail
+zb-goe-e1		A	134.96.209.230
+			MX	100 itz-mail
+zb-goe-e2		A	134.96.209.231
+			MX	100 itz-mail
+zb-goe-e3		A	134.96.209.228
+			MX	100 itz-mail
+zb-goe-e6		A	134.96.209.233
+			MX	100 itz-mail
+zb-ju-01		A	134.96.209.75
+			MX	100 itz-mail
+zb-lesesaalrpf-01	A	134.96.209.229
+			MX	100 itz-mail
+zb-lesesaalrpf-02	A	134.96.209.232
+			MX	100 itz-mail
+zb-lesesaalrpf-03	A	134.96.209.236
+			MX	100 itz-mail
+zb-lesesaalrpf-04	A	134.96.209.237
+			MX	100 itz-mail
+zb-lesesaalrpf-05	A	134.96.209.238
+			MX	100 itz-mail
+zb-mi-01		A	134.96.209.76
+			MX	100 itz-mail
+zb-mi-02		A	134.96.209.66
+			MX	100 itz-mail
+zb-ps-3101		A	134.96.209.77
+zb-rb-01		A	134.96.209.74
+			MX	100 itz-mail
+zb-rh-01		A	134.96.209.70
+			MX	100 itz-mail
+zb-rh-02		A	134.96.209.71
+			MX	100 itz-mail
+zb-rh-03		A	134.96.209.67
+			MX	100 itz-mail
+zb-roe-02		A	134.96.209.80
+			MX	100 itz-mail
+zb-rpf-01		A	134.96.209.78
+			MX	100 itz-mail
+zb-rpf-03		A	134.96.209.81
+			MX	100 itz-mail
+zb-sb-01		A	134.96.209.73
+			MX	100 itz-mail
+zb-schwingboth-02	A	134.96.209.79
+			MX	100 itz-mail
+zb-sn-01		A	134.96.209.72
+			MX	100 itz-mail
+zb-whw-e1		A	134.96.209.234
+			MX	100 itz-mail
+zb-whw-e2		A	134.96.209.235
+			MX	100 itz-mail
+zb-whw-e3		A	134.96.209.226
+			MX	100 itz-mail
+zb-whw-e4		A	134.96.209.227
+			MX	100 itz-mail
+zdve-backup		A	134.96.208.68
+			MX	100 itz-mail
+zdve-bauer		A	134.96.209.143
+			MX	100 itz-mail
+zdve-exchange		A	134.96.208.135
+			MX	90 zdve-exchange
+zdve-extranet		A	134.96.208.133
+			MX	100 itz-mail
+zdve-folz		A	134.96.209.131
+			MX	100 itz-mail
+zdve-kolbusch		A	134.96.209.137
+			MX	100 itz-mail
+zdve-md			A	134.96.209.146
+			MX	100 itz-mail
+zdve-mg-2		A	134.96.208.5
+			MX	100 itz-mail
+zdve-mpi		A	134.96.209.150
+			MX	100 itz-mail
+zdve-multi		A	134.96.208.116
+			MX	100 itz-mail
+zdve-myr-1		A	134.96.209.130
+			MX	100 itz-mail
+zdve-myr-2		A	134.96.209.138
+			MX	100 itz-mail
+zdve-p-lq2180		A	134.96.210.105
+			MX	100 itz-mail
+zdve-p-slp200		A	134.96.209.152
+zdve-p-t610		A	134.96.210.103
+			MX	100 itz-mail
+zdve-p-w812		A	134.96.210.104
+			MX	100 itz-mail
+zdve-prototyp		A	134.96.210.68
+			MX	100 itz-mail
+zdve-usv		A	134.96.208.101
+zdve2000s1		A	134.96.210.66
+			MX	100 itz-mail
+zdve2003s1		A	134.96.210.69
+			MX	100 itz-mail
+zil			A	134.96.215.3
+			MX	100 itz-mail
+zimbra			CNAME	htw-zimbra
+zip-lpa-03		A	134.96.213.253
+			MX	100 itz-mail
+zip-lpa-04		A	134.96.213.254
+			MX	100 itz-mail
+zv-asa			A	134.96.208.11
+zv-ps-label		A	134.96.209.35
+			MX	100 itz-mail
+zv-rektor		A	134.96.209.23
+			MX	100 itz-mail
+zv-sql1			A	134.96.209.48
+			MX	100 itz-mail
+zv-ts			A	134.96.209.50
+			MX	100 itz-mail
+zv-ts-a1		A	134.96.209.49
+			MX	100 itz-mail
+zvs			A	134.96.209.42
+			MX	100 itz-mail
+zvts			A	134.96.209.41
+			MX	100 itz-mail

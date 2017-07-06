@@ -1,0 +1,109 @@
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    02. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 22 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb02/ueb02.txt
+
+
+    ########################################################################################
+    ###### Fuer die nachfolgenden Versuche benoetigen Sie einen Laptop/PC und einen   ######
+    ###### Internetanschluss zuhause.                                                 ######
+    ######                                                                            ######
+    ###### Falls Sie keinen Laptop besitzen oder Sie Ihren Laptop in den verschiedenen #####
+    ###### LANs/WLANs nicht zum Laufen bringen, nutzen Sie die Beispielmesswerte, die ######
+    ###### Sie im Uebungsordner im Directory loesung02-daten-aufgabe_1 finden.        ######
+    ######                                                                            ######
+    ###### Falls Sie zuhause keinen Internetanschluss haben, nutzen Sie die Beispiel- ######
+    ###### messwerte, die Sie im Uebungsordner im Directory loesung02-daten-aufgabe_2 ######
+    ###### finden.                                                                    ######
+    ########################################################################################
+
+
+    1. Aufgabe - Netzwerkdurchsatz des HTW-LAN/WLAN  --> stl-s-stud.htwsaar.de
+    -----------------------------------------------------------------------------------
+      - Fuehren Sie folgende Experimente durch und interpretieren Sie die 
+        Ergebnisse:
+                --- die Experimente sollen unter Ihrem LapTop/PC-Betriebssystem
+                    durchgefuehrt werden
+                --- es soll sowohl tcp als auch udp  verwendet werden
+
+                    Client-Seite               Server-Seite
+                < > Test Laptop (BS)       --> stl-s-stud.htwsaar.de
+
+                <a> via STL-LAN - im Raum 8207 Seitenleiste
+                <b> via HTW-WLAN - htwintern
+                <c> via HTW-WLAN - eduroam
+
+      - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+
+                             | Clientname   | Servername |           Tx        |           Rx        |
+                             |              |            | MByte/s    | MBit/s | MByte/s    | MBit/s |
+          --------------------------------------------------------------------------------------------
+          a             tcp  | Laptop       | stl-s-stud |            |        |            |        |
+          LAN           ------------------------------------------------------------------------------
+          STL           udp  | Laptop       | stl-s-stud |            |        |            |        |
+          --------------------------------------------------------------------------------------------
+          b             tcp  | Laptop       | stl-s-stud |            |        |            |        |
+          WLAN          ------------------------------------------------------------------------------
+          htwintern     udp  | Laptop       | stl-s-stud |            |        |            |        |
+          --------------------------------------------------------------------------------------------
+          b             tcp  | Laptop       | stl-s-stud |            |        |            |        |
+          WLAN        ------------------------------------------------------------------------------
+          eduroam       udp  | Laptop       | stl-s-stud |            |        |            |        |
+          --------------------------------------------------------------------------------------------
+
+      - Einige Experimente funktioniert nicht! Welche und koennen Sie erklaeren warum ?
+      - Wie unterscheiden sich die TCP-UDP-Durchsaetze - allgemein ?
+      - Wie unterscheiden sich die LAN/WLAN-Durchsaetze - allgemein ?
+
+
+
+
+
+
+    2. Aufgabe - Netzwerkdurchsatz des HOME-LAN/WLAN  --> stl-s-stud.htwsaar.de
+    --------------------------------------------------------------------------------------
+      - Fuehren Sie folgende Experimente durch und interpretieren Sie die 
+        Ergebnisse:
+                --- die Experimente sollen unter Ihrem LapTop/PC-Betriebssystem
+                    durchgefuehrt werden
+                --- es soll sowohl tcp als auch udp  verwendet werden
+
+                    Client-Seite               Server-Seite
+                < > Test Laptop/PC (BS)    --> stl-s-stud.htwsaar.de
+
+                <a> via HOME-LAN  
+                <b> via HOME-WLAN 
+
+      - Erstellen Sie eine Tabelle der Durchschnittsdurchsaetze in folgender Form:
+
+                           | Clientname   | Servername |           Tx        |           Rx        |
+                           |              |            | MByte/s    | MBit/s | MByte/s    | MBit/s |
+        --------------------------------------------------------------------------------------------
+        a             tcp  | Laptop/PC    | stl-s-stud |            |        |            |        |
+        HOME-LAN  ----------------------------------------------------------------------------------
+                      udp  | Laptop/PC    | stl-s-stud |            |        |            |        |
+        --------------------------------------------------------------------------------------------
+        b             tcp  | Laptop/PC    | stl-s-stud |            |        |            |        |
+        HOME-WLAN ----------------------------------------------------------------------------------
+                      udp  | Laptop/PC    | stl-s-stud |            |        |            |        |
+        --------------------------------------------------------------------------------------------
+
+
+      - Wie unterscheiden sich die TCP-UDP-Durchsaetze ?
+      - Wie wirken sich die verschiedenen Zugriffsarten LAN/WLAN auf den Durchsatz aus ? Erklaerungen ?
+
+

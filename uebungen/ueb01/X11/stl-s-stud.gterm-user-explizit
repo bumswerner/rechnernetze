@@ -1,0 +1,28 @@
+#!/bin/ksh
+#
+# stl-s-stud.gterm-user-explizit
+#
+# oeffnet ein Gnome-Terminal auf 
+#
+# Host : stl-s-stud/stl-s-stud-neu
+#
+# unter anzugebendem User
+#
+# und zeigt es lokal an
+#
+#
+#
+#
+
+if [[ $# != 1 ]]
+  then
+     echo -e "\n\n Aufruf :   stl-s-stud.gnome-user-explizit Benutzerkennung \n\n"
+  else
+     USER=$1
+     ssh -fX ${USER}@stl-s-stud.htwsaar.de "/usr/bin/gnome-terminal \
+                        --show-menubar --title stl-s-stud" \
+                        2>/dev/null
+     echo -e " \n\n\tBitte kurz warten .... "
+     echo -e " \twg. ssh Sicherheitsmechanismen ...."
+     sleep 12
+fi

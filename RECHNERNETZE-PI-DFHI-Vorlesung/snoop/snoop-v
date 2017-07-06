@@ -1,0 +1,3764 @@
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 1 arrived at 10:46:47.33
+ETHER:  Packet size = 58 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 44 bytes
+IP:   Identification = 5101
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1db1
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138748
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 24 bytes
+TCP:  Flags = 0x02
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x04ea
+TCP:  Urgent pointer = 0
+TCP:  Options: (4 bytes)
+TCP:    - Maximum segment size = 1326 bytes
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 2 arrived at 10:46:47.33
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 44 bytes
+IP:   Identification = 24067
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d49a
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108856981
+TCP:  Acknowledgement number = 2162138749
+TCP:  Data offset = 24 bytes
+TCP:  Flags = 0x12
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xec90
+TCP:  Urgent pointer = 0
+TCP:  Options: (4 bytes)
+TCP:    - Maximum segment size = 1326 bytes
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 3 arrived at 10:46:47.33
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5102
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1db4
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138749
+TCP:  Acknowledgement number = 2108856982
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x03c8
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 4 arrived at 10:46:47.33
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5103
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1db2
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138749
+TCP:  Acknowledgement number = 2108856982
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x03bf
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 5 arrived at 10:46:47.34
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24068
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d49d
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108856982
+TCP:  Acknowledgement number = 2162138750
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9281
+TCP:  Checksum = 0x03c8
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 6 arrived at 10:46:47.34
+ETHER:  Packet size = 79 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 65 bytes
+IP:   Identification = 5104
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d99
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138750
+TCP:  Acknowledgement number = 2108856982
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xc884
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "wpy\0gast-40\0sun-cmd/9600\0"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 7 arrived at 10:46:47.38
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24069
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d49c
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108856982
+TCP:  Acknowledgement number = 2162138775
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x03ae
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 8 arrived at 10:46:47.52
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24070
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d49a
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108856982
+TCP:  Acknowledgement number = 2162138775
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x03a5
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9 arrived at 10:46:47.57
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5105
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1db1
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138775
+TCP:  Acknowledgement number = 2108856983
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x03ad
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 10 arrived at 10:46:47.57
+ETHER:  Packet size = 782 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 768 bytes
+IP:   Identification = 24071
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d1c2
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108856983
+TCP:  Acknowledgement number = 2162138775
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x26de
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "\r\n\r\n\r\n              __      __   __________   __      __\r\n  "
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 11 arrived at 10:46:47.62
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5106
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1db0
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138775
+TCP:  Acknowledgement number = 2108857711
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00d5
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 12 arrived at 10:46:47.69
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24072
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d498
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857711
+TCP:  Acknowledgement number = 2162138775
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00cc
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 13 arrived at 10:46:47.74
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5107
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1daf
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138775
+TCP:  Acknowledgement number = 2108857712
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00d4
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 14 arrived at 10:46:47.85
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24073
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d497
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857712
+TCP:  Acknowledgement number = 2162138775
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x38
+TCP:        ..1. .... = Urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x80a9
+TCP:  Urgent pointer = 1
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 15 arrived at 10:46:47.86
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 52 bytes
+IP:   Identification = 5108
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da2
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138775
+TCP:  Acknowledgement number = 2108857713
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x87f3
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 16 arrived at 10:46:47.86
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24074
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d497
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857713
+TCP:  Acknowledgement number = 2162138787
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00c7
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 17 arrived at 10:46:49.71
+ETHER:  Packet size = 64 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 50 bytes
+IP:   Identification = 24075
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d48c
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857713
+TCP:  Acknowledgement number = 2162138787
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x18ec
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "Password: "
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 18 arrived at 10:46:49.75
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5109
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1dad
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138787
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00bd
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 19 arrived at 10:46:51.73
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5110
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1dab
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138787
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xc7b3
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "9"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 20 arrived at 10:46:51.78
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24076
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d495
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138788
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00bc
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 21 arrived at 10:46:51.94
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5111
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1daa
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138788
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xc8b2
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "8"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 22 arrived at 10:46:51.99
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24077
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d494
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138789
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00bb
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 23 arrived at 10:46:52.79
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5112
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da9
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138789
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x89b1
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "w"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 24 arrived at 10:46:52.84
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24078
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d493
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138790
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00ba
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 25 arrived at 10:46:53.32
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5113
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da8
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138790
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xb0b0
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "P"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 26 arrived at 10:46:53.37
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24079
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d492
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138791
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00b9
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 27 arrived at 10:46:54.16
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5114
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da7
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138791
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x87af
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "y"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 28 arrived at 10:46:54.21
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24080
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d491
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138792
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00b8
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 29 arrived at 10:46:56.36
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5115
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da6
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138792
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xc7ae
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "9"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 30 arrived at 10:46:56.41
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24081
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d490
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138793
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00b7
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 31 arrived at 10:46:56.55
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5116
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da5
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138793
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xc8ad
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "8"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 32 arrived at 10:46:56.60
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24082
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d48f
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138794
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00b6
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 33 arrived at 10:46:57.22
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5117
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da4
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138794
+TCP:  Acknowledgement number = 2108857723
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xf3ac
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 34 arrived at 10:46:57.22
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 42 bytes
+IP:   Identification = 24083
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d48c
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857723
+TCP:  Acknowledgement number = 2162138795
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xf3a0
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 35 arrived at 10:46:57.27
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5118
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da4
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857725
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x00b3
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 36 arrived at 10:46:57.55
+ETHER:  Packet size = 101 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 87 bytes
+IP:   Identification = 24084
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d45e
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857725
+TCP:  Acknowledgement number = 2162138795
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x3967
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "Last login: Wed Nov 11 10:46:30 from stl-s-ad\r\n"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 37 arrived at 10:46:57.60
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5119
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da3
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857772
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0084
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 38 arrived at 10:46:58.16
+ETHER:  Packet size = 98 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 84 bytes
+IP:   Identification = 24085
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = d455
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33145
+UDP:  Destination port = 111 (Sun RPC)
+UDP:  Length = 64 
+UDP:  Checksum = 8F31 
+UDP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Transaction id = 910844021
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100000 (PMAP), version = 2, procedure = 3
+RPC:  Credentials: Flavor = 0 (None), len = 0 bytes
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+PMAP:  ----- Portmapper -----
+PMAP:  
+PMAP:  Proc = 3 (Get port number)
+PMAP:  Program = 100011 (RQUOTA)
+PMAP:  Version = 1
+PMAP:  Protocol = 17 (UDP)
+PMAP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 39 arrived at 10:46:58.16
+ETHER:  Packet size = 70 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 56 bytes
+IP:   Identification = 5120
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 1d87
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 111
+UDP:  Destination port = 33145 (Sun RPC)
+UDP:  Length = 36 
+UDP:  Checksum = 1CB8 
+UDP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Transaction id = 910844021
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 38
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+PMAP:  ----- Portmapper -----
+PMAP:  
+PMAP:  Proc = 3 (Get port number)
+PMAP:  Port = 32791
+PMAP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 40 arrived at 10:46:58.17
+ETHER:  Packet size = 138 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 124 bytes
+IP:   Identification = 24086
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = d42c
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33145
+UDP:  Destination port = 32791 (Sun RPC)
+UDP:  Length = 104 
+UDP:  Checksum = 60C6 
+UDP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Transaction id = 910844022
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100011 (RQUOTA), version = 1, procedure = 2
+RPC:  Credentials: Flavor = 1 (Unix), len = 32 bytes
+RPC:     Time = 11-Nov-98 09:47:20
+RPC:     Hostname = stl-2-02
+RPC:     Uid = 0, Gid = 30
+RPC:     Groups = 30 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+RQUOTA:  ----- Remote Quota Check -----
+RQUOTA:  
+RQUOTA:  Proc = 2 (Get active quotas)
+RQUOTA:  Path = /ora2/SUNWspro
+RQUOTA:  User id = 948
+RQUOTA:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 41 arrived at 10:46:58.17
+ETHER:  Packet size = 70 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 56 bytes
+IP:   Identification = 5121
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 1d86
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 32791
+UDP:  Destination port = 33145 (Sun RPC)
+UDP:  Length = 36 
+UDP:  Checksum = 1D24 
+UDP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Transaction id = 910844022
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 40
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+RQUOTA:  ----- Remote Quota Check -----
+RQUOTA:  
+RQUOTA:  Proc = 2 (Get active quotas)
+RQUOTA:  Status = 2 (No quota)
+RQUOTA:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 42 arrived at 10:46:59.07
+ETHER:  Packet size = 107 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 93 bytes
+IP:   Identification = 24087
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d455
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857772
+TCP:  Acknowledgement number = 2162138795
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x442f
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "Sun Microsystems Inc.\tSunOS 5.6\tGeneric\tAugust 1997\r\n"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 43 arrived at 10:46:59.11
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5122
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1da0
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857825
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x004f
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 44 arrived at 10:46:59.27
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 60 bytes
+IP:   Identification = 24088
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d475
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857825
+TCP:  Acknowledgement number = 2162138795
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xd1e7
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "You have new mail.\r\n"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 45 arrived at 10:46:59.32
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5123
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d9f
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857845
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x003b
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 46 arrived at 10:47:1.05
+ETHER:  Packet size = 166 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 152 bytes
+IP:   Identification = 24089
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d418
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1006
+TCP:  Destination port = 2049 (Sun RPC)
+TCP:  Sequence number = 1484242901
+TCP:  Acknowledgement number = 2069380878
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xf2b0
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 108
+RPC:  Transaction id = 4047861615
+RPC:  Type = 0 (Call)
+RPC:  RPC version = 2
+RPC:  Program = 100003 (NFS), version = 3, procedure = 1
+RPC:  Credentials: Flavor = 1 (Unix), len = 32 bytes
+RPC:     Time = 11-Nov-98 09:47:23
+RPC:     Hostname = stl-2-02
+RPC:     Uid = 948, Gid = 30
+RPC:     Groups = 30 
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  File handle = 0080008800000002000A000000043796
+NFS:                538D1263000A000000001FC05038177C
+NFS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 47 arrived at 10:47:1.05
+ETHER:  Packet size = 170 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 156 bytes
+IP:   Identification = 5124
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d2a
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 2049
+TCP:  Destination port = 1006 (Sun RPC)
+TCP:  Sequence number = 2069380878
+TCP:  Acknowledgement number = 1484243013
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xdf8e
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RPC:  ----- SUN RPC Header -----
+RPC:  
+RPC:  Record Mark: last fragment, length = 112
+RPC:  Transaction id = 4047861615
+RPC:  Type = 1 (Reply)
+RPC:  This is a reply to frame 46
+RPC:  Status = 0 (Accepted)
+RPC:  Verifier   : Flavor = 0 (None), len = 0 bytes
+RPC:  Accept status = 0 (Success)
+RPC:  
+NFS:  ----- Sun NFS -----
+NFS:  
+NFS:  Proc = 1 (Get file attributes)
+NFS:  Status = 0 (OK)
+NFS:    File type = 2 (Directory)
+NFS:    Mode = 0775
+NFS:     Setuid = 0, Setgid = 0, Sticky = 0
+NFS:     Owner's permissions = rwx
+NFS:     Group's permissions = rwx
+NFS:     Other's permissions = r-x
+NFS:    Link count = 12, User ID = 0, Group ID = 3
+NFS:    File size = 1536, Used = 2048
+NFS:    Special: Major = 0, Minor = 0
+NFS:    File system id = 8388744, File id = 276374
+NFS:    Last access time      = 11-Nov-98 02:15:07.395778000 GMT
+NFS:    Modification time     = 27-Apr-98 09:58:00.558223000 GMT
+NFS:    Attribute change time = 27-Apr-98 09:58:00.558223000 GMT
+NFS:  
+NFS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 48 arrived at 10:47:1.10
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24090
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d487
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1006
+TCP:  Destination port = 2049 
+TCP:  Sequence number = 1484243013
+TCP:  Acknowledgement number = 2069380994
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x61de
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 49 arrived at 10:47:1.66
+ETHER:  Packet size = 104 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 90 bytes
+IP:   Identification = 24091
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d454
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857845
+TCP:  Acknowledgement number = 2162138795
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x37a0
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "[1]\t813\r\nstl-2-02:gast-40:/export/home_ch/gast-40>"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 50 arrived at 10:47:1.70
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5125
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d9d
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857895
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0009
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 51 arrived at 10:47:19.06
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5126
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d9b
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138795
+TCP:  Acknowledgement number = 2108857895
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x9aff
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "e"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 52 arrived at 10:47:19.07
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24092
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d484
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857895
+TCP:  Acknowledgement number = 2162138796
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x9afe
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "e"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 53 arrived at 10:47:19.11
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5127
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d9b
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138796
+TCP:  Acknowledgement number = 2108857896
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0007
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 54 arrived at 10:47:19.29
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5128
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d99
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138796
+TCP:  Acknowledgement number = 2108857896
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x87fd
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "x"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 55 arrived at 10:47:19.30
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24093
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d483
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857896
+TCP:  Acknowledgement number = 2162138797
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x87fc
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "x"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 56 arrived at 10:47:19.34
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5129
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d99
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138797
+TCP:  Acknowledgement number = 2108857897
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0005
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 57 arrived at 10:47:19.63
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5130
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d97
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138797
+TCP:  Acknowledgement number = 2108857897
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x96fb
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "i"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 58 arrived at 10:47:19.64
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24094
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d482
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857897
+TCP:  Acknowledgement number = 2162138798
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x96fa
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "i"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 59 arrived at 10:47:19.68
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5131
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d97
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138798
+TCP:  Acknowledgement number = 2108857898
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0003
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 60 arrived at 10:47:19.78
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5132
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d95
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138798
+TCP:  Acknowledgement number = 2108857898
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x8bf9
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "t"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 61 arrived at 10:47:19.79
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 24095
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d481
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857898
+TCP:  Acknowledgement number = 2162138799
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x8bf8
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  "t"
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 62 arrived at 10:47:19.83
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5133
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d95
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138799
+TCP:  Acknowledgement number = 2108857899
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0x0001
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 63 arrived at 10:47:23.00
+ETHER:  Packet size = 55 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 41 bytes
+IP:   Identification = 5134
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d93
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138799
+TCP:  Acknowledgement number = 2108857899
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xf2f7
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 64 arrived at 10:47:23.01
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 42 bytes
+IP:   Identification = 24096
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d47f
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857899
+TCP:  Acknowledgement number = 2162138800
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x18
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xf2eb
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 65 arrived at 10:47:23.05
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5135
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d93
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138800
+TCP:  Acknowledgement number = 2108857901
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xfffd
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 66 arrived at 10:47:23.12
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24097
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d480
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857901
+TCP:  Acknowledgement number = 2162138800
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x11
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...1 = Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xfffc
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 67 arrived at 10:47:23.12
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5136
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d92
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138800
+TCP:  Acknowledgement number = 2108857902
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xfffc
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 68 arrived at 10:47:23.12
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 8:0:20:4:c5:9b, Sun
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 5137
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1d91
+IP:   Source address = 134.96.160.106, stl-s-ad
+IP:   Destination address = 134.96.157.2, stl-2-02
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 1014
+TCP:  Destination port = 513 (RLOGIN)
+TCP:  Sequence number = 2162138800
+TCP:  Acknowledgement number = 2108857902
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x11
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...1 = Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xfffb
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 69 arrived at 10:47:23.12
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 8:0:20:4:c5:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 40 bytes
+IP:   Identification = 24098
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = d47f
+IP:   Source address = 134.96.157.2, stl-2-02
+IP:   Destination address = 134.96.160.106, stl-s-ad
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 513
+TCP:  Destination port = 1014 
+TCP:  Sequence number = 2108857902
+TCP:  Acknowledgement number = 2162138801
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 9282
+TCP:  Checksum = 0xfffb
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+RLOGIN:  ----- RLOGIN:   -----
+RLOGIN:  
+RLOGIN:  ""
+RLOGIN:  
+

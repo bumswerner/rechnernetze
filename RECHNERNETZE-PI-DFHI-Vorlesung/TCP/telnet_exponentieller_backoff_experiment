@@ -1,0 +1,41 @@
+#
+#
+#
+#
+#  telnet_exponentieller_backoff_experiment
+#
+#
+#
+#
+
+
+Auf welchem Rechner ??
+----------------------
+         stl-m-wpy:wpy:/export/home_pm/wpy>
+
+
+Das Kommando :
+--------------
+         date; telnet stl-c-03 discard; date
+
+
+die date Ausgabe :
+------------------
+         Freitag, 30. April 2004, 09:20:23 Uhr MEST
+
+
+der telnet-Dialog :
+-------------------
+         Trying 134.96.216.103...
+         Connected to stl-c-03.htw-saarland.de.
+         Escape character is '^]'.
+         das geht jetzt
+         nun nichts mehr
+         Connection to stl-c-03.htw-saarland.de closed by foreign host.
+
+
+
+die Ausgabe des 2. date auf der Lokalen Maschine :
+--------------------------------------------------
+         Freitag, 30. April 2004, 09:30:40 Uhr MEST
+

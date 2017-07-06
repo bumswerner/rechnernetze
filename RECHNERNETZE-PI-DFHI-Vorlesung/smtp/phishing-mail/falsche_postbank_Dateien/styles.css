@@ -1,0 +1,135 @@
+.LogIn {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.formblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.textmenu2 {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.fliesstext {
+	FONT-SIZE: 13px; FONT-FAMILY: Arial, Helvetica
+}
+.catch {
+	FONT-SIZE: 16px; FONT-FAMILY: Arial, Helvetica
+}
+.headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 19px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica
+}
+.headlineregular {
+	FONT-WEIGHT: normal; FONT-SIZE: 19px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica
+}
+.marginal {
+	FONT-SIZE: 11px; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formwhitesmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formwhitetiny {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formwhitesmallreg {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formredsmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0033; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formredsmallreg {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0033; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formblueReg {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formblueRegindent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formbluesmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formbluesmallReg {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formbluesmaller {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formbluesmallerReg {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formbluesmallerRegBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formblueRadio {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.formoptionblue {
+	FONT-SIZE: 10px; COLOR: #000099; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cdcdf0
+}
+.formgreysmallerReg {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Frutiger, Arial, Helvetica
+}
+.tableheaderBlue {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #000066
+}
+.tablefontrow-blue {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #cfcff0
+}
+.tablefontrow-white {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica
+}
+.tablefontrow-whitebd {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica
+}
+.tablefontrow-bluebd {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000066; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #cfcff0
+}
+.Subhead3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #9999cc
+}
+.fondstable-1 {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.fondstable-1Bold {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.fondstable-2Bold {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; VERTICAL-ALIGN: top; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.fondstable-supersmall {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.fondstable-1Boldmargleft {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #6666cc 1px solid; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.fondstable-1Boldmargright {
+	BORDER-RIGHT: #6666cc 1px solid; BORDER-TOP: black 0px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #d7d7f5 1px solid; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: Verdana, Arial, Helvetica, Verdana; TEXT-DECORATION: none
+}
+.arial {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+.arialfett {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.arialklein {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial
+}
+.arialbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Frutiger, Arial, Helveticy, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.selectheadline {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+INPUT {
+	COLOR: #000066; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SELECT {
+	COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	COLOR: #000066; FONT-FAMILY: Frutiger, Arial, Helvetica, sans-serif
+}

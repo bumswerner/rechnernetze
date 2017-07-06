@@ -1,0 +1,33 @@
+#
+#
+#
+#
+#  CentOS_Telnet_1
+#
+#
+#
+#
+
+Bedeutung der Flags :    S = SYN, . = ACK, F = FIN
+
+
+Zuerst der TCP-3-Wege-Handshake
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [S]
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [S.]
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]
+
+Uebertragung der Daten vom Client zum Server und Bestaetigung des Servers:
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [P.]
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.]
+
+Uebertragung der Daten vom Server zum Client  und Bestaetigung des Clients:
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [P.]
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]
+
+Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Client :
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [F.]
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.]
+
+Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Server :
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [F.]
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]

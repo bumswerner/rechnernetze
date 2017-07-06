@@ -1,0 +1,15 @@
+
+#
+#
+#
+# stud-win10-tcp
+#
+#
+
+win10Tools -> netio -t stl-v-111.htwsaar.de | tee stud-win10-tcp
+############----------------------------------------------------
+
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel

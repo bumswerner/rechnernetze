@@ -1,0 +1,51 @@
+   program vers proto   port  service
+    100000    4   tcp    111  rpcbind
+    100000    3   tcp    111  rpcbind
+    100000    2   tcp    111  rpcbind
+    100000    4   udp    111  rpcbind
+    100000    3   udp    111  rpcbind
+    100000    2   udp    111  rpcbind
+    100007    3   udp  32773  ypbind
+    100007    2   udp  32773  ypbind
+    100007    1   udp  32773  ypbind
+    100007    3   tcp  32773  ypbind
+    100007    2   tcp  32773  ypbind
+    100007    1   tcp  32773  ypbind
+    100024    1   udp  32781  status
+    100024    1   tcp  32774  status
+    100133    1   udp  32781
+    100133    1   tcp  32774
+    100021    1   udp   4045  nlockmgr
+    100021    2   udp   4045  nlockmgr
+    100021    3   udp   4045  nlockmgr
+    100021    4   udp   4045  nlockmgr
+    100232   10   udp  32786  sadmind
+    100011    1   udp  32787  rquotaprog
+    100002    2   udp  32788  rusersd
+    100002    3   udp  32788  rusersd
+    100002    2   tcp  32775  rusersd
+    100002    3   tcp  32775  rusersd
+    100012    1   udp  32789  spray
+    100008    1   udp  32790  rwall
+    100001    2   udp  32791  rstatd
+    100001    3   udp  32791  rstatd
+    100001    4   udp  32791  rstatd
+    100083    1   tcp  32776
+    100221    1   tcp  32777
+    100235    1   tcp  32778
+    100068    2   udp  32792
+    100068    3   udp  32792
+    100068    4   udp  32792
+    100068    5   udp  32792
+    100021    1   tcp   4045  nlockmgr
+    100021    2   tcp   4045  nlockmgr
+    100021    3   tcp   4045  nlockmgr
+    100021    4   tcp   4045  nlockmgr
+    300598    1   udp  32819
+    300598    1   tcp  32789
+ 805306368    1   udp  32819
+ 805306368    1   tcp  32789
+    100249    1   udp  32820
+    100249    1   tcp  32790
+ 536871030    1   udp  32917
+ 536871030    1   tcp  33483

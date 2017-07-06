@@ -1,0 +1,80 @@
+#
+#
+#
+# CentOS_ARP-Kommunikations-Mitschnitt-1
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1 : bestimmung eines Ziel-Rechners, der NICHT in der 
+            ARP-Tabelle des Hosts ist 
+
+            pauly ::> arp -a | fgrep stl-s 
+            ##########------------------------------
+            stl-s-mail.stl.htwsaar.de (134.96.216.229) auf 00:e0:00:c5:5f:56 [ether] auf eth0
+            stl-s-studwork.stl.htwsaar.de (134.96.216.212) auf 00:0b:5d:ab:c3:20 [ether] auf eth0
+            stl-s-nfs-neu.stl.htwsaar.de (134.96.216.250) auf a0:36:9f:26:04:eb [ether] auf eth0
+            stl-s-proj2.stl.htwsaar.de (134.96.216.234) auf 00:14:4f:0f:5e:bc [ether] auf eth0
+            stl-s-dns1.stl.htwsaar.de (134.96.216.249) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+            stl-s-web.stl.htwsaar.de (134.96.216.235) auf 00:03:ba:65:39:97 [ether] auf eth0
+            stl-s-nfs.stl.htwsaar.de (134.96.216.207) auf 00:e0:00:c5:5f:56 [ether] auf eth0
+            stl-s-ad.stl.htwsaar.de (134.96.216.233) auf 08:00:20:80:d4:9b [ether] auf eth0
+            stl-s-bup.stl.htwsaar.de (134.96.216.205) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+
+
+            es wir als Zielhost : stl-s-sie.htwsaar.de ausgewählt
+
+
+Schritt 2a : starte tcpdump um arp-Kommunikation mitzuschneiden in einem Shell-Fenster
+
+            pauly ::> tcpdump -i eth0 -e -vv -S -A arp
+            ##########------------------------------
+            tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+            
+            ......
+
+            11:36:36.869818 00:1a:4a:f3:72:71 (oui Unknown) > Broadcast, 
+                            ethertype ARP (0x0806), length 42: Ethernet (len 6), IPv4 (len 4), 
+                            Request who-has stl-s-sie.stl.htwsaar.de tell stl-v-196.stl.htwsaar.de, length 28
+                            ..........J.rq.`.........`..
+            11:36:36.870131 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+                            ethertype ARP (0x0806), length 60: Ethernet (len 6), IPv4 (len 4), 
+                            Reply stl-s-sie.stl.htwsaar.de is-at 00:0b:5d:ab:c3:20 (oui Unknown), length 46
+            
+            ....
+            
+Schritt 2b : starte ping zu stl-s-sie.htwsaar.de um ARP-Kommunikation anzustossen
+
+            ping -c 5 stl-s-sie.htwsaar.de
+            ##########------------------------------
+            PING stl-s-sie.htwsaar.de (134.96.216.210) 56(84) bytes of data.
+            64 bytes from stl-s-sie.stl.htwsaar.de (134.96.216.210): icmp_seq=1 ttl=255 time=0.901 ms
+            64 bytes from stl-s-sie.stl.htwsaar.de (134.96.216.210): icmp_seq=2 ttl=255 time=0.303 ms
+            64 bytes from stl-s-sie.stl.htwsaar.de (134.96.216.210): icmp_seq=3 ttl=255 time=0.356 ms
+            64 bytes from stl-s-sie.stl.htwsaar.de (134.96.216.210): icmp_seq=4 ttl=255 time=0.303 ms
+            64 bytes from stl-s-sie.stl.htwsaar.de (134.96.216.210): icmp_seq=5 ttl=255 time=0.377 ms
+            
+            --- stl-s-sie.htwsaar.de ping statistics ---
+            5 packets transmitted, 5 received, 0% packet loss, time 4010ms
+            rtt min/avg/max/mdev = 0.303/0.448/0.901/0.228 ms
+            
+
+Schritt 3 : Ueberpruefung ob Ziel-Rechner, der NICHT in der ARP-Tabelle des Hosts aufgefuehrt wird 
+
+            pauly ::> arp -a | fgrep stl-s            
+            ##########------------------------------
+            stl-s-mail.stl.htwsaar.de (134.96.216.229) auf 00:e0:00:c5:5f:56 [ether] auf eth0
+            stl-s-studwork.stl.htwsaar.de (134.96.216.212) auf 00:0b:5d:ab:c3:20 [ether] auf eth0
+  ---->     stl-s-sie.stl.htwsaar.de (134.96.216.210) auf 00:0b:5d:ab:c3:20 [ether] auf eth0
+            stl-s-nfs-neu.stl.htwsaar.de (134.96.216.250) auf a0:36:9f:26:04:eb [ether] auf eth0
+            stl-s-proj2.stl.htwsaar.de (134.96.216.234) auf 00:14:4f:0f:5e:bc [ether] auf eth0
+            stl-s-dns1.stl.htwsaar.de (134.96.216.249) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+            stl-s-web.stl.htwsaar.de (134.96.216.235) auf 00:03:ba:65:39:97 [ether] auf eth0
+            stl-s-nfs.stl.htwsaar.de (134.96.216.207) auf 00:e0:00:c5:5f:56 [ether] auf eth0
+            stl-s-ad.stl.htwsaar.de (134.96.216.233) auf 08:00:20:80:d4:9b [ether] auf eth0
+            stl-s-bup.stl.htwsaar.de (134.96.216.205) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+

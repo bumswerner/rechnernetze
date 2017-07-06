@@ -1,0 +1,226 @@
+
+
+vvvvvvvvvvvvv stl-v-192.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA stl-v-192.stl.htwsaar.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+stl-v-192.stl.htwsaar.de	has AAAA address 2001:638:200:2:7374:76:aaaa:a03d
+
+
+
+vvvvvvvvvvvvv stl-s-stud.stl.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA stl-s-stud.stl.htwsaar.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+stl-s-stud.stl.htwsaar.de	canonical name = stl-s-studwork.stl.htwsaar.de.
+stl-s-studwork.stl.htwsaar.de	has AAAA address 2001:638:200:2:7374:73:7377:1
+
+
+
+vvvvvvvvvvvvv www.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.htwsaar.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.htwsaar.de	canonical name = www-tmp.htw-saarland.de.
+
+Authoritative answers can be found from:
+htw-saarland.de
+	origin = ns.rz.uni-saarland.de
+	mail addr = Margit\.Meyer.htw-saarland.de
+	serial = 2017052400
+	refresh = 10800
+	retry = 3600
+	expire = 3600000
+	minimum = 300
+
+
+
+vvvvvvvvvvvvv www.uni-saarland.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.uni-saarland.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.uni-saarland.de	canonical name = webuni.rz.uni-saarland.de.
+
+Authoritative answers can be found from:
+rz.uni-saarland.de
+	origin = ns.rz.uni-saarland.de
+	mail addr = net.rz.uni-saarland.de
+	serial = 2017052400
+	refresh = 10800
+	retry = 3600
+	expire = 3600000
+	minimum = 300
+
+
+
+vvvvvvvvvvvvv www.uni-kaiserslautern.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.uni-kaiserslautern.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.uni-kaiserslautern.de	canonical name = wta-web.rhrk.uni-kl.de.
+wta-web.rhrk.uni-kl.de	has AAAA address 2001:638:208:ef61:0:ff:fe00:2
+
+Authoritative answers can be found from:
+uni-kl.de	nameserver = minnehaha.rhrk.uni-kl.de.
+uni-kl.de	nameserver = dns1.belwue.de.
+uni-kl.de	nameserver = dns-2.dfn.de.
+uni-kl.de	nameserver = minnetonka.rhrk.uni-kl.de.
+dns1.belwue.de	internet address = 129.143.2.10
+dns-2.dfn.de	internet address = 193.174.75.54
+dns-2.dfn.de	has AAAA address 2001:638:d:b102::1
+minnetonka.rhrk.uni-kl.de	internet address = 131.246.1.116
+minnetonka.rhrk.uni-kl.de	has AAAA address 2001:638:208:1::116
+minnehaha.rhrk.uni-kl.de	internet address = 131.246.9.116
+minnehaha.rhrk.uni-kl.de	has AAAA address 2001:638:208:9::116
+
+
+
+vvvvvvvvvvvvv www.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.dfn.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.dfn.de	has AAAA address 2001:638:d:c102::140
+
+Authoritative answers can be found from:
+de	nameserver = n.de.net.
+de	nameserver = z.nic.de.
+de	nameserver = s.de.net.
+de	nameserver = a.nic.de.
+de	nameserver = l.de.net.
+de	nameserver = f.nic.de.
+f.nic.de	internet address = 81.91.164.5
+l.de.net	internet address = 77.67.63.105
+l.de.net	has AAAA address 2001:668:1f:11::105
+n.de.net	internet address = 194.146.107.6
+s.de.net	internet address = 195.243.137.26
+z.nic.de	internet address = 194.246.96.1
+a.nic.de	has AAAA address 2001:678:2::53
+
+
+
+vvvvvvvvvvvvv www.zeit.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.zeit.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+*** Can't find www.zeit.de: No answer
+
+Authoritative answers can be found from:
+zeit.de
+	origin = ns1.zeit.de
+	mail addr = administrator.zeit.de
+	serial = 2017052401
+	refresh = 3600
+	retry = 1800
+	expire = 1209600
+	minimum = 3600
+
+
+
+vvvvvvvvvvvvv ws-ber1.win-ip.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA ws-ber1.win-ip.dfn.de
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+ws-ber1.win-ip.dfn.de	has AAAA address 2001:638:200:8fff::c1ae:4b8e
+
+Authoritative answers can be found from:
+win-ip.dfn.de	nameserver = dns-3.dfn.de.
+win-ip.dfn.de	nameserver = dns-1.dfn.de.
+win-ip.dfn.de	nameserver = dns-2.dfn.de.
+dns-2.dfn.de	internet address = 193.174.75.54
+dns-2.dfn.de	has AAAA address 2001:638:d:b102::1
+dns-1.dfn.de	internet address = 193.174.75.50
+dns-1.dfn.de	has AAAA address 2001:638:d:b101::1
+dns-3.dfn.de	internet address = 193.174.75.58
+dns-3.dfn.de	has AAAA address 2001:638:d:b103::1
+
+
+
+vvvvvvvvvvvvv www.nasa.gov vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.nasa.gov
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.nasa.gov	canonical name = www.nasawestprime.com.
+www.nasawestprime.com	canonical name = iznasa.hs.llnwd.net.
+iznasa.hs.llnwd.net	has AAAA address 2a02:3d0:623:a000::8008
+
+Authoritative answers can be found from:
+llnwd.net	nameserver = dns14.llnwd.net.
+llnwd.net	nameserver = dns12.llnwd.net.
+dns12.llnwd.net	internet address = 69.28.143.12
+dns14.llnwd.net	internet address = 69.28.143.14
+
+
+
+vvvvvvvvvvvvv www.nasa.com vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.nasa.com
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.nasa.com	canonical name = nasa.com.
+nasa.com	has AAAA address 2001:638:200:8fff::c040:9396
+
+Authoritative answers can be found from:
+nasa.com	nameserver = ns1.protectdelegation.eu.
+nasa.com	nameserver = ns2.protectdelegation.ca.
+nasa.com	nameserver = ns3.protectdelegation.com.
+ns3.protectdelegation.com	internet address = 188.138.94.112
+
+
+
+vvvvvvvvvvvvv www.washington.org vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.washington.org
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.washington.org	has AAAA address 2400:cb00:2048:1::6819:b922
+www.washington.org	has AAAA address 2400:cb00:2048:1::6819:b822
+
+Authoritative answers can be found from:
+washington.org	nameserver = fay.ns.cloudflare.com.
+washington.org	nameserver = norm.ns.cloudflare.com.
+
+
+
+vvvvvvvvvvvvv www.sydney.com vvvvvvvvvvvvvvvvv
+pauly:> nslookup -q=AAAA www.sydney.com
+########------------------------------------------------------------
+Server:		134.96.216.249
+Address:	134.96.216.249#53
+
+Non-authoritative answer:
+www.sydney.com	has AAAA address 2001:638:200:8fff::36fd:fd4d
+
+Authoritative answers can be found from:
+sydney.com	nameserver = ns-373.awsdns-46.com.
+sydney.com	nameserver = ns-1440.awsdns-52.org.
+ns-373.awsdns-46.com	has AAAA address 2600:9000:5301:7500::1
+

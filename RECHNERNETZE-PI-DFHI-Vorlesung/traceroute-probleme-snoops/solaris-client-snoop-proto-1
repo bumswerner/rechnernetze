@@ -1,0 +1,345 @@
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 8 arrived at 9:34:24.49781
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f6:d7, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 18692
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f442
+IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   Destination address = 217.13.68.145, www.zeit.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33694
+UDP:  Destination port = 33435 
+UDP:  Length = 20 
+UDP:  Checksum = DF08 
+UDP:  
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9 arrived at 9:34:24.49813
+ETHER:  Packet size = 70 bytes
+ETHER:  Destination = 0:30:5:aa:f6:d7, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 56 bytes
+IP:   Identification = 20190
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = afa4
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 3 (Destination unreachable)
+ICMP:  Code = 13 (Communication administratively prohibited)
+ICMP:  Checksum = 179c
+ICMP:  
+ICMP:  [ subject header follows ]
+ICMP:  
+ICMP:IP:   ----- IP Header -----
+ICMP:IP:   
+ICMP:IP:   Version = 4
+ICMP:IP:   Header length = 20 bytes
+ICMP:IP:   Type of service = 0x00
+ICMP:IP:         xxx. .... = 0 (precedence)
+ICMP:IP:         ...0 .... = normal delay
+ICMP:IP:         .... 0... = normal throughput
+ICMP:IP:         .... .0.. = normal reliability
+ICMP:IP:         .... ..0. = not ECN capable transport
+ICMP:IP:         .... ...0 = no ECN congestion experienced
+ICMP:IP:   Total length = 40 bytes -- truncated
+ICMP:IP:   Identification = 18692
+ICMP:IP:   Flags = 0x0
+ICMP:IP:         .0.. .... = may fragment
+ICMP:IP:         ..0. .... = last fragment
+ICMP:IP:   Fragment offset = 0 bytes
+ICMP:IP:   Time to live = 1 seconds/hops
+ICMP:IP:   Protocol = 17 (UDP)
+ICMP:IP:   Header checksum = f442
+ICMP:IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+ICMP:IP:   Destination address = 217.13.68.145, www.zeit.de
+ICMP:IP:   No options
+ICMP:IP:   
+ICMP:UDP:  ----- UDP Header -----
+ICMP:UDP:  
+ICMP:UDP:  Source port = 33694
+ICMP:UDP:  Destination port = 33435 
+ICMP:UDP:  Length = 20 (Not all data contained in this fragment)
+ICMP:UDP:  Checksum = DF08 
+ICMP:UDP:  
+UDP:  
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 19 arrived at 9:34:29.50784
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f6:d7, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 18694
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f340
+IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   Destination address = 217.13.68.145, www.zeit.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33694
+UDP:  Destination port = 33437 
+UDP:  Length = 20 
+UDP:  Checksum = 91DE 
+UDP:  
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 20 arrived at 9:34:29.50812
+ETHER:  Packet size = 70 bytes
+ETHER:  Destination = 0:30:5:aa:f6:d7, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 56 bytes
+IP:   Identification = 20251
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = af67
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 3 (Destination unreachable)
+ICMP:  Code = 13 (Communication administratively prohibited)
+ICMP:  Checksum = 64c4
+ICMP:  
+ICMP:  [ subject header follows ]
+ICMP:  
+ICMP:IP:   ----- IP Header -----
+ICMP:IP:   
+ICMP:IP:   Version = 4
+ICMP:IP:   Header length = 20 bytes
+ICMP:IP:   Type of service = 0x00
+ICMP:IP:         xxx. .... = 0 (precedence)
+ICMP:IP:         ...0 .... = normal delay
+ICMP:IP:         .... 0... = normal throughput
+ICMP:IP:         .... .0.. = normal reliability
+ICMP:IP:         .... ..0. = not ECN capable transport
+ICMP:IP:         .... ...0 = no ECN congestion experienced
+ICMP:IP:   Total length = 40 bytes -- truncated
+ICMP:IP:   Identification = 18694
+ICMP:IP:   Flags = 0x0
+ICMP:IP:         .0.. .... = may fragment
+ICMP:IP:         ..0. .... = last fragment
+ICMP:IP:   Fragment offset = 0 bytes
+ICMP:IP:   Time to live = 1 seconds/hops
+ICMP:IP:   Protocol = 17 (UDP)
+ICMP:IP:   Header checksum = f440
+ICMP:IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+ICMP:IP:   Destination address = 217.13.68.145, www.zeit.de
+ICMP:IP:   No options
+ICMP:IP:   
+ICMP:UDP:  ----- UDP Header -----
+ICMP:UDP:  
+ICMP:UDP:  Source port = 33694
+ICMP:UDP:  Destination port = 33437 
+ICMP:UDP:  Length = 20 (Not all data contained in this fragment)
+ICMP:UDP:  Checksum = 91DE 
+ICMP:UDP:  
+UDP:  
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 26 arrived at 9:34:34.51781
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f6:d7, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 18696
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f33e
+IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   Destination address = 217.13.68.145, www.zeit.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33694
+UDP:  Destination port = 33439 
+UDP:  Length = 20 
+UDP:  Checksum = ACB5 
+UDP:  
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 27 arrived at 9:34:34.51821
+ETHER:  Packet size = 70 bytes
+ETHER:  Destination = 0:30:5:aa:f6:d7, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 56 bytes
+IP:   Identification = 20315
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = af27
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 134.96.216.127, stl-c-27.htw-saarland.de
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 3 (Destination unreachable)
+ICMP:  Code = 13 (Communication administratively prohibited)
+ICMP:  Checksum = 49eb
+ICMP:  
+ICMP:  [ subject header follows ]
+ICMP:  
+ICMP:IP:   ----- IP Header -----
+ICMP:IP:   
+ICMP:IP:   Version = 4
+ICMP:IP:   Header length = 20 bytes
+ICMP:IP:   Type of service = 0x00
+ICMP:IP:         xxx. .... = 0 (precedence)
+ICMP:IP:         ...0 .... = normal delay
+ICMP:IP:         .... 0... = normal throughput
+ICMP:IP:         .... .0.. = normal reliability
+ICMP:IP:         .... ..0. = not ECN capable transport
+ICMP:IP:         .... ...0 = no ECN congestion experienced
+ICMP:IP:   Total length = 40 bytes -- truncated
+ICMP:IP:   Identification = 18696
+ICMP:IP:   Flags = 0x0
+ICMP:IP:         .0.. .... = may fragment
+ICMP:IP:         ..0. .... = last fragment
+ICMP:IP:   Fragment offset = 0 bytes
+ICMP:IP:   Time to live = 1 seconds/hops
+ICMP:IP:   Protocol = 17 (UDP)
+ICMP:IP:   Header checksum = f43e
+ICMP:IP:   Source address = 134.96.216.127, stl-c-27.htw-saarland.de
+ICMP:IP:   Destination address = 217.13.68.145, www.zeit.de
+ICMP:IP:   No options
+ICMP:IP:   
+ICMP:UDP:  ----- UDP Header -----
+ICMP:UDP:  
+ICMP:UDP:  Source port = 33694
+ICMP:UDP:  Destination port = 33439 
+ICMP:UDP:  Length = 20 (Not all data contained in this fragment)
+ICMP:UDP:  Checksum = ACB5 
+ICMP:UDP:  
+UDP:  
+

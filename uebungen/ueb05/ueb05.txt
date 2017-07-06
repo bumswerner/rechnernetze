@@ -1,0 +1,98 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    05. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 25 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb05/ueb05.txthost
+    
+    
+    
+    
+    1. Aufgabe - Die Routingtabelle eines Hosts = f(Betriebssystem & LAN)
+    ---------------------------------------------------------------------
+      - mit welchen Linux- bzw Windowskommandos kann man sich die 
+        Routingtabelle eines Rechners anschauen ??
+        (lesen Sie die Man-Pages unter Solaris/Redhat/CentOS/XUbuntu/Win10 !!!)
+
+      - Fuehren Sie das entsprechende Kommando unter den moeglichen Betriebssystemen
+               <> CentOS (stl-s-stud.htwsaar.de)
+               <> Redhat
+               <> Win10
+        auf einer virtuellen Maschine in den STL-Raeumen aus und
+        speichern Sie die Ausgaben in einer Textdatei ab.
+
+      - Fuehren Sie das entsprechende Kommando auch auf einer Arbeitsstation die
+               <> an ihrem HOME-LAN u.o. WLAN
+        angeschlossen ist, aus und speichern Sie auch diese Ausgaben in einer Textdatei ab.
+
+      - Beispieldaten fuer folgende HTW-Netze 
+               <> an dem STL-LAN Betriebssystem Solaris
+               <> an dem HTW-LAN (gelbe Dosen)
+               <> an dem HTW-WLAN (Eduroam)  
+               <> an dem HTW-WLAN (hiz-saarland)
+               <> an dem HTW-WLAN (htwintern) 
+        finden Sie im Uebungsdirectory im Ordner HTW-WLAN-Daten.
+
+
+      - Erstellen Sie je eine Tabelle in dem unten angegebenen Format fuer folgende 
+                      ^^^^^^^^^^^^^^^
+        Routingtabelleneintraege :
+
+                      - Defaultrouten
+                      - Routen ins Heimat-IP-Netzwerk des Hosts
+                      - Routen ins Host-interne IP-Netzwerk
+                      - Routen in andere Netzwerke
+                                         
+
+           Betriebssystem  | Standort     | Routingeintraege
+                           |              | Routenbezeichnung | Router | Interface
+        --------------------------------------------------------------------------
+           Solaris         | STL          |                   |        |
+        --------------------------------------------------------------------------
+           CentOS          | STL          |                   |        |
+        --------------------------------------------------------------------------
+           Redhat          | STL          |                   |        |
+        --------------------------------------------------------------------------
+           Win10           | STL          |                   |        |
+        --------------------------------------------------------------------------
+           Laptop - ????*  | gelbe Dosen  |                   |        |
+        --------------------------------------------------------------------------
+           Laptop - ????*  | eduroam      |                   |        |
+        --------------------------------------------------------------------------
+           Laptop - ????*  | hiz-saarland |                   |        |
+        --------------------------------------------------------------------------
+           Laptop - ????*  | htwintern    |                   |        |
+        --------------------------------------------------------------------------
+           Rechner- ????*  | HOME-LAN     |                   |        |
+        --------------------------------------------------------------------------
+           Rechner- ????*  | HOME-WLAN    |                   |        |
+        --------------------------------------------------------------------------
+
+        ????* == das HOME-Rechner-Betriebssystem
+
+      - Welche Routen tauchen bei den meisten Betriebssystemen auf ? und
+        welchen Zweck erfuellen sie ? 
+
+      - Welche Routen kommen nur bei einem Betriebssystem vor ? und 
+        welchen Zweck erfuellen diese Zusatzrouten ?
+
+      - Welche Routen kommen bei den einzelnen Betriebssystem nicht vor ? und 
+        was bedeutet das ?
+
+      - Die Rechner sind je nachdem ob sie am STL-LAN oder am HTW-LAN/WLAN oder 
+        am HOME-LAN/WLAN angeschlossen sind in verschiedenen IP-Netzwerken aktiv.
+        Charakterisieren sie die einzelnen benutzten IP-Adressbereiche.
+  

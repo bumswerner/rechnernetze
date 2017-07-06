@@ -1,0 +1,9 @@
+    No. Time        Source                    Destination              Protocol Info
+      1 0.000000    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [SYN] Seq=2921078915 Ack=0 Win=32850 Len=0
+      2 0.000391    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      sink > 32897 [SYN, ACK] Seq=3526463260 Ack=2921078916 Win=33304 Len=0
+      3 0.000540    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [ACK] Seq=2921078916 Ack=3526463261 Win=33304 Len=0
+      4 10.541839   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [PSH, ACK] Seq=2921078916 Ack=3526463261 Win=33304 Len=16
+      5 10.542092   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      sink > 32897 [ACK] Seq=3526463261 Ack=2921078932 Win=33304 Len=0
+      6 72.508703   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [PSH, ACK] Seq=2921078932 Ack=3526463261 Win=33304 Len=17
+      7 76.763921   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [PSH, ACK] Seq=2921078932 Ack=3526463261 Win=33304 Len=17
+      8 85.293900   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      32897 > sink [PSH, ACK] Seq=2921078932 Ack=3526463261 Win=33304 Len=17

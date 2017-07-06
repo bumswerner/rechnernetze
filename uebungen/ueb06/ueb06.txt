@@ -1,0 +1,52 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    06. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 25 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb06/ueb06.txt
+
+
+
+
+    1. Aufgabe - Bedeutung der Routingtabelle eines Host im STL-Netzwerk
+    --------------------------------------------------------------------
+
+      - Erlaeutern Sie anhand der einzelnen Routingtabelleneintraege einer VM
+        unter CentOS im STL welche Routingentscheidungen der Host selbst treffen kann. 
+
+                 <> Beschreiben Sie den jeweiligen Entscheidungsalgorithmus.
+                 <> geben Sie fuer jede Routingentscheidung ein Beispielszenario an
+
+      - Ueber welche Routen kann der Host direkt, d.h. auf Ebene 2 des OSI 7-Schichten
+        Modelles mit seinem END-Kommunikationspartner kommunizieren?
+
+      - Ueber welche Routen kann er nur eine erste Teilstrecke zum Kommunikationspartner
+        ueberwinden ?, wer und wie werden dann die weiteren Routingentscheidungen getroffen.
+                  
+      - Welche Unterschiede existieren zwischen der CentOS-Routingtabelle und der Solaris-10-
+        Routingtabelle, die Sie unter dem Solaris-daten-Diretory im Uebungsdirectory finden ?
+
+
+    2. Aufgabe - Just for fun : IP-Adressen & Betriebssysteme
+    ---------------------------------------------------------
+      - Versuchen Sie mit LINUX-Standardkommandos herauszufinden welche IP-Adressen
+        im STL/KIL belegt sind.
+
+      - Wie koennen Sie das Betriebssystem eines entfernten STL-Rechners herausfinden?
+
+                  <> mit LINUX-Standardkommandos 
+
+                  <> mit Fremdsoftware

@@ -1,0 +1,82 @@
+#
+#
+#
+# XUbuntu
+#   
+#
+#
+#
+#
+#
+
+Schritt 1a : starte tcpdump um icmp-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@CentOS ::> tcpdump -i eth0 -e -vv -S -A 'icmp and ( dst stl-v-124.htwsaar.de or src stl-v-124.htwsaar.de )'
+            ################---------------------------------------------------------------------------------------------------
+            tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+            09:28:33.426029 00:1a:4a:f3:72:45 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 54182, offset 0, flags [DF], proto ICMP (1), length 84)
+                stl-v-124.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 3713, seq 1, length 64
+            E..T..@.@....`.|.`....3.....!.tW....[....................... !"#$%&'()*+,-./01234567
+            09:28:33.426105 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:45 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 31615, offset 0, flags [none], proto ICMP (1), length 84)
+                stl-v-196.stl.htwsaar.de > stl-v-124.stl.htwsaar.de: ICMP echo reply, id 3713, seq 1, length 64
+            E..T{...@.A(.`...`.|..;.....!.tW....[....................... !"#$%&'()*+,-./01234567
+            09:28:34.425033 00:1a:4a:f3:72:45 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 54188, offset 0, flags [DF], proto ICMP (1), length 84)
+                stl-v-124.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 3713, seq 2, length 64
+            E..T..@.@....`.|.`..........".tW....u....................... !"#$%&'()*+,-./01234567
+            09:28:34.425120 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:45 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 31616, offset 0, flags [none], proto ICMP (1), length 84)
+                stl-v-196.stl.htwsaar.de > stl-v-124.stl.htwsaar.de: ICMP echo reply, id 3713, seq 2, length 64
+            E..T{...@.A'.`...`.|.. .....".tW....u....................... !"#$%&'()*+,-./01234567
+            09:28:35.424797 00:1a:4a:f3:72:45 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 54298, offset 0, flags [DF], proto ICMP (1), length 84)
+                stl-v-124.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 3713, seq 3, length 64
+            E..T..@.@....`.|.`.... .....#.tW....l....................... !"#$%&'()*+,-./01234567
+            09:28:35.424890 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:45 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 31617, offset 0, flags [none], proto ICMP (1), length 84)
+                stl-v-196.stl.htwsaar.de > stl-v-124.stl.htwsaar.de: ICMP echo reply, id 3713, seq 3, length 64
+            E..T{...@.A&.`...`.|..(.....#.tW....l....................... !"#$%&'()*+,-./01234567
+            09:28:36.424733 00:1a:4a:f3:72:45 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 54495, offset 0, flags [DF], proto ICMP (1), length 84)
+                stl-v-124.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 3713, seq 4, length 64
+            E..T..@.@....`.|.`....0.....$.tW....[....................... !"#$%&'()*+,-./01234567
+            09:28:36.424822 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:45 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 31618, offset 0, flags [none], proto ICMP (1), length 84)
+                stl-v-196.stl.htwsaar.de > stl-v-124.stl.htwsaar.de: ICMP echo reply, id 3713, seq 4, length 64
+            E..T{...@.A%.`...`.|..8.....$.tW....[....................... !"#$%&'()*+,-./01234567
+            09:28:37.424774 00:1a:4a:f3:72:45 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 54543, offset 0, flags [DF], proto ICMP (1), length 84)
+                stl-v-124.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 3713, seq 5, length 64
+            E..T..@.@....`.|.`....&.....%.tW....d....................... !"#$%&'()*+,-./01234567
+            09:28:37.424877 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:45 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 31619, offset 0, flags [none], proto ICMP (1), length 84)
+                stl-v-196.stl.htwsaar.de > stl-v-124.stl.htwsaar.de: ICMP echo reply, id 3713, seq 5, length 64
+            E..T{...@.A$.`...`.|........%.tW....d....................... !"#$%&'()*+,-./01234567
+            ^C
+            10 packets captured
+            16 packets received by filter
+            0 packets dropped by kernel
+            
+                        
+            
+            
+
+
+Schritt 1b : starte auf XUbuntu-VM ping zu CentOS-VM
+
+            pauly@XUbuntu> ping stl-v-196.htwsaar.de
+            ##############------------------------------
+            PING stl-v-196.htwsaar.de (134.96.216.196) 56(84) bytes of data.
+            64 bytes from stl-v-196.htw-saarland.de (134.96.216.196): icmp_seq=1 ttl=64 time=0.427 ms
+            64 bytes from stl-v-196.htw-saarland.de (134.96.216.196): icmp_seq=2 ttl=64 time=0.414 ms
+            64 bytes from stl-v-196.htw-saarland.de (134.96.216.196): icmp_seq=3 ttl=64 time=0.503 ms
+            64 bytes from stl-v-196.htw-saarland.de (134.96.216.196): icmp_seq=4 ttl=64 time=0.405 ms
+            64 bytes from stl-v-196.htw-saarland.de (134.96.216.196): icmp_seq=5 ttl=64 time=0.444 ms
+            ^C
+            --- stl-v-196.htwsaar.de ping statistics ---
+            5 packets transmitted, 5 received, 0% packet loss, time 3998ms
+            rtt min/avg/max/mdev = 0.405/0.438/0.503/0.041 ms
+

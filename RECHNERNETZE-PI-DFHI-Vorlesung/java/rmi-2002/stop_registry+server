@@ -1,0 +1,32 @@
+#!/bin/ksh
+#
+#  stop_registry+server
+#
+#
+#
+
+
+JHOME="/opt/j2sdk/j2sdk1.4.2/jre/bin/"
+
+echo "\n\n\n\t stoppen der rmiregistry und des servers ...."
+
+echo "\n\n\t ==========================================="
+echo "\n\t die PIDs der  server ...."
+
+PIDS=" "
+for I in `ps -ef | fgrep ${JHOME} | grep -v fgrep | tr -s " " | cut -d" " -f3`
+  do
+    PIDS="$PIDS $I"
+  done
+
+echo "\n\t $PIDS\n\n"
+
+kill -9 $PIDS
+
+if [[ $? -eq 0 ]]
+  then
+     echo "\n\n\tdie server-prozesse wurden beendet !!!\n\n"
+  else
+     echo "\n\n\tF E H L E R  !!!!!\n\n"
+fi
+

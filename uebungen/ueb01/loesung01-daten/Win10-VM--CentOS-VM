@@ -1,0 +1,34 @@
+#
+#
+#
+#  Win10-VM--CentOS-VM
+#
+#
+#
+
+C:\netio132\bin> win32-i386.exe -t stl-v-149.htwsaar.de
+################-----------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  62.28 MByte/s Tx,  156.77 MByte/s Rx.
+Packet size  2k bytes:  92.70 MByte/s Tx,  168.89 MByte/s Rx.
+Packet size  4k bytes:  133.41 MByte/s Tx,  179.73 MByte/s Rx.
+Packet size  8k bytes:  212.62 MByte/s Tx,  189.84 MByte/s Rx.
+Packet size 16k bytes:  298.43 MByte/s Tx,  168.80 MByte/s Rx.
+Packet size 32k bytes:  451.79 MByte/s Tx,  161.97 MByte/s Rx.
+Done.
+
+
+C:\netio132\bin> win32-i386.exe -u stl-v-149.htwsaar.de
+################-----------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060
+
+
+C:\netio132\bin>
+################-----------------------------------------------

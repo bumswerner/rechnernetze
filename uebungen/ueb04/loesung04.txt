@@ -1,0 +1,196 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 04. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb04/loesung04.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb04/HTW-WLAN-Daten
+               : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb02/loesung02-daten
+    
+    
+
+1. Aufgabe - Netzwerkschnittstellen eines Rechners
+--------------------------------------------------
+    - mit welchen Linux- bzw Windowskommandos kann man sich die 
+      Netzwerkschnittstellenkonfiguration eines Rechners anschauen ??
+      (lesen Sie die Manualpages unter Redhat/CentOS/XUbuntu/Win10 !!!)
+
+      ###> Redhat/CentOS : ifconfig -a   ( | tee ausgabedatei) [altes Kommando depricated]
+                           ip a          ( | tee ausgabedatei) [neues Kommando]
+      ###> WinX          : ipconfig /all ( > ausgabedatei)
+
+
+    - Fuehren Sie das entsprechende Kommando unter den Betriebssystemen 
+      Redhat/Win10 auf einer virtuellen Maschine
+      im STL aus und speichern Sie die Ausgaben in einer Textdatei ab.
+
+    - Fuehren Sie das entsprechende Kommando auch auf einer Arbeitsstation in Ihrem 
+      HOME-Netzwerk fuer folgende Situationen aus:
+                <> an ihrem HOME-LAN u./o. WLAN
+      speichern Sie auch diese Ausgaben in einer Textdatei ab.
+
+    - Beispiel-Daten fuer die unter aufgefuehrten Netze finden Sie im Uebungs-Directory
+      im Ordner : HTW-WLAN-Daten
+                <> an dem oeffentlichen LAN der HTW (Gelbe Dosen)    
+                <> an dem oeffentlichen WLAN der HTW  (Eduroam)      
+                <> an dem oeffentlichen WLAN htwintern               
+                <> an dem oeffentlichen WLAN hiz-saarland            
+                <> an dem oeffentlichen WLAN hiz-saarland + HTWDS-VPN
+                <> an dem oeffentlichen WLAN hiz-saarland + STL-VPN  
+                <> an ihrem HOME-LAN u./o. WLAN + STL-VPN
+
+
+
+2. Aufgabe - Merkmale der IP-Netzwerke an der HTW
+-------------------------------------------------
+    - Erzeugen Sie eine Tabelle fuer die in Aufgabe 1 untersuchten Netzwerke.
+      Pro Netzwerk eine Tabellenzeile, wobei in jeder Zeile folgende Spalten
+      auszufuellen sind :
+                  <> Name des Netzwerkes + Betriebssystem
+                  <> Netzwerk-IP-Adresse
+                  <> Netzwerkmaske
+                  <> Default-Router-Adresse
+                  <> Broadcast-Adresse 
+                  <> Host-Adressbereich
+                  <> Maximale Anzahl der Hostadressen
+      benutzen Sie dazu ihre vorher gespeicherten Kommandoausgaben.
+
+    TIPP: der Default-Router besitzt an der HTW immer die erste moegliche Host-Nummer
+
+
+
+    Name des      <> Netzwerk       <> Netzwerk        <> Default       <> Broadcast      <> Host-Adr.     <> Max-Anzahl
+    Netzwerkes    <> IP-Adresse     <> Maske           <> Router-Adr    <> Adresse        <> Bereich       <> Hostadressen
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    STL CentOS    <> 134.96.216.0   <> 255.255.255.0   <> 134.96.216.1  <> 134.96.216.255 <> .2 - .254     <> 254
+    STL Redhat    <>                <>  ff.ff.ff.0     <>               <>                <>               <>
+    STL win10     <>                <>                 <>               <>                <>               <>      
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-LAN       <> 172.16.0.0     <> 255.255.255.0   <> 172.16.0.1    <> 172.16.0.255   <> .2 - .254     <> 254
+    win7          <>                <>  ff.ff.ff.0     <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-WLAN      <>  10.9.40.0     <> 255.255.248.0   <>  10.9.40.1    <>  10.9.47.255   <> .40.2 - 47.254<> 2^11  - 2
+    eduroam       <>                <>  ff.ff.f8.0     <>               <>                <>               <> (2048 - 2)
+    win7          <>                <>                 <>               <>                <>               <> -1 (router)
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-WLAN      <>  172.16.16.0   <> 255.255.240.0   <>  172.16.16.1  <>  172.16.31.255 <> 16.1 - 31.254 <> 2^12  - 2
+    htwintern     <>                <>  ff.ff.f0.0     <>               <>                <>               <> (4096 - 2)
+    win7          <>                <>                 <>               <>                <>               <> -1 (router)
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-WLAN      <>  10.9.0.0      <> 255.255.254.0   <>  10.9.0.1     <>  10.9.1.255    <> .0.2 - 1.254  <> 2^9  - 2
+    hiz-saarland  <>                <>  ff.ff.fe.0     <>               <>                <>               <> (512 - 2)
+    win7          <>                <>                 <>               <>                <>               <> -1 (router)
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-WLAN      <> 134.96.212.0   <> 255.255.255.0   <> 0.0.0.0       <> 134.96.212.255 <> .1 - .255     <> 2^8 -2
+    hiz-saarland  <>                <>  ff.ff.ff.0     <> ????          <>                <>               <> 254
+    HTWDS-VPN     <>                <>                 <>               <>                <>               <>
+    win7          <>                <>                 <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HTW-LAN/WLAN  <> 172.18.0.0     <> 255.255.0.0     <> 0.0.0.0       <> 172.18.255.255 <> 0.1 - 255.254 <> 2^16 - 2
+    hiz-saarland  <>                <>  ff.ff.0.0      <> ????          <>                <>               <> 65534
+    STL-VPN       <>                <>                 <>               <>                <>               <>
+    win7          <>                <>                 <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HOME-LAN      <> 192.168.178.0  <> 255.255.255.0   <> 192.168.178.1 <> 192.168.178.255<> .2 - .254     <> 2^8 -2
+    HOME-WLAN     <>                <>  ff.ff.ff.0     <>               <>                <>               <> 254
+    win7          <>                <>                 <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HOME-LAN/WLAN <> 134.96.212.0   <> 255.255.255.128 <> 0.0.0.0       <> 134.96.212.127 <> .1 - .126     <> 2^7 -2
+    HTWDS-VPN     <>                <>  ff.ff.ff.80    <> ????          <>                <>               <> 126
+    win7          <>                <>                 <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+    HOME-LAN/WLAN <> 172.18.0.0     <> 255.255.0.0     <> 0.0.0.0       <> 172.18.255.255 <> 0.1 - 255.254 <> 2^16 - 2
+    STL-VPN       <>                <>  ff.ff.0.0      <> ????          <>                <>               <> 65534
+    win7          <>                <>                 <>               <>                <>               <>
+    --------------<>----------------<>-----------------<>---------------<>----------------<>---------------<>-------------
+
+
+    Hilfen zu
+    ----------
+                 der Netzmaske         ( alle HOST-Bits == 0 ) ---->  ff.80    == 1111 1111.1000 0000
+                                                                      255.128                ^^^^^^^^ == Host-Bits =  7
+
+                                                               ---->  ff.0     == 1111 1111.0000 0000
+                                                                      255.0                 ^^^^^^^^^ == Host-Bits =  8
+
+                                                               ---->  fe.0     == 1111 1110.0000 0000
+                                                                      254.0               ^.^^^^^^^^^ == Host-Bits =  9
+
+                                                               ---->  f8.0     == 1111 1000.0000 0000
+                                                                      248.0             ^^^.^^^^^^^^^ == Host-Bits = 11
+
+                                                               ---->  f0.0     == 1111 0000.0000 0000
+                                                                      240.0            ^^^^.^^^^^^^^^ == Host-Bits = 12
+
+
+
+                 der Broadcast-Adresse ( alle HOST-Bits == 1 ) ---->  212.127 == 1101 0100.0111 1111
+                                                                                            ^^^^^^^^ == Host-Bits =  7
+
+                                                               ---->  216.255 == 1101 1000.1111 1111
+                                                                                           ^^^^^^^^^ == Host-Bits =  8
+
+                                                               ---->    1.255 == 0000 0001.1111 1111
+                                                                                         ^.^^^^^^^^^ == Host-Bits =  9
+
+                                                               ---->   47.255 == 0010 1111.1111 1111
+                                                                                       ^^^.^^^^^^^^^ == Host-Bits = 11
+
+                                                               ---->   31.255 == 0001 1111.1111 1111
+                                                                                      ^^^^.^^^^^^^^^ == Host-Bits = 12
+
+                 die HOST Adressen  
+
+                 zu 10.9.0.0/23 --> 10.9.0.2   - 10.9.0.255 ---> 254
+                                    10.0.1.0   - 10.9.1.254 ---> 255
+                                    --------------------------------
+                                                    Summe :      509 == 2^9 -2 -1 = 512 -2 -1 (== Router-Adresse )
+
+                 zu 10.9.40.0/21 -> 10.9.40.2   - 10.9.40.255 ---> 254
+                                    10.9.41.0   - 10.9.41.255 ---> 256
+                                    10.9.42.0   - 10.9.42.255 ---> 256
+                                    10.9.43.0   - 10.9.43.255 ---> 256
+                                    10.9.44.0   - 10.9.44.255 ---> 256
+                                    10.9.45.0   - 10.9.45.255 ---> 256
+                                    10.9.46.0   - 10.9.46.255 ---> 256
+                                    10.9.47.0   - 10.9.47.254 ---> 255
+                                    --------------------------------
+                                                    Summe :       2048 == 2^11 -2 -1 = 2048 -2 -1 (== Router-Adresse )
+
+
+    Was faellt Ihnen in der Tabelle auf?, 
+        fassen Sie die Ergebnisse Ihrer Experimente zusammen.
+
+    ###>  STL CentOS, XUbuntu, Win81   alle im gleichen 134.96.216.0/24-IP-Netzwerk, im Internet routbare IP-Adressen
+    ###>  HTW-LAN                      IP-Netzwerk private IP-Adressen, normale Groesse 254
+    ###>  HTW-WLAN (eduroam)           IP-Netzwerk private IP-Adressen, sehr gross 2048
+    ###>  HTW-WLAN (htwintern)         IP-Netzwerk private IP-Adressen, noch groesser 4096
+    ###>  HTW-WLAN (hiz-saarland)      IP-Netzwerk private IP-Adressen, gross 512
+    ###>  HTW-WLAN hiz + HTWDS-VPN     IP-Netzwerk normal, im Internet routbare IP-Adressen, normale Groesse 254
+    ###>  HTW-WLAN hiz + STL-VPN       IP-Netzwerk, private IP-Adressen, sehr sehr gross 2^16-2
+    ###>  HOME-LAN und HOME-WLAN       das selbe IP-Netzwerk, private IP-Adressen, normale Groesse 254
+    ###>  HTWDS-VPN, STL-VPN           immer dasselbe IP-Netzwerk wie an der HTW
+
+
+    Welche sonstigen Besonderheiten/Unterschiede fallen Ihnen beim Vergleich der
+        Kommandoausgaben in Bezug 
+                                 - auf das laufende Betriebssystem
+                                 - auf die ausgegebenen Informationen
+       auf ??
+
+    ###> CentOS zeigt ausser der internen NW-Schnittstelle (lo0), die externe (ethO) auch noch 2 weitere 
+         virtuelle NW-Schnittstellen ( virbr0, virbr0-nic)
+
+    ###> XUbubtu ist am wenigsten auskunftsfreudig, es zeigt nur die internen NW-Schnittstelle (lo0), die externe (ethO)
+
+    ###> Windows zeigt viele Informationen die die Linux'e nicht anzeigen wie
+         Standard-Gateway, DNS- und  DHCP-Server, DHCP-Lease-Zeit und -Ablaufzeit.
+    ###> Windows zeigt die internen NW-Schnittstelle (lo0) NICHT, aber die externe  und einen 6To4-Tunneladapter an
+    ###> Windows zeigt bei den VPN-Konfigurationen als Standard-Gateway : 0.0.0.0 an ???
+
+

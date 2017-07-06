@@ -1,0 +1,518 @@
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 58 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=44, ID=58299
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021 Syn Seq=2732986211 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=44, ID=39757
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513 Syn Ack=2732986212 Seq=2178285227 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58300
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285228 Seq=2732986212 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58301
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285228 Seq=2732986212 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39757
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986213 Seq=2178285228 Len=0 Win=9281
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 79 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=65, ID=58302
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285228 Seq=2732986213 Len=25 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 wpy\0gast-40\0sun-cmd/
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39758
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986238 Seq=2178285228 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39759
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986238 Seq=2178285228 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58303
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285229 Seq=2732986238 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 782 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=768, ID=39760
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986238 Seq=2178285229 Len=728 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 \r\n\r\n\r\n              
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58304
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285957 Seq=2732986238 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39761
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986238 Seq=2178285957 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58305
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285958 Seq=2732986238 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39762
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986238 Seq=2178285958 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 66 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=52, ID=58306
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285959 Seq=2732986238 Len=12 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39763
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986250 Seq=2178285959 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 64 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=50, ID=39764
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986250 Seq=2178285959 Len=10 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 Password: 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58307
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986250 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 98 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=84, ID=39765
+    stl-2-02 -> stl-s-ad     UDP D=111 S=33157 LEN=64
+    stl-2-02 -> stl-s-ad     RPC C XID=910369243 PROG=100000 (PMAP) VERS=2 PROC=3
+    stl-2-02 -> stl-s-ad     PORTMAP C GETPORT prog=100003 (NFS) vers=3 proto=UDP
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 70 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=56, ID=58308
+    stl-s-ad -> stl-2-02     UDP D=33157 S=111 LEN=36
+    stl-s-ad -> stl-2-02     RPC R (#19) XID=910369243 Success
+    stl-s-ad -> stl-2-02     PORTMAP R GETPORT port=2049
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 82 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=68, ID=39766
+    stl-2-02 -> stl-s-ad     UDP D=2049 S=33157 LEN=48
+    stl-2-02 -> stl-s-ad     RPC C XID=910369244 PROG=100003 (NFS) VERS=3 PROC=0
+    stl-2-02 -> stl-s-ad     NFS C NULL3
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 66 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=52, ID=58309
+    stl-s-ad -> stl-2-02     UDP D=33157 S=2049 LEN=32
+    stl-s-ad -> stl-2-02     RPC R (#21) XID=910369244 Success
+    stl-s-ad -> stl-2-02     NFS R NULL3 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 98 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=84, ID=39767
+    stl-2-02 -> stl-s-ad     UDP D=111 S=33158 LEN=64
+    stl-2-02 -> stl-s-ad     RPC C XID=910407522 PROG=100000 (PMAP) VERS=2 PROC=3
+    stl-2-02 -> stl-s-ad     PORTMAP C GETPORT prog=100005 (MOUNT) vers=1 proto=UDP
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 70 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=56, ID=58310
+    stl-s-ad -> stl-2-02     UDP D=33158 S=111 LEN=36
+    stl-s-ad -> stl-2-02     RPC R (#23) XID=910407522 Success
+    stl-s-ad -> stl-2-02     PORTMAP R GETPORT port=32895
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 130 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=116, ID=39768
+    stl-2-02 -> stl-s-ad     UDP D=32895 S=753 LEN=96
+    stl-2-02 -> stl-s-ad     RPC C XID=910407523 PROG=100005 (MOUNT) VERS=1 PROC=3
+    stl-2-02 -> stl-s-ad     MOUNT1 C Unmount /ora2/SUNWspro
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 66 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=52, ID=58311
+    stl-s-ad -> stl-2-02     UDP D=753 S=32895 LEN=32
+    stl-s-ad -> stl-2-02     RPC R (#25) XID=910407523 Success
+    stl-s-ad -> stl-2-02     MOUNT1 R Unmount reply
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58312
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986250 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 9
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39769
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986251 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58313
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986251 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 8
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39770
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986252 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58314
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986252 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 w
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39771
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986253 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58315
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986253 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 P
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39772
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986254 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58316
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986254 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 y
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39773
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986255 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58317
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986255 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 9
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39774
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986256 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58318
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986256 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 8
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39775
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986257 Seq=2178285969 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58319
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285969 Seq=2732986257 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=42, ID=39776
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986258 Seq=2178285969 Len=2 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58320
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178285971 Seq=2732986258 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 101 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=87, ID=39777
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986258 Seq=2178285971 Len=47 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 Last login: Wed Nov 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58321
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286018 Seq=2732986258 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 107 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=93, ID=39778
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986258 Seq=2178286018 Len=53 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 Sun Microsystems Inc
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58322
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286071 Seq=2732986258 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 74 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=60, ID=39779
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986258 Seq=2178286071 Len=20 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 You have new mail.\r\n
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58323
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286091 Seq=2732986258 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 98 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=84, ID=39780
+    stl-2-02 -> stl-s-ad     UDP D=111 S=33174 LEN=64
+    stl-2-02 -> stl-s-ad     RPC C XID=910248143 PROG=100000 (PMAP) VERS=2 PROC=3
+    stl-2-02 -> stl-s-ad     PORTMAP C GETPORT prog=100005 (MOUNT) vers=3 proto=UDP
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 70 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=56, ID=58324
+    stl-s-ad -> stl-2-02     UDP D=33174 S=111 LEN=36
+    stl-s-ad -> stl-2-02     RPC R (#50) XID=910248143 Success
+    stl-s-ad -> stl-2-02     PORTMAP R GETPORT port=32895
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 82 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=68, ID=39781
+    stl-2-02 -> stl-s-ad     UDP D=32895 S=33174 LEN=48
+    stl-2-02 -> stl-s-ad     RPC C XID=910248144 PROG=100005 (MOUNT) VERS=3 PROC=0
+    stl-2-02 -> stl-s-ad     MOUNT3 C Null
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 66 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=52, ID=58325
+    stl-s-ad -> stl-2-02     UDP D=33174 S=32895 LEN=32
+    stl-s-ad -> stl-2-02     RPC R (#52) XID=910248144 Success
+    stl-s-ad -> stl-2-02     MOUNT3 R Null 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 130 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=116, ID=39782
+    stl-2-02 -> stl-s-ad     UDP D=32895 S=753 LEN=96
+    stl-2-02 -> stl-s-ad     RPC C XID=910248145 PROG=100005 (MOUNT) VERS=3 PROC=1
+    stl-2-02 -> stl-s-ad     MOUNT3 C Mount /ora2/SUNWspro
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 114 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=100, ID=58326
+    stl-s-ad -> stl-2-02     UDP D=753 S=32895 LEN=80
+    stl-s-ad -> stl-2-02     RPC R (#54) XID=910248145 Success
+    stl-s-ad -> stl-2-02     MOUNT3 R Mount OK FH=000A Auth=unix
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 98 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=84, ID=39783
+    stl-2-02 -> stl-s-ad     UDP D=111 S=33175 LEN=64
+    stl-2-02 -> stl-s-ad     RPC C XID=910268237 PROG=100000 (PMAP) VERS=2 PROC=3
+    stl-2-02 -> stl-s-ad     PORTMAP C GETPORT prog=100003 (NFS) vers=3 proto=TCP
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 70 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=56, ID=58327
+    stl-s-ad -> stl-2-02     UDP D=33175 S=111 LEN=36
+    stl-s-ad -> stl-2-02     RPC R (#56) XID=910268237 Success
+    stl-s-ad -> stl-2-02     PORTMAP R GETPORT port=2049
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=44, ID=39784
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001 Syn Seq=2180847720 Len=0 Win=8760
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 58 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=44, ID=58328
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049 Syn Ack=2180847721 Seq=2747832761 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39785
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747832762 Seq=2180847721 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 162 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=148, ID=39786
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747832762 Seq=2180847721 Len=108 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861715 PROG=100003 (NFS) VERS=3 PROC=19
+    stl-2-02 -> stl-s-ad     NFS C FSINFO3 FH=000A
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 222 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=208, ID=58329
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180847829 Seq=2747832762 Len=168 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#61) XID=4047861715 Success
+    stl-s-ad -> stl-2-02     NFS R FSINFO3 OK
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39787
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747832930 Seq=2180847829 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 162 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=148, ID=39788
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747832930 Seq=2180847829 Len=108 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861716 PROG=100003 (NFS) VERS=3 PROC=1
+    stl-2-02 -> stl-s-ad     NFS C GETATTR3 FH=000A
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 170 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=156, ID=58330
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180847937 Seq=2747832930 Len=116 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#64) XID=4047861716 Success
+    stl-s-ad -> stl-2-02     NFS R GETATTR3 OK
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 170 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=156, ID=39789
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833046 Seq=2180847937 Len=116 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861717 PROG=100003 (NFS) VERS=3 PROC=4
+    stl-2-02 -> stl-s-ad     NFS C ACCESS3 FH=000A (lookup)
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 178 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=164, ID=58331
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180848053 Seq=2747833046 Len=124 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#66) XID=4047861717 Success
+    stl-s-ad -> stl-2-02     NFS R ACCESS3 OK (lookup)
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 174 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=160, ID=39790
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833170 Seq=2180848053 Len=120 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861718 PROG=100003 (NFS) VERS=3 PROC=3
+    stl-2-02 -> stl-s-ad     NFS C LOOKUP3 FH=000A lib
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 298 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=284, ID=58332
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180848173 Seq=2747833170 Len=244 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#68) XID=4047861718 Success
+    stl-s-ad -> stl-2-02     NFS R LOOKUP3 OK FH=2EF2
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 182 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=168, ID=39791
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833414 Seq=2180848173 Len=128 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861719 PROG=100003 (NFS) VERS=3 PROC=3
+    stl-2-02 -> stl-s-ad     NFS C LOOKUP3 FH=2EF2 libc.so.1
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 174 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=160, ID=58333
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180848301 Seq=2747833414 Len=120 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#70) XID=4047861719 Success
+    stl-s-ad -> stl-2-02     NFS R LOOKUP3 No such file or directory
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39792
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833534 Seq=2180848301 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 182 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=168, ID=39793
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833534 Seq=2180848301 Len=128 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861735 PROG=100003 (NFS) VERS=3 PROC=3
+    stl-2-02 -> stl-s-ad     NFS C LOOKUP3 FH=2EF2 libdl.so.1
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 174 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=160, ID=58334
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180848429 Seq=2747833534 Len=120 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#73) XID=4047861735 Success
+    stl-s-ad -> stl-2-02     NFS R LOOKUP3 No such file or directory
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39794
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833654 Seq=2180848429 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 170 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=156, ID=39795
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833654 Seq=2180848429 Len=116 Win=9282
+    stl-2-02 -> stl-s-ad     RPC C XID=4047861741 PROG=100003 (NFS) VERS=3 PROC=4
+    stl-2-02 -> stl-s-ad     NFS C ACCESS3 FH=2EF2 (lookup)
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 178 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=164, ID=58335
+    stl-s-ad -> stl-2-02     TCP D=1001 S=2049     Ack=2180848545 Seq=2747833654 Len=124 Win=9282
+    stl-s-ad -> stl-2-02     RPC R (#76) XID=4047861741 Success
+    stl-s-ad -> stl-2-02     NFS R ACCESS3 OK (lookup)
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39796
+    stl-2-02 -> stl-s-ad     TCP D=2049 S=1001     Ack=2747833778 Seq=2180848545 Len=0 Win=9282
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 104 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=90, ID=39797
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986258 Seq=2178286091 Len=50 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 [1]\t845\r\nstl-2-02:ga
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58336
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286141 Seq=2732986258 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58337
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286141 Seq=2732986258 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 e
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39798
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986259 Seq=2178286141 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 e
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58338
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286142 Seq=2732986259 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58339
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286142 Seq=2732986259 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 x
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39799
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986260 Seq=2178286142 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 x
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58340
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286143 Seq=2732986260 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58341
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286143 Seq=2732986260 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 i
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39800
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986261 Seq=2178286143 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 i
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58342
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286144 Seq=2732986261 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58343
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286144 Seq=2732986261 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 t
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=41, ID=39801
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986262 Seq=2178286144 Len=1 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 t
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58344
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286145 Seq=2732986262 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 55 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=41, ID=58345
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286145 Seq=2732986262 Len=1 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=42, ID=39802
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986263 Seq=2178286145 Len=2 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58346
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286147 Seq=2732986263 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39803
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513 Fin Ack=2732986263 Seq=2178286147 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58347
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021     Ack=2178286148 Seq=2732986263 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-s-ad -> stl-2-02     ETHER Type=0800 (IP), size = 54 bytes
+    stl-s-ad -> stl-2-02     IP  D=134.96.157.2 S=134.96.160.106 LEN=40, ID=58348
+    stl-s-ad -> stl-2-02     TCP D=513 S=1021 Fin Ack=2178286148 Seq=2732986263 Len=0 Win=9282
+    stl-s-ad -> stl-2-02     RLOGIN C port=1021 
+________________________________
+    stl-2-02 -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+    stl-2-02 -> stl-s-ad     IP  D=134.96.160.106 S=134.96.157.2 LEN=40, ID=39804
+    stl-2-02 -> stl-s-ad     TCP D=1021 S=513     Ack=2732986264 Seq=2178286148 Len=0 Win=9282
+    stl-2-02 -> stl-s-ad     RLOGIN R port=1021 

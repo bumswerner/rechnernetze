@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# win10-stud-udp
+#
+#
+
+Win10Tools -> netio -u stl-v-111.htwsaar.de | tee win10-stud-udp
+#############---------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  47.68 MByte/s (3%) Tx,  81.61 MByte/s (18%) Rx.
+Packet size  2k bytes:  59.98 MByte/s (23%) Tx,  57.13 MByte/s (33%) Rx.
+Packet size  4k bytes:  77.72 MByte/s (38%) Tx,  89.94 MByte/s (10%) Rx.
+Packet size  8k bytes:  94.04 MByte/s (7%) Tx,  90.84 MByte/s (9%) Rx.
+Packet size 16k bytes:  54.74 MByte/s (58%) Tx,  85.60 MByte/s (15%) Rx.
+Packet size 32k bytes:  12.71 MByte/s (92%) Tx,  63.33 MByte/s (37%) Rx.
+Done.

@@ -1,0 +1,145 @@
+From - Thu Feb 10 14:26:52 2005
+X-UIDL: -WS!!+9\"!\?9!!?RJ"!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00800000
+Return-Path: <Wolfgang.Pauly@htw-saarland.de>
+Received: from zdve-mailx.htw-saarland.de (zdve-mailx.htw-saarland.de [134.96.208.108])
+	by stl-s-ad.htw-saarland.de (8.12.8/8.12.8) with ESMTP id j1ADG4r2015906;
+	Thu, 10 Feb 2005 14:16:04 +0100 (MET)
+Received: from htw-saarland.de (stl-p-wpy.htw-saarland.de [134.96.216.231])
+	by zdve-mailx.htw-saarland.de (8.12.10/8.12.9) with ESMTP id j1ADFTdV009708
+	for <stl@htw-saarland.de>; Thu, 10 Feb 2005 14:15:29 +0100 (MET)
+Message-ID: <420B5EA6.6000808@htw-saarland.de>
+Disposition-Notification-To: Wolfgang Pauly
+ <Wolfgang.Pauly@htw-saarland.de>
+Date: Thu, 10 Feb 2005 14:16:22 +0100
+From: Wolfgang Pauly <Wolfgang.Pauly@htw-saarland.de>
+Reply-To: Wolfgang.Pauly@htw-saarland.de
+Organization: HTW/GIS/STL
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; de-DE; rv:1.0.1) Gecko/20021004 Netscape/7.0
+X-Accept-Language: de-de, de
+MIME-Version: 1.0
+To: stl@htw-saarland.de
+Subject: Eine Test-Mail von Pauly
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg=sha1; boundary="------------ms060508070005070200070702"
+X-HTW-MailScanner: Found to be clean
+X-MailScanner-From: wolfgang.pauly@htw-saarland.de
+X-Spam-Checker-Version: SpamAssassin 2.60 (1.212-2003-09-23-exp) on 
+	stl-s-ad.htw-saarland.de
+X-Spam-Status: No, hits=-4.6 required=6.5 tests=AWL,BAYES_00 autolearn=no 
+	version=2.60
+X-Spam-Level: 
+X-UIDL: -WS!!+9\"!\?9!!?RJ"!
+Status: U
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms060508070005070200070702
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Eine Test-Mail von Pauly
+Eine Test-Mail von Pauly
+Eine Test-Mail von Pauly
+Eine Test-Mail von Pauly
+Eine Test-Mail von Pauly
+Eine Test-Mail von Pauly
+
+-- 
+Dipl.-Ing. Wolfgang Pauly       Hochschule f. Technik und Wirtschaft des Saarlandes
+                                Fachbereich GIS
+Tel. : 0681-5867-239
+EMail: Wolfgang.Pauly@htw-saarland.de      www:   http://www.htw-saarland.de
+-------------------------------------------------------------------------------------
+Zur Verifizierung meiner Unterschrift laden sie das Zertifikat der STL - EMailUser_CA
+in ihr E-Mail-Programm   http://www.htw-saarland.de/stl/stl-ca.html
+-------------------------------------------------------------------------------------
+
+
+--------------ms060508070005070200070702
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIINcjCC
+BHcwggPgoAMCAQICAQEwDQYJKoZIhvcNAQEEBQAwgZ0xCzAJBgNVBAYTAkRFMREwDwYDVQQI
+EwhTYWFybGFuZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNV
+BAsTB0dJUy9TVEwxFTATBgNVBAMTDEVNYWlsVXNlciBDQTEtMCsGCSqGSIb3DQEJARYeV29s
+ZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMB4XDTAzMDkxMjEyMzAzNloXDTA4MDkxMDEy
+MzAzNlowga8xCzAJBgNVBAYTAkRFMREwDwYDVQQIEwhTYWFybGFuZDEVMBMGA1UEBxMMU2Fh
+cmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNVBAsTB0dJUy9TVEwxJzAlBgNVBAMUHldv
+bGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTEtMCsGCSqGSIb3DQEJARYeV29sZmdhbmcu
+UGF1bHlAaHR3LXNhYXJsYW5kLmRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKPUT5
+SN1dzi3cKscJtBmM4IiYUsqxvcqnIDZrzII1ioP+2NYY4cCU7EXxfXwChUXLKnMhLuEBNRFI
+U5nv7kbIKZCaMhH2PGmvHC5/LhHXkbXdAxRpv7GRieBj6ThwgtAbiKSvS8TgW6pp8g3qA+8u
+iCx1BMCTlvNGISjRZ+FLPQIDAQABo4IBsTCCAa0wCwYDVR0PBAQDAgP4MB0GA1UdDgQWBBTi
+6PE4NKXwjhE+aGLTLLEmvUVP9jCBzAYDVR0jBIHEMIHBgBTaSyFquHNEDj2lbJTY0hKAlIhc
+hKGBpaSBojCBnzELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxT
+YWFyYnJ1ZWNrZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMO
+V29sZmdhbmcgUGF1bHkxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFy
+bGFuZC5kZYIBAjApBgNVHREEIjAggR5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUw
+KQYDVR0SBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMBEGCWCGSAGG+EIB
+AQQEAwIFoDBHBglghkgBhvhCAQ0EOhY4RGllc2VzIFplcnRpZmlrYXQgd3VyZGUgZHVyY2gg
+SFRXL0dJUy9TVEwgYXVzZ2VnZWJlbiAhIQowDQYJKoZIhvcNAQEEBQADgYEAYdUTYhy9isda
+uDX+wTPrHESeerDd1ycNGmVkuXnC7R7XXr8Vm2Lv4BQRG9D3FSMbiDWulrBeGQrFhbWg+irV
+dbx4a7Ryl4tIH6QtV+U5FWPPtTH0RqwD7i1poYaWY/pE1E2jjWQUeZmjDwhRN94/rcYL8Vkt
+PuS+Z0PV/4KIPKAwggR3MIID4KADAgECAgEBMA0GCSqGSIb3DQEBBAUAMIGdMQswCQYDVQQG
+EwJERTERMA8GA1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UE
+ChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIgQ0ExLTArBgkq
+hkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTAeFw0wMzA5MTIxMjMw
+MzZaFw0wODA5MTAxMjMwMzZaMIGvMQswCQYDVQQGEwJERTERMA8GA1UECBMIU2FhcmxhbmQx
+FTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RM
+MScwJQYDVQQDFB5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUxLTArBgkqhkiG9w0B
+CQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOB
+jQAwgYkCgYEAyj1E+UjdXc4t3CrHCbQZjOCImFLKsb3KpyA2a8yCNYqD/tjWGOHAlOxF8X18
+AoVFyypzIS7hATURSFOZ7+5GyCmQmjIR9jxprxwufy4R15G13QMUab+xkYngY+k4cILQG4ik
+r0vE4FuqafIN6gPvLogsdQTAk5bzRiEo0WfhSz0CAwEAAaOCAbEwggGtMAsGA1UdDwQEAwID
++DAdBgNVHQ4EFgQU4ujxODSl8I4RPmhi0yyxJr1FT/YwgcwGA1UdIwSBxDCBwYAU2ksharhz
+RA49pWyU2NISgJSIXIShgaWkgaIwgZ8xCzAJBgNVBAYTAkRFMREwDwYDVQQIEwhTYWFybGFu
+ZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNVBAsTB0dJUy9T
+VEwxFzAVBgNVBAMTDldvbGZnYW5nIFBhdWx5MS0wKwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5Q
+YXVseUBodHctc2FhcmxhbmQuZGWCAQIwKQYDVR0RBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3
+LXNhYXJsYW5kLmRlMCkGA1UdEgQiMCCBHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5k
+ZTARBglghkgBhvhCAQEEBAMCBaAwRwYJYIZIAYb4QgENBDoWOERpZXNlcyBaZXJ0aWZpa2F0
+IHd1cmRlIGR1cmNoIEhUVy9HSVMvU1RMIGF1c2dlZ2ViZW4gISEKMA0GCSqGSIb3DQEBBAUA
+A4GBAGHVE2IcvYrHWrg1/sEz6xxEnnqw3dcnDRplZLl5wu0e116/FZti7+AUERvQ9xUjG4g1
+rpawXhkKxYW1oPoq1XW8eGu0cpeLSB+kLVflORVjz7Ux9EasA+4taaGGlmP6RNRNo41kFHmZ
+ow8IUTfeP63GC/FZLT7kvmdD1f+CiDygMIIEeDCCA+GgAwIBAgIBAjANBgkqhkiG9w0BAQQF
+ADCBnzELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1
+ZWNrZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMOV29sZmdh
+bmcgUGF1bHkxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5k
+ZTAeFw0wMzA1MTIxMzAzMjdaFw0xMzA1MDkxMzAzMjdaMIGdMQswCQYDVQQGEwJERTERMA8G
+A1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAw
+DgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIgQ0ExLTArBgkqhkiG9w0BCQEW
+HldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAw
+gYkCgYEAtNRZhieXpuvH6rTQ/7VB/yNlXAAwZaR6XFRmgr1p5e1/pyeKlLdOW8qSNyOBPLwB
+nTYuGX77Tyc7VDboRXENVU0hGIY9NbfuWsV65llsSBXiudRd2O/T410IJs/NVPmBXyGn/OEx
+unfypfo/2XfhdH7ZiP0YuZGgGpnChh8SdGUCAwEAAaOCAcIwggG+MA8GA1UdEwEB/wQFMAMB
+Af8wCwYDVR0PBAQDAgEGMB0GA1UdDgQWBBTaSyFquHNEDj2lbJTY0hKAlIhchDCBzAYDVR0j
+BIHEMIHBgBTIVgbr0N2PPRYBU5YclLyNGO4lVaGBpaSBojCBnzELMAkGA1UEBhMCREUxETAP
+BgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNVBAoTA0hUVzEQ
+MA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMOV29sZmdhbmcgUGF1bHkxLTArBgkqhkiG9w0B
+CQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZYIBADApBgNVHREEIjAggR5Xb2xm
+Z2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUwKQYDVR0SBCIwIIEeV29sZmdhbmcuUGF1bHlA
+aHR3LXNhYXJsYW5kLmRlMBEGCWCGSAGG+EIBAQQEAwIABzBHBglghkgBhvhCAQ0EOhY4RGll
+c2VzIFplcnRpZmlrYXQgd3VyZGUgZHVyY2ggSFRXL0dJUy9TVEwgYXVzZ2VnZWJlbiAhIQow
+DQYJKoZIhvcNAQEEBQADgYEAYFQKpIbiLhWfSO94sVcWE9b6VkUcimn5bXvqonWa7BrfvwUo
+BdGZxOx490WsLL3/0CySBHPUPXB2Qmn8LrwTrIlgTHZyfjIy5hTo9BuaAxbgOfKUVvVUoz1k
+s+sIKNPw4ioaiKeB5TCLLsI3UMSZIR/GchwmOz9/WnDxabIqX2sxggK4MIICtAIBATCBozCB
+nTELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNr
+ZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEVMBMGA1UEAxMMRU1haWxVc2Vy
+IENBMS0wKwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUCAQEw
+CQYFKw4DAhoFAKCCAWowGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUx
+DxcNMDUwMjEwMTMxNjIyWjAjBgkqhkiG9w0BCQQxFgQU9jNs709me00XBEPyD3XiYWZkcScw
+UgYJKoZIhvcNAQkPMUUwQzAKBggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcN
+AwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwgbYGCyqGSIb3DQEJEAILMYGmoIGjMIGd
+MQswCQYDVQQGEwJERTERMA8GA1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tl
+bjEMMAoGA1UEChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIg
+Q0ExLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZQIBATAN
+BgkqhkiG9w0BAQEFAASBgETtRmtbdk8jnGRv2aH8Ek3pFAOvUwFO0ssB22ZJw2MuN/eHJPYL
+OlgroFJlTQhMDwaazB3VoUdQHC9Bzp9s5q4ejQR/+v0iO2jzKCpRzbAf7dTJu13pzt4QdC8d
+NtDh0X6iM4hUmXG0QUcrGkJVfgf7S/rqik4akonUBjMROancAAAAAAAA
+--------------ms060508070005070200070702--
+
+

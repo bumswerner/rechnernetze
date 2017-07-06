@@ -1,0 +1,53 @@
+#
+#
+#
+#  laptop-localhost++
+#
+# (Win7)
+#
+
+C:\2016\bin>win32-i386.exe -t localhost
+############---------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  42.72 MByte/s Tx,  44.42 MByte/s Rx.
+Packet size  2k bytes:  67.62 MByte/s Tx,  66.21 MByte/s Rx.
+Packet size  4k bytes:  96.13 MByte/s Tx,  107.18 MByte/s Rx.
+Packet size  8k bytes:  137.78 MByte/s Tx,  138.04 MByte/s Rx.
+Packet size 16k bytes:  149.97 MByte/s Tx,  148.88 MByte/s Rx.
+Packet size 32k bytes:  182.15 MByte/s Tx,  182.20 MByte/s Rx.
+Done.
+
+
+C:\2016\bin>win32-i386.exe -t stl-deimos.htwsaar.de
+############---------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  40.00 MByte/s Tx,  42.03 MByte/s Rx.
+Packet size  2k bytes:  59.58 MByte/s Tx,  59.71 MByte/s Rx.
+Packet size  4k bytes:  91.07 MByte/s Tx,  83.13 MByte/s Rx.
+Packet size  8k bytes:  122.81 MByte/s Tx,  124.03 MByte/s Rx.
+Packet size 16k bytes:  143.04 MByte/s Tx,  138.83 MByte/s Rx.
+Packet size 32k bytes:  173.26 MByte/s Tx,  172.59 MByte/s Rx.
+Done.
+
+C:\2016\bin>win32-i386.exe -t 134.96.216.247
+############--------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  44.85 MByte/s Tx,  49.40 MByte/s Rx.
+Packet size  2k bytes:  62.51 MByte/s Tx,  63.72 MByte/s Rx.
+Packet size  4k bytes:  101.05 MByte/s Tx,  89.53 MByte/s Rx.
+Packet size  8k bytes:  126.15 MByte/s Tx,  118.05 MByte/s Rx.
+Packet size 16k bytes:  145.38 MByte/s Tx,  139.60 MByte/s Rx.
+Packet size 32k bytes:  172.43 MByte/s Tx,  169.64 MByte/s Rx.
+Done.

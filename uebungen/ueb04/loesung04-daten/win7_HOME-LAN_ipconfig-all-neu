@@ -1,0 +1,63 @@
+#
+#
+#
+#
+#    win7_HOME-LAN_ipconfig-all
+#
+#
+#
+#
+
+
+c:> ipcpnfig /all > win7_HOME-LAN_ipconfig-all
+##############################################
+
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : Heim-PC
+   Primaeres DNS-Suffix . . . . . . . : 
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : fritz.box
+
+Ethernet-Adapter LAN-Verbindung:
+
+   Verbindungsspezifisches DNS-Suffix: fritz.box
+   Beschreibung. . . . . . . . . . . : VIA Rhine II-kompatibler Fast-Ethernet-Adapter
+   Physikalische Adresse . . . . . . : 00-19-DB-5B-A9-1A
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::1c19:63b5:3372:152c%10(Bevorzugt) 
+   IPv4-Adresse  . . . . . . . . . . : 192.168.178.41(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Freitag, 25. November 2011 17:04:36
+   Lease laeuft ab. . . . . . . . . . : Montag, 5. Dezember 2011 17:04:36
+   Standardgateway . . . . . . . . . : 192.168.178.1
+   DHCP-Server . . . . . . . . . . . : 192.168.178.1
+   DHCPv6-IAID . . . . . . . . . . . : 234887643
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-14-B3-9D-C1-00-19-DB-5B-A9-1A
+   DNS-Server  . . . . . . . . . . . : 192.168.178.1
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+
+Tunneladapter isatap.fritz.box:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: fritz.box
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Tunneladapter Teredo Tunneling Pseudo-Interface:
+
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:0:5ef5:79fb:83:572:3f57:4dd6(Bevorzugt) 
+   Verbindungslokale IPv6-Adresse  . : fe80::83:572:3f57:4dd6%12(Bevorzugt) 
+   Standardgateway . . . . . . . . . : ::
+   NetBIOS ueber TCP/IP . . . . . . . : Deaktiviert

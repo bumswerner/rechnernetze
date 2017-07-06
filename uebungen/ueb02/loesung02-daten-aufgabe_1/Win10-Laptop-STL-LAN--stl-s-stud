@@ -1,0 +1,43 @@
+#
+#
+#
+# Win10-Laptop-STL-LAN--stl-s-stud"
+#
+#
+#
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t stl-s-stud.htwsaar.de
+##########################----------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  90.61 MByte/s Tx,  102.15 MByte/s Rx.
+Packet size  2k bytes:  90.68 MByte/s Tx,  100.27 MByte/s Rx.
+Packet size  4k bytes:  88.42 MByte/s Tx,  102.78 MByte/s Rx.
+Packet size  8k bytes:  93.91 MByte/s Tx,  103.59 MByte/s Rx.
+Packet size 16k bytes:  85.98 MByte/s Tx,  91.15 MByte/s Rx.
+Packet size 32k bytes:  92.05 MByte/s Tx,  103.74 MByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+##########################----------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  85.18 MByte/s (5%) Tx,  85.75 MByte/s (0%) Rx.
+Packet size  2k bytes:  97.11 MByte/s (0%) Tx,  63.65 MByte/s (83%) Rx.
+Packet size  4k bytes:  100.99 MByte/s (0%) Tx,  87.97 MByte/s (85%) Rx.
+Packet size  8k bytes:  85.58 MByte/s (0%) Tx,  66.81 MByte/s (90%) Rx.
+Packet size 16k bytes:  94.68 MByte/s (0%) Tx,  8853.35 KByte/s (98%) Rx.
+Packet size 32k bytes:  97.15 MByte/s (2%) Tx,  23.89 KByte/s (99%) Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>
+##########################----------------------------------------
+

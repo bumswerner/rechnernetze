@@ -1,0 +1,44 @@
+#
+#
+#
+#
+#  inetd-start -- via smf
+#
+#
+#
+
+
+root@stl-c-30:/>svcs | fgrep inet  
+                -------------####------------------------------
+online         11:07:01 svc:/network/inetd:default
+
+
+
+root@stl-c-30:/>svccfg -v -s inetd:default
+                -------------#############---------------------
+
+
+svc:/network/inetd:default> listprop
+             ##############------------------------------------
+hash                               application
+hash/md5sum                        astring  028e8a62cb808faead90c42944c4c1a1
+general                            framework
+general/enabled                    boolean  true
+defaults                           framework
+defaults/tcp_wrappers              boolean  true
+restarter                          framework    NONPERSISTENT
+restarter/logfile                  astring  /var/svc/log/network-inetd:default.log
+restarter/contract                 count    46
+restarter/start_pid                count    293
+restarter/start_method_timestamp   time     1151485621.109623000
+restarter/start_method_waitstatus  integer  0
+restarter/auxiliary_state          astring  none
+restarter/next_state               astring  none
+restarter/state                    astring  online
+restarter/state_timestamp          time     1151485621.113482000
+
+svc:/network/inetd:default> exit
+             ##############--------------------------------------
+
+
+root@stl-c-30:/>

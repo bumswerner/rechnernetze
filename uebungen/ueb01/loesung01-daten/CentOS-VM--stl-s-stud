@@ -1,0 +1,64 @@
+#
+#
+#
+# CentOS-VM--stl-s-stud
+#
+#
+#
+
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -t stl-s-stud.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): Connection refused
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -t stl-s-stud.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  109.38 MByte/s Tx,  108.72 MByte/s Rx.
+Packet size  2k bytes:  108.77 MByte/s Tx,  108.01 MByte/s Rx.
+Packet size  4k bytes:  108.06 MByte/s Tx,  109.48 MByte/s Rx.
+Packet size  8k bytes:  110.20 MByte/s Tx,  105.29 MByte/s Rx.
+Packet size 16k bytes:  105.25 MByte/s Tx,  108.43 MByte/s Rx.
+Packet size 32k bytes:  109.51 MByte/s Tx,  108.80 MByte/s Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -u stl-s-stud.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  109.39 MByte/s (51%) Tx,  81.96 MByte/s (2%) Rx.
+Packet size  2k bytes:  99.07 MByte/s (75%) Tx,  88.10 MByte/s (73%) Rx.
+Packet size  4k bytes:  85.80 MByte/s (85%) Tx,  84.03 MByte/s (84%) Rx.
+Packet size  8k bytes:  41.60 MByte/s (93%) Tx,  65.70 MByte/s (89%) Rx.
+Packet size 16k bytes:  1732.77 KByte/s (99%) Tx,  52.85 MByte/s (92%) Rx.
+Packet size 32k bytes:  389.32 KByte/s (99%) Tx,  444.76 KByte/s (99%) Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -u stl-s-stud.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  110.45 MByte/s (49%) Tx,  81.30 MByte/s (4%) Rx.
+Packet size  2k bytes:  99.60 MByte/s (75%) Tx,  91.11 MByte/s (75%) Rx.
+Packet size  4k bytes:  86.76 MByte/s (85%) Tx,  103.25 MByte/s (83%) Rx.
+Packet size  8k bytes:  39.80 MByte/s (94%) Tx,  93.44 MByte/s (87%) Rx.
+Packet size 16k bytes:  429.19 KByte/s (99%) Tx,  59.64 MByte/s (92%) Rx.
+Packet size 32k bytes:  165.19 KByte/s (99%) Tx,  876.26 KByte/s (99%) Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132>
+######################-----------------------------------------------------------------
+

@@ -1,0 +1,412 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 07. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb07/loesung07.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb07/loesung07-daten
+    
+    
+    1. Aufgabe - Netzwerkschnittstelle und ARP-Tabelle
+    -----------------------------------------------------
+      - Wie findet man heraus, mit welchen Rechnern des lokalen IP-Netzwerkes
+        eine VM (Redhat/CentOS oder XUbuntu) in letzter Zeit kommuniziert hat ?
+
+      ###>  Kommando : arp -a[n]
+
+            Zeigt alle aktuellen ARP-Tabelleneintraege, d.h. alle Hosts mit denen 
+            die VM in letzter Zeit kommuniziert hat. Bei n wird nur die IP-Adr anstatt
+            Rechnername und IP-Adresse ausgegeben.
+            (Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_arp-a  )
+            (                                                 -- CentOS_arp-an )
+
+      ###>  Kommando : netstat -p[n] -A inet
+
+            Zeigt alle momentan existierenden Netzwerkverbindungen auf IPv4-Basis;
+            auch hier bewirkt der Schalten -n eine Ausgabe von IP-Adressen anstatt Hostnamen.
+            (Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_netstat-p-A_inet  )
+            (                                                 -- CentOS_netstat-pn-A_inet )
+
+      - Wie kann man einen dynamischen Einblick in die Benutzung des Netzwerk-
+        interfaces einer VM (Redhat/CentOS oder XUbuntu) erhalten ?
+
+      ###> CentOS --> netstat -ic
+                      netstat -s
+
+                      watch -n 3 ifconfig eth0
+                            mit
+                            eth0 --> ist der Name des Netzwerkinterfaces/Nertwerkkarte des Rechners
+                            3    --> ist das Messintervall in Sekunden fuer Datentransfer
+
+      ###> Win10  --> netstat -e [Intervall]  -- Byte-Durchsatz
+                      netstat -v [Intervall]  -- Verbindungen
+
+
+      Denken Sie sich ein Experiment aus, das Netzwerkverkehr verursacht,
+      beschreiben sie den Versuchsaufbau und dokumentieren Sie die Pakettransferraten.
+      
+      TIPP: lesen Sie dazu auch die Manualpage von netstat !!!
+
+      ###> Versuchsidee :
+           --------------
+                     -   Kopiere grosse Datei innerhalb des Rechners  und zu einem entfernten
+                         Rechner und lasse parallel die obigen Kommandos laufen.
+
+                     -   benutze : netio -b 32 -t host paralell dazu netstat -ic
+ 
+           (Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_netstat-ic )
+           (                                                 -- CentOS_netstat-ic-komprimiert )
+
+
+
+
+
+    2. Aufgabe - IP-Multicasting
+    ----------------------------
+      - Finden Sie heraus in welchen Multicastgruppen die verschiedenen VMs mit Redhat/CentOS, 
+        XUbuntu, Win10 angemeldet sind.
+        (Bitte jeweils das dazu benutzte Kommando mit Schaltern angeben !!!)
+
+      ###> Redhat/CentOS, XUbuntu -->  : netstat -g[n]
+      ###> Win10  --> netsh interface ipv4 show joins
+
+           (Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_netstat-g  )
+           (                                                 -- XUbuntu_netstat-g )
+           (                                                 -- Win10_netsh_show_joins.txt )
+
+      ###> Auswertung :
+
+           Mitglied in der MC-Gruppe : all-systems.mcast.net == 224.0.0.1 
+                                sind : Redhat/CentOS, XUbuntu, Win10
+
+           Mitglied in der MC-Gruppe : Multicast DNS (mDNS)  == 224.0.0.251 
+                                sind : Redhat/CentOS, XUbuntu
+
+        
+      - Finden Sie heraus ob die im STL angebotenen virtuellen Maschinen unter den Betriebssystemen
+        Redhat/CentOS, XUbuntu, Win10 eine Route zu diesen IP-Multicastnetzwerken anzeigen 
+        und real besitzen/benutzen.
+        (Bitte das dazu benutzte Kommando mit Schaltern o.ae. angeben !!!)
+
+      ###> Redhat/CentOS, XUbuntu -->  : netstat -r[n] oder ip route
+      ###> Win10  --> netsh interface ipv4 show joins
+
+           (Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_netstat-r_ip-route  )
+           (                                                 -- XUbuntu_netstat-r )
+           (                                                 -- Win10_netstat-r   )
+
+      ###> Auswertung:
+
+           Routen ins BASE-ADDRESS.MCAST.NET  == 224.0.0.0
+           ------>besitzen in der Routing-Tabelle nur  Win10,
+                  Redhat/CentOS und XUbuntu zeigen keine an.
+
+           Routen ins BASE-ADDRESS.MCAST.NET  == 224.0.0.0
+           ------>benutzen Redhat/CentOS, Xubuntu und Win10
+                  getestet mit ping -c 10 224.0.0.1 bei Redhat/CentOS und XUbuntu
+                           mit ping -n 10 224.0.0.1 bei Win10
+
+
+      - Beschreiben Sie kurz die Aufgaben dieser evtl. gefundenen Multicastnetzwerke.
+
+      ###> Kurzbeschreibung :  BASE-ADDRESS.MCAST.NET  == 224.0.0.0
+               ist ein von der IANA festgelegter IP-Adressblock.
+
+               siehe : http://www.iana.org/assignments/multicast-addresses
+ 
+               hier ein Ausschnitt
+   
+               vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+               INTERNET MULTICAST ADDRESSES
+
+               (last updated 2006-11-30)
+
+               Host Extensions for IP Multicasting [RFC1112] specifies the extensions
+               required of a host implementation of the Internet Protocol (IP) to
+               support multicasting.  The multicast addressess are in the range
+               224.0.0.0 through 239.255.255.255. Current addresses are listed below.
+
+               The range of addresses between 224.0.0.0 and 224.0.0.255, inclusive,
+               is reserved for the use of routing protocols and other low-level
+               topology discovery or maintenance protocols, such as gateway discovery
+               and group membership reporting.  Multicast routers should not forward
+               any multicast datagram with destination addresses in this range,
+               regardless of its TTL.
+
+               224.0.0.0 - 224.0.0.255  (224.0.0/24)
+               Local Network Control Block   Date registered
+               --------------------------------------------------------------
+
+               224.0.0.0  Base Address (Reserved)                   [RFC1112,JBP]
+               224.0.0.1  All Systems on this Subnet                [RFC1112,JBP]
+               224.0.0.2  All Routers on this Subnet                        [JBP]
+               224.0.0.3  Unassigned                                        [JBP]
+               224.0.0.4  DVMRP    Routers                          [RFC1075,JBP]
+               224.0.0.5  OSPFIGP  OSPFIGP All Routers             [RFC2328,JXM1]
+               224.0.0.6  OSPFIGP  OSPFIGP Designated Routers      [RFC2328,JXM1]
+               224.0.0.7  ST Routers                               [RFC1190,KS14]
+               ....
+
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          siehe auch die RFC 3171 und Wikipedia-Artikel zu Zeroconf
+ 
+  
+      - Wie kann auch ein einfacher Benutzer diese evtl. gefundenen Multicastgruppen/Adressen
+        nutzen um Informationen ueber das lokale IP-Netzwerk zu erhalten.
+      
+      ###> Ein Benutzer koennte
+ 
+           1. mit dem Kommando :
+ 
+                            ping -c 10 224.0.0.1
+ 
+              herausfinden welche Rechner momentan im lokalen Netz aktiv sind.
+ 
+           2. mit dem Kommando :
+ 
+                            ping -c 10 224.0.0.2
+ 
+              herausfinden welche Router momentan im lokalen Netz aktiv sind.
+ 
+
+
+
+    3. Aufgabe - Apropos ARP
+    -----------------------------------------------------
+      - Mit welchem Kommando kann man die ARP-Tabelle/ARP-Cache der VMs mit Redhat/CentOS, XUbuntu, Win10 ausgeben ?
+        und was bedeuten die Eintraege ? 
+
+
+      ###>  Kommando : arp -a[n]   fuer alle Betriebssysteme
+
+            Zeigt alle aktuellen ARP-Tabelleneintraege, d.h. alle Hosts mit denen 
+            die VM in letzter Zeit kommuniziert hat. Bei n wird nur die IP-Adr anstatt
+            Rechnername und IP-Adresse ausgegeben.
+            (Bsp.-Ausgaben siehe im Loesungs-Daten-Directory Datei -- CentOS_arp-a  )
+            (                                                      -- CentOS_arp-an )
+            (                                                      -- Win10_arp-a   )
+
+      ###>  Bedeutung :
+ 
+                  Die ARP-Tabelle ( der ARP-Cache ) ist eine Tabelle, die
+                  einer IP-Adresse eine Ethernetadresse zuordnet.
+                  Die Eintraege sind entweder statisch, d.h. durch den Administrator
+                  eingetragen worden (FLAG S), oder  dynamisch, d.h. ueber eine ARP-Kommunikation
+                  in die Tabelle gelangt.
+                  Es erscheinen nur Rechner des lokalen IP-Netzwerkes, d.h. des LAN od. WLAN
+                  in dem der lokale Rechner angeschlossen ist. Denn nur fuer diese
+                  Rechner macht eine Adressumsetzung IP <--> Ethernet Sinn.
+
+
+      - Versuchen Sie eine ARP-Kommunikation unter Redhat/CentOS mitzuschneiden ( tcpdump u./o. Wireshark ),
+        beschreiben sie deren Ablauf und zeigen Sie die Veraenderungen in der ARP-Tabelle auf.
+
+      ###> Kommandofolge : - arp -a    --> suche (Ziel)host der noch nicht in der ARP-Tabelle vorhanden ist
+                           - starte zuerst ein Network-Sniffing-Tool z.B. :
+                                 --> tcpdump -i eth0 -e -vv -S -A arp
+                                 --> wireshark - Capture-Filter : arp
+                           - dann kontaktiere den entfernten Rechner z.B. :
+                                 --> alle : ping -c 10 Zielhost
+                           - stoppe das Network-Sniffing
+                           - arp -a    --> suche Zielhost in der ARP-Tabelle
+ 
+           ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_ARP-Kommunikation-Mitschnitt)      
+ 
+
+      ###>  Veraenderung in der ARP-Tabelle : die IP-Adresse und die Ethernetadresse des
+                                              entfernten Rechners werden in die Tabelle
+                                              aufgenommen.
+
+
+
+      - Was versteht man unter ARP-Spoofing ? und wieso ist solch eine Manipulation moeglich ? 
+
+      ###>  ARP-Spoofing : Der Angreifer
+                          - konfiguriert seinen Rechner mit einer fremden vorher ausgespaehten
+                            MAC-Adresse ( Ethernet-Adresse bei uns )
+                          - versendet gefaelschte ARP-REPLY-Pakete, in denen er seine eigene
+                            MAC-Adresse mit einer fremden IP-Adresse verbindet.
+
+      ###>  Wieso sind gefaelschte ARP-Reply-Nachrichten moeglich ??
+                     ARP ist ein zustandsloses Protokoll, d.h. dass die ARP-SW alle ankommenden
+                     ARP-Reply-Nachrichten verarbeitet und dadurch evtl. ARP-Tabelleneintraege
+                     aendert/aktualisiert, auch wenn sie zu keinem ARP-Request des lokalen
+                     Systems gehoeren. ( bestehende Tabelleneintraege werden sowohl durch
+                     ARP-Request- als auch durch ARP-Reply-Nachrichten veraendert !!!)
+
+      - Untersuchen Sie folgende ARP-Pakete, was ist daran bemerkenswert ?, was bewirken sie ?
+
+
+        1. ARP-Reply
+        ############
+                    TIP: 00:0e:0c:5e:ab:b3 : Ethernet-Adresse von stl-c-master
+                         134.96.216.99     : DNS-IP-Adresse von stl-c-master
+                         134.96.216.229    : IP-Adresse von stl-s-mail
+                         0a:9e:12:ee:11:b3 : Ethernet-Adresse von stl-c-mail
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 52 arrived at 10:30:19.34329
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:0e:0c:5e:ab:b3,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 2 (ARP Reply)
+                ARP:  Sender's hardware address = 00:0e:0c:5e:ab:b3
+                ARP:  Sender's protocol address = 134.96.216.229
+                ARP:  Target hardware address = 8:0:20:80:d4:9b
+                ARP:  Target protocol address = 255.255.255.255, BROADCAST
+                ARP:
+
+        ###> Hier wird folgender evtl. bestehender Eintrag
+                           00:0e:0c:5e:ab:b3 <---> 134.96.216.99
+                     oder  0a:9e:12:ee:11:b3 <---> 134.96.216.229
+             in die ARP-Tabelle aller Rechner des LANs, d.h. des lokale IP-Netzwerkes wie folgt
+             abgeaendert/aktualisiert :
+                           00:0e:0c:5e:ab:b3 <---> 134.96.216.229
+             d.h alle IP-Datagramme, die an den Rechner stl-s-mail Adressiert werden, werden an
+             den Rechner stl-c-master gesendet.
+
+        ###> Zweck : evtl. Denail of Service
+
+
+
+        2. ARP-Reply
+        ############
+                    TIP: 00:0e:0c:5e:ab:b3 : Ethernet-Adresse von stl-c-master
+                         134.96.216.99     : DNS-IP-Adresse von stl-c-master
+
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 9555 arrived at 14:34:1.98667
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:0e:0c:5e:ab:b3,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 2 (ARP Reply)
+                ARP:  Sender's hardware address = 00:0e:0c:5e:ab:b3
+                ARP:  Sender's protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+                ARP:  Target hardware address = ff:ff:ff:ff:ff:ff
+                ARP:  Target protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+                ARP:
+
+        ###> Hier wird folgender evtl. bestehender Eintrag
+                         00:0e:0c:5e:ab:b3 <---> 134.96.216.99
+                   oder  xx:xx:xx:xx:xx:xx <---> 134.96.216.1
+             in die ARP-Tabelle aller Rechner des LANs, d.h. des lokale IP-Netzwerkes wie folgt
+             abgeaendert/aktualisiert :
+                         00:0e:0c:5e:ab:b3 <---> 134.96.216.1
+             d.h alle IP-Datagramme, die an die angegebene IP-Adresse, den Router,  gesendet werden
+             ( rtg216-0 ist der Router, der das STL-Netzwerk mit dem Rest der Welt verbindet !!)
+             werden an den  Rechner stl-c-master versendet.
+
+        ###> Zweck : Durch diese Manipulation kann der Rechner stl-c-master den kompletten Internet-
+             Datenverkehr des LANs, also des lokalen IP-Netzwerkes mitschneiden.
+
+
+        3. ARP-Request
+        ##############
+                       TIP: 00:30:05:c2:d9:5f : Ethernet-Adresse von stl-k-07
+
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 103 arrived at 10:31:59.03162
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:30:05:c2:d9:5f,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 1 (ARP Request)
+                ARP:  Sender's hardware address = 00:30:05:c2:d9:5f
+                ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+                ARP:  Target hardware address = ?
+                ARP:  Target protocol address = 134.96.216.17, stl-k-07.htw-saarland.de
+                ARP:
+        
+        ###> Das ist ein Beispiel fuer eine GRATUITOUS-ARP-Nachricht. Der Rechner stl-k-07
+             versendet diese Nachricht beim Startup, er sendet ein ARP-Request mit seiner
+             IP-Adresse als "FRAGE-IP-Adresse". Bekommt er eine Antwort, ein ARP-Reply, so weiss er,
+             dass ein weiteres Netzwerkgeraet seine IP-Adresse benutzt und kann seinen Benutzer
+             darueber informieren. Bekommt er keine Antwort, dann ist alles in Ordnung.
+
+
+
+
+    4. Aufgabe - Apropos DHCP
+    -------------------------
+      Bearbeiten Sie folgende Fragen unter dem Betriebssystem Win10, die Bearbeitung
+      unter Redhat/CentOS und XUbuntu ist etwas aufwendiger und deshalb freiwillig.
+
+      - Finden Sie heraus welche Netzwerkinterfaces der VM via DHCP konfiguriert wurden.
+      
+      ###> Win10   --> ipconfig /all liefert : DHCP-Server : 134.96.216.155 
+
+
+      - Finden Sie den Namen und die IP-Adresse des STL-DHCP-Servers heraus.
+
+      ###> nslookup 134.96.216.155 ==> stl-s-d1.stl.htwsaar.de
+
+
+      - Welche Informationen liefert der STL-DHCP-Server an die VMs, seine Client-Rechner.
+
+      ###> Linux   --> dhcping -V -c CLIENT-IP -s SERVER-IP
+                       siehe angeforderte Parameter : /etc/dhcp*/dhclient.conf
+
+      ###> Win10   --> netsh interface ipv4 show config
+                      
+                       Der DHCP-Server Liefert :  - die IP-Adresse
+                                                  - die Netzwerk-Maske
+                                                  - das Standardgateway
+                                                  - 3 DNS-Server-Adressen
+
+            (Bsp.-Ausgaben siehe im Loesungs-Daten-Directory Datei -- Win10_netsh-interface-ipv4-show-config.txt  )
+
+
+-----------------------------------------------------------------------------------------------------
+        Linux -TIP :
+       #############
+ 
+       Wie finde ich Kommandos zu einem bestimmten Themenbereich ??
+                     apropos THEMA    --->  z.B. : apropos dhcp
+                     man -k  THEMA    --->  z.B. : man -k dhcp
+                     apropos THEMA    --->  z.B. : whatis dhcp
+ 
+
+       Win7  TIP:
+       ##########
+                   das Kommando : netsh ist ein Diagnosewerkzeug fuer alle moeglichen
+                   Konfigurations- und Konnektivitaets-Probleme unter Win7.
+ 
+                   via Kommandoshell, welche Aufrufparameter man benitzen kann
+                   findet man via
+                                      :   netsh ?
+
+

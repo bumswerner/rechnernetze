@@ -1,0 +1,14 @@
+    No. Time        Source                	Destination           	Protocol Info
+      1 0.000000    3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056
+      2 1.084705    rtg216-0.htw-saarland.de 	IGRP-ROUTERS.MCAST.NET 	EIGRP    Hello
+      3 2.005469    3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056
+      4 2.675266    stl-m-romoe.htw-saarland.de 255.255.255.255       	BOOTP    Boot Request from 00:02:b3:8e:5b:a9
+      5 4.022808    3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056
+      6 6.005714    3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056
+      7 6.009142    rtg216-0.htw-saarland.de 	IGRP-ROUTERS.MCAST.NET 	EIGRP    Hello
+      8 6.678626    stl-m-romoe.htw-saarland.de 255.255.255.255       	BOOTP    Boot Request from 00:02:b3:8e:5b:a9
+      9 8.001760    3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056
+     10 9.393747    stl-c-32.htw-saarland.de 	134.96.216.255        	NETLOGON SAM LOGON request from client
+     11 9.584306    stl-c-32.htw-saarland.de 	134.96.216.255        	NETLOGON SAM LOGON request from client
+     12 9.850968    stl-c-12.htw-saarland.de 	134.96.216.255        	WHO      stl-c-12: 0.00 0.00 0.01
+     13 10.000879   3COM_88:c3:38         	01:80:c2:00:00:00     	STP      Conf. Root = 32768/00:02:7e:02:14:b3  Cost = 20  Port = 0x8056

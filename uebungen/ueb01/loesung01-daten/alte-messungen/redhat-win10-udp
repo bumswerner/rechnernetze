@@ -1,0 +1,25 @@
+
+
+#
+#
+#
+# redhat-win10-udp
+#
+#
+
+
+redhat ::> netio-redhat -u stl-v-111.htwsaar.de | tee redhat-win10-udp 
+###########-----------------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  85.30 MByte/s (66%) Tx,  53.20 MByte/s (1%) Rx.
+Packet size  2k bytes:  22.89 MByte/s (94%) Tx,  84.89 MByte/s (2%) Rx.
+Packet size  4k bytes:  34.71 MByte/s (94%) Tx,  133.88 MByte/s (2%) Rx.
+Packet size  8k bytes:  6376.00 KByte/s (99%) Tx,  85.48 MByte/s (2%) Rx.
+Packet size 16k bytes:  205.27 KByte/s (99%) Tx,  102.88 MByte/s (2%) Rx.
+Packet size 32k bytes:  5461 Byte/s (99%) Tx,  140.88 MByte/s (2%) Rx.
+Done.

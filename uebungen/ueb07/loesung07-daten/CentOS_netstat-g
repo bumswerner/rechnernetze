@@ -1,0 +1,51 @@
+#
+#
+# CentOS_netstat-g
+#
+#
+#
+
+
+pauly ::> netstat -g      
+##########-----------------------------------------
+IPv6/IPv4 Gruppenmitgliedschaften
+Schnittstelle   RefZae Grupp
+--------------- ------ ---------------------
+lo              1      all-systems.mcast.net
+eth0            1      224.0.0.251
+eth0            1      all-systems.mcast.net
+virbr0          1      224.0.0.251
+virbr0          1      all-systems.mcast.net
+lo              1      ff02::1
+lo              1      ff01::1
+eth0            1      ff02::202
+eth0            1      ff02::1:fff3:7271
+eth0            1      ff02::1
+eth0            1      ff01::1
+virbr0          1      ff02::1
+virbr0          1      ff01::1
+virbr0-nic      1      ff02::1
+virbr0-nic      1      ff01::1
+
+
+pauly ::> netstat -gn
+##########-----------------------------------------
+IPv6/IPv4 Gruppenmitgliedschaften
+Schnittstelle   RefZaeh Grupp
+--------------- ------ ---------------------
+lo              1      224.0.0.1
+eth0            1      224.0.0.251
+eth0            1      224.0.0.1
+virbr0          1      224.0.0.251
+virbr0          1      224.0.0.1
+lo              1      ff02::1
+lo              1      ff01::1
+eth0            1      ff02::202
+eth0            1      ff02::1:fff3:7271
+eth0            1      ff02::1
+eth0            1      ff01::1
+virbr0          1      ff02::1
+virbr0          1      ff01::1
+virbr0-nic      1      ff02::1
+virbr0-nic      1      ff01::1
+

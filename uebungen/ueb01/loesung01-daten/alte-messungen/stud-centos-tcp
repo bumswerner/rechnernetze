@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# stud-centos-tcp
+#
+#
+
+CentOS -> netio -t stl-v-117.htwsaar.de | tee stud-centos-tcp
+#########----------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  66.15 MByte/s Tx,  97.40 MByte/s Rx.
+Packet size  2k bytes:  67.33 MByte/s Tx,  97.46 MByte/s Rx.
+Packet size  4k bytes:  76.32 MByte/s Tx,  99.26 MByte/s Rx.
+Packet size  8k bytes:  79.28 MByte/s Tx,  103.15 MByte/s Rx.
+Packet size 16k bytes:  80.31 MByte/s Tx,  104.03 MByte/s Rx.
+Packet size 32k bytes:  81.55 MByte/s Tx,  104.94 MByte/s Rx.
+Done.

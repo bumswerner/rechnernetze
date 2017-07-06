@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# redhat-stud-udp
+#
+#
+
+redhat -> netio -u stl-v-88.htwsaar.de | tee redhat-stud-udp
+#########----------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  41.37 MByte/s (81%) Tx,  93.64 MByte/s (6%) Rx.
+Packet size  2k bytes:  27.88 MByte/s (92%) Tx,  82.75 MByte/s (3%) Rx.
+Packet size  4k bytes:  78.02 MByte/s (83%) Tx,  97.30 MByte/s (2%) Rx.
+Packet size  8k bytes:  43.03 MByte/s (93%) Tx,  87.56 MByte/s (12%) Rx.
+Packet size 16k bytes:  1431.30 KByte/s (99%) Tx,  94.26 MByte/s (5%) Rx.
+Packet size 32k bytes:  581.32 KByte/s (99%) Tx,  95.05 MByte/s (6%) Rx.
+Done.

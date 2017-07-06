@@ -1,0 +1,287 @@
+#
+#
+#
+#
+#  whois-Abfragen-Beispiele
+#
+#
+#
+#
+
+
+zuerst mit dem Client-Ptrogramm : whois
+----------------------------------------
+
+
+
+whois htw-saarland.de
+---------------------
+
+Whois Server Version 1.3
+
+Domain names in the .com and .net domains can now be registered
+with many different competing registrars. Go to http://www.internic.net
+for detailed information.
+
+No match for "HTW-SAARLAND.DE".
+
+>>> Last update of whois database: Thu, 19 Aug 2004 12:34:38 EDT <<<
+
+NOTICE: The expiration date displayed in this record is the date the 
+registrar's sponsorship of the domain name registration in the registry is 
+currently set to expire. This date does not necessarily reflect the expiration 
+date of the domain name registrant's agreement with the sponsoring 
+registrar.  Users may consult the sponsoring registrar's Whois database to 
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois 
+database through the use of electronic processes that are high-volume and 
+automated except as reasonably necessary to register domain names or 
+modify existing registrations; the Data in VeriSign Global Registry 
+Services' ("VeriSign") Whois database is provided by VeriSign for 
+information purposes only, and to assist persons in obtaining information 
+about or related to a domain name registration record. VeriSign does not 
+guarantee its accuracy. By submitting a Whois query, you agree to abide 
+by the following terms of use: You agree that you may use this Data only 
+for lawful purposes and that under no circumstances will you use this Data 
+to: (1) allow, enable, or otherwise support the transmission of mass 
+unsolicited, commercial advertising or solicitations via e-mail, telephone, 
+or facsimile; or (2) enable high volume, automated, electronic processes 
+that apply to VeriSign (or its computer systems). The compilation, 
+repackaging, dissemination or other use of this Data is expressly 
+prohibited without the prior written consent of VeriSign. You agree not to 
+use electronic processes that are automated and high-volume to access or 
+query the Whois database except as reasonably necessary to register 
+domain names or modify existing registrations. VeriSign reserves the right 
+to restrict your access to the Whois database in its sole discretion to ensure 
+operational stability.  VeriSign may restrict or terminate your access to the 
+Whois database for failure to abide by these terms of use. VeriSign 
+reserves the right to modify these terms at any time. 
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+
+
+
+
+
+
+whois -h whois.denic.de htw-saarland.de
+---------------------------------------
+
+domain:      htw-saarland.de
+status:      connect
+
+
+
+
+
+whois -h whois.geektools.com htw-saarland.de
+--------------------------------------------
+GeekTools Whois Proxy v5.0.4 Ready.
+Checking access for 134.96.216.230... ok.
+
+Checking server [whois.denic.de]
+Results:
+% Copyright (c)2004 by DENIC
+% Version: 1.00.0
+%
+% Restricted rights.
+%
+%
+% Except for agreed Internet operational purposes, no part of this
+% information may be reproduced, stored in a retrieval system, or
+% transmitted, in any form or by any means, electronic, mechanical,
+% recording, or otherwise, without prior permission of the DENIC
+% on behalf of itself and/or the copyright holders. Any use of this
+% material to target advertising or similar activities are explicitly
+% forbidden and will be prosecuted. The DENIC requests to be notified
+% of any such activities or suspicions thereof.
+
+domain:      htw-saarland.de
+descr:       Hochschule fuer Technik und Wirtschaft des Saarlandes
+descr:       Goebenstrasse 40
+descr:       66117 Saarbruecken
+descr:       Germany
+nserver:     ns.rz.uni-sb.de
+nserver:     ns.htw.uni-sb.de
+nserver:     ns1.htw.uni-sb.de
+nserver:     ws-ber1.win-ip.dfn.de
+status:      connect
+changed:     2002-06-27T14:31:35+0200
+source:      DENIC
+
+[admin-c]
+Type:         PERSON
+Name:         Helmut Folz
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Changed:      2002-06-27T14:14:53+0200
+Source:       DENIC
+
+[tech-c][zone-c]
+Type:         PERSON
+Name:         Wolfgang Pauly
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Phone:        +49 681 5867 239
+Fax:          +49 681 5867 122
+Email:        wpy@htw-saarland.de
+Changed:      2002-06-27T14:14:37+0200
+Source:       DENIC
+
+[tech-c]
+Type:         PERSON
+Name:         Helmut Weiskircher
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Phone:        +49 681 5867 232
+Fax:          +49 681 5867 122
+Email:        wei@htw-saarland.de
+Changed:      2002-06-27T14:14:51+0200
+Source:       DENIC
+
+
+Results brought to you by the GeekTools WHOIS Proxy
+Server results may be copyrighted and are used with permission.
+Your host (134.96.216.230) has visited 2 times today.
+
+
+
+
+
+
+
+jetzt mit telnet
+-----------------
+
+telnet whois.denic.de 43                          
+------------------------
+
+Trying 81.91.162.7...
+Connected to whois.denic.de.
+Escape character is '^]'.
+htw-saarland.de                  <-------------------- tastatureingabe
+domain:      htw-saarland.de
+status:      connect
+
+Connection to whois.denic.de closed by foreign host.
+
+
+
+
+telnet whois.geektools.com 43
+-----------------------------
+
+
+Trying 206.117.161.84...
+Connected to whois.geektools.com.
+Escape character is '^]'.
+GeekTools Whois Proxy v5.0.4 Ready.
+Checking access for 134.96.216.230... ok.
+Timeout.  No input received within 10 seconds.
+Connection to whois.geektools.com closed by foreign host.
+
+
+
+
+
+
+telnet whois.geektools.com 43
+-----------------------------
+
+
+Trying 206.117.161.84...
+Connected to whois.geektools.com.
+Escape character is '^]'.
+GeekTools Whois Proxy v5.0.4 Ready.
+Checking access for 134.96.216.230... ok.
+htw-saarland.de           <-------------------------- tastatureingabe
+
+Checking server [whois.denic.de]
+Results:
+% Copyright (c)2004 by DENIC
+% Version: 1.00.0
+%
+% Restricted rights.
+%
+%
+% Except for agreed Internet operational purposes, no part of this
+% information may be reproduced, stored in a retrieval system, or
+% transmitted, in any form or by any means, electronic, mechanical,
+% recording, or otherwise, without prior permission of the DENIC
+% on behalf of itself and/or the copyright holders. Any use of this
+% material to target advertising or similar activities are explicitly
+% forbidden and will be prosecuted. The DENIC requests to be notified
+% of any such activities or suspicions thereof.
+
+domain:      htw-saarland.de
+descr:       Hochschule fuer Technik und Wirtschaft des Saarlandes
+descr:       Goebenstrasse 40
+descr:       66117 Saarbruecken
+descr:       Germany
+nserver:     ns.rz.uni-sb.de
+nserver:     ns.htw.uni-sb.de
+nserver:     ns1.htw.uni-sb.de
+nserver:     ws-ber1.win-ip.dfn.de
+status:      connect
+changed:     2002-06-27T14:31:35+0200
+source:      DENIC
+
+[admin-c]
+Type:         PERSON
+Name:         Helmut Folz
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Changed:      2002-06-27T14:14:53+0200
+Source:       DENIC
+
+[tech-c][zone-c]
+Type:         PERSON
+Name:         Wolfgang Pauly
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Phone:        +49 681 5867 239
+Fax:          +49 681 5867 122
+Email:        wpy@htw-saarland.de
+Changed:      2002-06-27T14:14:37+0200
+Source:       DENIC
+
+[tech-c]
+Type:         PERSON
+Name:         Helmut Weiskircher
+Address:      Hochschule fuer Technik und Wirtschaft des Saarlandes
+Address:      Goebenstrasse 40
+City:         Saarbruecken
+Pcode:        66117
+Country:      DE
+Phone:        +49 681 5867 232
+Fax:          +49 681 5867 122
+Email:        wei@htw-saarland.de
+Changed:      2002-06-27T14:14:51+0200
+Source:       DENIC
+
+
+Results brought to you by the GeekTools WHOIS Proxy
+Server results may be copyrighted and are used with permission.
+Your host (134.96.216.230) has visited 2 times today.
+
+
+Connection to whois.geektools.com closed by foreign host.
+

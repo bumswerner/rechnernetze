@@ -1,0 +1,179 @@
+#
+#
+#
+# CentOS_traceroute_www-stl
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S |\
+                                   -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  |\
+                           tee -a CentOS_traceroute_www-stl
+            ###################------------------------------
+            12:31:19.852753 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 1, id 63708, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute: [bad udp cksum 0xbe65 -> 0xfd71!] UDP, length 32
+            E..<.........`...`...`...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852805 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 1, id 63709, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.58511 > stl-v-indi.stl.htwsaar.de.33435: [bad udp cksum 0xbe65 -> 0xe541!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852834 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 1, id 63710, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.45288 > stl-v-indi.stl.htwsaar.de.33436: [bad udp cksum 0xbe65 -> 0x18e8!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852858 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 2, id 63711, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.44294 > stl-v-indi.stl.htwsaar.de.33437: [bad udp cksum 0xbe65 -> 0x1cc9!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852883 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+
+            ttl 2, id 63712, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.42900 > stl-v-indi.stl.htwsaar.de.33438: [bad udp cksum 0xbe65 -> 0x223a!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852906 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 2, id 63713, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.33028 > stl-v-indi.stl.htwsaar.de.33439: [bad udp cksum 0xbe65 -> 0x48c9!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852929 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 3, id 63714, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.45685 > stl-v-indi.stl.htwsaar.de.33440: [bad udp cksum 0xbe65 -> 0x1757!] UDP, length 32
+            E..<.........`...`...u...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852954 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 3, id 63715, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.55403 > stl-v-indi.stl.htwsaar.de.33441: [bad udp cksum 0xbe65 -> 0xf15f!] UDP, length 32
+            E..<.........`...`...k...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.852980 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 3, id 63716, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.39305 > stl-v-indi.stl.htwsaar.de.33442: [bad udp cksum 0xbe65 -> 0x3041!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853004 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 4, id 63717, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.48991 > stl-v-indi.stl.htwsaar.de.33443: [bad udp cksum 0xbe65 -> 0x0a6a!] UDP, length 32
+            E..<.........`...`..._...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853030 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 4, id 63718, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.38270 > stl-v-indi.stl.htwsaar.de.33444: [bad udp cksum 0xbe65 -> 0x344a!] UDP, length 32
+            E..<.........`...`...~...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853055 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 4, id 63719, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.41077 > stl-v-indi.stl.htwsaar.de.33445: [bad udp cksum 0xbe65 -> 0x2952!] UDP, length 32
+            E..<.........`...`...u...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853080 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 5, id 63720, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.35923 > stl-v-indi.stl.htwsaar.de.33446: [bad udp cksum 0xbe65 -> 0x3d73!] UDP, length 32
+            E..<.........`...`...S...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853105 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 5, id 63721, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.49632 > stl-v-indi.stl.htwsaar.de.33447: [bad udp cksum 0xbe65 -> 0x07e5!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853129 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 5, id 63722, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.52998 > stl-v-indi.stl.htwsaar.de.33448: [bad udp cksum 0xbe65 -> 0xfabd!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853153 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, 
+            ttl 6, id 63723, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.40942 > stl-v-indi.stl.htwsaar.de.33449: [bad udp cksum 0xbe65 -> 0x29d5!] UDP, length 32
+            E..<.........`...`.......(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853389 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26551, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port traceroute unreachable, length 68
+	            (tos 0x0, 
+            ttl 1, id 63708, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute: [udp sum ok] UDP, length 32
+            E..Xg...@.T..`...`.....b....E..<.........`...`...`...(.q@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853413 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26552, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port 33435 unreachable, length 68
+	            (tos 0x0, 
+            ttl 1, id 63709, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.58511 > stl-v-indi.stl.htwsaar.de.33435: [udp sum ok] UDP, length 32
+            E..Xg...@.T..`...`.....b....E..<.........`...`.......(.A@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853540 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26553, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port 33436 unreachable, length 68
+	            (tos 0x0, 
+            ttl 1, id 63710, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.45288 > stl-v-indi.stl.htwsaar.de.33436: [udp sum ok] UDP, length 32
+            E..Xg...@.T..`...`.....b....E..<.........`...`.......(..@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853549 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26554, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port 33437 unreachable, length 68
+	            (tos 0x0, 
+            ttl 2, id 63711, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.44294 > stl-v-indi.stl.htwsaar.de.33437: [udp sum ok] UDP, length 32
+            E..Xg...@.S..`...`.....b....E..<.........`...`.......(..@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853553 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26555, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port 33438 unreachable, length 68
+	            (tos 0x0, 
+            ttl 2, id 63712, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.42900 > stl-v-indi.stl.htwsaar.de.33438: [udp sum ok] UDP, length 32
+            E..Xg...@.S..`...`.....b....E..<.........`...`.......(":@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+
+            12:31:19.853556 52:54:00:9e:6f:9e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 102: (tos 0xc0, 
+            ttl 64, id 26556, offset 0, flags [none], proto ICMP (1), length 88)
+                stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP stl-v-indi.stl.htwsaar.de udp port 33439 unreachable, length 68
+	            (tos 0x0, 
+            ttl 2, id 63713, offset 0, flags [none], proto UDP (17), length 60)
+                stl-v-196.stl.htwsaar.de.33028 > stl-v-indi.stl.htwsaar.de.33439: [udp sum ok] UDP, length 32
+            E..Xg...@.S..`...`.....b....E..<.........`...`.......(H.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+                                    
+                        
+            
+Schritt 1b : starte auf CentOS-VM traceroute
+
+            pauly@stl-centos:> traceroute www-stl.htwsaar.de
+            ##################------------------------------
+            traceroute to www-stl.htwsaar.de (134.96.216.166), 30 hops max, 60 byte packets
+             1  stl-v-indi.stl.htwsaar.de (134.96.216.166)  0.673 ms  0.617 ms  0.714 ms
+

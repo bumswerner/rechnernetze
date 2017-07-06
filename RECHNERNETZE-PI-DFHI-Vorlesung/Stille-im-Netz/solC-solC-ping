@@ -1,0 +1,79 @@
+ETHER:  ----- Ether Header -----                solC-solC-ping  1
+ETHER:  
+ETHER:  Packet 1 arrived at 9:03:35.40127
+ETHER:  Packet size = 92 bytes
+ETHER:  Destination = 0:e:c:5e:ab:b3, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 78 bytes
+IP:   Identification = 32661
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = 7e77
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 134.96.216.99, stl-c-master.htw-saarland.de
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 1108 Sequence number: 0)
+ICMP:  Checksum = bc0
+ICMP:  
+
+
+ETHER:  ----- Ether Header -----                solC-solC-ping  2
+ETHER:  
+ETHER:  Packet 2 arrived at 9:03:35.40153
+ETHER:  Packet size = 92 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:e:c:5e:ab:b3, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 78 bytes
+IP:   Identification = 58309
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = da46
+IP:   Source address = 134.96.216.99, stl-c-master.htw-saarland.de
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 0 (Echo reply)
+ICMP:  Code = 0 (ID: 1108 Sequence number: 0)
+ICMP:  Checksum = 13c0
+ICMP:  
+

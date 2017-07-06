@@ -1,0 +1,55 @@
+#
+#
+#
+#     falsches_ARP-Reply
+#
+#
+#     00 einfach unverlangt gesendetes ARP-Reply 
+#
+
+
+
+
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9555 arrived at 14:34:1.98667
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:  
+ARP:  ----- ARP/RARP Frame -----
+ARP:  
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 2 (ARP Reply)
+ARP:  Sender's hardware address = 0:11:bc:4c:38:0
+ARP:  Sender's protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+ARP:  Target hardware address = ff:ff:ff:ff:ff:ff
+ARP:  Target protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+ARP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9556 arrived at 14:34:1.99879
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:  
+ARP:  ----- ARP/RARP Frame -----
+ARP:  
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 2 (ARP Reply)
+ARP:  Sender's hardware address = 0:11:bc:4c:38:0
+ARP:  Sender's protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+ARP:  Target hardware address = ff:ff:ff:ff:ff:ff
+ARP:  Target protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+ARP:  

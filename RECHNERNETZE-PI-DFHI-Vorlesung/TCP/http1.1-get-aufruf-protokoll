@@ -1,0 +1,1262 @@
+#
+#
+#
+#
+#
+# Http-Get- Aufruf - Protokoll
+#
+#
+#
+#
+
+
+
+
+Frame 1 (78 on wire, 78 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.120892000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xbc3f
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc86b (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673567617, Ack: 0, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673567617
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0x6721 (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+Frame 2 (78 on wire, 78 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.121313000
+    Time delta from previous packet: 0.000421000 seconds
+    Time relative to first packet: 0.000421000 seconds
+    Frame Number: 2
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xf21f
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd48a (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049947960, Ack: 1673567618, Len: 0
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049947960
+    Acknowledgement number: 1673567618
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0xd46a (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879426, tsecr 18223827
+        NOP
+        Window scale: 0 bytes
+        NOP
+        NOP
+        SACK permitted
+        Maximum segment size: 1460 bytes
+
+Frame 3 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.121490000
+    Time delta from previous packet: 0.000177000 seconds
+    Time relative to first packet: 0.000598000 seconds
+    Frame Number: 3
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc40
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc876 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673567618, Ack: 2049947961, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673567618
+    Acknowledgement number: 2049947961
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xbab5 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 1391879426
+
+Frame 4 (592 on wire, 592 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.121796000
+    Time delta from previous packet: 0.000306000 seconds
+    Time relative to first packet: 0.000904000 seconds
+    Frame Number: 4
+    Packet Length: 592 bytes
+    Capture Length: 592 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 578
+    Identification: 0xbc41
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc667 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673567618, Ack: 2049947961, Len: 526
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673567618
+    Next sequence number: 1673568144
+    Acknowledgement number: 2049947961
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xb8ef (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 1391879426
+Hypertext Transfer Protocol
+    GET /stl/test.html HTTP/1.1\r\n
+    Host: www.htw-saarland.de\r\n
+    User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; de-DE; rv:1.0.1) Gecko/20020920 Netscape/7.0\r\n
+    Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1\r\n
+    Accept-Language: de-de, de;q=0.50\r\n
+    Accept-Encoding: gzip, deflate, compress;q=0.9\r\n
+    Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66\r\n
+    Keep-Alive: 300\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    \r\n
+
+Frame 5 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.122471000
+    Time delta from previous packet: 0.000675000 seconds
+    Time relative to first packet: 0.001579000 seconds
+    Frame Number: 5
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xf220
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd495 (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049947961, Ack: 1673568144, Len: 0
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049947961
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x1327 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+
+Frame 6 (373 on wire, 373 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.123200000
+    Time delta from previous packet: 0.000729000 seconds
+    Time relative to first packet: 0.002308000 seconds
+    Frame Number: 6
+    Packet Length: 373 bytes
+    Capture Length: 373 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 359
+    Identification: 0xf221
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd361 (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049947961, Ack: 1673568144, Len: 307
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049947961
+    Next sequence number: 2049948268
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x4463 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Wed, 07 Apr 2004 11:31:50 GMT\r\n
+    Server: Apache/2.0.48 (Unix)\r\n
+    Last-Modified: Wed, 07 Apr 2004 09:35:52 GMT\r\n
+    ETag: "1a81f-1129-e36fce00"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 4393\r\n
+    Keep-Alive: timeout=15, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=ISO-8859-1\r\n
+    \r\n
+
+Frame 7 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.123488000
+    Time delta from previous packet: 0.000288000 seconds
+    Time relative to first packet: 0.002596000 seconds
+    Frame Number: 7
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc42
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc874 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049948268, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049948268
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33150
+    Checksum: 0xb80d (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 1391879427
+
+Frame 8 (1514 on wire, 1514 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.124067000
+    Time delta from previous packet: 0.000579000 seconds
+    Time relative to first packet: 0.003175000 seconds
+    Frame Number: 8
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xf222
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xceeb (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049948268, Ack: 1673568144, Len: 1448
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049948268
+    Next sequence number: 2049949716
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x7ff9 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+Hypertext Transfer Protocol
+    Data (1448 bytes)
+
+0000  3c 68 74 6d 6c 3e 0a 0a 20 20 3c 68 65 61 64 3e   <html>..  <head>
+0010  0a 20 20 20 20 3c 74 69 74 6c 65 3e 45 49 6e 65   .    <title>EIne
+0020  20 65 69 6e 66 61 63 68 73 74 65 20 68 74 6d 6c    einfachste html
+0030  2d 44 61 74 65 69 0a 20 20 20 20 3c 2f 74 69 74   -Datei.    </tit
+0040  6c 65 3e 0a 20 20 3c 2f 68 65 61 64 3e 0a 0a 20   le>.  </head>.. 
+0050  20 3c 62 6f 64 79 3e 0a 0a 20 20 3c 68 31 3e 20    <body>..  <h1> 
+0060  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 20   TEST-HTML-DATEI 
+0070  3c 2f 68 31 3e 0a 20 20 3c 62 72 3e 0a 20 20 54   </h1>.  <br>.  T
+0080  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0090  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+00a0  49 0a 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d   I.    TEST-HTML-
+00b0  44 41 54 45 49 0a 20 20 20 20 20 54 45 53 54 2d   DATEI.     TEST-
+00c0  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+00d0  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+00e0  0a 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d   .       TEST-HTM
+00f0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+0100  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+0110  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0120  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0130  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0140  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 54 45   EI.           TE
+0150  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0160  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0170  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0180  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0190  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+01a0  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+01b0  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+01c0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+01d0  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+01e0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+01f0  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+0200  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0210  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+0220  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0230  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0240  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0250  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0260  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0270  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0280  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0290  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+02a0  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20   EI.             
+02b0  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+02c0  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+02d0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02e0  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+02f0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0300  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+0310  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+0320  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0330  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+0340  0a 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54   .  TEST-HTML-DAT
+0350  45 49 0a 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d   EI.   TEST-HTML-
+0360  44 41 54 45 49 0a 20 20 20 20 54 45 53 54 2d 48   DATEI.    TEST-H
+0370  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 54   TML-DATEI.     T
+0380  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0390  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+03a0  41 54 45 49 0a 20 20 20 20 20 20 20 54 45 53 54   ATEI.       TEST
+03b0  2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20   -HTML-DATEI.    
+03c0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+03d0  54 45 49 0a 20 20 20 20 20 20 20 20 20 54 45 53   TEI.         TES
+03e0  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+03f0  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0400  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0410  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0420  49 0a 20 20 20 20 20 20 20 20 20 20 20 20 54 45   I.            TE
+0430  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0440  20 20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d              TEST-
+0450  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+0460  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0470  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0480  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+0490  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+04a0  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+04b0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+04c0  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+04d0  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+04e0  20 20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d              TEST-
+04f0  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+0500  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0510  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0520  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0530  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0540  49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20   I.              
+0550  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0560  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0570  20 20 20 20 20 20 20 20 20 20 20 20 20 54 45 53                TES
+0580  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+0590  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+05a0  20 20 20 20 54 45 53 54                               TEST
+
+Frame 9 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.124352000
+    Time delta from previous packet: 0.000285000 seconds
+    Time relative to first packet: 0.003460000 seconds
+    Frame Number: 9
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc43
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc873 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049949716, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049949716
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 32426
+    Checksum: 0xb539 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 1391879427
+
+Frame 10 (1514 on wire, 1514 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.124767000
+    Time delta from previous packet: 0.000415000 seconds
+    Time relative to first packet: 0.003875000 seconds
+    Frame Number: 10
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xf223
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xceea (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049949716, Ack: 1673568144, Len: 1448
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049949716
+    Next sequence number: 2049951164
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x0700 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+Hypertext Transfer Protocol
+    Data (1448 bytes)
+
+0000  2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20   -HTML-DATEI.    
+0010  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0020  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+0030  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+0040  20 20 20 20 20 20 20 20 20 20 20 20 20 54 45 53                TES
+0050  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 54   T-HTML-DATEI.  T
+0060  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0070  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0080  49 0a 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d   I.    TEST-HTML-
+0090  44 41 54 45 49 0a 20 20 20 20 20 54 45 53 54 2d   DATEI.     TEST-
+00a0  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+00b0  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+00c0  0a 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d   .       TEST-HTM
+00d0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+00e0  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+00f0  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0100  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0110  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0120  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 54 45   EI.           TE
+0130  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0140  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0150  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0160  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0170  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0180  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0190  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+01a0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+01b0  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+01c0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+01d0  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+01e0  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+01f0  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+0200  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0210  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0220  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0230  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0240  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0250  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0260  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0270  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0280  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20   EI.             
+0290  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+02a0  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+02b0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02c0  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+02d0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02e0  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+02f0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+0300  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0310  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+0320  0a 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54   .  TEST-HTML-DAT
+0330  45 49 0a 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d   EI.   TEST-HTML-
+0340  44 41 54 45 49 0a 20 20 20 20 54 45 53 54 2d 48   DATEI.    TEST-H
+0350  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 54   TML-DATEI.     T
+0360  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0370  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0380  41 54 45 49 0a 20 20 20 20 20 20 20 54 45 53 54   ATEI.       TEST
+0390  2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20   -HTML-DATEI.    
+03a0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+03b0  54 45 49 0a 20 20 20 20 20 20 20 20 20 54 45 53   TEI.         TES
+03c0  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+03d0  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+03e0  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+03f0  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0400  49 0a 20 20 20 20 20 20 20 20 20 20 20 20 54 45   I.            TE
+0410  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0420  20 20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d              TEST-
+0430  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+0440  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0450  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0460  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+0470  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+0480  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+0490  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+04a0  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+04b0  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+04c0  20 20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d              TEST-
+04d0  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+04e0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+04f0  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0500  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0510  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0520  49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20   I.              
+0530  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0540  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0550  20 20 20 20 20 20 20 20 20 20 20 20 20 54 45 53                TES
+0560  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+0570  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0580  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+0590  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+05a0  20 20 20 20 20 20 20 20                                   
+
+Frame 11 (1514 on wire, 1514 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.124893000
+    Time delta from previous packet: 0.000126000 seconds
+    Time relative to first packet: 0.004001000 seconds
+    Frame Number: 11
+    Packet Length: 1514 bytes
+    Capture Length: 1514 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 1500
+    Identification: 0xf224
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xcee9 (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049951164, Ack: 1673568144, Len: 1448
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049951164
+    Next sequence number: 2049952612
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x03a3 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+Hypertext Transfer Protocol
+    Data (1448 bytes)
+
+0000  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+0010  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+0020  20 20 20 20 20 20 20 20 20 20 20 20 20 54 45 53                TES
+0030  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 54   T-HTML-DATEI.  T
+0040  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0050  20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45     TEST-HTML-DATE
+0060  49 0a 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d   I.    TEST-HTML-
+0070  44 41 54 45 49 0a 20 20 20 20 20 54 45 53 54 2d   DATEI.     TEST-
+0080  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+0090  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+00a0  0a 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d   .       TEST-HTM
+00b0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+00c0  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+00d0  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+00e0  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+00f0  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0100  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 54 45   EI.           TE
+0110  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0120  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0130  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0140  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+0150  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0160  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0170  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+0180  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+0190  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+01a0  20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41       TEST-HTML-DA
+01b0  54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20   TEI.            
+01c0  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+01d0  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+01e0  20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c          TEST-HTML
+01f0  2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20 20   -DATEI.         
+0200  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0210  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0220  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0230  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0240  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0250  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0260  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20   EI.             
+0270  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0280  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0290  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02a0  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+02b0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02c0  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+02d0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+02e0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+02f0  20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49    TEST-HTML-DATEI
+0300  0a 0a 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41   ..  TEST-HTML-DA
+0310  54 45 49 0a 20 20 20 54 45 53 54 2d 48 54 4d 4c   TEI.   TEST-HTML
+0320  2d 44 41 54 45 49 0a 20 20 20 20 54 45 53 54 2d   -DATEI.    TEST-
+0330  48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20   HTML-DATEI.     
+0340  54 45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a   TEST-HTML-DATEI.
+0350  20 20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d         TEST-HTML-
+0360  44 41 54 45 49 0a 20 20 20 20 20 20 20 54 45 53   DATEI.       TES
+0370  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+0380  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0390  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 54 45   ATEI.         TE
+03a0  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+03b0  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+03c0  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+03d0  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+03e0  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20 54   EI.            T
+03f0  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+0400  20 20 20 20 20 20 20 20 20 20 20 20 54 45 53 54               TEST
+0410  2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20   -HTML-DATEI.    
+0420  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0430  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+0440  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0450  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0460  20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54            TEST-HT
+0470  4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20   ML-DATEI.       
+0480  20 20 20 20 20 20 20 20 20 20 54 45 53 54 2d 48             TEST-H
+0490  54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20   TML-DATEI.      
+04a0  20 20 20 20 20 20 20 20 20 20 20 20 54 45 53 54               TEST
+04b0  2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20 20   -HTML-DATEI.    
+04c0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54                  T
+04d0  45 53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20   EST-HTML-DATEI. 
+04e0  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+04f0  20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44 41 54      TEST-HTML-DAT
+0500  45 49 0a 20 20 20 20 20 20 20 20 20 20 20 20 20   EI.             
+0510  20 20 20 20 20 20 20 20 54 45 53 54 2d 48 54 4d           TEST-HTM
+0520  4c 2d 44 41 54 45 49 0a 20 20 20 20 20 20 20 20   L-DATEI.        
+0530  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0540  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0550  20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                   
+0560  20 20 20 20 20 54 45 53 54 2d 48 54 4d 4c 2d 44        TEST-HTML-D
+0570  41 54 45 49 0a 20 20 20 20 20 20 20 20 20 20 20   ATEI.           
+0580  20 20 20 20 20 20 20 20 20 20 20 20 20 54 45 53                TES
+0590  54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20 20   T-HTML-DATEI.   
+05a0  20 20 20 20 20 20 20 20                                   
+
+Frame 12 (115 on wire, 115 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.124956000
+    Time delta from previous packet: 0.000063000 seconds
+    Time relative to first packet: 0.004064000 seconds
+    Frame Number: 12
+    Packet Length: 115 bytes
+    Capture Length: 115 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 101
+    Identification: 0xf225
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd45f (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049952612, Ack: 1673568144, Len: 49
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049952612
+    Next sequence number: 2049952661
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0018 (PSH, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 1... = Push: Set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0x4362 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391879427, tsecr 18223827
+Hypertext Transfer Protocol
+    Data (49 bytes)
+
+0000  20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 45                 TE
+0010  53 54 2d 48 54 4d 4c 2d 44 41 54 45 49 0a 20 20   ST-HTML-DATEI.  
+0020  3c 2f 62 6f 64 79 3e 0a 0a 3c 2f 68 74 6d 6c 3e   </body>..</html>
+0030  0a                                                .
+
+Frame 13 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.125098000
+    Time delta from previous packet: 0.000142000 seconds
+    Time relative to first packet: 0.004206000 seconds
+    Frame Number: 13
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc44
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc872 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049952612, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049952612
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 31856
+    Checksum: 0xac23 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223827, tsecr 1391879427
+
+Frame 14 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:14.170925000
+    Time delta from previous packet: 0.045827000 seconds
+    Time relative to first packet: 0.050033000 seconds
+    Frame Number: 14
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc45
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc871 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049952661, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049952661
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xa645 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18223832, tsecr 1391879427
+
+Frame 15 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:29.122794000
+    Time delta from previous packet: 14.951869000 seconds
+    Time relative to first packet: 15.001902000 seconds
+    Frame Number: 15
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xf226
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd48f (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049952661, Ack: 1673568144, Len: 0
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049952661
+    Acknowledgement number: 1673568144
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 10136
+    Checksum: 0xfae8 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391880927, tsecr 18223832
+
+Frame 16 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:29.122966000
+    Time delta from previous packet: 0.000172000 seconds
+    Time relative to first packet: 15.002074000 seconds
+    Frame Number: 16
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc46
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc870 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049952662, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049952662
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9a91 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18225327, tsecr 1391880927
+
+Frame 17 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:39.340528000
+    Time delta from previous packet: 10.217562000 seconds
+    Time relative to first packet: 25.219636000 seconds
+    Frame Number: 17
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), Dst Addr: zdve-www.htw-saarland.de (134.96.208.101)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xbc47
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc86f (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-www.htw-saarland.de (134.96.208.101)
+Transmission Control Protocol, Src Port: 33540 (33540), Dst Port: 80 (80), Seq: 1673568144, Ack: 2049952662, Len: 0
+    Source port: 33540 (33540)
+    Destination port: 80 (80)
+    Sequence number: 1673568144
+    Acknowledgement number: 2049952662
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0x9692 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 18226349, tsecr 1391880927
+
+Frame 18 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 13:33:39.340820000
+    Time delta from previous packet: 0.000292000 seconds
+    Time relative to first packet: 25.219928000 seconds
+    Frame Number: 18
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:d0:c0:d1:4c:10 (Cisco_d1:4c:10)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: zdve-www.htw-saarland.de (134.96.208.101), Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xf227
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: TCP (0x06)
+    Header checksum: 0xd48e (correct)
+    Source: zdve-www.htw-saarland.de (134.96.208.101)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33540 (33540), Seq: 2049952662, Ack: 1673568145, Len: 0
+    Source port: 80 (80)
+    Destination port: 33540 (33540)
+    Sequence number: 2049952662
+    Acknowledgement number: 1673568145
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 10136
+    Checksum: 0xed15 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 1391881948, tsecr 18226349

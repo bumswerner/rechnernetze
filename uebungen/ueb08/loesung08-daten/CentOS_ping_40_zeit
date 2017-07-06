@@ -1,0 +1,42 @@
+#
+#
+#
+# CentOS_ping_40_zeit
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1a : starte tcpdump um icmp-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S -A 'icmp and ( dst www.zeit.de or src www.zeit.de )' |\
+                               tee -a  CentOS_ping_40_zeit
+            ###################------------------------------
+            
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+10:09:31.583285 00:1a:4a:f3:72:71 (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 82: (tos 0x0, ttl 64, id 48040, offset 0, flags [DF], proto ICMP (1), length 68)
+    stl-v-196.stl.htwsaar.de > www.zeit.de: ICMP echo request, id 19413, seq 1, length 48
+E..D..@.@....`...D.....K.....tW....O....................... !"#$%&'
+10:09:31.600148 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 82: (tos 0x0, ttl 52, id 17700, offset 0, flags [none], proto ICMP (1), length 68)
+    www.zeit.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 19413, seq 1, length 48
+E..DE$..4..g.D..`......K.....tW....O....................... !"#$%&'
+
+
+
+
+Schritt 1b : fuehre das entsprechende ping auf CentOS in anderem Fenster aus
+
+            pauly@stl-centos> ping -c 1 -s 40 www.zeit.de
+            ##################----------------------------
+            PING www.zeit.de (217.13.68.251) 40(68) bytes of data.
+            48 bytes from www.zeit.de (217.13.68.251): icmp_seq=1 ttl=52 time=16.9 ms
+            
+            --- www.zeit.de ping statistics ---
+            1 packets transmitted, 1 received, 0% packet loss, time 0ms
+            rtt min/avg/max/mdev = 16.901/16.901/16.901/0.000 ms
+

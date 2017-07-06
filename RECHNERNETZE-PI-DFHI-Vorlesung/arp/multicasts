@@ -1,0 +1,159 @@
+#
+#
+#
+#
+# ansprache von multicast -Adressen
+#
+#
+#
+
+
+
+ping -s 224.0.0.1  1 20
+
+
+stl-m-wpy::/>snoop -v multicast
+
+
+
+
+Using device /dev/iprb0 (promiscuous mode)
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 7 arrived at 14:44:59.90
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = 1:0:5e:0:0:a, (multicast)
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 88 ()
+IP:   Header checksum = 793e
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 224.0.0.10, IGRP-ROUTERS.MCAST.NET
+IP:   No options
+IP:   
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 13 arrived at 14:45:3.36
+ETHER:  Packet size = 43 bytes
+ETHER:  Destination = 1:0:5e:0:0:1, (multicast)
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 29 bytes
+IP:   Identification = 3654
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 1 (ICMP)
+IP:   Header checksum = 6c52
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 224.0.0.1, ALL-SYSTEMS.MCAST.NET
+IP:   No options
+IP:   
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 4787 Sequence number: 0)
+ICMP:  Checksum = e54c
+ICMP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 16 arrived at 14:45:4.15
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = 1:0:5e:0:0:a, (multicast)
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 88 ()
+IP:   Header checksum = 793e
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 224.0.0.10, IGRP-ROUTERS.MCAST.NET
+IP:   No options
+IP:   
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 22 arrived at 14:45:9.06
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = 1:0:5e:0:0:a, (multicast)
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 88 ()
+IP:   Header checksum = 793e
+IP:   Source address = 134.96.216.1, rtg216-0.htw-saarland.de
+IP:   Destination address = 224.0.0.10, IGRP-ROUTERS.MCAST.NET
+IP:   No options
+IP:   

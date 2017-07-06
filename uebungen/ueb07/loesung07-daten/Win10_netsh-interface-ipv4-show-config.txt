@@ -1,0 +1,39 @@
+#
+#
+#
+#  Win10_netsh-interface-ipv4-show-config
+#
+#
+#
+
+
+
+C:\Users\pauly>netsh interface ipv4 show config
+###############-----------------------------------------
+
+Konfiguration der Schnittstelle "Ethernet"
+    DHCP aktiviert:                       Ja
+    IP-Adresse:                           134.96.216.88
+    Subnetzpraefix:                       134.96.216.0/24 (Maske 255.255.255.0)
+    Standardgateway:                      134.96.216.1
+    Gatewaymetrik:                        0
+    Schnittstellenmetrik:                 15
+    Ueber DHCP konfigurierte DNS-Server:  134.96.216.249
+                                          134.96.216.253
+                                          134.96.216.214
+    Mit welchem Suffix registrieren:      Nur primaeres
+    Ueber DHCP konfigurierte WINS-Server: Keine
+
+Konfiguration der Schnittstelle "Loopback Pseudo-Interface 1"
+    DHCP aktiviert:                       Nein
+    IP-Adresse:                           127.0.0.1
+    Subnetzpraefix:                       127.0.0.0/8 (Maske 255.0.0.0)
+    Schnittstellenmetrik:                 75
+    Statisch konfigurierte DNS-Server:    Keine
+    Mit welchem Suffix registrieren:      Nur primaeres
+    Statisch konfigurierte WINS-Server:   Keine
+
+
+C:\Users\pauly>
+###############-----------------------------------------
+

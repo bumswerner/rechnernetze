@@ -1,0 +1,4060 @@
+$ORIGIN .
+$TTL 43200	; 12 hours
+fh-saarland.de		IN SOA	ns.rz.uni-saarland.de. Margit\.Meyer.htw-saarland.de. (
+				2012012100 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				300        ; minimum (5 minutes)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+			NS	ws-ber1.win-ip.dfn.de.
+			A	134.96.208.112
+			MX	20 m-relay.htw-saarland.de.
+			MX	80 m-relay.rz.uni-saarland.de.
+			MX	80 m-relay2.rz.uni-saarland.de.
+			MX	90 m-relay3.rz.uni-saarland.de.
+			LOC	49 15 27.000 N 7 2 42.000 E 80.00m 2000m 2000m 10m
+$ORIGIN fh-saarland.de.
+2fb-server-bw		A	134.96.219.174
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-p01			A	134.96.212.172
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-p02			A	134.96.212.131
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-p03			A	134.96.212.132
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-p05			A	134.96.212.134
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-s03			A	134.96.212.138
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-s04			A	134.96.212.139
+			MX	100 zdve-mailx.htw-saarland.de.
+a1-s05			A	134.96.212.140
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-balzer		A	134.96.212.189
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-baumgaertner		A	134.96.212.234
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-goe			A	134.96.212.141
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-hank			A	134.96.212.142
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-kuem			A	134.96.212.143
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-kuhn			A	134.96.212.144
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-lembert		A	134.96.212.145
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-ljost		A	134.96.212.201
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-pierron		A	134.96.212.194
+			MX	100 zdve-mailx.htw-saarland.de.
+a2-schaefer		A	134.96.212.187
+			MX	100 zdve-mailx.htw-saarland.de.
+a3-frey			A	134.96.212.146
+			MX	100 zdve-mailx.htw-saarland.de.
+a3-kuhn			A	134.96.212.147
+			MX	100 zdve-mailx.htw-saarland.de.
+a3-qu			A	134.96.212.150
+			MX	100 zdve-mailx.htw-saarland.de.
+a3-quack		A	134.96.212.149
+			MX	100 zdve-mailx.htw-saarland.de.
+a3-weiss		A	134.96.212.155
+			MX	100 zdve-mailx.htw-saarland.de.
+a4-altmeyer		A	134.96.212.186
+			MX	100 zdve-mailx.htw-saarland.de.
+a4-hell			A	134.96.212.193
+			MX	100 zdve-mailx.htw-saarland.de.
+a4-notebook		A	134.96.212.190
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-01			A	134.96.212.130
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-02			A	134.96.212.178
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-03			A	134.96.212.179
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-04			A	134.96.212.180
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-05			A	134.96.212.153
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-goe			A	134.96.212.196
+			MX	100 zdve-mailx.htw-saarland.de.
+aaa-whw			A	134.96.212.181
+			MX	100 zdve-mailx.htw-saarland.de.
+ab			CNAME	zdve-mailx.htw-saarland.de.
+abawi			A	134.96.219.214
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-im		A	134.96.219.215
+			MX	90 abawi-im.htw-saarland.de.
+abawi-nas		A	134.96.219.212
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc		A	134.96.219.216
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc1		A	134.96.219.207
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc2		A	134.96.219.208
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc3		A	134.96.219.209
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc4		A	134.96.219.210
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-pc5		A	134.96.219.211
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-printer1		A	134.96.219.205
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-printer2		A	134.96.219.206
+			MX	100 zdve-mailx.htw-saarland.de.
+abawi-router		A	134.96.219.213
+			MX	100 zdve-mailx.htw-saarland.de.
+abel			A	134.96.214.146
+			MX	100 zdve-mailx.htw-saarland.de.
+ad-test			A	134.96.208.44
+			MX	100 zdve-mailx.htw-saarland.de.
+ag-logistik		CNAME	wiwi-rom.htw-saarland.de.
+alumni			A	134.96.210.135
+			MX	100 zdve-mailx.htw-saarland.de.
+alumni-server		A	134.96.209.162
+			MX	100 zdve-mailx.htw-saarland.de.
+alumniadmin		CNAME	www-zv.htw-saarland.de.
+ams-mobi		A	134.96.214.111
+			MX	100 zdve-mailx.htw-saarland.de.
+architektur		CNAME	zdve-mailx.htw-saarland.de.
+artis			A	134.96.208.174
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-001		A	134.96.209.204
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-002		A	134.96.209.199
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-003		A	134.96.209.205
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-004		A	134.96.209.202
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-005		A	134.96.209.203
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-drucker		A	134.96.209.201
+asta-pc1		A	134.96.209.195
+			MX	100 zdve-mailx.htw-saarland.de.
+asta-pc3		A	134.96.209.200
+			MX	100 zdve-mailx.htw-saarland.de.
+asterisk		A	134.96.215.130
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-bergrath		A	134.96.211.70
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-bowoos3		A	134.96.211.78
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-drucker1		A	134.96.211.93
+aub-dv-laptop		A	134.96.211.81
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-eberding		A	134.96.211.89
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-hartnack		A	134.96.211.88
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-heckoetter		A	134.96.211.85
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-hiwi-pohl		A	134.96.211.79
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-imac-schmidtpeter	A	134.96.211.77
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-koeehler		A	134.96.211.69
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-konstlab		A	134.96.211.76
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-lukas-imac		A	134.96.211.74
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-lukas-macbook	A	134.96.211.71
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-lukas-macbookpro	A	134.96.211.73
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-mendgen		A	134.96.211.86
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-mueller		A	134.96.211.72
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pantle		A	134.96.211.87
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pohl-oki		A	134.96.211.90
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pohl1		A	134.96.211.91
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pohl2		A	134.96.211.92
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pruefamt		A	134.96.211.67
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-pruefungsamt	A	134.96.211.66
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-sbach		A	134.96.211.75
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-towae-nbhp		A	134.96.211.80
+			MX	100 zdve-mailx.htw-saarland.de.
+aub-towae-notebook	A	134.96.211.68
+			MX	100 zdve-mailx.htw-saarland.de.
+aurora			CNAME	kil-s-web.htw-saarland.de.
+auslegestelle-tmp	A	134.96.208.138
+			MX	100 zdve-mailx.htw-saarland.de.
+autofluid		A	134.96.215.2
+			MX	100 zdve-mailx.htw-saarland.de.
+autoren			A	134.96.209.107
+			MX	100 zdve-mailx.htw-saarland.de.
+aviation-business	CNAME	zdve-mailx.htw-saarland.de.
+azubi-a1		A	134.96.212.200
+			MX	100 zdve-mailx.htw-saarland.de.
+azubi-a3		A	134.96.212.214
+			MX	100 zdve-mailx.htw-saarland.de.
+backup			A	134.96.209.40
+			MX	100 zdve-mailx.htw-saarland.de.
+batman			A	134.96.216.48
+			MX	100 zdve-mailx.htw-saarland.de.
+bauingenieurwesen	CNAME	zdve-mailx.htw-saarland.de.
+bayes			A	134.96.214.185
+			MX	100 zdve-mailx.htw-saarland.de.
+bernd-hp		A	134.96.215.84
+			MX	100 zdve-mailx.htw-saarland.de.
+betriebswirtschaft	CNAME	zdve-mailx.htw-saarland.de.
+bewerber		A	134.96.210.134
+			MX	100 zdve-mailx.htw-saarland.de.
+bfw-ta01		A	134.96.210.3
+			MX	100 zdve-mailx.htw-saarland.de.
+bfw-ta02		A	134.96.210.4
+			MX	100 zdve-mailx.htw-saarland.de.
+bi			CNAME	zdve-mailx.htw-saarland.de.
+bi-abwasserlabor-1	A	134.96.211.134
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-abwasserlabor-2	A	134.96.211.140
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-aris			A	134.96.210.101
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-autosoft		A	134.96.211.150
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-backes		A	134.96.211.155
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-bau			A	134.96.211.148
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom		A	134.96.208.109
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom-01		A	134.96.211.131
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom-02		A	134.96.211.133
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom-03		A	134.96.211.163
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom-04		A	134.96.211.160
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baukom-05		A	134.96.211.138
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-baur			A	134.96.211.154
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-boettcher		A	134.96.211.157
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-cad12		A	134.96.211.162
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-deutsch		A	134.96.211.144
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-duesing		A	134.96.211.158
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-fbv			A	134.96.211.146
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-gsg			A	134.96.211.159
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-mobil		A	134.96.211.156
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-p-edi3par		A	134.96.210.120
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-plt4000		A	134.96.211.135
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-plt750c		A	134.96.211.143
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-prt5550		A	134.96.211.136
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-scan			A	134.96.210.119
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-schmidt		A	134.96.211.149
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-schneiderf		A	134.96.211.151
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-schneiderj		A	134.96.211.152
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-sek			A	134.96.211.161
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-server		A	134.96.211.130
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-upm			A	134.96.211.132
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-vermess		A	134.96.211.141
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-webel		A	134.96.211.153
+			MX	100 zdve-mailx.htw-saarland.de.
+bi-wullschlaeger	A	134.96.211.145
+			MX	100 zdve-mailx.htw-saarland.de.
+bibliothek		CNAME	www-zv.htw-saarland.de.
+biehler2		A	134.96.211.139
+			MX	100 zdve-mailx.htw-saarland.de.
+biomedizinische-technik	CNAME	zdve-mailx.htw-saarland.de.
+bioniklabor-01		A	134.96.215.92
+			MX	100 zdve-mailx.htw-saarland.de.
+bioniklabor-02		A	134.96.215.93
+			MX	100 zdve-mailx.htw-saarland.de.
+bioniklabor-03		A	134.96.215.94
+			MX	100 zdve-mailx.htw-saarland.de.
+biovt5014		A	134.96.215.81
+			MX	100 zdve-mailx.htw-saarland.de.
+bkurs			A	134.96.210.136
+			MX	100 zdve-mailx.htw-saarland.de.
+bmt			CNAME	zdve-mailx.htw-saarland.de.
+bmtbuero		A	134.96.214.19
+			MX	100 zdve-mailx.htw-saarland.de.
+bmtbuero2		A	134.96.214.59
+			MX	100 zdve-mailx.htw-saarland.de.
+bmtprint		A	134.96.214.20
+			MX	100 zdve-mailx.htw-saarland.de.
+bpm			A	134.96.208.117
+			MX	100 zdve-mailx.htw-saarland.de.
+buero9012		A	134.96.211.137
+			MX	100 zdve-mailx.htw-saarland.de.
+bus			A	134.96.215.99
+			MX	100 zdve-mailx.htw-saarland.de.
+busse			A	134.96.215.69
+			MX	100 zdve-mailx.htw-saarland.de.
+bussemobil		A	134.96.215.71
+			MX	100 zdve-mailx.htw-saarland.de.
+bw			CNAME	zdve-mailx.htw-saarland.de.
+bw-appel		A	134.96.219.175
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-beinhauer		A	134.96.219.130
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-beyersd		A	134.96.219.133
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-bousonville		A	134.96.219.151
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-brach		A	134.96.219.140
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-buck			A	134.96.219.132
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-conrad		A	134.96.219.185
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-conradc		A	134.96.219.226
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-dehmelt		A	134.96.219.138
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-dekanat		A	134.96.219.189
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-demmer		A	134.96.219.134
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-firlus-nb		A	134.96.219.164
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-goettling		A	134.96.219.227
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-groehl		A	134.96.219.137
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-haldy		A	134.96.219.231
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-hauser		A	134.96.219.182
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-hellenthal		A	134.96.219.239
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-heuwinkel		A	134.96.219.165
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-hl-5350dn		A	134.96.219.187
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-hp4250		A	134.96.219.170
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-hpoj-k8600		A	134.96.219.248
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-htz01		A	134.96.219.232
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-huetter		A	134.96.219.192
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-huth			A	134.96.219.147
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-jensen		A	134.96.219.155
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-kellner		A	134.96.219.177
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-kirsch		A	134.96.219.158
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-kloninger		A	134.96.219.163
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-koch			A	134.96.219.159
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-koenig		A	134.96.219.143
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-koenig-nb		A	134.96.219.224
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-krivograd		A	134.96.219.253
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-lexm-x464		A	134.96.219.247
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-liebig		A	134.96.219.201
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-lieblang		A	134.96.219.161
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-linux		A	134.96.208.131
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-mach			A	134.96.219.179
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-malburg		A	134.96.218.72
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-mallick		A	134.96.219.135
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-martin		A	134.96.219.230
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-mehlem		A	134.96.219.149
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-melo			A	134.96.219.162
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-melo-nb		A	134.96.219.157
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-neumann		A	134.96.219.156
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-ohligschlaeger	A	134.96.219.188
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-philippi		A	134.96.219.145
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-philippi-nb		A	134.96.219.180
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-pilhofer		A	134.96.219.234
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-pochmann		A	134.96.219.146
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-07		A	134.96.219.221
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-08		A	134.96.219.222
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-09		A	134.96.219.225
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-11		A	134.96.219.235
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-12		A	134.96.219.242
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-13		A	134.96.219.243
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-14		A	134.96.219.244
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-15		A	134.96.219.245
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-16		A	134.96.219.246
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-19		A	134.96.219.249
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-20		A	134.96.219.250
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-21		A	134.96.219.251
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-23		A	134.96.219.252
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-24		A	134.96.219.126
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-25		A	134.96.219.125
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt-hp		A	134.96.219.223
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt01		A	134.96.219.190
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt02		A	134.96.219.191
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt04		A	134.96.219.200
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt05		A	134.96.219.219
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-projekt06		A	134.96.219.220
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-rockenbauch		A	134.96.219.136
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-rutsch		A	134.96.218.116
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schmidt		A	134.96.219.150
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schmidto		A	134.96.219.181
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schmitt		A	134.96.219.141
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schorr		A	134.96.219.148
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schroeder		A	134.96.219.203
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schroepf		A	134.96.219.186
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-schwarz		A	134.96.219.160
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-selle		A	134.96.219.166
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-skdruck01		A	134.96.219.184
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-skdruck02		A	134.96.219.193
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-test			A	134.96.219.171
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-test1		A	134.96.219.172
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-tinnefeld		A	134.96.219.131
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-vogt			A	134.96.219.152
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-vollmer		A	134.96.219.142
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-weitz		A	134.96.219.167
+			MX	100 zdve-mailx.htw-saarland.de.
+bw-zell			A	134.96.219.153
+			MX	100 zdve-mailx.htw-saarland.de.
+c2i-server		A	134.96.208.123
+			MX	100 zdve-mailx.htw-saarland.de.
+cad			A	134.96.215.109
+			MX	100 zdve-mailx.htw-saarland.de.
+calles2			A	134.96.215.7
+			MX	100 zdve-mailx.htw-saarland.de.
+cantor			A	134.96.214.227
+			MX	100 zdve-mailx.htw-saarland.de.
+cauchy			A	134.96.214.142
+			MX	100 zdve-mailx.htw-saarland.de.
+chemie1			A	134.96.214.141
+			MX	100 zdve-mailx.htw-saarland.de.
+chemie2			A	134.96.214.163
+			MX	100 zdve-mailx.htw-saarland.de.
+cjd-alumni		A	134.96.209.3
+			MX	100 zdve-mailx.htw-saarland.de.
+ckmobil			A	134.96.215.102
+			MX	100 zdve-mailx.htw-saarland.de.
+clix			CNAME	zdve-mailx.htw-saarland.de.
+controller		A	134.96.212.213
+			MX	100 zdve-mailx.htw-saarland.de.
+dek-assist		A	134.96.214.44
+			MX	100 zdve-mailx.htw-saarland.de.
+descartes		A	134.96.214.175
+dfhi-1			A	134.96.209.242
+			MX	100 zdve-mailx.htw-saarland.de.
+dfhi-2			A	134.96.209.243
+			MX	100 zdve-mailx.htw-saarland.de.
+dfhi-3			A	134.96.209.244
+			MX	100 zdve-mailx.htw-saarland.de.
+dfhi-4			A	134.96.209.245
+			MX	100 zdve-mailx.htw-saarland.de.
+dfhi-web		A	134.96.210.138
+			MX	100 zdve-mailx.htw-saarland.de.
+didaktik		A	134.96.212.209
+			MX	100 zdve-mailx.htw-saarland.de.
+dongle-server		A	134.96.210.67
+			MX	100 zdve-mailx.htw-saarland.de.
+dr-farbe		A	134.96.212.137
+dr-scanner		A	134.96.212.151
+dru-stei		A	134.96.209.47
+			MX	100 zdve-mailx.htw-saarland.de.
+druck-plot		A	134.96.212.204
+drucker-7218		A	134.96.215.106
+			MX	100 zdve-mailx.htw-saarland.de.
+drucker-7220		A	134.96.215.108
+			MX	100 zdve-mailx.htw-saarland.de.
+drucker-mg		A	134.96.208.9
+			MX	100 zdve-mailx.htw-saarland.de.
+druckerei		A	134.96.212.169
+			MX	100 zdve-mailx.htw-saarland.de.
+druckerei-p-ricoh	A	134.96.212.170
+			MX	100 zdve-mailx.htw-saarland.de.
+druqui			A	134.96.209.45
+			MX	100 zdve-mailx.htw-saarland.de.
+dynaserv		A	134.96.208.164
+			MX	100 zdve-mailx.htw-saarland.de.
+e			CNAME	zdve-mailx.htw-saarland.de.
+e-ams195		A	134.96.211.195
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams196		A	134.96.211.196
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams197		A	134.96.211.197
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams198		A	134.96.211.198
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams199		A	134.96.211.199
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams200		A	134.96.211.200
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams201		A	134.96.211.201
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams202		A	134.96.211.202
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams203		A	134.96.211.203
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams204		A	134.96.211.204
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams205		A	134.96.211.205
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams206		A	134.96.211.206
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams207		A	134.96.211.207
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams208		A	134.96.211.208
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams209		A	134.96.211.209
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams210		A	134.96.211.210
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams211		A	134.96.211.211
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams212		A	134.96.211.212
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams213		A	134.96.211.213
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams214		A	134.96.211.214
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams215		A	134.96.211.215
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams216		A	134.96.211.216
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams217		A	134.96.211.217
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams218		A	134.96.211.218
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams219		A	134.96.211.219
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams220		A	134.96.211.220
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams221		A	134.96.211.221
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams222		A	134.96.211.222
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams223		A	134.96.211.223
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams224		A	134.96.211.224
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams225		A	134.96.211.225
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams226		A	134.96.211.226
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams227		A	134.96.211.227
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams228		A	134.96.211.228
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams229		A	134.96.211.229
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams230		A	134.96.211.230
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams231		A	134.96.211.231
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams234		A	134.96.211.234
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams241		A	134.96.211.241
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams242		A	134.96.211.242
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams247		A	134.96.211.247
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ams33			A	134.96.211.233
+			MX	100 zdve-mailx.htw-saarland.de.
+e-amsgast		A	134.96.211.240
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-01		A	134.96.214.39
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-02		A	134.96.214.46
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-03		A	134.96.214.67
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-04		A	134.96.214.68
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-05		A	134.96.214.69
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-06		A	134.96.214.70
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-07		A	134.96.214.71
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-08		A	134.96.214.72
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-09		A	134.96.214.73
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-10		A	134.96.214.74
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-11		A	134.96.214.75
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-12		A	134.96.217.138
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-13		A	134.96.217.149
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-14		A	134.96.217.150
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-15		A	134.96.217.154
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-16		A	134.96.217.155
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-17		A	134.96.217.156
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-18		A	134.96.217.157
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-19		A	134.96.214.25
+			MX	100 zdve-mailx.htw-saarland.de.
+e-ant-20		A	134.96.214.45
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-01		A	134.96.214.5
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-02		A	134.96.214.37
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-05		A	134.96.214.4
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-06		A	134.96.214.2
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-07		A	134.96.214.3
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-08		A	134.96.214.123
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-09		A	134.96.214.124
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-10		A	134.96.214.125
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-11		A	134.96.217.143
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-12		A	134.96.217.146
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-13		A	134.96.217.147
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-14		A	134.96.217.148
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-15		A	134.96.217.139
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-16		A	134.96.217.140
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-17		A	134.96.214.21
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-18		A	134.96.214.22
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-19		A	134.96.214.23
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-20		A	134.96.214.24
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-21		A	134.96.214.42
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-22		A	134.96.214.43
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-23		A	134.96.214.105
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-24		A	134.96.214.106
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-25		A	134.96.214.113
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-26		A	134.96.214.114
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-27		A	134.96.214.115
+			MX	100 zdve-mailx.htw-saarland.de.
+e-eev-30		A	134.96.208.210
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-1			A	134.96.214.8
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-10		A	134.96.214.9
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-2			A	134.96.214.10
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-3			A	134.96.214.11
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-4			A	134.96.214.12
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-6			A	134.96.214.13
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-7			A	134.96.214.14
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-8			A	134.96.214.15
+			MX	100 zdve-mailx.htw-saarland.de.
+e-emv-9			A	134.96.214.16
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gauss			A	134.96.214.107
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-1200		A	134.96.214.27
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-a			A	134.96.214.28
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-b			A	134.96.214.29
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-f			A	134.96.214.30
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-g			A	134.96.214.31
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-ha			A	134.96.214.32
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-j			A	134.96.214.33
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-mess		A	134.96.214.34
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-re1		A	134.96.214.35
+			MX	100 zdve-mailx.htw-saarland.de.
+e-gf-re2		A	134.96.214.36
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-a			A	134.96.214.120
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-b			A	134.96.214.121
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-bu1		A	134.96.214.117
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-bu2		A	134.96.214.118
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-bu3		A	134.96.214.119
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-c			A	134.96.214.48
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-d			A	134.96.214.122
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-dc			A	134.96.214.53
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-dual		A	134.96.214.49
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-f			A	134.96.214.50
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-hp			A	134.96.214.51
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-j			A	134.96.217.132
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-k			A	134.96.217.133
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-l			A	134.96.217.134
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-m			A	134.96.217.135
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hf-p180		A	134.96.214.52
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-01			A	134.96.214.54
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-02			A	134.96.214.55
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-03			A	134.96.214.56
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-04			A	134.96.214.57
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-05			A	134.96.214.58
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-06			A	134.96.214.41
+			MX	100 zdve-mailx.htw-saarland.de.
+e-hv-07			A	134.96.214.40
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-01			A	134.96.214.94
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-02			A	134.96.214.95
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-03			A	134.96.214.96
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-04			A	134.96.214.97
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-05			A	134.96.214.98
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-06			A	134.96.214.116
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-07			A	134.96.217.130
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-08			A	134.96.217.152
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-09			A	134.96.217.153
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-10			A	134.96.217.141
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-11			A	134.96.217.142
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-12			A	134.96.214.17
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-13			A	134.96.214.18
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-1		A	134.96.208.197
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-2		A	134.96.208.198
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-3		A	134.96.208.199
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-4		A	134.96.208.200
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-5		A	134.96.208.201
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-6		A	134.96.208.202
+			MX	100 zdve-mailx.htw-saarland.de.
+e-kt-fo-7		A	134.96.208.203
+			MX	100 zdve-mailx.htw-saarland.de.
+e-leibniz		A	134.96.217.131
+			MX	100 zdve-mailx.htw-saarland.de.
+e-lp-01			A	134.96.214.7
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mila-0		A	134.96.214.76
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mila-10		A	134.96.214.77
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mila-11		A	134.96.214.6
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mila-3		A	134.96.214.78
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mila-9		A	134.96.214.79
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-01			A	134.96.214.80
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-02			A	134.96.214.81
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-03			A	134.96.214.82
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-04			A	134.96.214.83
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-05			A	134.96.214.84
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-06			A	134.96.214.85
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-07			A	134.96.214.86
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-08			A	134.96.214.87
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-09			A	134.96.214.88
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-10			A	134.96.214.89
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-11			A	134.96.214.90
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-12			A	134.96.214.91
+			MX	100 zdve-mailx.htw-saarland.de.
+e-mt-13			A	134.96.214.92
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-01			A	134.96.214.93
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-02			A	134.96.214.99
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-03			A	134.96.214.100
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-04			A	134.96.214.101
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-05			A	134.96.214.102
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-06			A	134.96.214.103
+			MX	100 zdve-mailx.htw-saarland.de.
+e-nt-07			A	134.96.214.104
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-fp		A	134.96.210.35
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-nas		A	134.96.210.36
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-nb1		A	134.96.210.37
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-nb2		A	134.96.210.38
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-nb3		A	134.96.210.39
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc1		A	134.96.210.41
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc10		A	134.96.210.50
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc11		A	134.96.210.51
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc12		A	134.96.210.52
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc13		A	134.96.210.53
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc14		A	134.96.210.54
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc15		A	134.96.210.55
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc16		A	134.96.210.56
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc17		A	134.96.210.57
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc18		A	134.96.210.58
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc19		A	134.96.210.59
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc2		A	134.96.210.42
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc20		A	134.96.210.60
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc21		A	134.96.210.61
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc3		A	134.96.210.43
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc4		A	134.96.210.44
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc5		A	134.96.210.45
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc6		A	134.96.210.46
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc7		A	134.96.210.47
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc8		A	134.96.210.48
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-pc9		A	134.96.210.49
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-prt		A	134.96.210.62
+			MX	100 zdve-mailx.htw-saarland.de.
+e-plt-server		A	134.96.210.34
+			MX	100 zdve-mailx.htw-saarland.de.
+e-sekretariat		A	134.96.214.47
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-1		A	134.96.214.60
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-2		A	134.96.214.61
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-3		A	134.96.214.62
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-4		A	134.96.214.63
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-5		A	134.96.214.64
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-6		A	134.96.214.65
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-7		A	134.96.214.66
+			MX	100 zdve-mailx.htw-saarland.de.
+e-wern-lin		A	134.96.214.26
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc			CNAME	ecc-s1.htw-saarland.de.
+ecc-abb			A	134.96.213.61
+			MX	90 ecc-abb.htw-saarland.de.
+ecc-lap			A	134.96.213.70
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-nt1			A	134.96.213.62
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-nt2			A	134.96.213.64
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-nt3			A	134.96.213.71
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-s1			A	134.96.213.60
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-s2			A	134.96.213.65
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-srv			A	134.96.213.63
+			MX	90 ecc-srv.htw-saarland.de.
+ecc-tape		A	134.96.213.81
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w1			A	134.96.213.2
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w10			A	134.96.213.11
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w11			A	134.96.213.12
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w12			A	134.96.213.13
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w13			A	134.96.213.14
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w14			A	134.96.213.15
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w15			A	134.96.213.16
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w16			A	134.96.213.17
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w17			A	134.96.213.18
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w18			A	134.96.213.19
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w19			A	134.96.213.20
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w2			A	134.96.213.3
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w20			A	134.96.213.21
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w21			A	134.96.213.22
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w22			A	134.96.213.23
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w23			A	134.96.213.24
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w24			A	134.96.213.25
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w25			A	134.96.213.26
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w26			A	134.96.213.27
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w27			A	134.96.213.28
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w28			A	134.96.213.29
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w29			A	134.96.213.30
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w3			A	134.96.213.4
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w30			A	134.96.213.31
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w31			A	134.96.213.32
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w32			A	134.96.213.33
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w33			A	134.96.213.34
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w34			A	134.96.213.35
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w35			A	134.96.213.36
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w36			A	134.96.213.37
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w37			A	134.96.213.38
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w38			A	134.96.213.39
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w39			A	134.96.213.40
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w4			A	134.96.213.5
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w40			A	134.96.213.41
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w41			A	134.96.213.42
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w42			A	134.96.213.43
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w43			A	134.96.213.44
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w44			A	134.96.213.45
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w45			A	134.96.213.46
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w46			A	134.96.213.47
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w47			A	134.96.213.48
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w48			A	134.96.213.49
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w49			A	134.96.213.54
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w5			A	134.96.213.6
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w50			A	134.96.213.56
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w51			A	134.96.213.57
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w52			A	134.96.213.58
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w53			A	134.96.213.59
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w54			A	134.96.213.66
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w55			A	134.96.213.67
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w56			A	134.96.213.68
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w57			A	134.96.213.69
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w58			A	134.96.213.72
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w59			A	134.96.213.73
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w6			A	134.96.213.7
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w60			A	134.96.213.74
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w7			A	134.96.213.8
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w8			A	134.96.213.9
+			MX	100 zdve-mailx.htw-saarland.de.
+ecc-w9			A	134.96.213.10
+			MX	100 zdve-mailx.htw-saarland.de.
+eccdja0			A	134.96.213.53
+eccdja3			A	134.96.213.52
+			MX	100 zdve-mailx.htw-saarland.de.
+ecclja3			A	134.96.213.51
+			MX	100 zdve-mailx.htw-saarland.de.
+ecclja4			A	134.96.213.50
+			MX	100 zdve-mailx.htw-saarland.de.
+ecclja42		A	134.96.213.55
+ecclja43		A	134.96.213.80
+			MX	100 zdve-mailx.htw-saarland.de.
+eev-30			A	134.96.217.136
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-barney		A	134.96.213.198
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-bender		A	134.96.213.197
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-flexo		A	134.96.213.196
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-fw1			A	134.96.213.194
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-fw2			A	134.96.213.195
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-krusty		A	134.96.213.200
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-milhouse		A	134.96.213.201
+			MX	100 zdve-mailx.htw-saarland.de.
+eig-montgomery		A	134.96.213.199
+			MX	100 zdve-mailx.htw-saarland.de.
+elab-info		A	134.96.208.104
+			MX	100 zdve-mailx.htw-saarland.de.
+elab-student		A	134.96.217.151
+			MX	100 zdve-mailx.htw-saarland.de.
+elektrotechnik		CNAME	zdve-mailx.htw-saarland.de.
+emf-saar		A	134.96.208.111
+			MX	100 zdve-mailx.htw-saarland.de.
+emf-server-2008-1	A	134.96.208.124
+			MX	100 zdve-mailx.htw-saarland.de.
+emf-server-2008-2	A	134.96.208.125
+			MX	100 zdve-mailx.htw-saarland.de.
+emf-server-2008-virt	A	134.96.208.126
+			MX	100 zdve-mailx.htw-saarland.de.
+emrolab			CNAME	kil-s-web.htw-saarland.de.
+emrolab-02		A	134.96.216.3
+			MX	100 zdve-mailx.htw-saarland.de.
+emrolab-v1		A	134.96.216.6
+			MX	100 zdve-mailx.htw-saarland.de.
+enalgae			A	134.96.210.142
+			MX	100 zdve-mailx.htw-saarland.de.
+energiemanagement	CNAME	zdve-mailx.htw-saarland.de.
+energietechnik		A	134.96.215.67
+			MX	100 zdve-mailx.htw-saarland.de.
+energietechnik-ii	A	134.96.215.117
+			MX	100 zdve-mailx.htw-saarland.de.
+euklid			A	134.96.214.162
+			MX	100 zdve-mailx.htw-saarland.de.
+euler			A	134.96.214.149
+			MX	100 zdve-mailx.htw-saarland.de.
+evaweb			A	134.96.210.132
+			MX	100 zdve-mailx.htw-saarland.de.
+extranet		CNAME	auslegestelle-tmp.htw-saarland.de.
+ezg-pc1			A	134.96.208.162
+			MX	100 zdve-mailx.htw-saarland.de.
+fbv			A	134.96.215.53
+			MX	100 zdve-mailx.htw-saarland.de.
+fbv-gis			A	134.96.214.135
+			MX	100 zdve-mailx.htw-saarland.de.
+fermat			A	134.96.214.225
+			MX	100 zdve-mailx.htw-saarland.de.
+fgkab-1			A	134.96.213.222
+			MX	100 zdve-mailx.htw-saarland.de.
+fgkab-2			A	134.96.213.223
+			MX	100 zdve-mailx.htw-saarland.de.
+fgkab-3			A	134.96.213.224
+			MX	100 zdve-mailx.htw-saarland.de.
+fgkab-4			A	134.96.213.225
+			MX	100 zdve-mailx.htw-saarland.de.
+fgvt-fw1		A	134.96.213.202
+			MX	90 fgvt-fw1.htw-saarland.de.
+fgvt-o-01		A	134.96.213.214
+			MX	100 zdve-mailx.htw-saarland.de.
+fgvt-o-02		A	134.96.213.215
+			MX	100 zdve-mailx.htw-saarland.de.
+fibonacci		A	134.96.214.150
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-01			A	134.96.217.66
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-02			A	134.96.217.67
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-03			A	134.96.217.68
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-04			A	134.96.217.69
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-05			A	134.96.217.70
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-06			A	134.96.217.71
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-07			A	134.96.217.72
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-08			A	134.96.217.73
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-09			A	134.96.217.74
+			MX	100 zdve-mailx.htw-saarland.de.
+fitt-10			A	134.96.217.75
+			MX	100 zdve-mailx.htw-saarland.de.
+flash			A	134.96.216.46
+			MX	100 zdve-mailx.htw-saarland.de.
+flieger			A	134.96.213.203
+			MX	100 zdve-mailx.htw-saarland.de.
+foko-2			A	134.96.209.2
+			MX	100 zdve-mailx.htw-saarland.de.
+fourier			A	134.96.214.151
+			MX	100 zdve-mailx.htw-saarland.de.
+fr-lap			A	134.96.215.62
+			MX	100 zdve-mailx.htw-saarland.de.
+fricke-andreas		A	134.96.215.8
+			MX	100 zdve-mailx.htw-saarland.de.
+fs-bi-e-m		A	134.96.209.194
+			MX	100 zdve-mailx.htw-saarland.de.
+fsgis-1			A	134.96.209.198
+			MX	100 zdve-mailx.htw-saarland.de.
+gaia			CNAME	wiwi-rom.htw-saarland.de.
+galois			A	134.96.214.229
+			MX	100 zdve-mailx.htw-saarland.de.
+gartentherapie		CNAME	zdve-mailx.htw-saarland.de.
+gauss			A	134.96.214.224
+			MX	100 zdve-mailx.htw-saarland.de.
+gb			A	134.96.215.96
+			MX	100 zdve-mailx.htw-saarland.de.
+gessatj			A	134.96.214.192
+			MX	100 zdve-mailx.htw-saarland.de.
+gesundheit-pflege	CNAME	zdve-mailx.htw-saarland.de.
+gesundheitsmanagement	CNAME	zdve-mailx.htw-saarland.de.
+gis-5310		A	134.96.214.235
+			MX	100 zdve-mailx.htw-saarland.de.
+gis-sek-notebook	A	134.96.214.137
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-db-03		A	134.96.212.152
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-drm-01		A	134.96.212.160
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-fk-01		A	134.96.209.5
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-fo-01		A	134.96.214.218
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-01		A	134.96.214.134
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-06		A	134.96.214.139
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-13		A	134.96.214.143
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-14		A	134.96.214.144
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-15		A	134.96.214.145
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-gis-30		A	134.96.214.159
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-hm-01		A	134.96.212.175
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-02		A	134.96.215.18
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-04		A	134.96.215.20
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-05		A	134.96.215.21
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-06		A	134.96.215.22
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-07		A	134.96.215.23
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-08		A	134.96.215.24
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-09		A	134.96.215.25
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-10		A	134.96.215.26
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-11		A	134.96.215.27
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-12		A	134.96.215.28
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-13		A	134.96.215.29
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-15		A	134.96.215.31
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-16		A	134.96.215.32
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-17		A	134.96.215.33
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-18		A	134.96.215.34
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-19		A	134.96.215.35
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-20		A	134.96.215.36
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-21		A	134.96.215.37
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-22		A	134.96.215.38
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-23		A	134.96.215.75
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-24		A	134.96.215.83
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-25		A	134.96.215.90
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-26		A	134.96.215.61
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-m-ca		A	134.96.215.76
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-prakt-01		A	134.96.212.226
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-r-01		A	134.96.209.12
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-r-02		A	134.96.209.13
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-r-04		A	134.96.209.15
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-r-05		A	134.96.209.16
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-r-06		A	134.96.209.17
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-s			A	134.96.209.43
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-zdve-kolbusch	A	134.96.209.145
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-zv-02		A	134.96.212.162
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-zv-03		A	134.96.212.163
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-zv-04		A	134.96.212.164
+			MX	100 zdve-mailx.htw-saarland.de.
+goe-zv-hk		A	134.96.212.185
+			MX	100 zdve-mailx.htw-saarland.de.
+goe052-3200-1		A	134.96.208.4
+goe08a2-3c33-1		A	134.96.208.3
+gup			CNAME	zdve-mailx.htw-saarland.de.
+hardware		A	134.96.214.209
+			MX	100 zdve-mailx.htw-saarland.de.
+hf-computer		A	134.96.213.205
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt01		A	134.96.208.194
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt02		A	134.96.208.195
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt03		A	134.96.208.196
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt04		A	134.96.208.205
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt05		A	134.96.208.206
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt06		A	134.96.208.207
+			MX	100 zdve-mailx.htw-saarland.de.
+highvolt07		A	134.96.208.208
+			MX	100 zdve-mailx.htw-saarland.de.
+hilbert			A	134.96.214.183
+			MX	100 zdve-mailx.htw-saarland.de.
+hiwi-jaeger		A	134.96.212.222
+			MX	100 zdve-mailx.htw-saarland.de.
+hiz-bignet		A	134.96.209.141
+HIZ-DR-KYOCERA		A	134.96.209.139
+HIZ-DR-Raum-8128	A	134.96.209.132
+HIZ-DR-RAUM-8204	A	134.96.209.156
+HIZ-DX-Client		A	134.96.209.144
+			MX	100 zdve-mailx.htw-saarland.de.
+hiz-just		A	134.96.209.151
+			MX	100 zdve-mailx.htw-saarland.de.
+hiz-phoner		A	134.96.209.153
+			MX	100 zdve-mailx.htw-saarland.de.
+HIZ-Praktikant		A	134.96.209.148
+			MX	100 zdve-mailx.htw-saarland.de.
+hk-vista32		A	134.96.208.171
+			MX	100 zdve-mailx.htw-saarland.de.
+hk-vista64		A	134.96.208.172
+			MX	100 zdve-mailx.htw-saarland.de.
+hochschulsport		CNAME	zdve-mailx.htw-saarland.de.
+hp-msauer		A	134.96.212.224
+			MX	100 zdve-mailx.htw-saarland.de.
+hpdet			A	134.96.209.38
+			MX	100 zdve-mailx.htw-saarland.de.
+htw-dc1			A	134.96.208.36
+			MX	100 zdve-mailx.htw-saarland.de.
+htw-dc2			A	134.96.208.35
+			MX	100 zdve-mailx.htw-saarland.de.
+htw-dc3			A	134.96.208.45
+			MX	100 zdve-mailx.htw-saarland.de.
+htw-personalrat		A	134.96.208.166
+			MX	100 zdve-mailx.htw-saarland.de.
+htw-portal		CNAME	portal.htw-saarland.de.
+htwbiovt5mob		A	134.96.215.89
+			MX	100 zdve-mailx.htw-saarland.de.
+htwbiovt8		A	134.96.215.116
+			MX	100 zdve-mailx.htw-saarland.de.
+htwbiovt9		A	134.96.215.13
+			MX	100 zdve-mailx.htw-saarland.de.
+htwfp02			A	134.96.214.112
+			MX	100 zdve-mailx.htw-saarland.de.
+htz-hsm			A	134.96.212.220
+			MX	100 zdve-mailx.htw-saarland.de.
+htz-pforte		A	134.96.212.221
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-01			A	134.96.213.130
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-02			A	134.96.213.131
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-03			A	134.96.213.132
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-04			A	134.96.213.133
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-05			A	134.96.213.134
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-06			A	134.96.213.135
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-07			A	134.96.213.136
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-08			A	134.96.213.137
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-09			A	134.96.213.138
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-10			A	134.96.213.139
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-11			A	134.96.213.140
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-12			A	134.96.213.141
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-13			A	134.96.213.142
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-14			A	134.96.213.143
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-15			A	134.96.213.144
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-16			A	134.96.213.145
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-17			A	134.96.213.146
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-18			A	134.96.213.147
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-19			A	134.96.213.148
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-20			A	134.96.213.149
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-21			A	134.96.213.150
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-22			A	134.96.213.151
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-23			A	134.96.213.152
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-24			A	134.96.213.153
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-25			A	134.96.213.154
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-26			A	134.96.213.155
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-27			A	134.96.213.156
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-28			A	134.96.213.157
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-29			A	134.96.213.158
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-30			A	134.96.213.159
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-31			A	134.96.213.160
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-32			A	134.96.213.161
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-33			A	134.96.213.162
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-34			A	134.96.213.163
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-35			A	134.96.213.164
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-36			A	134.96.213.165
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-37			A	134.96.213.166
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-38			A	134.96.213.167
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-39			A	134.96.213.168
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-40			A	134.96.213.169
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-41			A	134.96.213.170
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-42			A	134.96.213.171
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-demo		A	134.96.213.185
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-drucker		A	134.96.213.184
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-laser		A	134.96.213.189
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-lizenz		A	134.96.214.221
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-nw			A	134.96.213.190
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-oszi		A	134.96.213.187
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-pc-01		A	134.96.214.196
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-pc-02		A	134.96.214.197
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-pc-03		A	134.96.214.198
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-pc-04		A	134.96.214.200
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-pc-05		A	134.96.214.201
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-printer		A	134.96.213.188
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-time		A	134.96.213.186
+			MX	100 zdve-mailx.htw-saarland.de.
+hwl-win			A	134.96.213.183
+			MX	100 zdve-mailx.htw-saarland.de.
+ibo-butterbach		A	134.96.215.118
+			MX	100 zdve-mailx.htw-saarland.de.
+icard			A	134.96.212.225
+			MX	100 zdve-mailx.htw-saarland.de.
+icms			A	134.96.209.46
+			MX	100 zdve-mailx.htw-saarland.de.
+imap			CNAME	itz-mail.htw-saarland.de.
+inf			CNAME	zdve-mailx.htw-saarland.de.
+informatik		CNAME	zdve-mailx.htw-saarland.de.
+inpeo-14		A	134.96.215.120
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-15		A	134.96.215.123
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-bionik-cadfem	A	134.96.215.70
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-laserdrucker	A	134.96.215.73
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-mitarbeiter-1	A	134.96.215.58
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-mitarbeiter-2	A	134.96.215.59
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-pfeifer		A	134.96.215.95
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo-station		A	134.96.215.97
+			MX	100 zdve-mailx.htw-saarland.de.
+inpeo03			A	134.96.215.65
+			MX	100 zdve-mailx.htw-saarland.de.
+intranet		A	134.96.208.136
+			MX	100 zdve-mailx.htw-saarland.de.
+ipp-5			A	134.96.215.114
+			MX	100 zdve-mailx.htw-saarland.de.
+ipp-desktop-04		A	134.96.215.15
+			MX	100 zdve-mailx.htw-saarland.de.
+iscom			CNAME	wiwi-rom.htw-saarland.de.
+isfates			A	134.96.216.216
+			MX	30 m-relay.rz.uni-saarland.de.
+			MX	50 m-relay2.rz.uni-saarland.de.
+			MX	70 m-relay3.rz.uni-saarland.de.
+isfates-dfhi		A	134.96.216.213
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-01		A	134.96.216.81
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-02		A	134.96.216.82
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-03		A	134.96.216.83
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-04		A	134.96.216.84
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-05		A	134.96.216.85
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-06		A	134.96.216.86
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-07		A	134.96.216.87
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-08		A	134.96.216.88
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-09		A	134.96.216.89
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-c-10		A	134.96.216.90
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-l-01		A	134.96.216.93
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-l-02		A	134.96.216.94
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-l-03		A	134.96.216.95
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-l-04		A	134.96.216.96
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-l-05		A	134.96.216.97
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-s-01		A	134.96.216.91
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-s-02		A	134.96.216.92
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-s-03		A	134.96.216.80
+			MX	100 zdve-mailx.htw-saarland.de.
+isl-s-04		A	134.96.216.79
+			MX	100 zdve-mailx.htw-saarland.de.
+it-team			A	134.96.219.173
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-2008r2		A	134.96.209.154
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-archiv		A	134.96.209.155
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-bignet		A	134.96.209.142
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-dx			A	134.96.208.40
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-edimax		A	134.96.209.135
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-huebner		A	134.96.209.140
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-imap		CNAME	www-proxy.htw-saarland.de.
+itz-kvm-switch1		A	134.96.209.133
+itz-kvm-switch2		A	134.96.209.134
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-label		A	134.96.209.149
+			MX	90 itz-label.htw-saarland.de.
+itz-laudwein		A	134.96.209.157
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-lizenz		A	134.96.208.43
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-lizenzserver	A	134.96.208.37
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-mail		A	134.96.210.141
+			MX	90 itz-mail.htw-saarland.de.
+itz-mail-test		A	134.96.210.139
+			MX	90 itz-mail-test.htw-saarland.de.
+itz-projekt		A	134.96.208.42
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-td			A	134.96.209.136
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-thin		A	134.96.209.147
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-usb			A	134.96.208.41
+			MX	100 zdve-mailx.htw-saarland.de.
+itz-wsus		A	134.96.208.38
+			MX	100 zdve-mailx.htw-saarland.de.
+jacob-3			A	134.96.212.177
+			MX	100 zdve-mailx.htw-saarland.de.
+jh-lbf			A	134.96.215.82
+			MX	100 zdve-mailx.htw-saarland.de.
+jobboerse		CNAME	stud-i-verwaltung.htw-saarland.de.
+khaarazmi		A	134.96.214.160
+			MX	100 zdve-mailx.htw-saarland.de.
+ki-server		A	134.96.208.107
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-gw-office		A	134.96.216.2
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-lms			A	134.96.216.65
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-01		A	134.96.216.11
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-02		A	134.96.216.12
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-03		A	134.96.216.13
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-04		A	134.96.216.14
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-05		A	134.96.216.15
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-06		A	134.96.216.16
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-07		A	134.96.216.17
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-08		A	134.96.216.18
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-09		A	134.96.216.19
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-10		A	134.96.216.20
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-11		A	134.96.216.21
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-12		A	134.96.216.22
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-13		A	134.96.216.23
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-14		A	134.96.216.24
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-15		A	134.96.216.25
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-16		A	134.96.216.26
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-17		A	134.96.216.27
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-18		A	134.96.216.28
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-19		A	134.96.216.29
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-20		A	134.96.216.30
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-21		A	134.96.216.31
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-22		A	134.96.216.32
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-23		A	134.96.216.33
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-24		A	134.96.216.34
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-25		A	134.96.216.35
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-26		A	134.96.216.36
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-27		A	134.96.216.37
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-28		A	134.96.216.38
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-29		A	134.96.216.39
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-30		A	134.96.216.40
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-31		A	134.96.216.41
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-32		A	134.96.216.42
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-33		A	134.96.216.43
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-34		A	134.96.216.44
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-35		A	134.96.216.45
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-master		A	134.96.216.10
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-m-referenz		A	134.96.216.9
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-marion		A	134.96.216.53
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-msa-01		A	134.96.216.51
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-msa-02		A	134.96.216.52
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-pm			A	134.96.216.57
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-prn-lj9k		A	134.96.216.58
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-prn-term		A	134.96.216.7
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-s-01		A	134.96.216.54
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-s-02		A	134.96.216.60
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-s-lizenz		A	134.96.216.55
+			MX	100 zdve-mailx.htw-saarland.de.
+kil-s-web		A	134.96.216.61
+			MX	100 zdve-mailx.htw-saarland.de.
+kim-01			A	134.96.215.39
+			MX	100 zdve-mailx.htw-saarland.de.
+kmux			A	134.96.215.165
+			MX	100 zdve-mailx.htw-saarland.de.
+krippenpaedagogik	CNAME	zdve-mailx.htw-saarland.de.
+ksk-8-01		A	134.96.214.252
+			MX	100 zdve-mailx.htw-saarland.de.
+ksk-8-02		A	134.96.214.253
+			MX	100 zdve-mailx.htw-saarland.de.
+ksk-8-03		A	134.96.214.254
+			MX	100 zdve-mailx.htw-saarland.de.
+kt-labor		A	134.96.214.131
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-drucker		A	134.96.214.38
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-01		A	134.96.213.217
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-02		A	134.96.213.218
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-03		A	134.96.213.219
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-04		A	134.96.213.220
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-05		A	134.96.213.221
+			MX	100 zdve-mailx.htw-saarland.de.
+kunz-fue-server		A	134.96.213.216
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-9207-c4-ag	A	134.96.215.78
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-bio-vt1		A	134.96.215.79
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-bio-vt2		A	134.96.215.57
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-bio-vt3		A	134.96.215.87
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-bio-vt4		A	134.96.215.17
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-ipp		A	134.96.215.100
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-r1		A	134.96.214.188
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-student1		A	134.96.214.189
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-student2		A	134.96.214.190
+			MX	100 zdve-mailx.htw-saarland.de.
+labor-student3		A	134.96.214.191
+			MX	100 zdve-mailx.htw-saarland.de.
+labormanagement		CNAME	zdve-mailx.htw-saarland.de.
+laborrechner		A	134.96.215.72
+			MX	100 zdve-mailx.htw-saarland.de.
+lap-2-calles		A	134.96.215.91
+			MX	100 zdve-mailx.htw-saarland.de.
+laplace			A	134.96.214.228
+			MX	100 zdve-mailx.htw-saarland.de.
+laptop-jh		A	134.96.215.113
+			MX	100 zdve-mailx.htw-saarland.de.
+laptop-weber		A	134.96.215.86
+			MX	100 zdve-mailx.htw-saarland.de.
+lbf-02			A	134.96.215.107
+			MX	100 zdve-mailx.htw-saarland.de.
+leibniz			A	134.96.214.223
+			MX	100 zdve-mailx.htw-saarland.de.
+lellig			A	134.96.214.158
+			MX	100 zdve-mailx.htw-saarland.de.
+lfzt-mobil1		A	134.96.215.77
+			MX	100 zdve-mailx.htw-saarland.de.
+liserv			A	134.96.208.121
+			MX	100 zdve-mailx.htw-saarland.de.
+litest			A	134.96.212.233
+			MX	100 zdve-mailx.htw-saarland.de.
+localhost		A	127.0.0.1
+logistik		CNAME	zdve-mailx.htw-saarland.de.
+loopback		CNAME	localhost
+m-brunner-01		A	134.96.215.40
+			MX	100 zdve-mailx.htw-saarland.de.
+m-deg-01		A	134.96.215.41
+			MX	100 zdve-mailx.htw-saarland.de.
+m-dweber-01		A	134.96.215.42
+			MX	100 zdve-mailx.htw-saarland.de.
+m-fbv			A	134.96.215.43
+			MX	100 zdve-mailx.htw-saarland.de.
+m-fbv-01		A	134.96.215.44
+			MX	100 zdve-mailx.htw-saarland.de.
+m-griebsch		A	134.96.215.98
+			MX	100 zdve-mailx.htw-saarland.de.
+m-hjw			A	134.96.215.101
+			MX	100 zdve-mailx.htw-saarland.de.
+m-lap-cal		A	134.96.215.45
+			MX	100 zdve-mailx.htw-saarland.de.
+m-lap-hjw		A	134.96.215.46
+			MX	100 zdve-mailx.htw-saarland.de.
+m-lap-jae		A	134.96.215.47
+			MX	100 zdve-mailx.htw-saarland.de.
+m-lor			A	134.96.215.48
+			MX	100 zdve-mailx.htw-saarland.de.
+m-mes-01		A	134.96.215.49
+			MX	100 zdve-mailx.htw-saarland.de.
+m-mes-02		A	134.96.215.50
+			MX	100 zdve-mailx.htw-saarland.de.
+m-reim			A	134.96.215.52
+			MX	100 zdve-mailx.htw-saarland.de.
+m-relay			A	134.96.7.3
+m-volk			A	134.96.215.55
+			MX	100 zdve-mailx.htw-saarland.de.
+m-volk1			A	134.96.215.4
+			MX	100 zdve-mailx.htw-saarland.de.
+magritte		A	134.96.216.98
+			MX	100 zdve-mailx.htw-saarland.de.
+mail			A	134.96.208.108
+			MX	10 mail.htw-saarland.de.
+malermeister		A	134.96.215.60
+marko-desktop		A	134.96.213.208
+			MX	100 zdve-mailx.htw-saarland.de.
+marko-fpga		A	134.96.213.210
+			MX	100 zdve-mailx.htw-saarland.de.
+marko-notebook		A	134.96.213.209
+			MX	100 zdve-mailx.htw-saarland.de.
+marko-spw		A	134.96.213.211
+			MX	100 zdve-mailx.htw-saarland.de.
+markov			A	134.96.208.99
+			MX	100 zdve-mailx.htw-saarland.de.
+markov2			CNAME	mathcoach.htw-saarland.de.
+maschinenbau-prozesstechnik CNAME zdve-mailx.htw-saarland.de.
+maschinenbau-techniker	CNAME	zdve-mailx.htw-saarland.de.
+mathcoach		A	134.96.208.113
+			MX	100 zdve-mailx.htw-saarland.de.
+matthias-mobil		A	134.96.213.204
+			MX	100 zdve-mailx.htw-saarland.de.
+mb-rechner		A	134.96.215.5
+			MX	100 zdve-mailx.htw-saarland.de.
+mbook-jh		A	134.96.215.122
+			MX	100 zdve-mailx.htw-saarland.de.
+md-xp			A	134.96.209.158
+			MX	100 zdve-mailx.htw-saarland.de.
+mechatronik-sensortechnik CNAME	zdve-mailx.htw-saarland.de.
+mediendidaktik		CNAME	zdve-mailx.htw-saarland.de.
+mf700			A	134.96.212.216
+			MX	100 zdve-mailx.htw-saarland.de.
+mint			CNAME	zdve-mailx.htw-saarland.de.
+mmoeller		A	134.96.217.137
+			MX	100 zdve-mailx.htw-saarland.de.
+moduldb			CNAME	www-crypto.htw-saarland.de.
+mp			CNAME	zdve-mailx.htw-saarland.de.
+mrl-p-fi		A	134.96.215.74
+			MX	100 zdve-mailx.htw-saarland.de.
+msick-pc01		A	134.96.215.54
+			MX	100 zdve-mailx.htw-saarland.de.
+mst			CNAME	zdve-mailx.htw-saarland.de.
+mst-9102-student-01	A	134.96.214.177
+			MX	100 zdve-mailx.htw-saarland.de.
+mst-9102-student-02	A	134.96.214.178
+			MX	100 zdve-mailx.htw-saarland.de.
+mst-9102-student-03	A	134.96.214.179
+			MX	100 zdve-mailx.htw-saarland.de.
+mst-9102-student-04	A	134.96.214.180
+			MX	100 zdve-mailx.htw-saarland.de.
+mst-9102-student-05	A	134.96.214.181
+			MX	100 zdve-mailx.htw-saarland.de.
+mt-14			A	134.96.214.108
+			MX	100 zdve-mailx.htw-saarland.de.
+mt-15			A	134.96.214.109
+			MX	100 zdve-mailx.htw-saarland.de.
+mt-16			A	134.96.214.110
+			MX	100 zdve-mailx.htw-saarland.de.
+myra			A	134.96.215.12
+			MX	100 zdve-mailx.htw-saarland.de.
+myrpc009934uni		A	134.96.210.187
+			MX	100 zdve-mailx.htw-saarland.de.
+nagios-management	A	134.96.208.2
+			MX	100 zdve-mailx.htw-saarland.de.
+net-mgt-v240		A	134.96.208.7
+net-mgt-v440		A	134.96.208.8
+net-mgt-x4150-web	A	134.96.208.10
+			MX	100 zdve-mailx.htw-saarland.de.
+nettool			A	134.96.208.6
+neubert-enrico		A	134.96.215.14
+			MX	100 zdve-mailx.htw-saarland.de.
+newton			A	134.96.208.119
+			MX	100 zdve-mailx.htw-saarland.de.
+niemann			A	134.96.212.210
+			MX	100 zdve-mailx.htw-saarland.de.
+note-balz		A	134.96.212.228
+			MX	100 zdve-mailx.htw-saarland.de.
+notebook1-sprlab	A	134.96.209.106
+			MX	100 zdve-mailx.htw-saarland.de.
+notebook2-sprlab	A	134.96.209.105
+			MX	100 zdve-mailx.htw-saarland.de.
+ns			A	134.96.208.98
+			MX	100 zdve-mailx.htw-saarland.de.
+ns1			A	134.96.216.214
+ns2			A	134.96.216.214
+ntams37			A	134.96.211.194
+			MX	100 zdve-mailx.htw-saarland.de.
+oki-c8600		A	134.96.215.166
+			MX	100 zdve-mailx.htw-saarland.de.
+oml-ml			A	134.96.214.194
+			MX	100 zdve-mailx.htw-saarland.de.
+pascal			A	134.96.214.176
+pc-albert		A	134.96.212.206
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-hoffm		A	134.96.212.184
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-la			A	134.96.212.212
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-messtechnik		A	134.96.217.145
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-mhh-aa		A	134.96.212.217
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-otmar-klein		A	134.96.217.144
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-praktikant		A	134.96.212.188
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-reck			A	134.96.212.229
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-schommer		A	134.96.212.148
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-stud			A	134.96.215.80
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-till			A	134.96.212.202
+			MX	100 zdve-mailx.htw-saarland.de.
+pc-waller		A	134.96.215.126
+			MX	100 zdve-mailx.htw-saarland.de.
+peano			A	134.96.214.184
+			MX	100 zdve-mailx.htw-saarland.de.
+pflege			CNAME	zdve-mailx.htw-saarland.de.
+physik-000		A	134.96.214.132
+physik-003		A	134.96.214.155
+			MX	100 zdve-mailx.htw-saarland.de.
+physik-004		A	134.96.214.156
+			MX	100 zdve-mailx.htw-saarland.de.
+physik-005		A	134.96.214.157
+			MX	100 zdve-mailx.htw-saarland.de.
+physik-006		A	134.96.214.182
+			MX	100 zdve-mailx.htw-saarland.de.
+physik-rt		A	134.96.214.202
+			MX	100 zdve-mailx.htw-saarland.de.
+physik-ub		A	134.96.214.199
+			MX	100 zdve-mailx.htw-saarland.de.
+physik01		A	134.96.214.153
+			MX	100 zdve-mailx.htw-saarland.de.
+physik02		A	134.96.214.154
+			MX	100 zdve-mailx.htw-saarland.de.
+physik03		A	134.96.214.138
+			MX	100 zdve-mailx.htw-saarland.de.
+pinghe			A	134.96.215.51
+			MX	100 zdve-mailx.htw-saarland.de.
+plt-server		A	134.96.210.40
+			MX	100 zdve-mailx.htw-saarland.de.
+pop			CNAME	itz-mail.htw-saarland.de.
+portal			A	134.96.208.66
+			MX	100 zdve-mailx.htw-saarland.de.
+portal-ts1		A	134.96.208.46
+			MX	100 zdve-mailx.htw-saarland.de.
+postalia		A	134.96.208.140
+praxis-ro		A	134.96.212.211
+			MX	100 zdve-mailx.htw-saarland.de.
+praxisref		A	134.96.212.198
+			MX	100 zdve-mailx.htw-saarland.de.
+prf-boeffel		A	134.96.212.158
+			MX	100 zdve-mailx.htw-saarland.de.
+prf-fritz		A	134.96.212.203
+			MX	100 zdve-mailx.htw-saarland.de.
+prf-klein		A	134.96.212.159
+			MX	100 zdve-mailx.htw-saarland.de.
+prf-koch		A	134.96.212.161
+			MX	100 zdve-mailx.htw-saarland.de.
+prf-ps			A	134.96.209.44
+printer01		A	134.96.213.207
+			MX	100 zdve-mailx.htw-saarland.de.
+prn-jd			A	134.96.212.235
+prn-rr			A	134.96.212.236
+			MX	100 zdve-mailx.htw-saarland.de.
+profservice		A	134.96.210.140
+			MX	100 zdve-mailx.htw-saarland.de.
+ps-a4-stud-sek		A	134.96.212.136
+ps-rek			A	134.96.209.36
+			MX	100 zdve-mailx.htw-saarland.de.
+ps-vd			A	134.96.209.34
+ps2105			A	134.96.209.39
+			MX	100 zdve-mailx.htw-saarland.de.
+puhl			A	134.96.215.68
+			MX	100 zdve-mailx.htw-saarland.de.
+qu			A	134.96.208.209
+			MX	100 zdve-mailx.htw-saarland.de.
+r-note			A	134.96.209.19
+			MX	100 zdve-mailx.htw-saarland.de.
+r-pc			A	134.96.209.20
+			MX	100 zdve-mailx.htw-saarland.de.
+r-schweickard		A	134.96.209.22
+			MX	100 zdve-mailx.htw-saarland.de.
+resman			A	134.96.218.71
+			MX	100 zdve-mailx.htw-saarland.de.
+reuter-hack-nb		A	134.96.215.11
+			MX	100 zdve-mailx.htw-saarland.de.
+ricomet01		A	134.96.213.212
+			MX	100 zdve-mailx.htw-saarland.de.
+rkre			A	134.96.214.126
+			MX	100 zdve-mailx.htw-saarland.de.
+rkre2			A	134.96.214.219
+			MX	100 zdve-mailx.htw-saarland.de.
+rtg-zv-s3		A	134.96.209.33
+rtg208-0		A	134.96.208.1
+rtg208-128		A	134.96.208.129
+rtg208-160		A	134.96.208.161
+rtg208-192		A	134.96.208.193
+rtg208-32		A	134.96.208.33
+rtg208-64		A	134.96.208.65
+rtg208-96		A	134.96.208.97
+rtg209-0		A	134.96.209.1
+rtg209-128		A	134.96.209.129
+rtg209-160		A	134.96.209.161
+rtg209-192		A	134.96.209.193
+rtg209-224		A	134.96.209.225
+rtg209-240		A	134.96.209.241
+rtg209-64		A	134.96.209.65
+rtg209-96		A	134.96.209.97
+rtg210-0		A	134.96.210.1
+rtg210-128		A	134.96.210.129
+rtg210-192		A	134.96.210.193
+rtg210-32		A	134.96.210.33
+rtg210-64		A	134.96.210.65
+rtg211-0		A	134.96.211.1
+rtg211-128		A	134.96.211.129
+rtg211-192		A	134.96.211.193
+rtg211-64		A	134.96.211.65
+rtg212-0		A	134.96.212.1
+rtg212-128		A	134.96.212.129
+rtg213-0		A	134.96.213.1
+rtg213-128		A	134.96.213.129
+rtg213-192		A	134.96.213.193
+rtg214-0		A	134.96.214.1
+rtg214-128		A	134.96.214.129
+rtg215-0		A	134.96.215.1
+rtg215-128		A	134.96.215.129
+rtg215-160		A	134.96.215.161
+rtg215-192		A	134.96.215.193
+rtg216-0		A	134.96.216.1
+rtg217-0		A	134.96.217.1
+rtg217-128		A	134.96.217.129
+rtg217-192		A	134.96.217.193
+rtg217-64		A	134.96.217.65
+rtg217-96		A	134.96.217.97
+rtg218-0		A	134.96.218.1
+rtg219-0		A	134.96.219.1
+rtg219-128		A	134.96.219.129
+saprouter		A	134.96.210.131
+			MX	100 zdve-mailx.htw-saarland.de.
+sas			CNAME	zdve-mailx.htw-saarland.de.
+scanner			A	134.96.212.215
+			MX	100 zdve-mailx.htw-saarland.de.
+schaper			A	134.96.215.121
+			MX	100 zdve-mailx.htw-saarland.de.
+schule-fuer-architektur-saar CNAME zdve-mailx.htw-saarland.de.
+schwingfestigkeit	A	134.96.215.16
+			MX	100 zdve-mailx.htw-saarland.de.
+sek-fbe			A	134.96.208.204
+			MX	100 zdve-mailx.htw-saarland.de.
+sekretariat-i-mst	A	134.96.214.195
+			MX	100 zdve-mailx.htw-saarland.de.
+server-cim-labor	A	134.96.215.112
+			MX	100 zdve-mailx.htw-saarland.de.
+servicecentermanagement	CNAME	zdve-mailx.htw-saarland.de.
+sew-mobil		A	134.96.215.85
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-000			A	134.96.208.34
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-003			A	134.96.214.147
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-004			A	134.96.214.148
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-005			A	134.96.214.133
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-006			A	134.96.214.231
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-007			A	134.96.214.232
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-008			A	134.96.214.233
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-009			A	134.96.214.234
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-010			A	134.96.214.237
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-011			A	134.96.214.238
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-012			A	134.96.214.239
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-013			A	134.96.214.240
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-014			A	134.96.214.241
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-015			A	134.96.214.242
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-016			A	134.96.214.243
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-017			A	134.96.214.244
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-018			A	134.96.214.245
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-020			A	134.96.214.170
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-021			A	134.96.214.171
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-022			A	134.96.214.172
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-023			A	134.96.214.173
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-024			A	134.96.214.174
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-9104-3		A	134.96.214.140
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a01		A	134.96.214.210
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a02		A	134.96.214.211
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a03		A	134.96.214.236
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a04		A	134.96.214.164
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a05		A	134.96.214.165
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a06		A	134.96.214.166
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a07		A	134.96.214.167
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a08		A	134.96.214.168
+			MX	100 zdve-mailx.htw-saarland.de.
+sft-oml-a09		A	134.96.214.169
+			MX	100 zdve-mailx.htw-saarland.de.
+sicherheitsmanagement	CNAME	zdve-mailx.htw-saarland.de.
+sl-autorenplatz		A	134.96.218.70
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-lehrer		A	134.96.218.67
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student01		A	134.96.218.33
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student02		A	134.96.218.34
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student03		A	134.96.218.35
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student04		A	134.96.218.36
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student05		A	134.96.218.37
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student06		A	134.96.218.38
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student07		A	134.96.218.39
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student08		A	134.96.218.40
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student09		A	134.96.218.41
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student10		A	134.96.218.42
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student11		A	134.96.218.43
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student12		A	134.96.218.44
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student13		A	134.96.218.45
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student14		A	134.96.218.46
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student15		A	134.96.218.47
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student16		A	134.96.218.48
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student17		A	134.96.218.49
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student18		A	134.96.218.50
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student19		A	134.96.218.51
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student20		A	134.96.218.52
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student21		A	134.96.218.53
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student22		A	134.96.218.54
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student23		A	134.96.218.55
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student24		A	134.96.218.56
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student25		A	134.96.218.57
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student26		A	134.96.218.58
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student27		A	134.96.218.59
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student28		A	134.96.218.60
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student29		A	134.96.218.61
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student30		A	134.96.218.62
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student31		A	134.96.218.63
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student32		A	134.96.218.64
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student33		A	134.96.218.65
+			MX	100 zdve-mailx.htw-saarland.de.
+sl-student34		A	134.96.218.66
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-lehrer		A	134.96.218.2
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud01		A	134.96.218.3
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud02		A	134.96.218.4
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud03		A	134.96.218.5
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud04		A	134.96.218.6
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud05		A	134.96.218.7
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud06		A	134.96.218.8
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud07		A	134.96.218.9
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud08		A	134.96.218.10
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud09		A	134.96.218.11
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud10		A	134.96.218.12
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud11		A	134.96.218.13
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud12		A	134.96.218.14
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud13		A	134.96.218.15
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud14		A	134.96.218.16
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud15		A	134.96.218.17
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud16		A	134.96.218.18
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud17		A	134.96.218.19
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud18		A	134.96.218.20
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud19		A	134.96.218.21
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud20		A	134.96.218.22
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud21		A	134.96.218.23
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud22		A	134.96.218.24
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud23		A	134.96.218.25
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud24		A	134.96.218.26
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud25		A	134.96.218.27
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud26		A	134.96.218.28
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud27		A	134.96.218.29
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud28		A	134.96.218.30
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud29		A	134.96.218.31
+			MX	100 zdve-mailx.htw-saarland.de.
+sl1-stud30		A	134.96.218.32
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-lehrer		A	134.96.218.73
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud01		A	134.96.218.74
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud02		A	134.96.218.75
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud03		A	134.96.218.76
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud04		A	134.96.218.77
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud05		A	134.96.218.78
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud06		A	134.96.218.79
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud07		A	134.96.218.80
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud08		A	134.96.218.81
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud09		A	134.96.218.82
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud10		A	134.96.218.83
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud11		A	134.96.218.117
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud12		A	134.96.218.118
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud13		A	134.96.218.119
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud14		A	134.96.218.120
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud15		A	134.96.218.121
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud16		A	134.96.218.122
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud17		A	134.96.218.123
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud18		A	134.96.218.124
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud19		A	134.96.218.125
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud20		A	134.96.218.126
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud21		A	134.96.218.68
+			MX	100 zdve-mailx.htw-saarland.de.
+sl3-stud22		A	134.96.218.69
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-lehrer		A	134.96.218.85
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-server		A	134.96.218.84
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud01		A	134.96.218.86
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud02		A	134.96.218.87
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud03		A	134.96.218.88
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud04		A	134.96.218.89
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud05		A	134.96.218.90
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud06		A	134.96.218.91
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud07		A	134.96.218.92
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud08		A	134.96.218.93
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud09		A	134.96.218.94
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud10		A	134.96.218.95
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud11		A	134.96.218.96
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud12		A	134.96.218.97
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud13		A	134.96.218.98
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud14		A	134.96.218.99
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud15		A	134.96.218.100
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud16		A	134.96.218.101
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud17		A	134.96.218.102
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud18		A	134.96.218.103
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud19		A	134.96.218.104
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud20		A	134.96.218.105
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud21		A	134.96.218.106
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud22		A	134.96.218.107
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud23		A	134.96.218.108
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud24		A	134.96.218.109
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud25		A	134.96.218.110
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud26		A	134.96.218.111
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud27		A	134.96.218.112
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud28		A	134.96.218.113
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud29		A	134.96.218.114
+			MX	100 zdve-mailx.htw-saarland.de.
+sl4-stud30		A	134.96.218.115
+			MX	100 zdve-mailx.htw-saarland.de.
+smartpc			A	134.96.215.64
+			MX	100 zdve-mailx.htw-saarland.de.
+smi			A	134.96.214.186
+			MX	100 zdve-mailx.htw-saarland.de.
+smtp			CNAME	itz-mail.htw-saarland.de.
+soc-cm01		A	134.96.211.24
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-cm02		A	134.96.211.25
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-cm03		A	134.96.211.26
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-cm04		A	134.96.211.27
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-cm05		A	134.96.211.28
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-cm06		A	134.96.211.29
+			MX	100 zdve-mailx.htw-saarland.de.
+soc-ft01		A	134.96.211.14
+			MX	100 zdve-mailx.htw-saarland.de.
+sowi-fs			A	134.96.210.253
+			MX	100 zdve-mailx.htw-saarland.de.
+sozialpaedagogik	CNAME	zdve-mailx.htw-saarland.de.
+sp			CNAME	zdve-mailx.htw-saarland.de.
+sp-foerster		A	134.96.210.238
+			MX	100 zdve-mailx.htw-saarland.de.
+sp-foerster-drucker	A	134.96.210.239
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-1			A	134.96.214.212
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-2			A	134.96.214.213
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-3			A	134.96.214.214
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-4			A	134.96.214.215
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-5			A	134.96.214.216
+			MX	100 zdve-mailx.htw-saarland.de.
+spi-6			A	134.96.214.217
+			MX	100 zdve-mailx.htw-saarland.de.
+spiderman		A	134.96.216.49
+			MX	100 zdve-mailx.htw-saarland.de.
+spiller			A	134.96.212.230
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-7205-01		A	134.96.209.116
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-7205-nb		A	134.96.209.103
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-7205-s1		A	134.96.209.115
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8220-01		A	134.96.209.98
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8220-02		A	134.96.209.99
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8220-03		A	134.96.209.100
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8220-dr		A	134.96.209.109
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8224-01		A	134.96.209.101
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-03		A	134.96.209.104
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-dr		A	134.96.209.108
+sprlab-8225-s1		A	134.96.209.110
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-s2		A	134.96.209.111
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-s3		A	134.96.209.112
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-s4		A	134.96.209.113
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-s5		A	134.96.209.114
+			MX	100 zdve-mailx.htw-saarland.de.
+sprlab-8225-ta		A	134.96.209.102
+			MX	100 zdve-mailx.htw-saarland.de.
+sql-zv-temp		A	134.96.209.37
+			MX	100 zdve-mailx.htw-saarland.de.
+stdasta			CNAME	www-zv.htw-saarland.de.
+stdsek			CNAME	www-zv.htw-saarland.de.
+stdservice		A	134.96.210.133
+			MX	100 zdve-mailx.htw-saarland.de.
+stei-01			A	134.96.212.166
+			MX	100 zdve-mailx.htw-saarland.de.
+stei-02			A	134.96.212.135
+			MX	100 zdve-mailx.htw-saarland.de.
+stipendien		CNAME	zdve-mailx.htw-saarland.de.
+stl-apache		CNAME	stl-s-www.htw-saarland.de.
+stl-b-02		A	134.96.216.62
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-b-03		A	134.96.216.63
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-b-04		A	134.96.216.64
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-cert		CNAME	stl-s-mail.htw-saarland.de.
+stl-deimos		A	134.96.216.247
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-gdesk		CNAME	stl-s-vesys.htw-saarland.de.
+stl-gis-wpy		A	134.96.214.136
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-global		CNAME	stl-s-vesys.htw-saarland.de.
+stl-iapetos		A	134.96.216.162
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-janus		A	134.96.216.157
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-k-noteerl		A	134.96.216.5
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-01		A	134.96.216.181
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-02		A	134.96.216.182
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-03		A	134.96.216.183
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-04		A	134.96.216.184
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-05		A	134.96.216.185
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-06		A	134.96.216.186
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-07		A	134.96.216.187
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-08		A	134.96.216.188
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-09		A	134.96.216.189
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-10		A	134.96.216.190
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-11		A	134.96.216.191
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-12		A	134.96.216.192
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-13		A	134.96.216.193
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-14		A	134.96.216.194
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-15		A	134.96.216.195
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-16		A	134.96.216.196
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-17		A	134.96.216.197
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-18		A	134.96.216.198
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-8203		A	134.96.216.220
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-api		A	134.96.216.219
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-gue		A	134.96.216.232
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-gue2		A	134.96.216.168
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-lehser		A	134.96.216.238
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-stl		A	134.96.216.202
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-w7		A	134.96.216.165
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-l-wpy		A	134.96.216.230
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-lehser2		A	134.96.216.236
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-mail		CNAME	stl-s-mail.htw-saarland.de.
+stl-p-api		A	134.96.216.218
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-p-gue		A	134.96.216.251
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-p-lehser		A	134.96.216.237
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-p-mt		A	134.96.216.243
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-p-olb		A	134.96.216.242
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-p-pio		A	134.96.216.241
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-pandora		A	134.96.216.159
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-phobos		A	134.96.216.248
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-pop			CNAME	stl-s-mail.htw-saarland.de.
+stl-pro-wpy		A	134.96.208.165
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-projekt		A	134.96.208.170
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-r-8209-1n		A	134.96.216.244
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-r-8209-2n		A	134.96.216.245
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-r-8209-3n		A	134.96.216.246
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-4			A	134.96.216.214
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-ad		A	134.96.216.233
+			MX	90 stl-s-ad.htw-saarland.de.
+stl-s-antivir		A	134.96.216.206
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-bup		A	134.96.216.205
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-dbs		A	134.96.216.215
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-doku		A	134.96.216.201
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-esi		A	134.96.216.240
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-i2		A	134.96.216.203
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-ias		A	134.96.216.225
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-mail		A	134.96.216.229
+			MX	90 stl-s-mail.htw-saarland.de.
+stl-s-nfs		A	134.96.216.207
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-nisp		A	134.96.216.209
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-plone		A	134.96.216.234
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-proj		A	134.96.216.222
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-proj1		A	134.96.216.231
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-proto		A	134.96.216.59
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-pscf		A	134.96.216.217
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-ray		A	134.96.216.66
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-samba		A	134.96.216.208
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-sie		A	134.96.216.210
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-ssgd		A	134.96.216.200
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-stud		CNAME	stl-s-studwork.htw-saarland.de.
+stl-s-studwork		A	134.96.216.212
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-sun		A	134.96.216.204
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-t0		A	134.96.216.4
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-t1		A	134.96.216.8
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-ubu		A	134.96.216.254
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-vesys		A	134.96.216.56
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-vzd		A	134.96.216.224
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-web		A	134.96.216.235
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-webse		A	134.96.216.50
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-s-www		A	134.96.216.211
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-tomcat		CNAME	stl-s-www.htw-saarland.de.
+stl-v-100		A	134.96.216.100
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-101		A	134.96.216.101
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-102		A	134.96.216.102
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-103		A	134.96.216.103
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-104		A	134.96.216.104
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-105		A	134.96.216.105
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-106		A	134.96.216.106
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-107		A	134.96.216.107
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-108		A	134.96.216.108
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-109		A	134.96.216.109
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-110		A	134.96.216.110
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-111		A	134.96.216.111
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-112		A	134.96.216.112
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-113		A	134.96.216.113
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-114		A	134.96.216.114
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-115		A	134.96.216.115
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-116		A	134.96.216.116
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-117		A	134.96.216.117
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-118		A	134.96.216.118
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-119		A	134.96.216.119
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-120		A	134.96.216.120
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-121		A	134.96.216.121
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-122		A	134.96.216.122
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-123		A	134.96.216.123
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-124		A	134.96.216.124
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-125		A	134.96.216.125
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-126		A	134.96.216.126
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-127		A	134.96.216.127
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-128		A	134.96.216.128
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-129		A	134.96.216.129
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-130		A	134.96.216.130
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-131		A	134.96.216.131
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-132		A	134.96.216.132
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-133		A	134.96.216.133
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-134		A	134.96.216.134
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-135		A	134.96.216.135
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-136		A	134.96.216.136
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-137		A	134.96.216.137
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-138		A	134.96.216.138
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-139		A	134.96.216.139
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-140		A	134.96.216.140
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-141		A	134.96.216.141
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-142		A	134.96.216.142
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-143		A	134.96.216.143
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-144		A	134.96.216.144
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-145		A	134.96.216.145
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-146		A	134.96.216.146
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-147		A	134.96.216.147
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-148		A	134.96.216.148
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-149		A	134.96.216.149
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-150		A	134.96.216.150
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-151		A	134.96.216.151
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-152		A	134.96.216.152
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-153		A	134.96.216.153
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-154		A	134.96.216.154
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-155		A	134.96.216.155
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-156		A	134.96.216.156
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-170		A	134.96.216.170
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-171		A	134.96.216.171
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-172		A	134.96.216.172
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-173		A	134.96.216.173
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-174		A	134.96.216.174
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-175		A	134.96.216.175
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-176		A	134.96.216.176
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-177		A	134.96.216.177
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-178		A	134.96.216.178
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-179		A	134.96.216.179
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-68		A	134.96.216.68
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-69		A	134.96.216.69
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-70		A	134.96.216.70
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-71		A	134.96.216.71
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-72		A	134.96.216.72
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-73		A	134.96.216.73
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-74		A	134.96.216.74
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-75		A	134.96.216.75
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-76		A	134.96.216.76
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-77		A	134.96.216.77
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-78		A	134.96.216.78
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-99		A	134.96.216.99
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-pauly		A	134.96.216.160
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-v-pick		A	134.96.216.158
+			MX	100 zdve-mailx.htw-saarland.de.
+stl-vsol-100		CNAME	stl-v-100.htw-saarland.de.
+stl-vsol-101		CNAME	stl-v-101.htw-saarland.de.
+stl-vsol-102		CNAME	stl-v-102.htw-saarland.de.
+stl-vsol-103		CNAME	stl-v-103.htw-saarland.de.
+stl-vsol-104		CNAME	stl-v-104.htw-saarland.de.
+stl-vsol-105		CNAME	stl-v-105.htw-saarland.de.
+stl-vsol-106		CNAME	stl-v-106.htw-saarland.de.
+stl-vsol-107		CNAME	stl-v-107.htw-saarland.de.
+stl-vsol-108		CNAME	stl-v-108.htw-saarland.de.
+stl-vsol-109		CNAME	stl-v-109.htw-saarland.de.
+stl-vsol-110		CNAME	stl-v-110.htw-saarland.de.
+stl-vsol-111		CNAME	stl-v-111.htw-saarland.de.
+stl-vsol-112		CNAME	stl-v-112.htw-saarland.de.
+stl-vsol-113		CNAME	stl-v-113.htw-saarland.de.
+stl-vsol-114		CNAME	stl-v-114.htw-saarland.de.
+stl-vsol-115		CNAME	stl-v-115.htw-saarland.de.
+stl-vsol-116		CNAME	stl-v-116.htw-saarland.de.
+stl-vsol-117		CNAME	stl-v-117.htw-saarland.de.
+stl-vsol-118		CNAME	stl-v-118.htw-saarland.de.
+stl-vsol-119		CNAME	stl-v-119.htw-saarland.de.
+stl-vsol-120		CNAME	stl-v-120.htw-saarland.de.
+stl-vsol-121		CNAME	stl-v-121.htw-saarland.de.
+stl-vsol-122		CNAME	stl-v-122.htw-saarland.de.
+stl-vsol-123		CNAME	stl-v-123.htw-saarland.de.
+stl-vsol-124		CNAME	stl-v-124.htw-saarland.de.
+stl-vsol-125		CNAME	stl-v-125.htw-saarland.de.
+stl-vsol-126		CNAME	stl-v-126.htw-saarland.de.
+stl-vsol-127		CNAME	stl-v-127.htw-saarland.de.
+stl-vsol-128		CNAME	stl-v-128.htw-saarland.de.
+stl-vsol-129		CNAME	stl-v-129.htw-saarland.de.
+stl-vsol-130		CNAME	stl-v-130.htw-saarland.de.
+stl-vsol-131		CNAME	stl-v-131.htw-saarland.de.
+stl-vsol-132		CNAME	stl-v-132.htw-saarland.de.
+stl-vsol-133		CNAME	stl-v-133.htw-saarland.de.
+stl-vsol-134		CNAME	stl-v-134.htw-saarland.de.
+stl-vsol-135		CNAME	stl-v-135.htw-saarland.de.
+stl-vsol-136		CNAME	stl-v-136.htw-saarland.de.
+stl-vsol-137		CNAME	stl-v-137.htw-saarland.de.
+stl-vsol-138		CNAME	stl-v-138.htw-saarland.de.
+stl-vsol-139		CNAME	stl-v-139.htw-saarland.de.
+stl-vsol-140		CNAME	stl-v-140.htw-saarland.de.
+stl-vsol-141		CNAME	stl-v-141.htw-saarland.de.
+stl-vsol-142		CNAME	stl-v-142.htw-saarland.de.
+stl-vsol-143		CNAME	stl-v-143.htw-saarland.de.
+stl-vsol-144		CNAME	stl-v-144.htw-saarland.de.
+stl-vsol-145		CNAME	stl-v-145.htw-saarland.de.
+stl-vsol-146		CNAME	stl-v-146.htw-saarland.de.
+stl-vsol-147		CNAME	stl-v-147.htw-saarland.de.
+stl-vsol-148		CNAME	stl-v-148.htw-saarland.de.
+stl-vsol-149		CNAME	stl-v-149.htw-saarland.de.
+stl-vsol-150		CNAME	stl-v-150.htw-saarland.de.
+stl-vsol-151		CNAME	stl-v-151.htw-saarland.de.
+stl-vsol-152		CNAME	stl-v-152.htw-saarland.de.
+stl-vsol-153		CNAME	stl-v-153.htw-saarland.de.
+stl-vsol-154		CNAME	stl-v-154.htw-saarland.de.
+stl-vsol-155		CNAME	stl-v-155.htw-saarland.de.
+stl-vsol-156		CNAME	stl-v-156.htw-saarland.de.
+stl-vsol-170		CNAME	stl-v-170.htw-saarland.de.
+stl-vsol-171		CNAME	stl-v-171.htw-saarland.de.
+stl-vsol-172		CNAME	stl-v-172.htw-saarland.de.
+stl-vsol-173		CNAME	stl-v-173.htw-saarland.de.
+stl-vsol-174		CNAME	stl-v-174.htw-saarland.de.
+stl-vsol-175		CNAME	stl-v-175.htw-saarland.de.
+stl-vsol-176		CNAME	stl-v-176.htw-saarland.de.
+stl-vsol-177		CNAME	stl-v-177.htw-saarland.de.
+stl-vsol-178		CNAME	stl-v-178.htw-saarland.de.
+stl-vsol-179		CNAME	stl-v-179.htw-saarland.de.
+stl-vsol-68		CNAME	stl-v-68.htw-saarland.de.
+stl-vsol-69		CNAME	stl-v-69.htw-saarland.de.
+stl-vsol-70		CNAME	stl-v-70.htw-saarland.de.
+stl-vsol-71		CNAME	stl-v-71.htw-saarland.de.
+stl-vsol-72		CNAME	stl-v-72.htw-saarland.de.
+stl-vsol-73		CNAME	stl-v-73.htw-saarland.de.
+stl-vsol-74		CNAME	stl-v-74.htw-saarland.de.
+stl-vsol-75		CNAME	stl-v-75.htw-saarland.de.
+stl-vsol-76		CNAME	stl-v-76.htw-saarland.de.
+stl-vsol-77		CNAME	stl-v-77.htw-saarland.de.
+stl-vsol-78		CNAME	stl-v-78.htw-saarland.de.
+stl-vsol-99		CNAME	stl-v-99.htw-saarland.de.
+stl-vsuse-100		CNAME	stl-v-100.htw-saarland.de.
+stl-vsuse-101		CNAME	stl-v-101.htw-saarland.de.
+stl-vsuse-102		CNAME	stl-v-102.htw-saarland.de.
+stl-vsuse-103		CNAME	stl-v-103.htw-saarland.de.
+stl-vsuse-104		CNAME	stl-v-104.htw-saarland.de.
+stl-vsuse-105		CNAME	stl-v-105.htw-saarland.de.
+stl-vsuse-106		CNAME	stl-v-106.htw-saarland.de.
+stl-vsuse-107		CNAME	stl-v-107.htw-saarland.de.
+stl-vsuse-108		CNAME	stl-v-108.htw-saarland.de.
+stl-vsuse-109		CNAME	stl-v-109.htw-saarland.de.
+stl-vsuse-110		CNAME	stl-v-110.htw-saarland.de.
+stl-vsuse-111		CNAME	stl-v-111.htw-saarland.de.
+stl-vsuse-112		CNAME	stl-v-112.htw-saarland.de.
+stl-vsuse-113		CNAME	stl-v-113.htw-saarland.de.
+stl-vsuse-114		CNAME	stl-v-114.htw-saarland.de.
+stl-vsuse-115		CNAME	stl-v-115.htw-saarland.de.
+stl-vsuse-116		CNAME	stl-v-116.htw-saarland.de.
+stl-vsuse-117		CNAME	stl-v-117.htw-saarland.de.
+stl-vsuse-118		CNAME	stl-v-118.htw-saarland.de.
+stl-vsuse-119		CNAME	stl-v-119.htw-saarland.de.
+stl-vsuse-120		CNAME	stl-v-120.htw-saarland.de.
+stl-vsuse-121		CNAME	stl-v-121.htw-saarland.de.
+stl-vsuse-122		CNAME	stl-v-122.htw-saarland.de.
+stl-vsuse-123		CNAME	stl-v-123.htw-saarland.de.
+stl-vsuse-124		CNAME	stl-v-124.htw-saarland.de.
+stl-vsuse-125		CNAME	stl-v-125.htw-saarland.de.
+stl-vsuse-126		CNAME	stl-v-126.htw-saarland.de.
+stl-vsuse-127		CNAME	stl-v-127.htw-saarland.de.
+stl-vsuse-128		CNAME	stl-v-128.htw-saarland.de.
+stl-vsuse-129		CNAME	stl-v-129.htw-saarland.de.
+stl-vsuse-130		CNAME	stl-v-130.htw-saarland.de.
+stl-vsuse-131		CNAME	stl-v-131.htw-saarland.de.
+stl-vsuse-132		CNAME	stl-v-132.htw-saarland.de.
+stl-vsuse-133		CNAME	stl-v-133.htw-saarland.de.
+stl-vsuse-134		CNAME	stl-v-134.htw-saarland.de.
+stl-vsuse-135		CNAME	stl-v-135.htw-saarland.de.
+stl-vsuse-136		CNAME	stl-v-136.htw-saarland.de.
+stl-vsuse-137		CNAME	stl-v-137.htw-saarland.de.
+stl-vsuse-138		CNAME	stl-v-138.htw-saarland.de.
+stl-vsuse-139		CNAME	stl-v-139.htw-saarland.de.
+stl-vsuse-140		CNAME	stl-v-140.htw-saarland.de.
+stl-vsuse-141		CNAME	stl-v-141.htw-saarland.de.
+stl-vsuse-142		CNAME	stl-v-142.htw-saarland.de.
+stl-vsuse-143		CNAME	stl-v-143.htw-saarland.de.
+stl-vsuse-144		CNAME	stl-v-144.htw-saarland.de.
+stl-vsuse-145		CNAME	stl-v-145.htw-saarland.de.
+stl-vsuse-146		CNAME	stl-v-146.htw-saarland.de.
+stl-vsuse-147		CNAME	stl-v-147.htw-saarland.de.
+stl-vsuse-148		CNAME	stl-v-148.htw-saarland.de.
+stl-vsuse-149		CNAME	stl-v-149.htw-saarland.de.
+stl-vsuse-150		CNAME	stl-v-150.htw-saarland.de.
+stl-vsuse-151		CNAME	stl-v-151.htw-saarland.de.
+stl-vsuse-152		CNAME	stl-v-152.htw-saarland.de.
+stl-vsuse-153		CNAME	stl-v-153.htw-saarland.de.
+stl-vsuse-154		CNAME	stl-v-154.htw-saarland.de.
+stl-vsuse-155		CNAME	stl-v-155.htw-saarland.de.
+stl-vsuse-156		CNAME	stl-v-156.htw-saarland.de.
+stl-vsuse-170		CNAME	stl-v-170.htw-saarland.de.
+stl-vsuse-171		CNAME	stl-v-171.htw-saarland.de.
+stl-vsuse-172		CNAME	stl-v-172.htw-saarland.de.
+stl-vsuse-173		CNAME	stl-v-173.htw-saarland.de.
+stl-vsuse-174		CNAME	stl-v-174.htw-saarland.de.
+stl-vsuse-175		CNAME	stl-v-175.htw-saarland.de.
+stl-vsuse-176		CNAME	stl-v-176.htw-saarland.de.
+stl-vsuse-177		CNAME	stl-v-177.htw-saarland.de.
+stl-vsuse-178		CNAME	stl-v-178.htw-saarland.de.
+stl-vsuse-179		CNAME	stl-v-179.htw-saarland.de.
+stl-vsuse-68		CNAME	stl-v-68.htw-saarland.de.
+stl-vsuse-69		CNAME	stl-v-69.htw-saarland.de.
+stl-vsuse-70		CNAME	stl-v-70.htw-saarland.de.
+stl-vsuse-71		CNAME	stl-v-71.htw-saarland.de.
+stl-vsuse-72		CNAME	stl-v-72.htw-saarland.de.
+stl-vsuse-73		CNAME	stl-v-73.htw-saarland.de.
+stl-vsuse-74		CNAME	stl-v-74.htw-saarland.de.
+stl-vsuse-75		CNAME	stl-v-75.htw-saarland.de.
+stl-vsuse-76		CNAME	stl-v-76.htw-saarland.de.
+stl-vsuse-77		CNAME	stl-v-77.htw-saarland.de.
+stl-vsuse-78		CNAME	stl-v-78.htw-saarland.de.
+stl-vsuse-99		CNAME	stl-v-99.htw-saarland.de.
+stl-vubun-100		CNAME	stl-v-100.htw-saarland.de.
+stl-vubun-101		CNAME	stl-v-101.htw-saarland.de.
+stl-vubun-102		CNAME	stl-v-102.htw-saarland.de.
+stl-vubun-103		CNAME	stl-v-103.htw-saarland.de.
+stl-vubun-104		CNAME	stl-v-104.htw-saarland.de.
+stl-vubun-105		CNAME	stl-v-105.htw-saarland.de.
+stl-vubun-106		CNAME	stl-v-106.htw-saarland.de.
+stl-vubun-107		CNAME	stl-v-107.htw-saarland.de.
+stl-vubun-108		CNAME	stl-v-108.htw-saarland.de.
+stl-vubun-109		CNAME	stl-v-109.htw-saarland.de.
+stl-vubun-110		CNAME	stl-v-110.htw-saarland.de.
+stl-vubun-111		CNAME	stl-v-111.htw-saarland.de.
+stl-vubun-112		CNAME	stl-v-112.htw-saarland.de.
+stl-vubun-113		CNAME	stl-v-113.htw-saarland.de.
+stl-vubun-114		CNAME	stl-v-114.htw-saarland.de.
+stl-vubun-115		CNAME	stl-v-115.htw-saarland.de.
+stl-vubun-116		CNAME	stl-v-116.htw-saarland.de.
+stl-vubun-117		CNAME	stl-v-117.htw-saarland.de.
+stl-vubun-118		CNAME	stl-v-118.htw-saarland.de.
+stl-vubun-119		CNAME	stl-v-119.htw-saarland.de.
+stl-vubun-120		CNAME	stl-v-120.htw-saarland.de.
+stl-vubun-121		CNAME	stl-v-121.htw-saarland.de.
+stl-vubun-122		CNAME	stl-v-122.htw-saarland.de.
+stl-vubun-123		CNAME	stl-v-123.htw-saarland.de.
+stl-vubun-124		CNAME	stl-v-124.htw-saarland.de.
+stl-vubun-125		CNAME	stl-v-125.htw-saarland.de.
+stl-vubun-126		CNAME	stl-v-126.htw-saarland.de.
+stl-vubun-127		CNAME	stl-v-127.htw-saarland.de.
+stl-vubun-128		CNAME	stl-v-128.htw-saarland.de.
+stl-vubun-129		CNAME	stl-v-129.htw-saarland.de.
+stl-vubun-130		CNAME	stl-v-130.htw-saarland.de.
+stl-vubun-131		CNAME	stl-v-131.htw-saarland.de.
+stl-vubun-132		CNAME	stl-v-132.htw-saarland.de.
+stl-vubun-133		CNAME	stl-v-133.htw-saarland.de.
+stl-vubun-134		CNAME	stl-v-134.htw-saarland.de.
+stl-vubun-135		CNAME	stl-v-135.htw-saarland.de.
+stl-vubun-136		CNAME	stl-v-136.htw-saarland.de.
+stl-vubun-137		CNAME	stl-v-137.htw-saarland.de.
+stl-vubun-138		CNAME	stl-v-138.htw-saarland.de.
+stl-vubun-139		CNAME	stl-v-139.htw-saarland.de.
+stl-vubun-140		CNAME	stl-v-140.htw-saarland.de.
+stl-vubun-141		CNAME	stl-v-141.htw-saarland.de.
+stl-vubun-142		CNAME	stl-v-142.htw-saarland.de.
+stl-vubun-143		CNAME	stl-v-143.htw-saarland.de.
+stl-vubun-144		CNAME	stl-v-144.htw-saarland.de.
+stl-vubun-145		CNAME	stl-v-145.htw-saarland.de.
+stl-vubun-146		CNAME	stl-v-146.htw-saarland.de.
+stl-vubun-147		CNAME	stl-v-147.htw-saarland.de.
+stl-vubun-148		CNAME	stl-v-148.htw-saarland.de.
+stl-vubun-149		CNAME	stl-v-149.htw-saarland.de.
+stl-vubun-150		CNAME	stl-v-150.htw-saarland.de.
+stl-vubun-151		CNAME	stl-v-151.htw-saarland.de.
+stl-vubun-152		CNAME	stl-v-152.htw-saarland.de.
+stl-vubun-153		CNAME	stl-v-153.htw-saarland.de.
+stl-vubun-154		CNAME	stl-v-154.htw-saarland.de.
+stl-vubun-155		CNAME	stl-v-155.htw-saarland.de.
+stl-vubun-156		CNAME	stl-v-156.htw-saarland.de.
+stl-vubun-170		CNAME	stl-v-170.htw-saarland.de.
+stl-vubun-171		CNAME	stl-v-171.htw-saarland.de.
+stl-vubun-172		CNAME	stl-v-172.htw-saarland.de.
+stl-vubun-173		CNAME	stl-v-173.htw-saarland.de.
+stl-vubun-174		CNAME	stl-v-174.htw-saarland.de.
+stl-vubun-175		CNAME	stl-v-175.htw-saarland.de.
+stl-vubun-176		CNAME	stl-v-176.htw-saarland.de.
+stl-vubun-177		CNAME	stl-v-177.htw-saarland.de.
+stl-vubun-178		CNAME	stl-v-178.htw-saarland.de.
+stl-vubun-179		CNAME	stl-v-179.htw-saarland.de.
+stl-vubun-68		CNAME	stl-v-68.htw-saarland.de.
+stl-vubun-69		CNAME	stl-v-69.htw-saarland.de.
+stl-vubun-70		CNAME	stl-v-70.htw-saarland.de.
+stl-vubun-71		CNAME	stl-v-71.htw-saarland.de.
+stl-vubun-72		CNAME	stl-v-72.htw-saarland.de.
+stl-vubun-73		CNAME	stl-v-73.htw-saarland.de.
+stl-vubun-74		CNAME	stl-v-74.htw-saarland.de.
+stl-vubun-75		CNAME	stl-v-75.htw-saarland.de.
+stl-vubun-76		CNAME	stl-v-76.htw-saarland.de.
+stl-vubun-77		CNAME	stl-v-77.htw-saarland.de.
+stl-vubun-78		CNAME	stl-v-78.htw-saarland.de.
+stl-vubun-99		CNAME	stl-v-99.htw-saarland.de.
+stl-vwin-100		CNAME	stl-v-100.htw-saarland.de.
+stl-vwin-101		CNAME	stl-v-101.htw-saarland.de.
+stl-vwin-102		CNAME	stl-v-102.htw-saarland.de.
+stl-vwin-103		CNAME	stl-v-103.htw-saarland.de.
+stl-vwin-104		CNAME	stl-v-104.htw-saarland.de.
+stl-vwin-105		CNAME	stl-v-105.htw-saarland.de.
+stl-vwin-106		CNAME	stl-v-106.htw-saarland.de.
+stl-vwin-107		CNAME	stl-v-107.htw-saarland.de.
+stl-vwin-108		CNAME	stl-v-108.htw-saarland.de.
+stl-vwin-109		CNAME	stl-v-109.htw-saarland.de.
+stl-vwin-110		CNAME	stl-v-110.htw-saarland.de.
+stl-vwin-111		CNAME	stl-v-111.htw-saarland.de.
+stl-vwin-112		CNAME	stl-v-112.htw-saarland.de.
+stl-vwin-113		CNAME	stl-v-113.htw-saarland.de.
+stl-vwin-114		CNAME	stl-v-114.htw-saarland.de.
+stl-vwin-115		CNAME	stl-v-115.htw-saarland.de.
+stl-vwin-116		CNAME	stl-v-116.htw-saarland.de.
+stl-vwin-117		CNAME	stl-v-117.htw-saarland.de.
+stl-vwin-118		CNAME	stl-v-118.htw-saarland.de.
+stl-vwin-119		CNAME	stl-v-119.htw-saarland.de.
+stl-vwin-120		CNAME	stl-v-120.htw-saarland.de.
+stl-vwin-121		CNAME	stl-v-121.htw-saarland.de.
+stl-vwin-122		CNAME	stl-v-122.htw-saarland.de.
+stl-vwin-123		CNAME	stl-v-123.htw-saarland.de.
+stl-vwin-124		CNAME	stl-v-124.htw-saarland.de.
+stl-vwin-125		CNAME	stl-v-125.htw-saarland.de.
+stl-vwin-126		CNAME	stl-v-126.htw-saarland.de.
+stl-vwin-127		CNAME	stl-v-127.htw-saarland.de.
+stl-vwin-128		CNAME	stl-v-128.htw-saarland.de.
+stl-vwin-129		CNAME	stl-v-129.htw-saarland.de.
+stl-vwin-130		CNAME	stl-v-130.htw-saarland.de.
+stl-vwin-131		CNAME	stl-v-131.htw-saarland.de.
+stl-vwin-132		CNAME	stl-v-132.htw-saarland.de.
+stl-vwin-133		CNAME	stl-v-133.htw-saarland.de.
+stl-vwin-134		CNAME	stl-v-134.htw-saarland.de.
+stl-vwin-135		CNAME	stl-v-135.htw-saarland.de.
+stl-vwin-136		CNAME	stl-v-136.htw-saarland.de.
+stl-vwin-137		CNAME	stl-v-137.htw-saarland.de.
+stl-vwin-138		CNAME	stl-v-138.htw-saarland.de.
+stl-vwin-139		CNAME	stl-v-139.htw-saarland.de.
+stl-vwin-140		CNAME	stl-v-140.htw-saarland.de.
+stl-vwin-141		CNAME	stl-v-141.htw-saarland.de.
+stl-vwin-142		CNAME	stl-v-142.htw-saarland.de.
+stl-vwin-143		CNAME	stl-v-143.htw-saarland.de.
+stl-vwin-144		CNAME	stl-v-144.htw-saarland.de.
+stl-vwin-145		CNAME	stl-v-145.htw-saarland.de.
+stl-vwin-146		CNAME	stl-v-146.htw-saarland.de.
+stl-vwin-147		CNAME	stl-v-147.htw-saarland.de.
+stl-vwin-148		CNAME	stl-v-148.htw-saarland.de.
+stl-vwin-149		CNAME	stl-v-149.htw-saarland.de.
+stl-vwin-150		CNAME	stl-v-150.htw-saarland.de.
+stl-vwin-151		CNAME	stl-v-151.htw-saarland.de.
+stl-vwin-152		CNAME	stl-v-152.htw-saarland.de.
+stl-vwin-153		CNAME	stl-v-153.htw-saarland.de.
+stl-vwin-154		CNAME	stl-v-154.htw-saarland.de.
+stl-vwin-155		CNAME	stl-v-155.htw-saarland.de.
+stl-vwin-156		CNAME	stl-v-156.htw-saarland.de.
+stl-vwin-170		CNAME	stl-v-170.htw-saarland.de.
+stl-vwin-171		CNAME	stl-v-171.htw-saarland.de.
+stl-vwin-172		CNAME	stl-v-172.htw-saarland.de.
+stl-vwin-173		CNAME	stl-v-173.htw-saarland.de.
+stl-vwin-174		CNAME	stl-v-174.htw-saarland.de.
+stl-vwin-175		CNAME	stl-v-175.htw-saarland.de.
+stl-vwin-176		CNAME	stl-v-176.htw-saarland.de.
+stl-vwin-177		CNAME	stl-v-177.htw-saarland.de.
+stl-vwin-178		CNAME	stl-v-178.htw-saarland.de.
+stl-vwin-179		CNAME	stl-v-179.htw-saarland.de.
+stl-vwin-68		CNAME	stl-v-68.htw-saarland.de.
+stl-vwin-69		CNAME	stl-v-69.htw-saarland.de.
+stl-vwin-70		CNAME	stl-v-70.htw-saarland.de.
+stl-vwin-71		CNAME	stl-v-71.htw-saarland.de.
+stl-vwin-72		CNAME	stl-v-72.htw-saarland.de.
+stl-vwin-73		CNAME	stl-v-73.htw-saarland.de.
+stl-vwin-74		CNAME	stl-v-74.htw-saarland.de.
+stl-vwin-75		CNAME	stl-v-75.htw-saarland.de.
+stl-vwin-76		CNAME	stl-v-76.htw-saarland.de.
+stl-vwin-77		CNAME	stl-v-77.htw-saarland.de.
+stl-vwin-78		CNAME	stl-v-78.htw-saarland.de.
+stl-vwin-99		CNAME	stl-v-99.htw-saarland.de.
+stl-webmail		CNAME	stl-s-mail.htw-saarland.de.
+stl-www			CNAME	stl-s-www.htw-saarland.de.
+stud			CNAME	user-gis.htw-saarland.de.
+stud-e			A	134.96.208.110
+			MX	90 stud-e.htw-saarland.de.
+stud-gis		A	134.96.208.118
+			MX	100 zdve-mailx.htw-saarland.de.
+$ORIGIN stud-gis.fh-saarland.de.
+*			A	134.96.208.118
+$ORIGIN fh-saarland.de.
+stud-i			A	134.96.216.180
+			MX	100 zdve-mailx.htw-saarland.de.
+$ORIGIN stud-i.fh-saarland.de.
+*			A	134.96.216.180
+$ORIGIN fh-saarland.de.
+stud-i-pr1		A	134.96.216.166
+			MX	100 zdve-mailx.htw-saarland.de.
+stud-i-pr2		A	134.96.216.167
+			MX	100 zdve-mailx.htw-saarland.de.
+stud-i-verwaltung	A	134.96.216.161
+			MX	100 zdve-mailx.htw-saarland.de.
+stud-ma			CNAME	stud-gis.htw-saarland.de.
+stud-sp			CNAME	stud-i.htw-saarland.de.
+stud-wi			CNAME	stud-i.htw-saarland.de.
+student-i		A	134.96.215.63
+			MX	100 zdve-mailx.htw-saarland.de.
+superform-mobil		A	134.96.215.110
+			MX	100 zdve-mailx.htw-saarland.de.
+superman		A	134.96.216.47
+			MX	100 zdve-mailx.htw-saarland.de.
+svala			A	134.96.215.9
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-ap01		A	134.96.217.41
+swl-ap02		A	134.96.217.42
+swl-dr01		A	134.96.217.46
+swl-dr02		A	134.96.217.47
+swl-freddy1		A	134.96.217.50
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-freddy2		A	134.96.217.51
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-freddy3		A	134.96.217.53
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-freddy4		A	134.96.217.54
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nas01		A	134.96.217.49
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nb01		A	134.96.217.31
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nb02		A	134.96.217.32
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nb03		A	134.96.217.33
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nyala1		A	134.96.217.59
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-nyala2		A	134.96.217.60
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-ocelot1		A	134.96.217.57
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-ocelot2		A	134.96.217.58
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc01		A	134.96.217.6
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc02		A	134.96.217.7
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc03		A	134.96.217.8
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc04		A	134.96.217.9
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc05		A	134.96.217.10
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc06		A	134.96.217.11
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc07		A	134.96.217.12
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc08		A	134.96.217.13
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc09		A	134.96.217.14
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc10		A	134.96.217.15
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc11		A	134.96.217.16
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc12		A	134.96.217.17
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc19		A	134.96.217.19
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc27		A	134.96.217.20
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc28		A	134.96.217.21
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc29		A	134.96.217.22
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pc30		A	134.96.217.23
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-pocket		A	134.96.217.34
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-srv01		A	134.96.217.2
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-srv02		A	134.96.217.3
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-srv03		A	134.96.217.5
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-susan1		A	134.96.217.52
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-susan2		A	134.96.217.55
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-susan3		A	134.96.217.56
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc01		A	134.96.217.24
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc02		A	134.96.217.25
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc03		A	134.96.217.26
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc04		A	134.96.217.27
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc05		A	134.96.217.28
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc06		A	134.96.217.29
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc07		A	134.96.217.35
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc08		A	134.96.217.36
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc09		A	134.96.217.37
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc10		A	134.96.217.38
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc11		A	134.96.217.39
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc12		A	134.96.217.40
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc19		A	134.96.217.43
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc28		A	134.96.217.44
+			MX	100 zdve-mailx.htw-saarland.de.
+swl-w-pc29		A	134.96.217.45
+			MX	100 zdve-mailx.htw-saarland.de.
+swlab2000-dc01		A	134.96.217.18
+			MX	100 zdve-mailx.htw-saarland.de.
+swlabnt			A	134.96.208.114
+			MX	100 zdve-mailx.htw-saarland.de.
+test-portal		A	134.96.208.70
+			MX	100 zdve-mailx.htw-saarland.de.
+th-winter-think		A	134.96.214.193
+			MX	100 zdve-mailx.htw-saarland.de.
+thales			A	134.96.214.161
+			MX	100 zdve-mailx.htw-saarland.de.
+tkdell			A	134.96.214.130
+			MX	100 zdve-mailx.htw-saarland.de.
+tkip-asa		A	134.96.208.12
+tm4002wlmi		A	134.96.213.206
+			MX	100 zdve-mailx.htw-saarland.de.
+trans-01		A	134.96.215.19
+			MX	100 zdve-mailx.htw-saarland.de.
+trans-02		A	134.96.215.30
+			MX	100 zdve-mailx.htw-saarland.de.
+trans-03		A	134.96.215.56
+			MX	100 zdve-mailx.htw-saarland.de.
+turing			A	134.96.214.152
+			MX	100 zdve-mailx.htw-saarland.de.
+tv01			A	134.96.208.81
+			MX	100 zdve-mailx.htw-saarland.de.
+tv02			A	134.96.208.82
+			MX	100 zdve-mailx.htw-saarland.de.
+tv03			A	134.96.208.83
+			MX	100 zdve-mailx.htw-saarland.de.
+tv04			A	134.96.208.84
+			MX	100 zdve-mailx.htw-saarland.de.
+tv05			A	134.96.208.85
+			MX	100 zdve-mailx.htw-saarland.de.
+tv06			A	134.96.208.86
+			MX	100 zdve-mailx.htw-saarland.de.
+tv07			A	134.96.208.87
+			MX	100 zdve-mailx.htw-saarland.de.
+tv08			A	134.96.208.88
+			MX	100 zdve-mailx.htw-saarland.de.
+tv09			A	134.96.208.89
+			MX	100 zdve-mailx.htw-saarland.de.
+tv10			A	134.96.208.90
+			MX	100 zdve-mailx.htw-saarland.de.
+tzsb-firewall		A	134.96.210.6
+tzsb-mit3		A	134.96.210.5
+			MX	100 zdve-mailx.htw-saarland.de.
+tzsb-mit4		A	134.96.210.13
+			MX	100 zdve-mailx.htw-saarland.de.
+tzsb-notebook		A	134.96.210.7
+			MX	100 zdve-mailx.htw-saarland.de.
+tzsb-stud1		A	134.96.210.14
+			MX	100 zdve-mailx.htw-saarland.de.
+uhlig			A	134.96.214.187
+			MX	100 zdve-mailx.htw-saarland.de.
+us			A	134.96.217.158
+			MX	100 zdve-mailx.htw-saarland.de.
+user-gis		A	134.96.208.106
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-02			A	134.96.212.176
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-busch		A	134.96.212.133
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-fro			A	134.96.212.183
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-hh			A	134.96.212.199
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-hud			A	134.96.209.21
+			MX	100 zdve-mailx.htw-saarland.de.
+vd-reg			A	134.96.212.167
+			MX	100 zdve-mailx.htw-saarland.de.
+vde			CNAME	stud-e.htw-saarland.de.
+vde-hg-01		A	134.96.209.196
+			MX	100 zdve-mailx.htw-saarland.de.
+vde-hg-02		A	134.96.209.197
+			MX	100 zdve-mailx.htw-saarland.de.
+vertriebsmanagement	CNAME	zdve-mailx.htw-saarland.de.
+vkm			A	134.96.215.88
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-car01		A	134.96.215.6
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-car02		A	134.96.215.10
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-labor01		A	134.96.215.124
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-m2			A	134.96.215.66
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil01		A	134.96.215.103
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil02		A	134.96.215.104
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil03		A	134.96.215.105
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil04		A	134.96.215.115
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil05		A	134.96.215.119
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-mobil06		A	134.96.215.125
+			MX	100 zdve-mailx.htw-saarland.de.
+vkm-sicherung		A	134.96.215.111
+			MX	100 zdve-mailx.htw-saarland.de.
+vks-1			A	134.96.208.167
+			MX	100 zdve-mailx.htw-saarland.de.
+vks-2			A	134.96.208.168
+			MX	100 zdve-mailx.htw-saarland.de.
+vks-3			A	134.96.208.169
+			MX	100 zdve-mailx.htw-saarland.de.
+vmware-ab		A	134.96.208.130
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-10		A	134.96.212.10
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-100		A	134.96.212.100
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-101		A	134.96.212.101
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-102		A	134.96.212.102
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-103		A	134.96.212.103
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-104		A	134.96.212.104
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-105		A	134.96.212.105
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-106		A	134.96.212.106
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-107		A	134.96.212.107
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-108		A	134.96.212.108
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-109		A	134.96.212.109
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-11		A	134.96.212.11
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-110		A	134.96.212.110
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-111		A	134.96.212.111
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-112		A	134.96.212.112
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-113		A	134.96.212.113
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-114		A	134.96.212.114
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-115		A	134.96.212.115
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-116		A	134.96.212.116
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-117		A	134.96.212.117
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-118		A	134.96.212.118
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-119		A	134.96.212.119
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-12		A	134.96.212.12
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-120		A	134.96.212.120
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-121		A	134.96.212.121
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-122		A	134.96.212.122
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-123		A	134.96.212.123
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-124		A	134.96.212.124
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-125		A	134.96.212.125
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-126		A	134.96.212.126
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-13		A	134.96.212.13
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-14		A	134.96.212.14
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-15		A	134.96.212.15
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-16		A	134.96.212.16
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-17		A	134.96.212.17
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-18		A	134.96.212.18
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-19		A	134.96.212.19
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-195		A	134.96.215.195
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-196		A	134.96.215.196
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-197		A	134.96.215.197
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-198		A	134.96.215.198
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-199		A	134.96.215.199
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-20		A	134.96.212.20
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-200		A	134.96.215.200
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-201		A	134.96.215.201
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-202		A	134.96.215.202
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-203		A	134.96.215.203
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-204		A	134.96.215.204
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-205		A	134.96.215.205
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-206		A	134.96.215.206
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-207		A	134.96.215.207
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-208		A	134.96.215.208
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-209		A	134.96.215.209
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-21		A	134.96.212.21
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-210		A	134.96.215.210
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-211		A	134.96.215.211
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-212		A	134.96.215.212
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-213		A	134.96.215.213
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-214		A	134.96.215.214
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-215		A	134.96.215.215
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-216		A	134.96.215.216
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-217		A	134.96.215.217
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-218		A	134.96.215.218
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-219		A	134.96.215.219
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-22		A	134.96.212.22
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-220		A	134.96.215.220
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-221		A	134.96.215.221
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-222		A	134.96.215.222
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-223		A	134.96.215.223
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-224		A	134.96.215.224
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-225		A	134.96.215.225
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-226		A	134.96.215.226
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-227		A	134.96.215.227
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-228		A	134.96.215.228
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-229		A	134.96.215.229
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-23		A	134.96.212.23
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-230		A	134.96.215.230
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-231		A	134.96.215.231
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-232		A	134.96.215.232
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-233		A	134.96.215.233
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-234		A	134.96.215.234
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-235		A	134.96.215.235
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-236		A	134.96.215.236
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-237		A	134.96.215.237
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-238		A	134.96.215.238
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-239		A	134.96.215.239
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-24		A	134.96.212.24
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-240		A	134.96.215.240
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-241		A	134.96.215.241
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-242		A	134.96.215.242
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-243		A	134.96.215.243
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-244		A	134.96.215.244
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-245		A	134.96.215.245
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-246		A	134.96.215.246
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-247		A	134.96.215.247
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-248		A	134.96.215.248
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-249		A	134.96.215.249
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-25		A	134.96.212.25
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-250		A	134.96.215.250
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-251		A	134.96.215.251
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-252		A	134.96.215.252
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-253		A	134.96.215.253
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-254		A	134.96.215.254
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-26		A	134.96.212.26
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-27		A	134.96.212.27
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-28		A	134.96.212.28
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-29		A	134.96.212.29
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-3		A	134.96.212.3
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-30		A	134.96.212.30
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-31		A	134.96.212.31
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-32		A	134.96.212.32
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-33		A	134.96.212.33
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-34		A	134.96.212.34
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-35		A	134.96.212.35
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-36		A	134.96.212.36
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-37		A	134.96.212.37
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-38		A	134.96.212.38
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-39		A	134.96.212.39
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-4		A	134.96.212.4
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-40		A	134.96.212.40
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-41		A	134.96.212.41
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-42		A	134.96.212.42
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-43		A	134.96.212.43
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-44		A	134.96.212.44
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-45		A	134.96.212.45
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-46		A	134.96.212.46
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-47		A	134.96.212.47
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-48		A	134.96.212.48
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-49		A	134.96.212.49
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-5		A	134.96.212.5
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-50		A	134.96.212.50
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-51		A	134.96.212.51
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-52		A	134.96.212.52
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-53		A	134.96.212.53
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-54		A	134.96.212.54
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-55		A	134.96.212.55
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-56		A	134.96.212.56
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-57		A	134.96.212.57
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-58		A	134.96.212.58
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-59		A	134.96.212.59
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-6		A	134.96.212.6
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-60		A	134.96.212.60
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-61		A	134.96.212.61
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-62		A	134.96.212.62
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-63		A	134.96.212.63
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-64		A	134.96.212.64
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-65		A	134.96.212.65
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-66		A	134.96.212.66
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-67		A	134.96.212.67
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-68		A	134.96.212.68
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-69		A	134.96.212.69
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-7		A	134.96.212.7
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-70		A	134.96.212.70
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-71		A	134.96.212.71
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-72		A	134.96.212.72
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-73		A	134.96.212.73
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-74		A	134.96.212.74
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-75		A	134.96.212.75
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-76		A	134.96.212.76
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-77		A	134.96.212.77
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-78		A	134.96.212.78
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-79		A	134.96.212.79
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-8		A	134.96.212.8
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-80		A	134.96.212.80
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-81		A	134.96.212.81
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-82		A	134.96.212.82
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-83		A	134.96.212.83
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-84		A	134.96.212.84
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-85		A	134.96.212.85
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-86		A	134.96.212.86
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-87		A	134.96.212.87
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-88		A	134.96.212.88
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-89		A	134.96.212.89
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-9		A	134.96.212.9
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-90		A	134.96.212.90
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-91		A	134.96.212.91
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-92		A	134.96.212.92
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-93		A	134.96.212.93
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-94		A	134.96.212.94
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-95		A	134.96.212.95
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-96		A	134.96.212.96
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-97		A	134.96.212.97
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-98		A	134.96.212.98
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnclient-99		A	134.96.212.99
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnserver		A	134.96.212.2
+			MX	100 zdve-mailx.htw-saarland.de.
+vpnserver2		A	134.96.215.194
+			MX	100 zdve-mailx.htw-saarland.de.
+web-server-bw		A	134.96.208.105
+			MX	100 zdve-mailx.htw-saarland.de.
+werkstatt		A	134.96.212.208
+			MX	100 zdve-mailx.htw-saarland.de.
+wetter			A	134.96.210.8
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-1			A	134.96.211.3
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-2			A	134.96.211.4
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-3			A	134.96.211.5
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-4			A	134.96.211.6
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-5			A	134.96.211.7
+			MX	100 zdve-mailx.htw-saarland.de.
+wf-fw			A	134.96.211.2
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-pc-be		A	134.96.212.174
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-pc-ko		A	134.96.212.173
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-pc-pl		A	134.96.212.171
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-schwarz		A	134.96.212.227
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-wi-ab02		A	134.96.215.163
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-wi-al1		A	134.96.210.188
+			MX	100 zdve-mailx.htw-saarland.de.
+whw-wi-ve		A	134.96.215.164
+			MX	100 zdve-mailx.htw-saarland.de.
+wi			CNAME	zdve-mailx.htw-saarland.de.
+wi-arendes		A	134.96.219.196
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-friedrich		A	134.96.219.168
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-georg		A	134.96.219.144
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-junker		A	134.96.219.202
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-kneip		A	134.96.219.204
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-kraemer		A	134.96.219.228
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-leprich		A	134.96.219.178
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-projekt02		A	134.96.219.236
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-projekt03		A	134.96.219.237
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-pulham		A	134.96.219.199
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-reichart		A	134.96.219.176
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-scherer		A	134.96.219.194
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-schottek-nb		A	134.96.219.139
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-toschmidt		A	134.96.219.197
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-venitz		A	134.96.219.195
+			MX	100 zdve-mailx.htw-saarland.de.
+wi-weisgerber		A	134.96.219.229
+			MX	100 zdve-mailx.htw-saarland.de.
+wirtschaftsingenieurwesen CNAME	zdve-mailx.htw-saarland.de.
+wiwi-densing		A	134.96.219.217
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-dsb-hg		A	134.96.219.238
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-dsb-ng		A	134.96.219.241
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-ganther		A	134.96.219.154
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-hl2700cn		A	134.96.219.198
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-hp4600		A	134.96.219.169
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-iscom-hiwi		A	134.96.219.183
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-koerner		A	134.96.219.218
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-mail		A	134.96.219.233
+			MX	90 wiwi-mail.htw-saarland.de.
+wiwi-persinf		A	134.96.208.103
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-rom		A	134.96.210.130
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwi-sek		A	134.96.219.254
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwif-server		A	134.96.219.2
+			MX	100 zdve-mailx.htw-saarland.de.
+wiwif-sicherung		A	134.96.219.240
+			MX	100 zdve-mailx.htw-saarland.de.
+wlan-ap-ha1		A	134.96.217.194
+			MX	100 zdve-mailx.htw-saarland.de.
+wlan-ap-ha2		A	134.96.217.195
+			MX	100 zdve-mailx.htw-saarland.de.
+wohnen			CNAME	zdve-mailx.htw-saarland.de.
+ww-esx			A	134.96.208.173
+			MX	100 zdve-mailx.htw-saarland.de.
+ww-oslo			A	134.96.208.132
+			MX	100 zdve-mailx.htw-saarland.de.
+www			CNAME	www-portal.htw-saarland.de.
+www-ab			A	134.96.208.134
+			MX	100 zdve-mailx.htw-saarland.de.
+www-bw			CNAME	web-server-bw.htw-saarland.de.
+www-crypto		A	134.96.208.102
+			MX	100 zdve-mailx.htw-saarland.de.
+www-learn		CNAME	wiwi-persinf.htw-saarland.de.
+www-portal		A	134.96.208.112
+			MX	100 zdve-mailx.htw-saarland.de.
+www-proxy		A	134.96.208.100
+			A	134.96.208.120
+			MX	100 zdve-mailx.htw-saarland.de.
+www-proxy-neu		CNAME	www-proxy.htw-saarland.de.
+www-stl			CNAME	stl-s-www.htw-saarland.de.
+www-zv			A	134.96.208.122
+			MX	100 zdve-mailx.htw-saarland.de.
+www-zv-t1		A	134.96.212.254
+			MX	100 zdve-mailx.htw-saarland.de.
+www-zv-test		A	134.96.208.163
+			MX	100 zdve-mailx.htw-saarland.de.
+www1			CNAME	stl-s-www.htw-saarland.de.
+$TTL 600	; 10 minutes
+wwwtest			CNAME	weboth-4.rz.uni-saarland.de.
+$TTL 43200	; 12 hours
+zb-bft-01		A	134.96.209.69
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-bft-02		A	134.96.209.68
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-goe-e1		A	134.96.209.230
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-goe-e2		A	134.96.209.231
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-goe-e3		A	134.96.209.228
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-goe-e6		A	134.96.209.233
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-ju-01		A	134.96.209.75
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-lesesaalrpf-01	A	134.96.209.229
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-lesesaalrpf-02	A	134.96.209.232
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-lesesaalrpf-03	A	134.96.209.236
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-lesesaalrpf-04	A	134.96.209.237
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-lesesaalrpf-05	A	134.96.209.238
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-mi-01		A	134.96.209.76
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-mi-02		A	134.96.209.66
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-ps-3101		A	134.96.209.77
+zb-rb-01		A	134.96.209.74
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-rh-01		A	134.96.209.70
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-rh-02		A	134.96.209.71
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-rh-03		A	134.96.209.67
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-roe-02		A	134.96.209.80
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-rpf-01		A	134.96.209.78
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-rpf-03		A	134.96.209.81
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-sb-01		A	134.96.209.73
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-schwingboth-02	A	134.96.209.79
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-sn-01		A	134.96.209.72
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-whw-e1		A	134.96.209.234
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-whw-e2		A	134.96.209.235
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-whw-e3		A	134.96.209.226
+			MX	100 zdve-mailx.htw-saarland.de.
+zb-whw-e4		A	134.96.209.227
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-backup		A	134.96.208.68
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-bauer		A	134.96.209.143
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-exchange		A	134.96.208.135
+			MX	90 zdve-exchange.htw-saarland.de.
+zdve-extranet		A	134.96.208.133
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-folz		A	134.96.209.131
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-kolbusch		A	134.96.209.137
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-mailx		A	134.96.208.108
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-md			A	134.96.209.146
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-mg-2		A	134.96.208.5
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-mpi		A	134.96.209.150
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-multi		A	134.96.208.116
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-myr-1		A	134.96.209.130
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-myr-2		A	134.96.209.138
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-p-lq2180		A	134.96.210.105
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-p-slp200		A	134.96.209.152
+zdve-p-t610		A	134.96.210.103
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-p-w812		A	134.96.210.104
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-prototyp		A	134.96.210.68
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-ps-scf62275	A	134.96.212.157
+zdve-sth1		A	134.96.212.154
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve-usv		A	134.96.208.101
+zdve2000s1		A	134.96.210.66
+			MX	100 zdve-mailx.htw-saarland.de.
+zdve2003s1		A	134.96.210.69
+			MX	100 zdve-mailx.htw-saarland.de.
+zentrale		A	134.96.212.197
+			MX	100 zdve-mailx.htw-saarland.de.
+zil			A	134.96.215.3
+			MX	100 zdve-mailx.htw-saarland.de.
+zip-lpa-03		A	134.96.213.253
+			MX	100 zdve-mailx.htw-saarland.de.
+zip-lpa-04		A	134.96.213.254
+			MX	100 zdve-mailx.htw-saarland.de.
+zv			A	134.96.212.182
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-asa			A	134.96.208.11
+zv-azubi		A	134.96.212.156
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-azubi1		A	134.96.212.195
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-elektro		A	134.96.212.205
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-hell			A	134.96.212.165
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-his-test		A	134.96.212.192
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-it-hiwi		A	134.96.212.218
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-it-v-sql-test	A	134.96.212.219
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-presse2		A	134.96.212.168
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-presse3		A	134.96.212.191
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-ps-label		A	134.96.209.35
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-rektor		A	134.96.209.23
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-sql1			A	134.96.209.48
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-test			A	134.96.212.223
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-test-w2k		A	134.96.212.231
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-test-wxp		A	134.96.212.232
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-test2		A	134.96.212.207
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-ts			A	134.96.209.50
+			MX	100 zdve-mailx.htw-saarland.de.
+zv-ts-a1		A	134.96.209.49
+			MX	100 zdve-mailx.htw-saarland.de.
+zvs			A	134.96.209.42
+			MX	100 zdve-mailx.htw-saarland.de.
+zvts			A	134.96.209.41
+			MX	100 zdve-mailx.htw-saarland.de.

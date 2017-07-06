@@ -1,0 +1,40 @@
+#
+#
+#   HOME-LAN-Stud-udb+STL-VPN
+#
+# Messungen vom HOME-Laptop mit WLAN-Anschluss und STL-VPN
+#
+
+
+F:\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+######################-------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  19.87 KByte/s (99%) Tx,  0 Byte/s (100%) Rx.
+Packet size  2k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size  4k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size  8k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size 16k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size 32k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Done.
+
+
+F:\netio132\bin>win32-i386.exe -u stl-s-stud.htwsaar.de
+######################-------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  22.33 KByte/s (99%) Tx,  0 Byte/s (100%) Rx.
+Packet size  2k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size  4k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size  8k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size 16k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Packet size 32k bytes:  0 Byte/s (100%) Tx,  0 Byte/s (100%) Rx.
+Done.
+
+

@@ -1,0 +1,26 @@
+#
+#
+#
+# Win10-Laptop-htwintern--stl-s-stud
+#
+#
+#
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t stl-s-stud.htwsaar.de
+##########################----------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060
+
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t stl-s-stud.htwsaar.de
+##########################----------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060
+
+
+C:\wpy-netio\netio132\bin>
+##########################----------------------------------------

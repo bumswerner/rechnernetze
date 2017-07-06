@@ -1,0 +1,202 @@
+mail_versand_via_mail_protokoll_ex
+
+
+Frame 1 (78 on wire, 78 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 2 (78 on wire, 78 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 3 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 4 (62 on wire, 62 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 5 (54 on wire, 54 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 6 (122 on wire, 122 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 220
+    Parameter: zdve-mailx.htw-saarland.de ESMTP Mail Server ready
+
+
+
+Frame 7 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 8 (98 on wire, 98 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Command: EHLO
+    Parameter: stl-m-wpy.htw-saarland.de
+
+
+
+Frame 9 (66 on wire, 66 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 10 (287 on wire, 287 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: zdve-mailx.htw-saarland.de Hello stl-m-wpy.htw-saarland.de [134.96.216.230], pleased to meet you
+    Response: 250
+    Parameter: ENHANCEDSTATUSCODES
+    Response: 250
+    Parameter: PIPELINING
+    Response: 250
+    Parameter: EXPN
+    Response: 250
+    Parameter: VERB
+    Response: 250
+    Parameter: 8BITMIME
+    Response: 250
+    Parameter: SIZE
+    Response: 250
+    Parameter: DSN
+    Response: 250
+    Parameter: DELIVERBY
+    Response: 250
+    Parameter: HELP
+
+
+
+Frame 11 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 12 (118 on wire, 118 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Command: MAIL
+    Parameter: From:<wpy@stl-m-wpy.htw-saarland.de> SIZE=676
+
+
+
+Frame 13 (122 on wire, 122 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.1.0 <wpy@stl-m-wpy.htw-saarland.de>... Sender ok
+
+
+
+Frame 14 (103 on wire, 103 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Command: RCPT
+    Parameter: To:<wpy@htw-saarland.de>
+
+
+
+Frame 15 (165 on wire, 165 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.1.5 <wpy@htw-saarland.de>... Recipient ok
+
+
+
+Frame 16 (727 on wire, 727 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Message: Received: from stl-m-wpy.htw-saarland.de (localhost [127.0.0.1])\r\n
+    Message: \tby stl-m-wpy.htw-saarland.de (8.12.9+Sun/8.12.9) with ESMTP id i439atXV002217\r\n
+    Message: \tfor <wpy@htw-saarland.de>; Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: Received: (from wpy@localhost)\r\n
+    Message: \tby stl-m-wpy.htw-saarland.de (8.12.9+Sun/8.12.9/Submit) id i439atL9002216\r\n
+    Message: \tfor wpy@htw-saarland.de; Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: Date: Mon, 3 May 2004 11:36:55 +0200 (MEST)\r\n
+    Message: From: "W.Pauly" <wpy@stl-m-wpy.htw-saarland.de>\r\n
+    Message: Message-Id: <200405030936.i439atL9002216@stl-m-wpy.htw-saarland.de>\r\n
+    Message: Subject: Das ist ein TEST !!!!\r\n
+    Message: Content-Type: text\r\n
+    Message: \r\n
+    Message: so und das ist der Mail-Inhalt : NIX und wieder NIX !!\r\n
+    Message: \r\n
+
+
+
+Frame 17 (66 on wire, 66 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 18 (69 on wire, 69 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Message: .\r\n
+
+
+
+Frame 19 (122 on wire, 122 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 250
+    Parameter: 2.0.0 i439ZHgh025993 Message accepted for delivery
+
+
+
+Frame 20 (72 on wire, 72 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+Simple Mail Transfer Protocol
+    Command: QUIT
+
+
+
+Frame 21 (123 on wire, 123 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Simple Mail Transfer Protocol
+    Response: 221
+    Parameter: 2.0.0 zdve-mailx.htw-saarland.de closing connection
+
+
+
+Frame 22 (66 on wire, 66 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 23 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 24 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: zdve-mailx.htw-saarland.de (134.96.208.108)
+
+
+Frame 25 (66 on wire, 66 captured)
+    Source: zdve-mailx.htw-saarland.de (134.96.208.108)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)

@@ -1,0 +1,80 @@
+#
+#
+#
+#
+#  CentOS_Telnet_1
+#
+#
+#
+#
+
+pauly@CentOS :> starte tcpdump -l -i eth0 -e -vv -S -A ip ' host stl-s-stud.htwsaar.de and tcp port 7 ' | tee CentOS_Telnet
+################-------------------------------------------------------------------------------------------------
+
+
+13:33:45.281543 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 12154, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [S], cksum 0xbe3a (incorrect -> 0x3f70), seq 2663956062, win 29200, options [mss 1460,sackOK,TS val 37523748 ecr 0,nop,wscale 7], length 0
+E..</z@.@.M&.`.v.`.........^......r..:.........
+.<.$........
+13:33:45.282794 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:54 (oui Unknown), ethertype IPv4 (0x0800), length 78: (tos 0x0, ttl 60, id 20899, offset 0, flags [DF], proto TCP (6), length 64)
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [S.], cksum 0x621c (correct), seq 3275911493, ack 2663956063, win 49232, options [nop,nop,TS val 2367535965 ecr 37523748,mss 1460,nop,wscale 0,nop,nop,sackOK], length 0
+E..@Q.@.<./	.`...`.v.....BqE..._...Pb......
+...].<.$............
+13:33:45.282833 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 12155, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.], cksum 0xbe32 (incorrect -> 0x6252), seq 2663956063, ack 3275911494, win 229, options [nop,nop,TS val 37523749 ecr 2367535965], length 0
+E..4/{@.@.M-.`.v.`........._.BqF.....2.....
+.<.%...]
+13:34:08.039702 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 85: (tos 0x10, ttl 64, id 12156, offset 0, flags [DF], proto TCP (6), length 71)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [P.], cksum 0xbe45 (incorrect -> 0x4af9), seq 2663956063:2663956082, ack 3275911494, win 229, options [nop,nop,TS val 37546506 ecr 2367535965], length 19
+E..G/|@.@.M..`.v.`........._.BqF.....E.....
+.<.
+...]abcdefghijklmnopq
+
+13:34:08.040016 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:54 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x0, ttl 60, id 20900, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.], cksum 0x410a (correct), seq 3275911494, ack 2663956082, win 49232, options [nop,nop,TS val 2367538241 ecr 37546506], length 0
+E..4Q.@.<./..`...`.v.....BqF...r...PA
+.....
+...A.<.
+
+13:34:08.040055 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:54 (oui Unknown), ethertype IPv4 (0x0800), length 85: (tos 0x0, ttl 60, id 20901, offset 0, flags [DF], proto TCP (6), length 71)
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [P.], cksum 0x8296 (correct), seq 3275911494:3275911513, ack 2663956082, win 49232, options [nop,nop,TS val 2367538241 ecr 37546506], length 19
+E..GQ.@.<./..`...`.v.....BqF...r...P.......
+...A.<.
+abcdefghijklmnopq
+
+13:34:08.040068 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 12157, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.], cksum 0xbe32 (incorrect -> 0x0062), seq 2663956082, ack 3275911513, win 229, options [nop,nop,TS val 37546507 ecr 2367538241], length 0
+E..4/}@.@.M+.`.v.`.........r.BqY.....2.....
+.<.....A
+13:34:23.095919 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 12158, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [F.], cksum 0xbe32 (incorrect -> 0xc591), seq 2663956082, ack 3275911513, win 229, options [nop,nop,TS val 37561562 ecr 2367538241], length 0
+E..4/~@.@.M*.`.v.`.........r.BqY.....2.....
+.=$....A
+13:34:23.096249 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:54 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x0, ttl 60, id 20902, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.], cksum 0x0045 (correct), seq 3275911513, ack 2663956083, win 49232, options [nop,nop,TS val 2367539746 ecr 37561562], length 0
+E..4Q.@.<./..`...`.v.....BqY...s...P.E.....
+...".=$.
+13:34:23.096501 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:54 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x0, ttl 60, id 20903, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [F.], cksum 0x0044 (correct), seq 3275911513, ack 2663956083, win 49232, options [nop,nop,TS val 2367539746 ecr 37561562], length 0
+E..4Q.@.<./..`...`.v.....BqY...s...P.D.....
+...".=$.
+13:34:23.096538 00:1a:4a:f3:72:54 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 41004, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.], cksum 0xbfae (correct), seq 2663956083, ack 3275911514, win 229, options [nop,nop,TS val 37561563 ecr 2367539746], length 0
+E..4.,@.@..{.`.v.`.........s.BqZ...........
+.=$...."
+
+Parallel abgelaufen :
+pauly@Centos:> telnet stl-s-stud.htwsaar.de 7
+################----------------------------
+Trying 134.96.216.212...
+Connected to stl-s-stud.htwsaar.de.
+Escape character is '^]'.
+abcdefghijklmnopq
+abcdefghijklmnopq
+^]
+
+telnet> quit
+Connection closed.
+
+pauly@Centos:> 
+################----------------------------

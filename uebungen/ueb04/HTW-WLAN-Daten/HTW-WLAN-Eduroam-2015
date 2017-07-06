@@ -1,0 +1,99 @@
+#
+#
+# HTW-WLAN-Eduroam-2015
+#
+#
+#
+
+
+C:\Users\lwpy>ipconfig /all
+##############-------------------------
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : STL-DEIMOS
+   Primaeres DNS-Suffix . . . . . . . :
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : hiz-saarland.de
+
+Ethernet-Adapter LAN-DRUCKER-10.205.205.0:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection - VL
+: VLAN182
+   Physikalische Adresse . . . . . . : 00-23-18-1C-2D-87
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Ethernet-Adapter LAN-STL-134.96.216.0:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: stl.htwsaar.de
+   Beschreibung. . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection - VL
+: VLAN180
+   Physikalische Adresse . . . . . . : 00-23-18-1C-2D-87
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung 2:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter
+   Physikalische Adresse . . . . . . : 00-27-10-02-18-9D
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung:
+
+   Verbindungsspezifisches DNS-Suffix: hiz-saarland.de
+   Beschreibung. . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6200 AGN
+   Physikalische Adresse . . . . . . : 00-27-10-02-18-9C
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::58a3:e547:2803:4b7e%11(Bevorzugt)
+   IPv4-Adresse  . . . . . . . . . . : 10.9.40.195(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.248.0
+   Lease erhalten. . . . . . . . . . : Donnerstag, 21. Mai 2015 13:16:50
+   Lease laeuft ab. . . . . . . . . . : Donnerstag, 21. Mai 2015 13:46:50
+   Standardgateway . . . . . . . . . : 10.9.40.1
+   DHCP-Server . . . . . . . . . . . : 10.1.31.150
+   DHCPv6-IAID . . . . . . . . . . . : 301999888
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-13-D0-09-2D-00-23-18-1C-2D-87
+   DNS-Server  . . . . . . . . . . . : 134.96.7.100
+                                       134.96.7.99
+                                       134.96.7.5
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+
+Ethernet-Adapter VirtualBox Host-Only Network:
+
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physikalische Adresse . . . . . . : 08-00-27-00-04-97
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::e409:dc66:b0a7:153d%20(Bevorzugt)
+   IPv4-Adresse  . . . . . . . . . . : 192.168.56.1(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Standardgateway . . . . . . . . . :
+   DHCPv6-IAID . . . . . . . . . . . : 352845863
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-13-D0-09-2D-00-23-18-1C-2D-87
+   DNS-Server  . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+
+Tunneladapter Reusable ISATAP Interface {C30A2413-EC42-49C9-A483-6A18D93C9FF3}:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter #2
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+C:\Users\lwpy>
+##############-------------------------

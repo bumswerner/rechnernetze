@@ -1,0 +1,109 @@
+#
+#
+#
+# win7_HTW-LAN_ipconfig-all-neu
+#
+#
+#
+
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\windows\system32>ipconfig /all
+##################################
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : stl-phobos
+   Primaeres DNS-Suffix . . . . . . . :
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : htw-saarland.de
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung 3:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter #2
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-45
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung 2:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-45
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: funklan.uni-saarland.de
+   Beschreibung. . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6200 AGN
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-44
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Ethernet-Adapter LAN-Verbindung:
+
+   Verbindungsspezifisches DNS-Suffix: htw-saarland.de
+   Beschreibung. . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection
+   Physikalische Adresse . . . . . . : 00-23-18-14-2D-87
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   IPv4-Adresse  . . . . . . . . . . : 172.16.0.5(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Freitag, 16. November 2012 13:47:48
+   Lease laeuft ab. . . . . . . . . . : Samstag, 17. November 2012 13:47:48
+   Standardgateway . . . . . . . . . : 172.16.0.1
+   DHCP-Server . . . . . . . . . . . : 172.16.0.1
+   DNS-Server  . . . . . . . . . . . : 172.20.6.2
+   Primaerer WINS-Server. . . . . . . : 134.96.216.208
+   NetBIOS über TCP/IP . . . . . . . : Aktiviert
+
+Tunneladapter isatap.{4422F810-82AA-46EE-9E7B-9036A6EA9740}:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Tunneladapter isatap.{50F4CB11-5E21-4400-B2B3-EBF8ECBF8881}:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter #2
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Tunneladapter Teredo Tunneling Pseudo-Interface:
+
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:0:5ef5:73b8:1031:3049:53ef:fffa(Bevorzugt)
+   Verbindungslokale IPv6-Adresse  . : fe80::1031:3049:53ef:fffa%12(Bevorzugt)
+   Standardgateway . . . . . . . . . : ::
+   NetBIOS über TCP/IP . . . . . . . : Deaktiviert
+
+Tunneladapter isatap.htw-saarland.de:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: htw-saarland.de
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter #4
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+C:\windows\system32>

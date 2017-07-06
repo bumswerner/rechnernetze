@@ -1,0 +1,150 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    07. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 26 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb07/ueb07.txt
+
+    
+    1. Aufgabe - Netzwerkschnittstelle und ARP-Tabelle
+    -----------------------------------------------------
+      - Wie findet man heraus, mit welchen Rechnern des lokalen IP-Netzwerkes
+        eine VM (Redhat/CentOS oder XUbuntu) in letzter Zeit kommuniziert hat ?
+      - Wie kann man einen dynamischen Einblick in die Benutzung des Netzwerk-
+        interfaces einer VM (Redhat/CentOS oder XUbuntu) erhalten ?
+        Denken Sie sich ein Experiment aus, das Netzwerkverkehr verursacht,
+        beschreiben sie den Versuchsaufbau und dokumentieren Sie die Pakettransferraten.
+      
+      TIPP: lesen Sie dazu auch die Manualpage von netstat !!!
+
+
+    2. Aufgabe - IP-Multicasting
+    ----------------------------
+      - Finden Sie heraus in welchen Multicastgruppen die verschiedenen VMs mit Redhat/CentOS, 
+        XUbuntu, Win10 angemeldet sind.
+        (Bitte jeweils das dazu benutzte Kommando mit Schaltern angeben !!!)
+      - Finden Sie heraus ob die im STL angebotenen virtuellen Maschinen unter den Betriebssystemen
+        Redhat/CentOS, XUbuntu, Win10 eine Route zu diesen IP-Multicastnetzwerken anzeigen 
+        und real besitzen/benutzen.
+        (Bitte das dazu benutzte Kommando mit Schaltern o.ae. angeben !!!)
+      - Beschreiben Sie kurz die Aufgaben dieser evtl. gefundenen Multicastnetzwerke.
+      - Wie kann auch ein einfacher Benutzer diese evtl. gefundenen Multicastgruppen/Adressen
+        nutzen um Informationen ueber das lokale IP-Netzwerk zu erhalten.
+
+
+    3. Aufgabe - Apropos ARP
+    -----------------------------------------------------
+      - Mit welchem Kommando kann man die ARP-Tabelle/ARP-Cache der VMs mit Redhat/CentOS, XUbuntu, Win10 ausgeben ?
+        und was bedeuten die Eintraege ? 
+      - Versuchen Sie eine ARP-Kommunikation unter Redhat/CentOS mitzuschneiden ( tcpdump u./o. Wireshark ),
+        beschreiben sie deren Ablauf und zeigen Sie die Veraenderungen in der ARP-Tabelle auf.
+      - Was versteht man unter ARP-Spoofing ? und wieso ist solch eine Manipulation moeglich ? 
+      - Untersuchen Sie folgende ARP-Pakete, was ist daran bemerkenswert ?, was bewirken sie ?
+
+
+        1. ARP-Reply
+        ############
+                    TIP: 00:0e:0c:5e:ab:b3 : Ethernet-Adresse von stl-c-master
+                         134.96.216.99     : DNS-IP-Adresse von stl-c-master
+                         134.96.216.229    : IP-Adresse von stl-s-mail
+                         0a:9e:12:ee:11:b3 : Ethernet-Adresse von stl-c-mail
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 52 arrived at 10:30:19.34329
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:0e:0c:5e:ab:b3,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 2 (ARP Reply)
+                ARP:  Sender's hardware address = 00:0e:0c:5e:ab:b3
+                ARP:  Sender's protocol address = 134.96.216.229
+                ARP:  Target hardware address = 8:0:20:80:d4:9b
+                ARP:  Target protocol address = 255.255.255.255, BROADCAST
+                ARP:
+
+
+        2. ARP-Reply
+        ############
+                    TIP: 00:0e:0c:5e:ab:b3 : Ethernet-Adresse von stl-c-master
+                         134.96.216.99     : DNS-IP-Adresse von stl-c-master
+
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 9555 arrived at 14:34:1.98667
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:0e:0c:5e:ab:b3,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 2 (ARP Reply)
+                ARP:  Sender's hardware address = 00:0e:0c:5e:ab:b3
+                ARP:  Sender's protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+                ARP:  Target hardware address = ff:ff:ff:ff:ff:ff
+                ARP:  Target protocol address = 134.96.216.1, rtg216-0.htw-saarland.de
+                ARP:
+
+
+
+        3. ARP-Request
+        ##############
+                       TIP: 00:30:05:c2:d9:5f : Ethernet-Adresse von stl-k-07
+
+
+                ETHER:  ----- Ether Header -----
+                ETHER:
+                ETHER:  Packet 103 arrived at 10:31:59.03162
+                ETHER:  Packet size = 60 bytes
+                ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+                ETHER:  Source      = 00:30:05:c2:d9:5f,
+                ETHER:  Ethertype = 0806 (ARP)
+                ETHER:
+                ARP:  ----- ARP/RARP Frame -----
+                ARP:
+                ARP:  Hardware type = 1
+                ARP:  Protocol type = 0800 (IP)
+                ARP:  Length of hardware address = 6 bytes
+                ARP:  Length of protocol address = 4 bytes
+                ARP:  Opcode 1 (ARP Request)
+                ARP:  Sender's hardware address = 00:30:05:c2:d9:5f
+                ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+                ARP:  Target hardware address = ?
+                ARP:  Target protocol address = 134.96.216.17, stl-k-07.htw-saarland.de
+                ARP:
+
+
+    4. Aufgabe - Apropos DHCP
+    -------------------------
+      Bearbeiten Sie folgende Fragen unter dem Betriebssystem Win10, die Bearbeitung
+      unter Redhat/CentOS und XUbuntu ist etwas aufwendiger und deshalb freiwillig.
+
+      - Finden Sie heraus welche Netzwerkinterfaces der VM via DHCP konfiguriert wurden.
+      - Finden Sie den Namen und die IP-Adresse des STL-DHCP-Servers heraus.
+      - Welche Informationen liefert der STL-DHCP-Server an die VMs, seine Client-Rechner.

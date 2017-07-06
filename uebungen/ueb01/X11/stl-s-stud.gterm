@@ -1,0 +1,21 @@
+#!/bin/ksh
+#
+# stl-s-stud.gterm
+#
+# oeffnet ein Gnome-Terminal auf 
+#
+# Host : stl-s-stud/stl-s-stud-neu
+#
+# und zeigt es lokal an
+#
+#
+#  /usr/bin/gnome-terminal --help
+#
+
+ssh -fX $(whoami)@stl-s-stud.htwsaar.de "/usr/bin/gnome-terminal \
+                  --show-menubar --title stl-s-stud" \
+                  2>/dev/null
+
+echo -e " \n\n\tBitte kurz warten .... "
+echo -e " \twg. ssh Sicherheitsmechanismen ...."
+sleep 12

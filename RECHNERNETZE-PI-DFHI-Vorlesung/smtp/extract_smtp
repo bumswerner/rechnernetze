@@ -1,0 +1,45 @@
+#
+#
+#
+#
+#  extract_Proto*Frame
+#
+#
+#
+#
+
+
+read DATEI?"Gebe Protokoll-Datei-Name ein :"
+
+echo $DATEI
+
+cat $DATEI |\
+nawk ' BEGIN  {
+               FRAME="^Frame.*$";
+               SMTP="^Simple.*$"
+               SOURCESTL="^    Source: stl.*$";
+               DESTSTL="^    Destination: stl.*$";
+               SOURCEZDVE="^    Source: zdve.*$";
+               DESTZDVE="^    Destination: zdve.*$";
+              }
+       $0 ~ FRAME  {
+                    print "\n\n" $0;
+                   }
+       $0 ~ SOURCESTL || $0 ~SOURCEZDVE  {
+                    print $0;
+                   }
+       $0 ~ DESTSTL || $0 ~ DESTZDVE  {
+                    print $0;
+                   }
+
+       $0 ~ SMTP {
+                    print $0;
+                    while ( (getline Zeile > 0) && ( Zeile !~ FRAME) )
+                      {
+                       print Zeile
+                      }
+                    print "\n\n" Zeile;
+                   }
+     ' 
+           
+

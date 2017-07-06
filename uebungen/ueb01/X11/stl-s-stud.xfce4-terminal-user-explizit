@@ -1,0 +1,30 @@
+#!/bin/ksh
+#
+# stl-s-stud.xfce4-terminal-user-explizit
+#
+# oeffnet ein Xfce4-Terminal auf 
+#
+# Host : stl-s-stud/stl-s-stud-neu
+#
+# unter dem angegebenen USER
+#
+# und zeigt es lokal an
+#
+#
+#
+#
+
+if [[ $# != 1 ]]
+  then
+     echo -e "\n\n Aufruf :   stl-s-stud.xfce4-terminal-user-explizit Benutzerkennung \n\n"
+  else
+     USER=$1
+     ssh -fX ${USER}@stl-s-stud.htwsaar.de "/usr/bin/xfce4-terminal \
+               --title stl-s-stud \
+               --show-menubar --show-borders --show-toolbar" \
+               2>/dev/null
+     
+     echo -e " \n\n\tBitte kurz warten .... "
+     echo -e " \twg. ssh Sicherheitsmechanismen ...."
+     sleep 12
+fi

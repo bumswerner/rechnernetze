@@ -1,0 +1,24 @@
+#
+#
+# XUbuntu_netstat-r
+#
+#
+#
+
+
+pauly ::> netstat -r      
+##########-----------------------------------------
+Kernel-IP-Routentabelle
+Ziel            Router          Genmask         Flags   MSS Fenster irtt Iface
+default         rtg216-0.stl.ht 0.0.0.0         UG        0 0          0 eth0
+134.96.216.0    *               255.255.255.0   U         0 0          0 eth0
+link-local      *               255.255.0.0     U         0 0          0 eth0
+
+pauly ::> netstat -gr
+##########-----------------------------------------
+Kernel-IP-Routentabelle
+Ziel            Router          Genmask         Flags   MSS Fenster irtt Iface
+0.0.0.0         134.96.216.1    0.0.0.0         UG        0 0          0 eth0
+134.96.216.0    0.0.0.0         255.255.255.0   U         0 0          0 eth0
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 eth0
+

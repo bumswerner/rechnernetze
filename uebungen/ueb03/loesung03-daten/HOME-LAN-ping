@@ -1,0 +1,161 @@
+#
+#
+#
+#	HOME-LAN-ping
+#
+
+
+ 
+G:\RN>ping stl-vsol-117.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer stl-v-117.htw-saarland.de [134.96.216.117] mit 32 Bytes Daten:
+Antwort von 134.96.216.117: Bytes=32 Zeit=63ms TTL=243
+Antwort von 134.96.216.117: Bytes=32 Zeit=64ms TTL=243
+Antwort von 134.96.216.117: Bytes=32 Zeit=63ms TTL=243
+Antwort von 134.96.216.117: Bytes=32 Zeit=64ms TTL=243
+
+Ping-Statistik fuer 134.96.216.117:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 63ms, Maximum = 64ms, Mittelwert = 63ms
+
+G:\RN>ping stl-s-studwork.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer stl-s-studwork.htw-saarland.de [134.96.216.212] mit 32 Bytes Daten:
+Antwort von 134.96.216.212: Bytes=32 Zeit=65ms TTL=243
+Antwort von 134.96.216.212: Bytes=32 Zeit=64ms TTL=243
+Antwort von 134.96.216.212: Bytes=32 Zeit=63ms TTL=243
+Antwort von 134.96.216.212: Bytes=32 Zeit=63ms TTL=243
+
+Ping-Statistik fuer 134.96.216.212:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 63ms, Maximum = 65ms, Mittelwert = 63ms
+
+G:\RN>ping www.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer www-portal.htw-saarland.de [134.96.208.112] mit 32 Bytes Daten:
+Antwort von 134.96.208.112: Bytes=32 Zeit=63ms TTL=243
+Antwort von 134.96.208.112: Bytes=32 Zeit=63ms TTL=243
+Antwort von 134.96.208.112: Bytes=32 Zeit=62ms TTL=243
+Antwort von 134.96.208.112: Bytes=32 Zeit=63ms TTL=243
+
+Ping-Statistik fuer 134.96.208.112:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 62ms, Maximum = 63ms, Mittelwert = 62ms
+
+G:\RN>ping www.uni-saarland.de 
+
+Ping wird ausgefuehrt fuer webuni.rz.uni-saarland.de [134.96.7.179] mit 32 Bytes Daten:
+Antwort von 134.96.7.179: Bytes=32 Zeit=63ms TTL=52
+Antwort von 134.96.7.179: Bytes=32 Zeit=62ms TTL=52
+Antwort von 134.96.7.179: Bytes=32 Zeit=63ms TTL=52
+Antwort von 134.96.7.179: Bytes=32 Zeit=63ms TTL=52
+
+Ping-Statistik fuer 134.96.7.179:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 62ms, Maximum = 63ms, Mittelwert = 62ms
+
+G:\RN>ping www.uni-kaiserslautern.de 
+
+Ping wird ausgefuehrt fuer www.uni-kl.de [131.246.120.51] mit 32 Bytes Daten:
+Antwort von 131.246.120.51: Bytes=32 Zeit=63ms TTL=52
+Antwort von 131.246.120.51: Bytes=32 Zeit=63ms TTL=52
+Antwort von 131.246.120.51: Bytes=32 Zeit=62ms TTL=52
+Antwort von 131.246.120.51: Bytes=32 Zeit=63ms TTL=52
+
+Ping-Statistik fuer 131.246.120.51:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 62ms, Maximum = 63ms, Mittelwert = 62ms
+
+G:\RN>ping www.dfn.de 
+
+Ping wird ausgefuehrt fuer www.dfn.de [194.95.248.240] mit 32 Bytes Daten:
+Antwort von 194.95.248.240: Bytes=32 Zeit=55ms TTL=56
+Antwort von 194.95.248.240: Bytes=32 Zeit=56ms TTL=56
+Antwort von 194.95.248.240: Bytes=32 Zeit=58ms TTL=56
+Antwort von 194.95.248.240: Bytes=32 Zeit=59ms TTL=56
+
+Ping-Statistik fuer 194.95.248.240:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 55ms, Maximum = 59ms, Mittelwert = 57ms
+
+G:\RN>ping www.zeit.de 
+
+Ping wird ausgefuehrt fuer www.zeit.de [217.13.68.220] mit 32 Bytes Daten:
+Antwort von 217.13.68.220: Bytes=32 Zeit=44ms TTL=59
+Antwort von 217.13.68.220: Bytes=32 Zeit=44ms TTL=59
+Antwort von 217.13.68.220: Bytes=32 Zeit=43ms TTL=59
+Antwort von 217.13.68.220: Bytes=32 Zeit=44ms TTL=59
+
+Ping-Statistik fuer 217.13.68.220:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 43ms, Maximum = 44ms, Mittelwert = 43ms
+
+G:\RN>ping ws-ber1.win-ip.dfn.de 
+
+Ping wird ausgefuehrt fuer ws-ber1.win-ip.dfn.de [193.174.75.142] mit 32 Bytes Daten:
+Antwort von 193.174.75.142: Bytes=32 Zeit=49ms TTL=248
+Antwort von 193.174.75.142: Bytes=32 Zeit=47ms TTL=248
+Antwort von 193.174.75.142: Bytes=32 Zeit=49ms TTL=248
+Antwort von 193.174.75.142: Bytes=32 Zeit=48ms TTL=248
+
+Ping-Statistik fuer 193.174.75.142:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 47ms, Maximum = 49ms, Mittelwert = 48ms
+
+G:\RN>ping www.nasa.gov 
+
+Ping wird ausgefuehrt fuer a1718.dscg.akamai.net [62.154.232.82] mit 32 Bytes Daten:
+Antwort von 62.154.232.82: Bytes=32 Zeit=36ms TTL=60
+Antwort von 62.154.232.82: Bytes=32 Zeit=36ms TTL=60
+Antwort von 62.154.232.82: Bytes=32 Zeit=36ms TTL=60
+Antwort von 62.154.232.82: Bytes=32 Zeit=37ms TTL=60
+
+Ping-Statistik fuer 62.154.232.82:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 36ms, Maximum = 37ms, Mittelwert = 36ms
+
+G:\RN>ping www.washington.org 
+
+Ping wird ausgefuehrt fuer www.washington.org [108.162.204.67] mit 32 Bytes Daten:
+Antwort von 108.162.204.67: Bytes=32 Zeit=37ms TTL=56
+Antwort von 108.162.204.67: Bytes=32 Zeit=37ms TTL=56
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 108.162.204.67:
+    Pakete: Gesendet = 4, Empfangen = 2, Verloren = 2
+    (50% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 37ms, Maximum = 37ms, Mittelwert = 37ms
+
+G:\RN>ping www.sydney.com 
+
+Ping wird ausgefuehrt fuer www.sydney.com [203.25.173.149] mit 32 Bytes Daten:
+Antwort von 203.25.173.149: Bytes=32 Zeit=400ms TTL=115
+Antwort von 203.25.173.149: Bytes=32 Zeit=402ms TTL=115
+Antwort von 203.25.173.149: Bytes=32 Zeit=400ms TTL=115
+Antwort von 203.25.173.149: Bytes=32 Zeit=402ms TTL=115
+
+Ping-Statistik fuer 203.25.173.149:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 400ms, Maximum = 402ms, Mittelwert = 401ms

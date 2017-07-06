@@ -1,0 +1,80 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+213.96.134.in-addr.arpa	IN SOA	ns.rz.uni-saarland.de. net.rz.uni-saarland.de. (
+				2004060902 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+$ORIGIN 213.96.134.in-addr.arpa.
+1			PTR	rtg213-0.htw-saarland.de.
+10			PTR	ecc-w9.htw-saarland.de.
+11			PTR	ecc-w10.htw-saarland.de.
+12			PTR	ecc-w11.htw-saarland.de.
+129			PTR	rtg213-128.htw-saarland.de.
+13			PTR	ecc-w12.htw-saarland.de.
+14			PTR	ecc-w13.htw-saarland.de.
+15			PTR	ecc-w14.htw-saarland.de.
+16			PTR	ecc-w15.htw-saarland.de.
+17			PTR	ecc-w16.htw-saarland.de.
+18			PTR	ecc-w17.htw-saarland.de.
+19			PTR	ecc-w18.htw-saarland.de.
+2			PTR	ecc-w1.htw-saarland.de.
+20			PTR	ecc-w19.htw-saarland.de.
+21			PTR	ecc-w20.htw-saarland.de.
+22			PTR	ecc-w21.htw-saarland.de.
+23			PTR	ecc-w22.htw-saarland.de.
+24			PTR	ecc-w23.htw-saarland.de.
+25			PTR	ecc-w24.htw-saarland.de.
+26			PTR	ecc-w25.htw-saarland.de.
+27			PTR	ecc-w26.htw-saarland.de.
+28			PTR	ecc-w27.htw-saarland.de.
+29			PTR	ecc-w28.htw-saarland.de.
+3			PTR	ecc-w2.htw-saarland.de.
+30			PTR	ecc-w29.htw-saarland.de.
+31			PTR	ecc-w30.htw-saarland.de.
+32			PTR	ecc-w31.htw-saarland.de.
+33			PTR	ecc-w32.htw-saarland.de.
+34			PTR	ecc-w33.htw-saarland.de.
+35			PTR	ecc-w34.htw-saarland.de.
+36			PTR	ecc-w35.htw-saarland.de.
+37			PTR	ecc-w36.htw-saarland.de.
+38			PTR	ecc-w37.htw-saarland.de.
+39			PTR	ecc-w38.htw-saarland.de.
+4			PTR	ecc-w3.htw-saarland.de.
+40			PTR	ecc-w39.htw-saarland.de.
+41			PTR	ecc-w40.htw-saarland.de.
+42			PTR	ecc-w41.htw-saarland.de.
+43			PTR	ecc-w42.htw-saarland.de.
+44			PTR	ecc-w43.htw-saarland.de.
+45			PTR	ecc-w44.htw-saarland.de.
+46			PTR	ecc-w45.htw-saarland.de.
+47			PTR	ecc-w46.htw-saarland.de.
+48			PTR	ecc-w47.htw-saarland.de.
+49			PTR	ecc-w48.htw-saarland.de.
+5			PTR	ecc-w4.htw-saarland.de.
+50			PTR	ecclja4.htw-saarland.de.
+51			PTR	ecclja3.htw-saarland.de.
+52			PTR	eccdja3.htw-saarland.de.
+53			PTR	eccdja0.htw-saarland.de.
+54			PTR	ecc-w49.htw-saarland.de.
+55			PTR	ecclja42.htw-saarland.de.
+56			PTR	ecc-w50.htw-saarland.de.
+57			PTR	ecc-w51.htw-saarland.de.
+58			PTR	ecc-w52.htw-saarland.de.
+59			PTR	ecc-w53.htw-saarland.de.
+6			PTR	ecc-w5.htw-saarland.de.
+60			PTR	ecc-s1.htw-saarland.de.
+61			PTR	ecc-abb.htw-saarland.de.
+62			PTR	ecc-nt1.htw-saarland.de.
+63			PTR	mrlpcs1.htw-saarland.de.
+64			PTR	ecc-nt2.htw-saarland.de.
+65			PTR	ecc-s2.htw-saarland.de.
+66			PTR	ecc-w54.htw-saarland.de.
+7			PTR	ecc-w6.htw-saarland.de.
+8			PTR	ecc-w7.htw-saarland.de.
+9			PTR	ecc-w8.htw-saarland.de.

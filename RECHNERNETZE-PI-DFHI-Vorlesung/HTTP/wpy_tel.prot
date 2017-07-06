@@ -1,0 +1,105 @@
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=44, ID=21359
+    stl-s-ad -> www          TCP D=80 S=56462 Syn Seq=4264076488 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=44, ID=27279
+         www -> stl-s-ad     TCP D=56462 S=80 Syn Ack=4264076489 Seq=1615936601 Len=0 Win=60996
+         www -> stl-s-ad     HTTP R port=56462 
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21360
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615936602 Seq=4264076489 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 62 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=48, ID=21361
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615936602 Seq=4264076489 Len=8 Win=9282
+    stl-s-ad -> www          HTTP (body)
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=40, ID=27591
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076497 Seq=1615936602 Len=0 Win=60996
+         www -> stl-s-ad     HTTP R port=56462 
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=42, ID=21362
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615936602 Seq=4264076497 Len=2 Win=9282
+    stl-s-ad -> www          HTTP (body)
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 347 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=333, ID=27669
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615936602 Len=293 Win=60996
+         www -> stl-s-ad     HTTP HTTP/1.1 200 OK
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27670
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615936895 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP <!--HTW-Einstiegsseite-->
+
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21363
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615938221 Seq=4264076499 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27671
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615938221 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP ar cmd="scrollit_r21(" + seed + ")";
+
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27672
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615939547 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP &nbsp;&nbsp;
+
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27673
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615940873 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP (body)
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21364
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615940873 Seq=4264076499 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27675
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615942199 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP fb/gis/labore/syst-lab/analog-statistik/analog_statistik.html">Server-Statistik</
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 1380 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=1366, ID=27676
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076499 Seq=1615943525 Len=1326 Win=60996
+         www -> stl-s-ad     HTTP ww2.stern.de/start/bildung/uni_ranking/top50fh.html"><I>FH-Homepages</I></A>
+
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 252 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=238, ID=27677
+         www -> stl-s-ad     TCP D=56462 S=80 Fin Ack=4264076499 Seq=1615944851 Len=198 Win=60996
+         www -> stl-s-ad     HTTP ml;r Technik und Wirtschaft<BR>des Saarlandes</FONT><BR>
+
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21365
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615944851 Seq=4264076499 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21366
+    stl-s-ad -> www          TCP D=80 S=56462     Ack=1615945050 Seq=4264076499 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+    stl-s-ad -> www          ETHER Type=0800 (IP), size = 60 bytes
+    stl-s-ad -> www          IP  D=134.96.160.116 S=134.96.160.106 LEN=40, ID=21367
+    stl-s-ad -> www          TCP D=80 S=56462 Fin Ack=1615945050 Seq=4264076499 Len=0 Win=9282
+    stl-s-ad -> www          HTTP C port=56462 
+________________________________
+         www -> stl-s-ad     ETHER Type=0800 (IP), size = 60 bytes
+         www -> stl-s-ad     IP  D=134.96.160.106 S=134.96.160.116 LEN=40, ID=27678
+         www -> stl-s-ad     TCP D=56462 S=80     Ack=4264076500 Seq=1615945050 Len=0 Win=60996
+         www -> stl-s-ad     HTTP R port=56462 

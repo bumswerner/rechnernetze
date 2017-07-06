@@ -1,0 +1,37 @@
+#
+#
+# CentOS_netstat-pn-A_inet
+#
+#
+#
+
+
+pauly ::>  netstat -pn -A inet
+##########-----------------------------------------
+(Es konnten nicht alle Prozesse identifiziert werden; Informationen über
+nicht-eigene Processe werden nicht angezeigt; Root kann sie anzeigen.)
+Aktive Internetverbindungen (ohne Server)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 134.96.216.196:59397    134.96.216.250:2049     TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:40851    134.96.216.250:111      TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:39064    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:57876    134.96.216.212:22       VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:37017    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:49375    134.96.216.250:5003     TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:42677    134.96.216.250:111      TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:37002    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:56935    134.96.216.250:2049     TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:56070    134.96.216.250:2049     TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:36991    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:51761    134.96.216.250:111      TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:697      134.96.216.250:2049     TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:44015    134.96.216.250:111      TIME_WAIT   -                   
+tcp        0      0 134.96.216.196:37007    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:958      134.96.216.250:2049     VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:939      134.96.216.250:4052     VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:37003    134.96.216.234:389      VERBUNDEN   -                   
+tcp        0      0 134.96.216.196:876      134.96.216.250:5003     TIME_WAIT   -                   
+udp        0      0 134.96.216.196:40838    144.76.207.204:123      VERBUNDEN   -                   
+udp        0      0 134.96.216.196:44128    134.96.216.235:123      VERBUNDEN   -                   
+udp        0      0 134.96.216.196:52334    81.7.16.52:123          VERBUNDEN   -                   
+udp        0      0 134.96.216.196:44414    87.106.126.46:123       VERBUNDEN   -  

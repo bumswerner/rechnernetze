@@ -1,0 +1,66 @@
+; BIND version in.named LOCAL-981006.08/27/98M42 Tue Oct  6 00:52:42 PDT 1998
+; BIND version Generic-5.7-October 1998
+; zone '160.96.134.in-addr.arpa'   last serial 2000011401
+; from 134.96.160.103   at Fri Jan 21 14:32:49 2000
+$ORIGIN 96.134.in-addr.arpa.
+160		IN	SOA	htw.uni-sb.de. wpy.htw.uni-sb.de. (
+		2000012101 10800 3600 3600000 86400 )
+		IN	NS	ns.htw.uni-sb.de.
+		IN	NS	ns.rz.uni-sb.de.
+		IN	NS	ws-ber1.win-ip.dfn.de.
+		IN	NS	ns1.htw.uni-sb.de.
+		IN	NS	ns2.htw.uni-sb.de.
+$ORIGIN 160.96.134.in-addr.arpa.
+115		IN	PTR	stl-s-ch.htw.uni-sb.de.
+116		IN	PTR	mail-stl.htw.uni-sb.de.
+124		IN	PTR	stl-s-wpy.htw.uni-sb.de.
+1		IN	PTR	rtg160.htw.uni-sb.de.
+143		IN	PTR	stl-p-gue.htw.uni-sb.de.
+144		IN	PTR	stl-p-ngue.htw.uni-sb.de.
+147		IN	PTR	stl-p-gb.htw.uni-sb.de.
+161		IN	PTR	msick-pc02.htw.uni-sb.de.
+162		IN	PTR	sprlab-m-01.htw.uni-sb.de.
+163		IN	PTR	sprlab-m-02.htw.uni-sb.de.
+164		IN	PTR	sprlab-m-03.htw.uni-sb.de.
+165		IN	PTR	sprlab-m-04.htw.uni-sb.de.
+166		IN	PTR	sprlab-m-05.htw.uni-sb.de.
+167		IN	PTR	sprlab-m-06.htw.uni-sb.de.
+170		IN	PTR	sprlab-m-09.htw.uni-sb.de.
+168		IN	PTR	sprlab-m-07.htw.uni-sb.de.
+171		IN	PTR	sprlab-m-10.htw.uni-sb.de.
+169		IN	PTR	sprlab-m-08.htw.uni-sb.de.
+172		IN	PTR	sprlab-m-11.htw.uni-sb.de.
+173		IN	PTR	sprlab-m-12.htw.uni-sb.de.
+176		IN	PTR	zdve-sth1.htw.uni-sb.de.
+177		IN	PTR	zdve-sth2.htw.uni-sb.de.
+25		IN	PTR	ams25.htw.uni-sb.de.
+178		IN	PTR	zdve-sc.htw.uni-sb.de.
+180		IN	PTR	zdve-mg.htw.uni-sb.de.
+26		IN	PTR	ams26.htw.uni-sb.de.
+179		IN	PTR	zdve-wei.htw.uni-sb.de.
+181		IN	PTR	zdve-breyer.htw.uni-sb.de.
+182		IN	PTR	zdve-lizzi.htw.uni-sb.de.
+184		IN	PTR	zdve-mg2.htw.uni-sb.de.
+185		IN	PTR	zdve-testserver.htw.uni-sb.de.
+33		IN	PTR	ams33.htw.uni-sb.de.
+34		IN	PTR	www-ams.htw.uni-sb.de.
+186		IN	PTR	nt-01.htw.uni-sb.de.
+187		IN	PTR	a2-kuhn.htw.uni-sb.de.
+188		IN	PTR	a2-lembert.htw.uni-sb.de.
+100		IN	PTR	gis-gw.htw.uni-sb.de.
+101		IN	PTR	stl-s-1.htw.uni-sb.de.
+102		IN	PTR	stl-s-2.htw.uni-sb.de.
+91		IN	PTR	goe-e-04.htw.uni-sb.de.
+103		IN	PTR	stl-s-3.htw.uni-sb.de.
+92		IN	PTR	goe-e-18.htw.uni-sb.de.
+104		IN	PTR	stl-s-4.htw.uni-sb.de.
+93		IN	PTR	ballus-1.htw.uni-sb.de.
+105		IN	PTR	stl-s-db.htw.uni-sb.de.
+94		IN	PTR	a2-hank.htw.uni-sb.de.
+106		IN	PTR	stl-s-ad.htw.uni-sb.de.
+107		IN	PTR	stl-s-smb.htw.uni-sb.de.
+110		IN	PTR	www-proxy.htw.uni-sb.de.
+109		IN	PTR	stl-p-fl.htw.uni-sb.de.
+111		IN	PTR	stl-d-04.htw.uni-sb.de.
+98		IN	PTR	a2-goe.htw.uni-sb.de.
+112		IN	PTR	zdve-www.htw.uni-sb.de.

@@ -1,0 +1,455 @@
+#
+#
+#
+#
+#  DHCP -Dialog in ungekuerzter Form
+#
+#
+#
+#
+
+
+
+########################################################
+#      1. DHCP-Paket --> DHCPDISCOVER
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 45 arrived at 13:41:3.86
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:d:56:3a:6a:48, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 328 bytes
+IP:   Identification = 3826
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 128 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 2ab4
+IP:   Source address = 0.0.0.0, OLD-BROADCAST
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 68
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = D617 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7546e32b
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x8000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Unrecognized Option = 116, length = 1 octets
+DHCP: 	Value =	0x01 (unprintable)
+DHCP: Client Identifier =	0x01 0x00 0x0D 0x56 0x3A 0x6A 0x48 (unprintable)
+DHCP: Requested IP Address = 134.96.216.187
+DHCP: Client Hostname = schlepptop
+DHCP: Client Class Identifier =	"MSFT 5.0"
+DHCP: Requested Options:
+DHCP: 	 1 (Subnet Mask)
+DHCP: 	15 (DNS Domain Name)
+DHCP: 	 3 (Router)
+DHCP: 	 6 (DNS Servers)
+DHCP: 	44 (NetBIOS RFC 1001/1002 Name Servers)
+DHCP: 	46 (NetBIOS Node Type)
+DHCP: 	47 (NetBIOS Scope)
+DHCP: 	31 (Perform Router Discovery Flag)
+DHCP: 	33 (Static Routes)
+DHCP: 	249 (Site Option)
+DHCP: 	43 (Vendor Specific Options)
+
+
+
+
+########################################################
+#      2. DHCP-Paket --> DHCPOffer
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 46 arrived at 13:41:4.00
+ETHER:  Packet size = 346 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 332 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 16 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 4a48
+IP:   Source address = 134.96.216.233, stl-s-ad.htw-saarland.de
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 68 (BOOTPC)
+UDP:  Length = 312 
+UDP:  Checksum = F1C6 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7546e32b
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x8000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 134.96.216.187
+DHCP: Next server address (siaddr) = 134.96.216.233
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPOFFER
+DHCP: DHCP Server Identifier = 134.96.216.233
+DHCP: IP Address Lease Time = 120 seconds
+DHCP: Subnet Mask = 255.255.255.0
+DHCP: DNS Domain Name = htw-saarland.de
+DHCP: Router at = 134.96.216.1
+DHCP: DNS Servers at = 134.96.216.214
+DHCP: DNS Servers at = 134.96.208.98
+DHCP: NetBIOS RFC 1001/1002 Name Servers at = 134.96.216.204
+DHCP: NetBIOS Node Type = Hybrid Node (8)
+
+
+
+
+########################################################
+#      3. DHCP-Paket --> DHCPREQUEST
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 47 arrived at 13:41:4.00
+ETHER:  Packet size = 358 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:d:56:3a:6a:48, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 344 bytes
+IP:   Identification = 3827
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 128 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 2aa3
+IP:   Source address = 0.0.0.0, OLD-BROADCAST
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 68
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 324 
+UDP:  Checksum = D9B0 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7546e32b
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x8000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPREQUEST
+DHCP: Client Identifier =	0x01 0x00 0x0D 0x56 0x3A 0x6A 0x48 (unprintable)
+DHCP: Requested IP Address = 134.96.216.187
+DHCP: DHCP Server Identifier = 134.96.216.233
+DHCP: Client Hostname = schlepptop
+DHCP: Unrecognized Option = 81, length = 14 octets
+DHCP: 	Value =	0x00 0x00 0x00 0x73 0x63 0x68 0x6C 0x65 0x70 0x70 0x74 0x6F 0x70 0x2E (unprintable)
+DHCP: Client Class Identifier =	"MSFT 5.0"
+DHCP: Requested Options:
+DHCP: 	 1 (Subnet Mask)
+DHCP: 	15 (DNS Domain Name)
+DHCP: 	 3 (Router)
+DHCP: 	 6 (DNS Servers)
+DHCP: 	44 (NetBIOS RFC 1001/1002 Name Servers)
+DHCP: 	46 (NetBIOS Node Type)
+DHCP: 	47 (NetBIOS Scope)
+DHCP: 	31 (Perform Router Discovery Flag)
+DHCP: 	33 (Static Routes)
+DHCP: 	249 (Site Option)
+DHCP: 	43 (Vendor Specific Options)
+
+
+
+
+########################################################
+#      4. DHCP-Paket --> DHCPACK
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 48 arrived at 13:41:4.03
+ETHER:  Packet size = 346 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 332 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 16 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 4a48
+IP:   Source address = 134.96.216.233, stl-s-ad.htw-saarland.de
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 68 (BOOTPC)
+UDP:  Length = 312 
+UDP:  Checksum = EEC6 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7546e32b
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x8000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 134.96.216.187
+DHCP: Next server address (siaddr) = 134.96.216.233
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPACK
+DHCP: DHCP Server Identifier = 134.96.216.233
+DHCP: IP Address Lease Time = 120 seconds
+DHCP: Subnet Mask = 255.255.255.0
+DHCP: DNS Domain Name = htw-saarland.de
+DHCP: Router at = 134.96.216.1
+DHCP: DNS Servers at = 134.96.216.214
+DHCP: DNS Servers at = 134.96.208.98
+DHCP: NetBIOS RFC 1001/1002 Name Servers at = 134.96.216.204
+
+
+
+
+########################################################
+#      5. DHCP-Paket --> DHCPREQUEST -- zyklisch zur LEASE-Auffrischung
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 61 arrived at 13:42:3.85
+ETHER:  Packet size = 346 bytes
+ETHER:  Destination = 8:0:20:80:d4:9b, Sun
+ETHER:  Source      = 0:d:56:3a:6a:48, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 332 bytes
+IP:   Identification = 4757
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 128 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 68a6
+IP:   Source address = 134.96.216.187, stl-l-07.htw-saarland.de
+IP:   Destination address = 134.96.216.233, stl-s-ad.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 68
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 312 
+UDP:  Checksum = 4E01 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x10be5c68
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 134.96.216.187
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPREQUEST
+DHCP: Client Identifier =	0x01 0x00 0x0D 0x56 0x3A 0x6A 0x48 (unprintable)
+DHCP: Client Hostname = schlepptop
+DHCP: Unrecognized Option = 81, length = 14 octets
+DHCP: 	Value =	0x00 0x00 0x00 0x73 0x63 0x68 0x6C 0x65 0x70 0x70 0x74 0x6F 0x70 0x2E (unprintable)
+DHCP: Client Class Identifier =	"MSFT 5.0"
+DHCP: Requested Options:
+DHCP: 	 1 (Subnet Mask)
+DHCP: 	15 (DNS Domain Name)
+DHCP: 	 3 (Router)
+DHCP: 	 6 (DNS Servers)
+DHCP: 	44 (NetBIOS RFC 1001/1002 Name Servers)
+DHCP: 	46 (NetBIOS Node Type)
+DHCP: 	47 (NetBIOS Scope)
+DHCP: 	31 (Perform Router Discovery Flag)
+DHCP: 	33 (Static Routes)
+DHCP: 	249 (Site Option)
+DHCP: 	43 (Vendor Specific Options)
+
+
+
+
+
+########################################################
+#      6. DHCP-Paket --> DHCPACK    -- LEASE-Auffrischungs-Bestaetigung
+########################################################
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 62 arrived at 13:42:3.90
+ETHER:  Packet size = 346 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 8:0:20:80:d4:9b, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:   Total length = 332 bytes
+IP:   Identification = 0
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 16 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 4a48
+IP:   Source address = 134.96.216.233, stl-s-ad.htw-saarland.de
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 68 (BOOTPC)
+UDP:  Length = 312 
+UDP:  Checksum = 7AF6 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x10be5c68
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x8000
+DHCP: Client address (ciaddr) = 134.96.216.187
+DHCP: Your client address (yiaddr) = 134.96.216.187
+DHCP: Next server address (siaddr) = 134.96.216.233
+DHCP: Relay agent address (giaddr) = 0.0.0.0
+DHCP: Client hardware address (chaddr) = 00:0D:56:3A:6A:48
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPACK
+DHCP: DHCP Server Identifier = 134.96.216.233
+DHCP: IP Address Lease Time = 120 seconds
+DHCP: Subnet Mask = 255.255.255.0
+DHCP: DNS Domain Name = htw-saarland.de
+DHCP: Router at = 134.96.216.1
+DHCP: DNS Servers at = 134.96.216.214
+DHCP: DNS Servers at = 134.96.208.98
+DHCP: NetBIOS RFC 1001/1002 Name Servers at = 134.96.216.204
+DHCP: NetBIOS Node Type = Hybrid Node (8)

@@ -1,0 +1,68 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+217.96.134.in-addr.arpa	IN SOA	ns.rz.uni-saarland.de. net.rz.uni-saarland.de. (
+				2004061502 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+$ORIGIN 217.96.134.in-addr.arpa.
+1			PTR	rtg217-0.htw-saarland.de.
+10			PTR	swl-pc05.htw-saarland.de.
+11			PTR	swl-pc06.htw-saarland.de.
+12			PTR	swl-pc07.htw-saarland.de.
+129			PTR	rtg217-128.htw-saarland.de.
+13			PTR	swl-pc08.htw-saarland.de.
+14			PTR	swl-pc09.htw-saarland.de.
+15			PTR	swl-pc10.htw-saarland.de.
+16			PTR	swl-pc11.htw-saarland.de.
+17			PTR	swl-pc13.htw-saarland.de.
+18			PTR	swlab2000-dc01.htw-saarland.de.
+19			PTR	swl-pc19.htw-saarland.de.
+193			PTR	rtg217-192.htw-saarland.de.
+194			PTR	wlan-ap-ha1.htw-saarland.de.
+195			PTR	wlan-ap-ha2.htw-saarland.de.
+2			PTR	sokrates.htw-saarland.de.
+20			PTR	swl-pc27.htw-saarland.de.
+21			PTR	swl-pc28.htw-saarland.de.
+22			PTR	swl-pc29.htw-saarland.de.
+3			PTR	swlablinux.htw-saarland.de.
+31			PTR	swl-nb01.htw-saarland.de.
+32			PTR	swl-nb02.htw-saarland.de.
+33			PTR	swl-nb03.htw-saarland.de.
+34			PTR	swl-pocket.htw-saarland.de.
+4			PTR	swlabnt.htw-saarland.de.
+41			PTR	swl-ap01.htw-saarland.de.
+42			PTR	swl-ap02.htw-saarland.de.
+5			PTR	swlabntueb.htw-saarland.de.
+50			PTR	swl-freddy1.htw-saarland.de.
+51			PTR	swl-freddy2.htw-saarland.de.
+52			PTR	swl-susan1.htw-saarland.de.
+53			PTR	swl-freddy3.htw-saarland.de.
+54			PTR	swl-freddy4.htw-saarland.de.
+55			PTR	swl-susan2.htw-saarland.de.
+56			PTR	swl-susan3.htw-saarland.de.
+57			PTR	swl-ocelot1.htw-saarland.de.
+58			PTR	swl-ocelot2.htw-saarland.de.
+59			PTR	swl-nyala1.htw-saarland.de.
+6			PTR	swl-pc01.htw-saarland.de.
+60			PTR	swl-nyala2.htw-saarland.de.
+65			PTR	rtg217-64.htw-saarland.de.
+66			PTR	fitt-01.htw-saarland.de.
+67			PTR	fitt-02.htw-saarland.de.
+68			PTR	fitt-03.htw-saarland.de.
+69			PTR	fitt-04.htw-saarland.de.
+7			PTR	swl-pc02.htw-saarland.de.
+70			PTR	fitt-05.htw-saarland.de.
+71			PTR	fitt-06.htw-saarland.de.
+72			PTR	fitt-07.htw-saarland.de.
+73			PTR	fitt-08.htw-saarland.de.
+74			PTR	fitt-09.htw-saarland.de.
+75			PTR	fitt-10.htw-saarland.de.
+8			PTR	swl-pc03.htw-saarland.de.
+9			PTR	swl-pc04.htw-saarland.de.
+97			PTR	rtg217-96.htw-saarland.de.

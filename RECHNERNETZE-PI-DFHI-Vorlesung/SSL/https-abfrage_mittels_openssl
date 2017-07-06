@@ -1,0 +1,153 @@
+#
+#
+#
+#
+#   https-abfrage_mittels_openssl
+#
+#
+#
+
+
+wpy@stl-c-master::>openssl s_client -host stl-www.htw-saarland.de -port 443
+###################--------------------------------------------------------
+
+CONNECTED(00000004)
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-www.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=20:unable to get local issuer certificate
+verify return:1
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-www.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=27:certificate not trusted
+verify return:1
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-www.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=21:unable to verify the first certificate
+verify return:1
+---
+Certificate chain
+ 0 s:/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-www.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+   i:/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=Server CA/emailAddress=Wolfgang.Pauly@htw-saarland.de
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEbTCCA9agAwIBAgIBATANBgkqhkiG9w0BAQQFADCBmjELMAkGA1UEBhMCREUx
+ETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNV
+BAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDESMBAGA1UEAxMJU2VydmVyIENBMS0w
+KwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUwHhcN
+MDMwNTE0MDkxMjQyWhcNMTMwNTExMDkxMjQyWjCBqDELMAkGA1UEBhMCREUxETAP
+BgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNVBAoT
+A0hUVzEQMA4GA1UECxMHR0lTL1NUTDEgMB4GA1UEAxMXc3RsLXd3dy5odHctc2Fh
+cmxhbmQuZGUxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFy
+bGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAz+vi4gjbyycbK2hc
+Tn+tUDNZuUtBZ8az1S2+3fq9oocplNamrciyhKnzekP7lThK7OvF2ioKQz+GBsWy
+pwaWEEvskWg+BEbMRuP3/dbSSvYE95ELmghw1JJqcnlF6gqFGsyB3OslWxLnEItB
+CeZ0StWhD33H1qOla9xbe6x95mECAwEAAaOCAbEwggGtMAsGA1UdDwQEAwIFoDAd
+BgNVHQ4EFgQUBZQpmJtgKMYDz8w1JWyuvVltopcwgcwGA1UdIwSBxDCBwYAUwSQO
+VP+FcU4CcFGd8968beD00z6hgaWkgaIwgZ8xCzAJBgNVBAYTAkRFMREwDwYDVQQI
+EwhTYWFybGFuZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcx
+EDAOBgNVBAsTB0dJUy9TVEwxFzAVBgNVBAMTDldvbGZnYW5nIFBhdWx5MS0wKwYJ
+KoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGWCAQEwKQYD
+VR0RBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMCkGA1UdEgQi
+MCCBHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTARBglghkgBhvhCAQEE
+BAMCBkAwRwYJYIZIAYb4QgENBDoWOERpZXNlcyBaZXJ0aWZpa2F0IHd1cmRlIGR1
+cmNoIEhUVy9HSVMvU1RMIGF1c2dlZ2ViZW4gISEKMA0GCSqGSIb3DQEBBAUAA4GB
+AIBRe5aOAupVnpSyD4DVmY36JsJKIojvAZgEMSBCbk9uZ+J0b+5MwXGSyKDFHOQW
+OWCZhgGCNSm7eS3CHG2HbosyYZIjaWjYtg0xzWsg5BPBvqvu5PW71f1gsAzcQIj5
+o6wEmbT7QqmFzynuaZRMS4fRy73Ctj9LbEJvDwfYZHm1
+-----END CERTIFICATE-----
+subject=/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-www.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+issuer=/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=Server CA/emailAddress=Wolfgang.Pauly@htw-saarland.de
+---
+No client certificate CA names sent
+---
+SSL handshake has read 1693 bytes and written 323 bytes
+---
+New, TLSv1/SSLv3, Cipher is EDH-RSA-DES-CBC3-SHA
+Server public key is 1024 bit
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : EDH-RSA-DES-CBC3-SHA
+    Session-ID: 26DC213D77205DAE470DE0D5CD24FD7D30C59085BFF2EB626517FCC953888005
+    Session-ID-ctx: 
+    Master-Key: 548BB9F8331ED62CEEA390C2462FAEC8AA8ADE0B60D414128D1F3C07D1253785FA59074A9DB1C367DA09D91B8B7634ED
+    Key-Arg   : None
+    Start Time: 1253603329
+    Timeout   : 300 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---
+GET / HTTP/1.1
+Host: stl-www.htw-saarland.de
+
+HTTP/1.1 200 OK
+Date: Tue, 22 Sep 2009 07:08:57 GMT
+Server: Apache/1.3.36 (Unix) mod_perl/1.29 mod_ssl/2.8.27 OpenSSL/0.9.7d
+Last-Modified: Fri, 24 Apr 2009 08:30:18 GMT
+ETag: "173a-2a47-49f1789a"
+Accept-Ranges: bytes
+Content-Length: 10823
+Content-Type: text/html
+
+<HTML>
+
+<HEAD>
+<TITLE> SiS : Systemtechniklabor InformationsSystem : SiS </TITLE>
+<META NAME="AUTHOR"   CONTENT="Pick">
+<META NAME="OPERATOR" CONTENT="Pick">
+
+<BASE HREF="https://stl-s-ora.htw-saarland.de:4444/dad_stl/">
+
+<LINK REL="SHORTCUT ICON"
+      HREF="https://stl-www.htw-saarland.de/img/sis-favicon.ico"
+      TYPE="image/ico">
+
+</HEAD>
+
+
+<BODY BACKGROUND=https://stl-www.htw-saarland.de/img/leder.gif>
+
+<P>
+<TABLE WIDTH=100%> <TR ALIGN=CENTER>
+  <TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=20%>
+    <A HREF="https://stl-www.htw-saarland.de/vlv-gisx.html" TARGET=SIS_MASTER>
+      <IMG BORDER=0 SRC="https://stl-www.htw-saarland.de/img/sis1x.gif"></A>
+  <TD WIDTH=60%>
+    <H3>Studiengang Praktische Informatik</H3>
+    <H3>aktuelles Vorlesungsverzeichnis </H3>
+  <TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=20%>
+    <A HREF="./sis_menue" TARGET=SIS_MASTER>
+      <IMG BORDER=0 SRC="https://stl-www.htw-saarland.de/img/sis1x.gif"></A>
+</TABLE>
+
+<HR SIZE=2 NOSHADE>
+<FONT SIZE=-1>
+
+<UL>
+<LI> <STRONG> PI Bachelor </STRONG>
+
+ ......
+
+</BODY>
+</HTML>
+
+
+
+exit
+###########
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>501 Method Not Implemented</TITLE>
+</HEAD><BODY>
+<H1>Method Not Implemented</H1>
+exit to /index.html not supported.<P>
+Invalid method in request exit<P>
+<HR>
+<ADDRESS>Apache/1.3.36 Server at stl-www.htw-saarland.de Port 443</ADDRESS>
+</BODY></HTML>
+
+closed
+

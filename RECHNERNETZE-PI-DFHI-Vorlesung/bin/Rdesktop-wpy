@@ -1,0 +1,14 @@
+#!/usr/bin/ksh
+#
+#
+#
+#  Rdesktop-wpy
+#
+#
+#
+
+
+read REMOTE?"Verbindung zu welchem Rechner herstellen ?? : "
+
+
+/usr/local/bin/rdesktop -g 80% -r disk:p=/rmdisk/unnamed_rmdisk $REMOTE

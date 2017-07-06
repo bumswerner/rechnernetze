@@ -1,0 +1,50 @@
+#
+#
+#
+#
+#    Solaris_netstat
+#
+#
+#
+#
+
+
+stl-s-studwork:pauly: ueb05 -> netstat -r | tee Solaris_netstat
+##############################-------------------------------------------------------
+
+Routing Table: IPv4
+  Destination           Gateway           Flags  Ref     Use     Interface 
+-------------------- -------------------- ----- ----- ---------- --------- 
+134.96.216.0         stl-s-studwork.htw-saarland.de U         1      16594 fjgi1:1   
+base-address.mcast.net stl-s-studwork.htw-saarland.de U         1          0 fjgi1:1   
+default              rtg216-0.htw-saarland.de UG        1     106538           
+localhost.htw.uni-sb.de localhost.htw.uni-sb.de UH        3    1372857 lo0:1     
+
+Routing Table: IPv6
+  Destination/Mask            Gateway                   Flags Ref   Use    If   
+--------------------------- --------------------------- ----- --- ------- ----- 
+2001:638:200:2::/64         2001:638:200:2:7374:73:7377:1 U       1       1 fjgi1:2 
+fe80::/10                   fe80::7374:73:7377:1        U       1       0 fjgi1:3 
+ff00::/8                    2001:638:200:2:7374:73:7377:1 U       1       0 fjgi1:2 
+localhost                   localhost                   UH      2      20 lo0:1 
+
+
+
+stl-s-studwork:root: ueb05 -> netstat -rn  | tee -a Solaris_netstat 
+##############################-------------------------------------------------------
+
+Routing Table: IPv4
+  Destination           Gateway           Flags  Ref     Use     Interface 
+-------------------- -------------------- ----- ----- ---------- --------- 
+134.96.216.0         134.96.216.212       U         1      16594 fjgi1:1   
+224.0.0.0            134.96.216.212       U         1          0 fjgi1:1   
+default              134.96.216.1         UG        1     106538           
+127.0.0.1            127.0.0.1            UH        3    1372857 lo0:1     
+
+Routing Table: IPv6
+  Destination/Mask            Gateway                   Flags Ref   Use    If   
+--------------------------- --------------------------- ----- --- ------- ----- 
+2001:638:200:2::/64         2001:638:200:2:7374:73:7377:1 U       1       1 fjgi1:2 
+fe80::/10                   fe80::7374:73:7377:1        U       1       0 fjgi1:3 
+ff00::/8                    2001:638:200:2:7374:73:7377:1 U       1       0 fjgi1:2 
+::1                         ::1                         UH      2      20 lo0:1 

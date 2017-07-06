@@ -1,0 +1,570 @@
+ftp_sitzung_protokoll_ex
+
+
+Frame 1 (78 on wire, 78 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 2 (78 on wire, 78 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 3 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 4 (72 on wire, 72 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 220
+
+
+
+Frame 5 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 6 (590 on wire, 590 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 220
+    220-\r\n
+    220-              __      __   __________   __      __\r\n
+    220-             |  |    |  | |          | |  |    |  |\r\n
+    220-             |  |    |  | |__________| |  |    |  |\r\n
+    220-             |  | __ |  |      __      |  |    |  |\r\n
+    220-             |  ||  ||  |     |  |     |  | __ |  |\r\n
+    220-             |  ||__||  |     |  |     |  ||  ||  |\r\n
+    220-             |  |    |  |     |  |     |  ||  ||  |\r\n
+    220-             |  |    |  |     |  |     |  ||  ||  |\r\n
+    220-             |__|    |__|     |__|     |__||__||__|\r\n
+
+
+
+Frame 7 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 8 (368 on wire, 368 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 220
+    220-             Hochschule fuer Technik und Wirtschaft\r\n
+    220-                        des Saarlandes\r\n
+    220-\r\n
+    220-\r\n
+    220-                        Fachbereich GIS\r\n
+    220-\r\n
+    220-              Grundlagen Informatik Sensortechnik\r\n
+    220-\r\n
+    220-\r\n
+    220-                      Systemtechnik-Labor\r\n
+    220-\r\n
+    220-\r\n
+    220-\r\n
+
+
+
+Frame 9 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 10 (114 on wire, 114 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 220
+    Response arg: stl-c-03.htw-saarland.de FTP server ready.
+
+
+
+Frame 11 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 12 (76 on wire, 76 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: USER
+    Request arg: wpy
+
+
+
+Frame 13 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 14 (98 on wire, 98 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 331
+    Response arg: Password required for wpy.
+
+
+
+Frame 15 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 16 (82 on wire, 82 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: PASS
+    Request arg: EinPasswort
+
+
+
+Frame 17 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 18 (91 on wire, 91 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 230
+    Response arg: User wpy logged in.
+
+
+
+Frame 19 (72 on wire, 72 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: SYST
+
+
+
+Frame 20 (100 on wire, 100 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 215
+    Response arg: UNIX Type: L8 Version: SUNOS
+
+
+
+Frame 21 (74 on wire, 74 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+
+
+Frame 22 (86 on wire, 86 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+
+
+Frame 23 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 24 (95 on wire, 95 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: PORT
+    Request arg: 134,96,216,230,130,202
+
+
+
+Frame 25 (96 on wire, 96 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: PORT command successful.
+
+
+
+Frame 26 (74 on wire, 74 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: A
+
+
+
+Frame 27 (86 on wire, 86 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to A.
+
+
+
+Frame 28 (72 on wire, 72 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: LIST
+
+
+
+Frame 29 (78 on wire, 78 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 30 (78 on wire, 78 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 31 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 32 (119 on wire, 119 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 150
+    Response arg: Opening ASCII mode data connection for /bin/ls.
+
+
+
+Frame 33 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 34 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 35 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 36 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 37 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 38 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 39 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 40 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 41 (1018 on wire, 1018 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 42 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 43 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 44 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 45 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 46 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 47 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 48 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 49 (74 on wire, 74 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+
+
+Frame 50 (86 on wire, 86 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+
+
+Frame 51 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 52 (74 on wire, 74 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: TYPE
+    Request arg: I
+
+
+
+Frame 53 (86 on wire, 86 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: Type set to I.
+
+
+
+Frame 54 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 55 (95 on wire, 95 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: PORT
+    Request arg: 134,96,216,230,130,203
+
+
+
+Frame 56 (96 on wire, 96 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 200
+    Response arg: PORT command successful.
+
+
+
+Frame 57 (81 on wire, 81 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: RETR
+    Request arg: wpy-spam
+
+
+
+Frame 58 (78 on wire, 78 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 59 (78 on wire, 78 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 60 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 61 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 62 (135 on wire, 135 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 150
+    Response arg: Opening BINARY mode data connection for wpy-spam (11069 bytes).
+
+
+
+Frame 63 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 64 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 65 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 66 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 67 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 68 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 69 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 70 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 71 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 72 (1514 on wire, 1514 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 73 (999 on wire, 999 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 74 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 75 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 76 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 77 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 78 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+
+
+Frame 79 (90 on wire, 90 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 226
+    Response arg: Transfer complete.
+
+
+
+Frame 80 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 81 (72 on wire, 72 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+File Transfer Protocol (FTP)
+    Request command: QUIT
+
+
+
+Frame 82 (116 on wire, 116 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 221
+    Response arg: have transferred 11069 bytes in 1 files.
+
+
+
+Frame 83 (218 on wire, 218 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+File Transfer Protocol (FTP)
+    Response code: 221
+    Response arg: traffic for this session was 31417 bytes in 2 transfers.
+    221-Thank you for using the FTP service on stl-c-03.htw-saarland.de.\r\n
+    221 Goodbye.\r\n
+
+
+
+Frame 84 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 85 (66 on wire, 66 captured)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+
+
+Frame 86 (66 on wire, 66 captured)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)

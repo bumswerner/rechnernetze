@@ -1,0 +1,143 @@
+#
+#
+#
+#	HTW-LAN-ping
+#
+
+
+ 
+G:\RN>ping stl-vsol-117.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer stl-v-117.htw-saarland.de [134.96.216.117] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 134.96.216.117:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping stl-s-studwork.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer stl-s-studwork.htw-saarland.de [134.96.216.212] mit 32 Bytes Daten:
+Antwort von 134.96.216.212: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.216.212: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.216.212: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.216.212: Bytes=32 Zeit<1ms TTL=254
+
+Ping-Statistik fuer 134.96.216.212:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 0ms, Mittelwert = 0ms
+
+G:\RN>ping www.htw-saarland.de 
+
+Ping wird ausgefuehrt fuer www-portal.htw-saarland.de [134.96.208.112] mit 32 Bytes Daten:
+Antwort von 134.96.208.112: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.208.112: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.208.112: Bytes=32 Zeit<1ms TTL=254
+Antwort von 134.96.208.112: Bytes=32 Zeit<1ms TTL=254
+
+Ping-Statistik fuer 134.96.208.112:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 0ms, Mittelwert = 0ms
+
+G:\RN>ping www.uni-saarland.de 
+
+Ping wird ausgefuehrt fuer webuni.rz.uni-saarland.de [134.96.7.179] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 134.96.7.179:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.uni-kaiserslautern.de 
+
+Ping wird ausgefuehrt fuer www.uni-kl.de [131.246.120.51] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 131.246.120.51:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.dfn.de 
+
+Ping wird ausgefuehrt fuer www.dfn.de [194.95.248.240] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 194.95.248.240:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.zeit.de 
+
+Ping wird ausgefuehrt fuer www.zeit.de [217.13.68.220] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 217.13.68.220:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping ws-ber1.win-ip.dfn.de 
+
+Ping wird ausgefuehrt fuer ws-ber1.win-ip.dfn.de [193.174.75.142] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 193.174.75.142:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.nasa.gov 
+
+Ping wird ausgefuehrt fuer a1718.dscg.akamai.net [212.201.100.171] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 212.201.100.171:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.washington.org 
+
+Ping wird ausgefuehrt fuer www.washington.org [108.162.203.67] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 108.162.203.67:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+G:\RN>ping www.sydney.com 
+
+Ping wird ausgefuehrt fuer www.sydney.com [203.25.173.149] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 203.25.173.149:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),

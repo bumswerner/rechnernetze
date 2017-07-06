@@ -1,0 +1,195 @@
+#
+#
+#
+#
+#    stl-v-Win10-ping-ipv4_protokoll_2017_05_26
+#
+#
+#
+
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>proz-4.bat
+########################################################---------------------------------------
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 stl-v-175.htwsaar.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer stl-v-175.htwsaar.de [134.96.216.175] mit 32 Bytes Daten:
+Antwort von 134.96.216.175: Bytes=32 Zeit<1ms TTL=64
+Antwort von 134.96.216.175: Bytes=32 Zeit=1ms TTL=64
+Antwort von 134.96.216.175: Bytes=32 Zeit<1ms TTL=64
+Antwort von 134.96.216.175: Bytes=32 Zeit<1ms TTL=64
+
+Ping-Statistik fuer 134.96.216.175:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 1ms, Mittelwert = 0ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 stl-s-stud.htwsaar.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer stl-s-stud-neu.htw-saarland.de [134.96.216.226] mit 32 Bytes Daten:
+Antwort von 134.96.216.226: Bytes=32 Zeit<1ms TTL=64
+Antwort von 134.96.216.226: Bytes=32 Zeit<1ms TTL=64
+Antwort von 134.96.216.226: Bytes=32 Zeit<1ms TTL=64
+Antwort von 134.96.216.226: Bytes=32 Zeit<1ms TTL=64
+
+Ping-Statistik fuer 134.96.216.226:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 0ms, Mittelwert = 0ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.htwsaar.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www-tmp.htw-saarland.de [134.96.210.150] mit 32 Bytes Daten:
+Antwort von 134.96.210.150: Bytes=32 Zeit<1ms TTL=62
+Antwort von 134.96.210.150: Bytes=32 Zeit<1ms TTL=62
+Antwort von 134.96.210.150: Bytes=32 Zeit<1ms TTL=62
+Antwort von 134.96.210.150: Bytes=32 Zeit<1ms TTL=62
+
+Ping-Statistik fuer 134.96.210.150:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 0ms, Mittelwert = 0ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.uni-saarland.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer webuni.rz.uni-saarland.de [134.96.7.179] mit 32 Bytes Daten:
+Antwort von 134.96.7.179: Bytes=32 Zeit<1ms TTL=62
+Antwort von 134.96.7.179: Bytes=32 Zeit=1ms TTL=62
+Antwort von 134.96.7.179: Bytes=32 Zeit=1ms TTL=62
+Antwort von 134.96.7.179: Bytes=32 Zeit<1ms TTL=62
+
+Ping-Statistik fuer 134.96.7.179:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 1ms, Mittelwert = 0ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.uni-kaiserslautern.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer wta-web.rhrk.uni-kl.de [131.246.120.130] mit 32 Bytes Daten:
+Antwort von 131.246.120.130: Bytes=32 Zeit=17ms TTL=59
+Antwort von 131.246.120.130: Bytes=32 Zeit=17ms TTL=59
+Antwort von 131.246.120.130: Bytes=32 Zeit=17ms TTL=59
+Antwort von 131.246.120.130: Bytes=32 Zeit=17ms TTL=59
+
+Ping-Statistik fuer 131.246.120.130:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 17ms, Maximum = 17ms, Mittelwert = 17ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.dfn.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.dfn.de [194.95.245.140] mit 32 Bytes Daten:
+Antwort von 194.95.245.140: Bytes=32 Zeit=18ms TTL=59
+Antwort von 194.95.245.140: Bytes=32 Zeit=18ms TTL=59
+Antwort von 194.95.245.140: Bytes=32 Zeit=18ms TTL=59
+Antwort von 194.95.245.140: Bytes=32 Zeit=18ms TTL=59
+
+Ping-Statistik fuer 194.95.245.140:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 18ms, Maximum = 18ms, Mittelwert = 18ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.zeit.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.zeit.de [217.13.68.251] mit 32 Bytes Daten:
+Antwort von 217.13.68.251: Bytes=32 Zeit=18ms TTL=58
+Antwort von 217.13.68.251: Bytes=32 Zeit=18ms TTL=58
+Antwort von 217.13.68.251: Bytes=32 Zeit=18ms TTL=58
+Antwort von 217.13.68.251: Bytes=32 Zeit=18ms TTL=58
+
+Ping-Statistik fuer 217.13.68.251:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 18ms, Maximum = 18ms, Mittelwert = 18ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 ws-ber1.win-ip.dfn.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer ws-ber1.win-ip.dfn.de [193.174.75.142] mit 32 Bytes Daten:
+Antwort von 193.174.75.142: Bytes=32 Zeit=18ms TTL=59
+Antwort von 193.174.75.142: Bytes=32 Zeit=18ms TTL=59
+Antwort von 193.174.75.142: Bytes=32 Zeit=18ms TTL=59
+Antwort von 193.174.75.142: Bytes=32 Zeit=18ms TTL=59
+
+Ping-Statistik fuer 193.174.75.142:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 18ms, Maximum = 18ms, Mittelwert = 18ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.nasa.gov
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer iznasa.hs.llnwd.net [178.79.242.47] mit 32 Bytes Daten:
+Antwort von 178.79.242.47: Bytes=32 Zeit=10ms TTL=60
+Antwort von 178.79.242.47: Bytes=32 Zeit=10ms TTL=60
+Antwort von 178.79.242.47: Bytes=32 Zeit=22ms TTL=60
+Antwort von 178.79.242.47: Bytes=32 Zeit=25ms TTL=60
+
+Ping-Statistik fuer 178.79.242.47:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 10ms, Maximum = 25ms, Mittelwert = 16ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.nasa.com
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer nasa.com [192.64.147.150] mit 32 Bytes Daten:
+Antwort von 192.64.147.150: Bytes=32 Zeit=125ms TTL=54
+Antwort von 192.64.147.150: Bytes=32 Zeit=125ms TTL=54
+Antwort von 192.64.147.150: Bytes=32 Zeit=125ms TTL=54
+Antwort von 192.64.147.150: Bytes=32 Zeit=125ms TTL=54
+
+Ping-Statistik fuer 192.64.147.150:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 125ms, Maximum = 125ms, Mittelwert = 125ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.washington.org
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.washington.org [104.25.184.34] mit 32 Bytes Daten:
+Antwort von 104.25.184.34: Bytes=32 Zeit=9ms TTL=61
+Antwort von 104.25.184.34: Bytes=32 Zeit=9ms TTL=61
+Antwort von 104.25.184.34: Bytes=32 Zeit=9ms TTL=61
+Antwort von 104.25.184.34: Bytes=32 Zeit=9ms TTL=61
+
+Ping-Statistik fuer 104.25.184.34:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 9ms, Maximum = 9ms, Mittelwert = 9ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -4 www.sydney.com
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.sydney.com [54.253.253.77] mit 32 Bytes Daten:
+Antwort von 54.253.253.77: Bytes=32 Zeit=349ms TTL=40
+Antwort von 54.253.253.77: Bytes=32 Zeit=349ms TTL=40
+Antwort von 54.253.253.77: Bytes=32 Zeit=350ms TTL=40
+Antwort von 54.253.253.77: Bytes=32 Zeit=349ms TTL=40
+
+Ping-Statistik fuer 54.253.253.77:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 349ms, Maximum = 350ms, Mittelwert = 349ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>
+########################################################---------------------------------------

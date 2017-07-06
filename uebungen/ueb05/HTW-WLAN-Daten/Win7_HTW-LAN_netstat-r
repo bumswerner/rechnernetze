@@ -1,0 +1,138 @@
+
+#
+#
+# Win7_HTW-LAN_netstat-r.txt
+#
+#
+#
+
+
+C:\windows\system32>ipconfig /all
+##############################################
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : stl-phobos
+   PrimΣres DNS-Suffix . . . . . . . :
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : htw-saarland.de
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung 3:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter #2
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-45
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung 2:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-45
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter Drahtlosnetzwerkverbindung:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6200 AGN
+   Physikalische Adresse . . . . . . : 00-27-10-02-1B-44
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Ethernet-Adapter LAN-Verbindung:
+
+   Verbindungsspezifisches DNS-Suffix: htw-saarland.de
+   Beschreibung. . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection
+   Physikalische Adresse . . . . . . : 00-23-18-14-2D-87
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   IPv4-Adresse  . . . . . . . . . . : 172.16.0.18(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Donnerstag, 22. November 2012 10:44:54
+   Lease laeuftΣuft ab. . . . . . . . . . : Freitag, 23. November 2012 10:44:54
+   Standardgateway . . . . . . . . . : 172.16.0.1
+   DHCP-Server . . . . . . . . . . . : 172.16.0.1
+   DNS-Server  . . . . . . . . . . . : 172.20.6.2
+   PrimΣrer WINS-Server. . . . . . . : 134.96.216.208
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+
+Tunneladapter Teredo Tunneling Pseudo-Interface:
+
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:0:5ef5:79fb:2811:3430:53ef:ffed(Bevorzugt)
+   Verbindungslokale IPv6-Adresse  . : fe80::2811:3430:53ef:ffed%12(Bevorzugt)
+   Standardgateway . . . . . . . . . : ::
+   NetBIOS ueber TCP/IP . . . . . . . : Deaktiviert
+
+Tunneladapter isatap.htw-saarland.de:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: htw-saarland.de
+   Beschreibung. . . . . . . . . . . : Microsoft-ISATAP-Adapter #4
+   Physikalische Adresse . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+
+C:\windows\system32>netstat -r
+===========================================================================
+Schnittstellenliste
+ 16...00 27 10 02 1b 45 ......Microsoft Virtual WiFi Miniport Adapter #2
+ 13...00 27 10 02 1b 45 ......Microsoft Virtual WiFi Miniport Adapter
+ 11...00 27 10 02 1b 44 ......Intel(R) Centrino(R) Advanced-N 6200 AGN
+ 10...00 23 18 14 2d 87 ......Intel(R) 82577LM Gigabit Network Connection
+  1...........................Software Loopback Interface 1
+ 12...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+ 21...00 00 00 00 00 00 00 e0 Microsoft-ISATAP-Adapter #4
+===========================================================================
+
+IPv4-Routentabelle
+===========================================================================
+Aktive Routen:
+     Netzwerkziel    Netzwerkmaske          Gateway    Schnittstelle Metrik
+          0.0.0.0          0.0.0.0       172.16.0.1      172.16.0.18    276
+        127.0.0.0        255.0.0.0   Auf Verbindung         127.0.0.1    306
+        127.0.0.1  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  127.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+       172.16.0.0    255.255.255.0   Auf Verbindung       172.16.0.18    276
+      172.16.0.18  255.255.255.255   Auf Verbindung       172.16.0.18    276
+     172.16.0.255  255.255.255.255   Auf Verbindung       172.16.0.18    276
+        224.0.0.0        240.0.0.0   Auf Verbindung         127.0.0.1    306
+        224.0.0.0        240.0.0.0   Auf Verbindung       172.16.0.18    276
+  255.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  255.255.255.255  255.255.255.255   Auf Verbindung       172.16.0.18    276
+===========================================================================
+StΣndige Routen:
+  Keine
+
+IPv6-Routentabelle
+===========================================================================
+Aktive Routen:
+ If Metrik Netzwerkziel             Gateway
+ 12     58 ::/0                     Auf Verbindung
+  1    306 ::1/128                  Auf Verbindung
+ 12     58 2001::/32                Auf Verbindung
+ 12    306 2001:0:5ef5:79fb:2811:3430:53ef:ffed/128
+                                    Auf Verbindung
+ 12    306 fe80::/64                Auf Verbindung
+ 12    306 fe80::2811:3430:53ef:ffed/128
+                                    Auf Verbindung
+  1    306 ff00::/8                 Auf Verbindung
+ 12    306 ff00::/8                 Auf Verbindung
+===========================================================================
+StΣndige Routen:
+  Keine
+
+C:\windows\system32>
+

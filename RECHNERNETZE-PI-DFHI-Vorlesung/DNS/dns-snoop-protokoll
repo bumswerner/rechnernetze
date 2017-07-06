@@ -1,0 +1,944 @@
+#
+#
+#
+# snoopen einer DNS-Abfrage
+#
+#
+#
+
+
+die Abfrage :
+-------------
+
+        nslookup www.zeit.de
+
+die Antwort :
+-------------
+        Server:  ns.htw-saarland.de
+        Address:  134.96.208.98
+        
+        Non-authoritative answer:
+        Name:    www.zeit.de
+        Address:  217.110.207.55
+
+
+
+
+der snoop-Mitschnitt
+--------------------
+        snoop -v port 53               
+
+Using device /dev/iprb0 (promiscuous mode)
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 1 arrived at 15:14:54.67
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 72 bytes
+IP:   Identification = 19574
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7924
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33171
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 52 
+UDP:  Checksum = 2143 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 6526
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 2 arrived at 15:14:54.67
+ETHER:  Packet size = 231 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 217 bytes
+IP:   Identification = 29410
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 5327
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33171 
+UDP:  Length = 197 
+UDP:  Checksum = 1982 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 32281
+DNS:  AA (Authoritative Answer) RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:      TTL (Time To Live): 86400
+DNS:      Domain Name Pointer: ns.htw-saarland.de.
+DNS:  
+DNS:  3 name server resource(s)
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns1.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns.rz.uni-saarland.de.
+DNS:  
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns.htw-saarland.de.
+DNS:  
+DNS:  3 additional record(s)
+DNS:      Domain Name: ns.rz.uni-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 85622
+DNS:      Address: 134.96.7.7
+DNS:  
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.98
+DNS:  
+DNS:      Domain Name: ns1.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.214
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 3 arrived at 15:14:54.67
+ETHER:  Packet size = 71 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 57 bytes
+IP:   Identification = 19575
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7932
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33172
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 37 
+UDP:  Checksum = 897B 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 6782
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: www.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 4 arrived at 15:14:54.67
+ETHER:  Packet size = 189 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 175 bytes
+IP:   Identification = 29411
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 5350
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33172 
+UDP:  Length = 155 
+UDP:  Checksum = C4F1 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 32282
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: www.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 168399
+DNS:      Address: 217.110.207.55
+DNS:  
+DNS:  3 name server resource(s)
+DNS:      Domain Name: zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 168399
+DNS:      Authoritative Name Server: ns1.zeit.de.
+DNS:  
+DNS:      Domain Name: zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 168399
+DNS:      Authoritative Name Server: ns2.zeit.de.
+DNS:  
+DNS:      Domain Name: zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 168399
+DNS:      Authoritative Name Server: ns3.zeit.de.
+DNS:  
+DNS:  3 additional record(s)
+DNS:      Domain Name: ns1.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 169099
+DNS:      Address: 194.77.156.198
+DNS:  
+DNS:      Domain Name: ns2.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 169099
+DNS:      Address: 194.77.157.198
+DNS:  
+DNS:      Domain Name: ns3.zeit.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 169099
+DNS:      Address: 193.16.3.11
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 5 arrived at 15:14:55.63
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 72 bytes
+IP:   Identification = 19576
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7922
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33173
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 52 
+UDP:  Checksum = 5292 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 51276
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 6 arrived at 15:14:55.63
+ETHER:  Packet size = 231 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 217 bytes
+IP:   Identification = 29412
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 5325
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33173 
+UDP:  Length = 197 
+UDP:  Checksum = 2CD4 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 19656
+DNS:  AA (Authoritative Answer) RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: 98.208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:      TTL (Time To Live): 86400
+DNS:      Domain Name Pointer: ns.htw-saarland.de.
+DNS:  
+DNS:  3 name server resource(s)
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns1.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: 208.96.134.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 86400
+DNS:      Authoritative Name Server: ns.rz.uni-saarland.de.
+DNS:  
+DNS:  3 additional record(s)
+DNS:      Domain Name: ns.rz.uni-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 85621
+DNS:      Address: 134.96.7.7
+DNS:  
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.98
+DNS:  
+DNS:      Domain Name: ns1.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.214
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 7 arrived at 15:14:55.63
+ETHER:  Packet size = 78 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 64 bytes
+IP:   Identification = 19577
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7929
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33174
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 44 
+UDP:  Checksum = 0DDA 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 51532
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 8 arrived at 15:14:55.63
+ETHER:  Packet size = 240 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 226 bytes
+IP:   Identification = 29413
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 531b
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33174 
+UDP:  Length = 206 
+UDP:  Checksum = 6000 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 19657
+DNS:  AA (Authoritative Answer) RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.98
+DNS:  
+DNS:  4 name server resource(s)
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.rz.uni-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns1.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ws-ber1.win-ip.dfn.de.
+DNS:  
+DNS:  3 additional record(s)
+DNS:      Domain Name: ns.rz.uni-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 85621
+DNS:      Address: 134.96.7.7
+DNS:  
+DNS:      Domain Name: ns1.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.214
+DNS:  
+DNS:      Domain Name: ws-ber1.win-ip.dfn.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 32640
+DNS:      Address: 193.174.75.142
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9 arrived at 15:15:52.76
+ETHER:  Packet size = 79 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 65 bytes
+IP:   Identification = 19578
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7927
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33177
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 45 
+UDP:  Checksum = DC7D 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 22465
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: www.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 10 arrived at 15:15:52.76
+ETHER:  Packet size = 283 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 269 bytes
+IP:   Identification = 29414
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 52ef
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33177 
+UDP:  Length = 249 
+UDP:  Checksum = 0271 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 49495
+DNS:  AA (Authoritative Answer) RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  2 answer(s)
+DNS:      Domain Name: www.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  5 (Canonical Name)
+DNS:      TTL (Time To Live): 43200
+DNS:      Canonical Name: zdve-www.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: zdve-www.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.101
+DNS:  
+DNS:  4 name server resource(s)
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns1.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ws-ber1.win-ip.dfn.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.rz.uni-saarland.de.
+DNS:  
+DNS:  4 additional record(s)
+DNS:      Domain Name: ns.rz.uni-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 85564
+DNS:      Address: 134.96.7.7
+DNS:  
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.98
+DNS:  
+DNS:      Domain Name: ns1.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.214
+DNS:  
+DNS:      Domain Name: ws-ber1.win-ip.dfn.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 32583
+DNS:      Address: 193.174.75.142
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 11 arrived at 15:17:22.77
+ETHER:  Packet size = 83 bytes
+ETHER:  Destination = 0:d0:c0:d1:4c:10, 
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 69 bytes
+IP:   Identification = 19579
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 7922
+IP:   Source address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   Destination address = 134.96.208.98, ns.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33178
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 49 
+UDP:  Checksum = 61CA 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 12446
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: stl-pop.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 12 arrived at 15:17:22.77
+ETHER:  Packet size = 287 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:d0:c0:d1:4c:10, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 273 bytes
+IP:   Identification = 12909
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9364
+IP:   Source address = 134.96.208.98, ns.htw-saarland.de
+IP:   Destination address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33178 
+UDP:  Length = 253 
+UDP:  Checksum = F0AA 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 40496
+DNS:  AA (Authoritative Answer) RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: stl-pop.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  2 answer(s)
+DNS:      Domain Name: stl-pop.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  5 (Canonical Name)
+DNS:      TTL (Time To Live): 43200
+DNS:      Canonical Name: stl-s-ad.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: stl-s-ad.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.233
+DNS:  
+DNS:  4 name server resource(s)
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns1.htw-saarland.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ws-ber1.win-ip.dfn.de.
+DNS:  
+DNS:      Domain Name: htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 43200
+DNS:      Authoritative Name Server: ns.rz.uni-saarland.de.
+DNS:  
+DNS:  4 additional record(s)
+DNS:      Domain Name: ns.rz.uni-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 85474
+DNS:      Address: 134.96.7.7
+DNS:  
+DNS:      Domain Name: ns.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.208.98
+DNS:  
+DNS:      Domain Name: ns1.htw-saarland.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 43200
+DNS:      Address: 134.96.216.214
+DNS:  
+DNS:      Domain Name: ws-ber1.win-ip.dfn.de.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 32493
+DNS:      Address: 193.174.75.142
+DNS:  

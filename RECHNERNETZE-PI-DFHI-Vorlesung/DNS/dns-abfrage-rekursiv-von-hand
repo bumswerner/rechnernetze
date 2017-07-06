@@ -1,0 +1,185 @@
+#
+#
+#
+#
+# dns-abfrage-rekursiv-von-hand
+#
+#
+#
+
+pauly@stl-c-25:/>host -r -v www.paris.fr ns1.htw-saarland.de
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Trying "www.paris.fr"
+Using domain server:
+Name: ns1.htw-saarland.de
+Address: 134.96.216.214#53
+Aliases: 
+
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 721
+;; flags: qr ra; QUERY: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 9
+
+;; QUESTION SECTION:
+;www.paris.fr.                  IN      A
+
+;; AUTHORITY SECTION:
+.                       76181   IN      NS      L.ROOT-SERVERS.NET.
+.                       76181   IN      NS      M.ROOT-SERVERS.NET.
+.                       76181   IN      NS      A.ROOT-SERVERS.NET.
+.                       76181   IN      NS      B.ROOT-SERVERS.NET.
+.                       76181   IN      NS      C.ROOT-SERVERS.NET.
+.                       76181   IN      NS      D.ROOT-SERVERS.NET.
+.                       76181   IN      NS      E.ROOT-SERVERS.NET.
+.                       76181   IN      NS      F.ROOT-SERVERS.NET.
+.                       76181   IN      NS      G.ROOT-SERVERS.NET.
+.                       76181   IN      NS      H.ROOT-SERVERS.NET.
+.                       76181   IN      NS      I.ROOT-SERVERS.NET.
+.                       76181   IN      NS      J.ROOT-SERVERS.NET.
+.                       76181   IN      NS      K.ROOT-SERVERS.NET.
+
+;; ADDITIONAL SECTION:
+B.ROOT-SERVERS.NET.     83107   IN      A       192.228.79.201
+C.ROOT-SERVERS.NET.     75926   IN      A       192.33.4.12
+D.ROOT-SERVERS.NET.     75926   IN      A       128.8.10.90
+E.ROOT-SERVERS.NET.     62922   IN      A       192.203.230.10
+G.ROOT-SERVERS.NET.     75926   IN      A       192.112.36.4
+H.ROOT-SERVERS.NET.     62922   IN      A       128.63.2.53
+I.ROOT-SERVERS.NET.     75926   IN      A       192.36.148.17
+L.ROOT-SERVERS.NET.     87953   IN      A       198.32.64.12
+M.ROOT-SERVERS.NET.     75926   IN      A       202.12.27.33
+
+Received 385 bytes from 134.96.216.214#53 in 21 ms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+pauly@stl-c-25:/>host -r -v www.paris.fr 192.228.79.201     
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Trying "www.paris.fr"
+Using domain server:
+Name: 192.228.79.201
+Address: 192.228.79.201#53
+Aliases: 
+
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1881
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 9, ADDITIONAL: 13
+
+;; QUESTION SECTION:
+;www.paris.fr.                  IN      A
+
+;; AUTHORITY SECTION:
+fr.                     172800  IN      NS      A.NIC.fr.
+fr.                     172800  IN      NS      B.EXT.NIC.fr.
+fr.                     172800  IN      NS      B.NIC.fr.
+fr.                     172800  IN      NS      C.EXT.NIC.fr.
+fr.                     172800  IN      NS      C.NIC.fr.
+fr.                     172800  IN      NS      D.EXT.NIC.fr.
+fr.                     172800  IN      NS      E.EXT.NIC.fr.
+fr.                     172800  IN      NS      E.NIC.fr.
+fr.                     172800  IN      NS      A.EXT.NIC.fr.
+
+;; ADDITIONAL SECTION:
+A.EXT.NIC.fr.           172800  IN      A       193.51.208.14
+A.NIC.fr.               172800  IN      A       192.93.0.1
+A.NIC.fr.               172800  IN      AAAA    2001:660:3005:1::1:1
+B.EXT.NIC.fr.           172800  IN      A       192.228.90.21
+B.NIC.fr.               172800  IN      A       192.93.0.4
+B.NIC.fr.               172800  IN      AAAA    2001:660:3005:1::1:2
+C.EXT.NIC.fr.           172800  IN      A       128.112.129.15
+C.NIC.fr.               172800  IN      A       192.134.0.49
+C.NIC.fr.               172800  IN      AAAA    2001:660:3006:1::1:1
+D.EXT.NIC.fr.           172800  IN      A       204.152.184.85
+D.EXT.NIC.fr.           172800  IN      AAAA    2001:4f8:0:2::8
+E.EXT.NIC.fr.           172800  IN      A       193.176.144.6
+E.NIC.fr.               172800  IN      A       194.57.253.1
+
+Received 438 bytes from 192.228.79.201#53 in 171 ms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+pauly@stl-c-25:/>host -r -v www.paris.fr 192.93.0.1    
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Trying "www.paris.fr"
+Using domain server:
+Name: 192.93.0.1
+Address: 192.93.0.1#53
+Aliases: 
+
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 880
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 3
+
+;; QUESTION SECTION:
+;www.paris.fr.                  IN      A
+
+;; AUTHORITY SECTION:
+paris.fr.               172800  IN      NS      ns3.nameshield.net.
+paris.fr.               172800  IN      NS      mdpdns1.paris.fr.
+paris.fr.               172800  IN      NS      mdpdns2.paris.fr.
+paris.fr.               172800  IN      NS      ns2.observatoiredesmarques.fr.
+
+;; ADDITIONAL SECTION:
+ns2.observatoiredesmarques.fr. 172800 IN A      80.74.69.8
+mdpdns1.paris.fr.       172800  IN      A       194.153.110.131
+mdpdns2.paris.fr.       172800  IN      A       194.153.110.134
+
+Received 195 bytes from 192.93.0.1#53 in 24 ms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+pauly@stl-c-25:/>host -r -v www.paris.fr 194.153.110.131
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Trying "www.paris.fr"
+Using domain server:
+Name: 194.153.110.131
+Address: 194.153.110.131#53
+Aliases: 
+
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 220
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.paris.fr.                  IN      A
+
+;; ANSWER SECTION:
+www.paris.fr.           86400   IN      A       194.153.110.160
+
+Received 46 bytes from 194.153.110.131#53 in 28 ms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+pauly@stl-c-25:/>host -v www.paris.fr                   
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Trying "www.paris.fr"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1153
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.paris.fr.                  IN      A
+
+;; ANSWER SECTION:
+www.paris.fr.           11909   IN      A       194.153.110.160
+
+;; AUTHORITY SECTION:
+paris.fr.               88923   IN      NS      ns2.observatoiredesmarques.fr.
+paris.fr.               88923   IN      NS      ns3.nameshield.net.
+paris.fr.               88923   IN      NS      mdpdns1.paris.fr.
+paris.fr.               88923   IN      NS      mdpdns2.paris.fr.
+
+;; ADDITIONAL SECTION:
+ns2.observatoiredesmarques.fr. 3437 IN  A       80.74.69.8
+ns3.nameshield.net.     18583   IN      A       195.246.156.74
+mdpdns1.paris.fr.       11921   IN      A       194.153.110.131
+mdpdns2.paris.fr.       11921   IN      A       194.153.110.134
+
+Received 227 bytes from 134.96.216.214#53 in 32 ms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

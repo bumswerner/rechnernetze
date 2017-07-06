@@ -1,0 +1,24 @@
+#!/bin/ksh
+#
+# stl-s-ubu.xfce4-terminal
+#
+# oeffnet ein X-Terminal auf 
+#
+# Host : stl-s-ubu
+#
+# und zeigt es lokal an
+#
+# Hilfe : xlsfonts
+#
+#
+#
+
+
+ssh -fX $(whoami)@stl-s-ubu.htwsaar.de "/usr/bin/xfce4-terminal \
+                  --title stl-s-ubu.htwsaar.de \
+                  --show-menubar --show-borders --show-toolbar" \
+                  2>/dev/null
+
+echo -e " \n\n\tBitte kurz warten .... "
+echo -e " \twg. ssh Sicherheitsmechanismen ...."
+sleep 5

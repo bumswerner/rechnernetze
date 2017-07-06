@@ -1,0 +1,229 @@
+#
+#
+#
+#
+#  CentOS_Multicast
+#
+#
+#
+#
+
+pauly@CentOS :> starte tcpdump -l -i eth0 -e -vv -S -A ether ' multicast and !broadcast ' | tee CentOS_Multicast
+################-------------------------------------------------------------------------------------------------
+
+
+13:00:09.055856 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:09.490099 00:1c:f9:92:c4:00 (oui Unknown) > 33:33:00:00:00:0a (oui Unknown), ethertype IPv6 (0x86dd), length 94: (class 0xe0, hlim 2, next-header EIGRP (88) payload length: 40) gateway > ff02::a: ip-proto-88 40
+n....(X................................
+...
+....................................
+13:00:10.735448 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.005954 00:1c:f9:92:c4:00 (oui Unknown) > 01:00:5e:00:00:0a (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0xc0, ttl 2, id 0, offset 0, flags [none], proto EIGRP (88), length 60)
+    rtg216-0.stl.htwsaar.de > igrp-routers.mcast.net: 
+	EIGRP v2, opcode: Hello (5), chksum: 0xf16e, Flags: [none]
+	seq: 0x00000000, ack: 0x00000000, AS: 100, length: 20
+	  General Parameters TLV (0x0001), length: 12
+	    holdtime: 15s, k1 1, k2 0, k3 1, k4 0, k5 0
+	    0x0000:  0100 0100 0000 000f
+	  Software Version TLV (0x0004), length: 8
+	    IOS version: 8.0, EIGRP version 2.0
+	    0x0000:  0800 0200
+E..<.....Xy>.`.....
+...n...............d....................
+13:00:11.055818 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:11.733140 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.734349 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.734761 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.735222 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.735636 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.736106 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:11.736556 00:30:05:aa:f8:68 (oui Unknown) > 33:33:00:01:00:02 (oui Unknown), ethertype IPv6 (0x86dd), length 151: (hlim 1, next-header UDP (17) payload length: 97) fe80::a9f1:e860:8eab:ccce.dhcpv6-client > ff02::1:2.dhcpv6-server: [udp sum ok] dhcp6 solicit (xid=7235b9 (elapsed-time 0) (client-ID hwaddr/time type 1 time 440190935 003005aaf868) (IA_NA IAID:50343941 T1:0 T2:0) (Client-FQDN) (vendor-class) (option-request DNS-search-list DNS-server vendor-specific-info Client-FQDN))
+`....a.............`.....................".#.a...r5................<...0...h......0..........'...	stl-win81.......7..MSFT 5.0...........'
+13:00:12.511003 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::45fe:a0a9:50a7:744f > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$..........E...P.tO................:..........h........................
+13:00:12.519441 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::45fe:a0a9:50a7:744f > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..........E...P.tO................:..........h........................
+13:00:12.521679 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::45fe:a0a9:50a7:744f > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$..........E...P.tO................:..........h........................
+13:00:12.521902 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::45fe:a0a9:50a7:744f > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..........E...P.tO................:..........h........................
+13:00:12.523868 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::45fe:a0a9:50a7:744f.62912 > ff02::1:3.hostmon: [udp sum ok] UDP, length 29
+`....%..........E...P.tO.....................%...............stl-v-win81.....
+13:00:12.524142 00:1a:4a:f3:72:18 (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 24616, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-111.stl.htwsaar.de.62912 > 224.0.0.252.hostmon: [udp sum ok] UDP, length 29
+E..9`(.......`.o.........%...............stl-v-win81.....
+13:00:12.579834 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::45fe:a0a9:50a7:744f > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..........E...P.tO................:..........h........................
+13:00:12.939328 00:1a:4a:f3:72:18 (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::45fe:a0a9:50a7:744f.62912 > ff02::1:3.hostmon: [udp sum ok] UDP, length 29
+`....%..........E...P.tO.....................%...............stl-v-win81.....
+13:00:12.939421 00:1a:4a:f3:72:18 (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 24618, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-111.stl.htwsaar.de.62912 > 224.0.0.252.hostmon: [udp sum ok] UDP, length 29
+E..9`*.......`.o.........%...............stl-v-win81.....
+13:00:13.059601 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:13.500147 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::a89e:b7be:2b05:1dec > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$..............+...................:...................................
+13:00:13.500319 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 19490, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-119.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_in { }]
+F..(L".......`.w........"...............
+13:00:13.511084 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::a89e:b7be:2b05:1dec > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..............+...................:...................................
+13:00:13.511281 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 19491, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-119.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(L#.......`.w........"...............
+13:00:13.514131 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::a89e:b7be:2b05:1dec > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$..............+...................:...................................
+13:00:13.514227 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 19492, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-119.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_in { }]
+F..(L$.......`.w........"...............
+13:00:13.514465 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::a89e:b7be:2b05:1dec > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..............+...................:...................................
+13:00:13.514728 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 19493, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-119.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(L%.......`.w........"...............
+13:00:13.517084 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::a89e:b7be:2b05:1dec.52059 > ff02::1:3.hostmon: [bad udp cksum 0xa70c -> 0xb674!] UDP, length 29
+`....%..............+....................[...%..E............stl-v-win81.....
+13:00:13.517226 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 14927, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-119.stl.htwsaar.de.52059 > 224.0.0.252.hostmon: [bad udp cksum 0x400b -> 0x1d76!] UDP, length 29
+E..9:O....?..`.w.....[...%@.E............stl-v-win81.....
+13:00:13.931181 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::a89e:b7be:2b05:1dec.52059 > ff02::1:3.hostmon: [bad udp cksum 0xa70c -> 0xb674!] UDP, length 29
+`....%..............+....................[...%..E............stl-v-win81.....
+13:00:13.931303 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 14928, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-119.stl.htwsaar.de.52059 > 224.0.0.252.hostmon: [bad udp cksum 0x400b -> 0x1d76!] UDP, length 29
+E..9:P....?..`.w.....[...%@.E............stl-v-win81.....
+13:00:13.993490 00:1a:4a:f3:72:1e (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 19496, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-119.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(L(.......`.w........"...............
+13:00:13.993637 00:1a:4a:f3:72:1e (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::a89e:b7be:2b05:1dec > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$..............+...................:...................................
+13:00:14.266132 00:1c:f9:92:c4:00 (oui Unknown) > 33:33:00:00:00:0a (oui Unknown), ethertype IPv6 (0x86dd), length 94: (class 0xe0, hlim 2, next-header EIGRP (88) payload length: 40) gateway > ff02::a: ip-proto-88 40
+n....(X................................
+...
+....................................
+13:00:15.063592 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:15.727620 00:30:05:aa:f8:68 (oui Unknown) > 33:33:ff:ab:c3:20 (oui Unknown), ethertype IPv6 (0x86dd), length 86: (hlim 255, next-header ICMPv6 (58) payload length: 32) fe80::a9f1:e860:8eab:ccce > ff02::1:ffab:c320: [icmp6 sum ok] ICMP6, neighbor solicitation, length 32, who has fe80::20b:5dff:feab:c320
+	  source link-address option (1), length 8 (1): 00:30:05:aa:f8:68
+	    0x0000:  0030 05aa f868
+`.... :............`................... ..................].... ...0...h
+13:00:15.970015 00:1c:f9:92:c4:00 (oui Unknown) > 01:00:5e:00:00:0a (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0xc0, ttl 2, id 0, offset 0, flags [none], proto EIGRP (88), length 60)
+    rtg216-0.stl.htwsaar.de > igrp-routers.mcast.net: 
+	EIGRP v2, opcode: Hello (5), chksum: 0xf16e, Flags: [none]
+	seq: 0x00000000, ack: 0x00000000, AS: 100, length: 20
+	  General Parameters TLV (0x0001), length: 12
+	    holdtime: 15s, k1 1, k2 0, k3 1, k4 0, k5 0
+	    0x0000:  0100 0100 0000 000f
+	  Software Version TLV (0x0004), length: 8
+	    IOS version: 8.0, EIGRP version 2.0
+	    0x0000:  0800 0200
+E..<.....Xy>.`.....
+...n...............d....................
+13:00:16.525733 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::e085:68ae:d164:8978 > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$............h..d.x................:...................................
+13:00:16.533736 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::e085:68ae:d164:8978 > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$............h..d.x................:...................................
+13:00:16.536333 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::e085:68ae:d164:8978 > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$............h..d.x................:...................................
+13:00:16.536676 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::e085:68ae:d164:8978 > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$............h..d.x................:...................................
+13:00:16.538745 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::e085:68ae:d164:8978.59989 > ff02::1:3.hostmon: [udp sum ok] UDP, length 29
+`....%............h..d.x.................U...%.8+#...........stl-v-win81.....
+13:00:16.539013 00:1a:4a:f3:72:0c (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 10433, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-145.stl.htwsaar.de.59989 > 224.0.0.252.hostmon: [udp sum ok] UDP, length 29
+E..9(.....Q..`.......U...%..+#...........stl-v-win81.....
+13:00:16.908138 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::e085:68ae:d164:8978 > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$............h..d.x................:...................................
+13:00:16.954696 00:1a:4a:f3:72:0c (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::e085:68ae:d164:8978.59989 > ff02::1:3.hostmon: [udp sum ok] UDP, length 29
+`....%............h..d.x.................U...%.8+#...........stl-v-win81.....
+13:00:16.954904 00:1a:4a:f3:72:0c (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 10435, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-145.stl.htwsaar.de.59989 > 224.0.0.252.hostmon: [udp sum ok] UDP, length 29
+E..9(.....Q..`.......U...%..+#...........stl-v-win81.....
+13:00:17.063544 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:19.056082 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l
+13:00:19.237935 00:1c:f9:92:c4:00 (oui Unknown) > 33:33:00:00:00:0a (oui Unknown), ethertype IPv6 (0x86dd), length 94: (class 0xe0, hlim 2, next-header EIGRP (88) payload length: 40) gateway > ff02::a: ip-proto-88 40
+n....(X................................
+...
+....................................
+13:00:19.772842 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::1060:f6ec:2807:ba3b > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$...........`..(..;................:..........w........................
+13:00:19.773240 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 2663, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-146.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_in { }]
+F..(
+g....._.`.........."...............
+13:00:19.786320 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::1060:f6ec:2807:ba3b > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$...........`..(..;................:..........w........................
+13:00:19.786663 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 2664, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-146.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(
+h.....^.`.........."...............
+13:00:19.790531 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::1060:f6ec:2807:ba3b > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_in { }]
+`....$...........`..(..;................:..........w........................
+13:00:19.790719 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 2665, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-146.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_in { }]
+F..(
+i.....].`.........."...............
+13:00:19.791093 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::1060:f6ec:2807:ba3b > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$...........`..(..;................:..........w........................
+13:00:19.791443 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 2666, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-146.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(
+j.....\.`.........."...............
+13:00:19.794307 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::1060:f6ec:2807:ba3b.59236 > ff02::1:3.hostmon: [bad udp cksum 0xe74d -> 0x9568!] UDP, length 29
+`....%...........`..(..;.................d...%.M
+f...........stl-v-win81.....
+13:00:19.794500 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 3362, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-146.stl.htwsaar.de.59236 > 224.0.0.252.hostmon: [bad udp cksum 0x4026 -> 0x3c90!] UDP, length 29
+E..9"....l..`.......d...%@&
+f...........stl-v-win81.....
+13:00:19.993411 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:16 (oui Unknown), ethertype IPv4 (0x0800), length 54: (tos 0x0, ttl 1, id 2668, offset 0, flags [none], proto IGMP (2), length 40, options (RA))
+    stl-v-146.stl.htwsaar.de > igmp.mcast.net: igmp v3 report, 1 group record(s) [gaddr 224.0.0.252 to_ex { }]
+F..(
+l.....Z.`.........."...............
+13:00:19.993619 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:00:00:16 (oui Unknown), ethertype IPv6 (0x86dd), length 90: (hlim 1, next-header Options (0) payload length: 36) fe80::1060:f6ec:2807:ba3b > ff02::16: HBH (rtalert: 0x0000) (padn) [icmp6 sum ok] ICMP6, multicast listener report v2, 1 group record(s) [gaddr ff02::1:3 to_ex { }]
+`....$...........`..(..;................:..........w........................
+13:00:20.212247 00:1a:4a:f3:72:25 (oui Unknown) > 33:33:00:01:00:03 (oui Unknown), ethertype IPv6 (0x86dd), length 91: (hlim 1, next-header UDP (17) payload length: 37) fe80::1060:f6ec:2807:ba3b.59236 > ff02::1:3.hostmon: [bad udp cksum 0xe74d -> 0x9568!] UDP, length 29
+`....%...........`..(..;.................d...%.M
+f...........stl-v-win81.....
+13:00:20.212432 00:1a:4a:f3:72:25 (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 3364, offset 0, flags [none], proto UDP (17), length 57)
+    stl-v-146.stl.htwsaar.de.59236 > 224.0.0.252.hostmon: [bad udp cksum 0x4026 -> 0x3c90!] UDP, length 29
+E..9$....l..`.......d...%@&
+f...........stl-v-win81.....
+13:00:20.966788 00:1c:f9:92:c4:00 (oui Unknown) > 01:00:5e:00:00:0a (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0xc0, ttl 2, id 0, offset 0, flags [none], proto EIGRP (88), length 60)
+    rtg216-0.stl.htwsaar.de > igrp-routers.mcast.net: 
+	EIGRP v2, opcode: Hello (5), chksum: 0xf16e, Flags: [none]
+	seq: 0x00000000, ack: 0x00000000, AS: 100, length: 20
+	  General Parameters TLV (0x0001), length: 12
+	    holdtime: 15s, k1 1, k2 0, k3 1, k4 0, k5 0
+	    0x0000:  0100 0100 0000 000f
+	  Software Version TLV (0x0004), length: 8
+	    IOS version: 8.0, EIGRP version 2.0
+	    0x0000:  0800 0200
+E..<.....Xy>.`.....
+...n...............d....................
+13:00:21.056106 54:7f:ee:d6:cf:9e (oui Unknown) > 01:00:0c:cc:cc:cd (oui Unknown), 802.3, length 64: LLC, dsap SNAP (0xaa) Individual, ssap SNAP (0xaa) Command, ctrl 0x03: oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 8c6c.54:7f:ee:d6:cf:c1.8097, length 42
+	message-age 2.00s, max-age 20.00s, hello-time 2.00s, forwarding-delay 15.00s
+	root-id 00b4.00:11:bc:4c:38:00, root-pathcost 7, port-role Designated
+............<.....L8......lT.....................l

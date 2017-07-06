@@ -1,0 +1,54 @@
+#
+#
+#
+# redhat-localhost++
+#
+#
+#
+
+pauly@rhel7 > netio-Redhat -t localhost
+#############--------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  884.28 MByte/s Tx,  774.14 MByte/s Rx.
+Packet size  2k bytes:  1.143 GByte/s Tx,  1.212 GByte/s Rx.
+Packet size  4k bytes:  1.507 GByte/s Tx,  1.703 GByte/s Rx.
+Packet size  8k bytes:  1.929 GByte/s Tx,  1.964 GByte/s Rx.
+Packet size 16k bytes:  1.832 GByte/s Tx,  2.112 GByte/s Rx.
+Packet size 32k bytes:  2.085 GByte/s Tx,  2.165 GByte/s Rx.
+Done.
+
+pauly@rhel7 > netio-Redhat -t stl-v-88.htwsaar.de
+#############------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  885.82 MByte/s Tx,  804.22 MByte/s Rx.
+Packet size  2k bytes:  1.290 GByte/s Tx,  1.203 GByte/s Rx.
+Packet size  4k bytes:  1.692 GByte/s Tx,  1.540 GByte/s Rx.
+Packet size  8k bytes:  1.875 GByte/s Tx,  1.852 GByte/s Rx.
+Packet size 16k bytes:  1.946 GByte/s Tx,  1.922 GByte/s Rx.
+Packet size 32k bytes:  2.043 GByte/s Tx,  1.939 GByte/s Rx.
+Done.
+
+pauly@rhel7 > netio-Redhat -t 134.96.216.88      
+#############------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  733.01 MByte/s Tx,  822.83 MByte/s Rx.
+Packet size  2k bytes:  1.223 GByte/s Tx,  1.173 GByte/s Rx.
+Packet size  4k bytes:  1.629 GByte/s Tx,  1.705 GByte/s Rx.
+Packet size  8k bytes:  1.931 GByte/s Tx,  2.023 GByte/s Rx.
+Packet size 16k bytes:  1.971 GByte/s Tx,  1.942 GByte/s Rx.
+Packet size 32k bytes:  1.884 GByte/s Tx,  1.944 GByte/s Rx.
+Done.
+
+

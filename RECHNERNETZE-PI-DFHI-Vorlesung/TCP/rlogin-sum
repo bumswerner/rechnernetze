@@ -1,0 +1,88 @@
+    No. Time        Source                Destination           Protocol Info
+      1 0.000000    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [SYN] Seq=1458968794 Ack=0 Win=32850 Len=0
+      2 0.000676    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [SYN, ACK] Seq=2061182880 Ack=1458968795 Win=33304 Len=0
+      3 0.000838    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968795 Ack=2061182881 Win=33304 Len=0
+      4 0.000994    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Start Handshake
+      5 0.001171    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [ACK] Seq=2061182881 Ack=1458968796 Win=33303 Len=0
+      6 0.001291    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: wpy
+      7 0.001493    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [ACK] Seq=2061182881 Ack=1458968816 Win=33304 Len=0
+      8 0.027705    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Start Handshake
+      9 0.027817    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968816 Ack=2061182882 Win=33304 Len=0
+     10 0.028141    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: 
+
+
+              __      __   __________   __      __
+             |  |    |  | |          | |  |    |  |
+             |  |
+     11 0.031406    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968816 Ack=2061183205 Win=33142 Len=0
+     12 0.031772    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data:              |  |    |  |     |  |     |  ||  ||  |
+             |  |    |  |     |  |     |  ||  ||  |
+             |__|    |
+     13 0.031947    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968816 Ack=2061183610 Win=32940 Len=0
+     14 0.057979    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Start Handshake
+     15 0.094933    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Control Message
+     16 0.095096    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968816 Ack=2061183612 Win=32940 Len=0
+     17 0.095730    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Terminal Info
+     18 0.143330    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [ACK] Seq=2061183612 Ack=1458968828 Win=33304 Len=0
+     19 0.424782    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: Last login: Mon Mar  1 14:46:13 from :0
+
+     20 0.467596    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968828 Ack=2061183653 Win=32940 Len=0
+     21 0.512829    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: Sun Microsystems Inc.	SunOS 5.9	Generic January 2003
+
+     22 0.558636    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968828 Ack=2061183707 Win=32940 Len=0
+     23 12.462760   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: 
+     24 12.463240   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Control Message
+     25 12.463367   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: ^C
+     26 12.463466   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968829 Ack=2061183710 Win=32940 Len=0
+     27 12.481465   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: wpy@stl-c-03:/export/home_pm/wpy>
+     28 12.527571   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968829 Ack=2061183743 Win=32940 Len=0
+     29 17.336386   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: u
+     30 17.336786   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: u
+     31 17.377638   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968830 Ack=2061183744 Win=32940 Len=0
+     32 17.533390   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: n
+     33 17.533663   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: n
+     34 17.577620   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968831 Ack=2061183745 Win=32940 Len=0
+     35 17.662876   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: a
+     36 17.663142   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: a
+     37 17.707608   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968832 Ack=2061183746 Win=32940 Len=0
+     38 17.768446   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: m
+     39 17.768732   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: m
+     40 17.817603   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968833 Ack=2061183747 Win=32940 Len=0
+     41 17.915826   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: e
+     42 17.916096   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: e
+     43 17.957590   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968834 Ack=2061183748 Win=32940 Len=0
+     44 18.020818   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data:  
+     45 18.021099   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data:  
+     46 18.068464   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968835 Ack=2061183749 Win=32940 Len=0
+     47 18.451637   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: -
+     48 18.452035   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: -
+     49 18.497596   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968836 Ack=2061183750 Win=32940 Len=0
+     50 18.598908   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: a
+     51 18.599186   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: a
+     52 18.647586   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968837 Ack=2061183751 Win=32940 Len=0
+     53 18.933021   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: 
+     54 18.933422   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: 
+
+     55 18.977603   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968838 Ack=2061183753 Win=32940 Len=0
+     56 18.977841   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: SunOS stl-c-03.htw-saarland.de 5.9 Generic_112234-06 i86pc i386 i86pc
+wpy@stl-c-03:/export/home_pm/wpy>
+     57 19.028443   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968838 Ack=2061183857 Win=32888 Len=0
+     58 21.053366   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: e
+     59 21.053710   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: e
+     60 21.097613   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968839 Ack=2061183858 Win=32888 Len=0
+     61 21.228766   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: x
+     62 21.229047   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: x
+     63 21.277584   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968840 Ack=2061183859 Win=32888 Len=0
+     64 21.482242   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: i
+     65 21.482526   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: i
+     66 21.527622   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968841 Ack=2061183860 Win=32888 Len=0
+     67 21.636031   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: t
+     68 21.636307   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: t
+     69 21.677584   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968842 Ack=2061183861 Win=32888 Len=0
+     70 22.011149   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de Rlogin   User name: wpy, Data: 
+     71 22.011472   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de Rlogin   User name: wpy, Data: 
+
+     72 22.022818   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [FIN, ACK] Seq=2061183863 Ack=1458968843 Win=33304 Len=0
+     73 22.022932   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [ACK] Seq=1458968843 Ack=2061183864 Win=32888 Len=0
+     74 22.029653   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      ufsd > login [FIN, ACK] Seq=1458968843 Ack=2061183864 Win=32888 Len=0
+     75 22.029880   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      login > ufsd [ACK] Seq=2061183864 Ack=1458968844 Win=33304 Len=0

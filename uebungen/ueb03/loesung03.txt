@@ -1,0 +1,213 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 03. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb03/loesung03.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb03/loesung03-daten
+    
+    Abgabe: Zur Vorlesung in der KW 22 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+
+
+    1. Aufgabe - Rechnerantwortzeiten messen und interpretieren
+    -----------------------------------------------------------
+    Das Kommando ping (lesen Sie die Manualpages RedHat/CentOS/XUbuntu/Win10)
+    bietet eine einfache Moeglichkeit die Antwortzeiten eines Rechners 
+    im Internet zu bestimmen.
+
+    Bestimmen Sie die Antwortzeiten 
+
+    - mittels einer Win10-VM und dem Kommando : ping fuer IPv4 und IPv6
+    - mittels einer Redhat-/Centos-VM und dem Kommando ping fuer IPv4
+    - mittels dem stl-s-stud und dem Kommando ping fuer IPv4 und IPv6
+ 
+      rufen Sie unter Linux das Kommando ping mit entsprechenden Schaltern so auf, 
+      dass Sie eine Antwortserie folgender Form erhalten :
+
+           a1) es wird IPv4 genutzt, es werden 10 Anfragen gestellt und 
+               der Ziel-DNS-Hostname erscheint in den Ping-Antwortzeile
+                   ^^^^^^^^^^^^^^^^^
+           a2) es wird IPv4 genutzt, es werden 10 Anfragen gestellt und 
+               die Ziel-IPv4-Adresse erscheint in den Ping-Antwortzeile
+                   ^^^^^^^^^^^^^^^^^
+    
+           b1) es wird IPv6 genutzt, es werden 10 Anfragen gestellt und 
+               der Ziel-DNS-Hostname erscheint in den Ping-Antwortzeile
+                   ^^^^^^^^^^^^^^^^^
+           b2) es wird IPv6 genutzt, es werden 10 Anfragen gestellt und 
+               die Ziel-IPv6-Adresse erscheint in den Ping-Antwortzeile
+                   ^^^^^^^^^^^^^^^^^
+
+    - fuer folgende Rechner :
+
+    ###> Kommandos :
+    ###> - Win10 - --> ping -4 hostname
+    ###>               ping -6 hostname
+    ###>
+    ###> - Redhat ---> IPv4 + Hostnamen : ping  -c 10 -s 40    hostname
+    ###>          ---> IPv4 + IP-Adr.   : ping  -c 10 -s 40 -n hostname
+    ###>          ---> IPv6 + Hostnamen : ping6 -c 10 -s 40    hostname
+    ###>          ---> IPv6 + IP-Adr.   : ping6 -c 10 -s 40 -n hostname
+
+
+
+                    IPv4                             IPv6 
+                    ----------------------------     --------------------------------
+                    <> stl-v-xxx.htwsaar.de  *)      <> stl-v-xxx.stl.htwsaar.de *)
+                    <> stl-s-stud.htwsaar.de         <> stl-s-stud.stl.htwsaar.de
+                    <> www.htwsaar.de                <> www.htwsaar.de
+                    <> www.uni-saarland.de           <> www.uni-saarland.de
+                    <> www.uni-kaiserslautern.de     <> www.uni-kaiserslautern.de
+                    <> www.dfn.de                    <> www.dfn.de
+                    <> www.zeit.de                   <> www.zeit.de
+                    <> ws-ber1.win-ip.dfn.de         <> ws-ber1.win-ip.dfn.de
+                    <> www.nasa.gov                  <> www.nasa.gov
+                    <> www.nasa.com                  <> www.nasa.com
+                    <> www.washington.org            <> www.washington.org
+                    <> www.sydney.com                <> www.sydney.com
+
+
+      ###> Rechnername               | Durchschnitts-Antwortzeiten            |
+      ###>                           |        in Millisekunden                |
+      ###>                           |                                        |
+      ###>                           | Win10       || CentOS || stl-s-stud    |
+      ###>                           |             ||        ||               |
+      ###>                           | IPv4 | IPv6 ||  IPv4  || IPv4  |  IPv6 |
+      ###> --------------------------|----------------------------------------|
+      ###> stl-v-175.htwsaar.de      |  < 1 |      ||   0,47 ||   0,5 |       |
+      ###> stl-s-stud.htwsaar.de     |  < 1 |  < 1 ||   0,34 ||   0,03|  0,05 |
+      ###> www.htwsaar.de            |  < 1 |      ||   0,68 ||   0,6 |       |
+      ###> www.uni-saarland.de       |  < 1 |      ||   0,86 ||   0,7 |       |
+      ###> www.uni-kaiserslautern.de |   17 |   17 ||  13,83 ||  13,8 | 17,88 |
+      ###> www.dfn.de                |   18 |   17 ||  18,04 ||  18,1 | 18,00 |
+      ###> www.zeit.de               |   18 |      ||  18,17 ||  18,2 |       |
+      ###> ws-ber1.win-ip.dfn.de     |   18 |      ||  18,04 ||  18,0 |       |
+      ###> www.nasa.gov              |   16 |    9 ||   9,70 ||   9,6 |  9,8  |
+      ###> www.nasa.com              |  125 |      || 125,   || 126   |       |
+      ###> www.washington.org        |    9 |    9 ||   9,78 ||  12,3 |  9,66 |
+      ###> www.sydney.com            |  349 |      || 356,   || 352,  |       |
+
+
+
+    *) diese VM muss natuerlich vorher von Ihnen gestartet werden.
+
+    - weitere Messmoeglichkeiten mit eigenem Rechner/Laptop :
+            * HOME-LAN
+            * HOME-WLAN
+
+    - weitere Messmoeglichkeiten mit eigenem Rechner/Laptop (freiwilliger Zusatz ) :
+            * STL-LAN 
+            * HTW-WLAN (Eduroam)
+
+
+
+
+       Rechnername                 | Durchschnitts-Antwortzeiten |
+                                   |        in Millisekunden     |
+                                   |                             |
+                                   |    HOME-LAN  |    HOME-WLAN |
+       ----------------------------|------------------------------
+       stl-v-xxx.htwsaar.de        |      63.     |      119.    |
+       stl-s-stud.htwsaar.de       |      63.     |      165.    |
+       www.htwsaar.de              |      62.     |      64.     |
+       www.uni-saarland.de         |      62.     |      65.     |
+       www.uni-kaiserslautern.de   |      62.     |      64.     |
+       www.dfn.de                  |      57.     |      59.     |
+       www.zeit.de                 |      43.     |      46.     |
+       ws-ber1.win-ip.dfn.de       |      48.     |      50.     |
+       www.nasa.gov                |      36.     |      40.     |
+       www.nasa.com                |     136.     |     140.     |
+       www.washington.org          |      37.     |      40.     |
+       www.sydney.com              |     401.     |     547.     |
+
+
+
+       Rechnername                 | Durchschnitts-Antwortzeiten  |
+                                   |        in Millisekunden      |
+                                   |                              |
+                                   | HTW-LAN   | HTW-LAN-STL-VLAN |
+       ----------------------------|-------------------------------
+       stl-v-xxx.htwsaar.de        |  -------  |  -------         |
+       stl-s-stud.htwsaar.de       |  < 1.0    |   3.0            |
+       www.htwsaar.de              |  < 1.0    |   5.0            |
+       www.uni-saarland.de         |  -------  |  -------         |
+       www.uni-kaiserslautern.de   |  -------  |  -------         |
+       www.dfn.de                  |  -------  |  -------         |
+       www.zeit.de                 |  -------  |  -------         |
+       ws-ber1.win-ip.dfn.de       |  -------  |  -------         |
+       www.nasa.gov                |  -------  |  -------         |
+       www.nasa.com                |  -------  |  -------         |
+       www.washington.org          |  -------  |  -------         |
+       www.sydney.com              |  -------  |  -------         |
+
+
+
+       Rechnername                 | Durchschnitts-Antwortzeiten   |
+                                   |        in Millisekunden       |
+                                   |                               |
+                                   | Eduroam   | Eduroam +STL-VLAN |
+       ----------------------------|--------------------------------
+       stl-v-xxx.htwsaar.de        |   51.0    |  -------          |
+       stl-s-studwork.htwsaar.de   |   38.0    |   99.0            |
+       www.htwsaar.de              |   29.0    |   62.0            |
+       www.uni-saarland.de         |   16.0    |  -------          |
+       www.uni-kaiserslautern.de   |   15.0    |  -------          |
+       www.dfn.de                  |   21.0    |  -------          |
+       www.zeit.de                 |   44.0    |  -------          |
+       ws-ber1.win-ip.dfn.de       |   46.0    |  -------          |
+       www.nasa.gov                |   58.0    |  -------          |
+       www.nasa.com                |  158.0    |  -------          |
+       www.washington.org          |   67.0 *  |  -------          |
+       www.sydney.com              |  364.0    |  -------          |
+
+
+
+    Wie erklaeren Sie sich die verschieden langen Antwortzeiten ??
+
+    ###> die HOME-WLAN-Zeiten sind ungefaehr gleich HOME-LAN-Zeiten
+    ###> die HTW-WLAN-Zeiten sind betraechtlich langsamer als die HTW-LAN-Zeiten
+    ###> Interpretation der STL-Antwortzeiten
+                     gemessene Zeit <   1 ms         --->  HTW-/UNI-LAN
+                     gemessene Zeit =  2-stellige ms --->  Server innerhalb Deutschlands
+                     gemessene Zeit =  3-stellige 1xx ms --->  Server evtl in USA
+                     gemessene Zeit =  3-stellige xxx ms --->  Server irgendwo
+    ###> die Interpretation der HOME-Daten in aehnlicher Art und Weise aber mit einem
+         Aufschlag von 60 ms beim Zugriff auf die HTW-/UNI-Rechner
+
+                     gemessene Zeit <  10 ms         --->  HOME-LAN/-WLAN
+                     gemessene Zeit =  2-stellige ms --->  Server innerhalb Deutschlands
+                     gemessene Zeit =  3-stellige 1xx ms --->  Server evtl in USA
+                     gemessene Zeit =  3-stellige xxx ms --->  Server irgendwo
+
+
+
+    Interpretieren Sie die Messergebnisse, was sagen sie aus ?
+    ###> der Internet-Anschluss an der HTW ist zum Teil "erschreckend" schneller als der
+         HOME-Internetanschluss
+    ###> die WLAN-Zeiten sind nur bedingt ( wg. der Schwankungsbreite) fuer solch eine
+         Abschaetzung benutzbar.
+    ###> man erkennt, dass das STL-VPN und das HTW-WLAN-hiz-saarland nach aussen geblockt ist
+    ###> man erkennt, dass das HTW-LAN nur interne Kommunikation zulaesst == INTRANET
+
+
+    Was faellt Ihnen sonst noch so auf ?
+    ###> Im allgemeinen sind die Antwortzeiten via IPv4 gleich denen via IPv6, außer bei den
+         Ziel-Rechnern www.nasa.gov und www.washington.org, dort entsprechen die Antworten
+         nicht den Erwartungen,  bei IPv4 weisen sie auf eine Standort innerhalb von Deitschland
+         hin; bei IPv6 sind sie sogar einstellig, was auf einen sehr nahen Standort hinweist.
+         (Es gibt Internetdienstleister, die Web-Angebote von Firmen im Internet spiegeln 11)
+ !!!!!!
+    ###> Win10 nutz  wenn man nur ping OHNE Spezifikation des IP-Protokolls eingibt 
+         wann immer möglich IPv6 zur Kommunikation mit einem entfernten Recher
+
+

@@ -1,0 +1,67 @@
+#
+#
+#
+# Win7-HTW-WLAN-htwintern-netstat-r
+#
+#
+#
+#
+
+>> netstat -r
+#########################
+
+===========================================================================
+Schnittstellenliste
+ 19...00 23 18 1c 2d 87 ......Intel(R) 82577LM Gigabit Network Connection - VLAN : VLAN182
+ 15...00 23 18 1c 2d 87 ......Intel(R) 82577LM Gigabit Network Connection - VLAN : VLAN181
+ 14...00 23 18 1c 2d 87 ......Intel(R) 82577LM Gigabit Network Connection - VLAN : VLAN180
+ 13...00 27 10 02 18 9d ......Microsoft Virtual WiFi Miniport Adapter
+ 11...00 27 10 02 18 9c ......Intel(R) Centrino(R) Advanced-N 6200 AGN
+ 20...08 00 27 00 04 97 ......VirtualBox Host-Only Ethernet Adapter
+  1...........................Software Loopback Interface 1
+ 18...00 00 00 00 00 00 00 e0 Microsoft-ISATAP-Adapter #2
+===========================================================================
+
+IPv4-Routentabelle
+===========================================================================
+Aktive Routen:
+     Netzwerkziel    Netzwerkmaske          Gateway    Schnittstelle Metrik
+          0.0.0.0          0.0.0.0      172.16.16.1    172.16.18.121     20
+        127.0.0.0        255.0.0.0   Auf Verbindung         127.0.0.1    306
+        127.0.0.1  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  127.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+      172.16.16.0    255.255.240.0   Auf Verbindung     172.16.18.121    276
+    172.16.18.121  255.255.255.255   Auf Verbindung     172.16.18.121    276
+    172.16.31.255  255.255.255.255   Auf Verbindung     172.16.18.121    276
+     192.168.56.0    255.255.255.0   Auf Verbindung      192.168.56.1    276
+     192.168.56.1  255.255.255.255   Auf Verbindung      192.168.56.1    276
+   192.168.56.255  255.255.255.255   Auf Verbindung      192.168.56.1    276
+        224.0.0.0        240.0.0.0   Auf Verbindung         127.0.0.1    306
+        224.0.0.0        240.0.0.0   Auf Verbindung      192.168.56.1    276
+        224.0.0.0        240.0.0.0   Auf Verbindung     172.16.18.121    276
+  255.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  255.255.255.255  255.255.255.255   Auf Verbindung      192.168.56.1    276
+  255.255.255.255  255.255.255.255   Auf Verbindung     172.16.18.121    276
+===========================================================================
+St„ndige Routen:
+  Netzwerkadresse          Netzmaske  Gatewayadresse  Metrik
+          0.0.0.0          0.0.0.0     134.96.216.1  Standard 
+===========================================================================
+
+IPv6-Routentabelle
+===========================================================================
+Aktive Routen:
+ If Metrik Netzwerkziel             Gateway
+  1    306 ::1/128                  Auf Verbindung
+ 20    276 fe80::/64                Auf Verbindung
+ 11    276 fe80::/64                Auf Verbindung
+ 11    276 fe80::58a3:e547:2803:4b7e/128
+                                    Auf Verbindung
+ 20    276 fe80::e409:dc66:b0a7:153d/128
+                                    Auf Verbindung
+  1    306 ff00::/8                 Auf Verbindung
+ 20    276 ff00::/8                 Auf Verbindung
+ 11    276 ff00::/8                 Auf Verbindung
+===========================================================================
+St„ndige Routen:
+  Keine

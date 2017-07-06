@@ -1,0 +1,10 @@
+#!/bin/ksh
+#
+#
+#  zeige_alle_laufenden_dienste
+#
+#
+#
+
+
+svcs

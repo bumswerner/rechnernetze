@@ -1,0 +1,27 @@
+#!/bin/ksh
+#
+# werte_http_anfrage_aus
+#
+#
+
+echo "--------------------------------------------"
+ls http-*
+echo "--------------------------------------------"
+echo " "
+read DATEI?"Gebe zu untersuchende  Datei an : "
+
+grep "HTTP" $DATEI | \
+/usr/xpg4/bin/grep -e "Destination" \
+                   -e "Source" \
+                   -e "HTTP" $DATEI | \
+grep -v "ETHER" | \
+nawk ' BEGIN  {
+                IP = "^IP:.*Source.*$";
+              }
+       $0 ~IP {
+                print "\n\n\n\n";
+              }
+              {
+               print $0;
+              }
+' | more

@@ -1,0 +1,18 @@
+#!/bin/ksh
+#
+#
+#   wpy_pinge_rechnerliste-ipv6
+#
+#
+#
+
+LISTE="stl-v-192.stl.htwsaar.de stl-s-stud.stl.htwsaar.de www.htwsaar.de www.uni-saarland.de www.uni-kaiserslautern.de www.dfn.de www.zeit.de ws-ber1.win-ip.dfn.de www.nasa.gov www.nasa.com www.washington.org www.sydney.com"
+
+
+for R in $LISTE
+  do
+    echo -e "\n\nvvvvvvvvvvvvv $R vvvvvvvvvvvvvvvvv"
+    echo "pauly:> ping6 -c 10 -s 40 $R"
+    echo "########------------------------------------------------------------"
+    ping6 -c 10 -s 40 $R
+  done | tee $0_protokoll_$(date +%Y_%m_%d)

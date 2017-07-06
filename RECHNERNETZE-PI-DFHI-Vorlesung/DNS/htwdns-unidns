@@ -1,0 +1,82 @@
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C www.riederalp.ch. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R www.riederalp.ch. Internet CNAME riederalp.ch.
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C riederalp.ch. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R riederalp.ch. Internet Addr 194.230.47.207
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C listings.ebay.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R listings.ebay.de. Internet Addr 66.135.195.37
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C gd21.doubleclick.net. Internet Addr ?
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C search.ebay.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R search.ebay.de. Internet Addr 66.135.194.145
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C status.icq.com. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R status.icq.com. Internet Addr 64.12.164.24
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C billigreisen.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R billigreisen.de. Internet Addr 217.160.176.198
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C www.tourinaut.com. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R www.tourinaut.com. Internet Addr 217.160.176.198
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C www.malz-schmidt.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R www.malz-schmidt.de. Internet Addr 212.227.109.238
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C heise.ivwbox.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R heise.ivwbox.de. Internet Addr 193.99.144.250
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C 130.255.77.213.in-addr.arpa. Internet PTR ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 130.255.77.213.in-addr.arpa. Internet PTR pa130.obsza.sdi.tpnet.pl.
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C pa130.obsza.sdi.tpnet.pl. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R pa130.obsza.sdi.tpnet.pl. Internet Addr 213.77.255.130
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C rgs1.opera.com. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R rgs1.opera.com. Internet CNAME opera-register.advertising.com.
+
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.opera.no. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ns.opera.no. Internet Addr 193.69.113.70
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.opera.no. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C nic.opera.no. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R nic.opera.no. Internet Addr 193.69.113.72
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C nic.opera.no. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.opera.no. Internet Unknown (28) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C nic.opera.no. Internet Unknown (28) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C returns.groups.yahoo.com. Internet Addr ?
+
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ws-ber1.win-ip.dfn.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ws-ber1.win-ip.dfn.de. Internet Addr 193.174.75.142
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ws-ber1.win-ip.dfn.de. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.cs.uni-sb.de. Internet Addr ?
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.cs.uni-sb.de. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ns.cs.uni-sb.de. Internet Addr 134.96.252.20
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns0.rz.uni-saarland.de. Internet Addr ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ns0.rz.uni-saarland.de. Internet Addr 134.96.7.99
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns0.rz.uni-saarland.de. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns1.rz.uni-saarland.de. Internet Addr ?
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns1.rz.uni-saarland.de. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ns1.rz.uni-saarland.de. Internet Addr 134.96.100.105
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns2.rz.uni-saarland.de. Internet Addr ?
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns2.rz.uni-saarland.de. Internet Unknown (38) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R ns2.rz.uni-saarland.de. Internet Addr 134.96.7.100
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C www.reisenbis499.de. Internet Addr ?
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C  Internet NS ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R  Internet NS I.ROOT-SERVERS.NET.
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C www.click-und-flieg.de. Internet Addr ?
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ws-ber1.win-ip.dfn.de. Internet Unknown (28) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns.cs.uni-sb.de. Internet Unknown (28) ?
+zeus.rz.uni-saarland.de -> zdve-mailx   DNS R 
+  zdve-mailx -> zeus.rz.uni-saarland.de DNS C ns0.rz.uni-saarland.de. Internet Unknown (28) ?

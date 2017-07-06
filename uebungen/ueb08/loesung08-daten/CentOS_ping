@@ -1,0 +1,106 @@
+#
+#
+#
+# CentOS_ping
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1a : starte tcpdump um icmp-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@stl-centos:> tcpdump -i eth0 -e -vv -S -A 'icmp and ( dst stl-s-stud.htwsaar.de or src stl-s-stud.htwsaar.de )'
+            ###################------------------------------
+            
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+15:16:19.662445 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41811, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 1, length 64
+E..T.S@.@....`...`......2G..#.sW......
+..................... !"#$%&'()*+,-./01234567
+15:16:19.663619 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9275, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 1, length 64
+E..T$;@......`...`......2G..#.sW......
+..................... !"#$%&'()*+,-./01234567
+15:16:20.663946 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41812, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 2, length 64
+E..T.T@.@....`...`......2G..$.sW....J!
+..................... !"#$%&'()*+,-./01234567
+15:16:20.664223 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9276, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 2, length 64
+E..T$<@......`...`....".2G..$.sW....J!
+..................... !"#$%&'()*+,-./01234567
+15:16:21.663639 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41813, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 3, length 64
+E..T.U@.@....`...`....;.2G..%.sW....( 
+..................... !"#$%&'()*+,-./01234567
+15:16:21.663957 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9277, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 3, length 64
+E..T$=@......`...`....C.2G..%.sW....( 
+..................... !"#$%&'()*+,-./01234567
+15:16:22.666725 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41814, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 4, length 64
+E..T.V@.@....`...`....9.2G..&.sW....),
+..................... !"#$%&'()*+,-./01234567
+15:16:22.666990 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9278, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 4, length 64
+E..T$>@......`...`....A.2G..&.sW....),
+..................... !"#$%&'()*+,-./01234567
+15:16:23.668065 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41815, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 5, length 64
+E..T.W@.@....`...`......2G..'.sW....j1
+..................... !"#$%&'()*+,-./01234567
+15:16:23.668401 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9279, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 5, length 64
+E..T$?@......`...`......2G..'.sW....j1
+..................... !"#$%&'()*+,-./01234567
+15:16:24.668694 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41816, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 6, length 64
+E..T.X@.@....`...`......2G..(.sW.....3
+..................... !"#$%&'()*+,-./01234567
+15:16:24.668982 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9280, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 6, length 64
+E..T$@@......`...`......2G..(.sW.....3
+..................... !"#$%&'()*+,-./01234567
+15:16:25.668672 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41817, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 7, length 64
+E..T.Y@.@....`...`......2G..).sW.....3
+..................... !"#$%&'()*+,-./01234567
+15:16:25.668960 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9281, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 7, length 64
+.`...`......2G..).sW.....3
+..................... !"#$%&'()*+,-./01234567
+15:16:26.669639 00:1a:4a:f3:72:71 (oui Unknown) > 00:0b:5d:ab:c3:20 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 41818, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-196.stl.htwsaar.de > stl-s-studwork.stl.htwsaar.de: ICMP echo request, id 12871, seq 8, length 64
+E..T.Z@.@....`...`......2G..*.sW.....7
+..................... !"#$%&'()*+,-./01234567
+15:16:26.669860 00:0b:5d:ab:c3:20 (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 255, id 9282, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-s-studwork.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo reply, id 12871, seq 8, length 64
+E..T$B@......`...`......2G..*.sW.....7
+..................... !"#$%&'()*+,-./01234567
+
+
+
+
+
+Schritt 1b : starte auf CentOS-VM ping zu stl-s-stud.htwsaar.de
+
+            pauly@stl-centos:> ping stl-s-stud.htwsaar.de
+            ##################------------------------------
+            PING stl-s-studwork.htw-saarland.de (134.96.216.212) 56(84) bytes of data.
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=1 ttl=255 time=1.21 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=2 ttl=255 time=0.341 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=3 ttl=255 time=0.365 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=4 ttl=255 time=0.325 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=5 ttl=255 time=0.391 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=6 ttl=255 time=0.345 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=7 ttl=255 time=0.349 ms
+            64 bytes from stl-s-studwork.stl.htwsaar.de (134.96.216.212): icmp_seq=8 ttl=255 time=0.253 ms
+            ^C
+            --- stl-s-studwork.htw-saarland.de ping statistics ---
+            8 packets transmitted, 8 received, 0% packet loss, time 7007ms
+            rtt min/avg/max/mdev = 0.253/0.447/1.214/0.293 ms
+

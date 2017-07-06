@@ -1,0 +1,4 @@
+zdve-myr-1.htw-saarland.de -> zdve-mailx   DNS C 98.208.96.134.in-addr.arpa. Internet PTR ?
+  zdve-mailx -> zdve-myr-1.htw-saarland.de DNS R 98.208.96.134.in-addr.arpa. Internet PTR zdve-mailx.htw-saarland.de.
+zdve-myr-1.htw-saarland.de -> zdve-mailx   DNS C www.tvauersmacher.de. Internet Addr ?
+  zdve-mailx -> zdve-myr-1.htw-saarland.de DNS R www.tvauersmacher.de. Internet Addr 192.67.198.52

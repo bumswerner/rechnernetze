@@ -1,0 +1,246 @@
+#
+#
+#
+# wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2017_05_29-stl-v-124
+#
+#
+#
+
+vvvvvvvvvvvvv stl-v-192.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n stl-v-192.htwsaar.de
+#######-------------------------------------------------------------------------
+PING stl-v-192.htwsaar.de (134.96.216.192) 40(68) bytes of data.
+48 bytes from 134.96.216.192: icmp_seq=1 ttl=64 time=0.424 ms
+48 bytes from 134.96.216.192: icmp_seq=2 ttl=64 time=0.442 ms
+48 bytes from 134.96.216.192: icmp_seq=3 ttl=64 time=0.409 ms
+48 bytes from 134.96.216.192: icmp_seq=4 ttl=64 time=0.509 ms
+48 bytes from 134.96.216.192: icmp_seq=5 ttl=64 time=0.362 ms
+48 bytes from 134.96.216.192: icmp_seq=6 ttl=64 time=0.494 ms
+48 bytes from 134.96.216.192: icmp_seq=7 ttl=64 time=0.663 ms
+48 bytes from 134.96.216.192: icmp_seq=8 ttl=64 time=0.501 ms
+48 bytes from 134.96.216.192: icmp_seq=9 ttl=64 time=0.445 ms
+48 bytes from 134.96.216.192: icmp_seq=10 ttl=64 time=0.501 ms
+
+--- stl-v-192.htwsaar.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9000ms
+rtt min/avg/max/mdev = 0.362/0.475/0.663/0.077 ms
+
+
+vvvvvvvvvvvvv stl-s-stud.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n stl-s-stud.htwsaar.de
+#######-------------------------------------------------------------------------
+PING stl-s-stud-neu.htw-saarland.de (134.96.216.226) 40(68) bytes of data.
+48 bytes from 134.96.216.226: icmp_seq=1 ttl=64 time=0.353 ms
+48 bytes from 134.96.216.226: icmp_seq=2 ttl=64 time=0.379 ms
+48 bytes from 134.96.216.226: icmp_seq=3 ttl=64 time=0.328 ms
+48 bytes from 134.96.216.226: icmp_seq=4 ttl=64 time=0.364 ms
+48 bytes from 134.96.216.226: icmp_seq=5 ttl=64 time=0.342 ms
+48 bytes from 134.96.216.226: icmp_seq=6 ttl=64 time=0.289 ms
+48 bytes from 134.96.216.226: icmp_seq=7 ttl=64 time=0.322 ms
+48 bytes from 134.96.216.226: icmp_seq=8 ttl=64 time=0.385 ms
+48 bytes from 134.96.216.226: icmp_seq=9 ttl=64 time=0.327 ms
+48 bytes from 134.96.216.226: icmp_seq=10 ttl=64 time=0.355 ms
+
+--- stl-s-stud-neu.htw-saarland.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9001ms
+rtt min/avg/max/mdev = 0.289/0.344/0.385/0.032 ms
+
+
+vvvvvvvvvvvvv www.htwsaar.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.htwsaar.de
+#######-------------------------------------------------------------------------
+PING www-tmp.htw-saarland.de (134.96.210.150) 40(68) bytes of data.
+48 bytes from 134.96.210.150: icmp_seq=1 ttl=62 time=0.645 ms
+48 bytes from 134.96.210.150: icmp_seq=2 ttl=62 time=0.785 ms
+48 bytes from 134.96.210.150: icmp_seq=3 ttl=62 time=0.733 ms
+48 bytes from 134.96.210.150: icmp_seq=4 ttl=62 time=0.780 ms
+48 bytes from 134.96.210.150: icmp_seq=5 ttl=62 time=0.692 ms
+48 bytes from 134.96.210.150: icmp_seq=6 ttl=62 time=0.646 ms
+48 bytes from 134.96.210.150: icmp_seq=7 ttl=62 time=0.696 ms
+48 bytes from 134.96.210.150: icmp_seq=8 ttl=62 time=0.511 ms
+48 bytes from 134.96.210.150: icmp_seq=9 ttl=62 time=0.659 ms
+48 bytes from 134.96.210.150: icmp_seq=10 ttl=62 time=0.675 ms
+
+--- www-tmp.htw-saarland.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9000ms
+rtt min/avg/max/mdev = 0.511/0.682/0.785/0.076 ms
+
+
+vvvvvvvvvvvvv www.uni-saarland.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.uni-saarland.de
+#######-------------------------------------------------------------------------
+PING webuni.rz.uni-saarland.de (134.96.7.179) 40(68) bytes of data.
+48 bytes from 134.96.7.179: icmp_seq=1 ttl=62 time=0.673 ms
+48 bytes from 134.96.7.179: icmp_seq=2 ttl=62 time=0.747 ms
+48 bytes from 134.96.7.179: icmp_seq=3 ttl=62 time=0.715 ms
+48 bytes from 134.96.7.179: icmp_seq=4 ttl=62 time=0.791 ms
+48 bytes from 134.96.7.179: icmp_seq=5 ttl=62 time=0.802 ms
+48 bytes from 134.96.7.179: icmp_seq=6 ttl=62 time=0.738 ms
+48 bytes from 134.96.7.179: icmp_seq=7 ttl=62 time=1.80 ms
+48 bytes from 134.96.7.179: icmp_seq=8 ttl=62 time=0.831 ms
+48 bytes from 134.96.7.179: icmp_seq=9 ttl=62 time=0.766 ms
+48 bytes from 134.96.7.179: icmp_seq=10 ttl=62 time=0.804 ms
+
+--- webuni.rz.uni-saarland.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9005ms
+rtt min/avg/max/mdev = 0.673/0.866/1.801/0.316 ms
+
+
+vvvvvvvvvvvvv www.uni-kaiserslautern.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.uni-kaiserslautern.de
+#######-------------------------------------------------------------------------
+PING wta-web.rhrk.uni-kl.de (131.246.120.130) 40(68) bytes of data.
+48 bytes from 131.246.120.130: icmp_seq=1 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=2 ttl=59 time=13.7 ms
+48 bytes from 131.246.120.130: icmp_seq=3 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=4 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=5 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=6 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=7 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=8 ttl=59 time=13.7 ms
+48 bytes from 131.246.120.130: icmp_seq=9 ttl=59 time=13.8 ms
+48 bytes from 131.246.120.130: icmp_seq=10 ttl=59 time=13.7 ms
+
+--- wta-web.rhrk.uni-kl.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 13.765/13.832/13.891/0.085 ms
+
+
+vvvvvvvvvvvvv www.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.dfn.de
+#######-------------------------------------------------------------------------
+PING www.dfn.de (194.95.245.140) 40(68) bytes of data.
+48 bytes from 194.95.245.140: icmp_seq=1 ttl=59 time=17.9 ms
+48 bytes from 194.95.245.140: icmp_seq=2 ttl=59 time=18.1 ms
+48 bytes from 194.95.245.140: icmp_seq=3 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=4 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=5 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=6 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=7 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=8 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=9 ttl=59 time=18.0 ms
+48 bytes from 194.95.245.140: icmp_seq=10 ttl=59 time=17.9 ms
+
+--- www.dfn.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 17.979/18.039/18.107/0.072 ms
+
+
+vvvvvvvvvvvvv www.zeit.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.zeit.de
+#######-------------------------------------------------------------------------
+PING www.zeit.de (217.13.68.251) 40(68) bytes of data.
+48 bytes from 217.13.68.251: icmp_seq=1 ttl=58 time=18.0 ms
+48 bytes from 217.13.68.251: icmp_seq=2 ttl=58 time=18.1 ms
+48 bytes from 217.13.68.251: icmp_seq=3 ttl=58 time=18.0 ms
+48 bytes from 217.13.68.251: icmp_seq=4 ttl=58 time=18.2 ms
+48 bytes from 217.13.68.251: icmp_seq=5 ttl=58 time=18.1 ms
+48 bytes from 217.13.68.251: icmp_seq=6 ttl=58 time=18.1 ms
+48 bytes from 217.13.68.251: icmp_seq=7 ttl=58 time=18.2 ms
+48 bytes from 217.13.68.251: icmp_seq=8 ttl=58 time=18.1 ms
+48 bytes from 217.13.68.251: icmp_seq=9 ttl=58 time=18.2 ms
+48 bytes from 217.13.68.251: icmp_seq=10 ttl=58 time=18.2 ms
+
+--- www.zeit.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9009ms
+rtt min/avg/max/mdev = 18.048/18.168/18.236/0.134 ms
+
+
+vvvvvvvvvvvvv ws-ber1.win-ip.dfn.de vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n ws-ber1.win-ip.dfn.de
+#######-------------------------------------------------------------------------
+PING ws-ber1.win-ip.dfn.de (193.174.75.142) 40(68) bytes of data.
+48 bytes from 193.174.75.142: icmp_seq=1 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=2 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=3 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=4 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=5 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=6 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=7 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=8 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=9 ttl=59 time=18.0 ms
+48 bytes from 193.174.75.142: icmp_seq=10 ttl=59 time=18.0 ms
+
+--- ws-ber1.win-ip.dfn.de ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 18.002/18.046/18.099/0.182 ms
+
+
+vvvvvvvvvvvvv www.nasa.gov vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.nasa.gov
+#######-------------------------------------------------------------------------
+PING iznasa.hs.llnwd.net (178.79.242.47) 40(68) bytes of data.
+48 bytes from 178.79.242.47: icmp_seq=1 ttl=60 time=9.58 ms
+48 bytes from 178.79.242.47: icmp_seq=2 ttl=60 time=9.70 ms
+48 bytes from 178.79.242.47: icmp_seq=3 ttl=60 time=9.72 ms
+48 bytes from 178.79.242.47: icmp_seq=4 ttl=60 time=9.67 ms
+48 bytes from 178.79.242.47: icmp_seq=5 ttl=60 time=9.76 ms
+48 bytes from 178.79.242.47: icmp_seq=6 ttl=60 time=9.76 ms
+48 bytes from 178.79.242.47: icmp_seq=7 ttl=60 time=9.80 ms
+48 bytes from 178.79.242.47: icmp_seq=8 ttl=60 time=9.72 ms
+48 bytes from 178.79.242.47: icmp_seq=9 ttl=60 time=9.63 ms
+48 bytes from 178.79.242.47: icmp_seq=10 ttl=60 time=9.62 ms
+
+--- iznasa.hs.llnwd.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 9.581/9.699/9.805/0.133 ms
+
+
+vvvvvvvvvvvvv www.nasa.com vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.nasa.com
+#######-------------------------------------------------------------------------
+PING nasa.com (192.64.147.150) 40(68) bytes of data.
+48 bytes from 192.64.147.150: icmp_seq=1 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=2 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=3 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=4 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=5 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=6 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=7 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=8 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=9 ttl=54 time=125 ms
+48 bytes from 192.64.147.150: icmp_seq=10 ttl=54 time=125 ms
+
+--- nasa.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 125.677/125.745/125.781/0.318 ms
+
+
+vvvvvvvvvvvvv www.washington.org vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.washington.org
+#######-------------------------------------------------------------------------
+PING www.washington.org (104.25.184.34) 40(68) bytes of data.
+48 bytes from 104.25.184.34: icmp_seq=1 ttl=61 time=9.73 ms
+48 bytes from 104.25.184.34: icmp_seq=2 ttl=61 time=9.80 ms
+48 bytes from 104.25.184.34: icmp_seq=3 ttl=61 time=9.74 ms
+48 bytes from 104.25.184.34: icmp_seq=4 ttl=61 time=9.76 ms
+48 bytes from 104.25.184.34: icmp_seq=5 ttl=61 time=9.79 ms
+48 bytes from 104.25.184.34: icmp_seq=6 ttl=61 time=9.79 ms
+48 bytes from 104.25.184.34: icmp_seq=7 ttl=61 time=9.80 ms
+48 bytes from 104.25.184.34: icmp_seq=8 ttl=61 time=9.80 ms
+48 bytes from 104.25.184.34: icmp_seq=9 ttl=61 time=9.79 ms
+48 bytes from 104.25.184.34: icmp_seq=10 ttl=61 time=9.80 ms
+
+--- www.washington.org ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 9.736/9.784/9.809/0.135 ms
+
+
+vvvvvvvvvvvvv www.sydney.com vvvvvvvvvvvvvvvvv
+pauly:> ping -c 10 -s 40 -n www.sydney.com
+#######-------------------------------------------------------------------------
+PING www.sydney.com (54.253.253.77) 40(68) bytes of data.
+48 bytes from 54.253.253.77: icmp_seq=1 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=2 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=3 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=4 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=5 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=6 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=7 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=8 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=9 ttl=40 time=356 ms
+48 bytes from 54.253.253.77: icmp_seq=10 ttl=40 time=356 ms
+
+--- www.sydney.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 356.266/356.376/356.624/0.286 ms

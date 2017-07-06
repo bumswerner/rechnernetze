@@ -1,0 +1,458 @@
+#
+#
+#  slow_fast_client_chargen_client+server-protokoll
+#
+#
+#
+
+
+start des Clients auf stl-c-24 : slow_fast_client stl-c-23 19
+---------------------------------############################
+
+snoop-Kdo auf stl-c-24         : snoop -V stl-c-23 | grep "^.*Win=.*$" > slow_fast_client_chargen_client+server-protokoll
+---------------------------------#########################################################################################
+
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    die Client+Server-Window-Anzeige wird in Datei geschrieben !!
+
+#wpy vvvvvvvvvvvvvvvv  <--- markiert den Versuch des Servers wieder eine positive Fensteranziege von Client zu erhalten
+
+
+
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Syn Seq=841246547 Len=0 Win=49640 Options=<mss 1460,nop,wscale 0,nop,nop,sackOK>
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Syn Ack=841246548 Seq=837184137 Len=0 Win=49640 Options=<mss 1460,nop,wscale 0,nop,nop,sackOK>
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837184138 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837184138 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837184212 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837184212 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837185618 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837185618 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837185692 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837187098 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837187098 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837187172 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837188578 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837188578 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837188652 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837190058 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837190058 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837191464 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837192870 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837192870 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837194276 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837195682 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837195682 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837197088 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837198494 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837198494 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837199900 Len=1184 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837201084 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837201084 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837202490 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837203896 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837203896 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837205302 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837206708 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837206708 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837208114 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837209520 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837209520 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837210926 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837212332 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837212332 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837213738 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837215144 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837215144 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837216550 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837217956 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837217956 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837219362 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837220768 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837220768 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837222174 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837223580 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837223580 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837224986 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837226392 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837226392 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837227798 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837229204 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837229204 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837230610 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837232016 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837232016 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837233422 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837234828 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837234828 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837236234 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837237640 Seq=841246548 Len=0 Win=41204
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837237640 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837239046 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837240452 Seq=841246548 Len=0 Win=38392
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837240452 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837241858 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837243264 Seq=841246548 Len=0 Win=35580
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837243264 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837244670 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837246076 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837246076 Seq=841246548 Len=0 Win=32768
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837247482 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837248888 Seq=841246548 Len=0 Win=29956
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837248888 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837250294 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837251700 Seq=841246548 Len=0 Win=27144
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837251700 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837253106 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837254512 Seq=841246548 Len=0 Win=24332
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837254512 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837255918 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837257324 Seq=841246548 Len=0 Win=21520
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837257324 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837258730 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837260136 Seq=841246548 Len=0 Win=18708
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837260136 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837261542 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837262948 Seq=841246548 Len=0 Win=15896
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837262948 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837264354 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837265760 Seq=841246548 Len=0 Win=13084
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837265760 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837267166 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837268572 Seq=841246548 Len=0 Win=10272
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837268572 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837269978 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837271384 Seq=841246548 Len=0 Win=7460
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837271384 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837272790 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837274196 Seq=841246548 Len=0 Win=4648
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837274196 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837275602 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837277008 Seq=841246548 Len=0 Win=1836
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837277008 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278414 Seq=841246548 Len=0 Win=430
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837278414 Len=370 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278784 Seq=841246548 Len=0 Win=60
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837278784 Len=60 Win=49640
+
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt erste ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- hier werden jetzt vom Server 1-Byte Segmente zum Client gesendet !!!!
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt weitere ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- hier werden jetzt vom Server 1-Byte Segmente zum Client gesendet !!!!
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt weitere ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- hier werden jetzt vom Server 1-Byte Segmente zum Client gesendet !!!!
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt weitere ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- hier werden jetzt vom Server 1-Byte Segmente zum Client gesendet !!!!
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt weitere ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- hier werden jetzt vom Server 1-Byte Segmente zum Client gesendet !!!!
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt weitere ZERO-Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=0
+#wpy vvvvvvvvvvvvvvvv  <--- client gibt erste positive Windowanzeige
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837278844 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278844 Len=1 Win=49640
+#wpy vvvvvvvvvvvvvvvv  <--- Server sendet wieder Daten, offensichtlich ist positive Fenstermeldung gekommen
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837278845 Len=1419 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837280264 Seq=841246548 Len=0 Win=48220
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837280264 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837281670 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837283076 Seq=841246548 Len=0 Win=45408
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837283076 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837284482 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837285888 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837285888 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837287294 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837288700 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837288700 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837290106 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837291512 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837291512 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837292918 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837294324 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837294324 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837295730 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837297136 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837297136 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837298542 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837299948 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837299948 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837301354 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837302760 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837302760 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837304166 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837305572 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837305572 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837306978 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837308384 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837308384 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837309790 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837311196 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837311196 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837312602 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837314008 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837314008 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837315414 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837316820 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837316820 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837318226 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837319632 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837319632 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837321038 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837322444 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837322444 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837323850 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837325256 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837325256 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837326662 Len=962 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837327624 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837327624 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837329030 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837329104 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837329104 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837330510 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837330584 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837330584 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837331990 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837332064 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837332064 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837333470 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837333544 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837333544 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837334950 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837335024 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837335024 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837336430 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837337836 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837337836 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837339242 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837340648 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837340648 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837342054 Len=296 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837342350 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837342350 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837343756 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837345162 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837345162 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837346568 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837347974 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837347974 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837349380 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837350786 Seq=841246548 Len=0 Win=41204
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837350786 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837352192 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837353598 Seq=841246548 Len=0 Win=38392
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837353598 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837355004 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837356410 Seq=841246548 Len=0 Win=35580
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837356410 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837357816 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837359222 Seq=841246548 Len=0 Win=32768
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837359222 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837360628 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837362034 Seq=841246548 Len=0 Win=29956
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837362034 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837363440 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837364846 Seq=841246548 Len=0 Win=27144
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837364846 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837366252 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837367658 Seq=841246548 Len=0 Win=24332
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837367658 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837369064 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837370470 Seq=841246548 Len=0 Win=21520
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837370470 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837371876 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837373282 Seq=841246548 Len=0 Win=18708
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837373282 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837374688 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837376094 Seq=841246548 Len=0 Win=15896
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837376094 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837377500 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837378906 Seq=841246548 Len=0 Win=13084
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837378906 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837380312 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837381718 Seq=841246548 Len=0 Win=10272
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837381718 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837383124 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837384530 Seq=841246548 Len=0 Win=7460
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837384530 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837385936 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837387342 Seq=841246548 Len=0 Win=4648
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837387342 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837388748 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837390154 Seq=841246548 Len=0 Win=1836
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837390154 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391560 Seq=841246548 Len=0 Win=430
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837391560 Len=370 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391930 Seq=841246548 Len=0 Win=60
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837391930 Len=60 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=0
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837391990 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391990 Len=1 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837391991 Len=1419 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837393410 Seq=841246548 Len=0 Win=48220
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837393410 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837394816 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837396222 Seq=841246548 Len=0 Win=45408
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837396222 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837397628 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837399034 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837399034 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837400440 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837401846 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837401846 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837403252 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837404658 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837404658 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837406064 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837407470 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837407470 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837408876 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837410282 Seq=841246548 Len=0 Win=45422
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837410282 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837411688 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837413094 Seq=841246548 Len=0 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837413094 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837414500 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837415906 Seq=841246548 Len=0 Win=46828
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837415906 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837417312 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837418718 Seq=841246548 Len=0 Win=44016
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837418718 Len=962 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837419680 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837421086 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837421086 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837421160 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837422566 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837422566 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837422640 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837424046 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837424046 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837424120 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837425526 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837425526 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837425600 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837427006 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837427006 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837427080 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837428486 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837428486 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837428560 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837429966 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837429966 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837430040 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837431446 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837431446 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837431520 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837432926 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837432926 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837433000 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837434406 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837434406 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837434480 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837435886 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837435886 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837435960 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837437366 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837437366 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837437440 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837438846 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837438846 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837438920 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837440326 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837440326 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837440400 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837441806 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837441806 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837441880 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837443286 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837443286 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837443360 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837444766 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837444766 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837444840 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837446246 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837446246 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837446320 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837447726 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837447726 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837447800 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837449206 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837449206 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837449280 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837450686 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837450686 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837450760 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837452166 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837452166 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837452240 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837453646 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837453646 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837453720 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837455126 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837455126 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837455200 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837456606 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837456606 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837456680 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837458086 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837458086 Seq=841246548 Len=0 Win=48234
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837458160 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837459566 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837459566 Seq=841246548 Len=0 Win=46754
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837459640 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837461046 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837461046 Seq=841246548 Len=0 Win=45274
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837461120 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837462526 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837462526 Seq=841246548 Len=0 Win=43794
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837462600 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837464006 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837464006 Seq=841246548 Len=0 Win=42314
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837464080 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837465486 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837465486 Seq=841246548 Len=0 Win=40834
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837465560 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837466966 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837466966 Seq=841246548 Len=0 Win=39354
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837467040 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837468446 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837468446 Seq=841246548 Len=0 Win=37874
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837468520 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837469926 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837469926 Seq=841246548 Len=0 Win=36394
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837470000 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837471406 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837471406 Seq=841246548 Len=0 Win=34914
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837471480 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837472886 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837472886 Seq=841246548 Len=0 Win=33434
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837472960 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Push Ack=841246548 Seq=837474366 Len=74 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837474366 Seq=841246548 Len=0 Win=31954
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837474440 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837475846 Seq=841246548 Len=0 Win=30474
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837475846 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837477252 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837478658 Seq=841246548 Len=0 Win=27662
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837478658 Len=1406 Win=49640
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39427 S=19 Ack=841246548 Seq=837480064 Len=1406 Win=49640
+stl-c-24.htw-saarland.de -> stl-c-23.htw-saarland.de TCP D=19 S=39427 Ack=837481470 Seq=841246548 Len=0 Win=24850
+stl-c-23.htw-saarland.de -> stl-c-24.htw-saarland.de TCP D=39

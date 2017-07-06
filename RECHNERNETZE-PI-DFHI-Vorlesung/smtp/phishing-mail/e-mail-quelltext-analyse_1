@@ -1,0 +1,74 @@
+#
+#
+#
+# wolfgang pauly  -----------------20. August 2004
+#
+#
+#
+
+
+
+
+1. der sendende Rechner : 61.235.103.143
+----------------------------
+
+
+nslookup
+--------
+
+        nslookup 61.235.103.143
+        -----------------------
+
+        Server:  ns.htw-saarland.de
+        Address:  134.96.208.98
+        
+        *** ns.htw-saarland.de can't find 61.235.103.143: Non-existent host/domain
+
+
+
+html-Analyse
+------------
+
+......
+
+<P style="MARGIN-LEFT: 9pt">
+   <SPAN lang=DE style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; 
+         mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'; 
+         mso-ansi-language: DE">
+
+              Um Ihr pers&#246;nliches "Postbank"- Konto zu &#252;berpr&#252;fen, 
+              &#246;ffnen Sie die nachfolgend angegebene Website
+   </SPAN>
+
+   <SPAN lang=DE style="mso-ansi-language: DE">: 
+              <o:p></o:p>
+   </SPAN>
+</P>
+
+<P style="TEXT-ALIGN: center" align=center>
+   <SPAN lang=DE style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; 
+         mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'; 
+         mso-ansi-language: DE">
+
+-------->     <a href="http://POSTBANKS.INFO">           <------------------
+-------->              https://www.postbank.de/          <------------------
+              </a>
+   </SPAN>
+
+   <SPAN lang=DE style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; 
+         mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'; 
+         mso-ansi-language: DE">
+   </SPAN>
+
+   <SPAN lang=DE style="mso-ansi-language: DE">
+              <o:p></o:p>
+   </SPAN>
+</P>
+ 
+<P style="MARGIN-LEFT: 9pt">
+   <SPAN lang=DE style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; 
+         mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'; 
+         mso-ansi-language: DE">
+
+              Diese Sicherheitsma&#223;nahmen sind erforderlich, um Ihr Konto zu sch&#252;tzen. Wir......
+

@@ -1,0 +1,77 @@
+#
+#
+#
+# Win10_ping
+#   
+#
+#
+#
+#
+#
+
+
+Schritt 1a : starte tcpdump um icmp-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@CentOS ::> tcpdump -i eth0 -e -vv -S -A 'icmp and ( dst stl-v-88.htwsaar.de or src stl-v-88.htwsaar.de )'
+            ################---------------------------------------------------------------------------------------------------
+            
+            tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+            09:13:06.015325 00:1a:4a:f3:72:1e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 128, id 13376, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-88.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 1, seq 6, length 40
+            E..<4@....H..`.X.`....MU....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:06.015424 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:1e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 39172, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-196.stl.htwsaar.de > stl-v-88.stl.htwsaar.de: ICMP echo reply, id 1, seq 6, length 40
+            E..<....@.#..`...`.X..UU....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:07.031491 00:1a:4a:f3:72:1e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 128, id 13377, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-88.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 1, seq 7, length 40
+            E..<4A....H..`.X.`....MT....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:07.031573 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:1e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 39173, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-196.stl.htwsaar.de > stl-v-88.stl.htwsaar.de: ICMP echo reply, id 1, seq 7, length 40
+            E..<....@.#..`...`.X..UT....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:08.065232 00:1a:4a:f3:72:1e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 128, id 13378, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-88.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 1, seq 8, length 40
+            E..<4B....H..`.X.`....MS....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:08.065328 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:1e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 39174, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-196.stl.htwsaar.de > stl-v-88.stl.htwsaar.de: ICMP echo reply, id 1, seq 8, length 40
+            E..<....@.#..`...`.X..US....abcdefghijklmnopqrstuvwabcdefghi
+            09:13:09.078030 00:1a:4a:f3:72:1e (oui Unknown) > 00:1a:4a:f3:72:71 (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 128, id 13379, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-88.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: ICMP echo request, id 1, seq 9, length 40
+            E..<4C....H..`.X.`....MR...	abcdefghijklmnopqrstuvwabcdefghi
+            09:13:09.078081 00:1a:4a:f3:72:71 (oui Unknown) > 00:1a:4a:f3:72:1e (oui Unknown), 
+            ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 39175, offset 0, flags [none], proto ICMP (1), length 60)
+                stl-v-196.stl.htwsaar.de > stl-v-88.stl.htwsaar.de: ICMP echo reply, id 1, seq 9, length 40
+            E..<....@.#..`...`.X..UR...	abcdefghijklmnopqrstuvwabcdefghi
+            ^C
+            8 packets captured
+            13 packets received by filter
+            0 packets dropped by kernel
+            
+            
+            
+
+
+Schritt 1b : starte auf Win10-VM ping zu CentOS-VM
+
+            C:\Users\pauly>ping stl-v-196.htwsaar.de
+            ###############------------------------------
+            Ping wird ausgefuehrt fuer stl-v-196.htwsaar.de [134.96.216.196] mit 32 Bytes Daten:
+            Antwort von 134.96.216.196: Bytes=32 Zeit=1ms TTL=64
+            Antwort von 134.96.216.196: Bytes=32 Zeit<1ms TTL=64
+            Antwort von 134.96.216.196: Bytes=32 Zeit<1ms TTL=64
+            Antwort von 134.96.216.196: Bytes=32 Zeit<1ms TTL=64
+
+            Ping-Statistik für 134.96.216.196:
+                Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+                (0% Verlust),
+            Ca. Zeitangaben in Millisek.:
+                Minimum = 0ms, Maximum = 1ms, Mittelwert = 0ms
+
+            C:\Users\pauly>

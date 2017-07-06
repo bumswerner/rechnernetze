@@ -1,0 +1,154 @@
+#
+#
+#
+#
+# stl-v-Win10-ping-ipv6_protokoll_2017_05_26
+#
+#
+#
+#
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>proz-6.bat
+########################################################---------------------------------------
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 stl-v-175.stl.htwsaar.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer stl-v-175.stl.htwsaar.de [2001:638:200:2:7374:76:aaaa:a037] mit 32 Bytes Daten:
+Zielhost nicht erreichbar.
+Zielhost nicht erreichbar.
+Zielhost nicht erreichbar.
+Zielhost nicht erreichbar.
+
+Ping-Statistik fuer 2001:638:200:2:7374:76:aaaa:a037:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 stl-s-stud.stl.htwsaar.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer stl-s-stud.stl.htwsaar.de [2001:638:200:2:7374:73:7377:1] mit 32 Bytes Daten:
+Antwort von 2001:638:200:2:7374:73:7377:1: Zeit=1ms
+Antwort von 2001:638:200:2:7374:73:7377:1: Zeit=1ms
+Antwort von 2001:638:200:2:7374:73:7377:1: Zeit=1ms
+Antwort von 2001:638:200:2:7374:73:7377:1: Zeit<1ms
+
+Ping-Statistik fuer 2001:638:200:2:7374:73:7377:1:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 0ms, Maximum = 1ms, Mittelwert = 0ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.htwsaar.de
+########################################################---------------------------------------
+Ping-Anforderung konnte Host "www.htwsaar.de" nicht finden. Ueberpruefen Sie den Namen, und versuchen Sie es erneut.
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.uni-saarland.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer webuni.rz.uni-saarland.de [2001:638:200:8fff::8660:7b3] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 2001:638:200:8fff::8660:7b3:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.uni-kaiserslautern.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer wta-web.rhrk.uni-kl.de [2001:638:208:ef61:0:ff:fe00:2] mit 32 Bytes Daten:
+Antwort von 2001:638:208:ef61:0:ff:fe00:2: Zeit=17ms
+Antwort von 2001:638:208:ef61:0:ff:fe00:2: Zeit=17ms
+Antwort von 2001:638:208:ef61:0:ff:fe00:2: Zeit=17ms
+Antwort von 2001:638:208:ef61:0:ff:fe00:2: Zeit=17ms
+
+Ping-Statistik fuer 2001:638:208:ef61:0:ff:fe00:2:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 17ms, Maximum = 17ms, Mittelwert = 17ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.dfn.de
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.dfn.de [2001:638:d:c102::140] mit 32 Bytes Daten:
+Antwort von 2001:638:d:c102::140: Zeit=18ms
+Antwort von 2001:638:d:c102::140: Zeit=18ms
+Antwort von 2001:638:d:c102::140: Zeit=18ms
+Antwort von 2001:638:d:c102::140: Zeit=18ms
+
+Ping-Statistik fuer 2001:638:d:c102::140:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 18ms, Maximum = 18ms, Mittelwert = 18ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.zeit.de
+########################################################---------------------------------------
+Ping-Anforderung konnte Host "www.zeit.de" nicht finden. Ueberpruefen Sie den Namen, und versuchen Sie es erneut.
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 ws-ber1.win-ip.dfn.de
+########################################################---------------------------------------
+Ping-Anforderung konnte Host "ws-ber1.win-ip.dfn.de" nicht finden. Ueberpruefen Sie den Namen, und versuchen Sie es erneut.
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6  www.nasa.gov
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer iznasa.hs.llnwd.net [2a02:3d0:623:a000::8008] mit 32 Bytes Daten:
+Antwort von 2a02:3d0:623:a000::8008: Zeit=9ms
+Antwort von 2a02:3d0:623:a000::8008: Zeit=9ms
+Antwort von 2a02:3d0:623:a000::8008: Zeit=9ms
+Antwort von 2a02:3d0:623:a000::8008: Zeit=9ms
+
+Ping-Statistik fuer 2a02:3d0:623:a000::8008:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 9ms, Maximum = 9ms, Mittelwert = 9ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6  www.nasa.com
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer nasa.com [2001:638:200:8fff::c040:9396] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 2001:638:200:8fff::c040:9396:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.washington.org
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.washington.org [2400:cb00:2048:1::6819:b822] mit 32 Bytes Daten:
+Antwort von 2400:cb00:2048:1::6819:b822: Zeit=9ms
+Antwort von 2400:cb00:2048:1::6819:b822: Zeit=9ms
+Antwort von 2400:cb00:2048:1::6819:b822: Zeit=9ms
+Antwort von 2400:cb00:2048:1::6819:b822: Zeit=9ms
+
+Ping-Statistik fuer 2400:cb00:2048:1::6819:b822:
+    Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
+    (0% Verlust),
+Ca. Zeitangaben in Millisek.:
+    Minimum = 9ms, Maximum = 9ms, Mittelwert = 9ms
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ping -6 www.sydney.com
+########################################################---------------------------------------
+
+Ping wird ausgefuehrt fuer www.sydney.com [2001:638:200:8fff::36fd:fd4d] mit 32 Bytes Daten:
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+Zeitueberschreitung der Anforderung.
+
+Ping-Statistik fuer 2001:638:200:8fff::36fd:fd4d:
+    Pakete: Gesendet = 4, Empfangen = 0, Verloren = 4
+    (100% Verlust),
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>
+########################################################---------------------------------------

@@ -1,0 +1,65 @@
+#
+#
+#
+#
+#   Dienst_in_inet-verwaltung_aufnehmen
+#  
+#
+#
+#
+
+
+1. Erzeuge input-Datei
+----------------------
+
+/tmp/inet.tftp
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+tftp    dgram   udp     wait    root    /usr/sbin/in.tftpd -s /tftpboot
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+2. importiere Datei in smf
+--------------------------
+
+stl-s-bup:root:/var/svc/manifest/network>inetconv -i /tmp/inet.tftp
++++++++++++++++++++++++++++++++++++++++++
+tftp -> /var/svc/manifest/network/tftp-udp.xml
+tftp-udp.xml wird importiert...Fertig
+
+
+
+
+
+
+stl-s-bup:root:/var/svc/manifest/network>inetadm | fgrep ftp
++++++++++++++++++++++++++++++++++++++++++
+enabled   online         svc:/network/ftp:default
+enabled   online         svc:/network/tftp/udp:default
+
+
+
+
+
+stl-s-bup:root:/var/svc/manifest/network>inetadm -l svc:/network/tftp/udp:def>
++++++++++++++++++++++++++++++++++++++++++
+SCOPE    NAME=VALUE
+         name="tftp"
+         endpoint_type="dgram"
+         proto="udp"
+         isrpc=FALSE
+         wait=TRUE
+         exec="/usr/sbin/in.tftpd /tftpboot"
+         arg0="-s"
+         user="root"
+default  bind_addr=""
+default  bind_fail_max=-1
+default  bind_fail_interval=-1
+default  max_con_rate=-1
+default  max_copies=-1
+default  con_rate_offline=-1
+default  failrate_cnt=40
+default  failrate_interval=60
+default  inherit_env=TRUE
+default  tcp_trace=FALSE
+default  tcp_wrappers=TRUE
+

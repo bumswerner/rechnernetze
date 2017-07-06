@@ -1,0 +1,394 @@
+Frame 1 (78 on wire, 78 captured)
+    Arrival Time: Apr  7, 2004 10:03:52.087384000
+    Time delta from previous packet: 0.000000000 seconds
+    Time relative to first packet: 0.000000000 seconds
+    Frame Number: 1
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230),
+                   Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0x0b97
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x7112 (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33467 (33467), 
+                               Dst Port: sink (9), 
+                               Seq: 2890914898, Ack: 0, Len: 0
+    Source port: 33467 (33467)
+    Destination port: sink (9)
+    Sequence number: 2890914898
+    Header length: 44 bytes
+    Flags: 0x0002 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgment: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 32850
+    Checksum: 0x03a6 (correct)
+    Options: (24 bytes)
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        Time stamp: tsval 16967567, tsecr 0
+        NOP
+        NOP
+        SACK permitted
+
+
+Frame 2 (78 on wire, 78 captured)
+    Arrival Time: Apr  7, 2004 10:03:52.088053000
+    Time delta from previous packet: 0.000669000 seconds
+    Time relative to first packet: 0.000669000 seconds
+    Frame Number: 2
+    Packet Length: 78 bytes
+    Capture Length: 78 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), 
+                   Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 64
+    Identification: 0xa7ad
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0xd8fb (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: sink (9), 
+                               Dst Port: 33467 (33467), 
+                               Seq: 3964432682, Ack: 2890914899, Len: 0
+    Source port: sink (9)
+    Destination port: 33467 (33467)
+    Sequence number: 3964432682
+    Acknowledgement number: 2890914899
+    Header length: 44 bytes
+    Flags: 0x0012 (SYN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x75ca (correct)
+    Options: (24 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 70199902, tsecr 16967567
+        Maximum segment size: 1460 bytes
+        NOP
+        Window scale: 1 bytes
+        NOP
+        NOP
+        SACK permitted
+
+
+Frame 3 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 10:03:52.088196000
+    Time delta from previous packet: 0.000143000 seconds
+    Time relative to first packet: 0.000812000 seconds
+    Frame Number: 3
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), 
+                   Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x0b98
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x711d (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33467 (33467), 
+                               Dst Port: sink (9), 
+                               Seq: 2890914899, Ack: 3964432683, Len: 0
+    Source port: 33467 (33467)
+    Destination port: sink (9)
+    Sequence number: 2890914899
+    Acknowledgement number: 3964432683
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0xb696 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 16967567, tsecr 70199902
+
+
+Frame 4 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 10:04:25.972734000
+    Time delta from previous packet: 33.884538000 seconds
+    Time relative to first packet: 33.885350000 seconds
+    Frame Number: 4
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), 
+                   Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x0b99
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x711c (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33467 (33467), 
+                               Dst Port: sink (9), 
+                               Seq: 2890914899, Ack: 3964432683, Len: 0
+    Source port: 33467 (33467)
+    Destination port: sink (9)
+    Sequence number: 2890914899
+    Acknowledgement number: 3964432683
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0xa958 (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 16970956, tsecr 70199902
+
+
+Frame 5 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 10:04:25.972958000
+    Time delta from previous packet: 0.000224000 seconds
+    Time relative to first packet: 33.885574000 seconds
+    Frame Number: 5
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), 
+                   Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xa7ae
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0xd906 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: sink (9), 
+                               Dst Port: 33467 (33467), 
+                               Seq: 3964432683, Ack: 2890914900, Len: 0
+    Source port: sink (9)
+    Destination port: 33467 (33467)
+    Sequence number: 3964432683
+    Acknowledgement number: 2890914900
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9c1b (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 70203291, tsecr 16970956
+
+
+Frame 6 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 10:04:25.974810000
+    Time delta from previous packet: 0.001852000 seconds
+    Time relative to first packet: 33.887426000 seconds
+    Frame Number: 6
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Source: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-c-03.htw-saarland.de (134.96.216.103), 
+                   Dst Addr: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0xa7af
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 60
+    Protocol: TCP (0x06)
+    Header checksum: 0xd905 (correct)
+    Source: stl-c-03.htw-saarland.de (134.96.216.103)
+    Destination: stl-m-wpy.htw-saarland.de (134.96.216.230)
+Transmission Control Protocol, Src Port: sink (9), 
+                               Dst Port: 33467 (33467), 
+                               Seq: 3964432683, Ack: 2890914900, Len: 0
+    Source port: sink (9)
+    Destination port: 33467 (33467)
+    Sequence number: 3964432683
+    Acknowledgement number: 2890914900
+    Header length: 32 bytes
+    Flags: 0x0011 (FIN, ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...1 = Fin: Set
+    Window size: 33304
+    Checksum: 0x9c1a (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 70203291, tsecr 16970956
+
+
+Frame 7 (66 on wire, 66 captured)
+    Arrival Time: Apr  7, 2004 10:04:25.976877000
+    Time delta from previous packet: 0.002067000 seconds
+    Time relative to first packet: 33.889493000 seconds
+    Frame Number: 7
+    Packet Length: 66 bytes
+    Capture Length: 66 bytes
+Ethernet II
+    Destination: 00:90:27:9f:f2:be (Intel_9f:f2:be)
+    Source: 00:90:27:8f:e9:00 (Intel_8f:e9:00)
+    Type: IP (0x0800)
+Internet Protocol, Src Addr: stl-m-wpy.htw-saarland.de (134.96.216.230), 
+                   Dst Addr: stl-c-03.htw-saarland.de (134.96.216.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 52
+    Identification: 0x0b9a
+    Flags: 0x04
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0x711b (correct)
+    Source: stl-m-wpy.htw-saarland.de (134.96.216.230)
+    Destination: stl-c-03.htw-saarland.de (134.96.216.103)
+Transmission Control Protocol, Src Port: 33467 (33467), 
+                               Dst Port: sink (9), 
+                               Seq: 2890914900, Ack: 3964432684, Len: 0
+    Source port: 33467 (33467)
+    Destination port: sink (9)
+    Sequence number: 2890914900
+    Acknowledgement number: 3964432684
+    Header length: 32 bytes
+    Flags: 0x0010 (ACK)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...1 .... = Acknowledgment: Set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..0. = Syn: Not set
+        .... ...0 = Fin: Not set
+    Window size: 33304
+    Checksum: 0x9c1a (correct)
+    Options: (12 bytes)
+        NOP
+        NOP
+        Time stamp: tsval 16970956, tsecr 70203291

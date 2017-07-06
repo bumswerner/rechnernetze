@@ -1,0 +1,55 @@
+---> FMRI
+ 
+---> svc:/network/rpc/gss:default
+/usr/lib/gss/gssd
+ 
+---> svc:/application/font/stfsloader:default
+/usr/lib/ST/stfsloader
+ 
+---> svc:/application/x11/xfs:default
+/usr/openwin/bin/xfs
+ 
+---> svc:/network/rpc/smserver:default
+/usr/lib/smedia/rpc.smserverd
+ 
+---> svc:/network/rpc/rstat:default
+/usr/lib/netsvc/rstat/rpc.rstatd
+ 
+---> svc:/network/rpc/rusers:default
+/usr/lib/netsvc/rusers/rpc.rusersd
+ 
+---> svc:/network/nfs/client:default
+ 
+---> svc:/network/security/ktkt_warn:default
+/usr/lib/krb5/ktkt_warnd
+ 
+---> svc:/network/telnet:default
+/usr/sbin/in.telnetd
+ 
+---> svc:/network/nfs/rquota:default
+/usr/lib/nfs/rquotad
+ 
+---> svc:/network/ftp:default
+/usr/sbin/in.ftpd\ -a
+ 
+---> svc:/network/finger:default
+/usr/sbin/in.fingerd
+ 
+---> svc:/network/login:rlogin
+/usr/sbin/in.rlogind
+ 
+---> svc:/network/shell:default
+/usr/sbin/in.rshd
+ 
+---> svc:/network/rpc-100235_1/rpc_ticotsord:default
+/usr/lib/fs/cachefs/cachefsd
+ 
+---> svc:/network/rpc-100083_1/rpc_tcp:default
+/usr/dt/bin/rpc.ttdbserverd
+ 
+---> svc:/network/rpc-100068_2-5/rpc_udp:default
+/usr/dt/bin/rpc.cmsd
+ 
+---> svc:/application/print/rfc1179:default
+/usr/lib/print/in.lpd
+ 

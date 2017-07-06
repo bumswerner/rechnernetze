@@ -1,0 +1,14 @@
+denzer:denzer@stl-s-mail.htw-saarland.de
+guettler:guettler@stl-s-mail.htw-saarland.de
+folz:"|exec /usr/bin/procmail -d folz"
+grabowski:grabowski@stl-s-mail.htw-saarland.de
+kretschmer:kretschmer@stl-s-mail.htw-saarland.de
+dweber:dweber@stl-s-mail.htw-saarland.de
+lehser:lehser@stl-s-mail.htw-saarland.de
+aurora:lehser
+marion.bohr:bohr@stl-s-mail.htw-saarland.de
+bohr:marion.bohr
+regina.piontek:regina.piontek@stl-s-mail.htw-saarland.de
+piontek: regina.piontek
+#
+stl:api,marion.bohr,denzer,folz,guettler,kretschmer,lehser,msa,wpy,regina.piontek,iris.ebner,holger.bast

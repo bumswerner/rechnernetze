@@ -1,0 +1,113 @@
+HELO mail.htw-saarland.de
+MAIL From: Donald.Duck@entenhausen.de
+RCPT TO:  i.patrick.schnurr@htw-saarland.de
+DATA
+Received: from mail1.entenland.org (mail1 147.11.08.15)
+        : by mail.htw-saarland.de(8.12.8/8.12.8) with ESMTP id HJHZTHDSJ
+        : for i.patrick.schnurr@htw-saarland.de
+Received: from donaldPC.entenland.org (donaldPC 177.77.77.77)
+        : by mail1.entenland.org(8.88.8/8.88.8) with ESMTP id HJHZTHDSJ
+        : for i.patrick.schnurr@htw-saarland.de
+Subject: WICHTIGE Entenhausen-Info ---> Ihr LOGIN- und MAIL-Passwort ist bekannt !!!!!
+To: i.patrick.schnurr@htw-saarland.de
+Disposition-Notification-To: Donald Duck <Donald.Duck@entenhausen.de>
+Reply-To:  Donald Duck <Donald.Duck@entenhausen.de>
+Organization: Ducks/Entenhausen/IT-Service-zentrum
+MIME-Version: 1.0
+X-Mailer: Shellscript von Trick
+X-Info_1: Das ist eine Simulierte spam-Mail
+X-Info_1: alles was im Mail Header steht ist gefaelscht
+X-Info_1: alles von hand eingetragen 
+X-Info_1: oh mann oh mann
+Content-Type: multipart/alternative;
+ boundary="------------040309010809010207070802"
+
+This is a multi-part message in MIME format.
+--------------040309010809010207070802
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Hallo und guten Tag Entenhausener Patrick Schnurr,
+
+*Sie gefaehrden im Moment die  Sicherheit unserer IT-Infrastruktur !!!!*
+
+Sie haben zu Beginn Ihres Studiums an der HTW Zugangsdaten
+fuer das STL/KIL-Labor erhalten, Sie nutzen unsere IT-Infrastruktur
+fuer Ihr Studium und moechten, dass diese immer funktioniert und
+Ihre Daten sicher sind.
+
+*Bitte aendern Sie so schnell wie moeglich Ihr Login-Passwort,
+das immer noch Ihrem leicht zu erratendem Standard-Passwort
+entspricht !!!*
+
+*Ansonsten sehen wir uns gezwungen Ihren Zugang zu unserem Labor
+ab dem 06. Februar 2014 zu sperren.*
+
+
+Ein gutes Passwort besteht aus Gross- + Kleinbuchstaben, Zahlen und 
+Sonderzeichen
+und ist mindesten 8 Zeichen lang.
+
+Hinweise, wie Sie Ihr Passwort im STL/KIL aendern, finden Sie unter :
+
+http://www-stl.htw-saarland.de/stl/stl-master.html
+
+
+Weiterhin ein erfolgreiches Studium
+
+              Das STL/KIL-Team
+
+
+--------------040309010809010207070802
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+Hallo und guten Tag Entenhausener Patrick Schnurr,<br>
+<br>
+<big><b><font color="#ff0000">Sie gef&auml;hrden im Moment die&nbsp; Sicherheit
+unserer IT-Infrastruktur !!!!</font></b></big><br>
+<br>
+Sie haben zu Beginn Ihres Studiums an der HTW Zugangsdaten<br>
+f&uuml;r das STL/KIL-Labor erhalten, Sie nutzen unsere IT-Infrastruktur <br>
+f&uuml;r Ihr Studium und m&ouml;chten, dass diese immer funktioniert und<br>
+Ihre Daten sicher sind.<br>
+<br>
+<b><big>Bitte &auml;ndern Sie so schnell wie m&ouml;glich Ihr <font
+ color="#ff0000">Login-Passwort,<br>
+das immer noch Ihrem leicht zu erratendem Standard-Passwort <br>
+entspricht !!!</font></big></b><br>
+<br>
+<font color="#3366ff"><big><b>Ansonsten sehen wir uns gezwungen Ihren
+Zugang zu unserem Labor <br>
+ab dem 06. Februar 2014&nbsp; zu sperren.</b></big><br>
+</font><br>
+<br>
+Ein gutes Passwort besteht aus Gro&szlig;- + Kleinbuchstaben, Zahlen und
+Sonderzeichen<br>
+und ist mindesten 8 Zeichen lang.<br>
+<br>
+Hinweise, wie Sie Ihr Passwort im STL/KIL &auml;ndern, finden Sie unter :<br>
+<br>
+<big><a href="http://www-stl.htw-saarland.de/stl/stl-master.html">http://www-stl.htw-saarland.de/stl/stl-master.html</a></big><br>
+<br>
+<br>
+Weiterhin ein erfolgreiches Studium<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Das STL/KIL-Team<br>
+<br>
+</body>
+</html>
+
+--------------040309010809010207070802--
+
+
+.
+QUIT
+
+
+

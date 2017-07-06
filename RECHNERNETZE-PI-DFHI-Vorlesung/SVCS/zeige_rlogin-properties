@@ -1,0 +1,11 @@
+#!/bin/ksh
+#
+#
+#
+# zeige_rlogin-properties_dienste
+#
+#
+#
+
+
+echo "listprop" | svccfg -v -s login:rlogin

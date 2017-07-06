@@ -1,0 +1,272 @@
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick         WS 2016/17
+    #######################################################################
+    
+    
+    LOESUNG zur 8. Uebung zur Vorlesung :  KI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-KI-Praktikum/ueb08/loesung08.txt
+    Protokolle : ~pauly/RECHNERNETZE-KI-Praktikum/ueb08/loesung08-daten
+
+    
+    In dieser Uebung sollen Sie mit Hilfe des Programmes --> wireshark <-- und
+    mit Hilfe des UNIX/LINUX-Kommandos --> tcpdump <-- den Netzwerkverkehr einer VM
+    unter Redhat/CentOS oder XUbuntu belauschen/sniffen/snoopen. 
+
+    Im Gegensatz zu wireshark, das eine komfortable GUI - Benutzerschnittstelle besitzt, ist 
+    tcpdump ein auf allen Unix/Linux-Systemen verfuegbares komplexes Netzwerk-Analyseprogramm 
+    mit CLI-Schnittstelle und damit universeller einsetzbar. 
+
+    Deshalb lesen Sie die Manualpage von tcpdump.
+
+    Lesen ausserdem den Wikipedia-Artikel zu tcpdump  und besuchen Sie die offizielle tcpdump-Website 
+              : http://www.tcpdump.org
+
+    Durch die verschiedenen Fragestellungen werden Sie ein Gefuehl fuer die Handhabung 
+    der Programme, deren Einsatzmoeglichkeiten zum Erkennen von Netzwerkproblemen kennenlernen
+    und Ihr Wissen ueber die in der Vorlesung besprochenen Protokolle vertiefen.
+    
+    
+    
+    Anmerkung : wenn im Folgenden von --> snooping oder snoopen <-- gesprochen wird, 
+                so ist die Benutzung der Programme --> wireshark und tcpdump <-- gemeint.
+                                                                 ^^^ 
+    
+    !!!!!  WICHTIG ---> geben Sie bei allen Aufgaben die von Ihnen genutzte tcpdump-Kommandozeile und 
+                        den von Ihnen genutzten Capture-Filter fuer wireshark an. 
+
+    
+    1. Aufgabe - ARP-snooping (nutzen sie Redhat/CentOS oder XUbuntu)
+    -----------------------------------------------------------------
+       - snoopen Sie eine erfolgreiche IP-Adressaufloesung; beschreiben Sie den Vorgang
+         anhand der Protokolle und den Veraenderungen im ARP-Cache.
+
+
+       ###> Kommandofolge : - arp -a    --> suche (Ziel)host der noch nicht in der ARP-Tabelle vorhanden ist
+                            - starte zuerst ein Network-Sniffing-Tool z.B. :
+                                  --> tcpdump -i eth0 -e -vv -S -A arp
+                                  --> wireshark - Capture-Filter : arp
+                            - dann kontaktiere den entfernten Rechner z.B. :
+                                  --> alle : ping -c 10 Zielhost
+                            - stoppe das Network-Sniffing
+                            - arp -a    --> suche Zielhost in der ARP-Tabelle
+
+            ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_ARP-Kommunikation-Mitschnitt-1)
+
+
+       ###>  Veraenderung in der ARP-Tabelle : die IP-Adresse und die Ethernetadresse des
+                                              entfernten Rechners werden in die Tabelle
+                                              aufgenommen.
+
+    
+       - snoopen Sie die NICHT erfolgreiche IP-Addressaufloesung zum 
+         Rechner stl-rn-test.htwsaar.de : 134.96.216.66 
+
+ 
+       ###> Kommandofolge : - arp -a    --> suche stl-rn-test.htwsaar.de in der ARP-Tabelle
+                            - starte zuerst ein Network-Sniffing-Tool z.B. :
+                                  --> tcpdump -i eth0 -e -vv -S -A arp
+                                  --> wireshark - Capture-Filter : arp
+                            - dann kontaktiere den entfernten Rechner z.B. :
+                                  --> alle : ping -c 1 stl-rn-test.htwsaar.de
+                            - stoppe das Network-Sniffing
+                            - arp -a    --> suche stl-rn-test.htwsaar.de in der ARP-Tabelle
+
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_ARP-Kommunikation-Mitschnitt-2)
+             (                                                    -- XUbuntu_ARP-Kommunikation-Mitschnitt-2)
+
+
+    
+              * Wieso wird eine IP-Adressaufloesung ueberhaupt angestossen?,
+
+        ###> IP-Adressermittlung von stl-rn-test.htwsaar.de  
+
+                                    nslookup stl-rn-test
+                                    Server:         134.96.216.249
+                                    Address:        134.96.216.249#53
+
+                                    Non-authoritative answer:
+                                    Name:   stl-rn-test.htwsaar.de
+                                    Address: 134.96.216.66
+
+         Mittels der Operation :
+                                 134.96.216.66 && 255.255.255.0 == 134.96.216.196  && 255.255.255.0
+         erkennt die Netzwerk-SW, dass der Rechner stl-rn-test.htwsaar.de im gleichen IP-Netzwerk und 
+         damit im gleichen LAN wie der Testrechner (stl-v-196) liegt.
+
+         Deshalb wird die Ethernet-Adresse des Rechners stl-rn-test.htwsaar.de benoetigt, also arp gestartet.
+
+    
+              * Wie oft und in welchen Zeitabstaenden probiert die ARP-Software
+                ihre Aufgabe zu erfuellen ?
+
+        ###> Es werden 3 arp-Requests verschickt, jeweils im Abstand von einer Sekunde.
+             (siehe Daten von vorheriger Aufgabe in -- CentOS_ARP-Kommunikation-Mitschnitt-2)
+             (                                      -- XUbuntu_ARP-Kommunikation-Mitschnitt-2)
+
+    
+              * Auf welche Fehler oder Zustaende fuehren Sie das erhaltene Versuchsergebnis
+                zurueck ?
+
+        ###> Moegliche Fehlerursachen :     - der Rechner ist aus
+                                            - es handelt sich um eine "Tote" IP-Adresse, d.h.
+                                              sie ist fuer einen Rechner vorgesehen, der noch nicht
+                                              am Netz ist.
+             weniger wahrscheinlich :       - die Ethernet-Karte bzw. die arp-SW des Rechners sendet
+                                              keine Antworten
+                                            - der Switch-Port, an dem der Rechner angeschlossen ist
+                                              ist gesperrt.
+
+    
+    
+
+
+    2. Aufgabe - ICMP-snooping 
+    -----------------------------------------------------
+       - snoopen Sie ein erfolgreiches --> ping hostname <--- Kommando
+
+       ###> Versuchsablauf:
+                           1. starte unter CentOS 
+
+                              tcpdump -i eth0 -e -vv -S -A 'icmp and ( dst Ziel-Host or src Ziel-Host )'
+                              Wireshark Capture-Filter : icmp and host Ziel-Host
+
+                           2. starte auf Ziel-Host 
+
+                              ping CentOS-VM
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_ping)
+             (                                                    -- Solaris_ping)
+             (                                                    -- Win10_ping)
+             (                                                    -- XUbuntu_ping)
+
+
+
+
+              * Wie oft sendet ping standardmaessig ein ICMP-Echo-Request und 
+                in welchen Zeitabstaenden ? ( unter Solaris, CentOS, XUbuntu, Win10 )
+    
+    
+       ###>  Ergebnis:
+
+               SOLARIS : Es wird 1 ICMP-Request verschickt, es kommt 1 ICMP-Echo-Reply an.
+               Redhat/CentOS, XUbuntu   : bei normalen ping unendlich viele ICMP-Request, bis Abbruch mit ^C
+               Windows : bei normalen ping  4 mal ICMP-Request
+
+    
+    
+    
+       - snoopen Sie folgende ping-Kommandos so, dass sie die Roundtrip-Zeiten (RTT) des 
+         ping-Kommandos mit den Zeitabstaenden der gesendeten und empfangenen 
+         ICMP-Nachrichten, die Sie via tcpdump/wireshark erhalten haben, vergleichen koennen.
+
+                 --> ping -c 1 -s 40 stl-s-stud.htwsaar.de
+                 --> ping -c 1 -s 40 www.zeit.de
+    
+       - verfahren Sie ebenso mit folgenden ping-Kommandos
+
+                 --> ping -c 1 -s 40000 stl-s-stud.htwsaar.de
+                 --> ping -c 1 -s 40000 www.zeit.de
+    
+    
+
+       ###> Versuchsablauf:
+                           1. starte unter CentOS 
+
+                              tcpdump -i eth0 -l -e -vv -S -A 'icmp and ( dst Ziel-Host or src Ziel-Host )' |\
+                                     tee -a Ausgabedatei
+                              Wireshark Capture-Filter : icmp and host Ziel-Host
+
+                           2. starte unter CentOS
+
+                              ping -c 1 -s 40 Ziel-Host
+                              ping -c 1 -s 40000 Ziel-Host
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_ping_40_stud)
+             (                                                    -- CentOS_ping_40000_stud)
+             (                                                    -- CentOS_ping_40_zeit)
+             (                                                    -- CentOS_ping_40000_zeit)
+
+         Erklaeren Sie die verschiedenen Laufzeiten fuer die ICMP-Nachrichten. 
+         Denken Sie an die Anzahl und Groesse der IP-Pakete etc.
+
+    
+       ###>  Ergebnis:
+
+             Laufzeit-Unterschiede zwischen den Zielhosts liegt an der Entfernung der Ziel-Hosts zur Quell-VM
+                  - stl-s-stud im gleichen (V)LAN == IP-Netzwerk
+                  - www.zeit.de liegt geographisch in Hamburg 
+    
+             Laufzeit-Unterschiede der unterschiedlich grossen Datenmengen die transportiert wurden
+                  - 40 == 40 Bytes Nutzlast in der ICMP-Nachricht 
+                    diese Nachricht wird zum Zielhost und zurück gesendet 
+                    dazu ist jeweils 1 IP-Dg noetig, das in 1 Ethernet-Frame verpackt wird,
+                    das bedeutet es wurden 2 IP-Dgs und dadurch auch 2 Ethernet-Frames erzeugt.
+
+                  - 40000 == 40000 Bytes Nutzlast in der ICMP-Nachricht
+                    diese Nachricht wird zum Zielhost und zurück gesendet 
+                    dazu ist jeweils 1 IP-Dg noetig, das in 28 Ethernet-Frames verpackt wird,
+                    das bedeutet es wurden 2 IP-Dgs und dadurch auch 56 Ethernet-Frames erzeugt.
+
+    
+    
+    
+    3. Aufgabe - Traceroute-snooping 
+    -----------------------------------------------------
+       - snoopen Sie das --> traceroute www-stl.htwsaar.de <--- Kommando
+         Denken Sie daran, dass Traceroute mit den Protokollen UDP und ICMP arbeitet.
+         Erlaeutern Sie anhand der Protokolle die Funktionsweise des 
+         traceroute-Programmes. 
+
+       ###> Versuchsablauf:
+               1. starte : tcpdump -i eth0 -l -e -vv -S 
+                                   -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  |\
+                           tee -a CentOS_traceroute_www-stl
+
+                           wireshark Capture-Filter : (icmp or udp ) and host www-stl.htwsaar.de
+
+
+               2. nehme parallel Kontakt auf : traceroute www-stl.htwsaar.de
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_traceroute_www-stl)
+
+       ###>  Ergebnis:
+
+               siehe Auswertdatei; es werden je 3 UDP-Pakete via IP ( mit IP-TTL = 1,2,3,4,5) sowie eins mit TTL = 6 
+                                   an die UDP-Ports 33434, 33435, 33436, ... verschickt, als Antwort liefert der Zielrechner
+                                   fuer die ersten 6 UDP-Dg je eine ICMP-Nachicht mit ICMP-Type : 3 + ICMP-Code : 3 also
+                                   Destination unreachable + UDP port 3343? unreachable
+                                   Da stl-www im gleichen IP-Netzwerk wie der Testrechner stl-v-196 wird kein Router 
+                                   in Anspruch genommen.
+
+
+    
+       - verfahren Sie ebenso mit --> traceroute www.uni-kaiserslautern.de <--
+    
+       ###> Versuchsablauf:
+               1. starte : tcpdump -i eth0 -l -e -vv -S 
+                                   -A '( icmp or ( udp and dst www.uni-kaiserslautern.de) )' |\
+                           tee -a CentOS_traceroute_uni-kaiserslautern
+
+                           wireshark Capture-Filter : icmp or ( udp and host www.uni-kaiserslautern.de)
+
+               2. nehme parallel Kontakt auf : traceroute www.uni-kaiserslautern.de
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_traceroute_uni-kaiserslautern*)
+
+       ###>  Ergebnis:
+               siehe Auswertdatei, es werden je 3 UDP-Pakete via IP mit IP-TTL = 1, ..., 8, sowie eins ,it TTL = 9 an
+                                   aufsteigende UPD-Ziel-Ports ( 33434, 33436 ... ) versendet.
+                                   Dabei melden sich bei TTL= 1 bis 7 jeweils Router mittels
+                                   einer ICMP-Nachricht mit ICMP-Type : 11 + ICMP-Code : 0 also
+                                   Time exceeded + in transit.
+
+
+              * Worin unterscheiden sich die beiden Protokolle und koennen 
+                Sie das erklaeren ? 
+    
+       ###>  beim ersten Versuch wir der Host direkt erreicht, deshalb kommt direkt die ICMP-port-unreachable Nachricht;
+             beim zweiten Versuch kommen zuerst ICMP-time exceeded-Nachrichten, denn zuerst muessen die Router
+             ueberquert werden, die bei Dekrementation von TTL auf 0, diese nachricht versenden.

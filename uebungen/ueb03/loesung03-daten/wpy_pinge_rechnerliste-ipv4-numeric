@@ -1,0 +1,18 @@
+#!/bin/ksh
+#
+#
+#   wpy_pinge_rechnerliste-ipv4-numeric
+#
+#
+#
+
+LISTE="stl-v-192.htwsaar.de stl-s-stud.htwsaar.de www.htwsaar.de www.uni-saarland.de www.uni-kaiserslautern.de www.dfn.de www.zeit.de ws-ber1.win-ip.dfn.de www.nasa.gov www.nasa.com www.washington.org www.sydney.com"
+
+
+for R in $LISTE
+  do
+    echo -e "\n\nvvvvvvvvvvvvv $R vvvvvvvvvvvvvvvvv"
+    echo "pauly:> ping -c 10 -s 40 -n $R"
+    echo "#######-------------------------------------------------------------------------"
+    ping -c 10 -s 40 -n $R
+  done | tee $0_protokoll_$(date +%Y_%m_%d)

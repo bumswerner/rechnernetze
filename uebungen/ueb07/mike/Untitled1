@@ -1,0 +1,14 @@
+netstat -gn -4
+
+Netsh
+------
+
+netsh (network shell) ist ein Programm für die Microsoft Windows NT-Linie, das das Konfigurieren von lokalen und entfernten Netzwerkeinstellungen ermöglicht.
+Eine häufige Einsatzmöglichkeit von netsh ist das Zurücksetzen des TCP/IP-Stacks, was unter Windows 98 noch einer Neuinstallation des TCP/IP-Adapters bedurfte.
+Netsh hat noch viele weitere Funktionen, so kann beispielsweise die IP-Konfiguration geändert werden.
+
+z.b:
+Alle Befehle anzeigen  => netsh ?
+
+Zurücksetzen des TCP/IP-Stacks => netsh interface ip reset c\:restlog.txt
+Verfügbare Schnittstellen anzeigen => netsh interface show interface

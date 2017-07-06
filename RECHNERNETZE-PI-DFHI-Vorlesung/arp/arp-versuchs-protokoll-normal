@@ -1,0 +1,72 @@
+#
+#
+# arp-versuchs-protokoll-normal
+# (Solaris)
+#
+
+
+
+
+Das Kommando --> snoop -v arp
+
+
+Die Ausgaben : 
+
+
+Using device /dev/iprb0 (promiscuous mode)
+
+.
+.
+.
+.
+.
+.
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 4 arrived at 12:27:42.67
+ETHER:  Packet size = 42 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:90:27:8f:e9:0, 
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:  
+ARP:  ----- ARP/RARP Frame -----
+ARP:  
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:90:27:8f:e9:0
+ARP:  Sender's protocol address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.102, stl-c-02.htw-saarland.de
+ARP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 5 arrived at 12:27:42.67
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = 0:90:27:8f:e9:0, 
+ETHER:  Source      = 0:90:27:9f:f2:4c, 
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:  
+ARP:  ----- ARP/RARP Frame -----
+ARP:  
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 2 (ARP Reply)
+ARP:  Sender's hardware address = 0:90:27:9f:f2:4c
+ARP:  Sender's protocol address = 134.96.216.102, stl-c-02.htw-saarland.de
+ARP:  Target hardware address = 0:90:27:8f:e9:0
+ARP:  Target protocol address = 134.96.216.230, stl-m-wpy.htw-saarland.de
+ARP:  
+
+.
+.
+.
+.
+.
+.

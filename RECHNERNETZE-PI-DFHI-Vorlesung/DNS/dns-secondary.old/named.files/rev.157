@@ -1,0 +1,12 @@
+; BIND version in.named LOCAL-981006.08/27/98M42 Tue Oct  6 00:52:42 PDT 1998
+; BIND version Generic-5.7-October 1998
+; zone '157.96.134.in-addr.arpa'   last serial 2000011401
+; from 134.96.160.103   at Fri Jan 21 14:09:59 2000
+$ORIGIN 96.134.in-addr.arpa.
+157		IN	SOA	htw.uni-sb.de. wpy.htw.uni-sb.de. (
+		2000012101 10800 3600 3600000 86400 )
+		IN	NS	ns.htw.uni-sb.de.
+		IN	NS	ns.rz.uni-sb.de.
+		IN	NS	ws-ber1.win-ip.dfn.de.
+		IN	NS	ns1.htw.uni-sb.de.
+		IN	NS	ns2.htw.uni-sb.de.

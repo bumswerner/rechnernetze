@@ -1,0 +1,22 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+evaluation-master.de	IN SOA	ns.rz.uni-saarland.de. hostmaster.rz.uni-saarland.de. (
+				2004010603 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+			NS	ns2.htw-saarland.de.
+			NS	deneb.dfn.de.
+			MX	50 m-relay.evaluation-master.de.
+$ORIGIN evaluation-master.de.
+localhost		A	127.0.0.1
+loopback		CNAME	localhost
+m-relay			A	134.96.7.8
+mail			A	134.96.208.98
+			MX	100 mail
+www			CNAME	www.htw-saarland.de.

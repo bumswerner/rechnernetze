@@ -1,0 +1,44 @@
+#
+#
+# Win10_arp-a.txt
+#
+#
+#
+
+
+C:\Users\pauly>arp -a
+###############-----------------------------------------
+
+Schnittstelle: 134.96.216.88 --- 0x3
+  Internetadresse       Physische Adresse     Typ
+  134.96.216.1          00-1c-f9-92-c4-00     dynamisch
+  134.96.216.111        00-1a-4a-16-01-a8     dynamisch
+  134.96.216.118        00-1a-4a-16-01-af     dynamisch
+  134.96.216.121        00-1a-4a-16-01-a9     dynamisch
+  134.96.216.123        00-1a-4a-16-01-ad     dynamisch
+  134.96.216.125        00-1a-4a-16-01-a4     dynamisch
+  134.96.216.128        00-1a-4a-16-01-a7     dynamisch
+  134.96.216.130        00-1a-4a-16-01-a3     dynamisch
+  134.96.216.155        00-0e-1e-b8-8e-00     dynamisch
+  134.96.216.170        00-1a-4a-16-01-a5     dynamisch
+  134.96.216.172        00-1a-4a-16-01-a1     dynamisch
+  134.96.216.174        00-1a-4a-16-01-a5     dynamisch
+  134.96.216.178        00-1a-4a-16-01-b3     dynamisch
+  134.96.216.193        00-1a-4a-16-01-b9     dynamisch
+  134.96.216.194        00-1a-4a-16-01-b8     dynamisch
+  134.96.216.195        00-1a-4a-16-01-a6     dynamisch
+  134.96.216.196        00-1a-4a-16-01-b5     dynamisch
+  134.96.216.205        00-03-ba-d2-7e-97     dynamisch
+  134.96.216.208        00-0b-5d-ab-c3-20     dynamisch
+  134.96.216.229        00-e0-00-c5-5f-56     dynamisch
+  134.96.216.231        00-03-ba-65-41-b7     dynamisch
+  134.96.216.247        00-23-18-1c-2d-87     dynamisch
+  134.96.216.249        00-03-ba-d2-7e-97     dynamisch
+  134.96.216.255        ff-ff-ff-ff-ff-ff     statisch
+  224.0.0.22            01-00-5e-00-00-16     statisch
+  224.0.0.252           01-00-5e-00-00-fc     statisch
+  239.255.255.250       01-00-5e-7f-ff-fa     statisch
+  255.255.255.255       ff-ff-ff-ff-ff-ff     statisch
+
+C:\Users\pauly>###
+###############-----------------------------------------

@@ -1,0 +1,74 @@
+#
+#
+#   Server_client_generierung ---> Beispiel Shell-Prozedur implementiert
+#
+#   Kommando-Abfolge zur Erzeugung einer Client-Server-Anwendung ueber
+#   den rpc-Mechanismus
+#
+#
+#
+
+# 1. Automatisches erzeugen der Client und Server stub's
+#
+#    rpcgen erzeugt aus der Schnittstellenbeschreibung rls.x
+#
+#    die Daten-Anpassungs-Funktionen : rls_xdr.c
+#    den Server-stub                 : rls_svc.c
+#    den Client-stub                 : rls_clnt.c
+#    die Include-Datei fuer die 
+#    Client und Server-Programme     : rls.h
+
+rpcgen rls.x
+read X?"rpcgen rls.x ist gelaufen -----> weiter ??? "
+
+# 2. Ubersetzen der einzelnen C-Programme
+#
+#
+
+#####  der xdr-Funktionen
+cc -c rls_xdr.c
+read X?"rls_xdr.c wurde uebersetzt -----> weiter ??? "
+
+#####  des Server-stub
+cc -c rls_svc.c
+read X?"rls_svc.c wurde uebersetzt -----> weiter ??? "
+
+#####  des Client-stub
+cc -c rls_clnt.c
+read X?"rls_clnt.c wurde uebersetzt -----> weiter ??? "
+
+#####  des Server-Programmes
+cc -c rls_server.c
+read X?"rls_server.c wurde uebersetzt -----> weiter ??? "
+
+#####  des Client-Programmes
+cc -c rls.c
+read X?"rlc.c wurde uebersetzt -----> weiter ??? "
+
+
+
+# 3. Binden des Client- (rls) und des Server-Programmes (rls_server)
+#
+#
+
+#####  binden des Client-Programmes
+cc -o rls rls_xdr.o rls_clnt.o rls.o -lnsl -lsocket
+read X?"rls wurde gebunden -----> weiter ??? "
+
+#####  binden des Server-Programmes
+cc -o rls_server rls_xdr.o rls_svc.o rls_server.o  -lnsl -lsocket
+read X?"rls_server wurde gebunden -----> weiter ??? "
+
+
+
+
+
+# 4. Starten des Servers auf einem beliebigen Rechner
+#
+#
+
+echo "\nStarte Server auf entfernter Maschine :\n"
+echo "rsh RECHNER /export/home_ch/wpy/internet-vorlesung/rpc/rls_server"
+
+
+echo "\nStarte Client :  \nrls RECHNER directory"

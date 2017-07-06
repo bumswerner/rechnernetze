@@ -1,0 +1,13 @@
+#
+#
+#
+# stud-centos-udp
+#
+#
+
+CentOS -> netio -u stl-v-117.htwsaar.de | tee stud-centos-udp
+#########----------------------------------------------------
+
+KEINERLEI AUSGABEN
+
+

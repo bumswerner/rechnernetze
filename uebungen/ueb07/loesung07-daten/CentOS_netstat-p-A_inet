@@ -1,0 +1,27 @@
+#
+#
+# CentOS_netstat-p-A_inet
+#
+#
+#
+
+
+pauly ::>  netstat -p -A inet
+##########-----------------------------------------
+(Es konnten nicht alle Prozesse identifiziert werden; Informationen über
+nicht-eigene Processe werden nicht angezeigt; Root kann sie anzeigen.)
+Aktive Internetverbindungen (ohne Server)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 stl-v-196.stl.ht:garcon stl-s-nfs-neu.:interact TIME_WAIT   -                   
+tcp        0      0 stl-v-196.stl.htw:39064 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:57876 stl-s-studwork.stl.:ssh VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:37017 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:37002 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:36991 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:37007 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htwsa:958 stl-s-nfs-neu.stl.h:nfs VERBUNDEN   -                   
+tcp        0      0 stl-v-196.stl.htw:37003 stl-s-proj2.stl.ht:ldap VERBUNDEN   -                   
+udp        0      0 stl-v-196.stl.htw:40838 static.204.207.76.1:ntp VERBUNDEN   -                   
+udp        0      0 stl-v-196.stl.htw:44128 stl-s-web.stl.htwsa:ntp VERBUNDEN   -                   
+udp        0      0 stl-v-196.stl.htw:52334 main.macht.org:ntp      VERBUNDEN   -                   
+udp        0      0 stl-v-196.stl.htw:44414 cloud.a-schieb.de:ntp   VERBUNDEN   -           

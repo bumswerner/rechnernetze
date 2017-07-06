@@ -1,0 +1,233 @@
+/*
+ *
+ * PalindromServer.java ---> kleines Bsp-Prg zur Kommunikation 
+ *                        ueber Sockets
+ *
+ *
+ *
+ */
+import java.net.*;
+import java.io.*;
+
+public class PalindromServer 
+{
+     private static final int    DEFAULT_PORT_NUMMER = 9999;
+     private static final String ENDE                = "ende";
+     private static final String SERVER_ANTWORT_ENDE = "^D";
+
+
+     private int    portNummer;
+
+
+  /*
+   *
+   *
+   *
+   *
+   */
+  public PalindromServer( int portNummer )
+         throws IOException
+  {
+           String testString, frageString, ergebnis;
+
+           ServerSocket   serverSocket;
+           Socket         bearbeitungsSocket;
+           PrintStream    socketOutputStream;
+           BufferedReader socketInputStream;
+
+    this.portNummer = portNummer;
+    
+    serverSocket = new ServerSocket( portNummer );
+
+    while( true )
+      {
+       try
+         {
+          bearbeitungsSocket = serverSocket.accept();
+
+          System.out.println( "\n\tHier die Merkmale des erzeugten Socket's : " +
+                              "\n\t- die lokale Server - Internet-Adresse       ---> " +
+                               bearbeitungsSocket.getLocalAddress() +
+                              "\n\t- die lokale Server - TCP - Portnummer       ---> " +
+                               bearbeitungsSocket.getLocalPort() +
+                              "\n\t- die lokale Server - Empfangs-Puffer-Größe  ---> " +
+                               bearbeitungsSocket.getReceiveBufferSize() +
+                              "\n\t- die lokale Server - Sende-Puffer-Größe     ---> " +
+                               bearbeitungsSocket.getSendBufferSize() +
+                              "\n\t- die entfernte Client - Internet-Adresse    ---> " +
+                               bearbeitungsSocket.getInetAddress() +
+                              "\n\t- die entfernte Client - TCP - Portnummer    ---> " +
+                               bearbeitungsSocket.getPort() +
+                              "\n\n"
+                            );
+         
+          socketInputStream = new BufferedReader ( new InputStreamReader(
+                                                         bearbeitungsSocket.getInputStream()
+                                                       )
+                                                 );
+
+          socketOutputStream = new PrintStream( bearbeitungsSocket.getOutputStream() );
+
+          frageString = anfrage( socketInputStream );
+          while ( frageString != null )
+            {
+             ergebnis = ueberpruefe( frageString );
+             antwort( socketOutputStream, ergebnis ); 
+             frageString = anfrage( socketInputStream );
+            }
+          socketInputStream.close();
+          socketOutputStream.close();
+          bearbeitungsSocket.close();
+         }
+       catch ( IOException ioe )
+         {
+          System.err.println( "\n\nDas Schreiben auf den Socket zum Client " + 
+                              " erzeugte einen Fehler !!!! \n" +
+                              "\nDie Exception : \n" + ioe  +
+                              "\n\nDer Stacktrace : \n"
+                            );
+          ioe.printStackTrace();
+          System.err.println( "\n\n" );
+          serverSocket.close();
+          System.exit( -1 );
+         }
+      }
+  }
+
+
+  /*
+   *
+   *
+   *
+   *
+   */
+  private String anfrage( BufferedReader socketInputStream )
+          throws IOException
+  {
+    String clientFrage = socketInputStream.readLine();
+
+    if ( !clientFrage.equalsIgnoreCase( ENDE ) )
+      {
+       return clientFrage;
+      }
+    else
+      {
+       return null;
+      }
+  }
+
+
+  /*
+   *
+   *
+   *
+   *
+   */
+  private String ueberpruefe( String frageString )
+  {
+    String reverse = new String( new StringBuffer( frageString ).reverse() );
+    String ergebnis;
+
+    if ( frageString.equalsIgnoreCase( reverse ) )
+      {
+       ergebnis =  new String( "\n\tDer zu Überprüfende String -->" + frageString +
+                               "<--" +
+                               "\n\tist ein P A L I N D R O M denn " +
+                               "\n\tder resultierende gedrehte String -->" + reverse +
+                               "<--" +
+                               "\n\tist mit ihm bis auf die Gross- Kleinschreibung identisch !!!" +
+                               "\n"
+                             );
+      }
+    else
+      {
+       ergebnis =  new String( "\n\tDer zu Überprüfende String -->" + frageString +
+                               "<--" +
+                               "\n\tist ein KEIN P A L I N D R O M denn " +
+                               "\n\tder resultierende gedrehte String -->" + reverse +
+                               "<--" +
+                               "\n\tist mit ihm NICHT identisch !!!" +
+                               "\n"
+                             );
+      }
+    return ergebnis;
+  }
+
+
+  /*
+   *
+   *
+   *
+   *
+   */
+  private void antwort( PrintStream socketOutputStream, String ergebnis )
+          throws IOException
+  {
+   socketOutputStream.println( ergebnis );
+   socketOutputStream.println( SERVER_ANTWORT_ENDE );
+  }
+
+
+
+  /*
+   *
+   *
+   *
+   *
+   */
+  public static void main( String[] args ) 
+  {
+       PalindromServer server;
+
+       int    portNummer = DEFAULT_PORT_NUMMER;
+
+       final int MIN_PARAMERTER_ANZAHL = 0;
+       final int MAX_PARAMERTER_ANZAHL = 1;
+
+       boolean parameterOk = (args.length <= MAX_PARAMERTER_ANZAHL);
+
+     switch ( args.length )
+       {
+        case MAX_PARAMERTER_ANZAHL :
+             try
+               {
+                portNummer = Integer.parseInt( args[MAX_PARAMERTER_ANZAHL - 1 ] );
+               }
+             catch ( NumberFormatException nex )
+               {
+                System.err.println("\nDie angegebene Port-Nummer läßt sich " +
+                                   "\nNICHT in eine Zahl umwandeln !!!!\n"
+                                  );
+               }
+       }
+
+
+      
+     if ( parameterOk )
+       {
+        try
+          {
+           server = new PalindromServer( portNummer );
+          }
+        catch ( IOException ioe)
+          {
+           System.err.println( "\n\nFehler beim Schließen des Server-Sockets !!!\n" +
+                               "\nDie Exception : \n" + ioe  +
+                               "\n\nDer Stacktrace : \n"
+                             );
+           ioe.printStackTrace();
+           System.err.println( "\n\n" );
+          }
+
+        System.exit(0);
+       }
+     else
+       {
+        System.err.println("\nDas Programm ist wie folgt zu starten : " +
+                           "\n\tjava PalindromServer [portnummer]\n\n"
+                          );
+        System.exit(1);
+       }
+  }
+
+}

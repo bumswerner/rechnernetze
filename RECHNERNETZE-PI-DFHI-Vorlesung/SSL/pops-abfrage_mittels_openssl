@@ -1,0 +1,120 @@
+#
+#
+#
+#
+#   pops-abfrage_mittels_openssl
+#
+#
+#
+
+
+wpy@stl-c-master::>openssl s_client -host pop.htw-saarland.de -port 995                        <
+###################----------------------------------------------------
+
+CONNECTED(00000004)
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-pop.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=20:unable to get local issuer certificate
+verify return:1
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-pop.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=27:certificate not trusted
+verify return:1
+depth=0 /C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-pop.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+verify error:num=21:unable to verify the first certificate
+verify return:1
+---
+Certificate chain
+ 0 s:/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-pop.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+   i:/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=Server CA/emailAddress=Wolfgang.Pauly@htw-saarland.de
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEbTCCA9agAwIBAgIBAjANBgkqhkiG9w0BAQQFADCBmjELMAkGA1UEBhMCREUx
+ETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNV
+BAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDESMBAGA1UEAxMJU2VydmVyIENBMS0w
+KwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUwHhcN
+MDMwOTE2MTAzODU3WhcNMTMwOTEzMTAzODU3WjCBqDELMAkGA1UEBhMCREUxETAP
+BgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNVBAoT
+A0hUVzEQMA4GA1UECxMHR0lTL1NUTDEgMB4GA1UEAxMXc3RsLXBvcC5odHctc2Fh
+cmxhbmQuZGUxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFy
+bGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyPWDBrx1HkvnYi+j
+0/NFikRsl5HqpEBYNYkWP7jNYiWFy3yZQ9jtiAFYW36POoVuxBeXmPKdYWKaImop
+bqgl4DXownNy0N+z6wWIeBYMU+rPadVEdUF2dqHiyEnT+uAcScJDLbUeLIqstM+l
+7oMfjsgVgY4oSh73K5uhOXNU2e0CAwEAAaOCAbEwggGtMAsGA1UdDwQEAwIFoDAd
+BgNVHQ4EFgQUBPEqOGp1cUqw/X6MY3YvwDe+5BQwgcwGA1UdIwSBxDCBwYAUwSQO
+VP+FcU4CcFGd8968beD00z6hgaWkgaIwgZ8xCzAJBgNVBAYTAkRFMREwDwYDVQQI
+EwhTYWFybGFuZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcx
+EDAOBgNVBAsTB0dJUy9TVEwxFzAVBgNVBAMTDldvbGZnYW5nIFBhdWx5MS0wKwYJ
+KoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGWCAQEwKQYD
+VR0RBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMCkGA1UdEgQi
+MCCBHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTARBglghkgBhvhCAQEE
+BAMCBkAwRwYJYIZIAYb4QgENBDoWOERpZXNlcyBaZXJ0aWZpa2F0IHd1cmRlIGR1
+cmNoIEhUVy9HSVMvU1RMIGF1c2dlZ2ViZW4gISEKMA0GCSqGSIb3DQEBBAUAA4GB
+AJ17I/hInPRbibI+jm/ikMtsTCcFTNps9KeQSe58czZ4jxhUqofk4hVOq7jMcrhQ
+rlNV+BNC365w2c4zr+iDsw7O66uu81xl7TYvE85/uE0gHlhaIBeves6MpxTonooY
+t2R3iI0mrDXJ+BErSAXDtpmLOX/WpRr+5nJ63wE2Smb5
+-----END CERTIFICATE-----
+subject=/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=stl-pop.htw-saarland.de/emailAddress=Wolfgang.Pauly@htw-saarland.de
+issuer=/C=DE/ST=Saarland/L=Saarbruecken/O=HTW/OU=GIS/STL
+        /CN=Server CA/emailAddress=Wolfgang.Pauly@htw-saarland.de
+---
+No client certificate CA names sent
+---
+SSL handshake has read 1291 bytes and written 323 bytes
+---
+New, TLSv1/SSLv3, Cipher is DES-CBC3-SHA
+Server public key is 1024 bit
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : DES-CBC3-SHA
+    Session-ID: A341083CED58270354E6196D5792C98CA6052DAB0D8266D1E62F45C976F53B67
+    Session-ID-ctx: 
+    Master-Key: 2F5001207E20CB80C61660D3C0741C93C276E4BE822A03F7F38FFC4012BF2F06103946960B7A60E46272E3E9EA01ADDF
+    Key-Arg   : None
+    Start Time: 1253604114
+    Timeout   : 300 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---
++OK Qpopper (version 4.0.9) at stl-s-mail starting.  
+
+user gast-40
+############
+
++OK Password required for gast-40.
+
+pass XXxxxXX
+############
+
++OK gast-40 has 65 visible messages (0 hidden) in 1122444 octets.
+
+list
+############
+
++OK 65 visible messages (1122444 octets)
+1 758
+2 779
+3 1482
+4 33249
+5 9096
+6 8166
+7 8452
+8 2265
+9 11148
+...
+62 6825
+63 6318
+64 1464
+65 629623
+.
+
+quit
+#####
+
++OK Pop server at stl-s-mail signing off.
+closed
+

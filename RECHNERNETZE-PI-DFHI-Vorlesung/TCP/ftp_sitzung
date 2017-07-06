@@ -1,0 +1,108 @@
+#
+#
+#
+#
+#  ftp_sitzung
+#
+#
+#
+
+Lokaler Rechner :
+-----------------
+
+     stl-m-wpy:wpy:Internet/internet-vorlesung/TCP>
+
+
+Das Kommando :
+--------------
+     ftp -d stl-c-03
+
+
+Das Sitzungs-Protokoll
+----------------------
+
+Connected to stl-c-03.htw-saarland.de.
+220-
+220-
+220-
+220-              __      __   __________   __      __
+220-             |  |    |  | |          | |  |    |  |
+220-             |  |    |  | |__________| |  |    |  |
+220-             |  | __ |  |      __      |  |    |  |
+220-             |  ||  ||  |     |  |     |  | __ |  |
+220-             |  ||__||  |     |  |     |  ||  ||  |
+220-             |  |    |  |     |  |     |  ||  ||  |
+220-             |  |    |  |     |  |     |  ||  ||  |
+220-             |__|    |__|     |__|     |__||__||__|
+220-
+220-             Hochschule fuer Technik und Wirtschaft
+220-                        des Saarlandes
+220-
+220-
+220-                        Fachbereich GIS
+220-
+220-              Grundlagen Informatik Sensortechnik
+220-
+220-
+220-                      Systemtechnik-Labor
+220-
+220-
+220-
+220 stl-c-03.htw-saarland.de FTP server ready.
+
+Name (stl-c-03:wpy): 
+---> USER wpy
+
+331 Password required for wpy.
+Password:
+---> PASS XXXX
+230 User wpy logged in.
+---> SYST
+215 UNIX Type: L8 Version: SUNOS
+Remote system type is UNIX.
+---> TYPE I
+200 Type set to I.
+Using binary mode to transfer files.
+
+ftp> dir
+---> PORT 134,96,216,230,130,202
+200 PORT command successful.
+---> TYPE A
+200 Type set to A.
+---> LIST
+150 Opening ASCII mode data connection for /bin/ls.
+Gesamt 3242
+drwxr-xr-x   5 wpy      stl          512 Mär  6  2003 ...
+-rw-r--r--   1 wpy      stl         9426 Okt 18  1994 .4Dwmrc
+.
+.
+.
+-rw-------   1 wpy      stl        11069 Sep 24  2003 wpy-spam
+...
+-rw-r--r--   1 wpy      stl          299 Nov 11 07:05 yy
+226 Transfer complete.
+19730 bytes received in 1,8 seconds (10,58 Kbytes/s)
+---> TYPE I
+200 Type set to I.
+
+
+ftp> binary
+---> TYPE I
+200 Type set to I.
+
+ftp> get wpy-spam
+---> PORT 134,96,216,230,130,203
+200 PORT command successful.
+---> RETR wpy-spam
+150 Opening BINARY mode data connection for wpy-spam (11069 bytes).
+226 Transfer complete.
+local: wpy-spam remote: wpy-spam
+11069 bytes received in 0,029 seconds (370,91 Kbytes/s)
+
+ftp> bye
+---> QUIT
+221-You have transferred 11069 bytes in 1 files.
+221-Total traffic for this session was 31417 bytes in 2 transfers.
+221-Thank you for using the FTP service on stl-c-03.htw-saarland.de.
+221 Goodbye.
+

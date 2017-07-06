@@ -1,0 +1,19 @@
+#
+#
+# CentOS_arp-a
+#
+#
+#
+
+
+pauly ::> arp -a      
+##########-----------------------------------------
+stl-s-studwork.stl.htwsaar.de (134.96.216.212) auf 00:0b:5d:ab:c3:20 [ether] auf eth0
+stl-nas-c1.stl.htwsaar.de (134.96.216.164) auf a0:36:9f:26:04:eb [ether] auf eth0
+kil-s-01.stl.htwsaar.de (134.96.216.54) auf e8:06:88:cc:b1:69 [ether] auf eth0
+rtg216-0.stl.htwsaar.de (134.96.216.1) auf 00:1c:f9:92:c4:00 [ether] auf eth0
+stl-s-nfs-neu.stl.htwsaar.de (134.96.216.250) auf a0:36:9f:26:04:eb [ether] auf eth0
+stl-s-proj2.stl.htwsaar.de (134.96.216.234) auf 00:14:4f:0f:5e:bc [ether] auf eth0
+stl-s-dns1.stl.htwsaar.de (134.96.216.249) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+stl-s-web.stl.htwsaar.de (134.96.216.235) auf 00:03:ba:65:39:97 [ether] auf eth0
+

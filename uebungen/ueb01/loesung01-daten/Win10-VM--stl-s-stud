@@ -1,0 +1,56 @@
+#
+#
+#
+#  Win10-VM--stl-s-stud
+#
+#
+#
+
+
+C:\netio132\bin> win32-i386.exe -t stl-s-stud.htwsaar.de
+################-----------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  66.23 MByte/s Tx,  102.77 MByte/s Rx.
+Packet size  2k bytes:  56.25 MByte/s Tx,  95.83 MByte/s Rx.
+Packet size  4k bytes:  97.86 MByte/s Tx,  110.06 MByte/s Rx.
+Packet size  8k bytes:  112.55 MByte/s Tx,  109.12 MByte/s Rx.
+Packet size 16k bytes:  110.42 MByte/s Tx,  109.88 MByte/s Rx.
+Packet size 32k bytes:  112.33 MByte/s Tx,  111.85 MByte/s Rx.
+Done.
+
+
+C:\netio132\bin> win32-i386.exe -u stl-s-stud.htwsaar.de
+################-----------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  54.02 MByte/s (0%) Tx,  72.12 MByte/s (18%) Rx.
+Packet size  2k bytes:  74.57 MByte/s (6%) Tx,  60.88 MByte/s (83%) Rx.
+Packet size  4k bytes:  91.83 MByte/s (28%) Tx,  31.34 MByte/s (94%) Rx.
+Packet size  8k bytes:  77.18 MByte/s (0%) Tx,  8165.03 KByte/s (99%) Rx.
+Packet size 16k bytes:  96.33 MByte/s (0%) Tx,  294.18 KByte/s (99%) Rx.
+Packet size 32k bytes:  70.02 MByte/s (42%) Tx,  0 Byte/s (100%) Rx.
+Done.
+
+
+C:\netio132\bin> win32-i386.exe -u stl-s-stud.htwsaar.de
+################-----------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  55.13 MByte/s (0%) Tx,  57.21 MByte/s (28%) Rx.
+Packet size  2k bytes:  79.42 MByte/s (0%) Tx,  58.08 MByte/s (84%) Rx.
+Packet size  4k bytes:  94.91 MByte/s (20%) Tx,  45.08 MByte/s (92%) Rx.
+Packet size  8k bytes:  55.27 MByte/s (1%) Tx,  7391.31 KByte/s (99%) Rx.
+Packet size 16k bytes:  100.02 MByte/s (0%) Tx,  316.56 KByte/s (99%) Rx.
+Packet size 32k bytes:  101.62 MByte/s (11%) Tx,  0 Byte/s (100%) Rx.
+Done.
+

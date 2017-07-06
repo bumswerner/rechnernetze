@@ -1,0 +1,83 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+210.96.134.in-addr.arpa	IN SOA	ns.rz.uni-saarland.de. net.rz.uni-saarland.de. (
+				2012012001 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				300        ; minimum (5 minutes)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.rz.uni-saarland.de.
+			LOC	49 15 27.000 N 7 2 42.000 E 80.00m 2000m 2000m 10m
+$ORIGIN 210.96.134.in-addr.arpa.
+1			PTR	rtg210-0.htw-saarland.de.
+101			PTR	bi-aris.htw-saarland.de.
+103			PTR	zdve-p-t610.htw-saarland.de.
+104			PTR	zdve-p-w812.htw-saarland.de.
+105			PTR	zdve-p-lq2180.htw-saarland.de.
+119			PTR	bi-scan.htw-saarland.de.
+120			PTR	bi-p-edi3par.htw-saarland.de.
+129			PTR	rtg210-128.htw-saarland.de.
+13			PTR	tzsb-mit4.htw-saarland.de.
+130			PTR	wiwi-rom.htw-saarland.de.
+131			PTR	saprouter.htw-saarland.de.
+132			PTR	evaweb.htw-saarland.de.
+133			PTR	stdservice.htw-saarland.de.
+134			PTR	bewerber.htw-saarland.de.
+135			PTR	alumni.htw-saarland.de.
+136			PTR	bkurs.htw-saarland.de.
+138			PTR	dfhi-web.htw-saarland.de.
+139			PTR	itz-mail-test.htw-saarland.de.
+14			PTR	tzsb-stud1.htw-saarland.de.
+140			PTR	profservice.htw-saarland.de.
+141			PTR	itz-mail.htw-saarland.de.
+142			PTR	enalgae.htw-saarland.de.
+187			PTR	myrpc009934uni.htw-saarland.de.
+188			PTR	whw-wi-al1.htw-saarland.de.
+193			PTR	rtg210-192.htw-saarland.de.
+238			PTR	sp-foerster.htw-saarland.de.
+239			PTR	sp-foerster-drucker.htw-saarland.de.
+253			PTR	sowi-fs.htw-saarland.de.
+3			PTR	bfw-ta01.htw-saarland.de.
+33			PTR	rtg210-32.htw-saarland.de.
+34			PTR	e-plt-server.htw-saarland.de.
+35			PTR	e-plt-fp.htw-saarland.de.
+36			PTR	e-plt-nas.htw-saarland.de.
+37			PTR	e-plt-nb1.htw-saarland.de.
+38			PTR	e-plt-nb2.htw-saarland.de.
+39			PTR	e-plt-nb3.htw-saarland.de.
+4			PTR	bfw-ta02.htw-saarland.de.
+40			PTR	plt-server.htw-saarland.de.
+41			PTR	e-plt-pc1.htw-saarland.de.
+42			PTR	e-plt-pc2.htw-saarland.de.
+43			PTR	e-plt-pc3.htw-saarland.de.
+44			PTR	e-plt-pc4.htw-saarland.de.
+45			PTR	e-plt-pc5.htw-saarland.de.
+46			PTR	e-plt-pc6.htw-saarland.de.
+47			PTR	e-plt-pc7.htw-saarland.de.
+48			PTR	e-plt-pc8.htw-saarland.de.
+49			PTR	e-plt-pc9.htw-saarland.de.
+5			PTR	tzsb-mit3.htw-saarland.de.
+50			PTR	e-plt-pc10.htw-saarland.de.
+51			PTR	e-plt-pc11.htw-saarland.de.
+52			PTR	e-plt-pc12.htw-saarland.de.
+53			PTR	e-plt-pc13.htw-saarland.de.
+54			PTR	e-plt-pc14.htw-saarland.de.
+55			PTR	e-plt-pc15.htw-saarland.de.
+56			PTR	e-plt-pc16.htw-saarland.de.
+57			PTR	e-plt-pc17.htw-saarland.de.
+58			PTR	e-plt-pc18.htw-saarland.de.
+59			PTR	e-plt-pc19.htw-saarland.de.
+6			PTR	tzsb-firewall.htw-saarland.de.
+60			PTR	e-plt-pc20.htw-saarland.de.
+61			PTR	e-plt-pc21.htw-saarland.de.
+62			PTR	e-plt-prt.htw-saarland.de.
+65			PTR	rtg210-64.htw-saarland.de.
+66			PTR	zdve2000s1.htw-saarland.de.
+67			PTR	dongle-server.htw-saarland.de.
+68			PTR	zdve-prototyp.htw-saarland.de.
+69			PTR	zdve2003s1.htw-saarland.de.
+7			PTR	tzsb-notebook.htw-saarland.de.
+8			PTR	wetter.htw-saarland.de.

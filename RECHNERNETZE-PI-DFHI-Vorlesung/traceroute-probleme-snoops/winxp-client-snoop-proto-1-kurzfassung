@@ -1,0 +1,804 @@
+###########################
+###########################
+tracert-Protokoll von WinXP
+###########################
+###########################
+
+
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 3840)
+ICMP:  Checksum = e6ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 4096)
+ICMP:  Checksum = e5ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 4352)
+ICMP:  Checksum = e4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 1:80:c2:0:0:0, (multicast)
+ETHER:  Source      = 0:12:43:b4:54:19, 
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 4608)
+ICMP:  Checksum = e3ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 4864)
+ICMP:  Checksum = e2ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 2 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 5120)
+ICMP:  Checksum = e1ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 254 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 3 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 5376)
+ICMP:  Checksum = e0ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 253 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 3 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 5632)
+ICMP:  Checksum = dfff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 253 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 3 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 5888)
+ICMP:  Checksum = deff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 253 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 4 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 6144)
+ICMP:  Checksum = ddff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 252 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 4 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 6400)
+ICMP:  Checksum = dcff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 252 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 4 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 6656)
+ICMP:  Checksum = dbff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 252 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 5 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 6912)
+ICMP:  Checksum = daff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 251 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = 1a2b
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 5 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 7168)
+ICMP:  Checksum = d9ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 251 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = 1531
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 5 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 7424)
+ICMP:  Checksum = d8ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 251 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = 1531
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 6 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 7680)
+ICMP:  Checksum = d7ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 6 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 7936)
+ICMP:  Checksum = d6ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 6 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 8192)
+ICMP:  Checksum = d5ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 7 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 8448)
+ICMP:  Checksum = d4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 7 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 8704)
+ICMP:  Checksum = d3ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 7 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 8960)
+ICMP:  Checksum = d2ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 249 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 8 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 9216)
+ICMP:  Checksum = d1ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 8 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 9472)
+ICMP:  Checksum = d0ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 8 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 9728)
+ICMP:  Checksum = cfff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 9 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 9984)
+ICMP:  Checksum = ceff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 9 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 10240)
+ICMP:  Checksum = cdff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 9 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 10496)
+ICMP:  Checksum = ccff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 246 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 10 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 10752)
+ICMP:  Checksum = cbff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 245 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 10 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11008)
+ICMP:  Checksum = caff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 245 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 10 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11264)
+ICMP:  Checksum = c9ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 245 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 11 (Time exceeded)
+ICMP:  Code = 0 (in transit)
+ICMP:  Checksum = f4ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 11 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11520)
+ICMP:  Checksum = c8ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 53 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 0 (Echo reply)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11520)
+ICMP:  Checksum = d0ff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 11 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11776)
+ICMP:  Checksum = c7ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 53 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 0 (Echo reply)
+ICMP:  Code = 0 (ID: 512 Sequence number: 11776)
+ICMP:  Checksum = cfff
+ICMP:  
+
+
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+IP:   Time to live = 11 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 8 (Echo request)
+ICMP:  Code = 0 (ID: 512 Sequence number: 12032)
+ICMP:  Checksum = c6ff
+ICMP:  
+
+
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+IP:   Time to live = 53 seconds/hops
+IP:   Protocol = 1 (ICMP)
+ICMP:  ----- ICMP Header -----
+ICMP:  
+ICMP:  Type = 0 (Echo reply)
+ICMP:  Code = 0 (ID: 512 Sequence number: 12032)
+ICMP:  Checksum = ceff
+ICMP:  

@@ -1,0 +1,24 @@
+
+#
+#
+#
+# redhat-win10-tcp
+#
+#
+
+
+redhat ::> netio-redhat -t stl-v-111.htwsaar.de | tee redhat-win10-tcp 
+###########-----------------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  171.42 MByte/s Tx,  67.44 MByte/s Rx.
+Packet size  2k bytes:  213.33 MByte/s Tx,  68.69 MByte/s Rx.
+Packet size  4k bytes:  216.71 MByte/s Tx,  109.89 MByte/s Rx.
+Packet size  8k bytes:  222.05 MByte/s Tx,  240.10 MByte/s Rx.
+Packet size 16k bytes:  240.96 MByte/s Tx,  295.65 MByte/s Rx.
+Packet size 32k bytes:  251.46 MByte/s Tx,  329.44 MByte/s Rx.
+Done.

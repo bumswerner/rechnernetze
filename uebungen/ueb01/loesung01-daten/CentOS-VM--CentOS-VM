@@ -1,0 +1,56 @@
+#
+#
+#
+# CentOS-VM--CentOS-VM
+#
+#
+#
+
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -t localhost
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  804.95 MByte/s Tx,  916.65 MByte/s Rx.
+Packet size  2k bytes:  1.156 GByte/s Tx,  1.349 GByte/s Rx.
+Packet size  4k bytes:  1.613 GByte/s Tx,  1.678 GByte/s Rx.
+Packet size  8k bytes:  1.984 GByte/s Tx,  1.934 GByte/s Rx.
+Packet size 16k bytes:  2.146 GByte/s Tx,  2.017 GByte/s Rx.
+Packet size 32k bytes:  2.154 GByte/s Tx,  2.149 GByte/s Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -t 134.96.216.149
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  836.56 MByte/s Tx,  846.55 MByte/s Rx.
+Packet size  2k bytes:  1.213 GByte/s Tx,  1.252 GByte/s Rx.
+Packet size  4k bytes:  1.619 GByte/s Tx,  1.733 GByte/s Rx.
+Packet size  8k bytes:  2.038 GByte/s Tx,  2.128 GByte/s Rx.
+Packet size 16k bytes:  2.257 GByte/s Tx,  1.995 GByte/s Rx.
+Packet size 32k bytes:  2.063 GByte/s Tx,  2.128 GByte/s Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132> netio -t stl-v-149.htwsaar.de
+######################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  844.85 MByte/s Tx,  803.70 MByte/s Rx.
+Packet size  2k bytes:  1.356 GByte/s Tx,  1.194 GByte/s Rx.
+Packet size  4k bytes:  1.671 GByte/s Tx,  1.678 GByte/s Rx.
+Packet size  8k bytes:  2.080 GByte/s Tx,  2.033 GByte/s Rx.
+Packet size 16k bytes:  2.117 GByte/s Tx,  2.046 GByte/s Rx.
+Packet size 32k bytes:  1.925 GByte/s Tx,  2.186 GByte/s Rx.
+Done.
+
+paulypi16@stl-centos:ueb01-2017/netio132>
+######################-----------------------------------------------------------------

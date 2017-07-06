@@ -1,0 +1,191 @@
+ETHER:  ----- Ether Header -----             solC-linC-tcp-echo  1
+ETHER:  
+ETHER:  Packet 1 arrived at 12:22:28.76500
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = 0:e:c:5e:ab:b3, 
+ETHER:  Source      = 0:e:c:5e:50:4d, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 56449
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = a0b0
+IP:   Source address = 134.96.216.109, stl-c-09.htw-saarland.de
+IP:   Destination address = 134.96.216.99, stl-c-master.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 57812
+TCP:  Destination port = 7 (ECHO)
+TCP:  Sequence number = 3612621026
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 49640
+TCP:  Checksum = 0xfd8a
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - No operation
+TCP:    - Window scale = 0
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - SACK permitted option
+TCP:  
+ECHO:  ----- ECHO:   -----
+ECHO:  
+ECHO:  ""
+ECHO:  
+
+
+ETHER:  ----- Ether Header -----             solC-linC-tcp-echo  2
+ETHER:  
+ETHER:  Packet 2 arrived at 12:22:28.76895
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = 0:e:c:5e:50:4d, 
+ETHER:  Source      = 0:e:c:5e:ab:b3, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 0
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 7d32
+IP:   Source address = 134.96.216.99, stl-c-master.htw-saarland.de
+IP:   Destination address = 134.96.216.109, stl-c-09.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 7
+TCP:  Destination port = 57812 
+TCP:  Sequence number = 3412230762
+TCP:  Acknowledgement number = 3612621027
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x12
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 5840
+TCP:  Checksum = 0x5ac3
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - SACK permitted option
+TCP:    - No operation
+TCP:    - Window scale = 2
+TCP:  
+ECHO:  ----- ECHO:   -----
+ECHO:  
+ECHO:  ""
+ECHO:  
+
+
+
+
+ETHER:  ----- Ether Header -----             solC-linC-tcp-echo  3
+ETHER:  
+ETHER:  Packet 3 arrived at 12:22:28.76900
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = 0:e:c:5e:ab:b3, 
+ETHER:  Source      = 0:e:c:5e:50:4d, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 56450
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = a0bb
+IP:   Source address = 134.96.216.109, stl-c-09.htw-saarland.de
+IP:   Destination address = 134.96.216.99, stl-c-master.htw-saarland.de
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 57812
+TCP:  Destination port = 7 (ECHO)
+TCP:  Sequence number = 3612621027
+TCP:  Acknowledgement number = 3412230763
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 49640
+TCP:  Checksum = 0xf077
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+ECHO:  ----- ECHO:   -----
+ECHO:  
+ECHO:  ""
+ECHO:  
+
+.........

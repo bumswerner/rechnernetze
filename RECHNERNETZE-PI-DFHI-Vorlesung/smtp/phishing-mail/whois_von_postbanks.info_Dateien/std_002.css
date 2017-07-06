@@ -1,0 +1,207 @@
+body {
+	font-family: sans-serif;
+	cursor: default;
+	color: black;
+}
+
+div.patent {
+	border: 0.125em #af6f60 outset;
+	border-left: 0;
+	background: #af6f60;
+	padding: 0.5em;
+}
+
+a.patent {
+	color: white;
+}
+
+div.subMenu, body, p.subMenu {
+	background-color: silver;
+}
+
+.noBreak {
+	white-space: nowrap;
+}
+
+a.subsub, a.subMenu {
+	text-decoration: none;
+}
+
+.subMenuItem {
+	margin-bottom: 0.25em;
+	margin-right: 0.25em;
+	font-size: 1em;
+	white-space: nowrap;
+}
+
+td.subMenu1 {
+	width: 100%;
+}
+
+div.subMenuItem, td.subMenu1 {
+	background-color: white;
+	border: 0.125em inset silver;
+	border-left-width: 0;
+	padding: 0.15em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: right;
+}
+
+div.subsub {
+	font-size: x-small;
+	text-align: left;
+	display: table;
+}
+
+a.subMenu {
+	font-weight: bold;
+}
+
+p.subMenu {
+	padding: 0.25em;
+	margin: 0;
+}
+
+.content {
+	max-width: 50em;
+}
+
+td.body {
+	width: 100%;
+}
+
+.error {
+	color: red;
+}
+
+form, body, .bottomMarg, .bottomPadd, .topMarg {
+	padding: 0;
+	margin: 0;
+}
+
+.topMarg {
+	margin-top: 1em;
+}
+
+.bottomMarg {
+	margin-bottom: 1em;
+}
+
+.bottomPadd {
+	padding-bottom: 1em;
+}
+
+table.menu {
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin: 0;
+}
+
+td.domain {
+	padding-right: 0.5em;
+}
+
+td.domain, td.menu {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+td.domain {
+	padding-left: 1em;
+}
+
+td.menu {
+	padding-right: 1em;
+}
+
+td.menu {
+	width: 100%;
+}
+
+input.std, input.form, input.domain, textarea {
+	font-family: monospace;
+	padding: 0.25em;
+}
+
+input.domain {
+	margin-right: 1em;
+}
+
+input:focus, textarea:focus {
+	border-style: outset;
+}
+
+.body {
+	background-color: white;
+	margin-bottom: 1em;
+}
+
+td.body {
+	margin-bottom: 0;
+}
+
+div.body, td.body {
+	border-top: 0.125em inset silver;
+	padding: 1em;
+}
+
+td.subMenu2 {
+	padding-left: 0.25em;
+}
+
+.boxed {
+	border: 0.125em outset silver;
+	background-color: silver;
+}
+
+div.subMenu {
+	border-bottom: 0.125em outset silver;
+	border-right: 0.15em outset silver;
+	margin-bottom: 1em;
+}
+
+div.body, table.body {
+	border-bottom: 0.125em inset silver;
+}
+
+.valid, a.help {
+	cursor: help;
+}
+
+a.menu, b.menu, a.menuLang {
+	padding-left: 0.5em;
+	text-decoration: none;
+}
+
+a.menu, a.menuLang {
+	color: maroon;
+	font-weight: bold;
+}
+
+span.lang {
+	border: 0 dotted maroon;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+a.menu:hover, a.menuLang:hover {
+	color: navy;
+}
+
+b.menu {
+	color: white;
+}
+
+a {
+	color: navy;
+}
+
+a:hover {
+	color: maroon;
+}
+
+img {
+	border: 0;
+}

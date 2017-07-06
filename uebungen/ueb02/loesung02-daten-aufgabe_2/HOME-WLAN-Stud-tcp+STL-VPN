@@ -1,0 +1,24 @@
+#
+#
+#   HOME-WLAN-Stud-tcp+STL-VPN  
+#
+#   Messungen vom HOME-Laptop mit WLAN-Anschluss und STL-VPN
+#
+#
+
+
+C:\2016\bin>win32-i386.exe -t stl-s-stud.htwsaar.de
+############---------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  52.53 KByte/s Tx,  219.89 KByte/s Rx.
+Packet size  2k bytes:  64.30 KByte/s Tx,  221.54 KByte/s Rx.
+Packet size  4k bytes:  63.08 KByte/s Tx,  230.59 KByte/s Rx.
+Packet size  8k bytes:  65.11 KByte/s Tx,  233.48 KByte/s Rx.
+Packet size 16k bytes:  67.02 KByte/s Tx,  232.52 KByte/s Rx.
+Packet size 32k bytes:  66.55 KByte/s Tx,  236.13 KByte/s Rx.
+Done.
+

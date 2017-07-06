@@ -1,0 +1,131 @@
+X-Account-Key: account1
+X-UIDL: '@""!:@D!!8<H"!j"@!!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <mailversand@buerger-cert.de>
+Received: from zdve-mailx.htw-saarland.de (zdve-mailx.htw-saarland.de [134.96.208.108])
+	by stl-s-mail.htw-saarland.de (8.13.8+Sun/8.13.8) with ESMTP id q0B9s7Lw024401
+	for <wolfgang.pauly@stl-s-mail.htw-saarland.de>; Wed, 11 Jan 2012 10:54:07 +0100 (CET)
+Received: from iapetos.rz.uni-saarland.de (m-relay.rz.uni-saarland.de [134.96.7.3])
+	by zdve-mailx.htw-saarland.de (8.13.8/8.13.8) with ESMTP id q0B9s0IF014340
+	for <wolfgang.pauly@htw-saarland.de>; Wed, 11 Jan 2012 10:54:00 +0100 (CET)
+Received: from mail.cert-bund.de (mail.cert-bund.de [93.187.113.4])
+	by iapetos.rz.uni-saarland.de (8.14.1/8.14.0) with ESMTP id q0B9ruTp024773
+	for <wolfgang.pauly@htw-saarland.de>; Wed, 11 Jan 2012 10:53:59 +0100
+Received: from publication.cert-bund.de (publication01.cert-bund.de [217.69.70.2])
+	by mail.cert-bund.de (Postfix) with ESMTP id 3A5B5298749
+	for <wolfgang.pauly@htw-saarland.de>; Wed, 11 Jan 2012 10:53:56 +0100 (CET)
+Received: from publication01.cert-bund.de (localhost [127.0.0.1])
+	by publication.cert-bund.de (Postfix) with ESMTP id 2F39012605B
+	for <wolfgang.pauly@htw-saarland.de>; Wed, 11 Jan 2012 10:53:56 +0100 (CET)
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: inline
+MIME-Version: 1.0
+X-Mailer: MIME-tools 5.427 (Entity 5.427)
+X-BC-Severity: medium
+From: mailversand@buerger-cert.de
+Subject: =?UTF-8?Q?[]=20SE-T12/0001=20-=20Extraausgabe=20vom=2011.01.2012?=
+To: wolfgang.pauly@htw-saarland.de
+Message-Id: <20120111095356.2F39012605B@publication.cert-bund.de>
+Date: Wed, 11 Jan 2012 10:53:56 +0100 (CET)
+X-Greylist: IP, sender and recipient auto-whitelisted, not delayed by milter-greylist-3.0 (iapetos.rz.uni-saarland.de [134.96.7.3]); Wed, 11 Jan 2012 10:53:59 +0100 (CET)
+X-AntiVirus: checked by AntiVir MailGate (version: 2.1.2-14; AVE: 7.9.8.22; VDF: 7.11.20.229; host: AntiVir4)
+X-Spam-Checker-Version: SpamAssassin 3.3.0 (2010-01-18) on zdve-mailx
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	janus.rz.uni-saarland.de
+X-Spam-Level: 
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.6 required=6.0 tests=AWL,BAYES_00,
+	RCVD_IN_DNSWL_MED autolearn=ham version=3.3.0
+X-Spam-Status: No, score=-101.9 required=5.0 tests=BAYES_00,
+	USER_IN_ALL_SPAM_TO autolearn=no version=3.3.1
+X-Virus-Scanned: clamav-milter 0.96.3 at zdve-mailx
+X-Virus-Status: Clean
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by stl-s-mail.htw-saarland.de id q0B9s7Lw024401
+X-UIDL: '@""!:@D!!8<H"!j"@!!
+Status: U
+
+SICHER o INFORMIERT
+-------------------
+Die Extraausgabe des Bürger-CERT
+Ausgabe vom 11.01.2012
+
+
+TITEL
+    BSI empfiehlt Überprüfung von PCs auf Schadsoftware "DNS-Changer"
+
+UNTERÜBERSCHRIFT
+    Einfacher Test
+
+TEXT
+    Bonn / Wiesbaden, 11. Januar 2012. Das Bundesamt für Sicherheit in der
+    Informationstechnik (BSI) empfiehlt allen Internetnutzern, ihre Rechner
+    auf Befall mit der Schadsoftware "DNS-Changer" zu überprüfen. Ab sofort
+    ist eine solche Überprüfung mit Hilfe der Webseite
+    www.dns-ok.de ganz einfach möglich. Die Webseite wird
+    gemeinsam von der Deutschen Telekom, dem BSI und dem Bundeskriminalamt
+    zur Verfügung gestellt.
+
+    Dies wurde notwendig, weil Internetkriminelle die Netzwerkkonfiguration
+    von PC- und Mac-Systemen durch den Eintrag neuer DNS-Server mit der
+    Schadsoftware "DNS-Changer" manipuliert hatten. Das DNS (Domain Name
+    System) ist einer der wichtigsten Dienste im Internet, welcher für die
+    Umsetzung von Namen (URLs) in IP-Adressen verantwortlich ist. Im Falle
+    einer Infektion mit der Schadsoftware leitet der Webbrowser die Benutzer
+    bei Abfrage populärer Webseiten unbemerkt auf manipulierte Seiten der
+    Kriminellen um, wo betrügerische Aktivitäten wie beispielsweise die
+    Verbreitung angeblicher Antivirensoftware, Klickbetrug oder nicht
+    lizenzierter Medikamentenverkauf stattfinden. Zudem konnten die
+    Kriminellen gezielt manipulierte Werbeeinblendungen an infizierte Rechner
+    senden, Suchergebnisse manipulieren und weitere Schadsoftware nachladen.
+
+    In Deutschland sind nach Angaben der amerikanischen Bundespolizei FBI
+    derzeit bis zu 33.000 Computer täglich betroffen. Mit der Internetseite
+    www.dns-ok.de können Internetnutzer ab sofort eigenständig
+    prüfen, ob ihr System von dem Schadprogramm "DNS-Changer" betroffen ist.
+    Beim Aufruf dieser Internetadresse erhalten Nutzer, deren Computersystem
+    von dem Schadprogramm manipuliert wurde, eine Warnmeldung mit roter
+    Statusanzeige. Ergänzt wird dieser Hinweis durch eine Reihe von
+    Empfehlungen, mit denen die Anwender die korrekten Systemeinstellungen
+    wiederherstellen sowie ggf. die Schadsoftware vom System entfernen
+    können. Ist dagegen der Rechner des Internetnutzers nicht betroffen,
+    erhält der Besitzer die Meldung mit einer grünen Statusmeldung, dass sein
+    System korrekt arbeitet.
+
+    Verbreitet wurde die Schadsoftware durch das so genannte
+    "DNS-Changer-Botnetz", dessen Betreiber im November 2011 von der
+    amerikanischen Bundespolizei FBI und europäischen Ermittlungsbehörden
+    verhaftet wurden. Die von den Onlinekriminellen manipulierten DNS-Server
+    wurden nach der Festnahme vom FBI durch korrekt arbeitende DNS-Server
+    ersetzt. Diese Server sollen jedoch zum 8. März 2012 abgeschaltet werden.
+    Bei betroffenen Rechnern ist dann eine Internetnutzung ohne die
+    empfohlenen Änderungen der Einstellungen nicht mehr möglich, da die
+    Nutzer wegen des nunmehr fehlenden Zugriffs auf das "Telefonbuch" (DNS)
+    im Internet mit ihrem Computer keine Webseiten mehr aufrufen können.
+    Daher sollten Internetnutzer die Überprüfung und ggf. Reinigung ihres
+    Rechners möglichst bald durchführen.
+
+    Die Überprüfung erfolgt ausschließlich über den Aufruf der Website
+    www.dns-ok.de, es wird keine Software gestartet oder
+    heruntergeladen. Zur Reinigung des Rechners können die Betroffenen
+    beispielsweise die unter www.botfrei.de bereitgestellten
+    Programme wie den "DE-Cleaner" nutzen.
+
+
+
+
+-----------------------------------------------------------------------
+Diese Extraausgabe "SICHER o INFORMIERT" ist ein kostenloses Service-Angebot
+des Bürger-CERT, http://www.buerger-cert.de. Die Informationen werden mit
+größter Sorgfalt recherchiert und aufbereitet, dennoch kann eine
+Gewähr oder Haftung für die Vollständigkeit und Richtigkeit nicht
+übernommen werden.
+
+Unter http://www.buerger-cert.de haben Sie die Möglichkeit, diesen
+Informationsdienst zu abonnieren oder abzubestellen. Fragen und
+Anregungen an die Redaktion bitte an: oeffentlichkeitsarbeit@bsi.bund.de
+
+
+

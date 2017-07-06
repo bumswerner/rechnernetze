@@ -1,0 +1,114 @@
+#
+#
+#
+#  telnet-optionen-aushandeln.protokoll
+#
+#
+#
+
+
+Wo bin ich ???
+--------------
+        stl-m-wpy:wpy:Internet/internet-vorlesung/TCP>
+
+Das abgesetzte Kommando :
+-------------------------
+        telnet
+
+
+Der Dialog-Ablauf
+-----------------
+        telnet> toggle options
+
+        Will show option processing.
+
+
+
+
+        telnet> open stl-c-03
+
+
+        Trying 134.96.216.103...
+        Connected to stl-c-03.htw-saarland.de.
+        Escape character is '^]'.
+
+01.     SENT DO SUPPRESS GO AHEAD
+02.     SENT WILL TERMINAL TYPE
+03.     SENT WILL NAWS
+04.     SENT WILL TSPEED
+05.     SENT WILL LFLOW
+06.     SENT WILL LINEMODE
+07.     SENT WILL NEW-ENVIRON
+08.     SENT DO STATUS
+09.     SENT WILL XDISPLOC
+        
+        
+        
+                      __      __   __________   __      __
+                     |  |    |  | |          | |  |    |  |
+                     |  |    |  | |__________| |  |    |  |
+                     |  | __ |  |      __      |  |    |  |
+                     |  ||  ||  |     |  |     |  | __ |  |
+                     |  ||__||  |     |  |     |  ||  ||  |
+                     |  |    |  |     |  |     |  ||  ||  |
+                     |  |    |  |     |  |     |  ||  ||  |
+                     |__|    |__|     |__|     |__||__||__|
+        
+                     Hochschule fuer Technik und Wirtschaft
+                                des Saarlandes
+        
+        
+                                Fachbereich GIS
+        
+                      Grundlagen Informatik Sensortechnik
+        
+        
+                              Systemtechnik-Labor
+        
+        
+        
+10.     RCVD DO TERMINAL TYPE
+11.     RCVD DO NAWS
+12.     SENT IAC SB NAWS 0 98 (98) 0 37 (37)
+13.     RCVD DO XDISPLOC
+14.     RCVD DO NEW-ENVIRON
+15.     RCVD DO OLD-ENVIRON
+16.     SENT WONT OLD-ENVIRON
+17.     RCVD WILL SUPPRESS GO AHEAD
+18.     RCVD DONT TSPEED
+19.     RCVD DONT LFLOW
+20.     RCVD DONT LINEMODE
+21.     RCVD WONT STATUS
+22.     RCVD DONT OLD-ENVIRON
+23.     RCVD IAC SB TERMINAL-TYPE SEND
+24.     SENT IAC SB TERMINAL-TYPE IS "DTTERM"
+25.     RCVD IAC SB X-DISPLAY-LOCATION SEND
+26.     SENT IAC SB X-DISPLAY-LOCATION IS "stl-m-wpy.htw-saarland.de:0.0"
+27.     RCVD IAC SB NEW-ENVIRON SEND 
+28.     SENT IAC SB NEW-ENVIRON IS VAR "DISPLAY" VALUE "stl-m-wpy.htw-saarland.de:0.0"
+        
+        
+        SunOS 5.9
+        
+29.     RCVD WILL ECHO
+30.     SENT DO ECHO
+31.     RCVD DO ECHO
+32.     SENT WONT ECHO
+33.     login: 
+34.     RCVD DONT ECHO
+35.     SENT IAC SB NAWS 0 98 (98) 0 46 (46)
+36.     SENT IAC SB NAWS 0 98 (98) 0 57 (57)
+
+        gast-40
+        Password: 
+
+        Last login: Fri Apr 30 13:46:33 from stl-m-wpy.htw-s
+        Sun Microsystems Inc.   SunOS 5.9       Generic January 2003
+        You have new mail.
+
+        gast-40@stl-c-03:/export/home_pm/gast-40>exit
+
+        Connection to stl-c-03.htw-saarland.de closed by foreign host.
+
+        stl-m-wpy:wpy:Internet/internet-vorlesung/TCP>
+                

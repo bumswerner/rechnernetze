@@ -1,0 +1,135 @@
+08:46:14.118747 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 1, id 37977, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35832 > wta-web.rhrk.uni-kl.de.traceroute: [bad udp cksum 0x5b8f -> 0xa0b0!] UDP, length 32
+E..<.Y.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.118876 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 1, id 37978, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44345 > wta-web.rhrk.uni-kl.de.33435: [bad udp cksum 0x5b8f -> 0x7f6e!] UDP, length 32
+E..<.Z.......`.|..x..9...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.118976 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 1, id 37979, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51308 > wta-web.rhrk.uni-kl.de.33436: [bad udp cksum 0x5b8f -> 0x643a!] UDP, length 32
+E..<.[.......`.|..x..l...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119085 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 2, id 37980, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.47564 > wta-web.rhrk.uni-kl.de.33437: [bad udp cksum 0x5b8f -> 0x72d9!] UDP, length 32
+E..<.\.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119190 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 2, id 37981, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35589 > wta-web.rhrk.uni-kl.de.33438: [bad udp cksum 0x5b8f -> 0xa19f!] UDP, length 32
+E..<.].......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119315 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 255, id 50136, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37977, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35832 > wta-web.rhrk.uni-kl.de.traceroute: UDP, length 32
+E..8......:..`...`.|..E.....E..<.Y.......`.|..x......(..
+08:46:14.119390 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 255, id 50137, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37978, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44345 > wta-web.rhrk.uni-kl.de.33435: UDP, length 32
+E..8......:..`...`.|..E.....E..<.Z.......`.|..x..9...(.n
+08:46:14.119416 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 255, id 50138, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37979, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51308 > wta-web.rhrk.uni-kl.de.33436: UDP, length 32
+E..8......:..`...`.|..E.....E..<.[.......`.|..x..l...(d:
+08:46:14.119438 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 2, id 37982, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40577 > wta-web.rhrk.uni-kl.de.33439: [bad udp cksum 0x5b8f -> 0x8e22!] UDP, length 32
+E..<.^.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119548 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 3, id 37983, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.53200 > wta-web.rhrk.uni-kl.de.33440: [bad udp cksum 0x5b8f -> 0x5cd2!] UDP, length 32
+E..<._.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119620 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 3, id 37984, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.34398 > wta-web.rhrk.uni-kl.de.33441: [bad udp cksum 0x5b8f -> 0xa643!] UDP, length 32
+E..<.`.......`.|..x..^...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119710 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 3, id 37985, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.57559 > wta-web.rhrk.uni-kl.de.33442: [bad udp cksum 0x5b8f -> 0x4bc9!] UDP, length 32
+E..<.a.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119781 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 4, id 37986, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.52918 > wta-web.rhrk.uni-kl.de.33443: [bad udp cksum 0x5b8f -> 0x5de9!] UDP, length 32
+E..<.b.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119907 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 4, id 37987, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40791 > wta-web.rhrk.uni-kl.de.33444: [bad udp cksum 0x5b8f -> 0x8d47!] UDP, length 32
+E..<.c.......`.|..x..W...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.119987 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 4, id 37988, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51340 > wta-web.rhrk.uni-kl.de.33445: [bad udp cksum 0x5b8f -> 0x6411!] UDP, length 32
+E..<.d.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120073 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 5, id 37989, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.39325 > wta-web.rhrk.uni-kl.de.33446: [bad udp cksum 0x5b8f -> 0x92ff!] UDP, length 32
+E..<.e.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120150 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 5, id 37990, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.45373 > wta-web.rhrk.uni-kl.de.33447: [bad udp cksum 0x5b8f -> 0x7b5e!] UDP, length 32
+E..<.f.......`.|..x..=...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120216 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 5, id 37991, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.60626 > wta-web.rhrk.uni-kl.de.33448: [bad udp cksum 0x5b8f -> 0x3fc8!] UDP, length 32
+E..<.g.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120291 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 6, id 37992, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.32792 > wta-web.rhrk.uni-kl.de.33449: [bad udp cksum 0x5b8f -> 0xac81!] UDP, length 32
+E..<.h.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120548 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 6, id 37993, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.41479 > wta-web.rhrk.uni-kl.de.33450: [bad udp cksum 0x5b8f -> 0x8a91!] UDP, length 32
+E..<.i.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120631 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 6, id 37994, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.55431 > wta-web.rhrk.uni-kl.de.33451: [bad udp cksum 0x5b8f -> 0x5410!] UDP, length 32
+E..<.j.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.120702 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 7, id 37995, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44524 > wta-web.rhrk.uni-kl.de.33452: [bad udp cksum 0x5b8f -> 0x7eaa!] UDP, length 32
+E..<.k.......`.|..x......([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.127673 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 110: (tos 0x0, ttl 254, id 45775, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 76
+	(tos 0x0, ttl 1, id 37980, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.47564 > wta-web.rhrk.uni-kl.de.33437: [udp sum ok] UDP, length 32
+E..`.......4.....`.|..P~....E..<.\.......`.|..x......(r.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_........
+08:46:14.128174 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 110: (tos 0x0, ttl 254, id 45776, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 76
+	(tos 0x0, ttl 1, id 37981, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35589 > wta-web.rhrk.uni-kl.de.33438: [udp sum ok] UDP, length 32
+E..`.......3.....`.|..P~....E..<.].......`.|..x......(..@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_........
+08:46:14.128203 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 110: (tos 0x0, ttl 254, id 45777, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 76
+	(tos 0x0, ttl 1, id 37982, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40577 > wta-web.rhrk.uni-kl.de.33439: [udp sum ok] UDP, length 32
+E..`.......2.....`.|..P~....E..<.^.......`.|..x......(."@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_........
+08:46:14.131518 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 7, id 37997, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35178 > wta-web.rhrk.uni-kl.de.33453: [bad udp cksum 0x5b8f -> 0xa32b!] UDP, length 32
+E..<.m.......`.|..x..j...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.131670 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 7, id 37998, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40285 > wta-web.rhrk.uni-kl.de.33454: [bad udp cksum 0x5b8f -> 0x8f37!] UDP, length 32
+E..<.n.......`.|..x..]...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.131751 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 8, id 37999, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44877 > wta-web.rhrk.uni-kl.de.33455: [bad udp cksum 0x5b8f -> 0x7d46!] UDP, length 32
+E..<.o.......`.|..x..M...([.@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+08:46:14.133739 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 252, id 59344, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37986, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.52918 > wta-web.rhrk.uni-kl.de.33443: UDP, length 32
+E..8...........S.`.|..E.....E..<.b.......`.|..x......(].
+08:46:14.133844 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 252, id 59345, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37987, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40791 > wta-web.rhrk.uni-kl.de.33444: UDP, length 32
+E..8...........S.`.|..E.....E..<.c.......`.|..x..W...(.G
+08:46:14.133941 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 70: (tos 0x0, ttl 252, id 59346, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 37988, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51340 > wta-web.rhrk.uni-kl.de.33445: UDP, length 32
+E..8...........S.`.|..E.....E..<.d.......`.|..x......(d.
+08:46:44.878931 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 27673, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: ICMP echo request, id 20104, seq 1, length 64
+E..Tl.@.@.s:.`.|..x.....N....9[Y.....i..................... !"#$%&'()*+,-./01234567
+08:46:44.892858 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 59, id 29963, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP echo reply, id 20104, seq 1, length 64
+E..Tu...;..H..x..`.|....N....9[Y.....i..................... !"#$%&'()*+,-./01234567
+08:46:45.880264 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 28640, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: ICMP echo request, id 20104, seq 2, length 64
+E..To.@.@.os.`.|..x...X.N....9[Y....Tn..................... !"#$%&'()*+,-./01234567
+08:46:45.894089 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 59, id 30128, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP echo reply, id 20104, seq 2, length 64
+E..Tu...;.....x..`.|..`.N....9[Y....Tn..................... !"#$%&'()*+,-./01234567
+08:46:46.881482 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 29609, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: ICMP echo request, id 20104, seq 3, length 64
+E..Ts.@.@.k..`.|..x.....N....9[Y.....s..................... !"#$%&'()*+,-./01234567
+08:46:46.895408 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 59, id 30256, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP echo reply, id 20104, seq 3, length 64
+E..Tv0..;..#..x..`.|....N....9[Y.....s..................... !"#$%&'()*+,-./01234567
+08:46:47.882703 00:1a:4a:16:00:5a (oui Unknown) > 00:1c:f9:92:c4:00 (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 29733, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: ICMP echo request, id 20104, seq 4, length 64
+E..Tt%@.@.k..`.|..x.....N....9[Y.....w..................... !"#$%&'()*+,-./01234567
+08:46:47.896573 00:1c:f9:92:c4:00 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 59, id 30324, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: ICMP echo reply, id 20104, seq 4, length 64
+E..Tvt..;.....x..`.|....N....9[Y.....w..................... !"#$%&'()*+,-./01234567

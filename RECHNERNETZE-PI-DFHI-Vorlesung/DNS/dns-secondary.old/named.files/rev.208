@@ -1,0 +1,71 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+208.96.134.in-addr.arpa	IN SOA	ns.rz.uni-saarland.de. net.rz.uni-saarland.de. (
+				2004060902 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.rz.uni-saarland.de.
+			NS	ns.htw-saarland.de.
+			NS	ns1.htw-saarland.de.
+$ORIGIN 208.96.134.in-addr.arpa.
+1			PTR	rtg208-0.htw-saarland.de.
+100			PTR	www-proxy-neu.htw-saarland.de.
+101			PTR	zdve-www.htw-saarland.de.
+102			PTR	www-crypto.htw-saarland.de.
+103			PTR	2web-server-bw.htw-saarland.de.
+104			PTR	elab-info.htw-saarland.de.
+105			PTR	web-server-bw.htw-saarland.de.
+106			PTR	user-gis.htw-saarland.de.
+107			PTR	htw-portal.htw-saarland.de.
+108			PTR	zdve-mailx.htw-saarland.de.
+109			PTR	bb1-s01.htw-saarland.de.
+110			PTR	stud-e.htw-saarland.de.
+111			PTR	emf-saar.htw-saarland.de.
+129			PTR	rtg208-128.htw-saarland.de.
+130			PTR	www-zdve.htw-saarland.de.
+161			PTR	rtg208-160.htw-saarland.de.
+162			PTR	ezg-pc1.htw-saarland.de.
+163			PTR	www-zv-test.htw-saarland.de.
+164			PTR	zv-elektro.htw-saarland.de.
+175			PTR	werkstatt.htw-saarland.de.
+193			PTR	rtg208-192.htw-saarland.de.
+194			PTR	flur-goe-01.htw-saarland.de.
+195			PTR	flur-goe-02.htw-saarland.de.
+196			PTR	flur-goe-03.htw-saarland.de.
+197			PTR	flur-goe-04.htw-saarland.de.
+198			PTR	flur-goe-05.htw-saarland.de.
+199			PTR	flur-goe-06.htw-saarland.de.
+2			PTR	goe08zdve-3c33-1.htw-saarland.de.
+200			PTR	flur-goe-07.htw-saarland.de.
+201			PTR	flur-goe-08.htw-saarland.de.
+202			PTR	flur-goe-09.htw-saarland.de.
+203			PTR	flur-goe-10.htw-saarland.de.
+204			PTR	flur-goe-11.htw-saarland.de.
+205			PTR	flue-goe-12.htw-saarland.de.
+206			PTR	flur-goe-13.htw-saarland.de.
+207			PTR	flur-goe-14.htw-saarland.de.
+208			PTR	flur-goe-15.htw-saarland.de.
+209			PTR	flur-goe-16.htw-saarland.de.
+218			PTR	flur-goe-christian-deschryver.htw-saarland.de.
+219			PTR	flur-goe-wini-lap.htw-saarland.de.
+220			PTR	flur-goe-felix-graus.htw-saarland.de.
+221			PTR	flur-goe-yin-wu.htw-saarland.de.
+222			PTR	flur-goe-markus-helfen.htw-saarland.de.
+251			PTR	ap-fs-8024-1.htw-saarland.de.
+3			PTR	goe08a2-3c33-1.htw-saarland.de.
+33			PTR	rtg208-32.htw-saarland.de.
+34			PTR	sft-000.htw-saarland.de.
+35			PTR	tuxgate.htw-saarland.de.
+37			PTR	zdve-mail.htw-saarland.de.
+38			PTR	zdve-stud.htw-saarland.de.
+4			PTR	goe052-3200-1.htw-saarland.de.
+5			PTR	zdve-mg-2.htw-saarland.de.
+6			PTR	nettool.htw-saarland.de.
+65			PTR	rtg208-64.htw-saarland.de.
+7			PTR	net-mgt-v240.htw-saarland.de.
+97			PTR	rtg208-96.htw-saarland.de.
+98			PTR	ns.htw-saarland.de.
+99			PTR	www-zv.htw-saarland.de.

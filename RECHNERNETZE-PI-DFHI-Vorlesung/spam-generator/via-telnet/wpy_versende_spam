@@ -1,0 +1,49 @@
+#!/bin/ksh
+#
+#
+#
+#  wpy_versende_spam
+#
+#
+#
+
+
+read BLAUPAUSE?"Gebe die Mail-Text-Datei an : "
+
+echo $BLAUPAUSE
+
+echo "------------------------"
+ls adres*
+echo "------------------------"
+
+read DATEI?"Gebe eine der gezeigten Adress-Listen an : "
+
+echo "\n\n------------------------"
+
+for SATZ in `cat ${DATEI}`
+  do
+    #wpy NAME="`echo $SATZ | cut -d: -f1 | sed -e 's/_/ /g'`"
+    #wpy EMAIL="`echo $SATZ | cut -d: -f2`@htw-saarland.de"
+    NAME="`echo $SATZ | cut -d"," -f2 | sed -e 's/_/ /g'`"
+    EMAIL="`echo $SATZ | cut -d"," -f3`"
+
+    SED_KDO_1="sed -e 's/STL-E-MAIL/$EMAIL/g'"
+    SED_KDO_2="sed -e 's/STL-NAME/$NAME/g'"
+    cat $BLAUPAUSE | \
+    eval $SED_KDO_1 | \
+    eval $SED_KDO_2 > sendmail-tmp/${EMAIL}-Body
+
+    echo "versende Mail an : $EMAIL ....."
+    cat sendmail-tmp/${EMAIL}-Body | telnet smtp.htw-saarland.de 25
+    if [[ `echo $?` -eq 1 ]]
+      then
+         echo "\n -----------> Mail versendet !!!!!"
+         echo "-----------------------------------\n"
+         #wpy  rm sendmail-tmp/${EMAIL}-Body
+         sleep 10
+      else
+         echo " ---------- Mailer hat Sendeprobleme !!!!!!!!!!!"
+         echo "-----------------------------------\n"
+         sleep 2
+    fi
+  done

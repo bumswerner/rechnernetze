@@ -1,0 +1,68 @@
+The following problems have been reported by readers building the source
+code. I am just collecting these and making them available: I do not
+have access to all the systems to try and duplicate the problems and/or
+fix them. Please let me know of any additional problems.
+
+    * Digital Unix 4.0: The configure script does not find the sigwait
+      function. The easiest solution is to uncomment the #undef of
+      HAVE_SIGWAIT in config.h and change the #undef to #define.
+
+    * HP-UX 10.x/GCC: Run ./configure as instructed in the README file.
+
+      Edit the file unpv22e/lib/unpipc.h and insert #ifdef
+      HAVE_PTHREAD_H just before the Pthread_xxxx prototypes, (which
+      start on line 427), and put a #endif just after the prototype for
+      pr_thread_id. (New line 459.)
+
+      Edit the file unpv22e/lib/my_shm.c and change both occurrences of
+      MAP_ANON to MAP_ANONYMOUS.
+
+      Optional: If you have superuser privileges, clean up the include
+      header /usr/include/rpc/xdr.h: Remove the extra /* inside the
+      commented-out #endif on line 26--this will stop a plethora of
+      (harmless) compiler warnings about the embedded comment start token.
+
+      cd to unpv22e/lib and do a make.
+
+      Continue on as described in the README file.
+
+    * AIX 4.3.1: There are three compiler warnings when compiling the
+      file /lib/wrapsunrpc.c. These are because the AIX headers do not
+      use the const qualifier for the first and last arguments to
+      clnt_create.
+
+      Beware of the following comment in the system headers <mqueue.h>
+      and <semaphore.h>:
+
+	/* THIS FILE is for conformance to IEEE POSIX 1003.1c.
+	 * It describes required symbols for the Realtime option
+	 * which is NOT SUPPORTED.
+	 */
+	
+
+      AIX 4.3.1 does conform to Unix 98, but the Posix realtime options
+      are (unfortunately) an option to Unix 98.
+
+    * Linux: The standard Linux releases do not support the Posix.1b
+      APIs (Posix message queues, Posix semaphores, and Posix shared
+      memory). I just just been made aware of a Posix.1b library
+      <http://www.ispras.ru/~knizhnik/> for Linux.
+
+    * Linux, RedHat 5.1: The function prototype for semctl in
+      <sys/sem.h> is wrong: the fourth argument is optional (depending
+      on the command) and should be specified as ... (an ellipsis). This
+      causes an error when compiling the library. The easiest fix is to
+      add a dummy argument of 0 to the call to semctl that contains just
+      three arguments in lib/wrapunix.c.
+
+      This system also has a <semaphore.h> header, but it doesn't appear
+      to fully support Posix semaphores (it appears to support only
+      Posix memory-based semaphores). To prevent trying to use Posix
+      semaphores, comment out the definition of HAVE_SEMAPHORE_H in the
+      config.h header.
+
+    * Solaris 2.6: All my Solaris work was done with GCC, not the Sun C
+      compiler. (Anyone at Sun is welcome to send me the Sun compiler.)
+      The CFLAGS variable set by the configure script almost certainly
+needs to be changed for the Sun compiler.
+

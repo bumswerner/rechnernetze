@@ -1,0 +1,915 @@
+#
+#
+#
+#
+# dns-abfrage-rekursiv-von-hand_snoop-protokoll
+#
+#  snoop -v udb port 53
+#
+
+
+1. Abfrage :
+pauly@stl-c-25:/>host -r -v www.paris.fr ns1.htw-saarland.de
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 1 arrived at 15:00:0.28861
+ETHER:  Packet size = 72 bytes
+ETHER:  Destination = 8:0:20:4:c4:a8, Sun
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 58 bytes
+IP:   Identification = 20142
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 6eef
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 134.96.216.214, stl-s-4.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 64070
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 38 
+UDP:  Checksum = 8492 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 721
+DNS:  Opcode: Query
+DNS:  
+DNS:  1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 2 arrived at 15:00:0.30949
+ETHER:  Packet size = 427 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 8:0:20:4:c4:a8, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 413 bytes
+IP:   Identification = 21847
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 66e3
+IP:   Source address = 134.96.216.214, stl-s-4.htw-saarland.de
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 64070 
+UDP:  Length = 393 
+UDP:  Checksum = F6D3 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 721
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  0 answer(s)
+DNS:  13 name server resource(s)
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: L.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: M.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: A.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: B.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: C.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: D.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: E.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: F.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: G.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: H.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: I.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: J.ROOT-SERVERS.NET.
+DNS:  
+DNS:      Domain Name: 
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 76181
+DNS:      Authoritative Name Server: K.ROOT-SERVERS.NET.
+DNS:  
+DNS:  9 additional record(s)
+DNS:      Domain Name: B.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 83107
+DNS:      Address: 192.228.79.201
+DNS:  
+DNS:      Domain Name: C.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 75926
+DNS:      Address: 192.33.4.12
+DNS:  
+DNS:      Domain Name: D.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 75926
+DNS:      Address: 128.8.10.90
+DNS:  
+DNS:      Domain Name: E.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 62922
+DNS:      Address: 192.203.230.10
+DNS:  
+DNS:      Domain Name: G.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 75926
+DNS:      Address: 192.112.36.4
+DNS:  
+DNS:      Domain Name: H.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 62922
+DNS:      Address: 128.63.2.53
+DNS:  
+DNS:      Domain Name: I.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 75926
+DNS:      Address: 192.36.148.17
+DNS:  
+DNS:      Domain Name: L.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 87953
+DNS:      Address: 198.32.64.12
+DNS:  
+DNS:      Domain Name: M.ROOT-SERVERS.NET.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 75926
+DNS:      Address: 202.12.27.33
+DNS:  
+
+
+2. Abfrage
+pauly@stl-c-25:/>host -r -v www.paris.fr 192.228.79.201
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 3 arrived at 15:00:49.44397
+ETHER:  Packet size = 72 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 58 bytes
+IP:   Identification = 30205
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9629
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 192.228.79.201, b.root-servers.net
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 64038
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 38 
+UDP:  Checksum = CEB3 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 1881
+DNS:  Opcode: Query
+DNS:  
+DNS:  1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 4 arrived at 15:00:49.61472
+ETHER:  Packet size = 480 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 466 bytes
+IP:   Identification = 1657
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 45 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = d616
+IP:   Source address = 192.228.79.201, b.root-servers.net
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 64038 
+UDP:  Length = 446 
+UDP:  Checksum = 9F1C 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 1881
+DNS:  
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  0 answer(s)
+DNS:  9 name server resource(s)
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: A.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: B.EXT.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: B.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: C.EXT.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: C.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: D.EXT.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: E.EXT.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: E.NIC.fr.
+DNS:  
+DNS:      Domain Name: fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: A.EXT.NIC.fr.
+DNS:  
+DNS:  13 additional record(s)
+DNS:      Domain Name: A.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 193.51.208.14
+DNS:  
+DNS:      Domain Name: A.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 192.93.0.1
+DNS:  
+DNS:      Domain Name: A.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  28 (IPv6 Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      IPv6 Address: 2001:660:3005:1::1:1
+DNS:  
+DNS:      Domain Name: B.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 192.228.90.21
+DNS:  
+DNS:      Domain Name: B.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 192.93.0.4
+DNS:  
+DNS:      Domain Name: B.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  28 (IPv6 Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      IPv6 Address: 2001:660:3005:1::1:2
+DNS:  
+DNS:      Domain Name: C.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 128.112.129.15
+DNS:  
+DNS:      Domain Name: C.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 192.134.0.49
+DNS:  
+DNS:      Domain Name: C.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  28 (IPv6 Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      IPv6 Address: 2001:660:3006:1::1:1
+DNS:  
+DNS:      Domain Name: D.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 204.152.184.85
+DNS:  
+DNS:      Domain Name: D.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  28 (IPv6 Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      IPv6 Address: 2001:4f8:0:2::8
+DNS:  
+DNS:      Domain Name: E.EXT.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 193.176.144.6
+DNS:  
+DNS:      Domain Name: E.NIC.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 194.57.253.1
+DNS:  
+
+
+3. Abfrage
+pauly@stl-c-25:/>host -r -v www.paris.fr 192.93.0.1
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9 arrived at 15:01:34.06512
+ETHER:  Packet size = 72 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 58 bytes
+IP:   Identification = 9289
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 382d
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 192.93.0.1, ns1.nic.fr
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 46282
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 38 
+UDP:  Checksum = 6848 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 880
+DNS:  Opcode: Query
+DNS:  
+DNS:  1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 10 arrived at 15:01:34.08937
+ETHER:  Packet size = 237 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 223 bytes
+IP:   Identification = 0
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 51 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 27d2
+IP:   Source address = 192.93.0.1, ns1.nic.fr
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 46282 
+UDP:  Length = 203 
+UDP:  Checksum = D7E0 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 880
+DNS:  
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  0 answer(s)
+DNS:  4 name server resource(s)
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: ns3.nameshield.net.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: mdpdns1.paris.fr.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: mdpdns2.paris.fr.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 172800
+DNS:      Authoritative Name Server: ns2.observatoiredesmarques.fr.
+DNS:  
+DNS:  3 additional record(s)
+DNS:      Domain Name: ns2.observatoiredesmarques.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 80.74.69.8
+DNS:  
+DNS:      Domain Name: mdpdns1.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 194.153.110.131
+DNS:  
+DNS:      Domain Name: mdpdns2.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 172800
+DNS:      Address: 194.153.110.134
+DNS:  
+
+
+4.Abfrage
+pauly@stl-c-25:/>host -r -v www.paris.fr 194.153.110.131
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 19 arrived at 15:02:31.62153
+ETHER:  Packet size = 72 bytes
+ETHER:  Destination = 0:11:bc:4c:38:0, 
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 58 bytes
+IP:   Identification = 1313
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = e696
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 194.153.110.131, 194.153.110.131
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 57979
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 38 
+UDP:  Checksum = CC6C 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 220
+DNS:  Opcode: Query
+DNS:  
+DNS:  1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 20 arrived at 15:02:31.64940
+ETHER:  Packet size = 88 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 0:11:bc:4c:38:0, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 74 bytes
+IP:   Identification = 8240
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 113 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9978
+IP:   Source address = 194.153.110.131, 194.153.110.131
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 57979 
+UDP:  Length = 54 
+UDP:  Checksum = 057D 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 220
+DNS:  AA (Authoritative Answer) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 86400
+DNS:      Address: 194.153.110.160
+DNS:  
+DNS:  0 name server resource(s)
+DNS:  0 additional record(s)
+
+
+5. Abfrage
+pauly@stl-c-25:/>host -v www.paris.fr
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 25 arrived at 15:03:12.82699
+ETHER:  Packet size = 72 bytes
+ETHER:  Destination = 8:0:20:4:c4:a8, Sun
+ETHER:  Source      = 0:30:5:aa:f9:2, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 58 bytes
+IP:   Identification = 20151
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 6ee6
+IP:   Source address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   Destination address = 134.96.216.214, stl-s-4.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 32788
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 38 
+UDP:  Checksum = FC14 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 1153
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+                  
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 26 arrived at 15:03:12.85919
+ETHER:  Packet size = 269 bytes
+ETHER:  Destination = 0:30:5:aa:f9:2, 
+ETHER:  Source      = 8:0:20:4:c4:a8, Sun
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 255 bytes
+IP:   Identification = 21856
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 6778
+IP:   Source address = 134.96.216.214, stl-s-4.htw-saarland.de
+IP:   Destination address = 134.96.216.125, stl-c-25.htw-saarland.de
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 32788 
+UDP:  Length = 235 
+UDP:  Checksum = 5AD6 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 1153
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  1 answer(s)
+DNS:      Domain Name: www.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 11909
+DNS:      Address: 194.153.110.160
+DNS:  
+DNS:  4 name server resource(s)
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 88923
+DNS:      Authoritative Name Server: ns2.observatoiredesmarques.fr.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 88923
+DNS:      Authoritative Name Server: ns3.nameshield.net.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 88923
+DNS:      Authoritative Name Server: mdpdns1.paris.fr.
+DNS:  
+DNS:      Domain Name: paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  2 (Authoritative Name Server)
+DNS:      TTL (Time To Live): 88923
+DNS:      Authoritative Name Server: mdpdns2.paris.fr.
+DNS:  
+DNS:  4 additional record(s)
+DNS:      Domain Name: ns2.observatoiredesmarques.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 3437
+DNS:      Address: 80.74.69.8
+DNS:  
+DNS:      Domain Name: ns3.nameshield.net.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 18583
+DNS:      Address: 195.246.156.74
+DNS:  
+DNS:      Domain Name: mdpdns1.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 11921
+DNS:      Address: 194.153.110.131
+DNS:  
+DNS:      Domain Name: mdpdns2.paris.fr.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:      TTL (Time To Live): 11921
+DNS:      Address: 194.153.110.134
+DNS:  
+

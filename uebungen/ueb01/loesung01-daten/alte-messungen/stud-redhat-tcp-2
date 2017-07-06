@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# stud-redhat-tcp-2
+#
+#
+
+redhat -> netio -t stl-v-88.htwsaar.de | tee stud-redhat-tcp-2
+#########------------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  66.79 MByte/s Tx,  96.43 MByte/s Rx.
+Packet size  2k bytes:  68.68 MByte/s Tx,  98.05 MByte/s Rx.
+Packet size  4k bytes:  78.24 MByte/s Tx,  99.62 MByte/s Rx.
+Packet size  8k bytes:  80.47 MByte/s Tx,  105.79 MByte/s Rx.
+Packet size 16k bytes:  81.12 MByte/s Tx,  104.50 MByte/s Rx.
+Packet size 32k bytes:  80.08 MByte/s Tx,  102.28 MByte/s Rx.
+Done.

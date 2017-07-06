@@ -1,0 +1,12 @@
+ping -4 stl-v-175.htwsaar.de
+ping -4 stl-s-stud.htwsaar.de
+ping -4 www.htwsaar.de
+ping -4 www.uni-saarland.de
+ping -4 www.uni-kaiserslautern.de
+ping -4 www.dfn.de
+ping -4 www.zeit.de
+ping -4 ws-ber1.win-ip.dfn.de
+ping -4 www.nasa.gov
+ping -4 www.nasa.com
+ping -4 www.washington.org
+ping -4 www.sydney.com

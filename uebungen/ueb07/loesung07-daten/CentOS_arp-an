@@ -1,0 +1,21 @@
+#
+#
+# CentOS_arp-an
+#
+#
+#
+
+
+pauly ::> arp -an      
+##########-----------------------------------------
+pauly ::> arp -an
+? (134.96.216.212) auf 00:0b:5d:ab:c3:20 [ether] auf eth0
+? (134.96.216.164) auf a0:36:9f:26:04:eb [ether] auf eth0
+? (134.96.216.54) auf e8:06:88:cc:b1:69 [ether] auf eth0
+? (134.96.216.1) auf 00:1c:f9:92:c4:00 [ether] auf eth0
+? (134.96.216.250) auf a0:36:9f:26:04:eb [ether] auf eth0
+? (134.96.216.234) auf 00:14:4f:0f:5e:bc [ether] auf eth0
+? (134.96.216.249) auf 00:03:ba:d2:7e:97 [ether] auf eth0
+? (134.96.216.235) auf 00:03:ba:65:39:97 [ether] auf eth0
+? (134.96.216.207) auf 00:e0:00:c5:5f:56 [ether] auf eth0
+

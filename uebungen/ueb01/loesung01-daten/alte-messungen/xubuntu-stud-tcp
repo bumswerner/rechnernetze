@@ -1,0 +1,24 @@
+
+
+#
+#
+#
+# xubuntu-stud-tcp
+#
+#
+
+XUbuntu -> netio -t stl-v-134.htwsaar.de | tee xubuntu-stud-tcp
+##########-----------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  96.32 MByte/s Tx,  68.92 MByte/s Rx.
+Packet size  2k bytes:  99.40 MByte/s Tx,  68.84 MByte/s Rx.
+Packet size  4k bytes:  103.19 MByte/s Tx,  78.43 MByte/s Rx.
+Packet size  8k bytes:  108.20 MByte/s Tx,  80.85 MByte/s Rx.
+Packet size 16k bytes:  107.82 MByte/s Tx,  80.54 MByte/s Rx.
+Packet size 32k bytes:  107.50 MByte/s Tx,  82.25 MByte/s Rx.
+Done.

@@ -1,0 +1,37 @@
+#
+#
+# CentOS_netstat-r_ip-route
+#
+#
+#
+
+
+
+
+pauly@stl-centos:> ip route
+##################------------------------------------------------------------------------
+default via 134.96.216.1 dev eth0 
+134.96.216.0/24 dev eth0  proto kernel  scope link  src 134.96.216.124 
+169.254.0.0/16 dev eth0  scope link  metric 1002 
+192.168.122.0/24 dev virbr0  proto kernel  scope link  src 192.168.122.1 
+
+
+pauly@stl-centos:> netstat -r
+##################------------------------------------------------------------------------
+Kernel IP Routentabelle
+Ziel            Router          Genmask         Flags   MSS Fenster irtt Iface
+default         rtg216-0.htw-sa 0.0.0.0         UG        0 0          0 eth0
+stl             0.0.0.0         255.255.255.0   U         0 0          0 eth0
+link-local      0.0.0.0         255.255.0.0     U         0 0          0 eth0
+192.168.122.0   0.0.0.0         255.255.255.0   U         0 0          0 virbr0
+
+
+pauly@stl-centos:> netstat -rn
+##################------------------------------------------------------------------------
+Kernel IP Routentabelle
+Ziel            Router          Genmask         Flags   MSS Fenster irtt Iface
+0.0.0.0         134.96.216.1    0.0.0.0         UG        0 0          0 eth0
+134.96.216.0    0.0.0.0         255.255.255.0   U         0 0          0 eth0
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 eth0
+192.168.122.0   0.0.0.0         255.255.255.0   U         0 0          0 virbr0
+

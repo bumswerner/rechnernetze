@@ -1,0 +1,20 @@
+#
+#
+#
+#  Solaris_netstat-r
+#
+#
+#
+#
+
+pauly@stl-solaris:> netstat -r
+##################-------------------------------------------------------------------
+
+
+Routing Table: IPv4
+  Destination           Gateway                  Flags  Ref     Use     Interface 
+--------------------    --------------------     ----- ----- ---------- --------- 
+default                 rtg216-0.htw-saarland.de UG        1          2 e1000g0   
+134.96.216.0            stl-vsol-142             U         1         20 e1000g0   
+BASE-ADDRESS.MCAST.NET  stl-vsol-142             U         1          0 e1000g0   
+localhost               localhost                UH       37     330040 lo0       

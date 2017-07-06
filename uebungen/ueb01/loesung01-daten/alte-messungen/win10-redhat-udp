@@ -1,0 +1,17 @@
+
+
+#
+#
+#
+# win10-redhat-udp
+#
+#
+
+
+win10 ::> netio-win -u stl-v-111.htwsaar.de | tee win10-redhat-udp 
+#########---------------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+connect(): error code 10060

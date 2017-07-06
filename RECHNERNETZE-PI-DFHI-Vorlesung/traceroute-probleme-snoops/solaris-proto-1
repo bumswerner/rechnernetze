@@ -1,0 +1,21 @@
+pauly@stl-c-25:traceroute-probleme>traceroute www.zeit.de > solaris-proto-1
+-----------------------------------########################################
+traceroute to www.zeit.de (217.13.68.145), 30 hops max, 40 byte packet
+ 1  * rtg216-0 (134.96.216.1)  0.638 ms !X *
+ 2  rtg216-0 (134.96.216.1)  0.562 ms !X *  0.641 ms !X
+
+pauly@stl-c-25:traceroute-probleme>arp -a
+-----------------------------------#######
+Net to Media Table: IPv4
+Device   IP Address               Mask      Flags      Phys Addr
+------ -------------------- --------------- -------- ---------------
+bge0   stl-s-ad             255.255.255.255 o        08:00:20:80:d4:9b
+bge0   stl-s-web            255.255.255.255 o        00:03:ba:65:39:97
+bge0   stl-s-nfs            255.255.255.255          00:e0:00:c5:5f:56
+bge0   stl-s-samba          255.255.255.255 o        00:0b:5d:ab:c3:20
+bge0   rtg216-0             255.255.255.255          00:11:bc:4c:38:00
+bge0   stl-s-nisp           255.255.255.255 o        00:e0:00:c5:5f:56
+bge0   stl-s-mail           255.255.255.255          00:e0:00:c5:5f:56
+bge0   stl-s-4              255.255.255.255 o        08:00:20:c4:92:2a
+bge0   stl-c-25             255.255.255.255 SPLA     00:30:05:aa:f9:02
+bge0   BASE-ADDRESS.MCAST.NET 240.0.0.0       SM       01:00:5e:00:00:00

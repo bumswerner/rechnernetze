@@ -1,0 +1,22 @@
+#!/bin/ksh
+#
+# stl-s-stud.xfce4-terminal
+#
+# oeffnet ein Xfce4-Terminal auf 
+#
+# Host : stl-s-stud/stl-s-stud-neu
+#
+# und zeigt es lokal an
+#
+#
+#
+#
+
+ssh -fX $(whoami)@stl-s-stud.htwsaar.de "/usr/bin/xfce4-terminal \
+               --title stl-s-stud \
+               --show-menubar --show-borders --show-toolbar" \
+               2>/dev/null
+
+echo -e " \n\n\tBitte kurz warten .... "
+echo -e " \twg. ssh Sicherheitsmechanismen ...."
+sleep 12

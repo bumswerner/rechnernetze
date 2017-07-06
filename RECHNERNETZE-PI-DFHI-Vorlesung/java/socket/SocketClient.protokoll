@@ -1,0 +1,64 @@
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Client - Internet-Adresse       ---> stl-m-wpy/134.96.158.230
+	- die lokale Client - TCP - Portnummer       ---> 32875
+	- die lokale Client - Empfangs-Puffer-Größe  ---> 9282
+	- die lokale Client - Sende-Puffer-Größe     ---> 8192
+	- die entfernte Server - Internet-Adresse    ---> stl-c-01/134.96.158.101
+	- die entfernte Server - TCP - Portnummer    ---> 4711
+
+
+
+	Die Antwort des Servers : 
+
+	Dies ist der 1'te Verbindungswunsch !!!
+
+
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Client - Internet-Adresse       ---> stl-m-wpy/134.96.158.230
+	- die lokale Client - TCP - Portnummer       ---> 32876
+	- die lokale Client - Empfangs-Puffer-Größe  ---> 9282
+	- die lokale Client - Sende-Puffer-Größe     ---> 8192
+	- die entfernte Server - Internet-Adresse    ---> stl-c-01/134.96.158.101
+	- die entfernte Server - TCP - Portnummer    ---> 4711
+
+
+
+	Die Antwort des Servers : 
+
+	Dies ist der 2'te Verbindungswunsch !!!
+
+
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Client - Internet-Adresse       ---> stl-m-wpy/134.96.158.230
+	- die lokale Client - TCP - Portnummer       ---> 32877
+	- die lokale Client - Empfangs-Puffer-Größe  ---> 9282
+	- die lokale Client - Sende-Puffer-Größe     ---> 8192
+	- die entfernte Server - Internet-Adresse    ---> stl-c-01/134.96.158.101
+	- die entfernte Server - TCP - Portnummer    ---> 5193
+
+
+
+	Die Antwort des Servers : 
+
+	Dies ist der 1'te Verbindungswunsch !!!
+
+
+
+	Hier die Merkmale des erzeugten Socket's : 
+	- die lokale Client - Internet-Adresse       ---> stl-m-wpy/134.96.158.230
+	- die lokale Client - TCP - Portnummer       ---> 32879
+	- die lokale Client - Empfangs-Puffer-Größe  ---> 9282
+	- die lokale Client - Sende-Puffer-Größe     ---> 8192
+	- die entfernte Server - Internet-Adresse    ---> stl-c-01/134.96.158.101
+	- die entfernte Server - TCP - Portnummer    ---> 4711
+
+
+
+	Die Antwort des Servers : 
+
+	Dies ist der 3'te Verbindungswunsch !!!
+
+

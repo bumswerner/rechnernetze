@@ -1,0 +1,26 @@
+#!/bin/ksh
+#
+#  start_client ---> Startet den RmiClient : WpyEchoClient
+#
+#
+#
+
+
+JRT="/usr/bin/java"
+POLICY_FLAG=" -Djava.security.policy=policy"
+
+
+
+echo "\n\n\t das starten des clients ...."
+
+echo "\n\t laeuft die rmiregistry und der server auf dem LOKALEN Rechner"
+echo "\t dann geben sie ---> localhost <--- als Hostname ein."
+
+echo "\n\t laeuft die rmiregistry und der server auf einem REMOTE Rechner"
+echo "\t dann geben sie ---> rechnernamen ( z.B. stl-c-01 ) <--- als Hostname ein.\n\n"
+
+
+read SERVER?"		Gebe nun den Hostnamen des Servers ein :" 
+
+${JRT} ${POLICY_FLAG} WpyEchoClient  $SERVER 
+

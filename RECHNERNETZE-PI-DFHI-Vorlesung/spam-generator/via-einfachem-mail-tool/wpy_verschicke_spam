@@ -1,0 +1,56 @@
+#!/bin/ksh
+#
+#
+#
+#  wpy_verschicke_spam
+#
+#
+#
+
+#wpy for PERS in `cat E.txt`
+for EMAIL in `cat Address_List.txt`
+  do
+    VORZU=$( echo $EMAIL | cut -d"," -f2 )
+    ADDR=$( echo $EMAIL | cut -d"," -f3 )
+    ADDR_HEADER=$( echo $ADDR | sed -e 's/stl-s-smtp.//' )
+    #ANREDE="Hallo_`echo $EMAIL | cut -d"@" -f1 | cut -d"." -f2,3 | tr "." "_"`,"
+    ANREDE="Hallo_$VORZU"
+    echo "--->$ANREDE<----"
+
+    {
+     echo "Received: from mail1.entenland.org (mail1 147.11.08.15)"
+     echo "        : by stl-s-ad.htw-saarland.de(8.12.8/8.12.8) with ESMTP id HJHZTHDSJ"
+     echo "        : for $ADDR_HEADER"
+     echo "Received: from donaldPC.entenland.org (donaldPC 177.77.77.77)"
+     echo "        : by mail1.entenland.org(8.88.8/8.88.8) with ESMTP id HJHZTHDSJ"
+     echo "        : for $ADDR_HEADER"
+     echo "Subject: ----> Eine letzte Warung von Doland Duck !!!  <----"
+     echo "From: Donald Duck <Donald.Duck@entenhausen.de>"
+     echo "To: $ADDR_HEADER"
+     echo "X-Mailer: Shellscript von Trick"
+     echo "X-Info_1: Das ist eine Simulierte spam-Mail"
+     echo "X-Info_1: alles was im Mail Header steht ist gefaelscht"
+     echo "X-Info_1: alles von hand eingetragen "
+     echo "X-Info_1: oh mann oh mann"
+     echo "MIME-Version: 1.0"
+     echo "Content-Type: text/html; charset=\"ISO-8859-1\""
+     echo "Content-Transfer-Encoding: quoted-printable\n"
+     cat Brief_Muster.txt | \
+     nawk ' BEGIN            {
+                              ANREDE="'$ANREDE'";
+                              gsub( "_", " ", ANREDE );
+                              ANREDEZEILE="^.*ANREDE.*$";
+                             }
+            $0 ~ ANREDEZEILE {
+                              gsub( "ANREDE", ANREDE );
+                              print $0;
+                              next;
+                             } 
+                             {
+                              print $0;
+                             } 
+                           
+          '
+     } | mail ${ADDR}
+     #} | tee xx
+  done

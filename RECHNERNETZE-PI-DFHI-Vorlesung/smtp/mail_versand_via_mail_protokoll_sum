@@ -1,0 +1,26 @@
+    No. Time        Source                Destination           Protocol Info
+      1 0.000000    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [SYN] Seq=3865856683 Ack=0 Win=32850 Len=0
+      2 0.000471    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      smtp > 33528 [SYN, ACK] Seq=3520416054 Ack=3865856684 Win=24616 Len=0
+      3 0.000618    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [ACK] Seq=3865856684 Ack=3520416055 Win=33304 Len=0
+      4 0.008748    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      36817 > 113 [SYN] Seq=297000730 Ack=0 Win=24820 Len=0
+      5 0.008957    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      113 > 36817 [RST, ACK] Seq=0 Ack=297000731 Win=0 Len=0
+      6 0.014632    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 220 zdve-mailx.htw-saarland.de ESMTP Mail Server ready
+      7 0.014746    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [ACK] Seq=3865856684 Ack=3520416111 Win=33304 Len=0
+      8 0.015654    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Command: EHLO stl-m-wpy.htw-saarland.de
+      9 0.015974    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      smtp > 33528 [ACK] Seq=3520416111 Ack=3865856716 Win=24616 Len=0
+     10 0.016529    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 250-zdve-mailx.htw-saarland.de Hello stl-m-wpy.htw-saarland.de [134.96.216.230], pleased to meet you
+     11 0.016723    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [ACK] Seq=3865856716 Ack=3520416332 Win=33193 Len=0
+     12 0.016971    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Command: MAIL From:<wpy@stl-m-wpy.htw-saarland.de> SIZE=676
+     13 0.026856    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 250 2.1.0 <wpy@stl-m-wpy.htw-saarland.de>... Sender ok
+     14 0.027138    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Command: RCPT To:<wpy@htw-saarland.de>
+     15 0.031241    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 250 2.1.5 <wpy@htw-saarland.de>... Recipient ok
+     16 0.032450    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Message Body
+     17 0.125969    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      smtp > 33528 [ACK] Seq=3520416487 Ack=3865857466 Win=24616 Len=0
+     18 0.126102    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Message Body
+     19 0.192405    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 250 2.0.0 i439ZHgh025993 Message accepted for delivery
+     20 0.194546    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de SMTP     Command: QUIT
+     21 0.195057    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de SMTP     Response: 221 2.0.0 zdve-mailx.htw-saarland.de closing connection
+     22 0.195265    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      smtp > 33528 [FIN, ACK] Seq=3520416600 Ack=3865857475 Win=24616 Len=0
+     23 0.195496    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [ACK] Seq=3865857475 Ack=3520416601 Win=33144 Len=0
+     24 0.195510    stl-m-wpy.htw-saarland.de zdve-mailx.htw-saarland.de TCP      33528 > smtp [FIN, ACK] Seq=3865857475 Ack=3520416601 Win=33144 Len=0
+     25 0.195848    zdve-mailx.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      smtp > 33528 [ACK] Seq=3520416601 Ack=3865857476 Win=24616 Len=0

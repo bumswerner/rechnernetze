@@ -1,0 +1,134 @@
+#
+#
+# stl-v-Win10-netzwerk-konfigration_2017_05_26
+#  
+#
+#
+
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>ipconfig /all
+
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : stl-v-win10
+   Primaeres DNS-Suffix . . . . . . . :
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : stl.htwsaar.de
+
+Ethernet-Adapter Ethernet:
+
+   Verbindungsspezifisches DNS-Suffix: htwsaar.de
+   Beschreibung. . . . . . . . . . . : Red Hat VirtIO Ethernet Adapter
+   Physische Adresse . . . . . . . . : 00-1A-4A-16-00-3E
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:638:200:2:7374:76:aaaa:a01d(Bevorzugt)
+   Lease erhalten. . . . . . . . . . : Freitag, 26. Mai 2017 03:40:40
+   Lease laeuft ab. . . . . . . . . . : Samstag, 27. Mai 2017 07:23:34
+   Verbindungslokale IPv6-Adresse  . : fe80::e0cf:274c:213e:6447%3(Bevorzugt)
+   IPv4-Adresse  . . . . . . . . . . : 134.96.216.111(Bevorzugt)
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Freitag, 26. Mai 2017 03:40:39
+   Lease laeuft ab. . . . . . . . . . : Samstag, 27. Mai 2017 07:45:50
+   Standardgateway . . . . . . . . . : 2001:638:200:2::1
+                                       134.96.216.1
+   DHCP-Server . . . . . . . . . . . : 134.96.216.155
+   DHCPv6-IAID . . . . . . . . . . . : 33561162
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-20-A4-97-B6-00-1A-4A-16-00-3E
+   DNS-Server  . . . . . . . . . . . : 2001:638:200:2:7374:73:7762:3
+                                       134.96.216.249
+                                       134.96.216.253
+                                       134.96.216.214
+   NetBIOS ueber TCP/IP . . . . . . . : Aktiviert
+   Suchliste fuer verbindungsspezifische DNS-Suffixe:
+                                       stl.htwsaar.de
+
+Tunneladapter isatap.htwsaar.de:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: htwsaar.de
+   Beschreibung. . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physische Adresse . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Tunneladapter LAN-Verbindung* 3:
+
+   Verbindungsspezifisches DNS-Suffix:
+   Beschreibung. . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physische Adresse . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   IPv6-Adresse. . . . . . . . . . . : 2001:0:9d38:78cf:3836:3115:799f:2790(Bevorzugt)
+   Verbindungslokale IPv6-Adresse  . : fe80::3836:3115:799f:2790%2(Bevorzugt)
+   Standardgateway . . . . . . . . . :
+   DHCPv6-IAID . . . . . . . . . . . : 134217728
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-20-A4-97-B6-00-1A-4A-16-00-3E
+   NetBIOS ueber TCP/IP . . . . . . . : Deaktiviert
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>route -4 print
+===========================================================================
+Schnittstellenliste
+  3...00 1a 4a 16 00 3e ......Red Hat VirtIO Ethernet Adapter
+  1...........................Software Loopback Interface 1
+  4...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+  2...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+===========================================================================
+
+IPv4-Routentabelle
+===========================================================================
+Aktive Routen:
+     Netzwerkziel    Netzwerkmaske          Gateway    Schnittstelle Metrik
+          0.0.0.0          0.0.0.0     134.96.216.1   134.96.216.111      5
+        127.0.0.0        255.0.0.0   Auf Verbindung         127.0.0.1    306
+        127.0.0.1  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  127.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+     134.96.216.0    255.255.255.0   Auf Verbindung    134.96.216.111    261
+   134.96.216.111  255.255.255.255   Auf Verbindung    134.96.216.111    261
+   134.96.216.255  255.255.255.255   Auf Verbindung    134.96.216.111    261
+        224.0.0.0        240.0.0.0   Auf Verbindung         127.0.0.1    306
+        224.0.0.0        240.0.0.0   Auf Verbindung    134.96.216.111    261
+  255.255.255.255  255.255.255.255   Auf Verbindung         127.0.0.1    306
+  255.255.255.255  255.255.255.255   Auf Verbindung    134.96.216.111    261
+===========================================================================
+Staendige Routen:
+  Keine
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>route -6 print
+===========================================================================
+Schnittstellenliste
+  3...00 1a 4a 16 00 3e ......Red Hat VirtIO Ethernet Adapter
+  1...........................Software Loopback Interface 1
+  4...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+  2...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+===========================================================================
+
+IPv6-Routentabelle
+===========================================================================
+Aktive Routen:
+ If Metrik Netzwerkziel             Gateway
+  3    261 ::/0                     2001:638:200:2::1
+  1    306 ::1/128                  Auf Verbindung
+  2    306 2001::/32                Auf Verbindung
+  2    306 2001:0:9d38:78cf:3836:3115:799f:2790/128
+                                    Auf Verbindung
+  3    261 2001:638:200:2:7374:76:aaaa:a01d/128
+                                    Auf Verbindung
+  3    261 fe80::/64                Auf Verbindung
+  2    306 fe80::/64                Auf Verbindung
+  2    306 fe80::3836:3115:799f:2790/128
+                                    Auf Verbindung
+  3    261 fe80::e0cf:274c:213e:6447/128
+                                    Auf Verbindung
+  1    306 ff00::/8                 Auf Verbindung
+  3    261 ff00::/8                 Auf Verbindung
+  2    306 ff00::/8                 Auf Verbindung
+===========================================================================
+Staendige Routen:
+ If Metrik Netzwerkziel             Gateway
+  0 4294967295 ::/0                     2001:638:200:2::1
+===========================================================================
+
+P:\RECHNERNETZE-PI-DFHI-Praktikum\ueb03\loesung03-daten>

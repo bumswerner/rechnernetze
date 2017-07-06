@@ -1,0 +1,40 @@
+#
+#
+#
+# XUbuntu_netstat-g
+#
+#
+#
+
+pauly@XUbuntu-15:~$ netstat -g
+####################-----------------
+IPv6/IPv4-Gruppenmitgliedschaften
+Schnittstelle   RefZäh Grupp
+--------------- ------ ---------------------
+lo              1      all-systems.mcast.net
+eth0            1      224.0.0.251
+eth0            1      all-systems.mcast.net
+lo              1      ip6-allnodes
+lo              1      ff01::1
+eth0            1      ff02::fb
+eth0            1      ff02::1:fff3:7245
+eth0            1      ip6-allnodes
+eth0            1      ff01::1
+
+
+
+pauly@XUbuntu-15:~$ netstat -gn
+####################-----------------
+IPv6/IPv4-Gruppenmitgliedschaften
+Schnittstelle   RefZäh Grupp
+--------------- ------ ---------------------
+lo              1      224.0.0.1
+eth0            1      224.0.0.251
+eth0            1      224.0.0.1
+lo              1      ff02::1
+lo              1      ff01::1
+eth0            1      ff02::fb
+eth0            1      ff02::1:fff3:7245
+eth0            1      ff02::1
+eth0            1      ff01::1
+paulypi15@XUbuntu-15:~$ 

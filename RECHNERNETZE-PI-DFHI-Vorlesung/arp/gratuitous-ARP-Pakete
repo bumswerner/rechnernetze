@@ -1,0 +1,106 @@
+ETHER:  ----- Ether Header -----
+ETHER:
+ETHER:  Packet 103 arrived at 10:31:59.03162
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:2:b3:88:3a:a9,
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame -----
+ARP:
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:2:b3:88:3a:a9
+ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.17, stl-k-07.htw-saarland.de
+ARP:
+
+ETHER:  ----- Ether Header -----
+ETHER:
+ETHER:  Packet 741 arrived at 10:55:47.10873
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:2:b3:88:37:f0,
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame -----
+ARP:
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:2:b3:88:37:f0
+ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.30, stl-k-20.htw-saarland.de
+ARP:
+
+ETHER:  ----- Ether Header -----
+ETHER:
+ETHER:  Packet 743 arrived at 10:55:49.05581
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:2:b3:88:39:b7,
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame -----
+ARP:
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:2:b3:88:39:b7
+ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.31, stl-k-21.htw-saarland.de
+ARP:
+
+ETHER:  ----- Ether Header -----
+ETHER:
+ETHER:  Packet 3298 arrived at 11:25:19.35215
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:30:5:aa:f8:69,
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame -----
+ARP:
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:30:5:aa:f8:69
+ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.131, stl-c-31.htw-saarland.de
+ARP:
+
+ETHER:  ----- Ether Header -----
+ETHER:
+ETHER:  Packet 5088 arrived at 12:14:19.42784
+ETHER:  Packet size = 60 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:30:5:aa:f6:d7,
+ETHER:  Ethertype = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame -----
+ARP:
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 0:30:5:aa:f6:d7
+ARP:  Sender's protocol address = 0.0.0.0, OLD-BROADCAST
+ARP:  Target hardware address = ?
+ARP:  Target protocol address = 134.96.216.127, stl-c-27.htw-saarland.de
+ARP:
+
+

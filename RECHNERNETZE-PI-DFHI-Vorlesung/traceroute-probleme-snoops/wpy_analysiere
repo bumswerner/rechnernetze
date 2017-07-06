@@ -1,0 +1,16 @@
+#!/bin/ksh
+#
+#
+# wpy_analysiere
+#
+#
+#
+
+
+
+/usr/xpg4/bin/grep -e "^ETHER:  Destination.*$" \
+                   -e "^ETHER:  Source .*$"      \
+                   -e "^IP:   Time to live .*$"      \
+                   -e "^IP:   Protocol .*$"      \
+                   -e "^UDP.*$"      \
+                   -e "^ICMP:.*$" 

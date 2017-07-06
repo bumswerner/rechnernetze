@@ -1,0 +1,88 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    09. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 28 
+
+    Form  : - in schriftlicher Form, anzugeben sind die zur Loesung der
+              Aufgaben notwendigen LINUX-Kommandos bzw. LINUX-Kommandofolgen,
+              deren Ausgaben - natuerlich nur auszugsweise !!! -  und 
+              natuerlich die Antworten auf die einzelnen Fragen.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb09/ueb09.txt
+
+
+
+
+    Anmerkung : wenn im Folgenden von --> snooping oder snoopen <-- gesprochen wird,
+                so ist die Benutzung des tcpdump-Programmes gemeint.
+
+    
+    
+    1. Aufgabe - IP-Multicast-snooping 
+    -----------------------------------------------------
+       - snoopen Sie nach IP-Multicast-Paketen, die ihre Redhat/CentOS/XUbuntu-VM erreichen
+         und erlaeutern Sie, um welche Art von Multicastpakete es sich handelt und
+         welche Aufgabe diese erfuellen.
+    
+    
+    2. Aufgabe - Telnet-snooping 
+    -----------------------------------------------------
+       - snoopen Sie mit Ihrer Redhat/CentOS/XUbuntu-VM das folgende 
+         --> telnet stl-s-stud.htwsaar.de 7 <-- Kommando,
+         geben Sie nach telnet-Start die Zeile --> abcdefghijklmnopq <-- ein
+         dann schalten sie mit --> stgr + AltGraph + ] <-- in den telnet-Kommandomodus
+         und beenden die Sitzung mit --> quit <---.
+    
+              * Welcher UNIX-Standard-Dienst wird von dem telnet-Kommando angesprochen 
+                und wie funktioniert dieser ?
+    
+              * Wo finden Sie Informationen welche Dienste welches Port belegen ??
+                ( lokal auf dem Rechner ?, im Internet )
+    
+              * Vollziehen Sie den Verbindungsaufbau, die Datenuebertragung, sowie den
+                Verbindungsabbau auf Papier mit den wichtigsten Headerdaten der IP- und 
+                TCP-Ebene nach.
+    
+    
+       - TCP muss darauf vorbereitet sein, dass das erste TCP-Segment zur Verbindungs 
+         -eroeffnung verloren geht, so dass TCP dieses Segment erneut uebertragen muss,
+         bevor es Kenntniss von der mittleren Roundtripzeit (RTT) der Verbindung hat.
+    
+              * Wie lange wartet TCP bis zur Neuuebertragung des Segmentes ?
+    
+              * Wie oft versucht TCP die erneute Uebertragung, bis es erklaert, dass die
+                Verbindung nicht hergestellt werden kann ?
+    
+         Um das herauszufinden, oeffnen in Ihrer Redhat/CentOS/XUbuntu-VM Sie eine Verbindung zu einem
+         nicht existierenden od. abgeschalteten Host ( z.B so : telnet stl-projekt.htwsaar.de )
+         und benutzen tcpdump, um den resultierenden TCP-Verkehr zu analysieren.
+    
+    
+    
+    
+    3. Aufgabe - Fehlersignalisierung bei UDP und TCP
+    -----------------------------------------------------
+       - In der Vorlesung haben Sie gehoert, dass die UDP-Software bei der Ansprache eines
+         unbesetzten UDP-Ports eine ICMP-Port-Unreachable-Nachricht an den Sender
+         des UDP-Datagramms zuruecksendet, fuehren sie auf Ihrer Redhat/CentOS/XUbuntu-VM 
+         ein Experiment durch, mit dem Sie dieses Verhalten beweisen koennen. 
+    
+              * Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
+                mit Erlaeuterung.
+    
+    
+       - Aus der Vorlesung ist ebenfalls bekannt, dass die TCP-Software keine ICMP-Nachricht
+         generiert, sondern ein TCP-RST-Segment an den sendenden Rechner zuruecksendet; 
+         auch dieses Verhalten sollten Sie durch ein Experiment auf Ihrer Redhat/CentOS/XUbuntu-VM 
+         beweisen.
+    
+              * Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
+                mit Erlaeuterung.

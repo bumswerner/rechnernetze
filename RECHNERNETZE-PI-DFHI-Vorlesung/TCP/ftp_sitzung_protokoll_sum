@@ -1,0 +1,87 @@
+    No. Time        Source                Destination           Protocol Info
+      1 0.000000    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [SYN] Seq=2831634300 Ack=0 Win=32850 Len=0
+      2 0.000333    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp > 33481 [SYN, ACK] Seq=3392393709 Ack=2831634301 Win=33304 Len=0
+      3 0.000489    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634301 Ack=3392393710 Win=33304 Len=0
+      4 0.017147    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 220-
+      5 0.017273    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634301 Ack=3392393716 Win=33304 Len=0
+      6 0.017674    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 220-
+      7 0.017881    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634301 Ack=3392394240 Win=33042 Len=0
+      8 0.018185    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 220-
+      9 0.062123    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634301 Ack=3392394542 Win=32891 Len=0
+     10 0.062344    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 220 stl-c-03.htw-saarland.de FTP server ready.
+     11 0.112207    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634301 Ack=3392394590 Win=32891 Len=0
+     12 1.883442    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: USER wpy
+     13 1.883646    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp > 33481 [ACK] Seq=3392394590 Ack=2831634311 Win=33304 Len=0
+     14 1.887698    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 331 Password required for wpy.
+     15 1.932159    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634311 Ack=3392394622 Win=32891 Len=0
+     16 7.932664    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: PASS EinPasswort
+     17 7.932875    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp > 33481 [ACK] Seq=3392394622 Ack=2831634327 Win=33304 Len=0
+     18 8.498671    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 230 User wpy logged in.
+     19 8.499110    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: SYST
+     20 8.499497    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 215 UNIX Type: L8 Version: SUNOS
+     21 8.499902    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: TYPE I
+     22 8.500243    stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 Type set to I.
+     23 8.542138    stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634341 Ack=3392394701 Win=32891 Len=0
+     24 13.753606   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: PORT 134,96,216,230,130,202
+     25 13.754078   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 PORT command successful.
+     26 13.754456   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: TYPE A
+     27 13.754802   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 Type set to A.
+     28 13.755112   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: LIST
+     29 13.769590   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp-data > 33482 [SYN] Seq=3396143944 Ack=0 Win=32850 Len=0
+     30 13.769778   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33482 > ftp-data [SYN, ACK] Seq=2835167233 Ack=3396143945 Win=33304 Len=0
+     31 13.769996   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp-data > 33482 [ACK] Seq=3396143945 Ack=2835167234 Win=33304 Len=0
+     32 13.800689   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 150 Opening ASCII mode data connection for /bin/ls.
+     33 13.842115   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634384 Ack=3392394804 Win=32891 Len=0
+     34 15.560415   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     35 15.560530   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     36 15.560651   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     37 15.560867   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33482 > ftp-data [ACK] Seq=2835167234 Ack=3396145393 Win=32580 Len=0
+     38 15.560881   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33482 > ftp-data [ACK] Seq=2835167234 Ack=3396146841 Win=31856 Len=0
+     39 15.561452   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     40 15.561573   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     41 15.561653   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 952 bytes
+     42 15.563214   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33482 > ftp-data [ACK] Seq=2835167234 Ack=3396149737 Win=31856 Len=0
+     43 15.584659   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     44 15.584767   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     45 15.584893   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     46 15.585012   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     47 15.589528   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33482 > ftp-data [ACK] Seq=2835167234 Ack=3396153585 Win=32580 Len=0
+     48 15.590109   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     49 15.623663   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: TYPE I
+     50 15.624033   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 Type set to I.
+     51 15.672159   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634392 Ack=3392394848 Win=32891 Len=0
+     52 30.205733   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: TYPE I
+     53 30.206151   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 Type set to I.
+     54 30.252145   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634400 Ack=3392394868 Win=32891 Len=0
+     55 39.464601   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: PORT 134,96,216,230,130,203
+     56 39.465156   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 200 PORT command successful.
+     57 39.465505   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: RETR wpy-spam
+     58 39.498421   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp-data > 33483 [SYN] Seq=3402479809 Ack=0 Win=32850 Len=0
+     59 39.498606   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [SYN, ACK] Seq=2841482494 Ack=3402479810 Win=33304 Len=0
+     60 39.498813   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp-data > 33483 [ACK] Seq=3402479810 Ack=2841482495 Win=33304 Len=0
+     61 39.515170   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp > 33481 [ACK] Seq=3392394898 Ack=2831634444 Win=33304 Len=0
+     62 39.520340   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 150 Opening BINARY mode data connection for wpy-spam (11069 bytes).
+     63 39.555163   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     64 39.555285   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     65 39.555405   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     66 39.555543   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [ACK] Seq=2841482495 Ack=3402481258 Win=32580 Len=0
+     67 39.556122   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     68 39.556238   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     69 39.556308   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [ACK] Seq=2841482495 Ack=3402482706 Win=32580 Len=0
+     70 39.556536   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [ACK] Seq=2841482495 Ack=3402485602 Win=32580 Len=0
+     71 39.556885   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     72 39.557002   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 1448 bytes
+     73 39.557084   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP-DATA FTP Data: 933 bytes
+     74 39.558013   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [ACK] Seq=2841482495 Ack=3402489946 Win=31856 Len=0
+     75 39.558027   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [ACK] Seq=2841482495 Ack=3402490880 Win=31389 Len=0
+     76 39.562178   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634444 Ack=3392394967 Win=32856 Len=0
+     77 39.564068   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33483 > ftp-data [FIN, ACK] Seq=2841482495 Ack=3402490880 Win=33304 Len=0
+     78 39.564239   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp-data > 33483 [ACK] Seq=3402490880 Ack=2841482496 Win=33304 Len=0
+     79 39.564441   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 226 Transfer complete.
+     80 39.612183   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634444 Ack=3392394991 Win=32856 Len=0
+     81 44.220468   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de FTP      Request: QUIT
+     82 44.220899   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 221-You have transferred 11069 bytes in 1 files.
+     83 44.224513   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de FTP      Response: 221-Total traffic for this session was 31417 bytes in 2 transfers.
+     84 44.224715   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [ACK] Seq=2831634450 Ack=3392395194 Win=32780 Len=0
+     85 44.225199   stl-m-wpy.htw-saarland.de stl-c-03.htw-saarland.de TCP      33481 > ftp [FIN, ACK] Seq=2831634450 Ack=3392395194 Win=32780 Len=0
+     86 44.225425   stl-c-03.htw-saarland.de stl-m-wpy.htw-saarland.de TCP      ftp > 33481 [ACK] Seq=3392395194 Ack=2831634451 Win=33304 Len=0

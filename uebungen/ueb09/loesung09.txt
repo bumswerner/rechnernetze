@@ -1,0 +1,206 @@
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    LOESUNG zur 09. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    Quelle     : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb09/loesung09.txt
+    Protokolle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb09/loesung09-daten
+
+
+
+
+
+
+
+    Anmerkung : wenn im Folgenden von --> snooping oder snoopen <-- gesprochen wird,
+                so ist die Benutzung des tcpdump-Programmes gemeint.
+
+    
+    
+    
+    1. Aufgabe - IP-Multicast-snooping 
+    -----------------------------------------------------
+       - snoopen Sie nach IPv4-Multicast-Paketen, die ihre Redhat/CentOS/XUbuntu-VM erreichen
+         und erlaeutern Sie, um welche Art von Multicastpakete es sich handelt und
+         welche Aufgabe diese erfuellen.
+    
+    ###> Versuchsablauf: starte tcpdump -l -i eth0 -e -vv -S -A ether ' multicast and !broadcast ' 
+                                | tee CentOS_Multicast
+
+         ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_Multicast)
+    
+    ###> Auswertung : gefunden werden folgende multicast-Pakete 
+
+         A --> oui Cisco (0x00000c), pid PVST (0x010b): STP 802.1w, Rapid STP
+
+         B --> rtg216-0.stl.htwsaar.de > igrp-routers.mcast.net: EIGRP v2
+
+         C --> kil-l-bohr.stl.htwsaar.de.51614 > 224.0.0.252.hostmon 01:00:5e:00:00:fc
+           --> stl-deimos.stl.htwsaar.de.netbios-ns > 224.0.0.252.netbios-ns
+
+
+         A) das sind Spanning-Tree-Nachrichten ( STP 802.1w, Rapid STP ); damit bauen die 
+            Switches schleifenfreie VLANs auf.
+
+         B) es werden vom Router rtg216.0 IP-Pakete an die Multicast-Adresse
+            224.0.0.10 == IGRP-ROUTERS.MCAST.NET versendet. Damit sucht er nach
+            weiteren Routern im Netz des STL.
+            (IGRP == Interior Gateway Routing Protocol)
+
+         C) 2 Hosts versenden Nachichten an die Multicastgruppe 224.0.0.252 == 
+            Link-Local Multicast Name Resolution ( RFC 4795 ); siehe englischen Wikipedia-Artikel 
+            hier ein Auszug :
+
+               "The Link-Local Multicast Name Resolution (LLMNR) is a protocol based on 
+                the Domain Name System (DNS) packet format that allows both IPv4 and IPv6 
+                hosts to perform name resolution for hosts on the same local link. It is 
+                included in Windows Vista, Windows Server 2008, Windows 7, Windows 8 
+                and Windows 10.[1] It is also implemented by systemd-resolved on Linux.[2] 
+                LLMNR is defined in RFC 4795...."
+
+
+
+        
+
+    2. Aufgabe - Telnet-snooping 
+    -----------------------------------------------------
+       - snoopen Sie mit Ihrer Redhat/CentOS/XUbuntu-VM das folgende 
+         --> telnet stl-s-stud.htwsaar.de 7 <-- Kommando,
+         geben Sie nach telnet-Start die Zeile --> abcdefghijklmnopq <-- ein
+         dann schalten sie mit --> stgr + AltGraph + ] <-- in den telnet-Kommandomodus
+         und beenden die Sitzung mit --> quit <---.
+    
+    ###> Versuchsablauf: starte tcpdump -l -i eth0 -e -vv -S -A ip ' host stl-s-stud.htwsaar.de and tcp port 7 ' 
+                                | tee CentOS_Telnet_1
+
+         ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_Telnet_1)
+         (                                                    -- CentOS_Telnet_1_verkuerzt)
+
+    
+              * Welcher UNIX-Standard-Dienst wird von dem telnet-Kommando angesprochen 
+                und wie funktioniert dieser ?
+
+    ###> Es handelt sich um den echo-Server via TCP angesprochen; er sendet die an ihn gesendeten Daten
+         unverzueglich zurueck.
+    
+              * Wo finden Sie Informationen welche Dienste welches Port belegen ??
+                ( lokal auf dem Rechner ?, im Internet )
+    
+    ###> Unter der Datei /etc/services bei Redhat/CentOS/XUbuntu od. im Internet auf www.iana.org - numbers-Seite
+
+    
+              * Vollziehen Sie den Verbindungsaufbau, die Datenuebertragung, sowie den
+                Verbindungsabbau auf Papier mit den wichtigsten Headerdaten der IP- und 
+                TCP-Ebene nach.
+
+    ###> Bedeutung der Flags :    S = SYN, . = ACK, F = FIN
+
+         Zuerst der TCP-3-Wege-Handshake
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [S]
+             stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [S.]
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]
+         
+         Uebertragung der Daten vom Client zum Server und Bestaetigung des Servers:
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [P.]
+             stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.]
+         
+         Uebertragung der Daten vom Server zum Client  und Bestaetigung des Clients:
+             stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [P.]
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]
+         
+         Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Client :
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [F.]
+             stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [.]
+         
+         Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Server :
+             stl-s-studwork.stl.htwsaar.de.echo > stl-v-118.stl.htwsaar.de.59364: Flags [F.]
+             stl-v-118.stl.htwsaar.de.59364 > stl-s-studwork.stl.htwsaar.de.echo: Flags [.]
+
+    
+    
+       - TCP muss darauf vorbereitet sein, dass das erste TCP-Segment zur Verbindungs 
+         -eroeffnung verloren geht, so dass TCP dieses Segment erneut uebertragen muss,
+         bevor es Kenntniss von der mittleren Roundtripzeit (RTT) der Verbindung hat.
+    
+              * Wie lange wartet TCP bis zur Neuuebertragung des Segmentes ?
+
+    ###>                          CentOS        Solaris
+                1. versuch t =      0             0
+                2. versuch t =      1             1
+                3. versuch t =      2             2
+                4. versuch t =      4             4
+                5. versuch t =      8             9
+                6. versuch t =     16            18
+                7. versuch t =     32            36
+                8. versuch t =                   60
+
+    
+              * Wie oft versucht TCP die erneute Uebertragung, bis es erklaert, dass die
+                Verbindung nicht hergestellt werden kann ?
+
+    ###>  Die TCP-Software versucht 7 mal den Kontakt aufzunehmen, jeweils mit einer
+          sich verdoppelnden Wartezeit
+
+         ( siehe  -- CentOS_Telnet_2_verkuerzt)
+    
+         Um das herauszufinden, oeffnen in Ihrer Redhat/CentOS/XUbuntu-VM Sie eine Verbindung zu einem
+         nicht existierenden od. abgeschalteten Host ( z.B so : telnet stl-projekt.htwsaar.de )
+         und benutzen tcpdump, um den resultierenden TCP-Verkehr zu analysieren.
+    
+    
+    ###> Versuchsablauf: starte tcpdump -l -i eth0 -e -vv -S -A ip ' host stl-projekt.htwsaar.de and tcp port 23 ' 
+                                | tee CentOS_Telnet_2
+
+         ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_Telnet_2)
+
+    
+    
+    3. Aufgabe - Fehlersignalisierung bei UDP und TCP
+    -----------------------------------------------------
+       - In der Vorlesung haben Sie gehoert, dass die UDP-Software bei der Ansprache eines
+         unbesetzten UDP-Ports eine ICMP-Port-Unreachable-Nachricht an den Sender
+         des UDP-Datagramms zuruecksendet, fuehren sie auf Ihrer Redhat/CentOS/XUbuntu-VM 
+         ein Experiment durch, mit dem Sie dieses Verhalten beweisen koennen. 
+    
+              * Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
+                mit Erlaeuterung.
+
+       ###> Versuchsablauf:
+               1. starte : tcpdump -i eth0 -l -e -vv -S
+                                   -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  |\
+                           tee -a CentOS_traceroute_www-stl
+
+                           wireshark Capture-Filter : (icmp or udp ) and host www-stl.htwsaar.de
+
+
+               2. nehme parallel Kontakt auf : traceroute www-stl.htwsaar.de
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- loesung08-daten/CentOS_traceroute_www-stl)
+
+
+    
+
+       - Aus der Vorlesung ist ebenfalls bekannt, dass die TCP-Software keine ICMP-Nachricht
+         generiert, sondern ein TCP-RST-Segment an den sendenden Rechner zuruecksendet; 
+         auch dieses Verhalten sollten Sie durch ein Experiment auf Ihrer Redhat/CentOS/XUbuntu-VM 
+         beweisen.
+    
+              * Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
+                mit Erlaeuterung.
+
+       ###> Versuchsablauf:
+               1. starte : tcpdump -i eth0 -l -e -vv -S
+                                   -A 'tcp and host stl-v-191.htwsaar.de and port 55555' |\
+                           tee -a CentOS_RST-Segment
+
+               2. nehme parallel Kontakt auf : telnet stl-v-191.htwsaar.de 55555
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- CentOS_RST-Segment)
+
+         Ergebnis:
+               Man sieht, dass auf das SYN-Segment von der CentOS-VM,
+               stl-v-191.htwsaar.de ( XUbuntu) mit einem RST-Segment antwortet.
+

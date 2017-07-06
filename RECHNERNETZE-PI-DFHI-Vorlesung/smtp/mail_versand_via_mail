@@ -1,0 +1,19 @@
+#
+#
+#
+#  mail_versand_via_mail
+#
+#
+#
+#
+
+stl-m-wpy:wpy:Internet/internet-vorlesung/smtp
+
+
+    mail wpy@htw-saarland.de
+        Subject: Das ist ein TEST !!!!
+        so und das ist der Mail-Inhalt : NIX und wieder NIX !!
+        .
+
+
+stl-m-wpy:wpy:Internet/internet-vorlesung/smtp

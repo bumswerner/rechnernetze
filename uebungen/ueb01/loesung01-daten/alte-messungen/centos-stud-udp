@@ -1,0 +1,23 @@
+
+#
+#
+#
+# centos-stud-udp
+#
+#
+
+CentOS -> netio -u stl-v-117.htwsaar.de | tee centos-stud-udp
+##########----------------------------------------------------
+
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+UDP connection established.
+Packet size  1k bytes:  42.21 MByte/s (81%) Tx,  95.66 MByte/s (3%) Rx.
+Packet size  2k bytes:  39.50 MByte/s (88%) Tx,  83.39 MByte/s (3%) Rx.
+Packet size  4k bytes:  81.52 MByte/s (84%) Tx,  99.18 MByte/s (1%) Rx.
+Packet size  8k bytes:  47.85 MByte/s (91%) Tx,  99.13 MByte/s (1%) Rx.
+Packet size 16k bytes:  266.62 KByte/s (99%) Tx,  99.80 MByte/s (0%) Rx.
+Packet size 32k bytes:  138.66 KByte/s (99%) Tx,  98.80 MByte/s (1%) Rx.
+Done.

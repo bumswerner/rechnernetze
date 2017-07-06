@@ -1,0 +1,20 @@
+  zdve-mailx -> 134.96.7.26  DNS C www.ebay.com. Internet Addr ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C returns.groups.yahoo.com. Internet Addr ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C 9.72.93.195.in-addr.arpa. Internet PTR ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C ns1.mailclub.fr. Internet Unknown (28) ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C ns2.mailclub.fr. Internet Unknown (28) ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C www.mabillon.com. Internet Addr ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C 26.7.96.134.in-addr.arpa. Internet PTR ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C main.evrocom.net. Internet Unknown (28) ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C pagead2.google.com. Internet Addr ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)
+  zdve-mailx -> 134.96.7.26  DNS C gd21.doubleclick.net. Internet Addr ?
+ 134.96.7.26 -> zdve-mailx   ICMP Destination unreachable (UDP port 53 unreachable)

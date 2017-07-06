@@ -1,0 +1,307 @@
+#
+#
+#
+#
+#  netstat-bsp
+#
+#
+#
+
+
+das Kommando : --> netstat -a -n -f inet -P tcp 
+
+
+die Ausgabe :
+---------------------------------------------------------------------------
+TCP: IPv4
+   Local Address        Remote Address    Swind Send-Q Rwind Recv-Q  State
+-------------------- -------------------- ----- ------ ----- ------ -------
+      *.*                  *.*                0      0 49152      0 IDLE
+127.0.0.1.4999             *.*                0      0 49152      0 LISTEN
+      *.3852               *.*                0      0 65536      0 LISTEN
+      *.111                *.*                0      0 65536      0 LISTEN
+      *.*                  *.*                0      0 65536      0 IDLE
+      *.37                 *.*                0      0 65536      0 LISTEN
+      *.7                  *.*                0      0 65536      0 LISTEN
+      *.9                  *.*                0      0 65536      0 LISTEN
+      *.13                 *.*                0      0 65536      0 LISTEN
+      *.19                 *.*                0      0 65536      0 LISTEN
+      *.32779              *.*                0      0 65536      0 LISTEN
+      *.32780              *.*                0      0 65536      0 LISTEN
+      *.7100               *.*                0      0 65536      0 LISTEN
+      *.6112               *.*                0      0 65536      0 LISTEN
+      *.32781              *.*                0      0 65536      0 LISTEN
+      *.32782              *.*                0      0 65536      0 LISTEN
+      *.32783              *.*                0      0 65536      0 LISTEN
+      *.515                *.*                0      0 65536      0 LISTEN
+      *.514                *.*                0      0 65536      0 LISTEN
+      *.514                *.*                0      0 65536      0 LISTEN
+      *.513                *.*                0      0 65536      0 LISTEN
+      *.512                *.*                0      0 65536      0 LISTEN
+      *.512                *.*                0      0 65536      0 LISTEN
+      *.79                 *.*                0      0 65536      0 LISTEN
+      *.32784              *.*                0      0 65536      0 LISTEN
+      *.540                *.*                0      0 65536      0 LISTEN
+      *.23                 *.*                0      0 65536      0 LISTEN
+      *.21                 *.*                0      0 65536      0 LISTEN
+      *.4045               *.*                0      0 65536      0 LISTEN
+      *.32785              *.*                0      0 65536      0 LISTEN
+      *.32787              *.*                0      0 65536      0 BOUND
+      *.3853               *.*                0      0 65536      0 LISTEN
+      *.5987               *.*                0      0 65536      0 LISTEN
+      *.898                *.*                0      0 65536      0 LISTEN
+      *.32793              *.*                0      0 65536      0 LISTEN
+      *.5988               *.*                0      0 65536      0 LISTEN
+      *.32794              *.*                0      0 65536      0 LISTEN
+      *.25                 *.*                0      0 65536      0 LISTEN
+      *.25                 *.*                0      0 65536      0 LISTEN
+      *.587                *.*                0      0 65536      0 LISTEN
+      *.9010               *.*                0      0 65536      0 LISTEN
+      *.32796              *.*                0      0 65536      0 LISTEN
+134.96.216.230.32797 134.96.216.214.630    8760      0 64240      0 CLOSE_WAIT
+      *.32799              *.*                0      0 65536      0 LISTEN
+      *.32800              *.*                0      0 65536      0 LISTEN
+      *.*                  *.*                0      0 65536      0 IDLE
+      *.6000               *.*                0      0 65536      0 LISTEN
+134.96.216.230.1022  134.96.216.204.2049  24616      0 66608    124 ESTABLISHED
+134.96.216.230.1021  134.96.216.233.2049  24616      0 66608      0 ESTABLISHED
+      *.32813              *.*                0      0 65536      0 LISTEN
+134.96.216.230.32814 134.96.216.204.32776 24616      0 66608      0 ESTABLISHED
+127.0.0.1.32816      127.0.0.1.32779      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32779      127.0.0.1.32816      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32819      127.0.0.1.32813      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32813      127.0.0.1.32819      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32822      127.0.0.1.32821      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32821      127.0.0.1.32822      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32825      127.0.0.1.32813      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32813      127.0.0.1.32825      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32828      127.0.0.1.32827      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32827      127.0.0.1.32828      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32831      127.0.0.1.32813      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32813      127.0.0.1.32831      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32834      127.0.0.1.32833      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32833      127.0.0.1.32834      73620      0 73620      0 ESTABLISHED
+      *.*                  *.*                0      0 65536      0 IDLE
+      *.*                  *.*                0      0 65536      0 IDLE
+127.0.0.1.32836      127.0.0.1.9010       36810      0 73620      0 ESTABLISHED
+127.0.0.1.9010       127.0.0.1.32836      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32837      127.0.0.1.9010       36810      0 73620      0 ESTABLISHED
+127.0.0.1.9010       127.0.0.1.32837      73620      0 73620      0 ESTABLISHED
+127.0.0.1.32838      127.0.0.1.9010       73620      0 73620      0 ESTABLISHED
+127.0.0.1.9010       127.0.0.1.32838      73620      0 73620      0 ESTABLISHED
+127.0.0.1.5180             *.*                0      0 65536      0 LISTEN
+      *.*                  *.*                0      0 65536      0 IDLE
+
+
+das Kommando : --> netstat -a -n -f inet -P tcp | fgrep LISTEN
+
+
+die Ausgabe :
+---------------------------------------------------------------------------
+TCP: IPv4
+   Local Address        Remote Address    Swind Send-Q Rwind Recv-Q  State
+-------------------- -------------------- ----- ------ ----- ------ -------
+127.0.0.1.4999             *.*                0      0 49152      0 LISTEN
+      *.3852               *.*                0      0 65536      0 LISTEN
+      *.111                *.*                0      0 65536      0 LISTEN
+      *.37                 *.*                0      0 65536      0 LISTEN
+      *.7                  *.*                0      0 65536      0 LISTEN
+      *.9                  *.*                0      0 65536      0 LISTEN
+      *.13                 *.*                0      0 65536      0 LISTEN
+      *.19                 *.*                0      0 65536      0 LISTEN
+      *.32779              *.*                0      0 65536      0 LISTEN
+      *.32780              *.*                0      0 65536      0 LISTEN
+      *.7100               *.*                0      0 65536      0 LISTEN
+      *.6112               *.*                0      0 65536      0 LISTEN
+      *.32781              *.*                0      0 65536      0 LISTEN
+      *.32782              *.*                0      0 65536      0 LISTEN
+      *.32783              *.*                0      0 65536      0 LISTEN
+      *.515                *.*                0      0 65536      0 LISTEN
+      *.514                *.*                0      0 65536      0 LISTEN
+      *.514                *.*                0      0 65536      0 LISTEN
+      *.513                *.*                0      0 65536      0 LISTEN
+      *.512                *.*                0      0 65536      0 LISTEN
+      *.512                *.*                0      0 65536      0 LISTEN
+      *.79                 *.*                0      0 65536      0 LISTEN
+      *.32784              *.*                0      0 65536      0 LISTEN
+      *.540                *.*                0      0 65536      0 LISTEN
+      *.23                 *.*                0      0 65536      0 LISTEN
+      *.21                 *.*                0      0 65536      0 LISTEN
+      *.4045               *.*                0      0 65536      0 LISTEN
+      *.32785              *.*                0      0 65536      0 LISTEN
+      *.3853               *.*                0      0 65536      0 LISTEN
+      *.5987               *.*                0      0 65536      0 LISTEN
+      *.898                *.*                0      0 65536      0 LISTEN
+      *.32793              *.*                0      0 65536      0 LISTEN
+      *.5988               *.*                0      0 65536      0 LISTEN
+      *.32794              *.*                0      0 65536      0 LISTEN
+      *.25                 *.*                0      0 65536      0 LISTEN
+      *.25                 *.*                0      0 65536      0 LISTEN
+      *.587                *.*                0      0 65536      0 LISTEN
+      *.9010               *.*                0      0 65536      0 LISTEN
+      *.32796              *.*                0      0 65536      0 LISTEN
+      *.32799              *.*                0      0 65536      0 LISTEN
+      *.32800              *.*                0      0 65536      0 LISTEN
+      *.6000               *.*                0      0 65536      0 LISTEN
+      *.32813              *.*                0      0 65536      0 LISTEN
+127.0.0.1.5180             *.*                0      0 65536      0 LISTEN
+
+
+
+das Kommando : --> netstat -a -f inet -P tcp | fgrep LISTEN
+
+
+die Ausgabe :
+---------------------------------------------------------------------------
+TCP: IPv4
+   Local Address        Remote Address    Swind Send-Q Rwind Recv-Q  State
+-------------------- -------------------- ----- ------ ----- ------ -------
+localhost.4999             *.*                0      0 49152      0 LISTEN
+      *.3852               *.*                0      0 65536      0 LISTEN
+      *.rpcbind            *.*                0      0 65536      0 LISTEN
+      *.time               *.*                0      0 65536      0 LISTEN
+      *.echo               *.*                0      0 65536      0 LISTEN
+      *.sink               *.*                0      0 65536      0 LISTEN
+      *.daytime            *.*                0      0 65536      0 LISTEN
+      *.chargen            *.*                0      0 65536      0 LISTEN
+      *.32779              *.*                0      0 65536      0 LISTEN
+      *.32780              *.*                0      0 65536      0 LISTEN
+      *.fs                 *.*                0      0 65536      0 LISTEN
+      *.dtspc              *.*                0      0 65536      0 LISTEN
+      *.32781              *.*                0      0 65536      0 LISTEN
+      *.32782              *.*                0      0 65536      0 LISTEN
+      *.32783              *.*                0      0 65536      0 LISTEN
+      *.printer            *.*                0      0 65536      0 LISTEN
+      *.shell              *.*                0      0 65536      0 LISTEN
+      *.shell              *.*                0      0 65536      0 LISTEN
+      *.login              *.*                0      0 65536      0 LISTEN
+      *.exec               *.*                0      0 65536      0 LISTEN
+      *.exec               *.*                0      0 65536      0 LISTEN
+      *.finger             *.*                0      0 65536      0 LISTEN
+      *.32784              *.*                0      0 65536      0 LISTEN
+      *.uucp               *.*                0      0 65536      0 LISTEN
+      *.telnet             *.*                0      0 65536      0 LISTEN
+      *.ftp                *.*                0      0 65536      0 LISTEN
+      *.lockd              *.*                0      0 65536      0 LISTEN
+      *.32785              *.*                0      0 65536      0 LISTEN
+      *.3853               *.*                0      0 65536      0 LISTEN
+      *.5987               *.*                0      0 65536      0 LISTEN
+      *.898                *.*                0      0 65536      0 LISTEN
+      *.32793              *.*                0      0 65536      0 LISTEN
+      *.5988               *.*                0      0 65536      0 LISTEN
+      *.32794              *.*                0      0 65536      0 LISTEN
+      *.smtp               *.*                0      0 65536      0 LISTEN
+      *.smtp               *.*                0      0 65536      0 LISTEN
+      *.587                *.*                0      0 65536      0 LISTEN
+      *.9010               *.*                0      0 65536      0 LISTEN
+      *.32796              *.*                0      0 65536      0 LISTEN
+      *.32799              *.*                0      0 65536      0 LISTEN
+      *.32800              *.*                0      0 65536      0 LISTEN
+      *.6000               *.*                0      0 65536      0 LISTEN
+      *.32813              *.*                0      0 65536      0 LISTEN
+localhost.5180             *.*                0      0 65536      0 LISTEN
+
+
+
+das Kommando : --> netstat -a -f inet -P tcp | fgrep telnet
+
+
+die Ausgabe :
+---------------------------------------------------------------------------
+TCP: IPv4
+   Local Address        Remote Address    Swind Send-Q Rwind Recv-Q  State
+-------------------- -------------------- ----- ------ ----- ------ -------
+      *.telnet             *.*                0      0 65536      0 LISTEN
+
+
+nachdem 4 telnet-Sessions je 2 von stl-m-wpy und stl-s-ad initiiert wurden
+liefert obiges Kommando folgende Ausgabe  :
+
+
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-c-03.32834       65882      0 66608      0 ESTABLISHED
+stl-m-wpy.telnet     stl-c-03.32839       65884      0 66608      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 ESTABLISHED
+
+
+nachdem die 2 Sessions von stl-c-03 geschlossen wurden liefert netstat folgende
+Ausgabe :
+
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-c-03.32834       65882      0 66608      0 TIME_WAIT
+stl-m-wpy.telnet     stl-c-03.32839       65884      0 66608      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 ESTABLISHED
+
+
+und nach ca. 2 Minuten folgende :
+
+
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 ESTABLISHED
+
+
+
+hier wird der zeitliche Verlauf dargestellt :
+
+
+
+das Kommando :
+--------------
+while ( true )
+> do
+>    date
+>    netstat -a -f inet -P tcp | fgrep telnet
+>    date
+>    sleep 10
+> done
+
+
+
+
+die Ausgabe :
+-------------------------------------------------------------------------------
+Donnerstag,  8. April 2004, 10:17:43 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 ESTABLISHED
+Donnerstag,  8. April 2004, 10:17:46 Uhr MEST
+Donnerstag,  8. April 2004, 10:17:56 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 ESTABLISHED
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:17:58 Uhr MEST
+Donnerstag,  8. April 2004, 10:18:08 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:18:08 Uhr MEST
+Donnerstag,  8. April 2004, 10:18:18 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:18:20 Uhr MEST
+Donnerstag,  8. April 2004, 10:18:30 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:18:30 Uhr MEST
+Donnerstag,  8. April 2004, 10:18:40 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:18:42 Uhr MEST
+Donnerstag,  8. April 2004, 10:18:52 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+stl-m-wpy.telnet     stl-s-ad.52691       24820      0 64172      0 TIME_WAIT
+stl-m-wpy.telnet     stl-s-ad.52692       24820      0 64172      0 TIME_WAIT
+Donnerstag,  8. April 2004, 10:18:55 Uhr MEST
+Donnerstag,  8. April 2004, 10:19:05 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+Donnerstag,  8. April 2004, 10:19:05 Uhr MEST
+Donnerstag,  8. April 2004, 10:19:15 Uhr MEST
+      *.telnet             *.*                0      0 65536      0 LISTEN
+Donnerstag,  8. April 2004, 10:19:16 Uhr MEST
+

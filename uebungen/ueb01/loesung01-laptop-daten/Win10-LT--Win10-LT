@@ -1,0 +1,57 @@
+#
+#
+# Win10-LT--Win10-LT
+#
+#
+#
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t localhost
+##########################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  332.38 MByte/s Tx,  327.81 MByte/s Rx.
+Packet size  2k bytes:  450.11 MByte/s Tx,  431.82 MByte/s Rx.
+Packet size  4k bytes:  594.77 MByte/s Tx,  660.78 MByte/s Rx.
+Packet size  8k bytes:  682.72 MByte/s Tx,  680.23 MByte/s Rx.
+Packet size 16k bytes:  813.65 MByte/s Tx,  815.31 MByte/s Rx.
+Packet size 32k bytes:  951.96 MByte/s Tx,  936.46 MByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t 134.96.216.230
+##########################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  284.08 MByte/s Tx,  313.78 MByte/s Rx.
+Packet size  2k bytes:  343.93 MByte/s Tx,  387.50 MByte/s Rx.
+Packet size  4k bytes:  494.16 MByte/s Tx,  474.13 MByte/s Rx.
+Packet size  8k bytes:  655.19 MByte/s Tx,  660.52 MByte/s Rx.
+Packet size 16k bytes:  812.90 MByte/s Tx,  817.54 MByte/s Rx.
+Packet size 32k bytes:  889.26 MByte/s Tx,  889.92 MByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin> win32-i386.exe -t stl-nemesis.htwsaar.de
+##########################-----------------------------------------------------------------
+
+NETIO - Network Throughput Benchmark, Version 1.32
+(C) 1997-2012 Kai Uwe Rommel
+
+TCP connection established.
+Packet size  1k bytes:  289.44 MByte/s Tx,  256.91 MByte/s Rx.
+Packet size  2k bytes:  347.95 MByte/s Tx,  340.95 MByte/s Rx.
+Packet size  4k bytes:  458.26 MByte/s Tx,  469.60 MByte/s Rx.
+Packet size  8k bytes:  648.95 MByte/s Tx,  656.15 MByte/s Rx.
+Packet size 16k bytes:  825.43 MByte/s Tx,  824.63 MByte/s Rx.
+Packet size 32k bytes:  918.45 MByte/s Tx,  873.26 MByte/s Rx.
+Done.
+
+
+C:\wpy-netio\netio132\bin>
+##########################-----------------------------------------------------------------

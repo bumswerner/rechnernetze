@@ -1,0 +1,43 @@
+#
+#
+#
+#
+#  extract_Proto*Frame
+#
+#
+#
+#
+
+
+read DATEI?"Gebe Protokoll-Datei-Name ein :"
+
+echo $DATEI
+
+cat $DATEI |\
+nawk ' BEGIN  {
+               FRAME="^Frame.*$";
+               TELNET="^Telnet.*$"
+               SOURCE="^    Source: stl.*$";
+               DEST="^    Destination: stl.*$";
+              }
+       $0 ~ FRAME  {
+                    print "\n\n" $0;
+                   }
+       $0 ~ SOURCE  {
+                    print $0;
+                   }
+       $0 ~ DEST  {
+                    print $0;
+                   }
+
+       $0 ~ TELNET {
+                    print $0;
+                    while ( (getline Zeile > 0) && ( Zeile !~ FRAME) )
+                      {
+                       print Zeile
+                      }
+                    print "\n\n" Zeile;
+                   }
+     ' 
+           
+

@@ -1,0 +1,15 @@
+#
+#
+#
+# zeige_dienste_die_inet_startet
+#
+#
+
+
+
+for I in `svcs | tr -s " " | cut -d" " -f3`
+do
+  echo "---> $I"
+  svcprop -p inetd_start/exec $I
+  echo " "
+done

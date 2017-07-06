@@ -1,0 +1,204 @@
+From Wolfgang.Pauly@htw-saarland.de  Wed Sep 24 15:07:22 2003
+Received: from localhost [127.0.0.1] by stl-s-ad.htw-saarland.de
+	with SpamAssassin (2.60 1.212-2003-09-23-exp);
+	Wed, 24 Sep 2003 15:07:25 +0200
+From: Wolfgang Pauly <Wolfgang.Pauly@htw-saarland.de>
+To: Wolfgang.Pauly@htw-saarland.de
+Subject: Test spam mail (GTUBE)
+Date: Wed, 24 Sep 2003 15:07:32 +0200
+Message-Id: <3F719714.8050707@htw-saarland.de>
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 2.60 (1.212-2003-09-23-exp) on 
+	stl-s-ad.htw-saarland.de
+X-Spam-Status: Yes, hits=1000.0 required=5.0 tests=GTUBE autolearn=ham 
+	version=2.60
+X-Spam-Level: **************************************************
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----------=_3F71970D.32B25E01"
+
+This is a multi-part message in MIME format.
+
+------------=_3F71970D.32B25E01
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+Software zur Erkennung von "Spam" auf dem Rechner "stl-s-ad.htw-saarland.de" hat diese
+eingegangene E-mail als mögliche "Spam"-Nachricht identifiziert. Die
+ursprüngliche Nachricht wurde an diesen Report angehängt, so dass Sie
+sie anschauen können (falls es doch eine legitime E-mail ist) oder
+ähnliche unerwünschte Nachrichten in Zukunft abblocken können.
+Bei Fragen zu diesem Vorgang wenden Sie sich bitte an
+Wolfgang.Pauly@htw-saarland.de.
+
+Vorschau: This is a cryptographically signed message in MIME
+  format. This is the GTUBE, the Generic Test for Unsolicited Bulk Email
+  If your spam filter supports it, the GTUBE provides a test by which you
+  can verify that the filter is installed correctly and is detecting
+  incoming spam. You can send yourself a test mail containing the
+  following string of characters (in upper case and with no white spaces
+  and line breaks): [...] 
+
+Inhaltsanalyse im Detail:   (1000.0 Punkte, 5.0 benötigt)
+
+Pnkt Regelname              Beschreibung
+---- ---------------------- --------------------------------------------------
+1000 GTUBE                  BODY: Test zur Prüfung von Anti-Spam-Software
+
+Die ursprüngliche Nachricht enthielt nicht ausschließlich Klartext
+(plain text) und kann eventuell eine Gefahr für einige E-mail-Programme
+darstellen falls sie z.B. einen Computervirus enthält.
+Möchten Sie die Nachricht dennoch ansehen ist es wahrscheinlich
+sicherer sie zuerst in einer Datei zu speichern und diese Datei danach
+mit einem Editorprogramm zu öffnen.
+
+
+------------=_3F71970D.32B25E01
+Content-Type: message/rfc822; x-spam-type=original
+Content-Description: original message before SpamAssassin
+Content-Disposition: attachment
+Content-Transfer-Encoding: 8bit
+
+Received: from zdve-mailx.htw-saarland.de (zdve-mailx.htw-saarland.de [134.96.208.98])
+	by stl-s-ad.htw-saarland.de (8.12.8/8.12.8) with ESMTP id h8OD7LfS015437
+	for <wolfgang.pauly@stl-s-ad.htw-saarland.de>; Wed, 24 Sep 2003 15:07:21 +0200 (MEST)
+Received: from htw-saarland.de (stl-m-wpy.htw-saarland.de [134.96.216.230])
+	by zdve-mailx.htw-saarland.de (8.12.9/8.12.9) with ESMTP id h8OD6inK024206
+	for <Wolfgang.Pauly@htw-saarland.de>; Wed, 24 Sep 2003 15:06:45 +0200 (MEST)
+Message-ID: <3F719714.8050707@htw-saarland.de>
+Disposition-Notification-To: Wolfgang Pauly
+ <Wolfgang.Pauly@htw-saarland.de>
+Date: Wed, 24 Sep 2003 15:07:32 +0200
+From: Wolfgang Pauly <Wolfgang.Pauly@htw-saarland.de>
+Reply-To: Wolfgang.Pauly@htw-saarland.de
+Organization: HTW/GIS/STL
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.0.1) Gecko/20020920 Netscape/7.0
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: Wolfgang.Pauly@htw-saarland.de
+Subject: Test spam mail (GTUBE)
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg=sha1; boundary="------------ms020301050808010105020801"
+X-MailScanner: Found to be clean
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms020301050808010105020801
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+
+This is the GTUBE, the
+        Generic
+        Test for
+        Unsolicited
+        Bulk
+        Email
+
+If your spam filter supports it, the GTUBE provides a test by which you
+can verify that the filter is installed correctly and is detecting incoming
+spam. You can send yourself a test mail containing the following string of
+characters (in upper case and with no white spaces and line breaks):
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+You should send this test mail from an account outside of your network.
+
+-- 
+Dipl.-Ing. Wolfgang Pauly       Hochschule f. Technik und Wirtschaft des Saarlandes
+                                Fachbereich GIS
+Tel. : 0681-5867-239
+EMail: wpy@htw-saarland.de      www:   http://www.htw-saarland.de
+-------------------------------------------------------------------------------------
+Zur Verifizierung meiner Unterschrift laden sie das Zertifikat der STL - EMailUser_CA
+in ihr E-Mail-Programm   http://www.htw-saarland.de/stl/stl-ca.html
+-------------------------------------------------------------------------------------
+
+
+--------------ms020301050808010105020801
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIINcjCC
+BHcwggPgoAMCAQICAQEwDQYJKoZIhvcNAQEEBQAwgZ0xCzAJBgNVBAYTAkRFMREwDwYDVQQI
+EwhTYWFybGFuZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNV
+BAsTB0dJUy9TVEwxFTATBgNVBAMTDEVNYWlsVXNlciBDQTEtMCsGCSqGSIb3DQEJARYeV29s
+ZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMB4XDTAzMDkxMjEyMzAzNloXDTA4MDkxMDEy
+MzAzNlowga8xCzAJBgNVBAYTAkRFMREwDwYDVQQIEwhTYWFybGFuZDEVMBMGA1UEBxMMU2Fh
+cmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNVBAsTB0dJUy9TVEwxJzAlBgNVBAMUHldv
+bGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTEtMCsGCSqGSIb3DQEJARYeV29sZmdhbmcu
+UGF1bHlAaHR3LXNhYXJsYW5kLmRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKPUT5
+SN1dzi3cKscJtBmM4IiYUsqxvcqnIDZrzII1ioP+2NYY4cCU7EXxfXwChUXLKnMhLuEBNRFI
+U5nv7kbIKZCaMhH2PGmvHC5/LhHXkbXdAxRpv7GRieBj6ThwgtAbiKSvS8TgW6pp8g3qA+8u
+iCx1BMCTlvNGISjRZ+FLPQIDAQABo4IBsTCCAa0wCwYDVR0PBAQDAgP4MB0GA1UdDgQWBBTi
+6PE4NKXwjhE+aGLTLLEmvUVP9jCBzAYDVR0jBIHEMIHBgBTaSyFquHNEDj2lbJTY0hKAlIhc
+hKGBpaSBojCBnzELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxT
+YWFyYnJ1ZWNrZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMO
+V29sZmdhbmcgUGF1bHkxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFy
+bGFuZC5kZYIBAjApBgNVHREEIjAggR5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUw
+KQYDVR0SBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3LXNhYXJsYW5kLmRlMBEGCWCGSAGG+EIB
+AQQEAwIFoDBHBglghkgBhvhCAQ0EOhY4RGllc2VzIFplcnRpZmlrYXQgd3VyZGUgZHVyY2gg
+SFRXL0dJUy9TVEwgYXVzZ2VnZWJlbiAhIQowDQYJKoZIhvcNAQEEBQADgYEAYdUTYhy9isda
+uDX+wTPrHESeerDd1ycNGmVkuXnC7R7XXr8Vm2Lv4BQRG9D3FSMbiDWulrBeGQrFhbWg+irV
+dbx4a7Ryl4tIH6QtV+U5FWPPtTH0RqwD7i1poYaWY/pE1E2jjWQUeZmjDwhRN94/rcYL8Vkt
+PuS+Z0PV/4KIPKAwggR3MIID4KADAgECAgEBMA0GCSqGSIb3DQEBBAUAMIGdMQswCQYDVQQG
+EwJERTERMA8GA1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UE
+ChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIgQ0ExLTArBgkq
+hkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTAeFw0wMzA5MTIxMjMw
+MzZaFw0wODA5MTAxMjMwMzZaMIGvMQswCQYDVQQGEwJERTERMA8GA1UECBMIU2FhcmxhbmQx
+FTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RM
+MScwJQYDVQQDFB5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUxLTArBgkqhkiG9w0B
+CQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOB
+jQAwgYkCgYEAyj1E+UjdXc4t3CrHCbQZjOCImFLKsb3KpyA2a8yCNYqD/tjWGOHAlOxF8X18
+AoVFyypzIS7hATURSFOZ7+5GyCmQmjIR9jxprxwufy4R15G13QMUab+xkYngY+k4cILQG4ik
+r0vE4FuqafIN6gPvLogsdQTAk5bzRiEo0WfhSz0CAwEAAaOCAbEwggGtMAsGA1UdDwQEAwID
++DAdBgNVHQ4EFgQU4ujxODSl8I4RPmhi0yyxJr1FT/YwgcwGA1UdIwSBxDCBwYAU2ksharhz
+RA49pWyU2NISgJSIXIShgaWkgaIwgZ8xCzAJBgNVBAYTAkRFMREwDwYDVQQIEwhTYWFybGFu
+ZDEVMBMGA1UEBxMMU2FhcmJydWVja2VuMQwwCgYDVQQKEwNIVFcxEDAOBgNVBAsTB0dJUy9T
+VEwxFzAVBgNVBAMTDldvbGZnYW5nIFBhdWx5MS0wKwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5Q
+YXVseUBodHctc2FhcmxhbmQuZGWCAQIwKQYDVR0RBCIwIIEeV29sZmdhbmcuUGF1bHlAaHR3
+LXNhYXJsYW5kLmRlMCkGA1UdEgQiMCCBHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5k
+ZTARBglghkgBhvhCAQEEBAMCBaAwRwYJYIZIAYb4QgENBDoWOERpZXNlcyBaZXJ0aWZpa2F0
+IHd1cmRlIGR1cmNoIEhUVy9HSVMvU1RMIGF1c2dlZ2ViZW4gISEKMA0GCSqGSIb3DQEBBAUA
+A4GBAGHVE2IcvYrHWrg1/sEz6xxEnnqw3dcnDRplZLl5wu0e116/FZti7+AUERvQ9xUjG4g1
+rpawXhkKxYW1oPoq1XW8eGu0cpeLSB+kLVflORVjz7Ux9EasA+4taaGGlmP6RNRNo41kFHmZ
+ow8IUTfeP63GC/FZLT7kvmdD1f+CiDygMIIEeDCCA+GgAwIBAgIBAjANBgkqhkiG9w0BAQQF
+ADCBnzELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1
+ZWNrZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMOV29sZmdh
+bmcgUGF1bHkxLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5k
+ZTAeFw0wMzA1MTIxMzAzMjdaFw0xMzA1MDkxMzAzMjdaMIGdMQswCQYDVQQGEwJERTERMA8G
+A1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tlbjEMMAoGA1UEChMDSFRXMRAw
+DgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIgQ0ExLTArBgkqhkiG9w0BCQEW
+HldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAw
+gYkCgYEAtNRZhieXpuvH6rTQ/7VB/yNlXAAwZaR6XFRmgr1p5e1/pyeKlLdOW8qSNyOBPLwB
+nTYuGX77Tyc7VDboRXENVU0hGIY9NbfuWsV65llsSBXiudRd2O/T410IJs/NVPmBXyGn/OEx
+unfypfo/2XfhdH7ZiP0YuZGgGpnChh8SdGUCAwEAAaOCAcIwggG+MA8GA1UdEwEB/wQFMAMB
+Af8wCwYDVR0PBAQDAgEGMB0GA1UdDgQWBBTaSyFquHNEDj2lbJTY0hKAlIhchDCBzAYDVR0j
+BIHEMIHBgBTIVgbr0N2PPRYBU5YclLyNGO4lVaGBpaSBojCBnzELMAkGA1UEBhMCREUxETAP
+BgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNrZW4xDDAKBgNVBAoTA0hUVzEQ
+MA4GA1UECxMHR0lTL1NUTDEXMBUGA1UEAxMOV29sZmdhbmcgUGF1bHkxLTArBgkqhkiG9w0B
+CQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZYIBADApBgNVHREEIjAggR5Xb2xm
+Z2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUwKQYDVR0SBCIwIIEeV29sZmdhbmcuUGF1bHlA
+aHR3LXNhYXJsYW5kLmRlMBEGCWCGSAGG+EIBAQQEAwIABzBHBglghkgBhvhCAQ0EOhY4RGll
+c2VzIFplcnRpZmlrYXQgd3VyZGUgZHVyY2ggSFRXL0dJUy9TVEwgYXVzZ2VnZWJlbiAhIQow
+DQYJKoZIhvcNAQEEBQADgYEAYFQKpIbiLhWfSO94sVcWE9b6VkUcimn5bXvqonWa7BrfvwUo
+BdGZxOx490WsLL3/0CySBHPUPXB2Qmn8LrwTrIlgTHZyfjIy5hTo9BuaAxbgOfKUVvVUoz1k
+s+sIKNPw4ioaiKeB5TCLLsI3UMSZIR/GchwmOz9/WnDxabIqX2sxggK4MIICtAIBATCBozCB
+nTELMAkGA1UEBhMCREUxETAPBgNVBAgTCFNhYXJsYW5kMRUwEwYDVQQHEwxTYWFyYnJ1ZWNr
+ZW4xDDAKBgNVBAoTA0hUVzEQMA4GA1UECxMHR0lTL1NUTDEVMBMGA1UEAxMMRU1haWxVc2Vy
+IENBMS0wKwYJKoZIhvcNAQkBFh5Xb2xmZ2FuZy5QYXVseUBodHctc2FhcmxhbmQuZGUCAQEw
+CQYFKw4DAhoFAKCCAWowGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUx
+DxcNMDMwOTI0MTMwNzMyWjAjBgkqhkiG9w0BCQQxFgQUYopl1Z/4c0UIdRyb8OqfL8lSnkcw
+UgYJKoZIhvcNAQkPMUUwQzAKBggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcN
+AwICAUAwBwYFKw4DAgcwDQYIKoZIhvcNAwICASgwgbYGCyqGSIb3DQEJEAILMYGmoIGjMIGd
+MQswCQYDVQQGEwJERTERMA8GA1UECBMIU2FhcmxhbmQxFTATBgNVBAcTDFNhYXJicnVlY2tl
+bjEMMAoGA1UEChMDSFRXMRAwDgYDVQQLEwdHSVMvU1RMMRUwEwYDVQQDEwxFTWFpbFVzZXIg
+Q0ExLTArBgkqhkiG9w0BCQEWHldvbGZnYW5nLlBhdWx5QGh0dy1zYWFybGFuZC5kZQIBATAN
+BgkqhkiG9w0BAQEFAASBgBVLEI5eW1aC3Xb3mJdmwoQLeoNYVGhs9HNLCw3PBdl/JlBL3N3P
+6cle5kfHyqhRLUawRRdHmEVxoDoXys6/oEE81Y27CGr4hooGKRPbjoowULPZiOzzRyByM6S0
+K+Rp1aghAfe0FnfKjzsgwK8pm43wosdR6eHEcReF13YPI3gtAAAAAAAA
+--------------ms020301050808010105020801--
+
+
+------------=_3F71970D.32B25E01--
+
