@@ -1,0 +1,126 @@
+1. Aufgabe - IP-Multicast-snooping 
+    -----------------------------------------------------
+       - snoopen Sie nach IP-Multicast-Paketen, die ihre Redhat/CentOS/XUbuntu-VM erreichen
+         und erlaeutern Sie, um welche Art von Multicastpakete es sich handelt und
+         welche Aufgabe diese erfuellen.
+        
+  ###> Versuchsablauf: starte
+         tcpdump -l -i eth0 -e -vv -S -A ether 'multicast and !broadcast'  tee CentOS_Multicast
+         
+         a)
+         --> oui Cisco (0x00000c) pid PVST (0x010b): STP 802.1w, Rapid STP EIGRP v2, opcode: Hello (5)
+         
+         
+         b)
+         -->  rtg216-0.htw-saarland.de > igrp-routers.mcast.net: EIGRP
+
+         
+         c)
+         17:01:15.974886 00:1a:4a:16:00:71 (oui Unknown) > 01:00:5e:00:00:fc (oui Unknown), ethertype IPv4 (0x0800), length 71: (tos 0x0, ttl 1, id 5267, offset 0, flags [none], proto UDP (17), length 57)
+         stl-v-194.htw-saarland.de.53661 > 224.0.0.252.hostmon: [udp sum ok] UDP, length 29
+         E..9......e..`...........%.*.c...........stl-v-win10.....
+         --> stl-v-194.htw-saarland.de:53661 > 224.0.0.252.hostmon --> 
+         -->  stl-v-179.htw-saarland.de.63093 > 224.0.0.252.hostmon
+         
+         a) das sind Spanning-Tree-Nachrichten ( STP 802.1w, Rapid STP ); damit bauen die 
+            Switches schleifenfreie VLANs auf.
+            
+         b) es werden vom Router rtg216.0 IP-Pakete an die Multicast-Adresse
+            224.0.0.10 == IGRP-ROUTERS.MCAST.NET versendet. Damit sucht er nach
+            weiteren Routern im Netz des STL.
+            (IGRP == Interior Gateway Routing Protocol)
+
+         c) 2 Hosts versenden Nachichten an die Multicastgruppe 224.0.0.252 == 
+            Link-Local Multicast Name Resolution ( RFC 4795 ); siehe englischen Wikipedia-Artikel 
+            hier ein Auszug :
+
+               "The Link-Local Multicast Name Resolution (LLMNR) is a protocol based on 
+                the Domain Name System (DNS) packet format that allows both IPv4 and IPv6 
+                hosts to perform name resolution for hosts on the same local link. It is 
+                included in Windows Vista, Windows Server 2008, Windows 7, Windows 8 
+                and Windows 10.[1] It is also implemented by systemd-resolved on Linux.[2] 
+                LLMNR is defined in RFC 4795...."
+        
+ 2. Aufgabe - Telnet-snooping 
+    -----------------------------------------------------
+       - snoopen Sie mit Ihrer Redhat/CentOS/XUbuntu-VM das folgende 
+         --> telnet stl-s-stud.htwsaar.de 7 <-- Kommando,
+         geben Sie nach telnet-Start die Zeile --> abcdefghijklmnopq <-- ein
+         dann schalten sie mit --> stgr + AltGraph + ] <-- in den telnet-Kommandomodus
+         und beenden die Sitzung mit --> quit <---.
+    
+    ###> Versuchsablauf: starte 
+    tcpdump -l -i eth0 -e -vv -S -A ip 'host stl-s-stud.htwsaar.de and tcp port 7' | tee CentOS_Telnet_1
+    
+     Bedeutung der Flags :    S = SYN, . = ACK, F = FIN
+    
+     3-Way-Headshake
+     ----------------
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [S] --  seq 3740282339  -- length 0
+     stl-s-stud-neu.htw-saarland.de.echo > stl-v-108.htw-saarland.de.51710: Flags [S.] -- seq 2359546831, ack 3740282340  -- length 0
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [.]  -- seq 3740282340, ack 2359546832  -- length 0
+     
+     Data-Transfer
+     --------------
+     Uebertragung der Daten vom Client zum Server und Bestaetigung des Servers:
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [P.] -- seq 3740282340:3740282359, ack 2359546832 -- length 19 -- incorrect
+     stl-s-stud-neu.htw-saarland.de.echo > stl-v-108.htw-saarland.de.51710: Flags [.]  -- seq 2359546832, ack 3740282359 -- length 0
+     
+     Uebertragung der Daten vom Server zum Client  und Bestaetigung des Clients:
+     stl-s-stud-neu.htw-saarland.de.echo > stl-v-108.htw-saarland.de.51710: Flags [P.] -- seq 2359546832:2359546851, ack 3740282359 -- length 19 -- correct
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [.]  -- seq 3740282359, ack 2359546851 -- length 0 -- incorrect
+     
+     
+     Close Connection
+     ----------------
+     Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Client :
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [F.] -- seq 3740282359, ack 2359546851 -- length 0 -- incorrect
+     
+     Beenden ( einseitiges Schliessen ) der TCP-Verbindung durch den Server :
+     stl-s-stud-neu.htw-saarland.de.echo > stl-v-108.htw-saarland.de.51710: Flags [F.] -- seq 2359546851, ack 3740282360 -- length 0 -- correct
+     stl-v-108.htw-saarland.de.51710 > stl-s-stud-neu.htw-saarland.de.echo: Flags [.]  -- seq 3740282360, ack 2359546852 -- length 0 -- incorrect
+     
+     
+     - TCP muss darauf vorbereitet sein, dass das erste TCP-Segment zur Verbindungs 
+       -eroeffnung verloren geht, so dass TCP dieses Segment erneut uebertragen muss,
+       bevor es Kenntniss von der mittleren Roundtripzeit (RTT) der Verbindung hat.
+       
+       
+       tcpdump -l -i eth0 -e -vv -S -A ip ' host stl-projekt.htwsaar.de and tcp port 23 ' | tee CentOS_Telnet_2 
+                                                                                          | tee Stud_Telenet_
+                                                                                          | tee Redhat_Telenet
+       
+       Wie lange wartet TCP bis zur Neuuebertragung des Segmentes?
+        
+                           CentOS    stl-s-stud     Redhat
+        1. Versuch t =       0           0            0
+        2. Versuch t =       1           1            1
+        3. Versuch t =       2           2            2
+        4. Versuch t =       4           4            5
+        5. Versuch t =       8           8            8
+        6. Versuch t =      16          16           16
+        7. Versuch t =      32          32           32
+        8. Versuch t =      
+        
+        
+
+        Wie oft versucht TCP die erneute Uebertragung, bis es erklaert, dass die
+        Verbindung nicht hergestellt werden kann ?
+        
+        Die TCP-Software versucht 7 mal (CentOS) kontakt herzustellen, jeweils mit einer
+        sich verdoppelnden Wartezeit.
+        
+        
+        Um das herauszufinden, oeffnen in Ihrer Redhat/CentOS/XUbuntu-VM Sie eine Verbindung zu einem
+        nicht existierenden od. abgeschalteten Host ( z.B so : telnet stl-projekt.htwsaar.de )
+        und benutzen tcpdump, um den resultierenden TCP-Verkehr zu analysieren.
+
+  3. Aufgabe - Fehlersignalisierung bei UDP und TCP
+    -----------------------------------------------------
+       - In der Vorlesung haben Sie gehoert, dass die UDP-Software bei der Ansprache eines
+         unbesetzten UDP-Ports eine ICMP-Port-Unreachable-Nachricht an den Sender
+         des UDP-Datagramms zuruecksendet, fuehren sie auf Ihrer Redhat/CentOS/XUbuntu-VM 
+         ein Experiment durch, mit dem Sie dieses Verhalten beweisen koennen. 
+
+        Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
+        mit Erlaeuterung.
