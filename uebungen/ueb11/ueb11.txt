@@ -1,0 +1,77 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    11. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 30 
+
+    
+    Form  : - in schriftlicher Form, abzugeben ist jeweils eine Versuchs-
+              beschreibung, mit den zur Loesung der Aufgaben notwendigen 
+              c-Programmen, Linux-Kommandos bzw. -Kommandofolgen, deren Ausgaben 
+              - moeglichst nur auszugsweise !!! - und die Interpretationen 
+              der erhaltenen Daten.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb11/ueb11.txt
+
+
+    Programme & Hilfsmittel :
+         Beispiel-Client   : ~pauly/RECHNERNETZE-PI-DFHI-Vorlesung/client-server/client.c
+         Beispiel-Server   : ~pauly/RECHNERNETZE-PI-DFHI-Vorlesung/client-server/server.c
+         Beispiel-Makefile : ~pauly/RECHNERNETZE-PI-DFHI-Vorlesung/client-server/makefile
+
+
+
+    1. Aufgabe - langsam lesender TCP-Client
+    ----------------------------------------
+       - Aendern Sie den Beispiel-Client so ab, dass er in einer Schleife
+         Daten in folgender Art einliest und ausgibt.
+
+         Die Schleife soll, wenn Daten laufend ankommen, 30 mal durchlaufen 
+         werden; sich aber sofort beenden, falls keine Daten mehr ankommen.
+
+         In der Schleife wartet der Client zuerst eine Sekunde, dann liest 
+         er mit recv maximal 5000 Zeichen ein und gibt die Anzahl der gelesenen 
+         Zeichen und die Anzahl der bisher ausgefuehrten recv-Aufrufe auf 
+         dem Bildschirm aus.
+    
+       - Testen Sie diesen Client mit dem daytime-Server; snoopen Sie die 
+         TCP-Kommunikation mit; erlaeutern Sie das Protokoll.
+    
+       - Testen Sie diesen Client mit dem chargen-Server; snoopen Sie die 
+         TCP-Kommunikation mit; erlaeutern Sie das Protokoll.
+    
+    
+    
+    2. Aufgabe - langsam reagierender TCP-Server
+    --------------------------------------------
+       - Aendern Sie den Beispiel-Server so ab, dass er
+   
+             1.) vor der Beantwortung eines Client-Kontaktes 30 Sekunden wartet
+
+                 und
+
+             2.) FREIWILLIG folgender Zusatz :                                                              
+                 bei jedem Kontakt die Server- und die Client-Socket-Merkmale
+                 ausgibt. Benutzen Sie dafuer die Funktionen getpeername und
+                 getsockname
+   
+       - Testen Sie Ihren Server unter CentOS so, dass innerhalb von 30 Sekunden  
+         6 Clientkontakte stattfinden. Nutzen Sie dazu das von mir bereitgestellte Skript 
+         zum starten der Clients (wpy_starte_client_mit_pausen); und ueberwachen Sie mit dem
+         Skript ---> wpy_zeige_slow_server-client-verbindungen-und-prozesse den gesamten
+         Kommunikationsablauf. 
+   
+       - Testen Sie Ihren Server unter CentOS so, dass innerhalb von 20 Sekunden 20 Clientkontakte 
+         stattfinden. Nutzen Sie wie beim vorherigen Test meine Skripts.
+
+       * Welchen Unterschiede stellen Sie bei den Kommunikationsablaeufen fest ??
+         und was bedeuten diese ?
+
+

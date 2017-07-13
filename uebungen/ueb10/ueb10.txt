@@ -1,0 +1,89 @@
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    10. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    Abgabe: Zur Vorlesung in der KW 29
+
+
+    Form  : - in schriftlicher Form, abzugeben ist jeweils eine Versuchs-
+              beschreibung, mit den zur Loesung der Aufgaben notwendigen 
+              UNIX/Linux-Kommandos bzw. -Kommandofolgen, deren Ausgaben
+              - moeglichst nur auszugsweise !!! - und die Interpretationen 
+              der erhaltenen Daten.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb10/ueb10.txt
+    
+
+    Anmerkung : wenn im Folgenden von --> snooping oder snoopen <-- gesprochen wird,
+                so ist die Benutzung von tcpdump und wireshark gemeint.
+
+
+
+    1. Aufgabe - snooping von ver- bzw. unverschluesselter tcp-Kommunikation
+    ------------------------------------------------------------------------
+       - snoopen Sie eine telnet-Sitzung und eine ssh-Sitzung von einer 
+         CentOS-VM zum stl-s-stud.htwsaar.de
+         Der Sitzungsablauf sollte wie folgt aussehen :
+                                - login
+                                - ausfuehren des Kommandos : uname -a
+                                - ausfuehren des Kommandos : who am i
+                                - logout ( exit )
+
+         * Welche Daten koennen Sie "ersnoopen" ??
+
+
+    2. Aufgabe - Portscanning
+    -----------------------------------------------------
+       Um einen Rechner zu sichern, um evtl. ueberfluessig laufende Serversoft-
+       ware zu erkennen, muss man wissen welche Ports er offen haelt und welche 
+       Dienste, welche Serversoftware, hinter diesen Ports auf Anfragen warten.
+    
+
+       - ermitteln Sie eine Liste der benutzten Sockets auf einer CentOS-VM.
+    
+
+       - benutzen Sie das Kommando nmap, um von einer anderen VM aus 
+         eine Liste der offenen Ports dieser CentOS-VM zu ermitteln.
+
+         * Vergleichen Sie die beiden Listen, was faellt auf ?
+    
+
+       - das STL betreibt VMs mit den Betriebssystemen Redhat/CentOS, XUbuntu oder Win10, 
+         ermitteln sie fuer jedes Betreibssystem eine Liste der erreichbaren 
+         Ports, wenn Sie an einer anderen STL-VM arbeiten und das Kommando nmap 
+         benutzen.
+
+       - ermitteln Sie die gleiche Liste fuer den Rechner kil-s-01.htwsaar.de
+
+         * Welche Erkenntnisse kann man aus den Listen in Bezug auf Remote-Betriebssystem, 
+           Remote-Dienste erhalten ?
+    
+
+       - ermitteln Sie die gleiche Liste fuer den Rechner stl-s-stud.htwsaar.de
+
+       - ermitteln Sie fuer stl-s-stud.htwsaar.de je eine  Portliste, von folgenden 
+         Standorten aus :
+
+                   -> HTW-WLAN - Eduroam
+                   -> HTW-WLAN - hiz-saarland 
+                   -> HOME-LAN oder HOME-WLAN
+
+         * Welche Erkenntnisse kann man aus dem Vergleich der Listen erhalten ?
+         * Welche Ursachen koennten die Unterschiede zwischen den Listen haben ?
+
+
+
+       - ermitteln Sie fuer eine CentOS-VM je eine  Portliste, von folgenden 
+         Standorten aus :
+
+                   -> HTW-WLAN - Eduroam
+                   -> HTW-WLAN - hiz-saarland
+                   -> HOME-LAN oder HOME-WLAN
+
+         * Welche Erkenntnisse kann man aus dem Vergleich der Listen erhalten ?
+         * Welche Ursachen koennten die Unterschiede zwischen den Listen haben ?

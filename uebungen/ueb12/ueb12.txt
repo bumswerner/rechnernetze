@@ -1,0 +1,89 @@
+
+
+
+    #######################################################################
+    Dipl.-Ing. Wolfgang Pauly / Dipl.-Inform. Achim Pick            SS 2017
+    #######################################################################
+    
+    
+    12. Uebung zur Vorlesung :  PI/DFHI - Rechnernetze
+    =======================================================================
+    
+    
+    Abgabe: K E I N E noetig, just for fun !!!!
+    
+    
+    Form der Loesung  : - in schriftlicher Form, jeweils eine Versuchs-
+             beschreibung, mit den zur Loesung der Aufgaben notwendigen
+             c-programme, LINUX-Kommandos bzw. -Kommandofolgen, deren Ausgaben
+             - moeglichst nur auszugsweise !!! - und die Interpretationen
+             der erhaltenen Daten.
+
+    Quelle : ~pauly/RECHNERNETZE-PI-DFHI-Praktikum/ueb12/ueb12.txt
+
+
+    
+    1. Aufgabe - snooping von pop, pops, smtp-Kommunikation
+    -------------------------------------------------------
+       - snoopen Sie einen e-mail-Abruf via pop (Post Office Prolocol) und via
+                 pops ( Post Office Prolocol over SSL )
+
+         * Welche Daten koennen Sie "ersnoopen" ??
+
+         * Beschreiben Sie die pop-Kommunikation anhand der "ersnoopten" Daten.
+    
+
+       - snoopen Sie einen e-mail-Versandt via smtp (Simple Mail Transport 
+                                                    Protocol)
+         * Welche Daten koennen Sie "ersnoopen" ??
+         * Beschreiben Sie die smtp-Kommunikation anhand der "ersnoopten" Daten.
+
+
+
+    2. Aufgabe - Dateikopierserver  <---- zur Inspiration fuer eigene
+                                              Netzwerk-Programmierungs-Projekte 
+    -----------------------------------------------------------------------------
+       - Aendern Sie die Client-Server-Beispielprogramme so ab, dass der Client
+         dem Server einen Dateinamen sendet und dieser als Antwort den Inhalt 
+         der entsprechenden Datei uebermittelt.
+    
+    
+
+    3. Aufgabe - send-/recv - Tests <---- zur Inspiration fuer eigene
+                                              Netzwerk-Programmierungs-Projekte 
+    -----------------------------------------------------------------------------
+       - Aendern Sie den  Beispiel-Client so, dass er zuerst die empfangenen 
+         Textzeilen anzeigt und dann die Anzahl der von ihm benoetigten
+         recv-Aufrufe.
+
+       - Aendern Sie den Beispiel-Server so ab, dass  er als Antwort auf einen
+         Clientkontakt mittels zwei send-Aufrufen zwei Textzeilen als 
+         Antwort versendet.
+
+       - Aendern Sie den Beispiel-Server so ab, dass  er als Antwort auf einen
+         Clientkontakt mit einem send-Aufruf die zwei Textzeilen, die in einem
+         Datenpuffer stehen, als Antwort versendet.
+
+       * Wie oft ruft der Client jeweils recv auf um die Daten zu empfangen ?
+       * Koennen Sie die Ergebnisse erklaeren ?
+    
+
+
+    
+    4. Aufgabe - Clients zum Abfragen von POP-/SMTP-/HTTP-Servern
+               <---- zur Inspiration fuer eigene Netzwerk-Programmierungs-Projekte 
+    -----------------------------------------------------------------------------
+       - Aendern Sie den Beispiel-Client so, dass er mit einem POP-Server einen
+         Anmeldedialog fuehren kann, um dann dem Benutzer die Anzahl der noch 
+         nicht gelesenen e-mails mitteilt. ( Erweiterbar auf Abrufen einer vom 
+         Benutzer auszuwaehlenden mail ....)
+
+       - Aendern Sie den Beispiel-Client so, dass er mit einem SMTP-Server einen
+         Anmeldedialog fuehren kann, um dann eine Textdatei als e-mail-Body fuer
+         einen einzugebenden Benutzer an einen anzugebenden e-mail-Account 
+         ueber den Mail-Server der HTW versendet.
+
+       - Aendern Sie den Beispiel-Client so, dass er von einem HTTP-Server 
+         mindestens die Startseite == http://server/index.html herunterlaed und 
+         als HTML-Quelle anzeigt.
+            

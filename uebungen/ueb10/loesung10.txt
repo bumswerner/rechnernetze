@@ -1,0 +1,27 @@
+
+    1. Aufgabe - snooping von ver- bzw. unverschluesselter tcp-Kommunikation
+    ------------------------------------------------------------------------
+       - snoopen Sie eine telnet-Sitzung und eine ssh-Sitzung von einer 
+         CentOS-VM zum stl-s-stud.htwsaar.de
+         Der Sitzungsablauf sollte wie folgt aussehen :
+                                - login
+                                - ausfuehren des Kommandos : uname -a
+                                - ausfuehren des Kommandos : who am i
+                                - logout ( exit )
+
+         * Welche Daten koennen Sie "ersnoopen" ??
+
+    snooping einer Telnet - Sitzung
+    
+    Schritt 1 (Starte Snooping im Terminal auf CentOS)
+    
+    tcpdump -l -i eth0 -e -vv -S -A ip 'host stl-v-108.htwsaar.de and tcp port 23' | tee Snoop_CentOS_Telnet
+    or
+    tcpdump -l -i eth0 -e -vv -S -A ip 'host stl-s-stud.htwsaar.de and tcp port 23' | tee Snoop_CentOS_Telnet
+    
+    Schritt 2 (Starte Verbindung von CentOS zu stls-s-stud.htwsaar.de)
+    
+    telnet stl-s-stud.htwsaar.de
+    
+    
+    

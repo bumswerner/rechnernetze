@@ -124,3 +124,6 @@
 
         Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
         mit Erlaeuterung.
+        
+         1. starte : 
+         tcpdump -i eth0 -l -e -vv -S -A 'tcp and host stl-v-191.htwsaar.de and port 55555' | tee -a CentOS_RST-Segment
