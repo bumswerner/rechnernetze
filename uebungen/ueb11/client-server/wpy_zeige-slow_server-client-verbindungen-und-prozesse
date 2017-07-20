@@ -1,0 +1,17 @@
+#
+#
+#
+#
+#   wpy_zeige-slow_server-client-verbindungen-und-prozesse
+#
+#
+#
+
+while ( true )
+   do
+    echo " ------- $( date +%H:%M:%S ) ------------"
+    echo "Verbindungszustand : VERBUNDEN --> $(netstat -a --inet --tcp | fgrep 5193 | fgrep VERBUNDEN | wc -l )"
+    echo "Verbindungszustand : SYN_SENT  --> $(netstat -a --inet --tcp | fgrep 5193 | fgrep SYN_SENT | wc -l )"
+    echo "Anzahl der Client-Prozesse     --> $( ps -ef | fgrep client | fgrep 5193 | wc -l )"
+    sleep 5
+   done

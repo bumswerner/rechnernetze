@@ -1,0 +1,29 @@
+#!/bin/ksh
+#
+#
+#
+#  wpy_starte_client_mit_pausen
+#
+#
+#
+
+read SERVER?"Gebe den Server-Rechner ein z.B. stl-v-XX  : "
+read WarteZeit?"Gebe Wartezeit ein z.B. 20 oder 6,1 : "
+read ANZAHL?"Gebe Zugriffs-Anzahl ein z.B. 10 oder 100 : "
+
+ZAEHLER=0 
+while ( ((ZAEHLER < ANZAHL)) )
+do
+  (( ZAEHLER += 1 ))
+  client $SERVER &
+  echo "$ZAEHLER. Clientanfrage gestartet : `date +%H:%M:%S`"
+  sleep $WarteZeit
+done
+
+# nun eine Zeitanzeige-Schkleife um die Antwortzeiten zu schaetzen
+
+#while ( true )
+  #do
+   #echo "aktuelle Zeit :  `date +%H:%M:%S`"
+   #sleep 5
+  #done
