@@ -1,0 +1,24 @@
+#
+#
+#
+#  RedHat-nmap-P0-stl-v-109.htwsaar.de
+#
+#
+#
+
+pauly@stl-centos:/export/home_pm/pauly> nmap -P0 stl-v-109.htwsaar.de                                             
+#######################################-------------------------------------
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-18 14:19 CEST
+Nmap scan report for stl-v-109.htwsaar.de (134.96.216.109)
+Host is up (0.86s latency).
+rDNS record for 134.96.216.109: stl-v-109.htw-saarland.de
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+631/tcp closed ipp
+
+Nmap done: 1 IP address (1 host up) scanned in 58.23 seconds
+pauly@stl-centos:/export/home_pm/pauly> 
+#######################################-------------------------------------
+

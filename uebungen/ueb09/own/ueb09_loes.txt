@@ -125,5 +125,14 @@
         Beschreiben Sie Ihr Experiment und dokumentieren Sie das Ergebnis 
         mit Erlaeuterung.
         
+        1. starte : tcpdump -i eth0 -l -e -vv -S -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  |  tee -a CentOS_traceroute_www-stl
+                    wireshark Capture-Filter : (icmp or udp ) and host www-stl.htwsaar.de
+                      
+                      
+        2. nehme parallel Kontakt auf : traceroute www-stl.htwsaar.de
+
+             ( Experimentablauf im Loesungs-Daten-Directory Datei -- loesung08-daten/CentOS_traceroute_www-stl)
+        
+        
          1. starte : 
          tcpdump -i eth0 -l -e -vv -S -A 'tcp and host stl-v-191.htwsaar.de and port 55555' | tee -a CentOS_RST-Segment

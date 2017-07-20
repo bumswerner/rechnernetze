@@ -1,0 +1,18 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-17 22:29 CEST
+Nmap scan report for kil-s-01.htwsaar.de (134.96.216.54)
+Host is up (0.00096s latency).
+rDNS record for 134.96.216.54: kil-s-01.htw-saarland.de
+Not shown: 964 closed ports, 27 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+445/tcp  open  microsoft-ds
+548/tcp  open  afp
+999/tcp  open  garcon
+1021/tcp open  exp1
+1023/tcp open  netvenuechat
+2049/tcp open  nfs
+5900/tcp open  vnc
+
+Nmap done: 1 IP address (1 host up) scanned in 5.68 seconds

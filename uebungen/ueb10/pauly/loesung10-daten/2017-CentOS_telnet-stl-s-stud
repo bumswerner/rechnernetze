@@ -1,0 +1,581 @@
+#
+#
+#
+#   2017-CentOS_telnet-stl-s-stud
+#
+#
+#
+#
+
+starte zuerst
+vvvvvvvvvvvvvvvvvvvvvvv
+pauly@CentOS ::> tcpdump -i eth0 -l -e -vv -S -A 'tcp and ( host stl-s-stud.htwsaar.de and port telnet )' |\
+                 tee -a CentOS_telnet-stl-s-stud
+#################-----------------------------------------------------------------------------------------
+
+
+dann in eigener Shell
+vvvvvvvvvvvvvvvvvvvvvvvvvv
+pauly@CentOS ::> telnet -l gast-40 stl-s-stud.htwsaar.de    
+#################-----------------------------------------------------------------------------------------
+
+Trying 134.96.216.226...
+Connected to stl-s-stud.htwsaar.de.
+Escape character is '^]'.
+Password: 
+Last login: Fri Jul  7 11:00:43 from stl-v-124
+
+gast-40@stl-s-stud-neu:/export/home_00/gast-40> uname -a
+-----------------------------------------------#############################################
+Linux stl-s-stud-neu.htw-saarland.de 3.10.0-514.10.2.el7.x86_64 #1 SMP Fri Mar 3 00:04:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+gast-40@stl-s-stud-neu:/export/home_00/gast-40> who am i
+-----------------------------------------------#############################################
+gast-40  pts/21       2017-07-19 13:40 (stl-v-124)
+
+gast-40@stl-s-stud-neu:/export/home_00/gast-40> exit
+-----------------------------------------------#############################################
+Connection closed by foreign host.
+pauly@CentOS ::>
+#################-----------------------------------------------------------------------------------------
+
+
+Protokoll von tcpdump
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+13:39:59.339563 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x10, ttl 64, id 30942, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [S], cksum 0xbe4e (incorrect -> 0xc629), seq 3913663102, win 29200, options [mss 1460,sackOK,TS val 107592352 ecr 0,nop,wscale 7], length 0
+E..<x.@.@....`.|.`.......E.~......r..N.........
+.i..........
+13:39:59.340300 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [S.], cksum 0x6305 (correct), seq 2049485049, ack 3913663103, win 28960, options [mss 1460,sackOK,TS val 2975502214 ecr 107592352,nop,wscale 7], length 0
+E..<..@.@.|..`...`.|....z(...E....q c..........
+.Z...i......
+13:39:59.340401 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30943, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x020c), seq 3913663103, ack 2049485050, win 229, options [nop,nop,TS val 107592353 ecr 2975502214], length 0
+E..4x.@.@....`.|.`.......E..z(.......F.....
+.i...Z..
+13:39:59.356103 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 93: (tos 0x10, ttl 64, id 30944, offset 0, flags [DF], proto TCP (6), length 79)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe61 (incorrect -> 0x828b), seq 3913663103:3913663130, ack 2049485050, win 229, options [nop,nop,TS val 107592369 ecr 2975502214], length 27 [telnet DO SUPPRESS GO AHEAD, WILL TERMINAL TYPE, WILL NAWS, WILL TSPEED, WILL LFLOW, WILL LINEMODE, WILL NEW-ENVIRON, DO STATUS, WILL XDISPLOC]
+E..Ox.@.@....`.|.`.......E..z(.......a.....
+.i...Z............. ..!.."..'.....#
+13:39:59.356333 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x0, ttl 64, id 10108, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0x01d3 (correct), seq 2049485050, ack 3913663130, win 227, options [nop,nop,TS val 2975502230 ecr 107592369], length 0
+E..4'|@.@.U(.`...`.|....z(...E.............
+.Z...i..
+13:39:59.392725 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 78: (tos 0x10, ttl 64, id 10109, offset 0, flags [DF], proto TCP (6), length 64)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xca57 (correct), seq 2049485050:2049485062, ack 3913663130, win 227, options [nop,nop,TS val 2975502266 ecr 107592369], length 12 [telnet DO TERMINAL TYPE, DO TSPEED, DO XDISPLOC, DO NEW-ENVIRON]
+E..@'}@.@.U..`...`.|....z(...E.......W.....
+.Z...i....... ..#..'
+13:39:59.392753 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30945, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x017d), seq 3913663130, ack 2049485062, win 229, options [nop,nop,TS val 107592405 ecr 2975502266], length 0
+E..4x.@.@....`.|.`.......E..z(.......F.....
+.i...Z..
+13:39:59.392903 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 105: (tos 0x10, ttl 64, id 10110, offset 0, flags [DF], proto TCP (6), length 91)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x2696 (correct), seq 2049485062:2049485101, ack 3913663130, win 227, options [nop,nop,TS val 2975502267 ecr 107592405], length 39 [telnet WILL SUPPRESS GO AHEAD, DO NAWS, DO LFLOW, DONT LINEMODE, WILL STATUS, SB TSPEED SEND SE, SB XDISPLOC SEND SE, SB NEW-ENVIRON SEND SE, SB TERMINAL TYPE SEND SE]
+E..['~@.@.T..`...`.|....z(...E......&......
+.Z...i..........!.."..... .....#.....'.........
+13:39:59.392917 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30946, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x0155), seq 3913663130, ack 2049485101, win 229, options [nop,nop,TS val 107592405 ecr 2975502267], length 0
+E..4x.@.@....`.|.`.......E..z(.-.....F.....
+.i...Z..
+13:39:59.397054 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 221: (tos 0x10, ttl 64, id 30947, offset 0, flags [DF], proto TCP (6), length 207)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbee1 (incorrect -> 0xb71a), seq 3913663130:3913663285, ack 2049485101, win 229, options [nop,nop,TS val 107592410 ecr 2975502267], length 155 [telnet SB NAWS IS 0x67 0 0x22 SE, SB TSPEED IS 0x33 0x38 0x34 0x30 0x30 0x2c 0x33 0x38 0x34 0x30 0x30 SE, SB XDISPLOC IS 0x73 0x74 0x6c 0x2d 0x63 0x65 0x6e 0x74 0x6f 0x73 0x3a 0x30 SE, SB NEW-ENVIRON IS 0x3 0x58 0x41 0x55 0x54 0x48 0x4f 0x52 0x49 0x54 0x59 0x1 0x2f 0x72 0x75 0x6e 0x2f 0x67 0x64 0x6d 0x2f 0x61 0x75 0x74 0x68 0x2d 0x66 0x6f 0x72 0x2d 0x70 0x61 0x75 0x6c 0x79 0x2d 0x50 0x6e 0x45 0x6f 0x53 0x56 0x2f 0x64 0x61 0x74 0x61 0x62 0x61 0x73 0x65 0 0x55 0x53 0x45 0x52 0x1 0x67 0x61 0x73 0x74 0x2d 0x34 0x30 0 0x44 0x49 0x53 0x50 0x4c 0x41 0x59 0x1 0x73 0x74 0x6c 0x2d 0x63 0x65 0x6e 0x74 0x6f 0x73 0x3a 0x30 SE, SB TERMINAL TYPE IS 0x58 0x54 0x45 0x52 0x4d 0x2d 0x32 0x35 0x36 0x43 0x4f 0x4c 0x4f 0x52 SE]
+E...x.@.@....`.|.`.......E..z(.-...........
+.i...Z......g.".... .38400,38400....#.stl-centos:0....'..XAUTHORITY./run/gdm/auth-for-pauly-PnEoSV/database.USER.gast-40.DISPLAY.stl-centos:0......XTERM-256COLOR..
+13:39:59.398028 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 69: (tos 0x10, ttl 64, id 10111, offset 0, flags [DF], proto TCP (6), length 55)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xffa0 (correct), seq 2049485101:2049485104, ack 3913663285, win 235, options [nop,nop,TS val 2975502272 ecr 107592410], length 3 [telnet DO ECHO]
+E..7'.@.@.U..`...`.|....z(.-.E.5...........
+.Z...i.....
+13:39:59.398174 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 69: (tos 0x10, ttl 64, id 30948, offset 0, flags [DF], proto TCP (6), length 55)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe49 (incorrect -> 0xffa3), seq 3913663285:3913663288, ack 2049485104, win 229, options [nop,nop,TS val 107592411 ecr 2975502272], length 3 [telnet WONT ECHO]
+E..7x.@.@....`.|.`.......E.5z(.0.....I.....
+.i...Z.....
+13:39:59.407727 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 69: (tos 0x10, ttl 64, id 10112, offset 0, flags [DF], proto TCP (6), length 55)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xff92 (correct), seq 2049485104:2049485107, ack 3913663288, win 235, options [nop,nop,TS val 2975502281 ecr 107592411], length 3 [telnet WILL ECHO]
+E..7'.@.@.U..`...`.|....z(.0.E.8...........
+.Z...i.....
+13:39:59.407832 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 69: (tos 0x10, ttl 64, id 30949, offset 0, flags [DF], proto TCP (6), length 55)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe49 (incorrect -> 0xff8a), seq 3913663288:3913663291, ack 2049485107, win 229, options [nop,nop,TS val 107592420 ecr 2975502281], length 3 [telnet DO ECHO]
+E..7x.@.@....`.|.`.......E.8z(.3.....I.....
+.i...Z.....
+13:39:59.447837 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10113, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0x0062 (correct), seq 2049485107, ack 3913663291, win 235, options [nop,nop,TS val 2975502322 ecr 107592420], length 0
+E..4'.@.@.U..`...`.|....z(.3.E.;.....b.....
+.Z...i..
+13:39:59.451984 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 76: (tos 0x10, ttl 64, id 10114, offset 0, flags [DF], proto TCP (6), length 62)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x1883 (correct), seq 2049485107:2049485117, ack 3913663291, win 235, options [nop,nop,TS val 2975502326 ecr 107592420], length 10
+E..>'.@.@.U..`...`.|....z(.3.E.;...........
+.Z...i..Password: 
+13:39:59.491991 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30950, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x0005), seq 3913663291, ack 2049485117, win 229, options [nop,nop,TS val 107592505 ecr 2975502326], length 0
+E..4x.@.@....`.|.`.......E.;z(.=.....F.....
+.i.9.Z..
+13:40:02.027048 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30951, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xc414), seq 3913663291:3913663292, ack 2049485117, win 229, options [nop,nop,TS val 107595040 ecr 2975502326], length 1
+E..5x.@.@....`.|.`.......E.;z(.=.....G.....
+.i. .Z..2
+13:40:02.027506 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10115, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xec07 (correct), seq 2049485117, ack 3913663292, win 235, options [nop,nop,TS val 2975504901 ecr 107595040], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.<...........
+.Z...i. 
+13:40:02.149152 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30952, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xbb8a), seq 3913663292:3913663293, ack 2049485117, win 229, options [nop,nop,TS val 107595162 ecr 2975504901], length 1
+E..5x.@.@....`.|.`.......E.<z(.=.....G.....
+.i...Z..0
+13:40:02.149521 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10116, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xeb12 (correct), seq 2049485117, ack 3913663293, win 235, options [nop,nop,TS val 2975505023 ecr 107595162], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.=...........
+.Z...i..
+13:40:02.643277 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30953, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xa221), seq 3913663293:3913663294, ack 2049485117, win 229, options [nop,nop,TS val 107595656 ecr 2975505023], length 1
+E..5x.@.@....`.|.`.......E.=z(.=.....G.....
+.i...Z..G
+13:40:02.643624 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10117, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xe735 (correct), seq 2049485117, ack 3913663294, win 235, options [nop,nop,TS val 2975505517 ecr 107595656], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.>.....5.....
+.Z.m.i..
+13:40:03.017506 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30954, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x80bc), seq 3913663294:3913663295, ack 2049485117, win 229, options [nop,nop,TS val 107596030 ecr 2975505517], length 1
+E..5x.@.@....`.|.`.......E.>z(.=.....G.....
+.i...Z.me
+13:40:03.017825 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10118, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xe448 (correct), seq 2049485117, ack 3913663295, win 235, options [nop,nop,TS val 2975505891 ecr 107596030], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.?.....H.....
+.Z...i..
+13:40:03.423194 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30955, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x9aaf), seq 3913663295:3913663296, ack 2049485117, win 229, options [nop,nop,TS val 107596436 ecr 2975505891], length 1
+E..5x.@.@....`.|.`.......E.?z(.=.....G.....
+.i...Z..H
+13:40:03.423655 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10119, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xe11b (correct), seq 2049485117, ack 3913663296, win 235, options [nop,nop,TS val 2975506297 ecr 107596436], length 0
+E..4'.@.@.U.`...`.|....z(.=.E.@...........
+.Z.y.i..
+13:40:03.717261 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30956, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x7af2), seq 3913663296:3913663297, ack 2049485117, win 229, options [nop,nop,TS val 107596730 ecr 2975506297], length 1
+E..5x.@.@....`.|.`.......E.@z(.=.....G.....
+.i...Z.ye
+13:40:03.717571 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10120, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xdece (correct), seq 2049485117, ack 3913663297, win 235, options [nop,nop,TS val 2975506591 ecr 107596730], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.A...........
+.Z...i..
+13:40:03.892792 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30957, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x751c), seq 3913663297:3913663298, ack 2049485117, win 229, options [nop,nop,TS val 107596905 ecr 2975506591], length 1
+E..5x.@.@....`.|.`.......E.Az(.=.....G.....
+.i.i.Z..i
+13:40:03.893056 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10121, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xdd6e (correct), seq 2049485117, ack 3913663298, win 235, options [nop,nop,TS val 2975506767 ecr 107596905], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.B.....n.....
+.Z.O.i.i
+13:40:04.252322 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30958, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x8f03), seq 3913663298:3913663299, ack 2049485117, win 229, options [nop,nop,TS val 107597265 ecr 2975506767], length 1
+E..5x.@.@....`.|.`.......E.Bz(.=.....G.....
+.i...Z.OM
+13:40:04.252648 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10122, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xda9e (correct), seq 2049485117, ack 3913663299, win 235, options [nop,nop,TS val 2975507126 ecr 107597265], length 0
+E..4'.@.@.U
+.`...`.|....z(.=.E.C...........
+.Z...i..
+13:40:04.700798 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30959, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xa7db), seq 3913663299:3913663300, ack 2049485117, win 229, options [nop,nop,TS val 107597713 ecr 2975507126], length 1
+E..5x.@.@....`.|.`.......E.Cz(.=.....G.....
+.i...Z..1
+13:40:04.701039 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10123, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xd71c (correct), seq 2049485117, ack 3913663300, win 235, options [nop,nop,TS val 2975507575 ecr 107597713], length 0
+E..4'.@.@.U	.`...`.|....z(.=.E.D...........
+.Z.w.i..
+13:40:04.884365 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30960, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x9f61), seq 3913663300:3913663301, ack 2049485117, win 229, options [nop,nop,TS val 107597897 ecr 2975507575], length 1
+E..5x.@.@....`.|.`.......E.Dz(.=.....G.....
+.i.I.Z.w7
+13:40:04.884643 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10124, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xd5ac (correct), seq 2049485117, ack 3913663301, win 235, options [nop,nop,TS val 2975507758 ecr 107597897], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.E...........
+.Z...i.I
+13:40:06.028673 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 30961, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe48 (incorrect -> 0xc430), seq 3913663301:3913663303, ack 2049485117, win 229, options [nop,nop,TS val 107599041 ecr 2975507758], length 2
+E..6x.@.@....`.|.`.......E.Ez(.=.....H.....
+.i...Z...
+13:40:06.028979 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10125, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0xccba (correct), seq 2049485117, ack 3913663303, win 235, options [nop,nop,TS val 2975508902 ecr 107599041], length 0
+E..4'.@.@.U..`...`.|....z(.=.E.G...........
+.Z...i..
+13:40:06.032141 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 10126, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xbfa2 (correct), seq 2049485117:2049485119, ack 3913663303, win 235, options [nop,nop,TS val 2975508906 ecr 107599041], length 2
+E..6'.@.@.U..`...`.|....z(.=.E.G...........
+.Z...i..
+
+13:40:06.032180 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30962, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0xccb6), seq 3913663303, ack 2049485119, win 229, options [nop,nop,TS val 107599045 ecr 2975508906], length 0
+E..4x.@.@....`.|.`.......E.Gz(.?.....F.....
+.i...Z..
+13:40:06.687572 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 114: (tos 0x10, ttl 64, id 10127, offset 0, flags [DF], proto TCP (6), length 100)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x5cbd (correct), seq 2049485119:2049485167, ack 3913663303, win 235, options [nop,nop,TS val 2975509561 ecr 107599045], length 48
+E..d'.@.@.T..`...`.|....z(.?.E.G....\......
+.Z.9.i..Last login: Fri Jul  7 11:00:43 from stl-v-124
+
+13:40:06.687995 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30963, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0xc768), seq 3913663303, ack 2049485167, win 229, options [nop,nop,TS val 107599700 ecr 2975509561], length 0
+E..4x.@.@....`.|.`.......E.Gz(.o.....F.....
+.i.T.Z.9
+13:40:10.704409 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 114: (tos 0x10, ttl 64, id 10128, offset 0, flags [DF], proto TCP (6), length 100)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x825a (correct), seq 2049485167:2049485215, ack 3913663303, win 235, options [nop,nop,TS val 2975513578 ecr 107599700], length 48
+E..d'.@.@.T..`...`.|....z(.o.E.G.....Z.....
+.Z...i.Tgast-40@stl-s-stud-neu:/export/home_00/gast-40> 
+13:40:10.704509 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30964, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0xa7d6), seq 3913663303, ack 2049485215, win 229, options [nop,nop,TS val 107603717 ecr 2975513578], length 0
+E..4x.@.@....`.|.`.......E.Gz(.......F.....
+.i...Z..
+13:40:12.973777 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30965, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x29f0), seq 3913663303:3913663304, ack 2049485215, win 229, options [nop,nop,TS val 107605986 ecr 2975513578], length 1
+E..5x.@.@....`.|.`.......E.Gz(.......G.....
+.i...Z..u
+13:40:12.974432 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10129, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x210b (correct), seq 2049485215:2049485216, ack 3913663304, win 235, options [nop,nop,TS val 2975515848 ecr 107605986], length 1
+E..5'.@.@.U..`...`.|....z(...E.H....!......
+.Z...i..u
+13:40:12.974456 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30966, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x9618), seq 3913663304, ack 2049485216, win 229, options [nop,nop,TS val 107605987 ecr 2975515848], length 0
+E..4x.@.@....`.|.`.......E.Hz(.......F.....
+.i...Z..
+13:40:13.165255 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30967, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x2750), seq 3913663304:3913663305, ack 2049485216, win 229, options [nop,nop,TS val 107606178 ecr 2975515848], length 1
+E..5x.@.@....`.|.`.......E.Hz(.......G.....
+.i...Z..n
+13:40:13.165674 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10130, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x268a (correct), seq 2049485216:2049485217, ack 3913663305, win 235, options [nop,nop,TS val 2975516039 ecr 107606178], length 1
+E..5'.@.@.U..`...`.|....z(...E.I....&......
+.Z...i..n
+13:40:13.165753 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30968, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x9498), seq 3913663305, ack 2049485217, win 229, options [nop,nop,TS val 107606178 ecr 2975516039], length 0
+E..4x.@.@....`.|.`.......E.Iz(.......F.....
+.i...Z..
+13:40:13.335003 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30969, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x32e5), seq 3913663305:3913663306, ack 2049485217, win 229, options [nop,nop,TS val 107606348 ecr 2975516039], length 1
+E..5x.@.@....`.|.`.......E.Iz(.......G.....
+.i.L.Z..a
+13:40:13.344507 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10131, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x322b (correct), seq 2049485217:2049485218, ack 3913663306, win 235, options [nop,nop,TS val 2975516218 ecr 107606348], length 1
+E..5'.@.@.U..`...`.|....z(...E.J....2+.....
+.Z.:.i.La
+13:40:13.344554 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30970, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x9330), seq 3913663306, ack 2049485218, win 229, options [nop,nop,TS val 107606357 ecr 2975516218], length 0
+E..4x.@.@....`.|.`.......E.Jz(.......F.....
+.i.U.Z.:
+13:40:13.470348 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30971, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x25a9), seq 3913663306:3913663307, ack 2049485218, win 229, options [nop,nop,TS val 107606483 ecr 2975516218], length 1
+E..5x.@.@....`.|.`.......E.Jz(.......G.....
+.i...Z.:m
+13:40:13.470788 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10132, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x2524 (correct), seq 2049485218:2049485219, ack 3913663307, win 235, options [nop,nop,TS val 2975516344 ecr 107606483], length 1
+E..5'.@.@.T..`...`.|....z(...E.K....%$.....
+.Z...i..m
+13:40:13.470808 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30972, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x9232), seq 3913663307, ack 2049485219, win 229, options [nop,nop,TS val 107606483 ecr 2975516344], length 0
+E..4x.@.@....`.|.`.......E.Kz(.......F.....
+.i...Z..
+13:40:13.693190 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30973, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x1f4a), seq 3913663307:3913663308, ack 2049485219, win 229, options [nop,nop,TS val 107606706 ecr 2975516344], length 1
+E..5x.@.@....`.|.`.......E.Kz(.......G.....
+.i...Z..r
+13:40:13.693562 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10133, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x1e64 (correct), seq 2049485219:2049485220, ack 3913663308, win 235, options [nop,nop,TS val 2975516567 ecr 107606706], length 1
+E..5'.@.@.T..`...`.|....z(...E.L.....d.....
+.Z...i..r
+13:40:13.693635 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30974, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x9072), seq 3913663308, ack 2049485220, win 229, options [nop,nop,TS val 107606706 ecr 2975516567], length 0
+E..4x.@.@....`.|.`.......E.Lz(.......F.....
+.i...Z..
+13:40:14.877609 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30975, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x0cc9), seq 3913663308:3913663309, ack 2049485220, win 229, options [nop,nop,TS val 107607890 ecr 2975516567], length 1
+E..5x.@.@....`.|.`.......E.Lz(.......G.....
+.i.R.Z...
+13:40:14.878301 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 69: (tos 0x10, ttl 64, id 10134, offset 0, flags [DF], proto TCP (6), length 55)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x76ff (correct), seq 2049485220:2049485223, ack 3913663309, win 235, options [nop,nop,TS val 2975517752 ecr 107607890], length 3
+E..7'.@.@.T..`...`.|....z(...E.M....v......
+.Z.8.i.R. .
+13:40:14.878320 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30976, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x872c), seq 3913663309, ack 2049485223, win 229, options [nop,nop,TS val 107607891 ecr 2975517752], length 0
+E..4y.@.@....`.|.`.......E.Mz(.......F.....
+.i.S.Z.8
+13:40:15.239282 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30977, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x20ba), seq 3913663309:3913663310, ack 2049485223, win 229, options [nop,nop,TS val 107608252 ecr 2975517752], length 1
+E..5y.@.@....`.|.`.......E.Mz(.......G.....
+.i...Z.8e
+13:40:15.239699 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10135, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x1f4a (correct), seq 2049485223:2049485224, ack 3913663310, win 235, options [nop,nop,TS val 2975518113 ecr 107608252], length 1
+E..5'.@.@.T..`...`.|....z(...E.N.....J.....
+.Z...i..e
+13:40:15.239830 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30978, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x8458), seq 3913663310, ack 2049485224, win 229, options [nop,nop,TS val 107608252 ecr 2975518113], length 0
+E..4y.@.@....`.|.`.......E.Nz(.......F.....
+.i...Z..
+13:40:15.358394 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30979, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x63d8), seq 3913663310:3913663311, ack 2049485224, win 229, options [nop,nop,TS val 107608371 ecr 2975518113], length 1
+E..5y.@.@....`.|.`.......E.Nz(.......G.....
+.i.3.Z.. 
+13:40:15.358752 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10136, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x635a (correct), seq 2049485224:2049485225, ack 3913663311, win 235, options [nop,nop,TS val 2975518232 ecr 107608371], length 1
+E..5'.@.@.T..`...`.|....z(...E.O....cZ.....
+.Z...i.3 
+13:40:15.358819 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30980, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x8368), seq 3913663311, ack 2049485225, win 229, options [nop,nop,TS val 107608371 ecr 2975518232], length 0
+E..4y.@.@....`.|.`.......E.Oz(.......F.....
+.i.3.Z..
+13:40:15.784559 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30981, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x54b5), seq 3913663311:3913663312, ack 2049485225, win 229, options [nop,nop,TS val 107608797 ecr 2975518232], length 1
+E..5y.@.@....`.|.`.......E.Oz(.......G.....
+.i...Z..-
+13:40:15.784925 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10137, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x5304 (correct), seq 2049485225:2049485226, ack 3913663312, win 235, options [nop,nop,TS val 2975518658 ecr 107608797], length 1
+E..5'.@.@.T..`...`.|....z(...E.P....S......
+.Z...i..-
+13:40:15.785009 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30982, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x8011), seq 3913663312, ack 2049485226, win 229, options [nop,nop,TS val 107608798 ecr 2975518658], length 0
+E..4y.@.@....`.|.`.......E.Pz(.......F.....
+.i...Z..
+13:40:15.917667 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30983, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x1e84), seq 3913663312:3913663313, ack 2049485226, win 229, options [nop,nop,TS val 107608930 ecr 2975518658], length 1
+E..5y.@.@....`.|.`.......E.Pz(.......G.....
+.i.b.Z..a
+13:40:15.917999 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10138, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x1df8 (correct), seq 2049485226:2049485227, ack 3913663313, win 235, options [nop,nop,TS val 2975518791 ecr 107608930], length 1
+E..5'.@.@.T..`...`.|....z(...E.Q...........
+.Z.G.i.ba
+13:40:15.918130 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30984, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x7f05), seq 3913663313, ack 2049485227, win 229, options [nop,nop,TS val 107608931 ecr 2975518791], length 0
+E..4y.@.@....`.|.`.......E.Qz(.......F.....
+.i.c.Z.G
+13:40:16.423153 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 30985, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe48 (incorrect -> 0x7002), seq 3913663313:3913663315, ack 2049485227, win 229, options [nop,nop,TS val 107609436 ecr 2975518791], length 2
+E..6y	@.@....`.|.`.......E.Qz(.......H.....
+.i.\.Z.G.
+13:40:16.423634 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 10139, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x6df6 (correct), seq 2049485227:2049485229, ack 3913663315, win 235, options [nop,nop,TS val 2975519297 ecr 107609436], length 2
+E..6'.@.@.T..`...`.|....z(...E.S....m......
+.Z.A.i.\
+
+13:40:16.423700 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30986, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x7b0e), seq 3913663315, ack 2049485229, win 229, options [nop,nop,TS val 107609436 ecr 2975519297], length 0
+E..4y
+@.@....`.|.`.......E.Sz(.......F.....
+.i.\.Z.A
+13:40:16.430590 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 197: (tos 0x10, ttl 64, id 10140, offset 0, flags [DF], proto TCP (6), length 183)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x5724 (correct), seq 2049485229:2049485360, ack 3913663315, win 235, options [nop,nop,TS val 2975519304 ecr 107609436], length 131
+E...'.@.@.Tu.`...`.|....z(...E.S....W$.....
+.Z.H.i.\Linux stl-s-stud-neu.htw-saarland.de 3.10.0-514.10.2.el7.x86_64 #1 SMP Fri Mar 3 00:04:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+13:40:16.430649 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30987, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x7a75), seq 3913663315, ack 2049485360, win 237, options [nop,nop,TS val 107609443 ecr 2975519304], length 0
+E..4y.@.@....`.|.`.......E.Sz(.0.....F.....
+.i.c.Z.H
+13:40:16.430901 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 114: (tos 0x10, ttl 64, id 10141, offset 0, flags [DF], proto TCP (6), length 100)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x4520 (correct), seq 2049485360:2049485408, ack 3913663315, win 235, options [nop,nop,TS val 2975519304 ecr 107609443], length 48
+E..d'.@.@.T..`...`.|....z(.0.E.S....E .....
+.Z.H.i.cgast-40@stl-s-stud-neu:/export/home_00/gast-40> 
+13:40:16.430921 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30988, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x7a45), seq 3913663315, ack 2049485408, win 237, options [nop,nop,TS val 107609443 ecr 2975519304], length 0
+E..4y.@.@....`.|.`.......E.Sz(.`.....F.....
+.i.c.Z.H
+13:40:19.893594 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30989, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xf5b4), seq 3913663315:3913663316, ack 2049485408, win 237, options [nop,nop,TS val 107612906 ecr 2975519304], length 1
+E..5y@.@....`.|.`.......E.Sz(.`.....G.....
+.j
+..Z.Hw
+13:40:19.894241 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10142, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xe82e (correct), seq 2049485408:2049485409, ack 3913663316, win 235, options [nop,nop,TS val 2975522767 ecr 107612906], length 1
+E..5'.@.@.T..`...`.|....z(.`.E.T...........
+.Z...j
+.w
+13:40:19.894299 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30990, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x5f34), seq 3913663316, ack 2049485409, win 237, options [nop,nop,TS val 107612907 ecr 2975522767], length 0
+E..4y.@.@....`.|.`.......E.Tz(.a.....F.....
+.j
+..Z..
+13:40:20.114242 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30991, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xf64e), seq 3913663316:3913663317, ack 2049485409, win 237, options [nop,nop,TS val 107613127 ecr 2975522767], length 1
+E..5y.@.@....`.|.`.......E.Tz(.a.....G.....
+.j...Z..h
+13:40:20.114592 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10143, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xf572 (correct), seq 2049485409:2049485410, ack 3913663317, win 235, options [nop,nop,TS val 2975522988 ecr 107613127], length 1
+E..5'.@.@.T..`...`.|....z(.a.E.U.....r.....
+.Z...j..h
+13:40:20.114647 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30992, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x5d79), seq 3913663317, ack 2049485410, win 237, options [nop,nop,TS val 107613127 ecr 2975522988], length 0
+E..4y.@.@....`.|.`.......E.Uz(.b.....F.....
+.j...Z..
+13:40:20.629911 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30993, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xec6c), seq 3913663317:3913663318, ack 2049485410, win 237, options [nop,nop,TS val 107613642 ecr 2975522988], length 1
+E..5y.@.@....`.|.`.......E.Uz(.b.....G.....
+.j..Z..o
+13:40:20.630308 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10144, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xea6a (correct), seq 2049485410:2049485411, ack 3913663318, win 235, options [nop,nop,TS val 2975523503 ecr 107613642], length 1
+E..5'.@.@.T..`...`.|....z(.b.E.V.....j.....
+.Z...j.o
+13:40:20.630357 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30994, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x5970), seq 3913663318, ack 2049485411, win 237, options [nop,nop,TS val 107613643 ecr 2975523503], length 0
+E..4y.@.@....`.|.`.......E.Vz(.c.....F.....
+.j..Z..
+13:40:20.917996 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30995, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x3848), seq 3913663318:3913663319, ack 2049485411, win 237, options [nop,nop,TS val 107613930 ecr 2975523503], length 1
+E..5y.@.@....`.|.`.......E.Vz(.c.....G.....
+.j...Z.. 
+13:40:20.918402 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10145, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x3729 (correct), seq 2049485411:2049485412, ack 3913663319, win 235, options [nop,nop,TS val 2975523791 ecr 107613930], length 1
+E..5'.@.@.T..`...`.|....z(.c.E.W....7).....
+.Z...j.. 
+13:40:20.918465 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30996, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x572e), seq 3913663319, ack 2049485412, win 237, options [nop,nop,TS val 107613931 ecr 2975523791], length 0
+E..4y.@.@....`.|.`.......E.Wz(.d.....F.....
+.j...Z..
+13:40:21.417201 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30997, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xf431), seq 3913663319:3913663320, ack 2049485412, win 237, options [nop,nop,TS val 107614430 ecr 2975523791], length 1
+E..5y.@.@..~.`.|.`.......E.Wz(.d.....G.....
+.j...Z..a
+13:40:21.417599 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10146, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xf23e (correct), seq 2049485412:2049485413, ack 3913663320, win 235, options [nop,nop,TS val 2975524291 ecr 107614430], length 1
+E..5'.@.@.T..`...`.|....z(.d.E.X.....>.....
+.Z...j..a
+13:40:21.417696 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 30998, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x5345), seq 3913663320, ack 2049485413, win 237, options [nop,nop,TS val 107614430 ecr 2975524291], length 0
+E..4y.@.@..~.`.|.`.......E.Xz(.e.....F.....
+.j...Z..
+13:40:21.590018 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 30999, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xe58f), seq 3913663320:3913663321, ack 2049485413, win 237, options [nop,nop,TS val 107614602 ecr 2975524291], length 1
+E..5y.@.@..|.`.|.`.......E.Xz(.e.....G.....
+.j...Z..m
+13:40:21.590420 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10147, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xe4e4 (correct), seq 2049485413:2049485414, ack 3913663321, win 235, options [nop,nop,TS val 2975524463 ecr 107614602], length 1
+E..5'.@.@.T..`...`.|....z(.e.E.Y...........
+.Z.o.j..m
+13:40:21.590539 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31000, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x51ea), seq 3913663321, ack 2049485414, win 237, options [nop,nop,TS val 107614603 ecr 2975524463], length 0
+E..4y.@.@..|.`.|.`.......E.Yz(.f.....F.....
+.j...Z.o
+13:40:21.769408 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31001, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0x312e), seq 3913663321:3913663322, ack 2049485414, win 237, options [nop,nop,TS val 107614782 ecr 2975524463], length 1
+E..5y.@.@..z.`.|.`.......E.Yz(.f.....G.....
+.j.>.Z.o 
+13:40:21.769828 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10148, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x307b (correct), seq 2049485414:2049485415, ack 3913663322, win 235, options [nop,nop,TS val 2975524643 ecr 107614782], length 1
+E..5'.@.@.T..`...`.|....z(.f.E.Z....0{.....
+.Z.#.j.> 
+13:40:21.769923 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31002, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x5081), seq 3913663322, ack 2049485415, win 237, options [nop,nop,TS val 107614782 ecr 2975524643], length 0
+E..4y.@.@..z.`.|.`.......E.Zz(.g.....F.....
+.j.>.Z.#
+13:40:22.022035 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31003, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xe67a), seq 3913663322:3913663323, ack 2049485415, win 237, options [nop,nop,TS val 107615035 ecr 2975524643], length 1
+E..5y.@.@..x.`.|.`.......E.Zz(.g.....G.....
+.j.;.Z.#i
+13:40:22.022451 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10149, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xe57f (correct), seq 2049485415:2049485416, ack 3913663323, win 235, options [nop,nop,TS val 2975524895 ecr 107615035], length 1
+E..5'.@.@.T..`...`.|....z(.g.E.[...........
+.Z...j.;i
+13:40:22.022513 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31004, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x4e86), seq 3913663323, ack 2049485416, win 237, options [nop,nop,TS val 107615035 ecr 2975524895], length 0
+E..4y.@.@..x.`.|.`.......E.[z(.h.....F.....
+.j.;.Z..
+13:40:22.517830 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 31005, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe48 (incorrect -> 0x3f8d), seq 3913663323:3913663325, ack 2049485416, win 237, options [nop,nop,TS val 107615530 ecr 2975524895], length 2
+E..6y.@.@..u.`.|.`.......E.[z(.h.....H.....
+.j.*.Z...
+13:40:22.518314 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 10150, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x3d93 (correct), seq 2049485416:2049485418, ack 3913663325, win 235, options [nop,nop,TS val 2975525391 ecr 107615530], length 2
+E..6'.@.@.T..`...`.|....z(.h.E.]....=......
+.Z...j.*
+
+13:40:22.518371 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31006, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x4aa2), seq 3913663325, ack 2049485418, win 237, options [nop,nop,TS val 107615531 ecr 2975525391], length 0
+E..4y.@.@..v.`.|.`.......E.]z(.j.....F.....
+.j.+.Z..
+13:40:22.527641 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 118: (tos 0x10, ttl 64, id 10151, offset 0, flags [DF], proto TCP (6), length 104)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x53a7 (correct), seq 2049485418:2049485470, ack 3913663325, win 235, options [nop,nop,TS val 2975525401 ecr 107615531], length 52
+E..h'.@.@.T..`...`.|....z(.j.E.]....S......
+.Z...j.+gast-40  pts/21       2017-07-19 13:40 (stl-v-124)
+
+13:40:22.527680 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31007, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x4a5b), seq 3913663325, ack 2049485470, win 237, options [nop,nop,TS val 107615540 ecr 2975525401], length 0
+E..4y.@.@..u.`.|.`.......E.]z(.......F.....
+.j.4.Z..
+13:40:22.528052 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 114: (tos 0x10, ttl 64, id 10152, offset 0, flags [DF], proto TCP (6), length 100)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x1506 (correct), seq 2049485470:2049485518, ack 3913663325, win 235, options [nop,nop,TS val 2975525401 ecr 107615540], length 48
+E..d'.@.@.T..`...`.|....z(...E.]...........
+.Z...j.4gast-40@stl-s-stud-neu:/export/home_00/gast-40> 
+13:40:22.528066 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31008, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x4a2a), seq 3913663325, ack 2049485518, win 237, options [nop,nop,TS val 107615541 ecr 2975525401], length 0
+E..4y @.@..t.`.|.`.......E.]z(.......F.....
+.j.5.Z..
+13:40:27.822286 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31009, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xd072), seq 3913663325:3913663326, ack 2049485518, win 237, options [nop,nop,TS val 107620835 ecr 2975525401], length 1
+E..5y!@.@..r.`.|.`.......E.]z(.......G.....
+.j)..Z..e
+13:40:27.822717 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10153, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xbbc4 (correct), seq 2049485518:2049485519, ack 3913663326, win 235, options [nop,nop,TS val 2975530696 ecr 107620835], length 1
+E..5'.@.@.T..`...`.|....z(...E.^...........
+.Z...j).e
+13:40:27.822847 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31010, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x20cb), seq 3913663326, ack 2049485519, win 237, options [nop,nop,TS val 107620835 ecr 2975530696], length 0
+E..4y"@.@..r.`.|.`.......E.^z(.......F.....
+.j)..Z..
+13:40:28.030416 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31011, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xa7f1), seq 3913663326:3913663327, ack 2049485519, win 237, options [nop,nop,TS val 107621043 ecr 2975530696], length 1
+E..5y#@.@..p.`.|.`.......E.^z(.......G.....
+.j*..Z..x
+13:40:28.030758 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10154, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xa722 (correct), seq 2049485519:2049485520, ack 3913663327, win 235, options [nop,nop,TS val 2975530904 ecr 107621043], length 1
+E..5'.@.@.T..`...`.|....z(...E._.....".....
+.Z...j*.x
+13:40:28.030833 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31012, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x1f29), seq 3913663327, ack 2049485520, win 237, options [nop,nop,TS val 107621043 ecr 2975530904], length 0
+E..4y$@.@..p.`.|.`.......E._z(.......F.....
+.j*..Z..
+13:40:28.301012 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31013, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xb511), seq 3913663327:3913663328, ack 2049485520, win 237, options [nop,nop,TS val 107621313 ecr 2975530904], length 1
+E..5y%@.@..n.`.|.`.......E._z(.......G.....
+.j+..Z..i
+13:40:28.301570 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10155, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xb403 (correct), seq 2049485520:2049485521, ack 3913663328, win 235, options [nop,nop,TS val 2975531175 ecr 107621313], length 1
+E..5'.@.@.T..`...`.|....z(...E.`...........
+.[...j+.i
+13:40:28.301728 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31014, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x1d09), seq 3913663328, ack 2049485521, win 237, options [nop,nop,TS val 107621314 ecr 2975531175], length 0
+E..4y&@.@..n.`.|.`.......E.`z(.......F.....
+.j+..[..
+13:40:28.510630 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 31015, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe47 (incorrect -> 0xa82e), seq 3913663328:3913663329, ack 2049485521, win 237, options [nop,nop,TS val 107621523 ecr 2975531175], length 1
+E..5y'@.@..l.`.|.`.......E.`z(.......G.....
+.j,..[..t
+13:40:28.510965 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 67: (tos 0x10, ttl 64, id 10156, offset 0, flags [DF], proto TCP (6), length 53)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0xa75e (correct), seq 2049485521:2049485522, ack 3913663329, win 235, options [nop,nop,TS val 2975531384 ecr 107621523], length 1
+E..5'.@.@.T..`...`.|....z(...E.a.....^.....
+.[.x.j,.t
+13:40:28.511061 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31016, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x1b64), seq 3913663329, ack 2049485522, win 237, options [nop,nop,TS val 107621524 ecr 2975531384], length 0
+E..4y(@.@..l.`.|.`.......E.az(.......F.....
+.j,..[.x
+13:40:29.270607 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 31017, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [P.], cksum 0xbe48 (incorrect -> 0x0b63), seq 3913663329:3913663331, ack 2049485522, win 237, options [nop,nop,TS val 107622283 ecr 2975531384], length 2
+E..6y)@.@..i.`.|.`.......E.az(.......H.....
+.j/..[.x.
+13:40:29.271145 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 68: (tos 0x10, ttl 64, id 10157, offset 0, flags [DF], proto TCP (6), length 54)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [P.], cksum 0x0861 (correct), seq 2049485522:2049485524, ack 3913663331, win 235, options [nop,nop,TS val 2975532144 ecr 107622283], length 2
+E..6'.@.@.T..`...`.|....z(...E.c.....a.....
+.[.p.j/.
+
+13:40:29.271217 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31018, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [.], cksum 0xbe46 (incorrect -> 0x1570), seq 3913663331, ack 2049485524, win 237, options [nop,nop,TS val 107622284 ecr 2975532144], length 0
+E..4y*@.@..j.`.|.`.......E.cz(.......F.....
+.j/..[.p
+13:40:29.276799 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10158, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [F.], cksum 0x156b (correct), seq 2049485524, ack 3913663331, win 235, options [nop,nop,TS val 2975532150 ecr 107622284], length 0
+E..4'.@.@.T..`...`.|....z(...E.c.....k.....
+.[.v.j/.
+13:40:29.277704 00:1a:4a:16:00:5a (oui Unknown) > 52:54:00:d3:b1:80 (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 31019, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-v-124.htw-saarland.de.58560 > stl-s-stud-neu.htw-saarland.de.telnet: Flags [F.], cksum 0xbe46 (incorrect -> 0x1562), seq 3913663331, ack 2049485525, win 237, options [nop,nop,TS val 107622290 ecr 2975532150], length 0
+E..4y+@.@..i.`.|.`.......E.cz(.......F.....
+.j/..[.v
+13:40:29.277907 52:54:00:d3:b1:80 (oui Unknown) > 00:1a:4a:16:00:5a (oui Unknown), ethertype IPv4 (0x0800), length 66: (tos 0x10, ttl 64, id 10159, offset 0, flags [DF], proto TCP (6), length 52)
+    stl-s-stud-neu.htw-saarland.de.telnet > stl-v-124.htw-saarland.de.58560: Flags [.], cksum 0x1563 (correct), seq 2049485525, ack 3913663332, win 235, options [nop,nop,TS val 2975532151 ecr 107622290], length 0
+E..4'.@.@.T..`...`.|....z(...E.d.....c.....
+.[.w.j/.

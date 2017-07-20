@@ -1,0 +1,18 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-17 22:37 CEST
+Nmap scan report for stl-s-stud.htwsaar.de (134.96.216.226)
+Host is up (0.0013s latency).
+rDNS record for 134.96.216.226: stl-s-stud-neu.htw-saarland.de
+Not shown: 991 closed ports
+PORT    STATE SERVICE
+1/tcp   open  tcpmux
+7/tcp   open  echo
+9/tcp   open  discard
+13/tcp  open  daytime
+19/tcp  open  chargen
+22/tcp  open  ssh
+23/tcp  open  telnet
+37/tcp  open  time
+111/tcp open  rpcbind
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds

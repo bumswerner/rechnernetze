@@ -1,0 +1,10 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-17 22:27 CEST
+Nmap scan report for isl-c-04.htwsaar.de (134.96.218.204)
+Host is up (0.0029s latency).
+rDNS record for 134.96.218.204: isl-c-04.htw-saarland.de
+Not shown: 593 filtered ports, 406 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 2.91 seconds

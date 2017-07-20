@@ -1,0 +1,24 @@
+#
+#
+#
+#  XUbuntu-nmap-P0-stl-v-109.htwsaar.de
+#
+#
+#
+
+
+pauly@stl-centos:/export/home_pm/pauly> nmap -P0 stl-v-74.htwsaar.de 
+#######################################---------------------------------------
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-18 14:23 CEST
+Nmap scan report for stl-v-74.htwsaar.de (134.96.216.74)
+Host is up (0.0020s latency).
+rDNS record for 134.96.216.74: stl-v-74.htw-saarland.de
+Not shown: 999 closed ports
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+
+Nmap done: 1 IP address (1 host up) scanned in 0.21 seconds
+pauly@stl-centos:/export/home_pm/pauly> 
+#######################################---------------------------------------
+

@@ -1,0 +1,27 @@
+#
+#
+#
+#  Win10-nmap-P0-stl-v-109.htwsaar.de
+#
+#
+#
+#
+
+pauly@stl-centos:/export/home_pm/pauly> nmap -P0 stl-v-145.htwsaar.de         
+#######################################------------------------------------
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-18 14:21 CEST
+Nmap scan report for stl-v-145.htwsaar.de (134.96.216.145)
+Host is up (0.0013s latency).
+rDNS record for 134.96.216.145: stl-v-145.htw-saarland.de
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+Nmap done: 1 IP address (1 host up) scanned in 4.82 seconds
+pauly@stl-centos:/export/home_pm/pauly> 
+#######################################------------------------------------
+

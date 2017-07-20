@@ -1,0 +1,20 @@
+sh-4.2$ telnet stl-s-stud.htwsaar.de
+Trying 134.96.216.226...
+Connected to stl-s-stud.htwsaar.de.
+Escape character is '^]'.
+
+Kernel 3.10.0-514.10.2.el7.x86_64 on an x86_64
+stl-s-stud-neu login: mmann
+Password: 
+Last login: Mon Jul 17 19:08:10 from stl-v-104.htw-saarland.de
+-bash-4.2$ uname -a
+Linux stl-s-stud-neu.htw-saarland.de 3.10.0-514.10.2.el7.x86_64 #1 SMP Fri Mar 3 00:04:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+-bash-4.2$ who am i
+mmann    pts/23       2017-07-17 19:15 (stl-v-104)
+-bash-4.2$ quit
+bash: quit: command not found...
+Similar command is: 'quot'
+-bash-4.2$ exit
+logout
+Connection closed by foreign host.
+

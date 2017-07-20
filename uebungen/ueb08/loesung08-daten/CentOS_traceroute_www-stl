@@ -23,6 +23,7 @@ Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem 
                 stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute: [bad udp cksum 0xbe65 -> 0xfd71!] UDP, length 32
             E..<.........`...`...`...(.e@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
 
+
             12:31:19.852805 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
             ethertype IPv4 (0x0800), length 74: (tos 0x0, 
             ttl 1, id 63709, offset 0, flags [none], proto UDP (17), length 60)

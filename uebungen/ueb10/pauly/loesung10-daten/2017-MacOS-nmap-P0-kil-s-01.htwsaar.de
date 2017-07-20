@@ -1,0 +1,55 @@
+#
+#
+#
+#  MacOS-nmap-P0-kil-s-01.htwsaar.de
+#
+#
+#
+#
+
+
+pauly@stl-centos:/export/home_pm/pauly> nmap -P0 kil-s-01.htwsaar.de
+#######################################---------------------------------------------
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-07-18 14:25 CEST
+Nmap scan report for kil-s-01.htwsaar.de (134.96.216.54)
+Host is up (0.0014s latency).
+rDNS record for 134.96.216.54: kil-s-01.htw-saarland.de
+Not shown: 969 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+111/tcp   open     rpcbind
+259/tcp   filtered esro-gen
+445/tcp   open     microsoft-ds
+465/tcp   filtered smtps
+548/tcp   open     afp
+801/tcp   filtered device
+999/tcp   open     garcon
+1021/tcp  open     exp1
+1023/tcp  open     netvenuechat
+1114/tcp  filtered mini-sql
+1300/tcp  filtered h323hostcallsc
+2049/tcp  open     nfs
+3404/tcp  filtered unknown
+4003/tcp  filtered pxc-splr-ft
+5054/tcp  filtered rlm-admin
+5800/tcp  filtered vnc-http
+5801/tcp  filtered vnc-http-1
+5900/tcp  open     vnc
+6567/tcp  filtered esp
+7025/tcp  filtered vmsvc-2
+7103/tcp  filtered unknown
+9535/tcp  filtered man
+9929/tcp  filtered nping-echo
+14238/tcp filtered unknown
+16016/tcp filtered unknown
+16018/tcp filtered unknown
+22939/tcp filtered unknown
+32784/tcp filtered unknown
+38292/tcp filtered landesk-cba
+49154/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 6.14 seconds
+pauly@stl-centos:/export/home_pm/pauly> 
+#######################################---------------------------------------------
+

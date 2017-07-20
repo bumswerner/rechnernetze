@@ -1,0 +1,70 @@
+#
+#
+#
+#  CentOS-ss-a--tcp--udp
+#
+#
+#
+#
+
+pauly@stl-centos:/export/home_pm/pauly> ss -s     
+#######################################--------------------------------------------------------------
+Total: 772 (kernel 0)
+TCP:   25 (estab 8, closed 6, orphaned 0, synrecv 0, timewait 5/0), ports 0
+
+Transport Total     IP        IPv6
+*	  0         -         -        
+RAW	  0         0         0        
+UDP	  16        11        5        
+TCP	  19        14        5        
+INET	  35        25        10       
+FRAG	  0         0         0        
+
+pauly@stl-centos:/export/home_pm/pauly> ss -a --tcp
+#######################################--------------------------------------------------------------
+State       Recv-Q Send-Q           Local Address:Port                            Peer Address:Port                
+LISTEN      0      128                          *:sunrpc                                     *:*                    
+LISTEN      0      5                192.168.122.1:domain                                     *:*                    
+LISTEN      0      128                          *:ssh                                        *:*                    
+LISTEN      0      128                  127.0.0.1:ipp                                        *:*                    
+LISTEN      0      100                  127.0.0.1:smtp                                       *:*                    
+LISTEN      0      128                          *:53888                                      *:*                    
+ESTAB       0      0               134.96.216.124:39036                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:988                           134.96.216.250:av-emb-config        
+ESTAB       0      0               134.96.216.124:39038                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:39040                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:39044                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:39046                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:43862                         134.96.216.234:ldap                 
+ESTAB       0      0               134.96.216.124:43096                          54.69.100.200:https                
+TIME-WAIT   0      0               134.96.216.124:54828                          52.45.232.163:https                
+TIME-WAIT   0      0               134.96.216.124:44972                           54.164.14.13:https                
+TIME-WAIT   0      0               134.96.216.124:54826                          52.45.232.163:https                
+LISTEN      0      128                         :::sunrpc                                    :::*                    
+LISTEN      0      128                         :::ssh                                       :::*                    
+LISTEN      0      128                        ::1:ipp                                       :::*                    
+LISTEN      0      128                         :::56505                                     :::*                    
+LISTEN      0      100                        ::1:smtp                                      :::*                    
+
+pauly@stl-centos:/export/home_pm/pauly> ss -a --udp
+#######################################--------------------------------------------------------------
+State       Recv-Q Send-Q           Local Address:Port                            Peer Address:Port                
+UNCONN      0      0                    127.0.0.1:rpki-rtr                                   *:*                    
+UNCONN      0      0                            *:nas                                        *:*                    
+UNCONN      0      0                    127.0.0.1:994                                        *:*                    
+UNCONN      0      0                            *:50159                                      *:*                    
+UNCONN      0      0                            *:29920                                      *:*                    
+UNCONN      0      0                            *:mdns                                       *:*                    
+UNCONN      0      0                            *:45017                                      *:*                    
+UNCONN      0      0                192.168.122.1:domain                                     *:*                    
+UNCONN      0      0                     *%virbr0:bootps                                     *:*                    
+UNCONN      0      0                            *:bootpc                                     *:*                    
+UNCONN      0      0                            *:sunrpc                                     *:*                    
+UNCONN      0      0                          ::1:rpki-rtr                                  :::*                    
+UNCONN      0      0                           :::nas                                       :::*                    
+UNCONN      0      0                           :::sunrpc                                    :::*                    
+UNCONN      0      0                           :::59527                                     :::*                    
+UNCONN      0      0                           :::24774                                     :::*                    
+
+pauly@stl-centos:/export/home_pm/pauly>
+#######################################--------------------------------------------------------------
