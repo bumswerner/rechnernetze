@@ -101,6 +101,8 @@ int main(int argc, char *argv[])
        fprintf(stderr, "listen failed\n"); 
        exit(5);
     }
+    
+    int i = 0;
 
     /* Hauptschleife des Servers - Anfragen annehmen und bedienen */ 
     while(1) 
@@ -118,5 +120,7 @@ int main(int argc, char *argv[])
                visits, visits==1?".":"s.");
        send(bs, buf, strlen(buf), 0);
        closesocket(bs);
+       wait(5);
+       fprintf(stdout, "%d ", i++);
     }
 }

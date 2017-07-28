@@ -1,0 +1,57 @@
+$Id: README,v 1.5 2010-02-13 18:08:53 zahn Exp $
+
+-----
+
+Dieses Archiv enthält sämtliche Beispielprogramme aus dem Buch
+"Unix-Netzwerkprogrammierung mit Threads, Sockets und SSL", ISBN 3-540-00299-5,
+aus der Reihe X.systems.press des Springer-Verlags, Berlin. 
+
+Weitere Informationen zu diesem Buch, insbesondere Korrekturen und die jeweils
+aktuelle Version aller Beispielprogramme finden Sie unter
+
+  http://unp.bit-oase.de/
+
+-----
+
+$Log: README,v $
+Revision 1.5  2010-02-13 18:08:53  zahn
+In Beispiel 4.11 auf Seite 232 wird in Zeile 48 beim Anlegen des Sockets
+irrtümlich die Konstante AF_INET verwendet. Dies führt mit IPv6-Adressen zu
+Konflikten. Um das Beispiel IPv4- und IPv6-tauglich zu gestalten, setzen wir
+stattdessen die in der addrinfo-Struktur hinterlegte Adressfamilie
+aptr->ai_family ein.
+
+Ebenfalls in 4.11 auf Seite 232 wird in Zeile 56 die Größe der sockaddr-Struktur
+versehentlich mit Hilfe von sizeof() bestimmt anstatt auf aptr->ai_addrlen
+zurückzugreifen.
+
+Revision 1.4  2008/08/11 16:34:40  zahn
+In Beispiel 4.11 auf Seite 232 wird in Zeile 56 versehentlich der Zeiger
+ai->ai_addr anstatt aptr->ai_addr ausgewertet. Dies führt dazu, dass zwar
+durch die Ergebnisliste der addrinfo-Strukturen iteriert wird, dass aber immer
+nur der erste Eintrag dieser Liste zum Versuch eines Verbindungsaufbaus
+herangezogen wird.
+
+Revision 1.3  2008/05/26 20:12:21  zahn
+In Beispiel 6.3 auf Seite 354 wird in Zeile 82 beim Aufruf von calloc() leider
+die Größe eines verkehrten Datentyps bestimmt. Um ein Feld von Mutexen
+anzulegen, muss natürlich die Größe von pthread_mutex_t (und nicht die Größe von
+pthread_t) herangezogen werden.
+
+(Nebenbei wurden bei diesem Update noch etliche kleinere Korrekturen
+vorgenommen, die auf Warnungen zurückgehen, die durch den Einsatz der
+Compiler-Option "-Wall" zum Vorschein kamen.)
+
+Revision 1.2  2008/01/04 20:36:06  zahn
+In Beispiel 2.17 auf der Seite 73 wird in Zeile 22 bei der Fehlerausgabe
+fälschlicherweise die Variabler errno herangezogen. Die Funktion sigwait()
+setzt aber nicht errno, sondern gibt den entsprechenden Fehlercode als
+Funktionsergebnis (hier der Variable error zugewiesen) zurück.
+
+Revision 1.1  2007/07/14 11:36:36  zahn
+In Beispiel 4.10. auf Seite 222 hat sich in den Aufruf von select() in Zeile 19
+ein Fehler eingeschlichen: Da select() lediglich die Deskriptoren 0 bis nfds-1
+überwacht, muß das Maximum der beiden Deskriptoren http und https noch um den
+Wert 1 inkrementiert werden.
+
+-----

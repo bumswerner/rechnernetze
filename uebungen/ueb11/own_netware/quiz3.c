@@ -12,7 +12,7 @@ void signal_handler(int sig) {
 }
 
 int main(int argc, char* argv[]) {
-    char antwort[] = "Himbeerjoghurt";
+    char antwort[] = "Hase";
     char eingabe[20];
     struct sigaction action;
     struct sigaction old_action;
@@ -23,5 +23,31 @@ int main(int argc, char* argv[]) {
     sigemptyset(&action.sa_mask);
     action.sa_flags = 0;
     
+    if(sigaction(SIGALRM, &action, &old_action) < 0) {
+        printf("Konnte Handler nicht installieren: %s. \n", strerror(errno));
+        return (EXIT_FAILURE);
+    }
+    
+    printf("Sie haben 20 Sekunden für die Antwort:\n");
+    printf("Was isst Sir Quickly am Liebsten?\n");
+    
+    alarm(2);
+    
+    fgets(eingabe, sizeof(eingabe), stdin);
+    
+    /*
+        Abschliessende Zeilentrenner \n und \r entfernen 
+    */
+    for(i = strlen(eingabe) - 1; i >= 0 && (eingabe[i] == '\n' || eingabe[i] == '\r'); i--) {
+        eingabe[i] = '\0';
+    }
+    
+    if(strcmp(eingabe, antwort) == 0) {
+        printf("Die Anwort ist richtig. Gratulation.\n");
+    } else {
+        printf("Leider falsch, richtig ist %s\n", antwort);
+    }
+    
+    exit(EXIT_SUCCESS);
     
 }
