@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
   struct in6_addr ipv6;
 
   for( i = 1; i < argc; i++ ) {
-    if(s_ipv4(argv[i])) {
+    if(is_ipv4(argv[i])) {
       if( inet_pton( AF_INET, argv[i], &ipv4 ) != 1 )
       {
         printf( "ungueltige Adresse: %s\n", argv[i] );

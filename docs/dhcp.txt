@@ -1,0 +1,19 @@
+Client bekommt IP von DHCP-Server
+
+1. Der DHCP-Client, der eine IP-Adresse braucht, sendet ein DHCP-DISCOVER-Paket an den DHCP-Server.
+   Da die Adresse des Servers noch nicht bekannt ist, wird dieses IP-Paket an die Broadcast-Adresse 255.255.255.255
+   mit der Absender-Adresse 0.0.0.0 geschickt (Phase 1).
+   
+2. Anhand der Identifikation des Client im Paket können sich einige (oder ein einzelner) DHCP-Server entscheiden, 
+   dem Client die gewuenschte IP-Adresse sowie andere Konfigurationsinformationen in Form eines DHCP-OFFER-Pakets
+   zuzuteilen. (Vor der Vergabe koennen und sollten die Server die Konfliktfreiheit bzgl. der Adresse mittels
+   ICMP-Ping oder ARP prüfen.)
+   Der DHCP-Server antwortet ebenfalls mittels Broadcast. 
+   In diesem Angebot werden dem Client eine IP-Adresse und weitere IP-Netzinformationen mitgeteilt (Phase 2).
+   
+3. Der Client kann sich nun aus den Antworten eine für ihn geeignete aussuchen und bestaetigt dies gegenueber
+   dem Server durch ein DHCP-REQUEST-Paket (Phase 3). 
+   Entscheidungsparameter koennen z.B. die Leasedauer (t1) oder die Menge der angebotenten Konfigurationsinformationen.
+   
+4. Bei korrekter Information im DHCP-REQUEST bestaetigt der Server die Lease durch ein DHCP-PACK-Paket(Acknowledge),
+   womit die Konfiguration abgeschlossen ist (Phase 4).

@@ -1,0 +1,60 @@
+ARP (Adress Resolution Protocol) - Layer 2
+
+- Die Umsetzung einer IP-Adresse in eine MAC-Adresse
+
+
+1. Standard ARP
+   (A, B, C und D befinden sich im selben LAN)
+   A will Daten an D mit der IP-Adresse IP(D) senden, die MAC-Adresse von D MAC(D) kennt A noch nicht.
+   A sendet einen ARP-Request an alle (Broadcast), also A, B, C und D im LAN.
+   Alle bearbeiten die Nachricht und alle aktualisieren ihren ARP-Cache, jedoch nur D sendet A einen
+   ARP-REPLY (Unicast) und teilt ihm somit seine MAC-Adresse mit.
+   Nun kann A seine Daten an D versenden.
+
+2. Proxy ARP
+   Proxy ARP erlaubt es einem Router, ARP-Anforderungen für Hosts zu beantworten.
+   Die Hosts befinden sich dabei in durch einen Router getrennten Netzen,
+   verwenden jedoch den gleichen IP-Adressenbereich.
+   Bei der Kommunikation ist der Router fuer die Hosts transparent, dass heißt,
+   er braucht nicht speziell angesprochen zu werden, sondern die Hosts koennen 
+   wie gewoehnlich, Pakete ueber verschiedene Netze hinweg senden.
+   
+   Beispiel:
+   ---------
+   Sendet C 1 eine ARP-Anforderung(Request) an C 2, reagiert der dazwischen liegende 
+   Router anstelle des C 2 mit einer ARP-Antwort(Reply) un der MAC-Adresse des Ports
+   am Router, auf dem die Anfrage empfangen wurde. Der anfragende C 1 sendet dann
+   seine Daten an den Router, der sie dann an C 2 weiterleitet.
+
+
+3. Gratuitous ARP 
+   (deut. "unaufgefordertes ARP") bezeichent eine spezielle Verwendung von ARP.
+   Dabei sendet der Host ein ARP-Request-Broadcast, bei dem er seine eigene IP-Adresse
+   als Quell- und Ziel-IP-Adresse einträgt.
+   Damit teilt er seine ggf. neue MAC-Adresse unaufgefordert mit.
+   
+   Dass kann mehreren Zwecken dienen:
+   ----------------------------------
+   
+   1. Normalerweise darf keine Antwort kommen, denn eine IP-Adresse muss in einem (Sub)-Netz eindeutig sein.
+      Bekommt er trotzdem eine Antwort, ist das fuer den Admin ein Hinweis darauf,
+      das ein Host nicht richtig konfiguriert ist.
+      
+   2. Jeder Host aktualisiert seinen ARP-Cache.
+      Das ist beispielsweise dann nützlich, wenn die Netzwerkkarte eines Rechners ausgetauscht wurde
+      und die anderen Hosts über die neue MAC-Adresse informiert werden sollen.
+      Gratuitous ARP geschieht deshalb normalerweise beim Booten eines Computers.
+      
+   3. Wenn zwei Server aus Gründen der Ausfallsicherheit als Server und Ersatzserver aufgebaut sind
+      (Hochverfügbarkeit, HA-Server) und sich daher eine IP-Adresse teilen.
+      Wird der aktive Verkehr vom einem auf den anderen Server umgeschaltet, 
+      ist die IP-Adresse über eine andere MAC-Adresse erreichbar. 
+      Diese neue MAC-IP-Adresskombination muss bekannt gemacht werden. 
+      Sonst bekommt niemand den Wechsel mit.
+      
+   4. In einem Mobile IP-Szenario sendet der Home Agent einen Gratuitous ARP,
+      wenn sich der Mobile Host aus dem Heimatnetz entfernt, um die Pakete stellvertretend für diesen zu empfangen.
+      Analog sendet der Mobile Host einen Gratuitous ARP, sobald er sich wieder im Netz befindet.
+
+Mit ARP-Spoofing ist es möglich, absichtlich eine falsche Hardwareadresse in einem Netz zu verteilen.
+Dadurch kann der Datenverkehr für einen Rechner auf einen anderen umgelenkt und eventuell von diesem sogar verändert werden. 
