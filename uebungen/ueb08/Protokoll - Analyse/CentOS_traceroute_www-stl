@@ -1,0 +1,140 @@
+#
+# CentOS_traceroute_www-stl
+#   
+
+Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+    tcpdump -i eth0 -l -e -vv -S -A '(icmp or udp) and (dst www-stl.htwsaar.de or src www-stl.htwsaar.de)' | tee -a CentOS_traceroute_www-stl
+    
+    ###################------------------------------
+ 
+    --- TTL 1 --- id 63708 -----------------------------------------------------
+    ttl 1, id 63708, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute: 
+
+    ttl 1, id 63709, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.58511 > stl-v-indi.stl.htwsaar.de.33435:
+
+    ttl 1, id 63710, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.45288 > stl-v-indi.stl.htwsaar.de.33436: 
+
+    --- TTL 2 ------------------------------------------------------------------ 
+    ttl 2, id 63711, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44294 > stl-v-indi.stl.htwsaar.de.33437:
+
+    ttl 2, id 63712, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.42900 > stl-v-indi.stl.htwsaar.de.33438:
+
+    --- id 63713
+    ttl 2, id 63713, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.33028 > stl-v-indi.stl.htwsaar.de.33439:
+  
+    --- TTL 3 ------------------------------------------------------------------
+    ttl 3, id 63714, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.45685 > stl-v-indi.stl.htwsaar.de.33440:
+
+    ttl 3, id 63715, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.55403 > stl-v-indi.stl.htwsaar.de.33441:
+  
+    ttl 3, id 63716, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.39305 > stl-v-indi.stl.htwsaar.de.33442: 
+
+    --- TTL 4 ------------------------------------------------------------------
+    ttl 4, id 63717, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.48991 > stl-v-indi.stl.htwsaar.de.33443: 
+ 
+    ttl 4, id 63718, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.38270 > stl-v-indi.stl.htwsaar.de.33444: 
+
+    ttl 4, id 63719, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.41077 > stl-v-indi.stl.htwsaar.de.33445: 
+
+    --- TTL 5 ------------------------------------------------------------------
+    ttl 5, id 63720, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.35923 > stl-v-indi.stl.htwsaar.de.33446:
+
+    ttl 5, id 63721, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.49632 > stl-v-indi.stl.htwsaar.de.33447: 
+
+    ttl 5, id 63722, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52998 > stl-v-indi.stl.htwsaar.de.33448: 
+
+    --- TTL 6 ------------------------------------------------------------------
+    ttl 6, id 63723, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.40942 > stl-v-indi.stl.htwsaar.de.33449: 
+        
+    ----------------------------------------------------------------------------    
+        
+    --- ICMP --- id 63708
+    ttl 64, id 26551, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: 
+    ICMP stl-v-indi.stl.htwsaar.de udp port traceroute unreachable, length 68
+    (tos 0x0, 
+    ttl 1, id 63708, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute:
+    [udp sum ok] UDP, length 32  
+
+    --- ICMP --- id 63709
+    ttl 64, id 26552, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: 
+    ICMP stl-v-indi.stl.htwsaar.de udp port 33435 unreachable, length 68
+    (tos 0x0, 
+    ttl 1, id 63709, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.58511 > stl-v-indi.stl.htwsaar.de.33435: 
+    [udp sum ok] UDP, length 32
+        
+    --- ICMP --- id 63710
+    ttl 64, id 26553, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de:
+    ICMP stl-v-indi.stl.htwsaar.de udp port 33436 unreachable, length 68
+    (tos 0x0, 
+    ttl 1, id 63710, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.45288 > stl-v-indi.stl.htwsaar.de.33436:
+    [udp sum ok] UDP, length 32
+
+    --- ICMP --- id 63711
+    ttl 64, id 26554, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de:
+    ICMP stl-v-indi.stl.htwsaar.de udp port 33437 unreachable, length 68
+    (tos 0x0, 
+    ttl 2, id 63711, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44294 > stl-v-indi.stl.htwsaar.de.33437:
+    [udp sum ok] UDP, length 32
+
+    --- ICMP --- id 63712
+    ttl 64, id 26555, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: 
+    ICMP stl-v-indi.stl.htwsaar.de udp port 33438 unreachable, length 68
+    (tos 0x0, 
+    ttl 2, id 63712, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.42900 > stl-v-indi.stl.htwsaar.de.33438:
+    [udp sum ok] UDP, length 32
+
+    --- ICMP --- id 63712
+    ttl 64, id 26556, offset 0, flags [none], proto ICMP (1), length 88)
+    stl-v-indi.stl.htwsaar.de > stl-v-196.stl.htwsaar.de:
+    ICMP stl-v-indi.stl.htwsaar.de udp port 33439 unreachable, length 68
+    (tos 0x0, 
+    ttl 2, id 63713, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.33028 > stl-v-indi.stl.htwsaar.de.33439:
+    [udp sum ok] UDP, length 32
+                                    
+                        
+            
+Schritt 1b : starte auf CentOS-VM traceroute
+
+    traceroute www-stl.htwsaar.de
+    
+    ##################------------------------------
+    traceroute to www-stl.htwsaar.de (134.96.216.166), 30 hops max, 60 byte packets
+    1  stl-v-indi.stl.htwsaar.de (134.96.216.166)  0.673 ms  0.617 ms  0.714 ms
+
+
+Ergebnis:
+------------------------------------------------------------------------------------------
+Es werden je 3 UDP-Pakete via IP ( mit IP-TTL = 1,2,3,4,5) sowie eins mit TTL = 6 
+an die UDP-Ports 33434, 33435, 33436, ... verschickt, als Antwort liefert der Zielrechner
+fuer die ersten 6 UDP-Dg je eine ICMP-Nachicht mit ICMP-Type : 3 + ICMP-Code : 3 also
+Destination unreachable + UDP port 3343.* unreachable
+Da stl-www im gleichen IP-Netzwerk wie der Testrechner stl-v-196 wird kein Router 
+in Anspruch genommen.

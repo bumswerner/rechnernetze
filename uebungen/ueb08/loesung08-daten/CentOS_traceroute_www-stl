@@ -13,9 +13,11 @@
 Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
 
 
-            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S |\
-                                   -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )'  |\
-                           tee -a CentOS_traceroute_www-stl
+
+            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S -A '( icmp or udp ) and ( dst www-stl.htwsaar.de or src www-stl.htwsaar.de )' | tee -a CentOS_traceroute_www-stl
+            
+            --- TTL 1 ---
+            
             ###################------------------------------
             12:31:19.852753 00:1a:4a:f3:72:71 (oui Unknown) > 52:54:00:9e:6f:9e (oui Unknown), 
             ethertype IPv4 (0x0800), length 74: (tos 0x0, 
