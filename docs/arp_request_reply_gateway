@@ -1,0 +1,65 @@
+Aufgabe 1 - ARP-Quiz
+
+Analysieren Sie folgende ARP-Nachricht und beantworten Sie dann folgende Fragen:
+Wer versendet diese ARP-Nachricht?
+Welche Hosts werden diese ARP-Nachricht auswerten?
+Was bewirkt diese Auswertung bei diesen Hosts?
+Was beabsichtigt der Sender dieser ARP-Nachricht?
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Destination = ff:ff:ff:ff:ff:ff (broadcast)
+ETHER:  Source      = 00:26:18:74:4e:8f
+ETHER:  Ethertype   = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame ------
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 1 (ARP Request)
+ARP:  Sender's hardware address = 00:26:18:74:4e:8f
+ARP:  Sender's protocol address = 134.96.209.213, pc-fsi2
+ARP:  Target hardware address = 00:00:00:00:00:00:00
+ARP:  Target protocol address = 134.96.209.193
+ARP:
+
+Hinweis zur Lösung der Aufgabe:
+    134.96.209.193    --> IP-Adresse von Standard-Gateway
+    00:26:18:74:4e:8f --> Ethernet-Adresse von pc-fsi2
+    
+--------------------------------------------------------------------------------
+
+Aufgabe 2 - ARP-Quiz
+
+Analysieren Sie folgende ARP-Nachricht und beantworten Sie dann folgende Fragen:
+Wer versendet diese ARP-Nachricht?
+Welche Hosts werden diese ARP-Nachricht auswerten?
+Was bewirkt diese Auswertung bei diesen Hosts?
+Was beabsichtigt der Sender dieser ARP-Nachricht?
+
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Destination = 00:26:18:74:4e:8f
+ETHER:  Source      = 00:07:7d:41:35:80
+ETHER:  Ethertype   = 0806 (ARP)
+ETHER:
+ARP:  ----- ARP/RARP Frame ------
+ARP:  Hardware type = 1
+ARP:  Protocol type = 0800 (IP)
+ARP:  Length of hardware address = 6 bytes
+ARP:  Length of protocol address = 4 bytes
+ARP:  Opcode 2 (ARP Reply)
+ARP:  Sender's hardware address = 00:07:7d:41:35:80
+ARP:  Sender's protocol address = 134.96.209.193, default
+ARP:  Target hardware address = 00:26:18:74:4e:8f
+ARP:  Target protocol address = 134.96.209.213
+ARP:
+
+Hinweis zur Lösung der Aufgabe:
+    134.96.209.193    --> IP-Adresse von Standard-Gateway
+    00:26:18:74:4e:8f --> Ethernet-Adresse von pc-fsi2
+    
+--------------------------------------------------------------------------------
