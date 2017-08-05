@@ -1,0 +1,238 @@
+#
+#
+# CentOS_traceroute_uni-kaiserslautern
+#   
+
+Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem Shell-Fenster in einer CentOS-VM
+
+
+            pauly@stl-centos:> tcpdump -i eth0 -l -e -vv -S 
+                                       -A '( icmp or ( udp and dst www.uni-kaiserslautern.de) )' |\
+                           tee -a CentOS_traceroute_uni-kaiserslautern
+            ###################------------------------------
+    --- TTL 1 ------------------------------------------------------------------
+    ttl 1, id 24614, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.59047 > wta-web.rhrk.uni-kl.de.traceroute:
+
+    ttl 1, id 24615, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.54776 > wta-web.rhrk.uni-kl.de.33435:
+   
+    ttl 1, id 24616, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44483 > wta-web.rhrk.uni-kl.de.33436:
+  
+    --- TTL 2 ------------------------------------------------------------------
+    ttl 2, id 24617, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.42966 > wta-web.rhrk.uni-kl.de.33437:
+   
+    ttl 2, id 24618, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.37145 > wta-web.rhrk.uni-kl.de.33438: 
+
+    ttl 2, id 24619, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.35354 > wta-web.rhrk.uni-kl.de.33439: 
+    
+    --- TTL 3 ------------------------------------------------------------------
+    ttl 3, id 24620, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.55522 > wta-web.rhrk.uni-kl.de.33440: 
+
+    ttl 3, id 24621, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.49301 > wta-web.rhrk.uni-kl.de.33441:
+
+    ttl 3, id 24622, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47133 > wta-web.rhrk.uni-kl.de.33442: 
+
+    --- TTL 4 ------------------------------------------------------------------
+    ttl 4, id 24623, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.54215 > wta-web.rhrk.uni-kl.de.33443: 
+    
+    ttl 4, id 24624, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47700 > wta-web.rhrk.uni-kl.de.33444: 
+    
+    ttl 4, id 24625, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.60167 > wta-web.rhrk.uni-kl.de.33445: 
+    
+    --- TTL 5 ------------------------------------------------------------------
+    ttl 5, id 24626, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.57502 > wta-web.rhrk.uni-kl.de.33446: 
+    
+    ttl 5, id 24627, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.50612 > wta-web.rhrk.uni-kl.de.33447: 
+
+    ttl 255, id 47324, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24614, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.59047 > wta-web.rhrk.uni-kl.de.traceroute: UDP, length 32
+
+    ttl 255, id 47325, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.stl.htwsaar.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24615, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.54776 > wta-web.rhrk.uni-kl.de.33435: UDP, length 32
+
+    ttl 5, id 24628, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.35843 > wta-web.rhrk.uni-kl.de.33448:
+    
+    --- TTL 6 ------------------------------------------------------------------
+    ttl 6, id 24629, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.37690 > wta-web.rhrk.uni-kl.de.33449:
+    
+    ttl 255, id 47326, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.stl.htwsaar.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24616, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44483 > wta-web.rhrk.uni-kl.de.33436: UDP, length 32
+    
+    ttl 6, id 24630, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47839 > wta-web.rhrk.uni-kl.de.33450: 
+
+    ttl 6, id 24631, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52656 > wta-web.rhrk.uni-kl.de.33451:
+    
+    
+    --- TTL 7 ------------------------------------------------------------------    
+    ttl 7, id 24632, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52500 > wta-web.rhrk.uni-kl.de.33452: 
+    
+    ttl 252, id 34486, offset 0, flags [none], proto ICMP (1), length 56)
+    kr-kai5-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24623, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.54215 > wta-web.rhrk.uni-kl.de.33443: UDP, length 32
+    
+    ttl 253, id 56837, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-kai1-te2-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24620, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.55522 > wta-web.rhrk.uni-kl.de.33440: UDP, length 32
+
+    ttl 252, id 34487, offset 0, flags [none], proto ICMP (1), length 56)
+    kr-kai5-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24624, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47700 > wta-web.rhrk.uni-kl.de.33444: UDP, length 32
+    
+
+    ttl 252, id 34488, offset 0, flags [none], proto ICMP (1), length 56)
+    kr-kai5-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24625, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.60167 > wta-web.rhrk.uni-kl.de.33445: UDP, length 32
+
+    ttl 253, id 56838, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-kai1-te2-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+    ttl 1, id 24621, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.49301 > wta-web.rhrk.uni-kl.de.33441: UDP, length 32
+
+    ttl 253, id 56839, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-kai1-te2-1.x-win.dfn.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24622, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47133 > wta-web.rhrk.uni-kl.de.33442: UDP, length 32
+    
+    ttl 7, id 24633, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44640 > wta-web.rhrk.uni-kl.de.33453: 
+
+    ttl 7, id 24634, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.48583 > wta-web.rhrk.uni-kl.de.33454: [
+    
+    --- TTL 8 ------------------------------------------------------------------ 
+    ttl 8, id 24635, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.54795 > wta-web.rhrk.uni-kl.de.33455: 
+    
+    ttl 8, id 24636, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44980 > wta-web.rhrk.uni-kl.de.33456: 
+    
+    ttl 8, id 24637, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52979 > wta-web.rhrk.uni-kl.de.33457: 
+
+    --- TTL 9 ------------------------------------------------------------------    
+    ttl 9, id 24638, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.43280 > wta-web.rhrk.uni-kl.de.33458: [
+    
+    ttl 249, id 48396, offset 0, flags [none], proto ICMP (1), length 56)
+    atlas-rauter.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24626, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.57502 > wta-web.rhrk.uni-kl.de.33446: UDP, length 32
+
+    ttl 249, id 48397, offset 0, flags [none], proto ICMP (1), length 56)
+    atlas-rauter.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24627, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.50612 > wta-web.rhrk.uni-kl.de.33447: UDP, length 32
+
+    ttl 249, id 48398, offset 0, flags [none], proto ICMP (1), length 56)
+    atlas-rauter.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 24628, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.35843 > wta-web.rhrk.uni-kl.de.33448: UDP, length 32
+    
+    ttl 248, id 61423, offset 0, flags [none], proto ICMP (1), length 56)
+    data-a.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	(tos 0x0, ttl 1, id 24630, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.47839 > wta-web.rhrk.uni-kl.de.33450: UDP, length 32
+
+    ttl 248, id 8903, offset 0, flags [none], proto ICMP (1), length 56)
+    center-a.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24629, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.37690 > wta-web.rhrk.uni-kl.de.33449: UDP, length 32
+
+    ttl 248, id 8904, offset 0, flags [none], proto ICMP (1), length 56)
+    center-a.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24631, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.52656 > wta-web.rhrk.uni-kl.de.33451: UDP, length 32
+
+    ttl 248, id 61424, offset 0, flags [none], proto ICMP (1), length 56)
+    data-a.rhrk.uni-kl.de > stl-v-196.stl.htwsaar.de:
+    ICMP host wta-web.rhrk.uni-kl.de unreachable - admin prohibited filter, length 36
+	ttl 2, id 24633, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.44640 > wta-web.rhrk.uni-kl.de.33453: UDP, length 32
+
+    ttl 254, id 8554, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-saa1-pc1.x-win.dfn.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24617, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.42966 > wta-web.rhrk.uni-kl.de.33437: UDP, length 32
+    
+    ttl 254, id 8555, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-saa1-pc1.x-win.dfn.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 24618, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.37145 > wta-web.rhrk.uni-kl.de.33438: UDP, length 32
+
+    ttl 254, id 8556, offset 0, flags [none], proto ICMP (1), length 56)
+    xr-saa1-pc1.x-win.dfn.de > stl-v-196.stl.htwsaar.de:
+    ICMP time exceeded in-transit, length 36
+    ttl 1, id 24619, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-196.stl.htwsaar.de.35354 > wta-web.rhrk.uni-kl.de.33439: UDP, length 32
+
+
+
+Schritt 1b : starte auf CentOS-VM traceroute
+
+    pauly@stl-centos:> traceroute www.uni-kaiserslautern.de
+    ##################------------------------------
+    traceroute to www.uni-kaiserslautern.de (131.246.120.130), 30 hops max, 60 byte packets
+     1  rtg216-0.stl.htwsaar.de (134.96.216.1)  0.569 ms  0.531 ms  0.595 ms
+     2  xr-saa1-pc1.x-win.dfn.de (188.1.234.37)  13.632 ms  13.774 ms  13.890 ms
+     3  xr-kai1-te2-1.x-win.dfn.de (188.1.145.98)  1.962 ms  2.080 ms  2.050 ms
+     4  kr-kai5-1.x-win.dfn.de (188.1.39.18)  1.841 ms  1.858 ms  1.938 ms
+     5  atlas-rauter.rhrk.uni-kl.de (131.246.2.85)  6.569 ms  6.551 ms  6.481 ms
+     6  center-a.rhrk.uni-kl.de (131.246.2.164)  7.640 ms 
+        data-a.rhrk.uni-kl.de (131.246.2.160)  6.891 ms 
+        center-a.rhrk.uni-kl.de (131.246.2.164)  7.489 ms
+     7  data-a.rhrk.uni-kl.de (131.246.2.160)  6.341 ms !X * *
+     
+     
+Ergebnis:
+---------
+Es werden je 3 UDP-Datagramm via IP mit IP-TTL = 1, ..., 8, sowie ein UDP-Datagramm
+mit TTL = 9 an aufsteigende UPD-Ziel-Ports ( 33434, 33436 ... ) versendet.
+Dabei melden sich bei TTL= 1 bis 7 jeweils Router mittels
+einer ICMP-Nachricht mit ICMP-Type : 11 + ICMP-Code : 0 also
+Time exceeded + in transit.
+

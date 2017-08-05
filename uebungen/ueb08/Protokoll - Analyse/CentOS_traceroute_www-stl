@@ -8,7 +8,7 @@ Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem 
     
     ###################------------------------------
  
-    --- TTL 1 --- id 63708 -----------------------------------------------------
+    --- TTL 1 ------------------------------------------------------------------
     ttl 1, id 63708, offset 0, flags [none], proto UDP (17), length 60)
     stl-v-196.stl.htwsaar.de.52320 > stl-v-indi.stl.htwsaar.de.traceroute: 
 
@@ -25,7 +25,6 @@ Schritt 1a : starte tcpdump um traceroute-Kommunikation mitzuschneiden in einem 
     ttl 2, id 63712, offset 0, flags [none], proto UDP (17), length 60)
     stl-v-196.stl.htwsaar.de.42900 > stl-v-indi.stl.htwsaar.de.33438:
 
-    --- id 63713
     ttl 2, id 63713, offset 0, flags [none], proto UDP (17), length 60)
     stl-v-196.stl.htwsaar.de.33028 > stl-v-indi.stl.htwsaar.de.33439:
   
@@ -132,7 +131,7 @@ Schritt 1b : starte auf CentOS-VM traceroute
 
 Ergebnis:
 ------------------------------------------------------------------------------------------
-Es werden je 3 UDP-Pakete via IP ( mit IP-TTL = 1,2,3,4,5) sowie eins mit TTL = 6 
+Es werden je 3 UDP-Datagramm via IP ( mit IP-TTL = 1,2,3,4,5) sowie ein UDP-Datagramm mit TTL = 6 
 an die UDP-Ports 33434, 33435, 33436, ... verschickt, als Antwort liefert der Zielrechner
 fuer die ersten 6 UDP-Dg je eine ICMP-Nachicht mit ICMP-Type : 3 + ICMP-Code : 3 also
 Destination unreachable + UDP port 3343.* unreachable

@@ -1,0 +1,158 @@
+
+    ttl 1, id 37977, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35832 > wta-web.rhrk.uni-kl.de.traceroute: 
+    
+    ttl 1, id 37978, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44345 > wta-web.rhrk.uni-kl.de.33435: 
+    
+    ttl 1, id 37979, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51308 > wta-web.rhrk.uni-kl.de.33436:
+    
+    ttl 2, id 37980, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.47564 > wta-web.rhrk.uni-kl.de.33437: 
+    
+    ttl 2, id 37981, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35589 > wta-web.rhrk.uni-kl.de.33438: 
+    
+    ttl 255, id 50136, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37977, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35832 > wta-web.rhrk.uni-kl.de.traceroute: UDP, length 32
+
+    ttl 255, id 50137, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de: 
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37978, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44345 > wta-web.rhrk.uni-kl.de.33435: UDP, length 32
+
+    ttl 255, id 50138, offset 0, flags [none], proto ICMP (1), length 56)
+    rtg216-0.htw-saarland.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37979, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51308 > wta-web.rhrk.uni-kl.de.33436: UDP, length 32
+
+
+    ttl 2, id 37982, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40577 > wta-web.rhrk.uni-kl.de.33439: 
+    
+    ttl 3, id 37983, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.53200 > wta-web.rhrk.uni-kl.de.33440: 
+    
+    ttl 3, id 37984, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.34398 > wta-web.rhrk.uni-kl.de.33441: 
+    
+    ttl 3, id 37985, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.57559 > wta-web.rhrk.uni-kl.de.33442:
+    
+    
+    ttl 4, id 37986, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.52918 > wta-web.rhrk.uni-kl.de.33443: 
+    
+    ttl 4, id 37987, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40791 > wta-web.rhrk.uni-kl.de.33444: 
+    
+    ttl 4, id 37988, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51340 > wta-web.rhrk.uni-kl.de.33445: 
+    
+    ttl 5, id 37989, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.39325 > wta-web.rhrk.uni-kl.de.33446: 
+    
+    ttl 5, id 37990, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.45373 > wta-web.rhrk.uni-kl.de.33447: 
+    
+    ttl 5, id 37991, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.60626 > wta-web.rhrk.uni-kl.de.33448: 
+    
+    ttl 6, id 37992, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.32792 > wta-web.rhrk.uni-kl.de.33449: 
+    
+    ttl 6, id 37993, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.41479 > wta-web.rhrk.uni-kl.de.33450:
+    
+    ttl 6, id 37994, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.55431 > wta-web.rhrk.uni-kl.de.33451: 
+    
+    ttl 7, id 37995, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44524 > wta-web.rhrk.uni-kl.de.33452: 
+    
+    ttl 254, id 45775, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 76
+	ttl 1, id 37980, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.47564 > wta-web.rhrk.uni-kl.de.33437: [udp sum ok] UDP, length 32
+    
+    ttl 254, id 45776, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 76
+	ttl 1, id 37981, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35589 > wta-web.rhrk.uni-kl.de.33438: [udp sum ok] UDP, length 32
+    
+    ttl 254, id 45777, offset 0, flags [none], proto ICMP (1), length 96)
+    cr-dui1-te0-5-0-2-4.x-win.dfn.de > stl-v-124.htw-saarland.de: 
+    ICMP time exceeded in-transit, length 76
+	ttl 1, id 37982, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40577 > wta-web.rhrk.uni-kl.de.33439: [udp sum ok] UDP, length 32
+
+    ttl 7, id 37997, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.35178 > wta-web.rhrk.uni-kl.de.33453:
+    
+    ttl 7, id 37998, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40285 > wta-web.rhrk.uni-kl.de.33454:
+    
+    ttl 8, id 37999, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.44877 > wta-web.rhrk.uni-kl.de.33455: 
+    
+    ttl 252, id 59344, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37986, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.52918 > wta-web.rhrk.uni-kl.de.33443: UDP, length 32
+
+    ttl 252, id 59345, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37987, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.40791 > wta-web.rhrk.uni-kl.de.33444: UDP, length 32
+
+    ttl 252, id 59346, offset 0, flags [none], proto ICMP (1), length 56)
+    salta-rauter.rhrk.uni-kl.de > stl-v-124.htw-saarland.de:
+    ICMP time exceeded in-transit, length 36
+	ttl 1, id 37988, offset 0, flags [none], proto UDP (17), length 60)
+    stl-v-124.htw-saarland.de.51340 > wta-web.rhrk.uni-kl.de.33445: UDP, length 32
+
+
+    ttl 64, id 27673, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: 
+    ICMP echo request, id 20104, seq 1, length 64
+
+
+    ttl 59, id 29963, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: 
+    ICMP echo reply, id 20104, seq 1, length 64
+    
+    ttl 64, id 28640, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de:
+    ICMP echo request, id 20104, seq 2, length 64
+
+    ttl 59, id 30128, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: 
+    ICMP echo reply, id 20104, seq 2, length 64
+
+
+    ttl 64, id 29609, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de: 
+    ICMP echo request, id 20104, seq 3, length 64
+   
+   
+    ttl 59, id 30256, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de:
+    ICMP echo reply, id 20104, seq 3, length 64
+
+    ttl 64, id 29733, offset 0, flags [DF], proto ICMP (1), length 84)
+    stl-v-124.htw-saarland.de > wta-web.rhrk.uni-kl.de:
+    ICMP echo request, id 20104, seq 4, length 64
+
+    ttl 59, id 30324, offset 0, flags [none], proto ICMP (1), length 84)
+    wta-web.rhrk.uni-kl.de > stl-v-124.htw-saarland.de: 
+    ICMP echo reply, id 20104, seq 4, length 64
